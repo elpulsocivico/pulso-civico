@@ -67,6 +67,12 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'gh:cmd':
+        $fullCmd = $target . ($extra !== '' ? " {$extra}" : '');
+        $result = GitOps::execGh($fullCmd);
+        $response = array_merge($response, $result);
+        break;
+
     case 'git:commit':
         $msg = $target !== '' ? $target : 'data: incorporar dataset del Congreso de Baja California (resolves #12)';
         $result = GitOps::execGit('commit -m ' . escapeshellarg($msg));
@@ -114,10 +120,11 @@ switch ($action) {
     case 'telegram:updates':
     case 'telegram:send':
     case 'telegram:post':
-        $privateBot = $rootDir . '/tools/private/telegram_bot.php';
-        if (file_exists($privateBot)) {
+    case 'telegram:poll':
+        $script = ($action === 'telegram:poll') ? $rootDir . '/tools/private/telegram_poll.php' : $rootDir . '/tools/private/telegram_bot.php';
+        if (file_exists($script)) {
             $phpExec = defined('PHP_BINARY') && PHP_BINARY !== '' ? PHP_BINARY : 'php';
-            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($privateBot) . " " . escapeshellarg(str_replace('telegram:', '', $action)) . " " . escapeshellarg($target) . " " . escapeshellarg($extra);
+            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($script) . " " . escapeshellarg(str_replace('telegram:', '', $action)) . " " . escapeshellarg($target) . " " . escapeshellarg($extra);
             $output = [];
             exec($cmd, $output);
             $response['bot_output'] = json_decode(implode("\n", $output), true) ?: implode("\n", $output);
@@ -140,7 +147,14 @@ switch ($action) {
                 'project:answer' => 'answer',
             ];
             $mode = $modeMap[$action] ?? 'report';
-            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($assistant) . " " . escapeshellarg($mode) . " " . escapeshellarg($target) . " " . escapeshellarg($extra);
+            $arg1 = ($action === 'project:answer') ? $target : $target;
+            $arg2 = ($action === 'project:answer') ? $extra : $extra;
+            if ($action === 'project:answer' && is_numeric(trim($target, "'\""))) {
+                // Si el primer arg es numérico (chat_id), invertirlos para compatibilidad
+                $arg1 = $extra;
+                $arg2 = $target;
+            }
+            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($assistant) . " " . escapeshellarg($mode) . " " . escapeshellarg($arg1) . " " . escapeshellarg($arg2);
             $output = [];
             exec($cmd, $output);
             $rawOut = implode("\n", $output);
@@ -158,15 +172,95 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'audit:summary':
+        $prs = [
+            'PR #22' => ['branch' => 'origin/data/congreso-bajacalifornia-historico', 'name' => 'Baja California XVI-XXV'],
+            'PR #21' => ['branch' => 'origin/data/congreso-sinaloa', 'name' => 'Sinaloa LVIII-LXV'],
+            'PR #20' => ['branch' => 'origin/data/congreso-sonora', 'name' => 'Sonora LV-LXIV'],
+            'PR #19' => ['branch' => 'origin/data/congreso-durango', 'name' => 'Durango LXI-LXX'],
+            'PR #18' => ['branch' => 'origin/data/congreso-chihuahua', 'name' => 'Chihuahua LXII-LXVIII'],
+            'PR #17' => ['branch' => 'origin/data/congreso-coahuila', 'name' => 'Coahuila LVII-LXIII'],
+            'PR #16' => ['branch' => 'origin/data/congreso-nuevoleon', 'name' => 'Nuevo León LXXI-LXXVII'],
+        ];
+        $summary = [];
+        foreach ($prs as $prId => $info) {
+            $branch = $info['branch'];
+            $files = [];
+            exec("git --no-pager diff --name-only origin/main...{$branch} 2>&1", $files);
+            
+            $jsonFiles = [];
+            $otherFiles = [];
+            $dangerHits = [];
+            $legislatorCount = 0;
+            $domains = [];
+            
+            foreach ($files as $f) {
+                $f = trim($f);
+                if ($f === '') continue;
+                if (!str_starts_with($f, 'storage/data/json/')) {
+                    $otherFiles[] = $f;
+                } else {
+                    $jsonFiles[] = $f;
+                }
+                
+                // Inspeccionar contenido con git show
+                $lines = [];
+                exec("git --no-pager show {$branch}:" . escapeshellarg($f) . " 2>&1", $lines);
+                $content = implode("\n", $lines);
+                
+                // Detección de backdoors y código malicioso
+                if (str_ends_with($f, '.json')) {
+                    if (preg_match_all('/\b(eval|assert|passthru|shell_exec|system|exec|base64_decode|gzinflate|unserialize)\s*\(|<\?php|<\/script>|<script|javascript:/i', $content, $m)) {
+                        $dangerHits[$f] = array_unique($m[0]);
+                    }
+                } else {
+                    if (preg_match_all('/\b(eval|assert|passthru|base64_decode|gzinflate|unserialize)\s*\(|<\/script>|<script|\b(nc\s+-e|\/bin\/sh|\/bin\/bash)\b/i', $content, $m)) {
+                        $dangerHits[$f] = array_unique($m[0]);
+                    }
+                }
+                
+                // Si es json, contar legisladores y dominios
+                if (str_ends_with($f, '.json')) {
+                    $data = json_decode($content, true);
+                    if ($data !== null) {
+                        $legs = $data['legisladores'] ?? $data['diputados'] ?? [];
+                        $legislatorCount += count($legs);
+                    }
+                }
+                
+                if (preg_match_all('/https?:\/\/([a-zA-Z0-9\-\._]+)/i', $content, $dm)) {
+                    foreach ($dm[1] as $d) {
+                        $d = strtolower($d);
+                        $domains[$d] = ($domains[$d] ?? 0) + 1;
+                    }
+                }
+            }
+            
+            $summary[$prId] = [
+                'name' => $info['name'],
+                'branch' => $branch,
+                'total_files' => count($files),
+                'json_files_count' => count($jsonFiles),
+                'non_json_or_outside_storage' => $otherFiles,
+                'total_legisladores' => $legislatorCount,
+                'security_status' => empty($dangerHits) ? 'CLEAN_VERIFIED' : 'SECURITY_ALERT',
+                'malicious_matches' => $dangerHits,
+                'sources_top' => array_slice($domains, 0, 5, true),
+            ];
+        }
+        $response['prs_summary'] = $summary;
+        break;
+
     case 'audit:prs':
     case 'audit:all':
         $prs = [
-            'PR #11 (LXV 2021-2024)' => 'origin/data/leg-65',
-            'PR #10 (LXIV 2018-2021)' => 'origin/data/leg-64',
-            'PR #9 (LXIII 2015-2018)' => 'origin/data/leg-63',
-            'PR #8 (Congreso Tamaulipas)' => 'origin/data/congreso-tamaulipas',
-            'PR #7 (LXII 2012-2015)' => 'origin/data/leg-62',
-            'PR #6 (LXI 2009-2012)' => 'origin/data/leg-61',
+            'PR #22 (Congreso Baja California XVI-XXV)' => 'origin/data/congreso-bajacalifornia-historico',
+            'PR #21 (Congreso Sinaloa LVIII-LXV)'       => 'origin/data/congreso-sinaloa',
+            'PR #20 (Congreso Sonora LV-LXIV)'          => 'origin/data/congreso-sonora',
+            'PR #19 (Congreso Durango LXI-LXX)'         => 'origin/data/congreso-durango',
+            'PR #18 (Congreso Chihuahua LXII-LXVIII)'   => 'origin/data/congreso-chihuahua',
+            'PR #17 (Congreso Coahuila LVII-LXIII)'     => 'origin/data/congreso-coahuila',
+            'PR #16 (Congreso Nuevo León LXXI-LXXVII)'  => 'origin/data/congreso-nuevoleon',
         ];
         $allAudits = [];
         foreach ($prs as $prLabel => $branch) {
@@ -180,32 +274,120 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'router:inspect':
+        $prs = [
+            'BC' => 'origin/data/congreso-bajacalifornia-historico',
+            'Sinaloa' => 'origin/data/congreso-sinaloa',
+            'Sonora' => 'origin/data/congreso-sonora',
+            'Durango' => 'origin/data/congreso-durango',
+            'Chihuahua' => 'origin/data/congreso-chihuahua',
+            'Coahuila' => 'origin/data/congreso-coahuila',
+            'NL' => 'origin/data/congreso-nuevoleon',
+        ];
+        $diffs = [];
+        foreach ($prs as $state => $branch) {
+            $lines = [];
+            exec("git --no-pager diff origin/main...{$branch} -- tools/core/ScraperRouter.php 2>&1", $lines);
+            $diffs[$state] = implode("\n", $lines);
+        }
+        $response['diffs'] = $diffs;
+        break;
+
     case 'integrate:prs':
         $prs = [
-            'PR #11 (LXV 2021-2024)' => 'origin/data/leg-65',
-            'PR #10 (LXIV 2018-2021)' => 'origin/data/leg-64',
-            'PR #9 (LXIII 2015-2018)' => 'origin/data/leg-63',
-            'PR #8 (Congreso Tamaulipas)' => 'origin/data/congreso-tamaulipas',
-            'PR #7 (LXII 2012-2015)' => 'origin/data/leg-62',
-            'PR #6 (LXI 2009-2012)' => 'origin/data/leg-61',
+            'PR #22 (Congreso Baja California XVI-XXV)' => 'origin/data/congreso-bajacalifornia-historico',
+            'PR #21 (Congreso Sinaloa LVIII-LXV)'       => 'origin/data/congreso-sinaloa',
+            'PR #20 (Congreso Sonora LV-LXIV)'          => 'origin/data/congreso-sonora',
+            'PR #19 (Congreso Durango LXI-LXX)'         => 'origin/data/congreso-durango',
+            'PR #18 (Congreso Chihuahua LXII-LXVIII)'   => 'origin/data/congreso-chihuahua',
+            'PR #17 (Congreso Coahuila LVII-LXIII)'     => 'origin/data/congreso-coahuila',
+            'PR #16 (Congreso Nuevo León LXXI-LXXVII)'  => 'origin/data/congreso-nuevoleon',
         ];
         $integrated = [];
+        $allExtractedFiles = [];
         foreach ($prs as $prLabel => $branch) {
-            // Obtener lista de archivos en la rama
-            $outFiles = [];
-            exec("git ls-tree -r --name-only {$branch} storage/data/json/", $outFiles);
-            $count = 0;
-            if (!empty($outFiles)) {
-                exec("git checkout {$branch} -- storage/data/json/");
-                $count = count($outFiles);
+            $files = [];
+            exec("git --no-pager diff --name-only origin/main...{$branch} 2>&1", $files);
+            $restored = [];
+            foreach ($files as $f) {
+                $f = trim($f);
+                if ($f === '' || $f === '.gitignore' || $f === 'tools/core/ScraperRouter.php' || $f === 'tools/gateway.php' || $f === 'tools/core/Inspector.php') {
+                    continue;
+                }
+                if (str_starts_with($f, 'storage/data/json/congreso_') || 
+                    str_starts_with($f, 'src/Services/') || 
+                    str_ends_with($f, '.py') || 
+                    $f === 'docs/ESTADOS_COBERTURA.md') {
+                    
+                    $outCo = [];
+                    $code = 0;
+                    exec("git --no-pager checkout {$branch} -- " . escapeshellarg($f) . " 2>&1", $outCo, $code);
+                    if ($code === 0) {
+                        $restored[] = $f;
+                        $allExtractedFiles[] = $f;
+                    }
+                }
             }
             $integrated[$prLabel] = [
                 'branch' => $branch,
-                'files_restored' => $count,
-                'sample' => array_slice($outFiles, 0, 3),
+                'files_restored_count' => count($restored),
+                'files' => $restored,
             ];
         }
         $response['integrated'] = $integrated;
+        $response['total_files_extracted'] = count($allExtractedFiles);
+        $response['all_files'] = array_values(array_unique($allExtractedFiles));
+        break;
+
+    case 'ship:prs':
+        $filesToStage = [
+            'docs/ESTADOS_COBERTURA.md',
+            'tools/core/ScraperRouter.php',
+            'tools/gateway.php',
+            'tools/core/coahuila_parser.py',
+            'tools/core/nl_pdf_parser.py',
+            'src/Services/Catalog/BajaCaliforniaCatalogXXV.php',
+            'src/Services/CongresoBajaCaliforniaScraperService.php',
+            'src/Services/SinaloaScraperService.php',
+            'src/Services/SinaloaTableParser.php',
+            'src/Services/SonoraScraperService.php',
+            'src/Services/SonoraTableParser.php',
+            'src/Services/DurangoScraperService.php',
+            'src/Services/DurangoTableParser.php',
+            'src/Services/ChihuahuaScraperService.php',
+            'src/Services/CoahuilaScraperService.php',
+            'src/Services/NuevoLeonScraperService.php',
+        ];
+
+        // Agregar todos los json de congresos estatales
+        $jsonDir = $rootDir . '/storage/data/json';
+        $stateJsonFiles = glob($jsonDir . '/congreso_*.json') ?: [];
+        foreach ($stateJsonFiles as $sj) {
+            $filesToStage[] = 'storage/data/json/' . basename($sj);
+        }
+
+        $staged = [];
+        foreach (array_unique($filesToStage) as $f) {
+            $fullPath = $rootDir . '/' . $f;
+            if (file_exists($fullPath)) {
+                GitOps::execGit('add ' . escapeshellarg($f));
+                $staged[] = $f;
+            }
+        }
+
+        $commitMsg = $target !== '' ? $target : 'feat(data): incorporar datasets historicos y scrapers de 7 congresos estatales (resolves #16, #17, #18, #19, #20, #21, #22)';
+        $cRes = GitOps::execGit('commit -m ' . escapeshellarg($commitMsg));
+        $response['commit_result'] = $cRes;
+        $response['files_staged_count'] = count($staged);
+        $response['files_staged'] = $staged;
+
+        if ($cRes['code'] === 0) {
+            $pRes = GitOps::execGit('push origin main');
+            $response['push_result'] = $pRes;
+            $response['ok'] = ($pRes['code'] === 0);
+        } else {
+            $response['ok'] = false;
+        }
         break;
 
     case 'health':
@@ -246,7 +428,7 @@ switch ($action) {
                         $params[$k] = is_numeric($v) ? (int)$v : $v;
                     }
                 }
-            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia'])) {
+            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur', 'yuc', 'yucatan', 'qroo', 'quintanaroo'])) {
                 $source = strtolower($inp);
             }
         }

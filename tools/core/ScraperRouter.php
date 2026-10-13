@@ -46,11 +46,48 @@ class ScraperRouter
             case 'bajacalifornia':
                 return self::scrapeBajaCalifornia($config, $params);
 
+            case 'bcs':
+            case 'bajacaliforniasur':
+                return self::scrapeBajaCaliforniaSur($config, $params);
+
+            case 'yuc':
+            case 'yucatan':
+                return self::scrapeYucatan($config, $params);
+
+            case 'qroo':
+            case 'quintanaroo':
+                return self::scrapeQuintanaRoo($config, $params);
+
+            case 'sinaloa':
+            case 'congreso_sinaloa':
+                return self::scrapeSinaloa($config, $params);
+
+            case 'sonora':
+            case 'congreso_sonora':
+                return self::scrapeSonora($config, $params);
+
+            case 'durango':
+            case 'congreso_durango':
+                return self::scrapeDurango($config, $params);
+
+            case 'chihuahua':
+            case 'congreso_chihuahua':
+                return self::scrapeChihuahua($config, $params);
+
+            case 'coahuila':
+            case 'congreso_coahuila':
+                return self::scrapeCoahuila($config, $params);
+
+            case 'nuevoleon':
+            case 'nuevo_leon':
+            case 'congreso_nuevoleon':
+                return self::scrapeNuevoLeon($config, $params);
+
             default:
                 return [
                     'ok' => false,
                     'error' => "Fuente de scraping '{$source}' no soportada.",
-                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc'],
+                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc', 'bcs', 'yucatan', 'quintanaroo', 'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon'],
                 ];
         }
     }
@@ -174,6 +211,154 @@ class ScraperRouter
         $service = new \PulsoCivico\Services\CongresoBajaCaliforniaScraperService($httpClient, $logger, $config['paths']['storage']);
 
         return $service->scrapeLegislatura25();
+    }
+
+    private static function scrapeBajaCaliforniaSur(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-BCS');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoBcsScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '17' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 17)) {
+            return $service->scrapeLegislatura17();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        return $service->scrapeTodo();
+    }
+
+    private static function scrapeYucatan(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-YUC');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoYucatanScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '64' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 64)) {
+            return $service->scrapeLegislatura64();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        return $service->scrapeTodo();
+    }
+
+    private static function scrapeQuintanaRoo(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-QROO');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoQuintanaRooScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '18' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 18)) {
+            return $service->scrapeLegislatura18();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        return $service->scrapeTodo();
+    }
+
+    private static function scrapeSinaloa(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-SINALOA');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\SinaloaScraperService($config, $httpClient, $logger);
+
+        $historico = !empty($params['historico']) || (isset($params['legislatura']) && $params['legislatura'] === 'all');
+        if ($historico) {
+            return $service->extraerTodas();
+        }
+
+        $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 65;
+        return $service->extraer($legislatura);
+    }
+
+    private static function scrapeSonora(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-SONORA');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\SonoraScraperService($config, $httpClient, $logger);
+
+        $historico = !empty($params['historico']) || (isset($params['legislatura']) && $params['legislatura'] === 'all');
+        if ($historico) {
+            return $service->extraerTodas();
+        }
+
+        $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 64;
+        return $service->extraer($legislatura);
+    }
+
+    private static function scrapeDurango(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-DURANGO');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\DurangoScraperService($config, $httpClient, $logger);
+
+        $historico = !empty($params['historico']) || (isset($params['legislatura']) && $params['legislatura'] === 'all');
+        if ($historico) {
+            return $service->extraerTodas();
+        }
+
+        $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 70;
+        return $service->extraer($legislatura);
+    }
+
+    private static function scrapeChihuahua(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-CHIHUAHUA');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\ChihuahuaScraperService($config, $httpClient, $logger);
+
+        $historico = !empty($params['historico']) || (isset($params['legislatura']) && $params['legislatura'] === 'all');
+        if ($historico) {
+            return $service->extraerTodas();
+        }
+
+        $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 68;
+        return $service->extraer($legislatura);
+    }
+
+    private static function scrapeCoahuila(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'SCRAPER-COAHUILA');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CoahuilaScraperService($config, $httpClient, $logger);
+
+        $inicio = microtime(true);
+        if (!empty($params['todas']) || (isset($params['historico']) && (string)$params['historico'] === '1')) {
+            $res = $service->extraerTodas();
+        } else {
+            $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 63;
+            $res = $service->extraer($legislatura);
+        }
+        $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
+        return $res;
+    }
+
+    private static function scrapeNuevoLeon(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'SCRAPER-NUEVOLEON');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\NuevoLeonScraperService($config, $httpClient, $logger);
+
+        $inicio = microtime(true);
+        if (!empty($params['todas']) || (isset($params['historico']) && (string)$params['historico'] === '1')) {
+            $res = $service->extraerTodas();
+        } else {
+            $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 77;
+            $res = $service->extraer($legislatura);
+        }
+        $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
+        return $res;
     }
 }
 

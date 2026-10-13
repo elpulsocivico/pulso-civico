@@ -44,15 +44,18 @@ require __DIR__ . '/layout/header.php';
 <div class="card-civic p-4 p-md-5 mb-4 position-relative overflow-hidden">
     <div class="row align-items-center">
         <div class="col-lg-7">
-            <div class="d-flex align-items-center gap-2 mb-2">
+            <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
                 <span class="badge bg-primary rounded-pill"><?= ViewHelper::e($abbr) ?></span>
-                <span class="badge bg-light text-secondary border">LXVI Legislatura</span>
+                <span class="badge bg-light text-secondary border"><?= ViewHelper::e($romano ?? 'LXVI') ?> Legislatura</span>
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-2 py-0" style="font-size: 0.72rem;" data-bs-toggle="modal" data-bs-target="#modalLegislaturas">
+                    <i class="bi bi-clock-history me-1"></i>Cambiar legislatura
+                </button>
             </div>
             <h1 class="display-6 fw-bold text-dark mb-2">
                 Radiografía Legislativa de <?= ViewHelper::e($nombre) ?>
             </h1>
             <p class="text-secondary mb-3">
-                Conoce a los <?= $totalRep ?> representantes de la entidad en el H. Congreso de la Unión: sus bancadas, comisiones, grado escolar e iniciativas.
+                Conoce a los <?= $totalRep ?> representantes de la entidad en el H. Congreso de la Unión durante la <?= ViewHelper::e($romano ?? 'LXVI') ?> Legislatura: sus bancadas, comisiones, grado escolar e iniciativas.
             </p>
 
             <!-- Resumen de Mayoría y Curules -->
@@ -173,7 +176,7 @@ require __DIR__ . '/layout/header.php';
     <div class="tab-pane fade show active" id="panel-todos" role="tabpanel">
         <div class="row g-3 g-md-4">
             <?php foreach ($todos as $p): ?>
-                <?php renderPoliticoCardFull($p); ?>
+                <?php renderPoliticoCardFull($p, $numLeg); ?>
             <?php endforeach; ?>
         </div>
     </div>
@@ -182,7 +185,7 @@ require __DIR__ . '/layout/header.php';
     <div class="tab-pane fade" id="panel-diputados" role="tabpanel">
         <div class="row g-3 g-md-4">
             <?php foreach ($diputados as $p): ?>
-                <?php renderPoliticoCardFull($p); ?>
+                <?php renderPoliticoCardFull($p, $numLeg); ?>
             <?php endforeach; ?>
         </div>
     </div>
@@ -191,7 +194,7 @@ require __DIR__ . '/layout/header.php';
     <div class="tab-pane fade" id="panel-senadores" role="tabpanel">
         <div class="row g-3 g-md-4">
             <?php foreach ($senadores as $p): ?>
-                <?php renderPoliticoCardFull($p); ?>
+                <?php renderPoliticoCardFull($p, $numLeg); ?>
             <?php endforeach; ?>
         </div>
     </div>
@@ -201,10 +204,10 @@ require __DIR__ . '/layout/header.php';
 /**
  * Helper para renderizar cada Card de Político con proporciones perfectas para que todos quepan sin recortarse.
  */
-function renderPoliticoCardFull(array $p): void {
+function renderPoliticoCardFull(array $p, int $numLeg = 66): void {
     $nombre = $p['nombre_completo'] ?? '';
     $slug = $p['slug'] ?? '';
-    $url = Router::url('/politicos/' . $slug);
+    $url = Router::url('/politicos/' . $slug . ($numLeg !== 66 ? '?leg=' . $numLeg : ''));
     
     $foto = !empty($p['referencia_sil']) && file_exists(dirname(__DIR__) . "/storage/raw/photos/{$p['referencia_sil']}.jpg")
         ? Router::url("/storage/raw/photos/{$p['referencia_sil']}.jpg")

@@ -133,12 +133,28 @@ class DataService
             }
         }
 
-        // 2. Cargar legisladores de todos los datasets de entidades y nacional disponibles
-        $jsonFiles = glob($this->storagePath . '/data/json/legisladores_entidad_*_leg_66.json') ?: [];
-        $congresoFile = $this->storagePath . '/data/json/congreso_union_leg_66.json';
-        if (file_exists($congresoFile)) {
-            $jsonFiles[] = $congresoFile;
+        // 2. Cargar legisladores de todos los datasets de entidades y nacionales disponibles
+        $jsonFiles = glob($this->storagePath . '/data/json/congreso_union_leg_*.json') ?: [];
+        // Si no hay consolidados para alguna legislatura, cargar por entidades
+        if (empty($jsonFiles)) {
+            $jsonFiles = glob($this->storagePath . '/data/json/legisladores_entidad_*_leg_*.json') ?: [];
+        } else {
+            // Asegurar que legislaturas sin consolidado nacional también se carguen
+            $entidadFiles = glob($this->storagePath . '/data/json/legisladores_entidad_*_leg_*.json') ?: [];
+            foreach ($entidadFiles as $ef) {
+                $jsonFiles[] = $ef;
+            }
         }
+
+        // 2.1 Incluir datasets de congresos locales (Tamaulipas, Baja California, etc.)
+        $stateFiles = glob($this->storagePath . '/data/json/congreso_*_leg_*.json') ?: [];
+        foreach ($stateFiles as $sf) {
+            $base = basename($sf);
+            if (!str_starts_with($base, 'congreso_union_')) {
+                $jsonFiles[] = $sf;
+            }
+        }
+
         $todos = [];
         $dedup = [];
 
@@ -149,10 +165,13 @@ class DataService
 
             $dips = $raw['diputados'] ?? [];
             $sens = $raw['senadores'] ?? [];
-            foreach (array_merge($dips, $sens) as $leg) {
+            $locales = $raw['legisladores'] ?? [];
+            foreach (array_merge($dips, $sens, $locales) as $leg) {
                 $ref = (string)($leg['referencia_sil'] ?? rand(100000, 999999));
-                if (!isset($dedup[$ref])) {
-                    $dedup[$ref] = true;
+                $legNum = (int)($leg['legislatura'] ?? 66);
+                $dedupKey = "{$ref}_{$legNum}";
+                if (!isset($dedup[$dedupKey])) {
+                    $dedup[$dedupKey] = true;
                     $todos[] = $leg;
                 }
             }
@@ -200,15 +219,11 @@ class DataService
                 ];
             }
 
-            $slug = $this->slugify($item['nombre_completo'] ?? 'legislador');
-            // Garantizar unicidad de slug con referencia_sil en caso de colisión
-            if (isset($this->slugIndex[$slug])) {
-                $slug .= '-' . ($item['referencia_sil'] ?? rand(100, 999));
-            }
+            $slug = self::slugify($item['nombre_completo'] ?? 'legislador');
 
             $item['slug'] = $slug;
             $item['edad'] = $this->calcularEdad($item['fecha_nacimiento'] ?? null);
-            $item['partido_slug'] = $this->slugify($item['partido'] ?? 'independiente');
+            $item['partido_slug'] = self::slugify($item['partido'] ?? 'independiente');
 
             // Procesar Línea de Tiempo y Escolaridad deduplicada
             $parsedHistorial = $this->procesarTrayectoriaYEstudios($item);
@@ -285,48 +300,78 @@ class DataService
                 ];
             }
 
-            // Votaciones destacadas de la LXVI Legislatura vinculadas por bancada
+            // Votaciones destacadas vinculadas por bancada (únicamente para mandatos de la legislatura del dataset, ej. LXVI)
+            $itemLeg = (int)($item['legislatura'] ?? 66);
             $partidoUpper = strtoupper((string)($item['partido'] ?? ''));
             $votsDestacadas = [];
-            foreach ($this->votaciones as $vot) {
-                $bancadaInfo = null;
-                foreach ($vot['bancadas'] ?? [] as $bNom => $bData) {
-                    if (str_contains($partidoUpper, strtoupper((string)$bNom)) || str_contains(strtoupper((string)$bNom), $partidoUpper)) {
-                        $bancadaInfo = $bData;
-                        break;
+
+            if ($itemLeg === 66 && !empty($this->votaciones)) {
+                foreach ($this->votaciones as $vot) {
+                    $bancadaInfo = null;
+                    foreach ($vot['bancadas'] ?? [] as $bNom => $bData) {
+                        if (str_contains($partidoUpper, strtoupper((string)$bNom)) || str_contains(strtoupper((string)$bNom), $partidoUpper)) {
+                            $bancadaInfo = $bData;
+                            break;
+                        }
                     }
-                }
-                $sentidoBancada = 'A_FAVOR';
-                if ($bancadaInfo) {
-                    if (($bancadaInfo['en_contra'] ?? 0) > ($bancadaInfo['a_favor'] ?? 0)) {
-                        $sentidoBancada = 'EN_CONTRA';
-                    } elseif (($bancadaInfo['abstencion'] ?? 0) > ($bancadaInfo['a_favor'] ?? 0)) {
-                        $sentidoBancada = 'ABSTENCION';
+                    $sentidoBancada = 'A_FAVOR';
+                    if ($bancadaInfo) {
+                        if (($bancadaInfo['en_contra'] ?? 0) > ($bancadaInfo['a_favor'] ?? 0)) {
+                            $sentidoBancada = 'EN_CONTRA';
+                        } elseif (($bancadaInfo['abstencion'] ?? 0) > ($bancadaInfo['a_favor'] ?? 0)) {
+                            $sentidoBancada = 'ABSTENCION';
+                        }
                     }
+                    $origenInfo = $this->obtenerOrigenVotacion($vot['tema_clave'] ?? '', $vot['titulo'] ?? '');
+                    $votsDestacadas[] = [
+                        'id_votacion' => $vot['id_votacion_origen'] ?? 0,
+                        'fecha' => $vot['fecha'] ?? '',
+                        'titulo' => $vot['titulo'] ?? '',
+                        'tema_clave' => $vot['tema_clave'] ?? 'General',
+                        'promovente' => $origenInfo['promovente'],
+                        'origen_tipo' => $origenInfo['tipo'],
+                        'partido_promovente' => $origenInfo['partido'],
+                        'resumen_ciudadano' => $origenInfo['resumen_ciudadano'] ?? '',
+                        'puntos_clave' => $origenInfo['puntos_clave'] ?? [],
+                        'sentido_emitido' => $sentidoBancada,
+                        'resultado_general' => $vot['resultado'] ?? 'Aprobado',
+                        'totales' => $vot['totales'] ?? [],
+                    ];
                 }
-                $origenInfo = $this->obtenerOrigenVotacion($vot['tema_clave'] ?? '', $vot['titulo'] ?? '');
-                $votsDestacadas[] = [
-                    'id_votacion' => $vot['id_votacion_origen'] ?? 0,
-                    'fecha' => $vot['fecha'] ?? '',
-                    'titulo' => $vot['titulo'] ?? '',
-                    'tema_clave' => $vot['tema_clave'] ?? 'General',
-                    'promovente' => $origenInfo['promovente'],
-                    'origen_tipo' => $origenInfo['tipo'],
-                    'partido_promovente' => $origenInfo['partido'],
-                    'resumen_ciudadano' => $origenInfo['resumen_ciudadano'] ?? '',
-                    'puntos_clave' => $origenInfo['puntos_clave'] ?? [],
-                    'sentido_emitido' => $sentidoBancada,
-                    'resultado_general' => $vot['resultado'] ?? 'Aprobado',
-                    'totales' => $vot['totales'] ?? [],
-                ];
             }
             $item['votaciones_destacadas'] = $votsDestacadas;
-            $item['disciplina_partidaria_pct'] = 98.4;
+            $item['disciplina_partidaria_pct'] = !empty($votsDestacadas) ? 98.4 : null;
 
-            // Indexar político
-            $this->slugIndex[$slug] = $item;
+            // Indexar político canónico y agrupar mandatos históricos
+            $itemLeg = (int)($item['legislatura'] ?? 66);
+            if (!isset($this->slugIndex[$slug])) {
+                $item['mandatos_historicos'] = [$itemLeg => $item];
+                $item['legislaturas_disponibles'] = [$itemLeg];
+                $this->slugIndex[$slug] = $item;
+            } else {
+                // Ya existe registro previo para este político (otra legislatura)
+                $existente = &$this->slugIndex[$slug];
+                $existente['mandatos_historicos'][$itemLeg] = $item;
+                if (!in_array($itemLeg, $existente['legislaturas_disponibles'], true)) {
+                    $existente['legislaturas_disponibles'][] = $itemLeg;
+                    rsort($existente['legislaturas_disponibles']);
+                }
+                // Si el item nuevo es de una legislatura más reciente que la que está en la raíz, actualizar datos principales
+                $existenteLeg = (int)($existente['legislatura'] ?? 66);
+                if ($itemLeg > $existenteLeg) {
+                    $mandatos = $existente['mandatos_historicos'];
+                    $legsDisp = $existente['legislaturas_disponibles'];
+                    $existente = $item;
+                    $existente['mandatos_historicos'] = $mandatos;
+                    $existente['legislaturas_disponibles'] = $legsDisp;
+                }
+                unset($existente);
+            }
+
             if (!empty($item['referencia_sil'])) {
                 $this->politicosIndex[$item['referencia_sil']] = &$this->slugIndex[$slug];
+                // Alias de compatibilidad por slug con referencia
+                $this->slugIndex[$slug . '-' . $item['referencia_sil']] = &$this->slugIndex[$slug];
             }
 
             // Indexar comisiones
@@ -407,21 +452,325 @@ class DataService
         }
     }
 
+    public const LEGISLATURAS_CATALOG = [
+        66 => [
+            'numero' => 66,
+            'romano' => 'LXVI',
+            'periodo' => '2024–2027',
+            'periodo_senado' => '2024–2030',
+            'ano_inicio' => 2024,
+            'ano_fin' => 2027,
+            'estatus' => 'activa',
+            'estatus_label' => 'Actual • En Funciones',
+            'descripcion' => 'Periodo constitucional en funciones del Congreso de la Unión. Integrado tras las elecciones federales del 2 de junio de 2024.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=66',
+        ],
+        65 => [
+            'numero' => 65,
+            'romano' => 'LXV',
+            'periodo' => '2021–2024',
+            'periodo_senado' => '2018–2024',
+            'ano_inicio' => 2021,
+            'ano_fin' => 2024,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Constitucional Concluido',
+            'descripcion' => 'Periodo constitucional anterior de la Cámara de Diputados (2021–2024) y segunda mitad del periodo de Senadores (2018–2024). Destacó por debates en reformas constitucionales clave y consolidación de bloques parlamentarios.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=65',
+        ],
+        64 => [
+            'numero' => 64,
+            'romano' => 'LXIV',
+            'periodo' => '2018–2021',
+            'periodo_senado' => '2018–2024',
+            'ano_inicio' => 2018,
+            'ano_fin' => 2021,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Constitucional Concluido',
+            'descripcion' => 'Primera legislatura con mayoría absoluta de Morena y la coalición Juntos Haremos Historia tras la elección federal de 2018. Creación de la Guardia Nacional y reformas a programas sociales.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=64',
+        ],
+        63 => [
+            'numero' => 63,
+            'romano' => 'LXIII',
+            'periodo' => '2015–2018',
+            'periodo_senado' => '2012–2018',
+            'ano_inicio' => 2015,
+            'ano_fin' => 2018,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Legislatura caracterizada por equilibrios parlamentarios y la instrumentación legislativa de reformas estructurales del sexenio 2012-2018.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=63',
+        ],
+        62 => [
+            'numero' => 62,
+            'romano' => 'LXII',
+            'periodo' => '2012–2015',
+            'periodo_senado' => '2012–2018',
+            'ano_inicio' => 2012,
+            'ano_fin' => 2015,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Legislatura del Pacto por México. Aprobación de reformas constitucionales en telecomunicaciones, competencia económica, materia hacendaria y energética.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=62',
+        ],
+        61 => [
+            'numero' => 61,
+            'romano' => 'LXI',
+            'periodo' => '2009–2012',
+            'periodo_senado' => '2006–2012',
+            'ano_inicio' => 2009,
+            'ano_fin' => 2012,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Legislatura de intensa negociación política durante la administración 2006-2012. Destacó por reformas en derechos humanos, juicio de amparo y seguridad pública.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=61',
+        ],
+        57 => [
+            'numero' => 57,
+            'romano' => 'LVII',
+            'periodo' => '1997–2000',
+            'periodo_senado' => '1997–2000',
+            'ano_inicio' => 1997,
+            'ano_fin' => 2000,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Legislatura histórica donde por primera vez en la época moderna el partido gobernante perdió la mayoría absoluta en San Lázaro, marcando el inicio de la pluralidad.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=57',
+        ],
+    ];
+
+    /**
+     * Parsea un identificador (numérico '65' o romano 'lxv' / 'LXV') a número entero de legislatura.
+     */
+    public static function parseNumeroLegislatura(string|int $valor): int
+    {
+        if (is_numeric($valor)) {
+            return (int)$valor;
+        }
+
+        $v = strtoupper(trim((string)$valor));
+        $map = [
+            'LXVI' => 66,
+            'LXV'  => 65,
+            'LXIV' => 64,
+            'LXIII'=> 63,
+            'LXII' => 62,
+            'LXI'  => 61,
+            'LX'   => 60,
+            'LIX'  => 59,
+            'LVIII'=> 58,
+            'LVII' => 57,
+        ];
+
+        return $map[$v] ?? ((int)preg_replace('/\D/', '', $v) ?: 66);
+    }
+
+    /**
+     * Convierte número entero a romano estándar para legislaturas mexicanas.
+     */
+    public static function convertirNumeroARomano(int $numero): string
+    {
+        $map = [
+            66 => 'LXVI', 65 => 'LXV', 64 => 'LXIV', 63 => 'LXIII', 62 => 'LXII',
+            61 => 'LXI',  60 => 'LX',  59 => 'LIX',  58 => 'LVIII', 57 => 'LVII',
+        ];
+        return $map[$numero] ?? (string)$numero;
+    }
+
+    /**
+     * Alias de conveniencia para convertir número a romano.
+     */
+    public static function numeroALegislaturaRomano(int $numero): string
+    {
+        return self::convertirNumeroARomano($numero);
+    }
+
+    /**
+     * Catálogo maestro de legislaturas federales.
+     */
+    public function getLegislaturasCatalog(): array
+    {
+        return self::LEGISLATURAS_CATALOG;
+    }
+
+    /**
+     * Devuelve las legislaturas disponibles ordenadas descendentemente.
+     * @return array<int>
+     */
+    public function getLegislaturasDisponibles(): array
+    {
+        $legs = [];
+        foreach ($this->slugIndex as $p) {
+            $l = (int)($p['legislatura'] ?? 66);
+            $legs[$l] = true;
+        }
+        krsort($legs);
+        return array_keys($legs);
+    }
+
     /**
      * Devuelve todos los políticos indexados con slug y metadatos.
+     * Soporta filtrado opcional por legislatura (ej. 66 o 65).
      * @return array<string, array>
      */
-    public function getPoliticos(): array
+    public function getPoliticos(?int $legislatura = null): array
     {
-        return $this->slugIndex;
+        if ($legislatura !== null) {
+            $filtrados = [];
+            foreach ($this->slugIndex as $slugKey => $p) {
+                // Evitar duplicar alias tipo slug-referenciaSIL
+                if (isset($p['slug']) && $slugKey !== $p['slug']) {
+                    continue;
+                }
+                if (((int)($p['legislatura'] ?? 66)) === $legislatura) {
+                    $filtrados[$slugKey] = $p;
+                } elseif (!empty($p['mandatos_historicos'][$legislatura])) {
+                    // Si participó en esa legislatura pero no es la raíz, hidratamos la versión de ese mandato
+                    $mandato = $p['mandatos_historicos'][$legislatura];
+                    $mandato['legislaturas_disponibles'] = $p['legislaturas_disponibles'] ?? [$legislatura];
+                    $mandato['mandatos_historicos'] = $p['mandatos_historicos'] ?? [];
+                    $filtrados[$slugKey] = $mandato;
+                }
+            }
+            return $filtrados;
+        }
+
+        // Devolver catálogo deduplicado sin los alias de compatibilidad
+        $todosUnicos = [];
+        foreach ($this->slugIndex as $slugKey => $p) {
+            if (isset($p['slug']) && $slugKey !== $p['slug']) {
+                continue;
+            }
+            $todosUnicos[$slugKey] = $p;
+        }
+        return $todosUnicos;
+    }
+
+    /**
+     * Devuelve el expediente integral y radiografía analítica de una legislatura.
+     */
+    public function getLegislaturaData(int $num): ?array
+    {
+        $meta = self::LEGISLATURAS_CATALOG[$num] ?? null;
+        if (!$meta) {
+            if ($num >= 50 && $num <= 70) {
+                $meta = [
+                    'numero' => $num,
+                    'romano' => self::convertirNumeroARomano($num),
+                    'periodo' => 'Periodo Constitucional',
+                    'periodo_senado' => 'Periodo Constitucional',
+                    'ano_inicio' => null,
+                    'ano_fin' => null,
+                    'estatus' => 'historica',
+                    'estatus_label' => 'Archivo Histórico',
+                    'descripcion' => "Registro parlamentario del Congreso de la Unión correspondiente a la legislatura {$num}.",
+                    'sil_url' => "http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg={$num}",
+                ];
+            } else {
+                return null;
+            }
+        }
+
+        $politicosLeg = $this->getPoliticos($num);
+        $tieneDatos = !empty($politicosLeg);
+
+        $diputados = [];
+        $senadores = [];
+        $bancadasDiputados = [];
+        $bancadasSenadores = [];
+        $estadosRepresentados = [];
+
+        if ($tieneDatos) {
+            foreach ($politicosLeg as $p) {
+                $partido = trim((string)($p['partido'] ?? 'Sin Partido'));
+                if ($partido === '') $partido = 'Sin Partido';
+
+                $entidad = $p['entidad'] ?? '';
+                if ($entidad !== '') {
+                    $estadosRepresentados[$entidad] = ($estadosRepresentados[$entidad] ?? 0) + 1;
+                }
+
+                if (($p['camara'] ?? '') === 'Diputados') {
+                    $diputados[] = $p;
+                    $bancadasDiputados[$partido] = ($bancadasDiputados[$partido] ?? 0) + 1;
+                } else {
+                    $senadores[] = $p;
+                    $bancadasSenadores[$partido] = ($bancadasSenadores[$partido] ?? 0) + 1;
+                }
+            }
+
+            arsort($bancadasDiputados);
+            arsort($bancadasSenadores);
+        }
+
+        $totalDiputados = count($diputados);
+        $totalSenadores = count($senadores);
+
+        $bancadasDipFormateadas = [];
+        foreach ($bancadasDiputados as $partido => $asientos) {
+            $pct = $totalDiputados > 0 ? round(($asientos / $totalDiputados) * 100, 1) : 0.0;
+            $bancadasDipFormateadas[] = [
+                'partido' => $partido,
+                'asientos' => $asientos,
+                'porcentaje' => $pct,
+                'color' => \PulsoCivico\Core\ViewHelper::getPartyColor($partido),
+            ];
+        }
+
+        $bancadasSenFormateadas = [];
+        foreach ($bancadasSenadores as $partido => $asientos) {
+            $pct = $totalSenadores > 0 ? round(($asientos / $totalSenadores) * 100, 1) : 0.0;
+            $bancadasSenFormateadas[] = [
+                'partido' => $partido,
+                'asientos' => $asientos,
+                'porcentaje' => $pct,
+                'color' => \PulsoCivico\Core\ViewHelper::getPartyColor($partido),
+            ];
+        }
+
+        $escolaridadStats = $tieneDatos ? $this->educationService->generarMetricas($politicosLeg) : null;
+        $estadosConteo = count($estadosRepresentados);
+
+        return [
+            'meta' => $meta,
+            'tiene_dataset_local' => $tieneDatos,
+            'total_legisladores' => count($politicosLeg),
+            'total_diputados' => $totalDiputados,
+            'total_senadores' => $totalSenadores,
+            'diputados' => $diputados,
+            'senadores' => $senadores,
+            'bancadas_diputados' => $bancadasDipFormateadas,
+            'bancadas_senadores' => $bancadasSenFormateadas,
+            'mayoria_diputados' => !empty($bancadasDipFormateadas) ? $bancadasDipFormateadas[0] : null,
+            'mayoria_senadores' => !empty($bancadasSenFormateadas) ? $bancadasSenFormateadas[0] : null,
+            'estados_representados_count' => $estadosConteo,
+            'escolaridad_stats' => $escolaridadStats,
+            'legislaturas_todas' => self::LEGISLATURAS_CATALOG,
+        ];
     }
 
     /**
      * Búsqueda de político por slug único canónico.
+     * Si se especifica una legislatura ($legislatura > 0) y el político tiene un mandato en ella,
+     * hidrata la ficha con la información correspondiente a dicho periodo.
      */
-    public function getPoliticoBySlug(string $slug): ?array
+    public function getPoliticoBySlug(string $slug, ?int $legislatura = null): ?array
     {
-        return $this->slugIndex[$slug] ?? null;
+        $politico = $this->slugIndex[$slug] ?? null;
+        if (!$politico) {
+            return null;
+        }
+
+        // Si se solicita una legislatura específica y existe en el historial del legislador
+        if ($legislatura !== null && $legislatura > 0 && !empty($politico['mandatos_historicos'][$legislatura])) {
+            $mandato = $politico['mandatos_historicos'][$legislatura];
+            // Conservar la visión integral de todos sus mandatos y legislaturas disponibles
+            $mandato['legislaturas_disponibles'] = $politico['legislaturas_disponibles'] ?? [$legislatura];
+            $mandato['mandatos_historicos'] = $politico['mandatos_historicos'] ?? [];
+            return $mandato;
+        }
+
+        return $politico;
     }
 
     /**
@@ -504,13 +853,20 @@ class DataService
     /**
      * Devuelve la lista y estadísticas de los 32 estados.
      */
-    public function getEstados(): array
+    /**
+     * Devuelve la lista y estadísticas de los 32 estados.
+     * Soporta filtrado opcional por legislatura (ej. 66 o 65).
+     */
+    public function getEstados(?int $legislatura = null): array
     {
         $estados = $this->estadosCatalog;
 
         // Agrupar políticos por entidad federativa normalizada
         $politicosPorEstado = [];
         foreach ($this->slugIndex as $p) {
+            if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
+                continue;
+            }
             $entidadNorm = self::slugify($p['entidad'] ?? '');
             if ($entidadNorm === 'mexico' || $entidadNorm === 'edomex') {
                 $entidadNorm = 'estado-de-mexico';
@@ -555,11 +911,12 @@ class DataService
 
     /**
      * Obtiene el expediente de representación de un estado específico.
+     * Soporta filtrado opcional por legislatura (ej. 66 o 65).
      */
-    public function getEstadoBySlug(string $slug): ?array
+    public function getEstadoBySlug(string $slug, ?int $legislatura = null): ?array
     {
         $targetSlug = ($slug === 'mexico' || $slug === 'edomex') ? 'estado-de-mexico' : $slug;
-        $estados = $this->getEstados();
+        $estados = $this->getEstados($legislatura);
         if (!isset($estados[$targetSlug])) {
             return null;
         }
@@ -567,7 +924,10 @@ class DataService
         $estado = $estados[$targetSlug];
         $estado['diputados'] = array_values(array_filter(
             $this->slugIndex,
-            function ($p) use ($targetSlug) {
+            function ($p) use ($targetSlug, $legislatura) {
+                if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
+                    return false;
+                }
                 $norm = self::slugify($p['entidad'] ?? '');
                 if ($norm === 'mexico' || $norm === 'edomex') $norm = 'estado-de-mexico';
                 return ($p['camara'] ?? '') === 'Diputados' && $norm === $targetSlug;
@@ -575,7 +935,10 @@ class DataService
         ));
         $estado['senadores'] = array_values(array_filter(
             $this->slugIndex,
-            function ($p) use ($targetSlug) {
+            function ($p) use ($targetSlug, $legislatura) {
+                if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
+                    return false;
+                }
                 $norm = self::slugify($p['entidad'] ?? '');
                 if ($norm === 'mexico' || $norm === 'edomex') $norm = 'estado-de-mexico';
                 return ($p['camara'] ?? '') === 'Senadores' && $norm === $targetSlug;
@@ -583,20 +946,25 @@ class DataService
         ));
 
         // Métricas de escolaridad específicas del estado
-        $estado['escolaridad_stats'] = $this->getEstadisticasEscolaridad(null, $slug);
+        $estado['escolaridad_stats'] = $this->getEstadisticasEscolaridad(null, $slug, $legislatura);
 
         return $estado;
     }
 
     /**
-     * Retorna las métricas y radiografía de escolaridad de los legisladores activos.
+     * Retorna las métricas y radiografía de escolaridad de los legisladores.
      * @param string|null $filtroCamara 'Diputados' | 'Senadores' | null
      * @param string|null $filtroEstado Slug del estado o null
+     * @param int|null $legislatura Número de legislatura o null
      * @return array
      */
-    public function getEstadisticasEscolaridad(?string $filtroCamara = null, ?string $filtroEstado = null): array
+    public function getEstadisticasEscolaridad(?string $filtroCamara = null, ?string $filtroEstado = null, ?int $legislatura = null): array
     {
         $coleccion = $this->slugIndex;
+
+        if ($legislatura !== null) {
+            $coleccion = array_filter($coleccion, fn($p) => ((int)($p['legislatura'] ?? 66)) === $legislatura);
+        }
 
         if ($filtroCamara !== null) {
             $coleccion = array_filter($coleccion, fn($p) => ($p['camara'] ?? '') === $filtroCamara);
@@ -822,13 +1190,19 @@ class DataService
         }
         unset($h);
 
-        // Incorporar el cargo parlamentario actual como el nodo supremo y activo de la línea de tiempo
+        // Incorporar el cargo parlamentario del mandato a la línea de tiempo
         $camara = $pol['camara'] ?? 'Diputados';
         $esSenador = ($camara === 'Senadores');
-        $anoInicio = 2024;
+        $legNum = (int)($pol['legislatura'] ?? 66);
+        $legMeta = self::LEGISLATURAS_CATALOG[$legNum] ?? null;
+        $legRomano = $legMeta['romano'] ?? self::convertirNumeroARomano($legNum);
+
+        $anoInicio = $legMeta['ano_inicio'] ?? 2024;
         if (!empty($pol['fecha_toma_protesta']) && preg_match('/(\d{4})/', (string)$pol['fecha_toma_protesta'], $mAno)) {
             $anoInicio = (int)$mAno[1];
         }
+        $anoFin = $legMeta['ano_fin'] ?? ($anoInicio + 3);
+
         $entidad = $pol['entidad'] ?? 'México';
         $distrito = $pol['distrito'] ?? null;
         $esSuplente = (($pol['tipo_cargo'] ?? '') === 'Suplente');
@@ -847,22 +1221,25 @@ class DataService
         if ($distrito && !str_contains($distrito, 'Senaduría')) {
             $descripcionCargo .= " ({$distrito})";
         }
-        $descripcionCargo .= " — LXVI Legislatura del Congreso de la Unión.";
+        $descripcionCargo .= " — {$legRomano} Legislatura del Congreso de la Unión.";
 
+        $esActual = ($legNum === 66);
         $cargoActual = [
             'experiencia' => $descripcionCargo,
             'del_ano' => (string)$anoInicio,
-            'al_ano' => $tieneLicencia ? 'En Licencia' : 'Presente',
-            'periodo' => $tieneLicencia ? "{$anoInicio} — En Licencia" : "{$anoInicio} — Presente",
-            'es_cargo_actual' => true,
-            'es_reciente' => true,
+            'al_ano' => $esActual ? ($tieneLicencia ? 'En Licencia' : 'Presente') : (string)$anoFin,
+            'periodo' => $esActual 
+                ? ($tieneLicencia ? "{$anoInicio} — En Licencia" : "{$anoInicio} — Presente")
+                : "{$anoInicio} — {$anoFin}",
+            'es_cargo_actual' => $esActual,
+            'es_reciente' => $esActual,
             'en_licencia' => $tieneLicencia,
         ];
 
-        // Verificar si ya existe mención para evitar duplicidad
+        // Verificar si ya existe mención exacta para evitar duplicidad
         $yaExisteCargoActual = false;
         foreach ($historialFiltrado as $hf) {
-            if (str_contains($hf['experiencia'] ?? '', 'LXVI Legislatura') || str_contains($hf['experiencia'] ?? '', '66 Legislatura')) {
+            if (str_contains($hf['experiencia'] ?? '', "{$legRomano} Legislatura") || str_contains($hf['experiencia'] ?? '', "{$legNum} Legislatura")) {
                 $yaExisteCargoActual = true;
                 break;
             }

@@ -1,0 +1,524 @@
+{
+    "metadata": {
+        "entidad_id": 23,
+        "entidad_nombre": "Quintana Roo",
+        "camara": "Congreso del Estado de Quintana Roo",
+        "legislatura": 16,
+        "periodo": "2019-2022",
+        "total_legisladores": 25,
+        "fuente_oficial": "https://congresoqroo.gob.mx",
+        "fecha_extraccion": "2026-10-14 00:13:12",
+        "conteo_por_partido": {
+            "PAN": 4,
+            "PT": 3,
+            "MORENA": 9,
+            "PVEM": 3,
+            "PRI": 2,
+            "PRD": 2,
+            "MAS": 1,
+            "MC": 1
+        }
+    },
+    "legisladores": [
+        {
+            "referencia_sil": "qroo_leg16_01",
+            "nombre_completo": "Teresa Atenea Gómez Ricalde",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PAN",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 1",
+            "cabecera": "Kantunilkín",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "89164e2002daf583d9721054e4056f63776ae5107e037933e5d6ba8987532026"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_02",
+            "nombre_completo": "Hernán Villatoro Barrios",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 2",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "fafc43305a233dfd8b7d0f865790c839923d0b79591c86acc305ec1e7dc6e6bf"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_03",
+            "nombre_completo": "Wilbert Alberto Batún Chulim",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 3",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "e76ed5085bd0106d56f37a2a3ec33ba837100b08866a96eaa36c6a73769128a1"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_04",
+            "nombre_completo": "Tyara Schleske de Ariño",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 4",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "62b65532cc8d194372ea6b144ae4786c9299a34943301a5e0381a2ae79b546ba"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_05",
+            "nombre_completo": "Reyna Arelly Durán Ovando",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 5",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "fa3e43bb266065b379f7b53d1437978f358d94701339d983837f2fbd20a252c9"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_06",
+            "nombre_completo": "Erika Guadalupe Castillo Acosta",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 6",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "cb784741c66c9f65e9a96c92fd9699fad4fe3672cfc92fd5516560361f825cd6"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_07",
+            "nombre_completo": "María Fernanda Trejo Quijano",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 7",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "eb5587e35ec356809b6aa1c8aee1b5937285d716d0df42783d7381ad919f802c"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_08",
+            "nombre_completo": "Edgar Humberto Gasca Arceo",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 8",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "73bd02b1004aa2d3a9327613268eed42611a3866029e053a96884ec6af749d12"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_09",
+            "nombre_completo": "Euterpe Alicia Gutiérrez Valasis",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 9",
+            "cabecera": "Tulum",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "121c37c9bcd0258e99a3e0f567576e0e403d524058f187b4a2f2a9bb940b6949"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_10",
+            "nombre_completo": "Roxana Lili Campos Miranda",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PAN",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 10",
+            "cabecera": "Playa del Carmen",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "37c9552593fe84a95bacf23cfb888a02944bbbcf894414570c4fba4cc1080f7c"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_11",
+            "nombre_completo": "Carlos Rafael Hernández Blanco",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PRI",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 11",
+            "cabecera": "Cozumel",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "ff38bb9bee40c83f45307a6b4dbf2558683d1d9fe17563a74ce08fca4da4a946"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_12",
+            "nombre_completo": "Pedro Enrique Pérez Díaz",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PRD",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 12",
+            "cabecera": "Felipe Carrillo Puerto",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "53ed2ffabe637be9d7d545985594b6396daab426450f8a145d50ed316bf09fbb"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_13",
+            "nombre_completo": "Ana Ellamin Pamplona Ramírez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 13",
+            "cabecera": "Bacalar",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "e7f2c3b4ff0f8d56e2d03d8639feafb176a738335f8e1fc45f108065b203d16a"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_14",
+            "nombre_completo": "Linda Saray Cobos Castro",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 14",
+            "cabecera": "Chetumal rural",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "2c331964141053f514a976e38d84804442861b1d66db79c0dfd0aff12c02e193"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_15",
+            "nombre_completo": "Roberto Erales Jiménez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 15",
+            "cabecera": "Chetumal urbano",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "c7b1a19dc963efd9f3aa1dacd696be2856e308887d384ade9e00095dad28fa1f"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_16",
+            "nombre_completo": "Eduardo Lorenzo Martínez Arcila",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PAN",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "7ff9dadb8ee3518b35f288a948a3c2c195ab0a81161fba9a0e6ed0f9df744e0a"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_17",
+            "nombre_completo": "Cristina Torres Gómez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PAN",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "6ce067770c185a8367e27b581ae92dc44d78b2cd42ffb7ee744b85e1c553174a"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_18",
+            "nombre_completo": "Paula Pech Vázquez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "3b29f67747c3037a54c71d942c1e7eddb0880a3c57c4664bbcd16b1d19d4edc2"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_19",
+            "nombre_completo": "Luis Fernando Chávez Zepeda",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "37d0a6492652a88d0464df8be94615234892555a673b951ab38584a09b8b6c27"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_20",
+            "nombre_completo": "José de la Peña Ruiz de Chávez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "8eba058935bcdb3554aa53a91db25a58bb9fdf430705863face4b675670e7ffb"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_21",
+            "nombre_completo": "Erick Gustavo Miranda García",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "6f97a7f0be0c2fab6ebe8b0b2f6cfb69a66ea20dfec687fc3a5bb73bfbfbbc64"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_22",
+            "nombre_completo": "Iris Adriana Mora Vallejo",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PRD",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "fac59b9aabf4f9e0dfcf2affe78c475adfc93e1df5a788ccb21c799f690585e8"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_23",
+            "nombre_completo": "Judith Rodríguez Villanueva",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "c51426045f7b3f496dc973d5d3c63d258f31021a06f29e184723b192ffd3b590"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_24",
+            "nombre_completo": "José Luis Guillén López",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MAS",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "23b29f4790288dd54bbceadc2c033ae858dc198f63f720bb426bf12b754efe00"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg16_25",
+            "nombre_completo": "José Luis Toledo Medina",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 16,
+            "partido": "MC",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2019-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "f546e138351300c07c4d6c5a90a820245c73fba34067bc13f136ee55bf8c6fa4"
+            }
+        }
+    ]
+}

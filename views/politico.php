@@ -42,6 +42,14 @@ $estadoUrl = Router::url('/estados/' . $estadoSlug);
 $homeUrl = Router::url('/');
 $canonicalUrl = Router::url('/politicos/' . ($politico['slug'] ?? ''));
 
+$legNumero = (int)($politico['legislatura'] ?? 66);
+$legRomano = PulsoCivico\Services\DataService::numeroALegislaturaRomano($legNumero);
+$legislaturaRomano = $legRomano; // Pasa la legislatura activa al header.php
+$legUrl = Router::url('/legislaturas/' . $legNumero);
+
+$legsDisponibles = $politico['legislaturas_disponibles'] ?? [$legNumero];
+$mandatosHistoricos = $politico['mandatos_historicos'] ?? [];
+
 require __DIR__ . '/layout/header.php';
 ?>
 
@@ -49,10 +57,50 @@ require __DIR__ . '/layout/header.php';
 <nav aria-label="breadcrumb" class="breadcrumb-ios">
     <ol class="breadcrumb mb-3">
         <li class="breadcrumb-item"><a href="<?= $homeUrl ?>">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="<?= $legUrl ?>"><?= ViewHelper::e($legRomano) ?> Legislatura</a></li>
         <li class="breadcrumb-item"><a href="<?= $estadoUrl ?>"><?= ViewHelper::e($entidad) ?></a></li>
         <li class="breadcrumb-item active text-truncate" style="max-width: 250px;" aria-current="page"><?= ViewHelper::e($nombre) ?></li>
     </ol>
 </nav>
+
+<?php if (count($legsDisponibles) > 1): ?>
+<!-- Conmutador Responsivo de Legislaturas (Issue #15) -->
+<div class="card-civic p-3 mb-4 bg-white shadow-sm border">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1">
+                <i class="bi bi-clock-history me-1"></i>Trayectoria Parlamentaria
+            </span>
+            <span class="text-secondary small fw-semibold">Consultar legislatura:</span>
+        </div>
+        <div class="d-flex align-items-center gap-1 flex-wrap">
+            <?php foreach ($legsDisponibles as $lDis): 
+                $lRom = PulsoCivico\Services\DataService::convertirNumeroARomano($lDis);
+                $esActiva = ($lDis === $legNumero);
+                $lUrl = Router::url('/politicos/' . ($politico['slug'] ?? '') . ($lDis !== 66 ? '?leg=' . $lDis : ''));
+            ?>
+            <a href="<?= $lUrl ?>" 
+               class="btn btn-sm rounded-pill px-3 py-1 fw-semibold transition-all <?= $esActiva ? 'btn-primary shadow-sm' : 'btn-light border text-secondary hover-bg-subtle' ?>">
+                <?= ViewHelper::e($lRom) ?> Legislatura <?= $lDis === 66 ? '<span class="badge bg-success ms-1 small">Actual</span>' : '' ?>
+            </a>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+<?php endif; ?>
+
+<?php if ($legNumero !== 66): ?>
+<!-- Aviso de Registro Histórico -->
+<div class="alert alert-warning border-warning-subtle d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4 rounded-3 shadow-sm py-2 px-3">
+    <div class="d-flex align-items-center gap-2 small text-dark">
+        <i class="bi bi-archive-fill text-warning fs-5"></i>
+        <span>Estás consultando el expediente oficial histórico de <strong><?= ViewHelper::e($nombre) ?></strong> correspondiente a la <strong><?= ViewHelper::e($legRomano) ?> Legislatura</strong>.</span>
+    </div>
+    <a href="<?= Router::url('/politicos/' . ($politico['slug'] ?? '')) ?>" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 small">
+        Ver perfil actual &rarr;
+    </a>
+</div>
+<?php endif; ?>
 
 <div class="row g-4">
     <!-- Columna Izquierda: Tarjeta de Perfil Fija -->
@@ -166,6 +214,12 @@ require __DIR__ . '/layout/header.php';
             <?php endif; ?>
 
             <div class="text-start bg-light rounded-3 p-3 small text-secondary mb-3">
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Legislatura:</strong>
+                    <a href="<?= $legUrl ?>" class="text-decoration-none fw-semibold text-primary">
+                        <i class="bi bi-bank me-1"></i><?= ViewHelper::e($legRomano) ?> Legislatura
+                    </a>
+                </div>
                 <div class="mb-2">
                     <strong class="text-dark d-block">Principio de Elección:</strong>
                     <?= ViewHelper::e($principio) ?> <?= $distrito ? '(Distrito ' . ViewHelper::e((string)$distrito) . ')' : '' ?>
@@ -446,7 +500,7 @@ require __DIR__ . '/layout/header.php';
                     <a href="<?= ViewHelper::e($cronicaUrl) ?>" target="_blank" rel="noopener noreferrer" class="badge bg-white text-secondary border text-decoration-none py-1 px-2 d-inline-flex align-items-center gap-1" title="Ver intervenciones y discursos en tribuna registrados en el Diario de los Debates">
                         <i class="bi bi-mic-fill text-danger"></i>Diario de los Debates (Tribuna) ↗
                     </a>
-                    <span class="badge bg-light text-secondary border small">LXVI Legislatura</span>
+                    <span class="badge bg-light text-secondary border small"><?= ViewHelper::e($legRomano) ?> Legislatura</span>
                 </div>
             </div>
 
@@ -755,7 +809,7 @@ require __DIR__ . '/layout/header.php';
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
                     <i class="bi bi-check2-square text-primary"></i>
-                    Votaciones en el Pleno y Reformas Clave (LXVI Legislatura)
+                    Votaciones en el Pleno y Reformas Clave (<?= ViewHelper::e($legRomano) ?> Legislatura)
                 </h2>
                 <span class="badge bg-light text-secondary border small">Oficial SITL</span>
             </div>

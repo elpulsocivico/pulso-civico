@@ -23,10 +23,16 @@ class WebController
      */
     public function home(): void
     {
-        $estados = $this->dataService->getEstados();
+        if (isset($_GET['leg'])) {
+            $numLeg = DataService::parseNumeroLegislatura((string)$_GET['leg']);
+            header('Location: ' . Router::url('/legislaturas/' . $numLeg), true, 301);
+            exit;
+        }
+
+        $estados = $this->dataService->getEstados(66);
         $comisiones = $this->dataService->getComisiones();
-        $politicos = $this->dataService->getPoliticos();
-        $escolaridadStats = $this->dataService->getEstadisticasEscolaridad();
+        $politicos = $this->dataService->getPoliticos(66);
+        $escolaridadStats = $this->dataService->getEstadisticasEscolaridad(null, null, 66);
 
         $seo = [
             'title' => 'El Pulso de la Política — Observatorio del Congreso Mexicano (LXVI Legislatura)',
@@ -54,7 +60,8 @@ class WebController
     public function politico(array $params): void
     {
         $slug = $params['slug'] ?? '';
-        $politico = $this->dataService->getPoliticoBySlug($slug);
+        $numLeg = isset($_GET['leg']) ? DataService::parseNumeroLegislatura((string)$_GET['leg']) : 0;
+        $politico = $this->dataService->getPoliticoBySlug($slug, $numLeg > 0 ? $numLeg : null);
 
         if (!$politico) {
             http_response_code(404);
@@ -76,11 +83,13 @@ HTML;
         $camara = $politico['camara'];
         $partido = $politico['partido'];
         $entidad = $politico['entidad'];
-        $canonical = Router::url('/politicos/' . $slug);
+        $politicoLeg = (int)($politico['legislatura'] ?? 66);
+        $romano = DataService::convertirNumeroARomano($politicoLeg);
+        $canonical = Router::url('/politicos/' . $slug . ($numLeg > 0 && $numLeg !== 66 ? '?leg=' . $numLeg : ''));
 
         $seo = [
-            'title' => "{$nombre} ({$partido}) — {$camara} por {$entidad} | El Pulso de la Política",
-            'description' => "Expediente oficial de {$nombre}, {$camara} de la LXVI Legislatura por {$entidad}. Bancada {$partido}, comisiones legislativas e iniciativas.",
+            'title' => "{$nombre} ({$partido}) — {$camara} ({$romano} Legislatura) | El Pulso de la Política",
+            'description' => "Expediente oficial de {$nombre}, {$camara} de la {$romano} Legislatura por {$entidad}. Bancada {$partido}, comisiones legislativas e iniciativas.",
             'canonical' => $canonical,
             'og_image' => $politico['foto_oficial_url'] ?? '',
             'schema' => [
@@ -123,7 +132,8 @@ HTML;
     public function estado(array $params): void
     {
         $slug = $params['slug'] ?? '';
-        $estado = $this->dataService->getEstadoBySlug($slug);
+        $numLeg = isset($_GET['leg']) ? DataService::parseNumeroLegislatura((string)$_GET['leg']) : 66;
+        $estado = $this->dataService->getEstadoBySlug($slug, $numLeg);
 
         if (!$estado) {
             http_response_code(404);
@@ -133,11 +143,12 @@ HTML;
         }
 
         $nombre = $estado['nombre'];
-        $canonical = Router::url('/estados/' . $slug);
+        $romano = DataService::numeroALegislaturaRomano($numLeg);
+        $canonical = Router::url('/estados/' . $slug . ($numLeg !== 66 ? '?leg=' . $numLeg : ''));
 
         $seo = [
-            'title' => "Legisladores Federales de {$nombre} (LXVI Legislatura) | El Pulso de la Política",
-            'description' => "Radiografía completa de los senadores y diputados federales que representan a {$nombre} en el Congreso de la Unión.",
+            'title' => "Legisladores Federales de {$nombre} ({$romano} Legislatura) | El Pulso de la Política",
+            'description' => "Radiografía completa de los senadores y diputados federales que representan a {$nombre} en el Congreso de la Unión durante la {$romano} Legislatura.",
             'canonical' => $canonical,
             'schema' => [
                 '@context' => 'https://schema.org',
@@ -324,5 +335,65 @@ HTML;
             echo "  </url>\n";
         }
         echo "</urlset>";
+    }
+
+    /**
+     * Directorio y Archivo Histórico de Legislaturas (/legislaturas)
+     */
+    public function legislaturas(): void
+    {
+        $catalog = $this->dataService->getLegislaturasCatalog();
+        $disponibles = $this->dataService->getLegislaturasDisponibles();
+
+        $seo = [
+            'title' => 'Legislaturas del Congreso de la Unión — Archivo Histórico y Actual | El Pulso de la Política',
+            'description' => 'Explora los periodos constitucionales del Congreso de la Unión: LXVI (actual), LXV, LXIV y archivo parlamentario federal de México.',
+            'canonical' => Router::url('/legislaturas'),
+            'schema' => [
+                '@context' => 'https://schema.org',
+                '@type' => 'CollectionPage',
+                'name' => 'Legislaturas del Congreso de la Unión',
+                'url' => Router::url('/legislaturas'),
+            ],
+        ];
+
+        require dirname(__DIR__, 2) . '/views/legislaturas_index.php';
+    }
+
+    /**
+     * Expediente y Radiografía de una Legislatura (/legislaturas/{id})
+     */
+    public function legislatura(array $params): void
+    {
+        $idRaw = (string)($params['id'] ?? '66');
+        $num = DataService::parseNumeroLegislatura($idRaw);
+
+        $legData = $this->dataService->getLegislaturaData($num);
+        if (!$legData) {
+            http_response_code(404);
+            $homeUrl = Router::url('/');
+            echo "<div style='text-align:center; padding:50px; font-family:sans-serif;'><h2>Legislatura no encontrada</h2><a href='{$homeUrl}'>Volver al Inicio</a></div>";
+            return;
+        }
+
+        $meta = $legData['meta'];
+        $romano = $meta['romano'];
+        $periodo = $meta['periodo'];
+        $legislaturaRomano = $romano;
+        $canonical = Router::url('/legislaturas/' . $num);
+
+        $seo = [
+            'title' => "{$romano} Legislatura ({$periodo}) — Integración y Fuerza Parlamentaria | El Pulso de la Política",
+            'description' => "Composición parlamentaria, bancadas de partidos, senadores, diputados y radiografía cívica de la {$romano} Legislatura del Congreso de la Unión ({$periodo}).",
+            'canonical' => $canonical,
+            'schema' => [
+                '@context' => 'https://schema.org',
+                '@type' => 'GovernmentOrganization',
+                'name' => "{$romano} Legislatura del Congreso de la Unión",
+                'url' => $canonical,
+            ],
+        ];
+
+        require dirname(__DIR__, 2) . '/views/legislatura.php';
     }
 }

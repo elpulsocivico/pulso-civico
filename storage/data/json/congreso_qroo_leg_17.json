@@ -1,0 +1,524 @@
+{
+    "metadata": {
+        "entidad_id": 23,
+        "entidad_nombre": "Quintana Roo",
+        "camara": "Congreso del Estado de Quintana Roo",
+        "legislatura": 17,
+        "periodo": "2022-2024",
+        "total_legisladores": 25,
+        "fuente_oficial": "https://congresoqroo.gob.mx",
+        "fecha_extraccion": "2026-10-14 00:13:12",
+        "conteo_por_partido": {
+            "FXM": 1,
+            "PVEM": 7,
+            "PT": 3,
+            "MORENA": 10,
+            "PAN": 1,
+            "MC": 1,
+            "PRI": 1,
+            "MAS": 1
+        }
+    },
+    "legisladores": [
+        {
+            "referencia_sil": "qroo_leg17_01",
+            "nombre_completo": "Julián Javier Ricalde Magaña",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "FXM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 1",
+            "cabecera": "Kantunilkín",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "ce9b292b022a4568c97bf2971c10c5f173028e5c89413ea87bfc8b7d0dfcf047"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_02",
+            "nombre_completo": "Susana Hurtado Vallejo",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 2",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "352f10b3212df5c7064267b54fd2e2569fc821d734b515fd9d1776549f973291"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_03",
+            "nombre_completo": "Hugo Alday Nieto",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 3",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "2a7d2ff93d70a0ce164db86f77241b61840d755d27e0733fba0ee8e89245ad1a"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_04",
+            "nombre_completo": "Cristina del Carmen Alcerreca Manzanero",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 4",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "7e97ae90d9c73b0b3944f2e9fe673e1f650b010708de660d19671d9b16e6632c"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_05",
+            "nombre_completo": "Mildred Concepción Ávila Vera",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 5",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "31635540e7752a818725e2f9bffd29b53f3a2f136373b673fa961974c185d9d6"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_06",
+            "nombre_completo": "Andrea del Rosario González Loria",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 6",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "5362064f34e816f8311549bb0e4c5d46c69fa652cc35fbc1d77c8c3538234ca1"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_07",
+            "nombre_completo": "María Fernanda Cruz Sánchez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 7",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "eb03f6c3468a68423a2414ccfec21189fbaccc058d84fd5f5fcfc41d30d34210"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_08",
+            "nombre_completo": "Isaac Janix Alanís",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 8",
+            "cabecera": "Cancún",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "267c53a508bb50d53032bf595e40892e8408d5e245bf60028a171f271bd29336"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_09",
+            "nombre_completo": "Silvia Dzul Sánchez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 9",
+            "cabecera": "Tulum",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "3a3932ee0007d474cf3a1ba512c24b52ed09a89f86ebb04e2284e35b874acfe7"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_10",
+            "nombre_completo": "Angy Estefanía Mercado Asencio",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 10",
+            "cabecera": "Playa del Carmen",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "3fff8c5a328182712adb4d02f55b73a95107067e66b103cd408d2d0ee761869f"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_11",
+            "nombre_completo": "Renán Eduardo Sánchez Tajonar",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 11",
+            "cabecera": "Cozumel",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "64bdcc9bf7922ebcc109df0e92d13e48f8d9d1bb81e6482fed55ed8a0407e521"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_12",
+            "nombre_completo": "José María Chacón Chablé",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 12",
+            "cabecera": "Felipe Carrillo Puerto",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "ab5e4d831a29159852ddf51fad14d24bfcdc0f2ae55ebc30a4a32798be5dc0bc"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_13",
+            "nombre_completo": "Alicia Tapia Montejo",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 13",
+            "cabecera": "Bacalar",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "005e17f2b0f84dc93ec15c3acd973d1f93221cbd7b36220101f417a2a81f6630"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_14",
+            "nombre_completo": "Elda María Xix Euán",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 14",
+            "cabecera": "Chetumal rural",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "96f77b1ac1f3f51a6b57de2f6ebeb175d0330ad2914746a75d15f641548622cc"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_15",
+            "nombre_completo": "Omar Antonio Rodríguez Martínez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Quintana Roo",
+            "distrito": "Distrito 15",
+            "cabecera": "Chetumal urbano",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "19646042a1e3854f68698859e74a4bd11f0e92c9eb98dcc4189bdb7ac0415038"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_16",
+            "nombre_completo": "Luis Humberto Aldana Navarro",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "553dce0ece4ea7f809dea88105828812495ca7c61f269db0fc944229130cde3f"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_17",
+            "nombre_completo": "Ricardo Velazco Rodríguez",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "5fc3da89450e41cd45da0bf97bb1452b59a550ef7443617731a2abebe9601e8a"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_18",
+            "nombre_completo": "Luz María Beristain Navarrete",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "6cdff51fce97cf80d45ae44968a20417ed653e3f15f975a28653a6fb9a15c320"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_19",
+            "nombre_completo": "Yohanet Teódula Torres Muñoz",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "a65ec637bf823c48628b2b0a04fab1d7387335ec9e65858b20bd711e7a0c39b0"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_20",
+            "nombre_completo": "María José Osorio Rosas",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "f41ad63d55d370f93f33d24eb3998553c7cc39df56882fe42b8ba4d976397758"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_21",
+            "nombre_completo": "Guillermo Andrés Brahms González",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "629968c6064ce6f3d50cfdbe6784d7c024af2bbe21abebc38722f913bc61401e"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_22",
+            "nombre_completo": "Cinthya Yamilé Millán Estrella",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PAN",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "fc60c8abd19080fe1b5f310f21a26b89d0dc8b792a0bded417b455fd0bc6e6d2"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_23",
+            "nombre_completo": "Maritza Deyanira Basurto Basurto",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MC",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "6044ad6df252ad0c3069736acd1e3fd4ce253ea9848203ebe34bd4e020290518"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_24",
+            "nombre_completo": "Elda Candelaria Ayuso Achach",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "b91f0909a0b431fc4a7e42406274ae079565a9a6fe4eb23d2420c0eed7fd4947"
+            }
+        },
+        {
+            "referencia_sil": "qroo_leg17_25",
+            "nombre_completo": "Alfonsa Leticia Padilla Medina",
+            "camara": "Congreso del Estado de Quintana Roo",
+            "legislatura": 17,
+            "partido": "MAS",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Quintana Roo",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "suplente_nombre": null,
+            "fecha_toma_protesta": "2022-09-03",
+            "metadata": {
+                "fuente": "H. Congreso del Estado de Quintana Roo (Archivo Histórico)",
+                "fuente_url": "https://congresoqroo.gob.mx",
+                "fecha_extraccion": "2026-10-14 00:13:12",
+                "hash_sha256": "42c68486d91c48bb045b57b4e981c69c8154f688137d5ba79f0fcdc838b70c2b"
+            }
+        }
+    ]
+}
