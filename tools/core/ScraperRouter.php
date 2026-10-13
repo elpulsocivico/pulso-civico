@@ -42,11 +42,15 @@ class ScraperRouter
             case 'asistencias':
                 return self::scrapeAsistencias($config, $params);
 
+            case 'bc':
+            case 'bajacalifornia':
+                return self::scrapeBajaCalifornia($config, $params);
+
             default:
                 return [
                     'ok' => false,
                     'error' => "Fuente de scraping '{$source}' no soportada.",
-                    'available_sources' => ['sil', 'votaciones', 'asistencias'],
+                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc'],
                 ];
         }
     }
@@ -162,4 +166,14 @@ class ScraperRouter
 
         return $service->scrapeNominalAsistenciasPeriodo($pert);
     }
+
+    private static function scrapeBajaCalifornia(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-BC');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoBajaCaliforniaScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        return $service->scrapeLegislatura25();
+    }
 }
+

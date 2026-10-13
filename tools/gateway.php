@@ -61,8 +61,156 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'git:cmd':
+        $fullCmd = $target . ($extra !== '' ? " {$extra}" : '');
+        $result = GitOps::execGit($fullCmd);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'git:commit':
+        $msg = $target !== '' ? $target : 'data: incorporar dataset del Congreso de Baja California (resolves #12)';
+        $result = GitOps::execGit('commit -m ' . escapeshellarg($msg));
+        $response = array_merge($response, $result);
+        break;
+
+    case 'git:push':
+        $branch = $target !== '' ? $target : 'data/congreso-baja-california';
+        $result = GitOps::execGit("push -u origin {$branch}");
+        $response = array_merge($response, $result);
+        break;
+
+    case 'git:preflight':
+        $result = GitOps::preflightCheck($rootDir);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'push:clean':
+    case 'ship':
+        $pre = GitOps::preflightCheck($rootDir);
+        if (!$pre['ready_for_main']) {
+            $response['ok'] = false;
+            $response['error'] = 'Preflight falló. Errores de sintaxis o no hay archivos limpios para commitear.';
+            $response['preflight'] = $pre;
+            break;
+        }
+
+        $commitMsg = $target !== '' ? $target : 'feat: actualización validada';
+        // 1. Agregar quirúrgicamente solo los archivos aprobados
+        $added = [];
+        foreach ($pre['clean_files_to_commit'] as $f) {
+            GitOps::execGit('add ' . escapeshellarg($f));
+            $added[] = $f;
+        }
+
+        // 2. Commit
+        $cRes = GitOps::execGit('commit -m ' . escapeshellarg($commitMsg));
+        $response['commit_result'] = $cRes;
+        $response['files_staged'] = $added;
+        $response['files_ignored'] = $pre['test_or_temp_files_detected'];
+        $response['ok'] = ($cRes['code'] === 0);
+        break;
+
+    case 'telegram:check':
+    case 'telegram:updates':
+    case 'telegram:send':
+    case 'telegram:post':
+        $privateBot = $rootDir . '/tools/private/telegram_bot.php';
+        if (file_exists($privateBot)) {
+            $phpExec = defined('PHP_BINARY') && PHP_BINARY !== '' ? PHP_BINARY : 'php';
+            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($privateBot) . " " . escapeshellarg(str_replace('telegram:', '', $action)) . " " . escapeshellarg($target) . " " . escapeshellarg($extra);
+            $output = [];
+            exec($cmd, $output);
+            $response['bot_output'] = json_decode(implode("\n", $output), true) ?: implode("\n", $output);
+        } else {
+            $response['error'] = 'Herramienta privada de bot no instalada en local.';
+        }
+        break;
+
+    case 'project:report':
+    case 'project:status':
+    case 'project:post':
+    case 'project:start':
+    case 'project:answer':
+        $assistant = $rootDir . '/tools/private/project_assistant.php';
+        if (file_exists($assistant)) {
+            $phpExec = defined('PHP_BINARY') && PHP_BINARY !== '' ? PHP_BINARY : 'php';
+            $modeMap = [
+                'project:post' => 'post',
+                'project:start' => 'start',
+                'project:answer' => 'answer',
+            ];
+            $mode = $modeMap[$action] ?? 'report';
+            $cmd = escapeshellarg($phpExec) . " " . escapeshellarg($assistant) . " " . escapeshellarg($mode) . " " . escapeshellarg($target) . " " . escapeshellarg($extra);
+            $output = [];
+            exec($cmd, $output);
+            $rawOut = implode("\n", $output);
+            $response['report'] = json_decode($rawOut, true) ?: $rawOut;
+        } else {
+            $response['error'] = 'Script de asistente no encontrado en tools/private/';
+        }
+        break;
+
+    case 'audit:pr':
+    case 'audit:ref':
+        $ref = $target !== '' ? $target : 'origin/data/leg-65';
+        $base = $extra !== '' ? $extra : 'origin/main';
+        $result = Inspector::auditGitRef($ref, $base);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'audit:prs':
+    case 'audit:all':
+        $prs = [
+            'PR #11 (LXV 2021-2024)' => 'origin/data/leg-65',
+            'PR #10 (LXIV 2018-2021)' => 'origin/data/leg-64',
+            'PR #9 (LXIII 2015-2018)' => 'origin/data/leg-63',
+            'PR #8 (Congreso Tamaulipas)' => 'origin/data/congreso-tamaulipas',
+            'PR #7 (LXII 2012-2015)' => 'origin/data/leg-62',
+            'PR #6 (LXI 2009-2012)' => 'origin/data/leg-61',
+        ];
+        $allAudits = [];
+        foreach ($prs as $prLabel => $branch) {
+            $allAudits[$prLabel] = Inspector::auditGitRef($branch, 'origin/main');
+        }
+        $response['audits'] = $allAudits;
+        break;
+
+    case 'analyze:tamaulipas':
+        $result = Inspector::analyzeTamaulipasDatasets($rootDir);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'integrate:prs':
+        $prs = [
+            'PR #11 (LXV 2021-2024)' => 'origin/data/leg-65',
+            'PR #10 (LXIV 2018-2021)' => 'origin/data/leg-64',
+            'PR #9 (LXIII 2015-2018)' => 'origin/data/leg-63',
+            'PR #8 (Congreso Tamaulipas)' => 'origin/data/congreso-tamaulipas',
+            'PR #7 (LXII 2012-2015)' => 'origin/data/leg-62',
+            'PR #6 (LXI 2009-2012)' => 'origin/data/leg-61',
+        ];
+        $integrated = [];
+        foreach ($prs as $prLabel => $branch) {
+            // Obtener lista de archivos en la rama
+            $outFiles = [];
+            exec("git ls-tree -r --name-only {$branch} storage/data/json/", $outFiles);
+            $count = 0;
+            if (!empty($outFiles)) {
+                exec("git checkout {$branch} -- storage/data/json/");
+                $count = count($outFiles);
+            }
+            $integrated[$prLabel] = [
+                'branch' => $branch,
+                'files_restored' => $count,
+                'sample' => array_slice($outFiles, 0, 3),
+            ];
+        }
+        $response['integrated'] = $integrated;
+        break;
+
     case 'health':
     case 'check':
+
         $result = Inspector::checkHealth($rootDir);
         $response = array_merge($response, $result);
         break;
@@ -76,39 +224,348 @@ switch ($action) {
     case 'scrape':
     case 'ingest':
         // Target puede ser 'sil', 'nacional' o un ID numérico de entidad
+        // Target puede ser 'sil', 'nacional', un ID de entidad o cadena key=val
         $source = 'sil';
         $params = [];
-        if ($target === 'nacional' || $target === 'all') {
-            $params['nacional'] = true;
-        } elseif (is_numeric($target)) {
-            $params['entidad'] = (int)$target;
-        } elseif ($target !== '') {
-            $source = $target;
+        $rawInputs = [$target, $extra];
+        foreach ($rawInputs as $inp) {
+            $inp = trim($inp);
+            if ($inp === '') continue;
+            if ($inp === 'nacional' || $inp === 'all') {
+                $params['nacional'] = true;
+            } elseif (is_numeric($inp)) {
+                $params['entidad'] = (int)$inp;
+            } elseif (str_contains($inp, '=') || str_contains($inp, '&')) {
+                // Separar por coma o por &
+                $pairs = preg_split('/[,&]/', $inp);
+                foreach ($pairs as $pair) {
+                    $pParts = explode('=', trim($pair), 2);
+                    if (count($pParts) === 2) {
+                        $k = trim($pParts[0]);
+                        $v = trim($pParts[1]);
+                        $params[$k] = is_numeric($v) ? (int)$v : $v;
+                    }
+                }
+            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia'])) {
+                $source = strtolower($inp);
+            }
+        }
+        $response['parsed_params'] = $params;
+        $result = ScraperRouter::run($rootDir, $source, $params);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'probe:sil':
+        $leg = $target !== '' ? (int)$target : 61;
+        $cam = $extra !== '' ? (int)$extra : 1;
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $config = require $rootDir . '/config/config.php';
+        $logger = new \PulsoCivico\Core\Logger($config['paths']['logs'], 'PROBE');
+        $http = new \PulsoCivico\Core\HttpClient($config['sil'], $logger);
+        
+        // Petición al formulario de reporte para ver opciones de entidad
+        $reportUrl = $config['sil']['report_url'];
+        // Probar entidades para ver en cuál están los senadores de la leg especificada
+        $probes = [];
+        $found = [];
+        for ($ent = 1; $ent <= 35; $ent++) {
+            $res = $http->request('POST', $reportUrl, [
+                'CAMARA' => (string)$cam,
+                'LEGISLATURA' => (string)$leg,
+                'PARTIDO' => '0',
+                'PRIN_ELECCION' => '0',
+                'ENTIDAD' => (string)$ent,
+            ]);
+            $body = $res['body'] ?? '';
+            $hasData = stripos($body, 'tddatosazul') !== false;
+            $countRows = substr_count($body, 'tddatosazul');
+            if ($hasData) {
+                $found[$ent] = $countRows;
+            }
+            usleep(200000); // 200ms
+        }
+        $response['legislatura'] = $leg;
+        $response['camara'] = $cam;
+        $response['entidades_con_datos'] = $found;
+        break;
+
+    case 'list:legislaturas':
+    case 'legs':
+        $jsonDir = $rootDir . '/storage/data/json';
+        $files = glob($jsonDir . '/*.json') ?: [];
+        $legsFound = [];
+        $stateFiles = [];
+        $nationalFiles = [];
+        $otherFiles = [];
+
+        foreach ($files as $fPath) {
+            $base = basename($fPath);
+            if (preg_match('/_leg_(\d+)\.json$/', $base, $m)) {
+                $legNum = (int)$m[1];
+                $legsFound[$legNum] = ($legsFound[$legNum] ?? 0) + 1;
+                if (str_starts_with($base, 'congreso_union_leg_')) {
+                    $nationalFiles[$legNum] = $base;
+                }
+            } elseif (preg_match('/congreso_tamaulipas/i', $base)) {
+                $stateFiles[] = $base;
+            } else {
+                $otherFiles[] = $base;
+            }
+        }
+        ksort($legsFound);
+
+        $response['legislaturas_en_json'] = $legsFound;
+        $byLegFiles = [];
+        foreach ($files as $fPath) {
+            $base = basename($fPath);
+            if (preg_match('/_leg_(\d+)\.json$/', $base, $m)) {
+                $l = (int)$m[1];
+                if (!isset($byLegFiles[$l])) $byLegFiles[$l] = [];
+                $byLegFiles[$l][] = $base;
+            }
+        }
+        $response['archivos_por_legislatura'] = [
+            '57' => $byLegFiles[57] ?? [],
+            '58' => $byLegFiles[58] ?? [],
+            '59' => $byLegFiles[59] ?? [],
+            '60' => $byLegFiles[60] ?? [],
+            '61' => count($byLegFiles[61] ?? []) . ' archivos',
+            '62' => count($byLegFiles[62] ?? []) . ' archivos',
+            '63' => count($byLegFiles[63] ?? []) . ' archivos',
+            '64' => count($byLegFiles[64] ?? []) . ' archivos',
+            '65' => count($byLegFiles[65] ?? []) . ' archivos',
+            '66' => count($byLegFiles[66] ?? []) . ' archivos',
+        ];
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $ds = new \PulsoCivico\Services\DataService();
+        $disponiblesWeb = $ds->getLegislaturasDisponibles();
+        $webConteo = [];
+        foreach ($disponiblesWeb as $lNum) {
+            $dataLeg = $ds->getLegislaturaData($lNum);
+            $webConteo[$lNum] = [
+                'romano' => $dataLeg['meta']['romano'] ?? (string)$lNum,
+                'periodo' => $dataLeg['meta']['periodo'] ?? '',
+                'total_legisladores' => $dataLeg['total_legisladores'] ?? 0,
+                'total_diputados' => $dataLeg['total_diputados'] ?? 0,
+                'total_senadores' => $dataLeg['total_senadores'] ?? 0,
+                'bancadas_diputados_count' => count($dataLeg['bancadas_diputados'] ?? []),
+            ];
         }
 
-        if ($extra !== '') {
-            if ($extra === 'nacional' || $extra === 'all') {
-                $params['nacional'] = true;
-            } elseif (is_numeric($extra)) {
-                $params['entidad'] = (int)$extra;
-            } else {
-                $decoded = json_decode($extra, true);
-                if (is_array($decoded)) {
-                    $params = array_merge($params, $decoded);
-                } elseif (str_contains($extra, '=')) {
-                    foreach (explode(',', $extra) as $pair) {
-                        $pParts = explode('=', trim($pair), 2);
-                        if (count($pParts) === 2) {
-                            $k = trim($pParts[0]);
-                            $v = trim($pParts[1]);
-                            $params[$k] = is_numeric($v) ? (int)$v : $v;
-                        }
+        $response['web_ready_legislaturas'] = $webConteo;
+        $response['nacionales_consolidados'] = $nationalFiles;
+        $response['total_json_files'] = count($files);
+        break;
+
+    case 'inspect:parser':
+        $leg = $target !== '' ? (int)$target : 61;
+        $cam = $extra !== '' ? (int)$extra : 1;
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $config = require $rootDir . '/config/config.php';
+        $logger = new \PulsoCivico\Core\Logger($config['paths']['logs'], 'INSPECT-PARSER');
+        $http = new \PulsoCivico\Core\HttpClient($config['sil'], $logger);
+        $res = $http->request('POST', $config['sil']['report_url'], [
+            'CAMARA' => (string)$cam,
+            'LEGISLATURA' => (string)$leg,
+            'PARTIDO' => '0',
+            'PRIN_ELECCION' => '0',
+            'ENTIDAD' => '9',
+        ]);
+        $html = $res['body'] ?? '';
+        
+        $doc = new \DOMDocument();
+        @$doc->loadHTML('<?xml encoding="utf-8" ?>' . $html);
+        $xpath = new \DOMXPath($doc);
+        $rows = $xpath->query("//tr[td[contains(@class, 'tddatosazul')]]");
+        $sampleRows = [];
+        foreach ($rows as $i => $row) {
+            if ($i >= 5) break;
+            $tds = $xpath->query("./td", $row);
+            $cols = [];
+            foreach ($tds as $td) {
+                $cols[] = trim($td->textContent);
+            }
+            $link = $xpath->query(".//a[contains(@onclick, 'Referencia=')]", $row)->item(0);
+            $onclick = $link ? $link->getAttribute('onclick') : 'no-link';
+            $sampleRows[] = [
+                'cols_count' => $tds->length,
+                'onclick' => $onclick,
+                'cols' => $cols,
+            ];
+        }
+        $response['total_rows_found'] = $rows->length;
+        $response['sample_rows'] = $sampleRows;
+        break;
+
+    case 'extract:df:fast':
+        $leg = $target !== '' ? (int)$target : 61;
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $config = require $rootDir . '/config/config.php';
+        $logger = new \PulsoCivico\Core\Logger($config['paths']['logs'], 'FAST-EXTRACT');
+        $http = new \PulsoCivico\Core\HttpClient($config['sil'], $logger);
+        
+        $camaras = [
+            1 => 'Diputados',
+            2 => 'Senadores',
+        ];
+        $allRecords = ['diputados' => [], 'senadores' => []];
+        foreach ($camaras as $camId => $camName) {
+            $res = $http->request('POST', $config['sil']['report_url'], [
+                'CAMARA' => (string)$camId,
+                'LEGISLATURA' => (string)$leg,
+                'PARTIDO' => '0',
+                'PRIN_ELECCION' => '0',
+                'ENTIDAD' => '9',
+            ]);
+            $html = $res['body'] ?? '';
+            $doc = new \DOMDocument();
+            @$doc->loadHTML('<?xml encoding="utf-8" ?>' . $html);
+            $xpath = new \DOMXPath($doc);
+            $rows = $xpath->query("//tr[td[contains(@class, 'tddatosazul')]]");
+            
+            foreach ($rows as $row) {
+                $tds = $xpath->query("./td", $row);
+                if ($tds->length < 8) continue;
+                $link = $xpath->query(".//a[contains(@onclick, 'Referencia=')]", $row)->item(0);
+                if (!$link) continue;
+                $onclick = $link->getAttribute('onclick');
+                if (!preg_match('/Referencia=(\d+)/i', $onclick, $refMatch)) continue;
+                $refId = $refMatch[1];
+                
+                $dto = new \PulsoCivico\DTO\LegisladorDTO(
+                    referenciaSil: $refId,
+                    nombreCompleto: trim($tds->item(2)->textContent),
+                    camara: $camName,
+                    legislatura: $leg,
+                    partido: trim($tds->item(3)->textContent),
+                    principioEleccion: trim($tds->item(4)->textContent),
+                    entidad: 'Distrito Federal',
+                    distrito: null,
+                    tipoCargo: trim($tds->item(7)->textContent),
+                    suplenteNombre: null,
+                    fechaTomaProtesta: trim($tds->item(6)->textContent),
+                    fechaNacimiento: null,
+                    correoInstitucional: null,
+                    telefono: null,
+                    ubicacionOficina: $camName === 'Senadores' ? 'Senado de la República' : 'Palacio Legislativo de San Lázaro',
+                    ultimoGradoEstudios: null,
+                    preparacionAcademica: null,
+                    experienciaLegislativaResumen: null,
+                    fotoOficialUrl: "http://sil.gobernacion.gob.mx/Archivos/Fotos/{$refId}.jpg",
+                    fotoLocalPath: null,
+                    comisiones: [],
+                    trayectoriaPolitica: [],
+                    trayectoriaLegislativa: [],
+                    trayectoriaAdministrativa: [],
+                    escolaridadDetalle: [],
+                    licencias: [],
+                    iniciativas: [],
+                    puntosAcuerdo: [],
+                    redesSociales: [],
+                    metadata: [
+                        'fuente' => 'SIL SEGOB',
+                        'fuente_url' => "http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php",
+                        'titular_referencia_sil' => null,
+                        'titular_nombre' => null,
+                        'suplente_referencia_sil' => null,
+                        'fecha_extraccion' => (new \DateTimeImmutable())->format(\DateTimeInterface::ATOM),
+                    ]
+                );
+                $key = strtolower($camName);
+                $allRecords[$key][] = $dto->toArray();
+            }
+            sleep(1);
+        }
+        
+        $outFile = $rootDir . "/storage/data/json/legisladores_entidad_9_leg_{$leg}.json";
+        $dataToSave = [
+            'metadata' => [
+                'entidad_id' => 9,
+                'entidad_nombre' => 'Ciudad de México',
+                'legislatura' => $leg,
+                'generado_en' => (new \DateTimeImmutable())->format(\DateTimeInterface::ATOM),
+                'total_diputados' => count($allRecords['diputados']),
+                'total_senadores' => count($allRecords['senadores']),
+                'total_general' => count($allRecords['diputados']) + count($allRecords['senadores']),
+            ],
+            'diputados' => $allRecords['diputados'],
+            'senadores' => $allRecords['senadores'],
+        ];
+        file_put_contents($outFile, json_encode($dataToSave, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+
+        // Re-consolidar archivo nacional de la legislatura si existe
+        $consolidadoFile = $rootDir . "/storage/data/json/congreso_union_leg_{$leg}.json";
+        $totalNacionalDips = 0;
+        $totalNacionalSens = 0;
+        if (file_exists($consolidadoFile)) {
+            $todosDips = [];
+            $todosSens = [];
+            for ($e = 1; $e <= 32; $e++) {
+                $eFile = $rootDir . "/storage/data/json/legisladores_entidad_{$e}_leg_{$leg}.json";
+                if (file_exists($eFile)) {
+                    $eData = json_decode((string)file_get_contents($eFile), true);
+                    if (is_array($eData)) {
+                        foreach ($eData['diputados'] ?? [] as $d) $todosDips[] = $d;
+                        foreach ($eData['senadores'] ?? [] as $s) $todosSens[] = $s;
                     }
                 }
             }
+            $dataConsolidada = [
+                'metadata' => [
+                    'titulo' => "Congreso de la Unión de México - Legislatura {$leg}",
+                    'alcance' => 'Nacional (32 Entidades Federativas)',
+                    'generado_en' => (new \DateTimeImmutable())->format(\DateTimeInterface::ATOM),
+                    'total_diputados' => count($todosDips),
+                    'total_senadores' => count($todosSens),
+                    'total_general' => count($todosDips) + count($todosSens),
+                ],
+                'diputados' => $todosDips,
+                'senadores' => $todosSens,
+            ];
+            file_put_contents($consolidadoFile, json_encode($dataConsolidada, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+            $totalNacionalDips = count($todosDips);
+            $totalNacionalSens = count($todosSens);
         }
-        $result = ScraperRouter::run($rootDir, $source, $params);
-        $response = array_merge($response, $result);
+        
+        $response['out_file'] = $outFile;
+        $response['total_diputados'] = count($allRecords['diputados']);
+        $response['total_senadores'] = count($allRecords['senadores']);
+        $response['total'] = $dataToSave['metadata']['total_general'];
+        $response['consolidado_actualizado'] = file_exists($consolidadoFile);
+        $response['consolidado_total_diputados'] = $totalNacionalDips;
+        $response['consolidado_total_senadores'] = $totalNacionalSens;
         break;
 
     case 'stats:educacion':
@@ -722,4 +1179,10 @@ switch ($action) {
         break;
 }
 
-echo json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n";
+$json = json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
+if ($json === false) {
+    echo json_encode(['error' => 'json_encode_failed', 'msg' => json_last_error_msg()]) . "\n";
+} else {
+    echo $json . "\n";
+}
+
