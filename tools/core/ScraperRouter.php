@@ -147,6 +147,11 @@ class ScraperRouter
             case 'congreso_zacatecas':
                 return self::scrapeEstadoGenerico('CongresoZacatecasScraperService', 'ROUTER-ZAC', $config, $params);
 
+            case 'ejecutivo:estatal':
+            case 'ejecutivo:aguascalientes':
+            case 'ejecutivo:ags':
+                return self::scrapeEjecutivoEstatal($config, $params, 'aguascalientes');
+
             default:
                 return [
                     'ok' => false,
@@ -156,11 +161,13 @@ class ScraperRouter
                         'bc', 'bcs', 'campeche', 'yucatan', 'quintanaroo', 'chiapas',
                         'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon',
                         'aguascalientes', 'edomex', 'guanajuato', 'hidalgo', 'jalisco',
-                        'michoacan', 'nayarit', 'puebla', 'queretaro', 'sanluispotosi', 'zacatecas'
+                        'michoacan', 'nayarit', 'puebla', 'queretaro', 'sanluispotosi', 'zacatecas',
+                        'ejecutivo:aguascalientes'
                     ],
                 ];
         }
     }
+
 
     private static function scrapeSil(array $config, array $params): array
     {
@@ -494,5 +501,15 @@ class ScraperRouter
         $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
         return $res;
     }
+
+    private static function scrapeEjecutivoEstatal(array $config, array $params, string $entidad): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-EJECUTIVO-ESTATAL');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\EjecutivoEstatalService($httpClient, $logger, $config['paths']['storage']);
+
+        return $service->scrapeEntidad($entidad);
+    }
 }
+
 
