@@ -255,6 +255,25 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'scrape:ejecutivo':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $config = require $rootDir . '/config/config.php';
+        $logger = new \PulsoCivico\Core\Logger($config['paths']['logs'], 'EJECUTIVO');
+        $http = new \PulsoCivico\Core\HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\EjecutivoEstatalService($http, $logger, $config['paths']['storage']);
+        $entidad = $target !== '' ? $target : 'noroeste';
+        $res = $service->scrapeEntidad($entidad);
+        $response = array_merge($response, $res);
+        break;
+
     case 'probe:sil':
         $leg = $target !== '' ? (int)$target : 61;
         $cam = $extra !== '' ? (int)$extra : 1;
