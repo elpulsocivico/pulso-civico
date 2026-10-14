@@ -42,3 +42,13 @@ desktop.ini
 # --- Caché de herramientas ---
 .phpunit.cache/
 .phpstan.cache/
+
+# --- Python y entorno virtual ---
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+storage/electoral/actas/*
+!storage/electoral/actas/.gitkeep
+tor_keys/

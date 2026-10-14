@@ -1,0 +1,113 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <div class="text-center mb-4">
+            <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-2 mb-2">
+                <i class="bi bi-shield-lock-fill me-1"></i>Auditoría P2P Descentralizada
+            </span>
+            <h2 class="fw-bold">Registro Ciudadano de Actas de Casilla</h2>
+            <p class="text-secondary small">
+                Toma una fotografía clara de la sábana o acta colocada afuera de tu casilla electoral. 
+                Los metadatos personales y GPS serán eliminados automáticamente para proteger tu privacidad.
+            </p>
+        </div>
+
+        <div class="ios-card p-4">
+            <form id="formActa" enctype="multipart/form-data">
+                <div class="row g-3 mb-3">
+                    <div class="col-sm-6">
+                        <label class="form-label fw-semibold small">Sección Electoral (4 dígitos)</label>
+                        <input type="text" class="form-control rounded-3" name="seccion" placeholder="Ej. 0450" required maxlength="6">
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label fw-semibold small">Tipo de Casilla</label>
+                        <select class="form-select rounded-3" name="casilla" required>
+                            <option value="B">Básica (B)</option>
+                            <option value="C1">Contigua 1 (C1)</option>
+                            <option value="C2">Contigua 2 (C2)</option>
+                            <option value="C3">Contigua 3 (C3)</option>
+                            <option value="E1">Extraordinaria 1 (E1)</option>
+                            <option value="S">Especial (S)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fw-semibold small">Fotografía del Acta / Sábana</label>
+                    <input type="file" class="form-control rounded-3" name="foto" accept="image/*" required id="fileInput">
+                    <div class="form-text" style="font-size: 0.75rem;">Formatos aceptados: JPG, PNG, WEBP. Máximo 15 MB.</div>
+                </div>
+
+                <div id="previewContainer" class="mb-3 d-none text-center">
+                    <img id="imgPreview" class="img-fluid rounded-3 border shadow-sm" style="max-height: 250px;">
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 rounded-pill py-2 fw-semibold" id="btnSubmit">
+                    <i class="bi bi-cloud-arrow-up-fill me-1"></i>Subir y Asegurar Criptográficamente
+                </button>
+            </form>
+
+            <div id="resultadoBox" class="mt-4 d-none alert alert-success rounded-3 border-0">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                    <i class="bi bi-check-circle-fill fs-5 text-success"></i>
+                    <strong id="resMensaje">Acta recibida con éxito</strong>
+                </div>
+                <div class="small text-muted mb-1">Hash SHA-256 de Inmutabilidad:</div>
+                <code class="d-block p-2 bg-light rounded text-break" id="resHash" style="font-size: 0.75rem;"></code>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const form = document.getElementById('formActa');
+const fileInput = document.getElementById('fileInput');
+const previewContainer = document.getElementById('previewContainer');
+const imgPreview = document.getElementById('imgPreview');
+const btnSubmit = document.getElementById('btnSubmit');
+const resultadoBox = document.getElementById('resultadoBox');
+const resHash = document.getElementById('resHash');
+const resMensaje = document.getElementById('resMensaje');
+
+fileInput.addEventListener('change', function() {
+    const file = this.files[0];
+    if (file) {
+        imgPreview.src = URL.createObjectURL(file);
+        previewContainer.classList.remove('d-none');
+    }
+});
+
+form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    btnSubmit.disabled = true;
+    btnSubmit.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Procesando y eliminando metadatos EXIF...';
+
+    const formData = new FormData(form);
+    try {
+        const res = await fetch('/api/electoral/actas', {
+            method: 'POST',
+            body: formData
+        });
+        const data = await res.json();
+        if (res.ok) {
+            resultadoBox.classList.remove('d-none');
+            resHash.textContent = data.hash_sha256;
+            resMensaje.textContent = data.mensaje;
+            form.reset();
+            previewContainer.classList.add('d-none');
+        } else {
+            alert('Error: ' + (data.detail || 'No se pudo subir el archivo'));
+        }
+    } catch (err) {
+        alert('Error de conexión con el nodo receptor.');
+    } finally {
+        btnSubmit.disabled = false;
+        btnSubmit.innerHTML = '<i class="bi bi-cloud-arrow-up-fill me-1"></i>Subir y Asegurar Criptográficamente';
+    }
+});
+</script>
+{% endblock %}
