@@ -247,7 +247,29 @@ class ScraperRouter
         $httpClient = new HttpClient($config['sil'], $logger);
         $service = new \PulsoCivico\Services\CongresoCampecheScraperService($httpClient, $logger, $config['paths']['storage']);
 
-        return $service->scrapeLegislatura65();
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '65' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 65)) {
+            return $service->scrapeLegislatura65();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        if (!empty($params['legislatura'])) {
+            $legNum = (int)$params['legislatura'];
+            if ($legNum === 64) {
+                return $service->scrapeLegislatura64();
+            }
+            if ($legNum === 63) {
+                return $service->scrapeLegislatura63();
+            }
+            if ($legNum === 62) {
+                return $service->scrapeLegislatura62();
+            }
+        }
+
+        return $service->scrapeTodo();
     }
 
     private static function scrapeYucatan(array $config, array $params): array
