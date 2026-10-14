@@ -294,32 +294,106 @@ switch ($action) {
         break;
 
     case 'integrate:prs':
+    case 'integrate:all_new':
         $prs = [
-            'PR #22 (Congreso Baja California XVI-XXV)' => 'origin/data/congreso-bajacalifornia-historico',
-            'PR #21 (Congreso Sinaloa LVIII-LXV)'       => 'origin/data/congreso-sinaloa',
-            'PR #20 (Congreso Sonora LV-LXIV)'          => 'origin/data/congreso-sonora',
-            'PR #19 (Congreso Durango LXI-LXX)'         => 'origin/data/congreso-durango',
-            'PR #18 (Congreso Chihuahua LXII-LXVIII)'   => 'origin/data/congreso-chihuahua',
-            'PR #17 (Congreso Coahuila LVII-LXIII)'     => 'origin/data/congreso-coahuila',
-            'PR #16 (Congreso Nuevo León LXXI-LXXVII)'  => 'origin/data/congreso-nuevoleon',
+            'Aguascalientes'   => 'origin/data/congreso-aguascalientes',
+            'Edomex'           => 'origin/data/congreso-edomex',
+            'Guanajuato'       => 'origin/data/congreso-guanajuato',
+            'Hidalgo'          => 'origin/data/congreso-hidalgo',
+            'Jalisco'          => 'origin/data/congreso-jalisco',
+            'Michoacan'        => 'origin/data/congreso-michoacan',
+            'Nayarit'          => 'origin/data/congreso-nayarit',
+            'Puebla'           => 'origin/data/congreso-puebla',
+            'Queretaro'        => 'origin/data/congreso-queretaro',
+            'San Luis Potosí'  => 'origin/data/congreso-sanluispotosi',
+            'Zacatecas'        => 'origin/data/congreso-zacatecas',
+            'Docs Scrapers'    => 'origin/docs/manual-scrapers',
+            'Docs Demandas'    => 'origin/docs/manual-scraping-demandas',
         ];
         $integrated = [];
+        $allExtracted = [];
         foreach ($prs as $prLabel => $branch) {
-            // Obtener lista de archivos en la rama
-            $outFiles = [];
-            exec("git ls-tree -r --name-only {$branch} storage/data/json/", $outFiles);
-            $count = 0;
-            if (!empty($outFiles)) {
-                exec("git checkout {$branch} -- storage/data/json/");
-                $count = count($outFiles);
+            $files = [];
+            exec("git --no-pager diff --name-only origin/main...{$branch} 2>&1", $files);
+            $restored = [];
+            foreach ($files as $f) {
+                $f = trim($f);
+                if ($f === '' || $f === '.gitignore' || $f === 'tools/core/ScraperRouter.php' || $f === 'tools/gateway.php' || $f === 'tools/core/Inspector.php') {
+                    continue;
+                }
+                if (str_starts_with($f, 'storage/data/json/congreso_') || 
+                    str_starts_with($f, 'src/Services/Congreso') || 
+                    str_starts_with($f, 'docs/')) {
+                    
+                    $outCo = [];
+                    $code = 0;
+                    exec("git --no-pager checkout {$branch} -- " . escapeshellarg($f) . " 2>&1", $outCo, $code);
+                    if ($code === 0) {
+                        $restored[] = $f;
+                        $allExtracted[] = $f;
+                    }
+                }
             }
             $integrated[$prLabel] = [
                 'branch' => $branch,
-                'files_restored' => $count,
-                'sample' => array_slice($outFiles, 0, 3),
+                'files_restored_count' => count($restored),
+                'files' => $restored,
             ];
         }
         $response['integrated'] = $integrated;
+        $response['total_files_extracted'] = count($allExtracted);
+        $response['all_files'] = array_values(array_unique($allExtracted));
+        break;
+
+    case 'ship:all_states':
+        $filesToStage = [
+            'docs/ESTADOS_COBERTURA.md',
+            'docs/MANUAL_DE_SCRAPERS.md',
+            'docs/MANUAL_SCRAPING_DEMANDAS_Y_SANCIONES.md',
+            'tools/core/ScraperRouter.php',
+            'tools/gateway.php',
+            'tools/core/coahuila_parser.py',
+            'tools/core/nl_pdf_parser.py',
+        ];
+
+        $services = glob($rootDir . '/src/Services/*.php') ?: [];
+        foreach ($services as $srv) {
+            $filesToStage[] = 'src/Services/' . basename($srv);
+        }
+        $catServices = glob($rootDir . '/src/Services/Catalog/*.php') ?: [];
+        foreach ($catServices as $srv) {
+            $filesToStage[] = 'src/Services/Catalog/' . basename($srv);
+        }
+
+        $jsonDir = $rootDir . '/storage/data/json';
+        $stateJsonFiles = glob($jsonDir . '/congreso_*.json') ?: [];
+        foreach ($stateJsonFiles as $sj) {
+            $filesToStage[] = 'storage/data/json/' . basename($sj);
+        }
+
+        $staged = [];
+        foreach (array_unique($filesToStage) as $f) {
+            $fullPath = $rootDir . '/' . $f;
+            if (file_exists($fullPath)) {
+                GitOps::execGit('add ' . escapeshellarg($f));
+                $staged[] = $f;
+            }
+        }
+
+        $commitMsg = $target !== '' ? $target : 'feat(data): incorporar datasets historicos y scrapers de 18 congresos estatales';
+        $cRes = GitOps::execGit('commit -m ' . escapeshellarg($commitMsg));
+        $response['commit_result'] = $cRes;
+        $response['files_staged_count'] = count($staged);
+
+        if ($cRes['code'] === 0) {
+            $branch = 'data/integracion-congresos-norte';
+            GitOps::execGit("checkout -B {$branch}");
+            $pRes = GitOps::execGit("push -u origin {$branch} --force");
+            $response['push_result'] = $pRes;
+            $response['ok'] = ($pRes['code'] === 0);
+        } else {
+            $response['ok'] = false;
+        }
         break;
 
     case 'health':
@@ -360,7 +434,7 @@ switch ($action) {
                         $params[$k] = is_numeric($v) ? (int)$v : $v;
                     }
                 }
-            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur', 'yuc', 'yucatan', 'qroo', 'quintanaroo'])) {
+            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur', 'cam', 'campeche', 'yuc', 'yucatan', 'qroo', 'quintanaroo', 'chis', 'chiapas'])) {
                 $source = strtolower($inp);
             }
         }

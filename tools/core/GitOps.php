@@ -60,4 +60,36 @@ class GitOps
             'summary' => implode("\n", $output),
         ];
     }
+
+    /**
+     * Ejecuta un comando git y devuelve la salida estructurada.
+     * @return array<string, mixed>
+     */
+    public static function execGit(string $cmd): array
+    {
+        $output = [];
+        $code = 0;
+        exec("git {$cmd} 2>&1", $output, $code);
+        return [
+            'cmd' => "git {$cmd}",
+            'code' => $code,
+            'output' => $output,
+        ];
+    }
+
+    /**
+     * Ejecuta un comando gh y devuelve la salida estructurada.
+     * @return array<string, mixed>
+     */
+    public static function execGh(string $cmd): array
+    {
+        $output = [];
+        $code = 0;
+        exec("gh {$cmd} 2>&1", $output, $code);
+        return [
+            'cmd' => "gh {$cmd}",
+            'code' => $code,
+            'output' => $output,
+        ];
+    }
 }
