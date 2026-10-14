@@ -46,11 +46,14 @@ class ScraperRouter
             case 'bajacalifornia':
                 return self::scrapeBajaCalifornia($config, $params);
 
+            case 'ejecutivo':
+                return self::scrapeEjecutivo($config, $params);
+
             default:
                 return [
                     'ok' => false,
                     'error' => "Fuente de scraping '{$source}' no soportada.",
-                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc'],
+                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc', 'ejecutivo'],
                 ];
         }
     }
@@ -174,6 +177,16 @@ class ScraperRouter
         $service = new \PulsoCivico\Services\CongresoBajaCaliforniaScraperService($httpClient, $logger, $config['paths']['storage']);
 
         return $service->scrapeLegislatura25();
+    }
+
+    private static function scrapeEjecutivo(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-EJECUTIVO');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\EjecutivoOccidenteService($httpClient, $logger, $config['paths']['storage']);
+
+        $entidad = (string)($params['entidad'] ?? $params['bloque'] ?? 'occidente');
+        return $service->scrapeEntidad($entidad);
     }
 }
 
