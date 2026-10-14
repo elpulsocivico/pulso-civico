@@ -1,0 +1,27 @@
+services:
+  web:
+    build: .
+    container_name: pulso_civico_app
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./storage/data/json:/app/storage/data/json:ro
+      - ./storage/raw/photos:/app/storage/raw/photos:ro
+      - ./storage/electoral/actas:/app/storage/electoral/actas:rw
+    environment:
+      - APP_ENV=production
+      - DEBUG=False
+      - HOST=0.0.0.0
+      - PORT=8000
+
+  tor:
+    image: goldy/tor-hidden-service:latest
+    container_name: pulso_civico_tor
+    restart: unless-stopped
+    links:
+      - web
+    environment:
+      PULSO_TOR_SERVICE_HOSTS: "80:web:8000"
+    volumes:
+      - ./tor_keys:/var/lib/tor/hidden_service/

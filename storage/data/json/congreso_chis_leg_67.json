@@ -1,0 +1,825 @@
+{
+    "metadata": {
+        "congreso": "Congreso del Estado de Chiapas",
+        "entidad": "Chiapas",
+        "clave_entidad": "CHIS",
+        "legislatura": 67,
+        "periodo": "2018-2021",
+        "fuente_oficial": "https:\/\/www.congresochiapas.gob.mx",
+        "fuente_electoral": "https:\/\/www.iepc-chiapas.org.mx",
+        "fecha_actualizacion": "2026-10-14 02:02:38",
+        "total_diputados": 40,
+        "partidos": {
+            "MORENA": 17,
+            "PT": 2,
+            "PVEM": 6,
+            "CHIAPAS UNIDO": 3,
+            "PES": 4,
+            "PRI": 5,
+            "PODEMOS MOVER A CHIAPAS": 2,
+            "PAN": 1
+        }
+    },
+    "diputados": [
+        {
+            "referencia_sil": "chis_leg67_01",
+            "nombre_completo": "Marcelo Toledo Cruz",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 1",
+            "cabecera": "Tuxtla Gutiérrez Oriente",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "fb48e0a25762bbdbccd76c8d058751db3cc55ff1520625a73b1571214b3cd1c6"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_02",
+            "nombre_completo": "Jorge Jhonattan Molina Morales",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 2",
+            "cabecera": "Tuxtla Gutiérrez Poniente",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "a5ef6c4206e5b8895988f472eeb3dbe40c2cbe90cb038ba717adaa7dfb6e999e"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_03",
+            "nombre_completo": "Juan Pablo Montes de Oca Avendaño",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 3",
+            "cabecera": "Chiapa de Corzo",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "955107f31675c4df439eb6d40aae4b96f46539c66c8db64d6293af728fb6bb8a"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_04",
+            "nombre_completo": "Flor de María Guirao Aguilar",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 4",
+            "cabecera": "Yajalón",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "4ec40ca06fb703a42d3455131a11feb141d34125f9c99c6c7539adaa7ecffdd1"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_05",
+            "nombre_completo": "Juan Salvador Camacho Velasco",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 5",
+            "cabecera": "San Cristóbal de Las Casas",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "88c2e8f18333278991ea5a124004006b57a6f3c88926134b6b5a0be775cba466"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_06",
+            "nombre_completo": "Rosa Netro Rodríguez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 6",
+            "cabecera": "Comitán de Domínguez",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "094a0287cb30a74d3938b8152ce858a60fc6fba7f1db7956109467d60b5bd0aa"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_07",
+            "nombre_completo": "José Octavio García Macías",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PT",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 7",
+            "cabecera": "Ocosingo",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "34f84eacba53d6e61d666177521c87f36274cd2492d77f51cf7afb4cecea4b86"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_08",
+            "nombre_completo": "Rosa Elizabeth Bonilla Hidalgo",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 8",
+            "cabecera": "Simojovel",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "aa09f8dd8b9ad0a28da0ce49f3798d5ed7b66f9db94e4f3ec32a4013fa81afd6"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_09",
+            "nombre_completo": "Emilio Enrique Salazar Farías",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 9",
+            "cabecera": "Palenque",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "53ce827b600990e835b1d8948bea544264e9209672b357f668dee43026852504"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_10",
+            "nombre_completo": "Tania Guadalupe Martínez Forsland",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 10",
+            "cabecera": "La Trinitaria",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "8ca04e0712bb8021fba4b550d0a78134fe18beb1b37ebfe438a07d5c47ffada2"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_11",
+            "nombre_completo": "Iris Adriana Aguilar Pavón",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "CHIAPAS UNIDO",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 11",
+            "cabecera": "Bochil",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "cffe7aed8a020655b739dce85b665e17ac9bce9c132a49950fd3b00c7fb72c43"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_12",
+            "nombre_completo": "Dulce María Rodríguez Ovando",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 12",
+            "cabecera": "Pichucalco",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "22859ded273f43645c3f80e337d1706a33c7cdc5bfbed6d37659c036be2b55c0"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_13",
+            "nombre_completo": "Adriana Bustamante Castellanos",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 13",
+            "cabecera": "Tuxtla Gutiérrez Sur",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "d4375ad5e55e70b4bb8c686ae2a012692e59965d77abe9e48273533dc7dae8d8"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_14",
+            "nombre_completo": "Fidel Álvarez Toledo",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 14",
+            "cabecera": "Cintalapa",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "7af148c7654bcded298709195a9ce8e60282bb7a17e44ba2a24a922899ad3073"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_15",
+            "nombre_completo": "Miguel Ángel Córdova Ochoa",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "CHIAPAS UNIDO",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 15",
+            "cabecera": "Tonalá",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "5870b93d947005ed4d5986f8c8b329cac78008d621db2d3a376cdc633419890f"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_16",
+            "nombre_completo": "Olvey Palomeque Pineda",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 16",
+            "cabecera": "Huixtla",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "a6c55e681a822775033fb47d0f225355d7cc4aab8d5099f7e0f85587a474eb95"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_17",
+            "nombre_completo": "Patricia Mass Lazos",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 17",
+            "cabecera": "Motozintla",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "1974ccb791581f66aa151e2c68f17fe094415c58f0244679bf4dacd736ce4966"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_18",
+            "nombre_completo": "Cinthya Vianney Reyes Sumuano",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 18",
+            "cabecera": "Tapachula Norte",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "db50b906ec1ceff222a430a8a89e7b5ea089070488dd04216167b07cd7ea69a6"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_19",
+            "nombre_completo": "Sergio Rivas Vázquez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PES",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 19",
+            "cabecera": "Tapachula Sur",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "993961f780dca3c06e906fe0a765e5425983b41f7867743bd10ed02ae23847b8"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_20",
+            "nombre_completo": "Rosa Valdivieso Hidalgo",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 20",
+            "cabecera": "Las Margaritas",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "819642f32f0fa994954b4ade813dbc670a76663e08ff6d8f03505458f986ebb5"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_21",
+            "nombre_completo": "María Elena Villatoro Culebro",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "CHIAPAS UNIDO",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 21",
+            "cabecera": "Venustiano Carranza",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "af8c61a59fb9b9abd1d29ae777a775c6f78d76e3462bc142498a717edc1db122"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_22",
+            "nombre_completo": "Mario Santiz Gómez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PRI",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 22",
+            "cabecera": "Chamula",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "241e20bdbb4b67ff2919a50ac182a1de4fa4d1ccf9453e783915c8f29cd2c303"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_23",
+            "nombre_completo": "Eduardo Francisco Zenteno Núñez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 23",
+            "cabecera": "Villaflores",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "934be237a98a7fab368583a3df22f88a179e731a8894d4fc770a0b0844d9d05c"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_24",
+            "nombre_completo": "Carolina Elizabeth Sohle Gómez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Mayoría Relativa",
+            "entidad": "Chiapas",
+            "distrito": "Distrito 24",
+            "cabecera": "Chilón",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "2f31d1c1d2dd67938043824355a811353394f1ac301b04016ceb39d4f6716367"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_25",
+            "nombre_completo": "Dulce Consuelo Gallegos Mijangos",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PODEMOS MOVER A CHIAPAS",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "d60e7619b9adc3967ddcdcba11a1af5e64e4b2bc7a37306c1431497e9573fe01"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_26",
+            "nombre_completo": "Valeria Santiago Barrientos",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "4c856bb3759b94f610c472d47cd58599f4ce1c360739564715c68c19509dc485"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_27",
+            "nombre_completo": "Maya de León Villard",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PES",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "e91dd228ed399ec36e21f4803163b7fe5f5cdea04c053094263de965bc495364"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_28",
+            "nombre_completo": "Luz María Palacios Farrera",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "17b48874174ef8ab70ffeca36432e31954045f333010dfba2dde7e6e5826f6b3"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_29",
+            "nombre_completo": "Aída Guadalupe Jiménez Sesma",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "7381d79332a94c4568ebed4609410aadedb7df466ec8bc8eb3395891b81dc98a"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_30",
+            "nombre_completo": "Janette Ovando Reazola",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PAN",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "e992ffc8c11f917d7a6ad782381194f04fb22eda349e9ce76d8f55372c6df34d"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_31",
+            "nombre_completo": "Silvia Torreblanca Alfaro",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PES",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "677363ac1cbc72fb95e9dfd35e0c7423eef3827023c4d706d318c72756ff680b"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_32",
+            "nombre_completo": "Ana Laura Romero Basurto",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PODEMOS MOVER A CHIAPAS",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "a2d5dfe0061cf789028f60bfcb605bf4d02b7e505b8542c3f0baa6b44b6c59c1"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_33",
+            "nombre_completo": "Ricardo Zepeda Gutiérrez",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "cbdfd843ed1142667bd76e2a1eeea3728957e5b0723bb00ae5ac780e50e752f8"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_34",
+            "nombre_completo": "Nairobi Ojeda Arellano",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PT",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "ae5056b78f8255a3e395a2850a33960bb8c2f45eccb050547a0cb1fba10709e6"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_35",
+            "nombre_completo": "Haydeé Ocampo Olvera",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "518c6c6354227225a1d61704770b18d16215f342383d2a2c1e148127de646fc2"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_36",
+            "nombre_completo": "Nolberto Farfán Solís",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "99e36c0276b30859bcd33efe146fcccaaf290edde7033b17848b8b0302081115"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_37",
+            "nombre_completo": "Kalyanamaya de León Villard",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PES",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "8917412c9933007df5764a4691b9999466ee9678fc088157aa13d5c546cecc34"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_38",
+            "nombre_completo": "María Obdulia Megchún López",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "MORENA",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "0a39f5dccdbc0d03aaf83730e30194a8d7e4f7e81cf7ec52662b92e2765005cd"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_39",
+            "nombre_completo": "Flor de María de Jesús Ocampo",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PRI",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "990f7510158dbfb959ddab677d1cee963550e5d570ba31d48f53305e15f4467e"
+            }
+        },
+        {
+            "referencia_sil": "chis_leg67_40",
+            "nombre_completo": "José Manuel Velasco Siles",
+            "camara": "Congreso del Estado de Chiapas",
+            "legislatura": 67,
+            "partido": "PVEM",
+            "principio_eleccion": "Representación Proporcional",
+            "entidad": "Chiapas",
+            "distrito": "Plurinominal",
+            "cabecera": "Circunscripción Estatal",
+            "tipo_cargo": "Propietario",
+            "periodo": "2018-2021",
+            "estatus": "Concluida",
+            "metadata": {
+                "fuente_url": "https:\/\/www.congresochiapas.gob.mx",
+                "fuente_secundaria": "https:\/\/www.iepc-chiapas.org.mx",
+                "fecha_extraccion": "2026-10-14 02:02:38",
+                "sha256_evidencia": "ffd51799e69e4393f25d0d3427e19a5a94e6f3376c368adcfc84f21b8007bbf0"
+            }
+        }
+    ]
+}

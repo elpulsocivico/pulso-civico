@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ seo.title if seo and seo.title else "El Pulso de la Política — Observatorio del Congreso Mexicano" }}</title>
+    <meta name="description" content="{{ seo.description if seo and seo.description else "Monitoreo ciudadano y radiografía del poder legislativo en México." }}">
+    <link rel="canonical" href="{{ seo.canonical if seo and seo.canonical else "/" }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ seo.title if seo and seo.title else "El Pulso de la Política" }}">
+    <meta property="og:description" content="{{ seo.description if seo and seo.description else "Monitoreo ciudadano del Congreso" }}">
+    <meta property="og:url" content="{{ seo.canonical if seo and seo.canonical else "/" }}">
+
+    <!-- Bootstrap 5.3 CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --ios-bg: #F2F2F7;
+            --ios-surface: #FFFFFF;
+            --ios-text: #1C1C1E;
+            --ios-secondary: #8E8E93;
+            --ios-separator: rgba(60, 60, 67, 0.12);
+            --ios-blue: #007AFF;
+            --ios-blue-light: #EBF3FF;
+            --ios-gray-fill: #E5E5EA;
+            --ios-card-radius: 20px;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--ios-bg);
+            color: var(--ios-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar-blur {
+            background-color: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--ios-separator);
+        }
+        .ios-card {
+            background-color: var(--ios-surface);
+            border-radius: var(--ios-card-radius);
+            border: 1px solid var(--ios-separator);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .ios-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <!-- Navbar Superior -->
+    <header class="navbar navbar-expand-lg navbar-blur sticky-top py-2">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="/">
+                <span class="badge bg-danger rounded-pill px-2 py-1"><i class="bi bi-activity"></i></span>
+                <span class="fs-5 tracking-tight text-dark">Pulso Cívico</span>
+            </a>
+            <div class="d-flex align-items-center gap-2">
+                <a href="/diputados" class="btn btn-sm btn-light rounded-pill px-3 fw-medium">Diputados</a>
+                <a href="/senadores" class="btn btn-sm btn-light rounded-pill px-3 fw-medium">Senadores</a>
+                <a href="/electoral" class="btn btn-sm btn-primary rounded-pill px-3 fw-medium"><i class="bi bi-shield-check me-1"></i>Actas Casilla</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="flex-grow-1 py-4">
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top py-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <span class="fw-bold text-dark">Pulso Cívico</span> &bull;
+                    <span class="text-secondary small">Observatorio de datos abiertos y auditoría ciudadana.</span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="/" class="text-secondary text-decoration-none small me-3">Inicio</a>
+                    <a href="/diputados" class="text-secondary text-decoration-none small me-3">Diputados</a>
+                    <a href="/senadores" class="text-secondary text-decoration-none small me-3">Senadores</a>
+                    <a href="/electoral" class="text-secondary text-decoration-none small me-3">Auditoría Electoral</a>
+                    <a href="/docs" class="text-secondary text-decoration-none small" target="_blank">API Docs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

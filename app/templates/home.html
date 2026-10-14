@@ -1,0 +1,76 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<div class="row align-items-center mb-5">
+    <div class="col-lg-8">
+        <h1 class="display-6 fw-bold mb-2">Radiografía del Poder Legislativo</h1>
+        <p class="text-secondary lead fs-6">Transparencia ciudadana, asistencia, iniciativas y perfiles oficiales sin censura.</p>
+    </div>
+    <div class="col-lg-4 text-lg-end">
+        <div class="d-inline-flex gap-2">
+            <div class="ios-card px-3 py-2 text-center">
+                <div class="fs-4 fw-bold text-primary">{{ total_diputados }}</div>
+                <div class="text-muted small" style="font-size: 0.75rem;">Diputados</div>
+            </div>
+            <div class="ios-card px-3 py-2 text-center">
+                <div class="fs-4 fw-bold text-success">{{ total_senadores }}</div>
+                <div class="text-muted small" style="font-size: 0.75rem;">Senadores</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Banner Módulo Electoral -->
+<div class="ios-card p-4 mb-5 border-start border-primary border-4">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h5 class="fw-bold mb-1"><i class="bi bi-shield-lock-fill text-primary me-2"></i>Auditoría y Recuento Ciudadano de Actas</h5>
+            <p class="text-secondary small mb-0">Protege tu voto: sube de forma anónima fotografías de las sábanas electorales de tu casilla para verificación pública inmutable.</p>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="/electoral" class="btn btn-primary rounded-pill px-4">Subir Acta de Casilla</a>
+        </div>
+    </div>
+</div>
+
+<!-- Filtros por Estado -->
+<h4 class="fw-bold mb-3">Explorar por Entidad Federativa</h4>
+<div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 mb-5">
+    {% for slug, est in estados.items() %}
+    <div class="col">
+        <a href="/estados/{{ slug }}" class="text-decoration-none text-dark">
+            <div class="ios-card p-2 text-center h-100 d-flex flex-column justify-content-center">
+                <span class="badge bg-light text-secondary mb-1" style="font-size: 0.65rem;">{{ est.abbr }}</span>
+                <span class="small fw-semibold text-truncate">{{ est.nombre }}</span>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Destacados / Lista Rápida -->
+<h4 class="fw-bold mb-3">Legisladores Recientes</h4>
+<div class="row row-cols-1 row-cols-md-3 g-3">
+    {% for pol in politicos_muestra %}
+    <div class="col">
+        <div class="ios-card p-3 h-100 d-flex flex-column">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                {% if pol.foto_local_path %}
+                <img src="/photos/{{ pol.foto_local_path.split('/')[-1] }}" alt="{{ pol.nombre_completo }}" class="rounded-circle object-fit-cover border" style="width: 54px; height: 54px;" onerror="this.src='https://ui-avatars.com/api/?name={{ pol.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E'">
+                {% else %}
+                <img src="https://ui-avatars.com/api/?name={{ pol.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E" class="rounded-circle border" style="width: 54px; height: 54px;">
+                {% endif %}
+                <div class="overflow-hidden">
+                    <span class="badge bg-secondary-subtle text-secondary rounded-pill mb-1" style="font-size: 0.65rem;">{{ pol.camara }} &bull; {{ pol.partido }}</span>
+                    <h6 class="fw-bold mb-0 text-truncate" title="{{ pol.nombre_completo }}">{{ pol.nombre_completo }}</h6>
+                    <small class="text-muted text-truncate d-block">{{ pol.entidad if pol.entidad else "Nacional" }}</small>
+                </div>
+            </div>
+            <div class="mt-auto pt-2 border-top">
+                <a href="/politicos/{{ pol.slug }}" class="btn btn-sm btn-outline-dark w-100 rounded-pill">Ver Perfil Completo</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

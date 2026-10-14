@@ -1,0 +1,76 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb small">
+                <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="/{{ 'diputados' if politico.camara == 'Diputados' else 'senadores' }}" class="text-decoration-none">{{ politico.camara }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ politico.nombre_completo }}</li>
+            </ol>
+        </nav>
+
+        <div class="ios-card p-4 mb-4">
+            <div class="d-flex flex-column flex-sm-row align-items-center gap-4 text-center text-sm-start">
+                {% if politico.foto_local_path %}
+                <img src="/photos/{{ politico.foto_local_path.split('/')[-1] }}" alt="{{ politico.nombre_completo }}" class="rounded-circle border shadow-sm object-fit-cover" style="width: 110px; height: 110px;" onerror="this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&size=128&background=E5E5EA&color=1C1C1E'">
+                {% else %}
+                <img src="https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&size=128&background=E5E5EA&color=1C1C1E" class="rounded-circle border shadow-sm" style="width: 110px; height: 110px;">
+                {% endif %}
+
+                <div class="flex-grow-1">
+                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-sm-start mb-2">
+                        <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">{{ politico.camara }}</span>
+                        <span class="badge bg-dark rounded-pill px-3 py-1">{{ politico.partido }}</span>
+                        <span class="badge bg-light text-secondary rounded-pill px-3 py-1">LXVI Legislatura</span>
+                    </div>
+                    <h2 class="fw-bold mb-1">{{ politico.nombre_completo }}</h2>
+                    <p class="text-secondary mb-0">
+                        <i class="bi bi-geo-alt me-1"></i>{{ politico.entidad if politico.entidad else "Nacional" }}
+                        {% if politico.distrito %} &bull; Distrito {{ politico.distrito }}{% endif %}
+                        &bull; {{ politico.principio_eleccion if politico.principio_eleccion else "Mayoría Relativa" }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ficha de Datos Oficiales -->
+        <div class="ios-card p-4 mb-4">
+            <h5 class="fw-bold mb-3 border-bottom pb-2">Información del Cargo</h5>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Tipo de Cargo</span>
+                    <span class="fw-semibold">{{ politico.tipo_cargo if politico.tipo_cargo else "Propietario" }}</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Suplente</span>
+                    <span class="fw-semibold">{{ politico.suplente_nombre if politico.suplente_nombre else "No registrado" }}</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Último Grado de Estudios</span>
+                    <span class="fw-semibold">{{ politico.ultimo_grado_estudios if politico.ultimo_grado_estudios else "No especificado" }}</span>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Correo Institucional</span>
+                    <span class="fw-semibold">{{ politico.correo_institucional if politico.correo_institucional else "No disponible" }}</span>
+                </div>
+            </div>
+        </div>
+
+        {% if politico.comisiones %}
+        <div class="ios-card p-4 mb-4">
+            <h5 class="fw-bold mb-3 border-bottom pb-2">Comisiones Legislativas</h5>
+            <div class="list-group list-group-flush">
+                {% for com in politico.comisiones %}
+                <div class="list-group-item bg-transparent px-0 d-flex justify-content-between align-items-center">
+                    <span>{{ com.comision if com.comision else com.nombre }}</span>
+                    <span class="badge bg-light text-dark border rounded-pill">{{ com.puesto if com.puesto else "Integrante" }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

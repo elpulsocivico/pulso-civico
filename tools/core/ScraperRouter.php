@@ -50,6 +50,11 @@ class ScraperRouter
             case 'bajacaliforniasur':
                 return self::scrapeBajaCaliforniaSur($config, $params);
 
+            case 'cam':
+            case 'campeche':
+            case 'congreso_campeche':
+                return self::scrapeCampeche($config, $params);
+
             case 'yuc':
             case 'yucatan':
                 return self::scrapeYucatan($config, $params);
@@ -57,6 +62,10 @@ class ScraperRouter
             case 'qroo':
             case 'quintanaroo':
                 return self::scrapeQuintanaRoo($config, $params);
+
+            case 'chis':
+            case 'chiapas':
+                return self::scrapeChiapas($config, $params);
 
             case 'sinaloa':
             case 'congreso_sinaloa':
@@ -83,11 +92,72 @@ class ScraperRouter
             case 'congreso_nuevoleon':
                 return self::scrapeNuevoLeon($config, $params);
 
+            case 'ags':
+            case 'aguascalientes':
+            case 'congreso_aguascalientes':
+                return self::scrapeEstadoGenerico('CongresoAguascalientesScraperService', 'ROUTER-AGS', $config, $params);
+
+            case 'edomex':
+            case 'estadodemexico':
+            case 'congreso_edomex':
+                return self::scrapeEstadoGenerico('CongresoEdomexScraperService', 'ROUTER-EDOMEX', $config, $params);
+
+            case 'gto':
+            case 'guanajuato':
+            case 'congreso_guanajuato':
+                return self::scrapeEstadoGenerico('CongresoGuanajuatoScraperService', 'ROUTER-GTO', $config, $params);
+
+            case 'hgo':
+            case 'hidalgo':
+            case 'congreso_hidalgo':
+                return self::scrapeEstadoGenerico('CongresoHidalgoScraperService', 'ROUTER-HGO', $config, $params);
+
+            case 'jal':
+            case 'jalisco':
+            case 'congreso_jalisco':
+                return self::scrapeEstadoGenerico('CongresoJaliscoScraperService', 'ROUTER-JAL', $config, $params);
+
+            case 'mich':
+            case 'michoacan':
+            case 'congreso_michoacan':
+                return self::scrapeEstadoGenerico('CongresoMichoacanScraperService', 'ROUTER-MICH', $config, $params);
+
+            case 'nay':
+            case 'nayarit':
+            case 'congreso_nayarit':
+                return self::scrapeEstadoGenerico('CongresoNayaritScraperService', 'ROUTER-NAY', $config, $params);
+
+            case 'pue':
+            case 'puebla':
+            case 'congreso_puebla':
+                return self::scrapeEstadoGenerico('CongresoPueblaScraperService', 'ROUTER-PUE', $config, $params);
+
+            case 'qro':
+            case 'queretaro':
+            case 'congreso_queretaro':
+                return self::scrapeEstadoGenerico('CongresoQueretaroScraperService', 'ROUTER-QRO', $config, $params);
+
+            case 'slp':
+            case 'sanluispotosi':
+            case 'congreso_sanluispotosi':
+                return self::scrapeEstadoGenerico('CongresoSanLuisPotosiScraperService', 'ROUTER-SLP', $config, $params);
+
+            case 'zac':
+            case 'zacatecas':
+            case 'congreso_zacatecas':
+                return self::scrapeEstadoGenerico('CongresoZacatecasScraperService', 'ROUTER-ZAC', $config, $params);
+
             default:
                 return [
                     'ok' => false,
                     'error' => "Fuente de scraping '{$source}' no soportada.",
-                    'available_sources' => ['sil', 'votaciones', 'asistencias', 'bc', 'bcs', 'yucatan', 'quintanaroo', 'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon'],
+                    'available_sources' => [
+                        'sil', 'votaciones', 'asistencias',
+                        'bc', 'bcs', 'campeche', 'yucatan', 'quintanaroo', 'chiapas',
+                        'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon',
+                        'aguascalientes', 'edomex', 'guanajuato', 'hidalgo', 'jalisco',
+                        'michoacan', 'nayarit', 'puebla', 'queretaro', 'sanluispotosi', 'zacatecas'
+                    ],
                 ];
         }
     }
@@ -231,6 +301,37 @@ class ScraperRouter
         return $service->scrapeTodo();
     }
 
+    private static function scrapeCampeche(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-CAM');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoCampecheScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '65' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 65)) {
+            return $service->scrapeLegislatura65();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        if (!empty($params['legislatura'])) {
+            $legNum = (int)$params['legislatura'];
+            if ($legNum === 64) {
+                return $service->scrapeLegislatura64();
+            }
+            if ($legNum === 63) {
+                return $service->scrapeLegislatura63();
+            }
+            if ($legNum === 62) {
+                return $service->scrapeLegislatura62();
+            }
+        }
+
+        return $service->scrapeTodo();
+    }
+
     private static function scrapeYucatan(array $config, array $params): array
     {
         $logger = new Logger($config['paths']['logs'], 'ROUTER-YUC');
@@ -265,6 +366,39 @@ class ScraperRouter
         }
 
         return $service->scrapeTodo();
+    }
+
+    private static function scrapeChiapas(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-CHIS');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoChiapasScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        $modo = strtolower((string)($params['modo'] ?? 'todo'));
+        if ($modo === 'actual' || $modo === '69' || (!empty($params['legislatura']) && (int)$params['legislatura'] === 69)) {
+            return $service->scrapeLegislatura69();
+        }
+
+        if ($modo === 'historico' || $modo === 'historicas') {
+            return $service->scrapeTodasHistoricas();
+        }
+
+        return $service->scrapeTodo();
+    }
+
+    private static function scrapeEstadoGenerico(string $className, string $logChannel, array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], $logChannel);
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $fullClass = '\\PulsoCivico\\Services\\' . $className;
+        /** @var mixed $service */
+        $service = new $fullClass($httpClient, $logger, $config['paths']['storage']);
+
+        if (!empty($params['legislatura']) && is_numeric($params['legislatura'])) {
+            return $service->scrapeLegislatura((int)$params['legislatura']);
+        }
+
+        return $service->scrapeAll();
     }
 
     private static function scrapeSinaloa(array $config, array $params): array
