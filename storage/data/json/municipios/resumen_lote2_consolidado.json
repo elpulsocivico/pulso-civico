@@ -1,0 +1,37 @@
+{
+  "lote": 2,
+  "descripcion": "Aguascalientes (11) + Querétaro (18) + Nayarit (20)",
+  "total_municipios": 49,
+  "total_ediles_acreditados": 110,
+  "estados": {
+    "aguascalientes": {
+      "estado": "Aguascalientes",
+      "cve_ent": "01",
+      "total_municipios": 11,
+      "total_ediles_acreditados": 35,
+      "insignias_generadas": 11,
+      "fecha_generacion": "2026-10-14 11:26:25",
+      "status": "COMPLETO_Y_VALIDADO"
+    },
+    "queretaro": {
+      "estado": "Querétaro",
+      "cve_ent": "22",
+      "total_municipios": 18,
+      "total_ediles_acreditados": 32,
+      "insignias_generadas": 18,
+      "fecha_generacion": "2026-10-14 11:26:25",
+      "status": "COMPLETO_Y_VALIDADO"
+    },
+    "nayarit": {
+      "estado": "Nayarit",
+      "cve_ent": "18",
+      "total_municipios": 20,
+      "total_ediles_acreditados": 43,
+      "insignias_generadas": 20,
+      "fecha_generacion": "2026-10-14 11:26:25",
+      "status": "COMPLETO_Y_VALIDADO"
+    }
+  },
+  "timestamp": "2026-10-14 11:26:25",
+  "status": "EXITOSO"
+}

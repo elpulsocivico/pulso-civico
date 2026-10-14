@@ -1,2717 +1,3017 @@
 {
-    "periodo_id": 1,
-    "total_votaciones": 30,
-    "votaciones": [
-        {
-            "id_votacion_origen": 2,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "3-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE REFORMA DEL PODER JUDICIAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 250,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 71,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 36,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 36
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "PRD": {
-                    "partido_id_sitl": 2,
-                    "partido": "PRD",
-                    "a_favor": 0,
-                    "en_contra": 1,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 359,
-                "contra": 135,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 6,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+  "periodo_id": 1,
+  "total_votaciones": 30,
+  "votaciones": [
+    {
+      "id_votacion_origen": 2,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "3-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE REFORMA DEL PODER JUDICIAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 250,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 255
         },
-        {
-            "id_votacion_origen": 3,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "3-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE REFORMA DEL PODER JUDICIAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN SUS TÉRMINOS Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 248,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 69,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 35,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 36
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 25,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "PRD": {
-                    "partido_id_sitl": 2,
-                    "partido": "PRD",
-                    "a_favor": 0,
-                    "en_contra": 1,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 357,
-                "contra": 130,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 13,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 71,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 71
         },
-        {
-            "id_votacion_origen": 4,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "18-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA, ADICIONA Y DEROGA EL ARTÍCULO 2o. DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PUEBLOS Y COMUNIDADES INDÍGENAS, ASÍ COMO AFROMEXICANOS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Pueblos Indígenas y Afromexicanos",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 252,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 70,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 46,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 34,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 36
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "PRD": {
-                    "partido_id_sitl": 2,
-                    "partido": "PRD",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 492,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 8,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
         },
-        {
-            "id_votacion_origen": 5,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "18-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA, ADICIONA Y DEROGA EL ARTÍCULO 2o. DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PUEBLOS Y COMUNIDADES INDÍGENAS, ASÍ COMO AFROMEXICANOS (EN LO PARTICULAR LOS ARTÍCULOS  RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Pueblos Indígenas y Afromexicanos",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 250,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 66,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 61,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 34,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 36
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 24,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 27
-                },
-                "PRD": {
-                    "partido_id_sitl": 2,
-                    "partido": "PRD",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 483,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 17,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 47
         },
-        {
-            "id_votacion_origen": 7,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "19-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Seguridad y Guardia Nacional",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 252,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 69,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 37,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 362,
-                "contra": 133,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 5,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 36,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 36
         },
-        {
-            "id_votacion_origen": 8,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "19-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TERMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Seguridad y Guardia Nacional",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 246,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 9,
-                    "total": 255
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 67,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 44,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 47
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 33,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 26,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 353,
-                "contra": 126,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 21,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
         },
-        {
-            "id_votacion_origen": 9,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "24-Septiembre-2024",
-            "titulo": "MINUTA CON PROYECTO DE DECRETO POR EL QUE SE REFORMA LA FRACCIÓN VII DEL ARTÍCULO 74 DE LA LEY FEDERAL DEL TRABAJO, PARA ESTABLECER EL 1o. DE OCTUBRE DE CADA SEIS AÑOS, DÍA DE DESCANSO OBLIGATORIO CON MOTIVO DE LA TRANSMISIÓN DEL PODER EJECUTIVO FEDERAL (EN LO GENERAL Y EN LO PARTICULAR)",
-            "tema_clave": "Trabajo y Salarios",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 189,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 64,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 65,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 6,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 40,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 22,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 45,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 34,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 24,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 398,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 102,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "PRD": {
+          "partido_id_sitl": 2,
+          "partido": "PRD",
+          "a_favor": 0,
+          "en_contra": 1,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
         },
-        {
-            "id_votacion_origen": 10,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "24-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA EL PRIMER PÁRRAFO DE LA FRACCIÓN VI DEL APARTADO A, Y SE ADICIONA UN TERCER PÁRRAFO A LA FRACCIÓN IV DEL APARTADO B DEL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE SALARIOS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Trabajo y Salarios",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 240,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 13,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 70,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 59,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 36,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 25,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 478,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 22,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 11,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "25-Septiembre-2024",
-            "titulo": "DECRETO POR EL QUE SE ADICIONA UN SEGUNDO PÁRRAFO AL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE APOYO A JÓVENES (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 237,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 16,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 69,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 58,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 36,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 25,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 473,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 27,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 12,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "2-Octubre-2024",
-            "titulo": "INICIATIVA QUE REFORMA Y ADICIONA DIVERSAS DISPOSICIONES DE LA LEY FEDERAL DEL TRABAJO, EN MATERIA DEL DERECHO AL DESCANSO DE LAS PERSONAS TRABAJADORAS DURANTE LA JORNADA LABORAL (LEY SILLA)  (EN LO GENERAL Y EN LO PARTICULAR)",
-            "tema_clave": "Trabajo y Salarios",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 234,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 18,
-                    "total": 252
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 70,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 61,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 37,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 27,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 476,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 23,
-                "total": 499
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 14,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "8-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA EL PÁRRAFO CUARTO Y SE ADICIONA UN PÁRRAFO QUINTO, AL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE VÍAS DE TRANSPORTE FERROVIARIO (EN LO GENERAL Y EN LO PARTICULAR)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 239,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 13,
-                    "total": 252
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 9,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 59,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 49,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 35,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 36
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 27,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 472,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 26,
-                "total": 498
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 15,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "9-Octubre-2024",
-            "titulo": "DICTAMEN  POR EL QUE SE REFORMA EL PÁRRAFO QUINTO DEL ARTÍCULO 25, LOS PÁRRAFOS SEXTO Y SÉPTIMO DEL ARTÍCULO 27 Y EL PÁRRAFO CUARTO DEL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE ÁREAS Y EMPRESAS ESTRATÉGICAS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 247,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 252
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 64,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 1,
-                    "en_contra": 32,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 26,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 353,
-                "contra": 122,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 24,
-                "total": 499
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 16,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "9-Octubre-2024",
-            "titulo": "DICTAMEN POR EL QUE SE REFORMA EL PÁRRAFO QUINTO DEL ARTÍCULO 25, LOS PÁRRAFOS SEXTO Y SÉPTIMO DEL ARTÍCULO 27 Y EL PÁRRAFO CUARTO DEL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE ÁREAS Y EMPRESAS ESTRATÉGICAS (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 244,
-                    "en_contra": 0,
-                    "abstencion": 1,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 252
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 58,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 13,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 48,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 28,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 9,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 25,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 350,
-                "contra": 111,
-                "abstencion": 1,
-                "asistencia_sin_voto": 0,
-                "ausente": 37,
-                "total": 499
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 18,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "14-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DE INSTITUCIONES Y PROCEDIMIENTOS ELECTORALES, EN MATERIA DE ELECCIÓN DE PERSONAS JUZGADORAS DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 234,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 19,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 63,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 8,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 45,
-                    "en_contra": 1,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 34,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 25,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 336,
-                "contra": 123,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 41,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 19,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "14-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DE INSTITUCIONES Y PROCEDIMIENTOS ELECTORALES, EN MATERIA DE ELECCIÓN DE PERSONAS JUZGADORAS DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 237,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 16,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 65,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 6,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 60,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 44,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 36,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 342,
-                "contra": 128,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 30,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 20,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "14-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DEL SISTEMA DE MEDIOS DE IMPUGNACIÓN, RELATIVA A LA ACTUALIZACIÓN DE LOS MEDIOS DE IMPUGNACIÓN EN EL PROCESO DE ELECCIÓN DE LOS INTEGRANTES DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 230,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 23,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 67,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 58,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 46,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 36,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 334,
-                "contra": 130,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 36,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 21,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "14-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DEL SISTEMA DE MEDIOS DE IMPUGNACIÓN, RELATIVA A LA ACTUALIZACIÓN DE LOS MEDIOS DE IMPUGNACIÓN EN EL PROCESO DE ELECCIÓN DE LOS INTEGRANTES DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Reforma Judicial",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 238,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 15,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 63,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 8,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 59,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 44,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 36,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 26,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 342,
-                "contra": 125,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 33,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 22,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "22-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 4o. Y 27 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE BIENESTAR (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 242,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 11,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 68,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 62,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 48,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 36,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 483,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 17,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 23,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "22-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 4o. Y 27 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE BIENESTAR (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 237,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 16,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 65,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 6,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 60,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 49,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 35,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 408,
-                "contra": 65,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 27,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 24,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "23-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA Y ADICIONA LA FRACCIÓN XII DEL APARTADO A DEL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE VIVIENDA PARA LAS PERSONAS TRABAJADORAS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS, EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Vivienda Social",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 241,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 12,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 66,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 61,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 48,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 29,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 8,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 1,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 472,
-                "contra": 0,
-                "abstencion": 1,
-                "asistencia_sin_voto": 0,
-                "ausente": 27,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 26,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "30-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 107 Y SE ADICIONA UN QUINTO PÁRRAFO AL ARTÍCULO 105 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE INIMPUGNABILIDAD DE LAS ADICIONES O REFORMAS A LA CONSTITUCIÓN FEDERAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 232,
-                    "en_contra": 0,
-                    "abstencion": 1,
-                    "solo_asistencia": 0,
-                    "ausente": 20,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 71,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 59,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 47,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 37,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 25,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 339,
-                "contra": 133,
-                "abstencion": 1,
-                "asistencia_sin_voto": 0,
-                "ausente": 27,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 27,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "30-Octubre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 107 Y SE ADICIONA UN QUINTO PÁRRAFO AL ARTÍCULO 105 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE INIMPUGNABILIDAD DE LAS ADICIONES O REFORMAS A LA CONSTITUCIÓN FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 241,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 12,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 66,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 55,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 46,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 37,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 26,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 343,
-                "contra": 129,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 28,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 28,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "5-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 4.; 21; 41; 73; 116; 122 Y 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE IGUALDAD SUSTANTIVA, PERSPECTIVA DE GÉNERO, DERECHO DE LAS MUJERES A UNA VIDA LIBRE DE VIOLENCIA Y ERRADICACIÓN DE LA BRECHA SALARIAL POR RAZONES DE GÉNERO (EN LO GENERAL Y EN LO PARTICULAR)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 239,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 14,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 61,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 10,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 60,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 46,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 36,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 468,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 32,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 29,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "12-Noviembre-2024",
-            "titulo": "DECRETO, POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 3o., 4o. Y 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PROTECCIÓN Y CUIDADO ANIMAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 231,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 22,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 56,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 15,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 58,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 44,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 48
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 33,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 27,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 450,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 49,
-                "total": 499
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 30,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "12-Noviembre-2024",
-            "titulo": "DECRETO, POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 3o., 4o. Y 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PROTECCIÓN Y CUIDADO ANIMAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TERMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 227,
-                    "en_contra": 0,
-                    "abstencion": 1,
-                    "solo_asistencia": 0,
-                    "ausente": 25,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 14,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 41,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 48
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 31,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 6,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 27,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 441,
-                "contra": 0,
-                "abstencion": 1,
-                "asistencia_sin_voto": 0,
-                "ausente": 57,
-                "total": 499
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 32,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "13-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS 30 BIS CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA; 32 BIS, 35 Y 38 BIS, EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 229,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 24,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 53,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 18,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 45,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 30,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 26,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 388,
-                "contra": 53,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 59,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 33,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "13-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR EL ARTÍCULO 42 Bis EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 219,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 34,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 53,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 18,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 57,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 44,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 5,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 30,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 27,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 431,
-                "contra": 0,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 69,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 34,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "13-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR EL ARTÍCULO 42 Ter Y DÉCIMO CUARTO TRANSITORIO CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA Y DEMÁS ARTÍCULOS DEL DICTAMEN EN SUS TÉRMINOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 217,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 36,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 51,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 20,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 58,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 45,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 30,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 7,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 321,
-                "contra": 108,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 71,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 35,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "13-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMA EL PÁRRAFO SEGUNDO DEL ARTÍCULO 19 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PRISIÓN PREVENTIVA OFICIOSA (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS CON LAS MODIFICACIONES ACEPTADAS Y EN TÉRMINOS DEL DICTAMEN)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 231,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 22,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 54,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 17,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 58,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 45,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 29,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 8,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 25,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 2,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 1,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 335,
-                "contra": 108,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 57,
-                "total": 500
-            },
-            "resultado": "Aprobado"
-        },
-        {
-            "id_votacion_origen": 36,
-            "camara": "Diputados",
-            "legislatura": 66,
-            "fecha": "20-Noviembre-2024",
-            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE SIMPLIFICACIÓN ORGÁNICA (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
-            "tema_clave": "Legislación General",
-            "bancadas": {
-                "MORENA": {
-                    "partido_id_sitl": 14,
-                    "partido": "MORENA",
-                    "a_favor": 242,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 11,
-                    "total": 253
-                },
-                "PAN": {
-                    "partido_id_sitl": 3,
-                    "partido": "PAN",
-                    "a_favor": 0,
-                    "en_contra": 68,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 71
-                },
-                "PVEM": {
-                    "partido_id_sitl": 5,
-                    "partido": "PVEM",
-                    "a_favor": 59,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 62
-                },
-                "PT": {
-                    "partido_id_sitl": 4,
-                    "partido": "PT",
-                    "a_favor": 46,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 3,
-                    "total": 49
-                },
-                "PRI": {
-                    "partido_id_sitl": 1,
-                    "partido": "PRI",
-                    "a_favor": 0,
-                    "en_contra": 33,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 4,
-                    "total": 37
-                },
-                "MC": {
-                    "partido_id_sitl": 6,
-                    "partido": "MC",
-                    "a_favor": 0,
-                    "en_contra": 27,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 0,
-                    "total": 27
-                },
-                "IND": {
-                    "partido_id_sitl": 9,
-                    "partido": "IND",
-                    "a_favor": 0,
-                    "en_contra": 0,
-                    "abstencion": 0,
-                    "solo_asistencia": 0,
-                    "ausente": 1,
-                    "total": 1
-                }
-            },
-            "totales": {
-                "favor": 347,
-                "contra": 128,
-                "abstencion": 0,
-                "asistencia_sin_voto": 0,
-                "ausente": 25,
-                "total": 500
-            },
-            "resultado": "Aprobado"
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
         }
-    ],
-    "fecha_extraccion": "2026-10-09 20:41:04"
+      },
+      "totales": {
+        "favor": 359,
+        "contra": 135,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 6,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=2",
+      "sha256_evidencia": "1603abe6dfe193792abbd849ae2bce9cc290e9e9340c7946e00e5e954ac046fa",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=2",
+        "sha256_evidencia": "1603abe6dfe193792abbd849ae2bce9cc290e9e9340c7946e00e5e954ac046fa",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 3,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "3-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE REFORMA DEL PODER JUDICIAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN SUS TÉRMINOS Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 248,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 255
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 69,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 47
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 35,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 36
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 25,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "PRD": {
+          "partido_id_sitl": 2,
+          "partido": "PRD",
+          "a_favor": 0,
+          "en_contra": 1,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 357,
+        "contra": 130,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 13,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=3",
+      "sha256_evidencia": "6f01cf627815bbd8c2ecc7a04548a4b323c3fd2c05c1e3ae8d81a5e46da79895",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=3",
+        "sha256_evidencia": "6f01cf627815bbd8c2ecc7a04548a4b323c3fd2c05c1e3ae8d81a5e46da79895",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 4,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "18-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA, ADICIONA Y DEROGA EL ARTÍCULO 2o. DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PUEBLOS Y COMUNIDADES INDÍGENAS, ASÍ COMO AFROMEXICANOS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Pueblos Indígenas y Afromexicanos",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 252,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 255
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 70,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 46,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 47
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 34,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 36
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "PRD": {
+          "partido_id_sitl": 2,
+          "partido": "PRD",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 492,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 8,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=4",
+      "sha256_evidencia": "8111eafdbc74fcd635e3e63abe78266d0a1bfab604f4be8af10ed490e0f57e85",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=4",
+        "sha256_evidencia": "8111eafdbc74fcd635e3e63abe78266d0a1bfab604f4be8af10ed490e0f57e85",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 5,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "18-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA, ADICIONA Y DEROGA EL ARTÍCULO 2o. DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PUEBLOS Y COMUNIDADES INDÍGENAS, ASÍ COMO AFROMEXICANOS (EN LO PARTICULAR LOS ARTÍCULOS  RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Pueblos Indígenas y Afromexicanos",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 250,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 255
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 66,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 61,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 47
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 34,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 36
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 24,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 27
+        },
+        "PRD": {
+          "partido_id_sitl": 2,
+          "partido": "PRD",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 483,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 17,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=5",
+      "sha256_evidencia": "335af458a10ac5d321efda854aeaa1c886b6269f5691ec8d2668df9911ed9108",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=5",
+        "sha256_evidencia": "335af458a10ac5d321efda854aeaa1c886b6269f5691ec8d2668df9911ed9108",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 7,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "19-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Seguridad y Guardia Nacional",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 252,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 255
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 69,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 47
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 37,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 362,
+        "contra": 133,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 5,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=7",
+      "sha256_evidencia": "6c19298773932a8a03dcb635ae08b1eaeb6ea2cc8d36b2c9a9e632c6b959bb52",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=7",
+        "sha256_evidencia": "6c19298773932a8a03dcb635ae08b1eaeb6ea2cc8d36b2c9a9e632c6b959bb52",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 8,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "19-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TERMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Seguridad y Guardia Nacional",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 246,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 9,
+          "total": 255
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 67,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 44,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 47
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 33,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 26,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 353,
+        "contra": 126,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 21,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=8",
+      "sha256_evidencia": "e9be1038db4e03835e40e486fa388106b9ec1b90e18f4d66f1445794e05d0363",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=8",
+        "sha256_evidencia": "e9be1038db4e03835e40e486fa388106b9ec1b90e18f4d66f1445794e05d0363",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 9,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "24-Septiembre-2024",
+      "titulo": "MINUTA CON PROYECTO DE DECRETO POR EL QUE SE REFORMA LA FRACCIÓN VII DEL ARTÍCULO 74 DE LA LEY FEDERAL DEL TRABAJO, PARA ESTABLECER EL 1o. DE OCTUBRE DE CADA SEIS AÑOS, DÍA DE DESCANSO OBLIGATORIO CON MOTIVO DE LA TRANSMISIÓN DEL PODER EJECUTIVO FEDERAL (EN LO GENERAL Y EN LO PARTICULAR)",
+      "tema_clave": "Trabajo y Salarios",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 189,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 64,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 65,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 6,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 40,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 22,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 45,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 34,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 24,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 398,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 102,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=9",
+      "sha256_evidencia": "59fd9b58ad5a1fbd315ac5dd43c4df0be1cf51c0a903314cf1e033b072d6826b",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=9",
+        "sha256_evidencia": "59fd9b58ad5a1fbd315ac5dd43c4df0be1cf51c0a903314cf1e033b072d6826b",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 10,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "24-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA EL PRIMER PÁRRAFO DE LA FRACCIÓN VI DEL APARTADO A, Y SE ADICIONA UN TERCER PÁRRAFO A LA FRACCIÓN IV DEL APARTADO B DEL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE SALARIOS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Trabajo y Salarios",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 240,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 13,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 70,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 59,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 36,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 25,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 478,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 22,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=10",
+      "sha256_evidencia": "2e3b5d96587ad1faf6135e6f8b34cb02d04dc95c7f01d0345e64f843d915cbca",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=10",
+        "sha256_evidencia": "2e3b5d96587ad1faf6135e6f8b34cb02d04dc95c7f01d0345e64f843d915cbca",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 11,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "25-Septiembre-2024",
+      "titulo": "DECRETO POR EL QUE SE ADICIONA UN SEGUNDO PÁRRAFO AL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE APOYO A JÓVENES (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 237,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 16,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 69,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 58,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 36,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 25,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 473,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 27,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=11",
+      "sha256_evidencia": "6494e41cf598b26d8090a2b40bee8220146a6d9132bb9750b56799f63db92f8b",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=11",
+        "sha256_evidencia": "6494e41cf598b26d8090a2b40bee8220146a6d9132bb9750b56799f63db92f8b",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 12,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "2-Octubre-2024",
+      "titulo": "INICIATIVA QUE REFORMA Y ADICIONA DIVERSAS DISPOSICIONES DE LA LEY FEDERAL DEL TRABAJO, EN MATERIA DEL DERECHO AL DESCANSO DE LAS PERSONAS TRABAJADORAS DURANTE LA JORNADA LABORAL (LEY SILLA)  (EN LO GENERAL Y EN LO PARTICULAR)",
+      "tema_clave": "Trabajo y Salarios",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 234,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 18,
+          "total": 252
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 70,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 61,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 37,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 27,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 476,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 23,
+        "total": 499
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=12",
+      "sha256_evidencia": "992b4675df23d3223848f4775d369309da3c67de45b0d07494d0fcbfb65067ae",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=12",
+        "sha256_evidencia": "992b4675df23d3223848f4775d369309da3c67de45b0d07494d0fcbfb65067ae",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 14,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "8-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA EL PÁRRAFO CUARTO Y SE ADICIONA UN PÁRRAFO QUINTO, AL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE VÍAS DE TRANSPORTE FERROVIARIO (EN LO GENERAL Y EN LO PARTICULAR)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 239,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 13,
+          "total": 252
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 9,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 59,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 49,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 35,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 36
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 27,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 472,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 26,
+        "total": 498
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=14",
+      "sha256_evidencia": "fe6ce13e936b3d2d481074b293e9d12f7e3fcd536dbffb467305e4f54c1ad61a",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=14",
+        "sha256_evidencia": "fe6ce13e936b3d2d481074b293e9d12f7e3fcd536dbffb467305e4f54c1ad61a",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 15,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "9-Octubre-2024",
+      "titulo": "DICTAMEN  POR EL QUE SE REFORMA EL PÁRRAFO QUINTO DEL ARTÍCULO 25, LOS PÁRRAFOS SEXTO Y SÉPTIMO DEL ARTÍCULO 27 Y EL PÁRRAFO CUARTO DEL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE ÁREAS Y EMPRESAS ESTRATÉGICAS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 247,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 252
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 64,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 1,
+          "en_contra": 32,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 26,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 353,
+        "contra": 122,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 24,
+        "total": 499
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=15",
+      "sha256_evidencia": "5fcbf51de657b27e391fcb1ed053622ad5ac434f7abebc51b7409c316d04c37a",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=15",
+        "sha256_evidencia": "5fcbf51de657b27e391fcb1ed053622ad5ac434f7abebc51b7409c316d04c37a",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 16,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "9-Octubre-2024",
+      "titulo": "DICTAMEN POR EL QUE SE REFORMA EL PÁRRAFO QUINTO DEL ARTÍCULO 25, LOS PÁRRAFOS SEXTO Y SÉPTIMO DEL ARTÍCULO 27 Y EL PÁRRAFO CUARTO DEL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE ÁREAS Y EMPRESAS ESTRATÉGICAS (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 244,
+          "en_contra": 0,
+          "abstencion": 1,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 252
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 58,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 13,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 48,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 28,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 9,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 25,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 350,
+        "contra": 111,
+        "abstencion": 1,
+        "asistencia_sin_voto": 0,
+        "ausente": 37,
+        "total": 499
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=16",
+      "sha256_evidencia": "5249f35b9c5d1113203358d64c41d392a4eda46543339dcf09cb8d594ada7965",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=16",
+        "sha256_evidencia": "5249f35b9c5d1113203358d64c41d392a4eda46543339dcf09cb8d594ada7965",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 18,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "14-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DE INSTITUCIONES Y PROCEDIMIENTOS ELECTORALES, EN MATERIA DE ELECCIÓN DE PERSONAS JUZGADORAS DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 234,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 19,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 63,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 8,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 45,
+          "en_contra": 1,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 34,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 25,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 336,
+        "contra": 123,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 41,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=18",
+      "sha256_evidencia": "a20fff55c71fff91ac16f86bb218de9ab598109edfa6daf1a1a426ff4420a950",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=18",
+        "sha256_evidencia": "a20fff55c71fff91ac16f86bb218de9ab598109edfa6daf1a1a426ff4420a950",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 19,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "14-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DE INSTITUCIONES Y PROCEDIMIENTOS ELECTORALES, EN MATERIA DE ELECCIÓN DE PERSONAS JUZGADORAS DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 237,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 16,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 65,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 6,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 60,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 44,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 36,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 342,
+        "contra": 128,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 30,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=19",
+      "sha256_evidencia": "386e3470f612f380857a71dff6ee1071742fab7f1e84c50eb05e499304bc5675",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=19",
+        "sha256_evidencia": "386e3470f612f380857a71dff6ee1071742fab7f1e84c50eb05e499304bc5675",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 20,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "14-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DEL SISTEMA DE MEDIOS DE IMPUGNACIÓN, RELATIVA A LA ACTUALIZACIÓN DE LOS MEDIOS DE IMPUGNACIÓN EN EL PROCESO DE ELECCIÓN DE LOS INTEGRANTES DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 230,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 23,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 67,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 58,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 46,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 36,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 334,
+        "contra": 130,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 36,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=20",
+      "sha256_evidencia": "78550649ef9ebb0546afba7553238687b51e7c5c2ea8c706be781783b83ae6f3",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=20",
+        "sha256_evidencia": "78550649ef9ebb0546afba7553238687b51e7c5c2ea8c706be781783b83ae6f3",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 21,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "14-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY GENERAL DEL SISTEMA DE MEDIOS DE IMPUGNACIÓN, RELATIVA A LA ACTUALIZACIÓN DE LOS MEDIOS DE IMPUGNACIÓN EN EL PROCESO DE ELECCIÓN DE LOS INTEGRANTES DEL PODER JUDICIAL DE LA FEDERACIÓN (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Reforma Judicial",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 238,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 15,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 63,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 8,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 59,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 44,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 36,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 26,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 342,
+        "contra": 125,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 33,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=21",
+      "sha256_evidencia": "7c47e799fde630bec7f41f99c2e0f5bce0e1ca0b40c284d8e2c14c4d4e93f509",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=21",
+        "sha256_evidencia": "7c47e799fde630bec7f41f99c2e0f5bce0e1ca0b40c284d8e2c14c4d4e93f509",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 22,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "22-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 4o. Y 27 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE BIENESTAR (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 242,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 11,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 68,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 62,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 48,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 36,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 483,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 17,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=22",
+      "sha256_evidencia": "96800ef51d2141ce14fd4be2791c754296eeb1dd2bad9d1fdd6df4950f815be5",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=22",
+        "sha256_evidencia": "96800ef51d2141ce14fd4be2791c754296eeb1dd2bad9d1fdd6df4950f815be5",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 23,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "22-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 4o. Y 27 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE BIENESTAR (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 237,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 16,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 65,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 6,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 60,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 49,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 35,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 408,
+        "contra": 65,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 27,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=23",
+      "sha256_evidencia": "1b54b15d94f97b393c25c25ef0fde3aefb04011ad28de756d320c2582717abf0",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=23",
+        "sha256_evidencia": "1b54b15d94f97b393c25c25ef0fde3aefb04011ad28de756d320c2582717abf0",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 24,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "23-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA Y ADICIONA LA FRACCIÓN XII DEL APARTADO A DEL ARTÍCULO 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE VIVIENDA PARA LAS PERSONAS TRABAJADORAS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS, EN TÉRMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Vivienda Social",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 241,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 12,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 66,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 61,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 48,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 29,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 8,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 1,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 472,
+        "contra": 0,
+        "abstencion": 1,
+        "asistencia_sin_voto": 0,
+        "ausente": 27,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=24",
+      "sha256_evidencia": "5f8885f116a9ba86207d199b09315a299015b29a54998d358ede586e2cca03b9",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=24",
+        "sha256_evidencia": "5f8885f116a9ba86207d199b09315a299015b29a54998d358ede586e2cca03b9",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 26,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "30-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 107 Y SE ADICIONA UN QUINTO PÁRRAFO AL ARTÍCULO 105 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE INIMPUGNABILIDAD DE LAS ADICIONES O REFORMAS A LA CONSTITUCIÓN FEDERAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 232,
+          "en_contra": 0,
+          "abstencion": 1,
+          "solo_asistencia": 0,
+          "ausente": 20,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 71,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 59,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 47,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 37,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 25,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 339,
+        "contra": 133,
+        "abstencion": 1,
+        "asistencia_sin_voto": 0,
+        "ausente": 27,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=26",
+      "sha256_evidencia": "a5e14c5171be3cd9ca4ca727becf8ab2a901bf70360fb0b12651932b9974651d",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=26",
+        "sha256_evidencia": "a5e14c5171be3cd9ca4ca727becf8ab2a901bf70360fb0b12651932b9974651d",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 27,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "30-Octubre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 107 Y SE ADICIONA UN QUINTO PÁRRAFO AL ARTÍCULO 105 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE INIMPUGNABILIDAD DE LAS ADICIONES O REFORMAS A LA CONSTITUCIÓN FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 241,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 12,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 66,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 55,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 46,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 37,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 26,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 343,
+        "contra": 129,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 28,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=27",
+      "sha256_evidencia": "fd05cb61d7aee247dcf722d72867a41fc3479728b13d64c5c9e3046b45edde4d",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=27",
+        "sha256_evidencia": "fd05cb61d7aee247dcf722d72867a41fc3479728b13d64c5c9e3046b45edde4d",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 28,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "5-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 4.; 21; 41; 73; 116; 122 Y 123 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE IGUALDAD SUSTANTIVA, PERSPECTIVA DE GÉNERO, DERECHO DE LAS MUJERES A UNA VIDA LIBRE DE VIOLENCIA Y ERRADICACIÓN DE LA BRECHA SALARIAL POR RAZONES DE GÉNERO (EN LO GENERAL Y EN LO PARTICULAR)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 239,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 14,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 61,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 10,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 60,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 46,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 36,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 468,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 32,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=28",
+      "sha256_evidencia": "76b4ab852ecb329601924edd39d72b8f73e7db38a3970949432a24372c131047",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=28",
+        "sha256_evidencia": "76b4ab852ecb329601924edd39d72b8f73e7db38a3970949432a24372c131047",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 29,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "12-Noviembre-2024",
+      "titulo": "DECRETO, POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 3o., 4o. Y 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PROTECCIÓN Y CUIDADO ANIMAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 231,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 22,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 56,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 15,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 58,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 44,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 48
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 33,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 27,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 450,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 49,
+        "total": 499
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=29",
+      "sha256_evidencia": "f828d2283420c5a697c1c001f14c899a64c50de95615af3189d09033605e5b18",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=29",
+        "sha256_evidencia": "f828d2283420c5a697c1c001f14c899a64c50de95615af3189d09033605e5b18",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 30,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "12-Noviembre-2024",
+      "titulo": "DECRETO, POR EL QUE SE REFORMAN Y ADICIONAN LOS ARTÍCULOS 3o., 4o. Y 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PROTECCIÓN Y CUIDADO ANIMAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS EN TERMINOS DEL DICTAMEN Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 227,
+          "en_contra": 0,
+          "abstencion": 1,
+          "solo_asistencia": 0,
+          "ausente": 25,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 14,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 41,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 48
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 31,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 6,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 27,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 441,
+        "contra": 0,
+        "abstencion": 1,
+        "asistencia_sin_voto": 0,
+        "ausente": 57,
+        "total": 499
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=30",
+      "sha256_evidencia": "64185db1df1b0e1da21f4b79fe80e900eabb0ed6999a78e5bdfcd9afd5b889de",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=30",
+        "sha256_evidencia": "64185db1df1b0e1da21f4b79fe80e900eabb0ed6999a78e5bdfcd9afd5b889de",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 32,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "13-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS 30 BIS CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA; 32 BIS, 35 Y 38 BIS, EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 229,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 24,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 53,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 18,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 45,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 30,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 26,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 388,
+        "contra": 53,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 59,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=32",
+      "sha256_evidencia": "3fe3626019b588b4498decced7693e0104a61ab88b044730955bf500d1d34311",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=32",
+        "sha256_evidencia": "3fe3626019b588b4498decced7693e0104a61ab88b044730955bf500d1d34311",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 33,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "13-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR EL ARTÍCULO 42 Bis EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 219,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 34,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 53,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 18,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 57,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 44,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 5,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 30,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 27,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 431,
+        "contra": 0,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 69,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=33",
+      "sha256_evidencia": "d9b6509f080fa1aae480603c0e0132eb464df45f2c88ba0016647a538dd94d61",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=33",
+        "sha256_evidencia": "d9b6509f080fa1aae480603c0e0132eb464df45f2c88ba0016647a538dd94d61",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 34,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "13-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR EL ARTÍCULO 42 Ter Y DÉCIMO CUARTO TRANSITORIO CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA Y DEMÁS ARTÍCULOS DEL DICTAMEN EN SUS TÉRMINOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 217,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 36,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 51,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 20,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 58,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 45,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 30,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 7,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 321,
+        "contra": 108,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 71,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=34",
+      "sha256_evidencia": "1768be38e9fe6a59d32021612c7241f61fd09e703e904fec1e160969edcc4855",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=34",
+        "sha256_evidencia": "1768be38e9fe6a59d32021612c7241f61fd09e703e904fec1e160969edcc4855",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 35,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "13-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMA EL PÁRRAFO SEGUNDO DEL ARTÍCULO 19 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE PRISIÓN PREVENTIVA OFICIOSA (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS CON LAS MODIFICACIONES ACEPTADAS Y EN TÉRMINOS DEL DICTAMEN)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 231,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 22,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 54,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 17,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 58,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 45,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 29,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 8,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 25,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 2,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 1,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 335,
+        "contra": 108,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 57,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=35",
+      "sha256_evidencia": "c9321ca6e6724bde92b1a789877129ecd3e3743238cb94b06d2da5b61e5498d1",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=35",
+        "sha256_evidencia": "c9321ca6e6724bde92b1a789877129ecd3e3743238cb94b06d2da5b61e5498d1",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    },
+    {
+      "id_votacion_origen": 36,
+      "camara": "Diputados",
+      "legislatura": 66,
+      "fecha": "20-Noviembre-2024",
+      "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE SIMPLIFICACIÓN ORGÁNICA (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+      "tema_clave": "Legislación General",
+      "bancadas": {
+        "MORENA": {
+          "partido_id_sitl": 14,
+          "partido": "MORENA",
+          "a_favor": 242,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 11,
+          "total": 253
+        },
+        "PAN": {
+          "partido_id_sitl": 3,
+          "partido": "PAN",
+          "a_favor": 0,
+          "en_contra": 68,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 71
+        },
+        "PVEM": {
+          "partido_id_sitl": 5,
+          "partido": "PVEM",
+          "a_favor": 59,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 62
+        },
+        "PT": {
+          "partido_id_sitl": 4,
+          "partido": "PT",
+          "a_favor": 46,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 3,
+          "total": 49
+        },
+        "PRI": {
+          "partido_id_sitl": 1,
+          "partido": "PRI",
+          "a_favor": 0,
+          "en_contra": 33,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 4,
+          "total": 37
+        },
+        "MC": {
+          "partido_id_sitl": 6,
+          "partido": "MC",
+          "a_favor": 0,
+          "en_contra": 27,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 0,
+          "total": 27
+        },
+        "IND": {
+          "partido_id_sitl": 9,
+          "partido": "IND",
+          "a_favor": 0,
+          "en_contra": 0,
+          "abstencion": 0,
+          "solo_asistencia": 0,
+          "ausente": 1,
+          "total": 1
+        }
+      },
+      "totales": {
+        "favor": 347,
+        "contra": 128,
+        "abstencion": 0,
+        "asistencia_sin_voto": 0,
+        "ausente": 25,
+        "total": 500
+      },
+      "resultado": "Aprobado",
+      "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=36",
+      "sha256_evidencia": "a7d77d8f438bea4be44d5594489e549e8cd719bb5922d449573cac51e4f0667c",
+      "fecha_extraccion": "2024-09-30 20:00:00",
+      "metadata": {
+        "fuente_nombre": "Cámara de Diputados — SITL / Gaceta Parlamentaria",
+        "fuente_url": "http://sitl.diputados.gob.mx/LXVI_leg/votaciones_por_periodolxvi.php?cual_per=1&id_vot=36",
+        "sha256_evidencia": "a7d77d8f438bea4be44d5594489e549e8cd719bb5922d449573cac51e4f0667c",
+        "fecha_extraccion": "2024-09-30 20:00:00",
+        "entidad_tipo": "Poder Legislativo Federal (Cámara de Diputados)"
+      }
+    }
+  ],
+  "fecha_extraccion": "2026-10-09 20:41:04"
 }

@@ -13,6 +13,27 @@ storage/raw/cookie.txt
 storage/raw/html/
 storage/raw/*.txt
 storage/raw/*.html
+storage/raw/*.json
+storage/raw/*.zip
+storage/raw/*.pdf
+storage/raw/*.xlsx
+storage/raw/*.csv
+storage/raw/*/
+!storage/raw/photos/
+!storage/raw/photos/**
+dist/
+
+# --- Python & ÁGORA Engine (solo local, no subir al repositorio de datos) ---
+agora/
+main.py
+scripts/
+archive/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+agora/.venv/
 
 # --- Logs ---
 storage/logs/*

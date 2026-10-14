@@ -1,0 +1,89 @@
+{
+  "entidad_cve": "03",
+  "entidad": "Baja California Sur",
+  "total_municipios": 5,
+  "periodo_constitucional": "2024-2027",
+  "fuente_primaria": "Instituto Estatal Electoral de Baja California Sur (IEEBCS)",
+  "generado_el": "2026-10-14 05:42:39",
+  "cabildos_100_verificados": [
+    "03002 (Mulegé - 11 ediles)",
+    "03003 (La Paz - 15 ediles)",
+    "03008 (Los Cabos - 13 ediles)",
+    "03009 (Loreto - 8 ediles)"
+  ],
+  "cabildos_parciales_acreditados": [
+    "03001 (Comondú - 2 ediles: Alcalde y Síndica)"
+  ],
+  "distribucion_alcaldias": {
+    "MORENA": 3,
+    "PAN": 1,
+    "PT": 1
+  },
+  "municipios": [
+    {
+      "municipio_cve": "03001",
+      "entidad_cve": "03",
+      "entidad": "Baja California Sur",
+      "municipio_nombre": "Comondú",
+      "alcalde_nombre": "Roberto Pantoja Castro",
+      "partido_acronimo": "MORENA",
+      "partido_coalicion": "Sigamos Haciendo Historia en BCS",
+      "periodo": "2024-2027",
+      "sistema_eleccion": "Partidos Políticos",
+      "fuente_oficial": "https://comondu.gob.mx",
+      "sha256": "b765ed52ea0f591011e6666dfadfc09cf5077922122288d91ef86f628392b1eb"
+    },
+    {
+      "municipio_cve": "03002",
+      "entidad_cve": "03",
+      "entidad": "Baja California Sur",
+      "municipio_nombre": "Mulegé",
+      "alcalde_nombre": "Edith Aguilar Villavicencio",
+      "partido_acronimo": "PAN",
+      "partido_coalicion": "Juntos por BCS",
+      "periodo": "2024-2027",
+      "sistema_eleccion": "Partidos Políticos",
+      "fuente_oficial": "https://mulege.gob.mx",
+      "sha256": "4e5f57a27ea536e59b454f458c68066d97a21259ca421678069c4083cbecebf2"
+    },
+    {
+      "municipio_cve": "03003",
+      "entidad_cve": "03",
+      "entidad": "Baja California Sur",
+      "municipio_nombre": "La Paz",
+      "alcalde_nombre": "Milena Paola Quiroga Romero",
+      "partido_acronimo": "MORENA",
+      "partido_coalicion": "Sigamos Haciendo Historia en BCS",
+      "periodo": "2024-2027",
+      "sistema_eleccion": "Partidos Políticos",
+      "fuente_oficial": "https://lapaz.gob.mx",
+      "sha256": "804046b8067eb44a4c099da02826b7776a9501887432bdc195f98dae8863d6b9"
+    },
+    {
+      "municipio_cve": "03008",
+      "entidad_cve": "03",
+      "entidad": "Baja California Sur",
+      "municipio_nombre": "Los Cabos",
+      "alcalde_nombre": "Christian Agúndez Gómez",
+      "partido_acronimo": "PT",
+      "partido_coalicion": "Sigamos Haciendo Historia en BCS",
+      "periodo": "2024-2027",
+      "sistema_eleccion": "Partidos Políticos",
+      "fuente_oficial": "https://loscabos.gob.mx",
+      "sha256": "a09ec2c8511c9a8d3c00b7aebaefbabef0c0465f8a8387dc0d30dab44f620e89"
+    },
+    {
+      "municipio_cve": "03009",
+      "entidad_cve": "03",
+      "entidad": "Baja California Sur",
+      "municipio_nombre": "Loreto",
+      "alcalde_nombre": "Paz del Alma Ochoa Amador",
+      "partido_acronimo": "MORENA",
+      "partido_coalicion": "Sigamos Haciendo Historia en BCS",
+      "periodo": "2024-2027",
+      "sistema_eleccion": "Partidos Políticos",
+      "fuente_oficial": "https://loreto.gob.mx",
+      "sha256": "c4dcb333172d15fc9544d2f900075c4c2aa6a4220191c742c8a6b5ec63120f9c"
+    }
+  ]
+}
