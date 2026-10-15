@@ -1,0 +1,235 @@
+{
+    "periodo_id": 3,
+    "legislatura": 64,
+    "total_votaciones": 2,
+    "votaciones": [
+        {
+            "id_votacion_origen": 49,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "16-Enero-2019",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCION POLITICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO GENERAL Y EN LO PARTICULAR, LOS ARTICULOS NO RESERVADOS)",
+            "tema_clave": "Seguridad y Guardia Nacional",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 249,
+                    "en_contra": 0,
+                    "abstencion": 3,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 77,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 42,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 27,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 7,
+                    "en_contra": 13,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 11,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 362,
+                "contra": 119,
+                "abstencion": 4,
+                "asistencia_sin_voto": 0,
+                "ausente": 15,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=49",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 50,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "16-Enero-2019",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCION POLITICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE GUARDIA NACIONAL (EN LO PARTICULAR LOS ARTICULOS 13, 16, 21, 73, 76, 82 y 89, PRIMERO, SEGUNDO, TERCERO Y CUARTO TRANSITORIOS RESERVADOS, EN SUS TÉRMINOS)",
+            "tema_clave": "Seguridad y Guardia Nacional",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 241,
+                    "en_contra": 0,
+                    "abstencion": 9,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 68,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 39,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 27,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 5,
+                    "en_contra": 11,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 11,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 348,
+                "contra": 108,
+                "abstencion": 10,
+                "asistencia_sin_voto": 0,
+                "ausente": 34,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=50",
+                "fecha_extraccion": "2026-10-15"
+            }
+        }
+    ],
+    "fecha_extraccion": "2026-10-15 21:49:31",
+    "fecha_parche_titulos": "2026-10-15 23:04:28"
+}

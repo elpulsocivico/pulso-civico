@@ -39,6 +39,10 @@ class ScraperRouter
             case 'votaciones':
                 return self::scrapeVotaciones($config, $params);
 
+            case 'patch-titulos-votaciones':
+            case 'titulos-votaciones':
+                return self::patchTitulosVotaciones($config, $params);
+
             case 'asistencias':
                 return self::scrapeAsistencias($config, $params);
 
@@ -158,6 +162,7 @@ class ScraperRouter
                     'error' => "Fuente de scraping '{$source}' no soportada.",
                     'available_sources' => [
                         'sil', 'votaciones', 'asistencias',
+                        'patch-titulos-votaciones', 'titulos-votaciones',
                         'bc', 'bcs', 'campeche', 'yucatan', 'quintanaroo', 'chiapas',
                         'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon',
                         'aguascalientes', 'edomex', 'guanajuato', 'hidalgo', 'jalisco',
@@ -217,48 +222,154 @@ class ScraperRouter
 
     private static function scrapeVotaciones(array $config, array $params): array
     {
-        $pert = isset($params['periodo']) ? (int)$params['periodo'] : 1;
-        $limite = isset($params['limit']) ? (int)$params['limit'] : 5;
+        $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 66;
+        $periodoRaw = $params['periodo'] ?? 1;
+        $todosPeriodos = is_string($periodoRaw) && strtolower($periodoRaw) === 'all';
+        // limit=0 → sin límite; por defecto 5 (muestra segura)
+        $limite = array_key_exists('limit', $params) ? (int)$params['limit'] : 5;
+        $sinLimite = $limite === 0;
 
         $logger = new Logger($config['paths']['logs'], 'ROUTER-VOTACIONES');
         $httpClient = new HttpClient($config['sil'], $logger);
-        $service = new \PulsoCivico\Services\ParliamentScraperService($config, $httpClient, $logger);
 
-        $inicio = microtime(true);
-        $lista = $service->getVotacionesPorPeriodo($pert);
-
-        $detalles = [];
-        $contador = 0;
-        foreach ($lista as $item) {
-            if ($contador >= $limite) {
-                break;
-            }
-            $det = $service->getDetalleVotacion($item['id_votacion_origen']);
-            if ($det) {
-                $detalles[] = $det;
-                $contador++;
-            }
+        try {
+            $service = new \PulsoCivico\Services\ParliamentScraperService(
+                $config,
+                $httpClient,
+                $logger,
+                $legislatura
+            );
+        } catch (\InvalidArgumentException $e) {
+            return [
+                'ok' => false,
+                'error' => $e->getMessage(),
+                'available_legislaturas' => array_keys(
+                    \PulsoCivico\Services\ParliamentScraperService::SITL_LEGISLATURAS
+                ),
+            ];
         }
 
-        if (!empty($detalles)) {
-            $destFile = ($config['paths']['data_json'] ?? '') . "/votaciones_periodo_{$pert}_leg_66.json";
-            file_put_contents($destFile, json_encode([
+        $periodos = $todosPeriodos
+            ? $service->getPeriodosConVotaciones()
+            : [(int)$periodoRaw];
+
+        $inicio = microtime(true);
+        $resumenPeriodos = [];
+        $totalEncontradas = 0;
+        $totalProcesadas = 0;
+        $muestra = [];
+
+        foreach ($periodos as $pert) {
+            $lista = $service->getVotacionesPorPeriodo($pert);
+            $detalles = [];
+            $contador = 0;
+
+            foreach ($lista as $item) {
+                if (!$sinLimite && $contador >= $limite) {
+                    break;
+                }
+                $det = $service->getDetalleVotacion($item['id_votacion_origen']);
+                if ($det) {
+                    $detalles[] = $service->enriquecerDetalleConListado($det, $item);
+                    $contador++;
+                }
+            }
+
+            $totalEncontradas += count($lista);
+            $totalProcesadas += count($detalles);
+
+            if (!empty($detalles)) {
+                $destFile = ($config['paths']['data_json'] ?? '')
+                    . "/votaciones_periodo_{$pert}_leg_{$legislatura}.json";
+                file_put_contents($destFile, json_encode([
+                    'periodo_id' => $pert,
+                    'legislatura' => $legislatura,
+                    'total_votaciones' => count($detalles),
+                    'votaciones' => $detalles,
+                    'fecha_extraccion' => date('Y-m-d H:i:s'),
+                ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            }
+
+            $resumenPeriodos[] = [
                 'periodo_id' => $pert,
-                'total_votaciones' => count($detalles),
-                'votaciones' => $detalles,
-                'fecha_extraccion' => date('Y-m-d H:i:s'),
-            ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                'votaciones_encontradas' => count($lista),
+                'votaciones_procesadas' => count($detalles),
+            ];
+
+            if (empty($muestra) && !empty($detalles)) {
+                $muestra = array_slice($detalles, 0, 3);
+            }
         }
 
         return [
             'ok' => true,
             'source' => 'sitl_diputados',
             'modulo' => 'votaciones',
-            'periodo_id' => $pert,
+            'legislatura' => $legislatura,
+            'periodo' => $todosPeriodos ? 'all' : (int)$periodoRaw,
+            'periodos' => $resumenPeriodos,
             'duracion_segundos' => round(microtime(true) - $inicio, 2),
-            'votaciones_encontradas' => count($lista),
-            'votaciones_procesadas' => count($detalles),
-            'muestra' => array_slice($detalles, 0, 3),
+            'votaciones_encontradas' => $totalEncontradas,
+            'votaciones_procesadas' => $totalProcesadas,
+            'muestra' => $muestra,
+        ];
+    }
+
+    /**
+     * Rellena títulos reales desde el listado SITL en JSON ya generados (sin re-scrapear detalles).
+     * Params: legislatura=64|63|all, dry_run=1, min_match=0.95
+     */
+    private static function patchTitulosVotaciones(array $config, array $params): array
+    {
+        $legRaw = $params['legislatura'] ?? 'all';
+        $dryRun = !empty($params['dry_run']) || !empty($params['dry']);
+        $minMatch = isset($params['min_match']) ? (float)$params['min_match'] : 0.95;
+
+        if (is_string($legRaw) && strtolower($legRaw) === 'all') {
+            $legislaturas = [64, 63];
+        } else {
+            $legislaturas = [(int)$legRaw];
+        }
+
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-PATCH-TITULOS');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $inicio = microtime(true);
+        $resultados = [];
+        $okGlobal = true;
+
+        foreach ($legislaturas as $legislatura) {
+            try {
+                $service = new \PulsoCivico\Services\ParliamentScraperService(
+                    $config,
+                    $httpClient,
+                    $logger,
+                    $legislatura
+                );
+            } catch (\InvalidArgumentException $e) {
+                $okGlobal = false;
+                $resultados[] = [
+                    'legislatura' => $legislatura,
+                    'ok' => false,
+                    'error' => $e->getMessage(),
+                ];
+                continue;
+            }
+
+            $res = $service->patchTitulosDesdeListado($dryRun, $minMatch);
+            if (empty($res['ok'])) {
+                $okGlobal = false;
+            }
+            $resultados[] = $res;
+        }
+
+        return [
+            'ok' => $okGlobal,
+            'source' => 'sitl_diputados',
+            'modulo' => 'patch_titulos_votaciones',
+            'dry_run' => $dryRun,
+            'min_match_rate' => $minMatch,
+            'duracion_segundos' => round(microtime(true) - $inicio, 2),
+            'legislaturas' => $resultados,
         ];
     }
 

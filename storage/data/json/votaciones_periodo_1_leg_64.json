@@ -1,0 +1,4190 @@
+{
+    "periodo_id": 1,
+    "legislatura": 64,
+    "total_votaciones": 37,
+    "votaciones": [
+        {
+            "id_votacion_origen": 1,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Septiembre-2018",
+            "titulo": "MINUTA CON VENCIMIENTO DE PLAZO PROYECTO DE DECRETO POR EL QUE SE EXPIDE LA LEY FEDERAL DE REMUNERACIONES DE LOS SERVIDORES PÚBLICOS, REGLAMENTARIA DE LOS ARTÍCULOS 75 Y 127 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS Y SE ADICIONA EL CÓDIGO PENAL FEDERAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 237,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 18,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 64,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 15,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 44,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 17,
+                    "en_contra": 9,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 11,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 432,
+                "contra": 9,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 58,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=1",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 2,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Septiembre-2018",
+            "titulo": "MINUTA CON VENCIMIENTO DE PLAZO PROYECTO DE DECRETO POR EL QUE SE EXPIDE LA LEY FEDERAL DE REMUNERACIONES DE LOS SERVIDORES PÚBLICOS, REGLAMENTARIA DE LOS ARTÍCULOS 75 Y 127 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS Y SE ADICIONA EL CÓDIGO PENAL FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS, EN TÉRMINOS DE LA MINUTA)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 205,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 49,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 33,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 46,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 40,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 22,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 17,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 13,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 1,
+                    "en_contra": 9,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 0,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 244,
+                "contra": 108,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 148,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=2",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 3,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "20-Septiembre-2018",
+            "titulo": "DECRETO PARA QUE SE INSCRIBA CON LETRAS DE ORO EN EL MURO DE HONOR DE LA CAMARA DE DIPUTADOS DEL CONGRESO DE LA UNIÓN, LA FRASE \"AL MOVIMIENTO ESTUDIANTIL DE 1968\" (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 230,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 25,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 71,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 42,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 453,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 47,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=3",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 4,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "27-Septiembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 39 Y 43 DE LA LEY ORGÁNICA DEL CONGRESO GENERAL DE LOS ESTADOS UNIDOS MEXICANOS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 199,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 56,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 63,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 16,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 417,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 83,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=4",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 5,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "27-Septiembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN LOS ARTÍCULOS 39 Y 43 DE LA LEY ORGÁNICA DEL CONGRESO GENERAL DE LOS ESTADOS UNIDOS MEXICANOS (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS, EN SUS TÉRMINOS Y CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 209,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 46,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 57,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 22,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 420,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 80,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=5",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 8,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "31-Octubre-2018",
+            "titulo": "DECRETO RELATIVO A LA CUENTA DE LA HACIENDA PÚBLICA FEDERAL CORRESPONDIENTE AL EJERCICIO FISCAL 2016  (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 192,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 63,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 53,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 26,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 33,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 14,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 20,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 0,
+                    "en_contra": 8,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 332,
+                "contra": 41,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 127,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=8",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 9,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 21 DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL  (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 238,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 17,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 67,
+                    "solo_asistencia": 2,
+                    "ausente": 9,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 46,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 1,
+                    "en_contra": 18,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 2,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 328,
+                "contra": 18,
+                "abstencion": 118,
+                "asistencia_sin_voto": 2,
+                "ausente": 34,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=9",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 10,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN DIVERSOS ARTÍCULOS DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 241,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 14,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 1,
+                    "en_contra": 68,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 43,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 24,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 3,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 1,
+                    "en_contra": 3,
+                    "abstencion": 16,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 305,
+                "contra": 97,
+                "abstencion": 62,
+                "asistencia_sin_voto": 0,
+                "ausente": 36,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=10",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 11,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN DIVERSOS ARTÍCULOS DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS 8, 14, 17 Bis, 26, 28, 30 Bis, 31, 32, 33, 38, 39, 41, 43, Y LOS ARTÍCULOS QUINTO Y DÉCIMO SÉPTIMO TRANSITORIOS, EN SUS TÉRMINOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 232,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 23,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 78,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 38,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 28,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 19,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 292,
+                "contra": 38,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 170,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=11",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 12,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN DIVERSOS ARTÍCULOS DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS 17 Ter, 20, 27, 32 Bis, 34, 35, 37, 40, 41 Bis, Y LOS ARTÍCULOS SEXTO Y DÉCIMO NOVENO TRANSITORIOS Y LA ADICIÓN DE DOS ARTÍCULOS TRANSITORIOS, CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 232,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 23,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 78,
+                    "total": 79
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 38,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 28,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 19,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 330,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 170,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=12",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 13,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "22-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 34 DE LA LEY SOBRE EL ESCUDO, LA BANDERA Y EL HIMNO NACIONALES (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 219,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 37,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 53,
+                    "en_contra": 1,
+                    "abstencion": 2,
+                    "solo_asistencia": 0,
+                    "ausente": 22,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 39,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 3,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 20,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 419,
+                "contra": 1,
+                "abstencion": 5,
+                "asistencia_sin_voto": 0,
+                "ausente": 75,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=13",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 14,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "22-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE EXPIDE LA LEY DEL INSTITUTO NACIONAL DE PUEBLOS INDÍGENAS Y SE ABROGA LA LEY DE LA COMISIÓN NACIONAL PARA EL DESARROLLO DE LOS PUEBLOS INDÍGENAS (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 231,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 25,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 55,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 23,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 40,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 15,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 430,
+                "contra": 0,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 69,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=14",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 15,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "27-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE FUERO E INMUNIDAD (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 245,
+                    "en_contra": 1,
+                    "abstencion": 1,
+                    "solo_asistencia": 1,
+                    "ausente": 8,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 74,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 3,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 5,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 469,
+                "contra": 3,
+                "abstencion": 6,
+                "asistencia_sin_voto": 2,
+                "ausente": 20,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=15",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 17,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "27-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE FUERO E INMUNIDAD (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS 38 Y 111, EN TÉRMINOS DEL DICTAMEN, Y CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA DEL ARTÍCULO 112)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 235,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 19,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 72,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 5,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 41,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 27,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 23,
+                    "en_contra": 1,
+                    "abstencion": 4,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 17,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 0,
+                    "en_contra": 9,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 280,
+                "contra": 171,
+                "abstencion": 4,
+                "asistencia_sin_voto": 2,
+                "ausente": 43,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=17",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 19,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "27-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN, ADICIONAN Y DEROGAN DIVERSAS DISPOSICIONES DE LA LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 233,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 22,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 78,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 35,
+                    "en_contra": 3,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 27,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 17,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 328,
+                "contra": 49,
+                "abstencion": 0,
+                "asistencia_sin_voto": 1,
+                "ausente": 122,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=19",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 20,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "28-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE EXPIDE LA LEY DEL INSTITUTO NACIONAL DE LOS PUEBLOS INDÍGENAS Y SE ABROGA LA LEY DE LA COMISIÓN NACIONAL PARA EL DESARROLLO DE LOS PUEBLOS INDÍGENAS (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 232,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 24,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 67,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 11,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 40,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 1,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 440,
+                "contra": 0,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 59,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=20",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 21,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "28-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 13 DE LA LEY DEL SERVICIO DE ADMINISTRACIÓN TRIBUTARIA (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 236,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 20,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 69,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 41,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 23,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 2,
+                    "en_contra": 17,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 1,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 410,
+                "contra": 41,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 49,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=21",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 22,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "28-Noviembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 199 DE LA LEY DEL MERCADO DE VALORES (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 238,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 18,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 69,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 42,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 17,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 448,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 52,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=22",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 23,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "28-Noviembre-2018",
+            "titulo": "DECRETO, POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY DEL SEGURO SOCIAL Y DE LA LEY DEL INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO, EN MATERIA DE SEGURIDAD SOCIAL PARA LOS CÓNYUGES Y CONCUBINOS DEL MISMO SEXO (EN LO GENERAL Y EN LO PARTICULAR, CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+            "tema_clave": "Seguridad y Guardia Nacional",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 235,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 21,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 57,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 21,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 35,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 11,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 6,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 15,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 415,
+                "contra": 0,
+                "abstencion": 6,
+                "asistencia_sin_voto": 1,
+                "ausente": 78,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=23",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 24,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "4-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE ADICIONAN DOS PÁRRAFOS AL ARTÍCULO 152 DE LA LEY DEL INSTITUTO DE SEGURIDAD SOCIAL PARA LAS FUERZAS ARMADAS MEXICANAS (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Seguridad y Guardia Nacional",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 231,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 24,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 70,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 35,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 12,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 27
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 435,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 63,
+                "total": 498
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=24",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 25,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "4-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL PRIMER PÁRRAFO DEL ARTÍCULO 6 DE LA LEY GENERAL DE LA INFRAESTRUCTURA FÍSICA EDUCATIVA (EN LO GENERAL Y EN LO PARTICULAR, CON LAS MODIFICACIONES PROPUESTAS POR LA COMISIÓN Y ACEPTADAS POR LA ASAMBLEA)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 242,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 13,
+                    "total": 255
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 66,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 12,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 42,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 27
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 454,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 44,
+                "total": 498
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=25",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 27,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "11-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE EXPIDE LA LEY ORGÁNICA DE LA FISCALÍA GENERAL DE LA REPÚBLICA (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 236,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 20,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 73,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 26,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 18,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 341,
+                "contra": 119,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 39,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=27",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 28,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "11-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE EXPIDE LA LEY ORGÁNICA DE LA FISCALÍA GENERAL DE LA REPÚBLICA (EN LO PARTICULAR LOS ARTÍCULOS RESERVADOS Y EL TITULO DE LA LEY, EN SUS TÉRMINOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 231,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 25,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 1,
+                    "en_contra": 56,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 21,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 38,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 26,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 16,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 296,
+                "contra": 138,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 65,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=28",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 31,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Diciembre-2018",
+            "titulo": "DECRETO QUE REFORMA, ADICIONA Y DEROGA DIVERSAS DISPOSICIONES DE LA LEY DEL DIARIO OFICIAL DE LA FEDERACIÓN Y GACETAS GUBERNAMENTALES (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 238,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 1,
+                    "ausente": 17,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 69,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 44,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 7,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 462,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 1,
+                "ausente": 37,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=31",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 32,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "13-Diciembre-2018",
+            "titulo": "DECRETO QUE DECLARA EL 2019 COMO \"AÑO DEL CAUDILLO DEL SUR, EMILIANO ZAPATA\" (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 234,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 22,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 61,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 17,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 45,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 29,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 7,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 450,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 50,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=32",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 34,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "18-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 22 Y LA FRACCIÓN XXX DEL ARTÍCULO 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE EXTINCIÓN DE DOMINIO (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 248,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 68,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 45,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 20,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 474,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 26,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=34",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 35,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "18-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMA EL ARTÍCULO 22 Y LA FRACCIÓN XXX DEL ARTÍCULO 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DE EXTINCIÓN DE DOMINIO (EN LO PARTICULAR EL ARTÍCULO 22 PÁRRAFO TERCERO RESERVADO, EN SUS TÉRMINOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 242,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 14,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 68,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 394,
+                "contra": 68,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 38,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=35",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 36,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "18-Diciembre-2018",
+            "titulo": "LEY DE INGRESOS DE LA FEDERACIÓN PARA EL EJERCICIO FISCAL DE 2019 (EN LO GENERAL Y EN LO PARTICULAR LOS ARTICULOS NO RESERVADOS)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 243,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 12,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 75,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 46,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 28,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 23,
+                    "en_contra": 7,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 20,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 295,
+                "contra": 179,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 26,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=36",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 39,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "18-Diciembre-2018",
+            "titulo": "LEY DE INGRESOS DE LA FEDERACIÓN PARA EL EJERCICIO FISCAL DE 2019 (EN LO PARTICULAR LOS ARTICULOS RESERVADOS 1, 27; SÉPTIMO, DÉCIMO, DÉCIMO SEGUNDO TRANSITORIOS CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA Y ADICIÓN DE UN ARTÍCULO TRANSITORIO)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 247,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 58,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 20,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 43,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 29,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 16,
+                    "en_contra": 3,
+                    "abstencion": 1,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 350,
+                "contra": 108,
+                "abstencion": 1,
+                "asistencia_sin_voto": 0,
+                "ausente": 41,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=39",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 40,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "18-Diciembre-2018",
+            "titulo": "LEY DE INGRESOS DE LA FEDERACIÓN PARA EL EJERCICIO FISCAL DE 2019 (EN LO PARTICULAR LOS ARTICULOS RESERVADOS 2, 11, 12, 16, 21, 23, 24 Y 25 EN TÉRMINOS DEL DICTAMEN)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 247,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 9,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 57,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 21,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 43,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 23,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 5,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 28,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 29,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 20,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 307,
+                "contra": 152,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 41,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=40",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 41,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "19-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY FEDERAL DE REMUNERACIONES DE LOS SERVIDORES PÚBLICOS, REGLAMENTARIA DE LOS ARTÍCULOS 75 Y 127 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, DEL CÓDIGO PENAL FEDERAL Y DE LA LEY GENERAL DE RESPONSABILIDADES ADMINISTRATIVAS (EN LO GENERAL Y EN LO PARTICULAR LOS ARTICULOS NO RESERVADOS)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 239,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 17,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 60,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 18,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 31,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 16,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 29,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 19,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 436,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 64,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=41",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 42,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "19-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY FEDERAL DE REMUNERACIONES DE LOS SERVIDORES PÚBLICOS, REGLAMENTARIA DE LOS ARTÍCULOS 75 Y 127 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, DEL CÓDIGO PENAL FEDERAL Y DE LA LEY GENERAL DE RESPONSABILIDADES ADMINISTRATIVAS (EN LO PARTICULAR EL ARTÍCULO 7 BIS RESERVADO, CON LA MODIFICACIÓN ACEPTADA POR LA ASAMBLEA)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 237,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 19,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 53,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 25,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 17,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 16,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 421,
+                "contra": 0,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 79,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=42",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 43,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "19-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DE LA LEY FEDERAL DE REMUNERACIONES DE LOS SERVIDORES PÚBLICOS, REGLAMENTARIA DE LOS ARTÍCULOS 75 Y 127 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, DEL CÓDIGO PENAL FEDERAL Y DE LA LEY GENERAL DE RESPONSABILIDADES ADMINISTRATIVAS (EN LO PARTICULAR LOS ARTÍCULOS 2, 3, 6, 7, 11, 12, 13, 15 Y 17 RESERVADOS, EN TÉRMINOS DEL DICTAMEN)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 233,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 23,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 52,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 26,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 30,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 17,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 21,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 0,
+                    "en_contra": 18,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 8,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 345,
+                "contra": 72,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 83,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=43",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 44,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "21-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE LA LXIV LEGISLATURA DE LA CÁMARA DE DIPUTADOS OTORGA LA MEDALLA DE HONOR GILBERTO RINCÓN GALLARDO, POST MÓRTEM, A LA CIUDADANA ANA MARÍA LATAPÍ SARRE (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 231,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 24,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 68,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 10,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 43,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 27,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 18,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 449,
+                "contra": 1,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 50,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=44",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 45,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "21-Diciembre-2018",
+            "titulo": "DECRETO POR EL QUE LA LXIV LEGISLATURA DE LA CÁMARA DE DIPUTADOS OTORGA LA MEDALLA AL MÉRITO CÍVICO \"EDUARDO NERI, LEGISLADORES DE 1913\", A LA CIUDADANA MARÍA DEL ROSARIO IBARRA DE LA GARZA (EN LO GENERAL Y EN LO PARTICULAR)",
+            "tema_clave": "Legislación General",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 232,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 24,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 40,
+                    "en_contra": 0,
+                    "abstencion": 30,
+                    "solo_asistencia": 0,
+                    "ausente": 8,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 40,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 24,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 22,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 6,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 28,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 17,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 10,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 1,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 2,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 415,
+                "contra": 0,
+                "abstencion": 30,
+                "asistencia_sin_voto": 0,
+                "ausente": 55,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=45",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 47,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "23-Diciembre-2018",
+            "titulo": "DECRETO DE PRESUPUESTO DE EGRESOS DE LA FEDERACIÓN PARA EL EJERCICIO FISCAL DE 2019 (EN LO GENERAL Y EN LO PARTICULAR LOS ARTÍCULOS Y ANEXOS NO RESERVADOS)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 240,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 16,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 71,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 43,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 28,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 11,
+                    "en_contra": 9,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 9,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 2,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 0,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 312,
+                "contra": 154,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 34,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=47",
+                "fecha_extraccion": "2026-10-15"
+            }
+        },
+        {
+            "id_votacion_origen": 48,
+            "camara": "Diputados",
+            "legislatura": 64,
+            "fecha": "23-Diciembre-2018",
+            "titulo": "DECRETO DE PRESUPUESTO DE EGRESOS DE LA FEDERACIÓN PARA EL EJERCICIO FISCAL DE 2019 (EN LO PARTICULAR LOS ARTÍCULOS O ANEXOS RESERVADOS, EN TÉRMINOS DEL DICTAMEN O CON LAS MODIFICACIONES ACEPTADAS POR LA ASAMBLEA)",
+            "tema_clave": "Presupuesto y Hacienda",
+            "bancadas": {
+                "MORENA": {
+                    "partido_id_sitl": 14,
+                    "partido": "MORENA",
+                    "a_favor": 235,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 21,
+                    "total": 256
+                },
+                "PAN": {
+                    "partido_id_sitl": 3,
+                    "partido": "PAN",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 78,
+                    "total": 78
+                },
+                "PRI": {
+                    "partido_id_sitl": 1,
+                    "partido": "PRI",
+                    "a_favor": 0,
+                    "en_contra": 1,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 46,
+                    "total": 47
+                },
+                "PT": {
+                    "partido_id_sitl": 4,
+                    "partido": "PT",
+                    "a_favor": 25,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 3,
+                    "total": 28
+                },
+                "MC": {
+                    "partido_id_sitl": 6,
+                    "partido": "MC",
+                    "a_favor": 0,
+                    "en_contra": 3,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 25,
+                    "total": 28
+                },
+                "PES": {
+                    "partido_id_sitl": 15,
+                    "partido": "PES",
+                    "a_favor": 26,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 30
+                },
+                "PRD": {
+                    "partido_id_sitl": 2,
+                    "partido": "PRD",
+                    "a_favor": 10,
+                    "en_contra": 3,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 7,
+                    "total": 20
+                },
+                "PVEM": {
+                    "partido_id_sitl": 5,
+                    "partido": "PVEM",
+                    "a_favor": 7,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 4,
+                    "total": 11
+                },
+                "SP": {
+                    "partido_id_sitl": 16,
+                    "partido": "SP",
+                    "a_favor": 0,
+                    "en_contra": 0,
+                    "abstencion": 0,
+                    "solo_asistencia": 0,
+                    "ausente": 2,
+                    "total": 2
+                }
+            },
+            "totales": {
+                "favor": 303,
+                "contra": 7,
+                "abstencion": 0,
+                "asistencia_sin_voto": 0,
+                "ausente": 190,
+                "total": 500
+            },
+            "resultado": "Aprobado",
+            "metadata": {
+                "fuente_url": "https:\/\/sitl.diputados.gob.mx\/LXIV_leg\/estadistico_votacionnplxiv.php?votaciont=48",
+                "fecha_extraccion": "2026-10-15"
+            }
+        }
+    ],
+    "fecha_extraccion": "2026-10-15 21:49:25",
+    "fecha_parche_titulos": "2026-10-15 23:04:26"
+}

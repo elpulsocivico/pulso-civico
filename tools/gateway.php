@@ -428,12 +428,43 @@ switch ($action) {
                         $params[$k] = is_numeric($v) ? (int)$v : $v;
                     }
                 }
-            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur', 'yuc', 'yucatan', 'qroo', 'quintanaroo'])) {
+            } elseif (in_array(strtolower($inp), [
+                'sil', 'votaciones', 'asistencias',
+                'patch-titulos-votaciones', 'titulos-votaciones',
+                'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur',
+                'yuc', 'yucatan', 'qroo', 'quintanaroo',
+            ], true)) {
                 $source = strtolower($inp);
             }
         }
         $response['parsed_params'] = $params;
         $result = ScraperRouter::run($rootDir, $source, $params);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'patch:titulos-votaciones':
+        // Rellena títulos desde el listado SITL sin re-scrapear detalles.
+        // Ej: php tools/gateway.php patch:titulos-votaciones "legislatura=all,dry_run=1"
+        $params = [];
+        foreach ([$target, $extra] as $inp) {
+            $inp = trim($inp);
+            if ($inp === '' || (!str_contains($inp, '=') && !str_contains($inp, '&'))) {
+                continue;
+            }
+            foreach (preg_split('/[,&]/', $inp) ?: [] as $pair) {
+                $pParts = explode('=', trim($pair), 2);
+                if (count($pParts) === 2) {
+                    $k = trim($pParts[0]);
+                    $v = trim($pParts[1]);
+                    $params[$k] = is_numeric($v) ? (str_contains($v, '.') ? (float)$v : (int)$v) : $v;
+                }
+            }
+        }
+        if ($params === []) {
+            $params['legislatura'] = 'all';
+        }
+        $response['parsed_params'] = $params;
+        $result = ScraperRouter::run($rootDir, 'patch-titulos-votaciones', $params);
         $response = array_merge($response, $result);
         break;
 
@@ -1356,7 +1387,8 @@ switch ($action) {
             'git:diff'               => 'Resumen de cambios de git',
             'health'                 => 'Chequeo completo de salud del proyecto (sintaxis y carpetas)',
             'search <term> [dir]'    => 'Búsqueda de código interna',
-            'scrape <fuente> [json]' => 'Ejecuta ingesta de datos por fuente (ej: sil)',
+            'scrape <fuente> [params]' => 'Ejecuta ingesta (ej: votaciones "legislatura=64,periodo=all,limit=0")',
+            'patch:titulos-votaciones [params]' => 'Rellena títulos reales desde listado SITL (legislatura=64|63|all, dry_run=1)',
         ];
         break;
 }

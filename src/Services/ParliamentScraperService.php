@@ -10,13 +10,40 @@ use PulsoCivico\DTO\SesionPlenoDTO;
 
 /**
  * Servicio de extracción, análisis e indexación de Votaciones Nominales y Asistencias
- * de la Cámara de Diputados y Cámara de Senadores (LXVI Legislatura).
+ * de la Cámara de Diputados y Cámara de Senadores (SITL).
+ *
+ * Votaciones: soporta LXVI, LXIV y LXIII (micrositio sitllxiii).
+ * Asistencias: siguen fijas a LXVI hasta parametrizarlas.
  */
 class ParliamentScraperService
 {
     public const BASE_SITL_DIPUTADOS = 'https://sitl.diputados.gob.mx/LXVI_leg';
-    
-    // Mapeo de partidos en el SITL
+
+    /**
+     * Configuración SITL por legislatura: base URL, sufijo de archivos PHP, periodos con datos.
+     * LXIII vive en micrositio aparte (http, sin carpeta /LXIII_leg/).
+     *
+     * @var array<int, array{base: string, suffix: string, periodos: int[]}>
+     */
+    public const SITL_LEGISLATURAS = [
+        66 => [
+            'base' => 'https://sitl.diputados.gob.mx/LXVI_leg',
+            'suffix' => 'lxvi',
+            'periodos' => [1], // ampliar cuando se documenten todos los pert LXVI
+        ],
+        64 => [
+            'base' => 'https://sitl.diputados.gob.mx/LXIV_leg',
+            'suffix' => 'lxiv',
+            'periodos' => [1, 3, 4, 6, 7, 8, 9, 11, 13, 14, 15, 16, 18],
+        ],
+        63 => [
+            'base' => 'http://sitllxiii.diputados.gob.mx',
+            'suffix' => 'lxiii',
+            'periodos' => [1, 3, 5, 6, 7, 9, 11, 13],
+        ],
+    ];
+
+    // Mapeo de partidos en el SITL (LXVI; otras legislaturas leen el nombre del HTML)
     public const PARTIDOS_SITL = [
         14 => 'Morena',
         3  => 'PAN',
@@ -32,13 +59,241 @@ class ParliamentScraperService
     private HttpClient $http;
     private Logger $logger;
     private string $storageDir;
+    private int $legislatura;
+    private string $sitlBase;
+    private string $sitlSuffix;
 
-    public function __construct(array $config, HttpClient $http, Logger $logger)
+    public function __construct(array $config, HttpClient $http, Logger $logger, int $legislatura = 66)
     {
         $this->config = $config;
         $this->http = $http;
         $this->logger = $logger;
         $this->storageDir = $config['paths']['data_json'] ?? (dirname(__DIR__, 2) . '/storage/data/json');
+        $this->legislatura = $legislatura;
+
+        if (!isset(self::SITL_LEGISLATURAS[$legislatura])) {
+            throw new \InvalidArgumentException(
+                "Legislatura {$legislatura} no soportada en SITL. Disponibles: "
+                . implode(', ', array_keys(self::SITL_LEGISLATURAS))
+            );
+        }
+
+        $cfg = self::SITL_LEGISLATURAS[$legislatura];
+        $this->sitlBase = rtrim($cfg['base'], '/');
+        $this->sitlSuffix = $cfg['suffix'];
+    }
+
+    /** @return int[] Periodos con votaciones conocidas para la legislatura activa */
+    public function getPeriodosConVotaciones(): array
+    {
+        return self::SITL_LEGISLATURAS[$this->legislatura]['periodos'];
+    }
+
+    public function getLegislatura(): int
+    {
+        return $this->legislatura;
+    }
+
+    /**
+     * Indica si el título es el placeholder genérico del detalle SITL.
+     */
+    public static function esTituloGenerico(?string $titulo): bool
+    {
+        $t = trim((string)$titulo);
+        return $t === '' || strcasecmp($t, 'Votación Nominal') === 0;
+    }
+
+    /**
+     * Si el detalle trae título genérico, usa el del listado y recalcula tema_clave.
+     *
+     * @param array<string, mixed> $detalle
+     * @param array<string, mixed> $itemLista
+     * @return array<string, mixed>
+     */
+    public function enriquecerDetalleConListado(array $detalle, array $itemLista): array
+    {
+        $tituloLista = trim((string)($itemLista['titulo'] ?? ''));
+        if ($tituloLista === '' || !self::esTituloGenerico($detalle['titulo'] ?? null)) {
+            return $detalle;
+        }
+        $detalle['titulo'] = $tituloLista;
+        $detalle['tema_clave'] = $this->clasificarTemaVotacion($tituloLista);
+        return $detalle;
+    }
+
+    /**
+     * Parchea títulos reales en JSON ya scrapeados: 1 GET al listado por periodo.
+     * Solo reemplaza títulos genéricos ("Votación Nominal"). No toca bancadas/totales.
+     * Si el match por id_votacion_origen es inferior a $minMatchRate, no escribe el archivo.
+     *
+     * @return array{
+     *   ok: bool,
+     *   legislatura: int,
+     *   dry_run: bool,
+     *   min_match_rate: float,
+     *   archivos: list<array<string, mixed>>,
+     *   totales: array{archivos: int, actualizados: int, omitidos: int, fallidos: int}
+     * }
+     */
+    public function patchTitulosDesdeListado(bool $dryRun = false, float $minMatchRate = 0.95): array
+    {
+        $pattern = $this->storageDir . '/votaciones_periodo_*_leg_' . $this->legislatura . '.json';
+        $files = glob($pattern) ?: [];
+        sort($files, SORT_NATURAL);
+
+        $archivos = [];
+        $totales = ['archivos' => 0, 'actualizados' => 0, 'omitidos' => 0, 'fallidos' => 0];
+
+        foreach ($files as $file) {
+            $totales['archivos']++;
+            $base = basename($file);
+            if (!preg_match('/^votaciones_periodo_(\d+)_leg_\d+\.json$/', $base, $m)) {
+                $archivos[] = [
+                    'archivo' => $base,
+                    'ok' => false,
+                    'error' => 'nombre_archivo_invalido',
+                ];
+                $totales['fallidos']++;
+                continue;
+            }
+            $pert = (int)$m[1];
+            $raw = file_get_contents($file);
+            $data = is_string($raw) ? json_decode($raw, true) : null;
+            if (!is_array($data) || !isset($data['votaciones']) || !is_array($data['votaciones'])) {
+                $archivos[] = [
+                    'archivo' => $base,
+                    'periodo_id' => $pert,
+                    'ok' => false,
+                    'error' => 'json_invalido',
+                ];
+                $totales['fallidos']++;
+                continue;
+            }
+
+            $lista = $this->getVotacionesPorPeriodo($pert);
+            /** @var array<int, string> $mapaTitulos */
+            $mapaTitulos = [];
+            foreach ($lista as $item) {
+                $id = (int)($item['id_votacion_origen'] ?? 0);
+                $tit = trim((string)($item['titulo'] ?? ''));
+                if ($id > 0 && $tit !== '' && !self::esTituloGenerico($tit)) {
+                    $mapaTitulos[$id] = $tit;
+                }
+            }
+
+            $enJson = 0;
+            $encontrados = 0;
+            $actualizados = 0;
+            $yaReales = 0;
+            $huerfanosJson = [];
+            $idsJson = [];
+
+            foreach ($data['votaciones'] as $idx => $vot) {
+                if (!is_array($vot)) {
+                    continue;
+                }
+                $enJson++;
+                $id = (int)($vot['id_votacion_origen'] ?? 0);
+                $idsJson[$id] = true;
+                $tituloActual = (string)($vot['titulo'] ?? '');
+
+                if (!isset($mapaTitulos[$id])) {
+                    $huerfanosJson[] = $id;
+                    continue;
+                }
+                $encontrados++;
+                $tituloLista = $mapaTitulos[$id];
+
+                if (!self::esTituloGenerico($tituloActual)) {
+                    $yaReales++;
+                    continue;
+                }
+
+                $data['votaciones'][$idx]['titulo'] = $tituloLista;
+                $data['votaciones'][$idx]['tema_clave'] = $this->clasificarTemaVotacion($tituloLista);
+                $actualizados++;
+            }
+
+            $huerfanosListado = [];
+            foreach (array_keys($mapaTitulos) as $idLista) {
+                if (!isset($idsJson[$idLista])) {
+                    $huerfanosListado[] = $idLista;
+                }
+            }
+
+            $matchRate = $enJson > 0 ? ($encontrados / $enJson) : 0.0;
+            $cumpleUmbral = $matchRate >= $minMatchRate;
+            $escrito = false;
+
+            if (!$cumpleUmbral) {
+                $archivos[] = [
+                    'archivo' => $base,
+                    'periodo_id' => $pert,
+                    'ok' => false,
+                    'error' => 'match_rate_bajo',
+                    'match_rate' => round($matchRate, 4),
+                    'min_match_rate' => $minMatchRate,
+                    'en_json' => $enJson,
+                    'encontrados_en_listado' => $encontrados,
+                    'titulos_en_listado' => count($mapaTitulos),
+                    'huerfanos_json' => array_slice($huerfanosJson, 0, 20),
+                    'huerfanos_listado_count' => count($huerfanosListado),
+                    'actualizados' => 0,
+                    'escrito' => false,
+                ];
+                $totales['fallidos']++;
+                continue;
+            }
+
+            if ($actualizados > 0 && !$dryRun) {
+                $data['fecha_parche_titulos'] = date('Y-m-d H:i:s');
+                $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+                if ($json === false || file_put_contents($file, $json) === false) {
+                    $archivos[] = [
+                        'archivo' => $base,
+                        'periodo_id' => $pert,
+                        'ok' => false,
+                        'error' => 'escritura_fallida',
+                        'match_rate' => round($matchRate, 4),
+                    ];
+                    $totales['fallidos']++;
+                    continue;
+                }
+                $escrito = true;
+            }
+
+            $archivos[] = [
+                'archivo' => $base,
+                'periodo_id' => $pert,
+                'ok' => true,
+                'match_rate' => round($matchRate, 4),
+                'en_json' => $enJson,
+                'encontrados_en_listado' => $encontrados,
+                'titulos_en_listado' => count($mapaTitulos),
+                'actualizados' => $actualizados,
+                'ya_reales' => $yaReales,
+                'huerfanos_json_count' => count($huerfanosJson),
+                'huerfanos_listado_count' => count($huerfanosListado),
+                'huerfanos_json_muestra' => array_slice($huerfanosJson, 0, 10),
+                'escrito' => $escrito,
+                'dry_run' => $dryRun,
+            ];
+
+            if ($actualizados > 0) {
+                $totales['actualizados']++;
+            } else {
+                $totales['omitidos']++;
+            }
+        }
+
+        return [
+            'ok' => $totales['fallidos'] === 0,
+            'legislatura' => $this->legislatura,
+            'dry_run' => $dryRun,
+            'min_match_rate' => $minMatchRate,
+            'archivos' => $archivos,
+            'totales' => $totales,
+        ];
     }
 
     /**
@@ -47,40 +302,48 @@ class ParliamentScraperService
      */
     public function getVotacionesPorPeriodo(int $pert = 1): array
     {
-        $url = self::BASE_SITL_DIPUTADOS . "/votacionesxperiodonplxvi.php?pert={$pert}";
-        $referer = self::BASE_SITL_DIPUTADOS . "/votaciones_por_periodonplxvi.php";
+        $sfx = $this->sitlSuffix;
+        $url = "{$this->sitlBase}/votacionesxperiodonp{$sfx}.php?pert={$pert}";
+        $referer = "{$this->sitlBase}/votaciones_por_periodonp{$sfx}.php";
 
         $response = $this->http->request('GET', $url, [], ['Referer' => $referer]);
         if ($response['status'] !== 200 || empty($response['body'])) {
-            $this->logger->error("Error al obtener votaciones del periodo {$pert}: Status {$response['status']}");
+            $this->logger->error("Error al obtener votaciones del periodo {$pert} (leg {$this->legislatura}): Status {$response['status']}");
             return [];
         }
 
         $html = $response['body'];
         $votaciones = [];
+        $fechaExtraccion = date('Y-m-d');
 
-        // Extraer fechas y votaciones
-        // Patrón: estadistico_votacionnplxvi.php?votaciont=X con su título
-        if (preg_match_all('/estadistico_votacionnplxvi\.php\?votaciont=(\d+)[^>]*>(\d+)<\/a><\/td>\s*<td[^>]*class=["\']Estiloparrafoc["\'][^>]*>(.*?)<\/td>/si', $html, $matches, PREG_SET_ORDER)) {
+        // Patrón: estadistico_votacionnpl{suffix}.php?votaciont=X con su título
+        // Acepta class Estiloparrafoc u otra clase en el <td> del título (HTML histórico varía).
+        $reLista = '/estadistico_votacionnp' . preg_quote($sfx, '/')
+            . '\.php\?votaciont=(\d+)[^>]*>(\d+)<\/a><\/td>\s*<td[^>]*>(.*?)<\/td>/si';
+
+        if (preg_match_all($reLista, $html, $matches, PREG_SET_ORDER)) {
             foreach ($matches as $m) {
                 $votacionId = (int)$m[1];
                 $titulo = html_entity_decode(trim(strip_tags($m[3])), ENT_QUOTES | ENT_HTML5, 'UTF-8');
-                
-                // Determinar tema clave mediante heurística semántica
                 $temaClave = $this->clasificarTemaVotacion($titulo);
+                $fuenteUrl = "{$this->sitlBase}/estadistico_votacionnp{$sfx}.php?votaciont={$votacionId}";
 
                 $votaciones[] = [
                     'id_votacion_origen' => $votacionId,
                     'camara' => 'Diputados',
-                    'legislatura' => 66,
+                    'legislatura' => $this->legislatura,
                     'periodo_id' => $pert,
                     'titulo' => $titulo,
                     'tema_clave' => $temaClave,
+                    'metadata' => [
+                        'fuente_url' => $fuenteUrl,
+                        'fecha_extraccion' => $fechaExtraccion,
+                    ],
                 ];
             }
         }
 
-        $this->logger->info("Se localizaron " . count($votaciones) . " votaciones para el periodo {$pert}.");
+        $this->logger->info("Se localizaron " . count($votaciones) . " votaciones para el periodo {$pert} (leg {$this->legislatura}).");
         return $votaciones;
     }
 
@@ -89,12 +352,13 @@ class ParliamentScraperService
      */
     public function getDetalleVotacion(int $votacionId): ?array
     {
-        $url = self::BASE_SITL_DIPUTADOS . "/estadistico_votacionnplxvi.php?votaciont={$votacionId}";
-        $referer = self::BASE_SITL_DIPUTADOS . "/votacionesxperiodonplxvi.php?pert=1";
+        $sfx = $this->sitlSuffix;
+        $url = "{$this->sitlBase}/estadistico_votacionnp{$sfx}.php?votaciont={$votacionId}";
+        $referer = "{$this->sitlBase}/votacionesxperiodonp{$sfx}.php?pert=1";
 
         $response = $this->http->request('GET', $url, [], ['Referer' => $referer]);
         if ($response['status'] !== 200 || empty($response['body'])) {
-            $this->logger->error("Error al obtener detalle de votación {$votacionId}: Status {$response['status']}");
+            $this->logger->error("Error al obtener detalle de votación {$votacionId} (leg {$this->legislatura}): Status {$response['status']}");
             return null;
         }
 
@@ -113,12 +377,13 @@ class ParliamentScraperService
             $fecha = $mFecha[0];
         }
 
-        // Extraer resumen por bancadas
-        // <td width="100" height="35" class="estilolinks" align="center"><a href="listados_votacionesnplxvi.php?partidot=14&votaciont=2" class="estilolinks">MORENA</a></td>
+        // Extraer resumen por bancadas (nombre del partido viene del texto del enlace)
         $bancadas = [];
         $totales = ['favor' => 0, 'contra' => 0, 'abstencion' => 0, 'asistencia_sin_voto' => 0, 'ausente' => 0, 'total' => 0];
 
-        $re = '/listados_votacionesnplxvi\.php\?partidot=(\d+)&votaciont=' . $votacionId . '["\'][^>]*>([^<]+)<\/a><\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>/si';
+        $re = '/listados_votacionesnp' . preg_quote($sfx, '/')
+            . '\.php\?partidot=(\d+)&votaciont=' . $votacionId
+            . '["\'][^>]*>([^<]+)<\/a><\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>\s*<td[^>]*>(\d+)<\/td>/si';
 
         if (preg_match_all($re, $html, $bMatches, PREG_SET_ORDER)) {
             foreach ($bMatches as $bm) {
@@ -154,13 +419,17 @@ class ParliamentScraperService
         return [
             'id_votacion_origen' => $votacionId,
             'camara' => 'Diputados',
-            'legislatura' => 66,
+            'legislatura' => $this->legislatura,
             'fecha' => $fecha,
             'titulo' => $titulo,
             'tema_clave' => $this->clasificarTemaVotacion($titulo),
             'bancadas' => $bancadas,
             'totales' => $totales,
             'resultado' => ($totales['favor'] > $totales['contra']) ? 'Aprobado' : 'Desechado',
+            'metadata' => [
+                'fuente_url' => $url,
+                'fecha_extraccion' => date('Y-m-d'),
+            ],
         ];
     }
 
@@ -169,8 +438,9 @@ class ParliamentScraperService
      */
     public function getVotosNominalesPorPartido(int $partidoId, int $votacionId): array
     {
-        $url = self::BASE_SITL_DIPUTADOS . "/listados_votacionesnplxvi.php?partidot={$partidoId}&votaciont={$votacionId}";
-        $referer = self::BASE_SITL_DIPUTADOS . "/estadistico_votacionnplxvi.php?votaciont={$votacionId}";
+        $sfx = $this->sitlSuffix;
+        $url = "{$this->sitlBase}/listados_votacionesnp{$sfx}.php?partidot={$partidoId}&votaciont={$votacionId}";
+        $referer = "{$this->sitlBase}/estadistico_votacionnp{$sfx}.php?votaciont={$votacionId}";
 
         $response = $this->http->request('GET', $url, [], ['Referer' => $referer]);
         if ($response['status'] !== 200 || empty($response['body'])) {
