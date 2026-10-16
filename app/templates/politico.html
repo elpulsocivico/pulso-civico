@@ -113,7 +113,10 @@
                 <span class="badge bg-light text-secondary border">Titular Electo</span>
                 {% endif %}
                 {% if politico.edad %}
-                <span class="badge bg-light text-secondary border">{{ politico.edad }} años</span>
+                <span class="badge bg-light text-dark border shadow-sm d-inline-flex align-items-center gap-1" title="Edad calculada a partir de la fecha de nacimiento oficial">
+                    <i class="bi bi-cake2 text-primary"></i>
+                    <span>{{ politico.edad }} años</span>
+                </span>
                 {% endif %}
             </div>
 
@@ -209,6 +212,19 @@
                     <strong class="text-dark d-block">Entidad Federativa:</strong>
                     <a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none fw-medium">{{ politico.entidad or 'República Mexicana' }}</a>
                 </div>
+                {% if politico.edad or politico.fecha_nacimiento %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Edad y Nacimiento:</strong>
+                    <div class="d-flex align-items-center gap-1 flex-wrap">
+                        {% if politico.edad %}
+                        <span class="fw-semibold text-dark"><i class="bi bi-cake2 text-primary me-1"></i>{{ politico.edad }} años</span>
+                        {% endif %}
+                        {% if politico.fecha_nacimiento %}
+                        <span class="text-muted small">({{ politico.fecha_nacimiento }})</span>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
                 {% if politico.fecha_toma_protesta %}
                 <div class="mb-2">
                     <strong class="text-dark d-block">Toma de Protesta:</strong>
