@@ -1,0 +1,65 @@
+[
+  {
+    "ticket_id": "REP-20261014-BB97",
+    "fecha_iso": "2026-10-15T05:52:46.691910+00:00",
+    "fecha_humana": "2026-10-14 22:52:46",
+    "ip": "127.0.0.1",
+    "user_agent": "TestRunner",
+    "origen": {
+      "tipo": "politico",
+      "id": "",
+      "nombre": "Prueba Python",
+      "url": ""
+    },
+    "categoria": "homonimo",
+    "checkmarks": [],
+    "detalle": "Prueba Python directa",
+    "fuente_url": "",
+    "contacto_email": "",
+    "estado": "pendiente",
+    "notas_auditoria": []
+  },
+  {
+    "ticket_id": "REP-20261015-E97D",
+    "fecha_iso": "2026-10-15T22:03:32.003907+00:00",
+    "fecha_humana": "2026-10-15 15:03:32",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "origen": {
+      "tipo": "filtro_directorio",
+      "id": "filtro_alcalde_baja-california",
+      "nombre": "Directorio: 🏢 Alcaldes (Baja California)",
+      "url": "http://127.0.0.1:8000/politicos?cargo=alcalde&entidad=oaxaca"
+    },
+    "categoria": "falso_positivo",
+    "checkmarks": [],
+    "detalle": "No se ve Claudia agaton como Presidente municipal \"alcalde\" de Ensenada",
+    "filtros_activos": {
+      "filtros_activos": {
+        "busqueda_texto": "(ninguna)",
+        "legislatura": "todas",
+        "legislatura_label": "Todas las Legislaturas",
+        "cargo": "alcalde",
+        "cargo_label": "🏢 Alcaldes",
+        "entidad_federativa": "baja-california",
+        "entidad_label": "Baja California",
+        "partido_politico": "todos",
+        "partido_label": "Todos los Partidos",
+        "solo_en_funciones_lxvi": false
+      },
+      "resultados_obtenidos": {
+        "total_filtrados": 29,
+        "mostrados_en_pantalla": 29,
+        "muestra_primeros_representantes": []
+      },
+      "meta": {
+        "url_consulta": "http://127.0.0.1:8000/politicos?cargo=alcalde&entidad=oaxaca",
+        "fecha_reporte": "2026-10-15T22:02:42.732Z"
+      }
+    },
+    "fuente_url": "",
+    "contacto_email": "",
+    "estado": "pendiente",
+    "notas_auditoria": []
+  }
+]

@@ -1,0 +1,137 @@
+{
+    "cvegeo": "20222",
+    "entidad": "Oaxaca",
+    "cve_ent": 20,
+    "municipio": "San Juan Yaeé",
+    "cve_mun": 222,
+    "poblacion_total": 1426,
+    "regimen_electoral": "Sistemas Normativos Indígenas",
+    "es_usos_costumbres": true,
+    "total_mandatos_registrados": 4,
+    "alcalde_actual": {
+        "cvegeo": "20222",
+        "entidad": "Oaxaca",
+        "cve_ent": 20,
+        "municipio": "San Juan Yaeé",
+        "cve_mun": 222,
+        "nombre_completo": "Autoridad Comunitaria Tradicional",
+        "periodo": "2023-2025",
+        "ano_inicio": 2023,
+        "ano_fin": 2025,
+        "partido": null,
+        "es_vigente": true,
+        "tipo_cargo": "Presidente Municipal / Concejal Presidente",
+        "sistema": "Sistemas Normativos Indígenas (Asamblea Comunitaria)",
+        "metadata": {
+            "fuente_url": "https://www.ieepco.org.mx/sistemas-normativos-indigenas",
+            "fecha_extraccion": "2026-10-15"
+        }
+    },
+    "cronologia": [
+        {
+            "cvegeo": "20222",
+            "ano_inicio": 1977,
+            "ano_fin": 1980,
+            "periodo": "1977-1980",
+            "partido": "PRI",
+            "es_vigente": false,
+            "margen_victoria": 1,
+            "total_votos": 764,
+            "nombre_completo": "Presidente Municipal Constitucional (PRI)",
+            "tipo_cargo": "Presidente Municipal Constitucional",
+            "metadata": {
+                "fuente_url": "https://github.com/emagar/elecRetrns (Bases Electorales Históricas 1970-1988)",
+                "fecha_extraccion": "2026-10-15"
+            },
+            "entidad": "Oaxaca",
+            "cve_ent": 20,
+            "municipio": "San Juan Yaeé",
+            "cve_mun": 222
+        },
+        {
+            "cvegeo": "20222",
+            "ano_inicio": 1980,
+            "ano_fin": 1983,
+            "periodo": "1980-1983",
+            "partido": "PRI",
+            "es_vigente": false,
+            "margen_victoria": 1,
+            "total_votos": 1049,
+            "nombre_completo": "Presidente Municipal Constitucional (PRI)",
+            "tipo_cargo": "Presidente Municipal Constitucional",
+            "metadata": {
+                "fuente_url": "https://github.com/emagar/elecRetrns (Bases Electorales Históricas 1970-1988)",
+                "fecha_extraccion": "2026-10-15"
+            },
+            "entidad": "Oaxaca",
+            "cve_ent": 20,
+            "municipio": "San Juan Yaeé",
+            "cve_mun": 222
+        },
+        {
+            "cvegeo": "20222",
+            "ano_inicio": 1983,
+            "ano_fin": 1986,
+            "periodo": "1983-1986",
+            "partido": "PRI",
+            "es_vigente": false,
+            "margen_victoria": 1,
+            "total_votos": 890,
+            "nombre_completo": "Presidente Municipal Constitucional (PRI)",
+            "tipo_cargo": "Presidente Municipal Constitucional",
+            "metadata": {
+                "fuente_url": "https://github.com/emagar/elecRetrns (Bases Electorales Históricas 1970-1988)",
+                "fecha_extraccion": "2026-10-15"
+            },
+            "entidad": "Oaxaca",
+            "cve_ent": 20,
+            "municipio": "San Juan Yaeé",
+            "cve_mun": 222
+        },
+        {
+            "cvegeo": "20222",
+            "ano_inicio": 1986,
+            "ano_fin": 1989,
+            "periodo": "1986-1989",
+            "partido": "PRI",
+            "es_vigente": false,
+            "margen_victoria": 1,
+            "total_votos": 941,
+            "nombre_completo": "Presidente Municipal Constitucional (PRI)",
+            "tipo_cargo": "Presidente Municipal Constitucional",
+            "metadata": {
+                "fuente_url": "https://github.com/emagar/elecRetrns (Bases Electorales Históricas 1970-1988)",
+                "fecha_extraccion": "2026-10-15"
+            },
+            "entidad": "Oaxaca",
+            "cve_ent": 20,
+            "municipio": "San Juan Yaeé",
+            "cve_mun": 222
+        }
+    ],
+    "metadata": {
+        "fuente_primaria": "INEGI Marco Geoestadístico / IEEPCO Catálogo SNI",
+        "fecha_actualizacion": "2026-10-15 00:28:39"
+    },
+    "cabildo": [
+        {
+            "cargo": "Presidente(a) Municipal / Concejal Presidente",
+            "nombre_completo": "Autoridad Comunitaria Tradicional",
+            "partido": null,
+            "rol_cabildo": "Presidencia"
+        },
+        {
+            "cargo": "Síndico(a) Municipal Tradicional",
+            "nombre_completo": "Autoridad de Sindicatura Comunitaria",
+            "partido": null,
+            "rol_cabildo": "Sindicatura"
+        },
+        {
+            "cargo": "Regidor(a) de Asuntos Comunitarios",
+            "nombre_completo": "Regiduría Comunitaria de Elección por Asamblea",
+            "partido": null,
+            "rol_cabildo": "Regiduría"
+        }
+    ],
+    "total_ediles_cabildo": 3
+}
