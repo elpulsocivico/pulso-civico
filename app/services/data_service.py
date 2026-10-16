@@ -1581,6 +1581,24 @@ class DataService:
                 p["titular_politico"] = titular_pol
                 p["titular_slug"] = titular_pol["slug"] if titular_pol else slugify(titular_nom)
 
+            # Resolver foto local vs remota oficial
+            ref_sil = str(p.get("referencia_sil") or "")
+            foto_local = p.get("foto_local_path")
+            tiene_foto_local = False
+            if ref_sil and (settings.STORAGE_RAW_PHOTOS / f"{ref_sil}.jpg").exists():
+                foto_url = f"/photos/{ref_sil}.jpg"
+                tiene_foto_local = True
+            elif foto_local and (Path(settings.BASE_DIR) / str(foto_local).lstrip("/\\")).exists():
+                foto_url = f"/{str(foto_local).lstrip('/')}"
+                tiene_foto_local = True
+            elif p.get("foto_oficial_url"):
+                foto_url = p.get("foto_oficial_url")
+            else:
+                foto_url = ""
+
+            p["foto_url"] = foto_url
+            p["tiene_foto_local"] = tiene_foto_local
+
         return p
 
     def get_diputados(self, legislatura: int = 66) -> List[Dict[str, Any]]:
