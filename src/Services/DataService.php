@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace PulsoCivico\Services;
 
+use PulsoCivico\Core\ViewHelper;
+
 /**
  * DataService: Gestiona y enriquece la estructura de datos cívicos.
  * Normaliza slugs canónicos para SEO, relaciones de grafo y consultas por estado y partido.
@@ -29,13 +31,27 @@ class DataService
     private array $sesiones = [];
     /** @var array<string, array> */
     private array $asistenciasNominales = [];
+    /** @var array<string, array> */
+    private array $indiceMultinivel = [];
     private EducationService $educationService;
+    private bool $isDataLoaded = false;
 
     public function __construct(?string $storagePath = null)
     {
         $this->educationService = new EducationService();
         $this->storagePath = $storagePath ?? dirname(__DIR__, 2) . '/storage';
         $this->initEstadosCatalog();
+    }
+
+    /**
+     * Carga bajo demanda los datasets brutos de 125MB solo cuando una consulta específica lo requiera.
+     */
+    public function ensureDataLoaded(): void
+    {
+        if ($this->isDataLoaded) {
+            return;
+        }
+        $this->isDataLoaded = true;
         $this->loadAndIndexData();
     }
 
@@ -96,6 +112,15 @@ class DataService
             $this->iniciativas = json_decode((string)file_get_contents($iniciativasFile), true) ?? [];
         }
 
+        // 1.0 Cargar índice de cargos y trayectorias multinivel (Poder Ejecutivo, Alcaldías y Congresos Locales)
+        $indiceMultiFile = $this->storagePath . '/data/json/indice_cargos_multinivel.json';
+        if (file_exists($indiceMultiFile)) {
+            $rawMulti = json_decode((string)file_get_contents($indiceMultiFile), true);
+            if (!empty($rawMulti['indice']) && is_array($rawMulti['indice'])) {
+                $this->indiceMultinivel = $rawMulti['indice'];
+            }
+        }
+
         // 1.1 Cargar catálogo de votaciones del Pleno
         $votacionesFiles = glob($this->storagePath . '/data/json/votaciones_periodo_*_leg_66.json') ?: [];
         foreach ($votacionesFiles as $vf) {
@@ -146,14 +171,8 @@ class DataService
             }
         }
 
-        // 2.1 Incluir datasets de congresos locales (Tamaulipas, Baja California, etc.)
-        $stateFiles = glob($this->storagePath . '/data/json/congreso_*_leg_*.json') ?: [];
-        foreach ($stateFiles as $sf) {
-            $base = basename($sf);
-            if (!str_starts_with($base, 'congreso_union_')) {
-                $jsonFiles[] = $sf;
-            }
-        }
+        // 2.1 Nota: Los congresos locales (320 archivos) y ejecutivos estatales/municipales
+        // ya están pre-indexados en $this->indiceMultinivel para máximo rendimiento (<150ms).
 
         $todos = [];
         $dedup = [];
@@ -225,10 +244,12 @@ class DataService
             $item['edad'] = $this->calcularEdad($item['fecha_nacimiento'] ?? null);
             $item['partido_slug'] = self::slugify($item['partido'] ?? 'independiente');
 
-            // Procesar Línea de Tiempo y Escolaridad deduplicada
+            // Procesar Línea de Tiempo y Escolaridad deduplicada con cruce multinivel
             $parsedHistorial = $this->procesarTrayectoriaYEstudios($item);
             $item['linea_tiempo'] = $parsedHistorial['linea_tiempo'];
             $item['escolaridad_items'] = $parsedHistorial['escolaridad'];
+            $item['escalas_gobierno'] = $parsedHistorial['escalas_gobierno'] ?? [];
+            $item['transicion_partidista'] = $parsedHistorial['transicion_partidista'] ?? [];
 
             // Clasificación y auditoría académica
             $item['perfil_academico'] = $this->educationService->clasificarPolitico($item);
@@ -525,6 +546,42 @@ class DataService
             'descripcion' => 'Legislatura de intensa negociación política durante la administración 2006-2012. Destacó por reformas en derechos humanos, juicio de amparo y seguridad pública.',
             'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=61',
         ],
+        60 => [
+            'numero' => 60,
+            'romano' => 'LX',
+            'periodo' => '2006–2009',
+            'periodo_senado' => '2006–2012',
+            'ano_inicio' => 2006,
+            'ano_fin' => 2009,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Periodo legislativo marcado por reformas estructurales al régimen de pensiones (ISSSTE), reforma electoral de 2007-2008 y debates en materia de seguridad pública.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=60',
+        ],
+        59 => [
+            'numero' => 59,
+            'romano' => 'LIX',
+            'periodo' => '2003–2006',
+            'periodo_senado' => '2000–2006',
+            'ano_inicio' => 2003,
+            'ano_fin' => 2006,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Segunda mitad del sexenio de la alternancia 2000-2006 con amplia pluralidad parlamentaria y equilibrio de poderes entre Legislativo y Ejecutivo.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=59',
+        ],
+        58 => [
+            'numero' => 58,
+            'romano' => 'LVIII',
+            'periodo' => '2000–2003',
+            'periodo_senado' => '2000–2006',
+            'ano_inicio' => 2000,
+            'ano_fin' => 2003,
+            'estatus' => 'historica',
+            'estatus_label' => 'Periodo Histórico',
+            'descripcion' => 'Primera legislatura tras la alternancia presidencial del año 2000, caracterizada por consensos multipartidistas y leyes de transparencia y acceso a la información pública.',
+            'sil_url' => 'http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?numLeg=58',
+        ],
         57 => [
             'numero' => 57,
             'romano' => 'LVII',
@@ -599,6 +656,7 @@ class DataService
      */
     public function getLegislaturasDisponibles(): array
     {
+        $this->ensureDataLoaded();
         $legs = [];
         foreach ($this->slugIndex as $p) {
             $l = (int)($p['legislatura'] ?? 66);
@@ -615,6 +673,7 @@ class DataService
      */
     public function getPoliticos(?int $legislatura = null): array
     {
+        $this->ensureDataLoaded();
         if ($legislatura !== null) {
             $filtrados = [];
             foreach ($this->slugIndex as $slugKey => $p) {
@@ -644,6 +703,291 @@ class DataService
             $todosUnicos[$slugKey] = $p;
         }
         return $todosUnicos;
+    }
+
+    /**
+     * Retorna el catálogo maestro de partidos con estadísticas.
+     */
+    public function getPartidos(): array
+    {
+        $this->ensureDataLoaded();
+        return $this->partidosIndex;
+    }
+
+    /**
+     * Retorna el catálogo plano de los 32 estados de la República.
+     */
+    public function getEstadosCatalog(): array
+    {
+        return $this->estadosCatalog;
+    }
+
+    /**
+     * Devuelve el directorio integral de figuras públicas y políticos,
+     * enriquecido con sus roles acumulados a lo largo de su carrera
+     * (Senador, Diputado Federal, Diputado Local, Alcalde, Gobernador)
+     * y las legislaturas en las que ha participado.
+     *
+     * @return array<int, array> Lista indexada para consumo directo en vista y JSON
+     */
+    public function getDirectorioPoliticos(?int $legislatura = null, bool $useCache = true): array
+    {
+        $indexPath = $this->storagePath . '/cache/directorio_politicos_index.json';
+        if ($useCache && is_file($indexPath)) {
+            $rawJson = (string)@file_get_contents($indexPath);
+            $cachedDirectorio = json_decode($rawJson, true);
+            if (is_array($cachedDirectorio)) {
+                if ($legislatura === null) {
+                    return $cachedDirectorio;
+                }
+                return array_values(array_filter($cachedDirectorio, function (array $item) use ($legislatura): bool {
+                    $legs = $item['legislaturas_lista'] ?? [];
+                    return in_array($legislatura, $legs, true) || ((int)($item['legislatura'] ?? 0)) === $legislatura;
+                }));
+            }
+        }
+
+        $base = $this->getPoliticos($legislatura);
+        $directorio = [];
+
+        foreach ($base as $p) {
+            $slug = $p['slug'] ?? '';
+            $nombre = $p['nombre_completo'] ?? '';
+            if ($slug === '' || $nombre === '') {
+                continue;
+            }
+
+            $camaraActual = $p['camara'] ?? 'Diputados';
+            $legNum = (int)($p['legislatura'] ?? 66);
+            $legsDisponibles = $p['legislaturas_disponibles'] ?? [$legNum];
+            $mandatosHistoricos = $p['mandatos_historicos'] ?? [];
+            $lineaTiempo = $p['linea_tiempo'] ?? [];
+            $trayectoriaLeg = $p['trayectoria_legislativa'] ?? [];
+            $trayectoriaPol = $p['trayectoria_politica'] ?? [];
+            $trayectoriaAdm = $p['trayectoria_administrativa'] ?? [];
+
+            // Concatenar texto de toda la trayectoria para detección exhaustiva de antecedentes
+            $textosTrayectoria = [];
+            foreach ($lineaTiempo as $lt) {
+                $textosTrayectoria[] = $lt['experiencia'] ?? '';
+            }
+            foreach ($trayectoriaLeg as $tl) {
+                $textosTrayectoria[] = is_string($tl) ? $tl : ($tl['cargo'] ?? ($tl['experiencia'] ?? ''));
+            }
+            foreach ($trayectoriaPol as $tp) {
+                $textosTrayectoria[] = is_string($tp) ? $tp : ($tp['cargo'] ?? ($tp['experiencia'] ?? ''));
+            }
+            foreach ($trayectoriaAdm as $ta) {
+                $textosTrayectoria[] = is_string($ta) ? $ta : ($ta['cargo'] ?? ($ta['experiencia'] ?? ''));
+            }
+            $corpus = mb_strtolower(implode(' | ', $textosTrayectoria));
+
+            // 1. Detección de Senaduría
+            $hasSenador = ($camaraActual === 'Senadores');
+            if (!$hasSenador) {
+                foreach ($mandatosHistoricos as $m) {
+                    if (($m['camara'] ?? '') === 'Senadores') {
+                        $hasSenador = true;
+                        break;
+                    }
+                }
+            }
+            if (!$hasSenador && preg_match('/\b(senador|senadora|senaduria)\b/ui', $corpus)) {
+                $hasSenador = true;
+            }
+
+            // 2. Detección de Diputación Federal
+            $hasDipFed = ($camaraActual === 'Diputados');
+            if (!$hasDipFed) {
+                foreach ($mandatosHistoricos as $m) {
+                    if (($m['camara'] ?? '') === 'Diputados') {
+                        $hasDipFed = true;
+                        break;
+                    }
+                }
+            }
+            if (!$hasDipFed && preg_match('/\b(diputad[ao]\s+federal|congreso\s+de\s+la\s+union|camara\s+de\s+diputados)\b/ui', $corpus)) {
+                $hasDipFed = true;
+            }
+
+            // 3. Detección de Diputación Local (Congresos Estatales)
+            $hasDipLocal = (bool)preg_match('/\b(diputad[ao]\s+local|congreso\s+del?\s+estado|legislatura\s+local|asamblea\s+legislativa)\b/ui', $corpus);
+
+            // 4. Detección precisa de Presidente Municipal (Alcalde) y Ediles de Cabildo (Regidores / Síndicos)
+            $hasAlcalde = false;
+            $hasEdil = false;
+            $municipioAlcalde = null;
+            $municipioEdil = null;
+            $cargoEdilLabel = null;
+
+            // Filtro negativo: palabras o frases que descartan la titularidad del cargo de elección popular
+            $reNegativo = '/\b(?:candidat[ao]|precandidat[ao]|aspirante|campa[ñn]a|precampa[ñn]a|elecci[oó]n|elecciones|coordinador[a]?|secretari[ao]|asesor[a]?|asistente|auxiliar|chofer|jefe\s+de\s+oficina|director[a]?|suplente|comit[eé]|cdm|cde|cen|espos[ao]|hij[ao])\b/ui';
+
+            foreach ($textosTrayectoria as $t) {
+                $tTrim = trim($t);
+                if ($tTrim === '') {
+                    continue;
+                }
+
+                // 4.1 Presidente Municipal / Alcalde Titular
+                if (preg_match('/\b(?:president[ea]\s+municipal(?:\s+(?:constitucional|interin[ao]|sustitut[ao]|elect[ao]))?|alcald[ea](?:\s+(?:constitucional|interin[ao]|sustitut[ao]|elect[ao]))?|jef[ea]\s+delegacional)\s+(?:de|del|en)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ\s]+?)(?:,|\.|\(|\bde\s+la\b|\bdel\s+estado\b|$)/ui', $tTrim, $mAlcalde)) {
+                    $pos = mb_strpos(mb_strtolower($tTrim), mb_strtolower($mAlcalde[0]));
+                    $prefijo = $pos !== false ? mb_substr($tTrim, 0, (int)$pos) : '';
+                    $esInvalido = (bool)preg_match($reNegativo, $prefijo)
+                        || (bool)preg_match('/\b(?:suplente|candidat[ao]|precandidat[ao]|durante\s+la\s+elecci[oó]n|en\s+la\s+elecci[oó]n|comit[eé]\s+directivo|cdm|cde|cen)\b/ui', $tTrim);
+
+                    if (!$esInvalido) {
+                        $cand = trim($mAlcalde[1]);
+                        $cand = preg_replace('/\s+(?:b\.?c\.?|baja california|sonora|jalisco|nuevo león|méxico|edo\.?\s*méx\.?|cdmx|d\.?f\.?|chihuahua|puebla|veracruz|guerrero|oaxaca|chiapas|yucatán|tabasco|tamaulipas|coahuila|durango|sinaloa|nayarit|zacatecas|san luis potosí|aguascalientes|querétaro|hidalgo|tlaxcala|morelos|michoacán|colima|guanajuato|campeche|quintana roo)$/ui', '', $cand);
+                        $cand = preg_replace('/^(?:el|la|los|las)\s+/ui', '', trim($cand));
+                        if ($cand && mb_strlen($cand) > 2 && mb_strlen($cand) < 32 && !preg_match('/\b(partido|comite|directivo|consejo|gobierno|dif|camara|administracion|estado|republica)\b/ui', $cand)) {
+                            $municipioAlcalde = mb_convert_case($cand, MB_CASE_TITLE, "UTF-8");
+                            $hasAlcalde = true;
+                            break;
+                        }
+                    }
+                }
+
+                // 4.2 Ediles de Cabildo (Regidor o Síndico)
+                if (!$hasAlcalde && preg_match('/\b(?:regidor[a]?|s[ií]ndic[ao](?:\s+procurador[a]?)?)\s+(?:de|del|en)\s+(?:el\s+(?:h\.\s*)?ayuntamiento\s+de\s+)?([A-ZÁÉÍÓÚÑa-záéíóúñ\s]+?)(?:,|\.|\(|$)/ui', $tTrim, $mEdil)) {
+                    $posEdil = mb_strpos(mb_strtolower($tTrim), mb_strtolower($mEdil[0]));
+                    $prefijoEdil = $posEdil !== false ? mb_substr($tTrim, 0, (int)$posEdil) : '';
+                    $esInvalidoEdil = (bool)preg_match($reNegativo, $prefijoEdil)
+                        || (bool)preg_match('/\b(?:candidat[ao]|precandidat[ao]|suplente|durante\s+la\s+elecci[oó]n|comit[eé]\s+directivo|cdm)\b/ui', $tTrim);
+
+                    if (!$esInvalidoEdil) {
+                        $cand = trim($mEdil[1]);
+                        $cand = preg_replace('/\s+(?:b\.?c\.?|baja california|sonora|jalisco|nuevo león|méxico|edo\.?\s*méx\.?|cdmx|d\.?f\.?)$/ui', '', $cand);
+                        $cand = preg_replace('/^(?:el|la|los|las)\s+/ui', '', trim($cand));
+                        if ($cand && mb_strlen($cand) > 2 && mb_strlen($cand) < 32 && !preg_match('/\b(partido|comite|directivo|consejo|gobierno|dif)\b/ui', $cand)) {
+                            $municipioEdil = mb_convert_case($cand, MB_CASE_TITLE, "UTF-8");
+                            $hasEdil = true;
+                            $cargoEdilLabel = preg_match('/\bs[ií]ndic/ui', $mEdil[0]) ? 'Síndico' : 'Regidor';
+                        }
+                    }
+                }
+            }
+
+            // 5. Detección estricta de Gobernador / Jefe de Gobierno titular
+            $reGobExclusiones = '/\b(?:candidat[ao]|precandidat[ao]|aspirante|campa[ñn]a|precampa[ñn]a|elecci[oó]n|elecciones|asesor[a]?|secretari[ao]|subsecretari[ao]|director[a]?|coordinador[a]?|chofer|auxiliar|asistente|jefe\s+de\s+(?:oficina|departamento|unidad|gabinete)|jefatura\s+de\s+departamento|representante|comisi[oó]n\s+de\s+gobierno|secretar[ií]a\s+(?:general\s+)?de\s+gobierno|gabinete|administraci[oó]n\s+del|espos[ao]|hij[ao]|suplente|enlace|palacio\s+de\s+gobierno|casa\s+de\s+gobierno|informe\s+de\s+gobierno|capacitador[a]?|consejer[ao]|delegad[ao]|agenda\s+del|equipo\s+de|comisionad[ao]|durante\s+la\s+elecci[oó]n)\b/ui';
+            $reGobTitular = '/\b(?:gobernador[a]?\s+(?:constitucional|interin[ao]|sustitut[ao]|provisional|del?\s+estado|elect[ao])|jef[ea]\s+de\s+gobierno(?:\s+(?:constitucional|interin[ao]|sustitut[ao]|elect[ao]|del\s+distrito\s+federal|de\s+la\s+ciudad\s+de\s+m[eé]xico|del\s+d\.?f\.?|de\s+la\s+cdmx))?)\b/ui';
+
+            $hasGobernador = false;
+            foreach ($textosTrayectoria as $tExp) {
+                $tExpTrim = trim($tExp);
+                if ($tExpTrim !== '' && preg_match($reGobTitular, $tExpTrim) && !preg_match($reGobExclusiones, $tExpTrim)) {
+                    $hasGobernador = true;
+                    break;
+                }
+            }
+            if (!$hasGobernador && !empty($p['escalas_gobierno']['ha_sido_gobernador'])) {
+                $hasGobernador = true;
+            }
+
+            $hasAlcalde = $hasAlcalde || !empty($p['escalas_gobierno']['ha_sido_alcalde']);
+            $hasDipLocal = $hasDipLocal || !empty($p['escalas_gobierno']['ha_sido_diputado_local']);
+            $hasSenador = $hasSenador || !empty($p['escalas_gobierno']['ha_sido_senador']);
+            $hasDipFed = $hasDipFed || !empty($p['escalas_gobierno']['ha_sido_diputado_federal']);
+            $hasCambioPartido = !empty($p['transicion_partidista']['cambio_partido']);
+
+            // Construir badges de cargos acumulados
+            $badges = [];
+            if ($hasSenador) {
+                $badges[] = [
+                    'label' => 'Senador',
+                    'icono' => 'bi-bank',
+                    'tipo' => 'senador',
+                    'badge_class' => 'bg-info-subtle text-info-emphasis border border-info-subtle',
+                ];
+            }
+            if ($hasDipFed) {
+                $badges[] = [
+                    'label' => 'Dip. Federal',
+                    'icono' => 'bi-building',
+                    'tipo' => 'diputado_federal',
+                    'badge_class' => 'bg-primary-subtle text-primary border border-primary-subtle',
+                ];
+            }
+            if ($hasDipLocal) {
+                $badges[] = [
+                    'label' => 'Dip. Local',
+                    'icono' => 'bi-geo-alt',
+                    'tipo' => 'diputado_local',
+                    'badge_class' => 'bg-secondary-subtle text-secondary border border-secondary-subtle',
+                ];
+            }
+            if ($hasAlcalde) {
+                $labelAlcalde = $municipioAlcalde ? "Alcalde • {$municipioAlcalde}" : 'Alcalde';
+                $badges[] = [
+                    'label' => $labelAlcalde,
+                    'icono' => 'bi-houses',
+                    'tipo' => 'alcalde',
+                    'badge_class' => 'bg-warning-subtle text-warning-emphasis border border-warning-subtle',
+                    'municipio' => $municipioAlcalde,
+                ];
+            } elseif ($hasEdil) {
+                $labelEdil = $municipioEdil ? "{$cargoEdilLabel} • {$municipioEdil}" : ($cargoEdilLabel ?? 'Edil de Cabildo');
+                $badges[] = [
+                    'label' => $labelEdil,
+                    'icono' => 'bi-people',
+                    'tipo' => 'edil',
+                    'badge_class' => 'bg-secondary-subtle text-dark border border-secondary-subtle',
+                ];
+            }
+            if ($hasGobernador) {
+                $badges[] = [
+                    'label' => 'Gobernador',
+                    'icono' => 'bi-shield-shaded',
+                    'tipo' => 'gobernador',
+                    'badge_class' => 'bg-danger-subtle text-danger border border-danger-subtle',
+                ];
+            }
+            if ($hasCambioPartido) {
+                $totalP = count($p['transicion_partidista']['partidos'] ?? []);
+                $badges[] = [
+                    'label' => "{$totalP} Partidos",
+                    'icono' => 'bi-shuffle',
+                    'tipo' => 'cambio_partido',
+                    'badge_class' => 'bg-warning-subtle text-dark border border-warning-subtle',
+                ];
+            }
+
+            // Estatus actual y legislatura
+            $esActivo = in_array(66, $legsDisponibles, true);
+            $legRomano = self::convertirNumeroARomano($legNum);
+
+            // Formulación de cargo actual/reciente legible
+            $cargoTitulo = ($camaraActual === 'Senadores') ? 'Senador de la República' : 'Diputado Federal';
+            if ($esActivo) {
+                $cargoResumen = "{$cargoTitulo} en funciones • {$legRomano} Legislatura";
+            } else {
+                $cargoResumen = "Ex-{$cargoTitulo} • {$legRomano} Legislatura";
+            }
+
+            $p['roles_flags'] = [
+                'senador' => $hasSenador,
+                'diputado_federal' => $hasDipFed,
+                'diputado_local' => $hasDipLocal,
+                'alcalde' => $hasAlcalde,
+                'edil' => $hasEdil,
+                'gobernador' => $hasGobernador,
+                'cambio_partido' => $hasCambioPartido,
+            ];
+            $p['cargos_badges'] = $badges;
+            $p['es_activo'] = $esActivo;
+            $p['cargo_resumen'] = $cargoResumen;
+            $p['municipio_alcalde'] = $municipioAlcalde ?? $municipioEdil ?? '';
+            $p['legislaturas_lista'] = $legsDisponibles;
+
+            $directorio[] = $p;
+        }
+
+        // Ordenar alfabéticamente por nombre
+        usort($directorio, function (array $a, array $b): int {
+            return strcoll($a['nombre_completo'] ?? '', $b['nombre_completo'] ?? '');
+        });
+
+        return $directorio;
     }
 
     /**
@@ -756,7 +1100,19 @@ class DataService
      */
     public function getPoliticoBySlug(string $slug, ?int $legislatura = null): ?array
     {
-        $politico = $this->slugIndex[$slug] ?? null;
+        $this->ensureDataLoaded();
+        $normSlug = self::slugify($slug);
+        $cleanSlug = preg_replace('/-\d+$/', '', $normSlug) ?? $normSlug;
+
+        $politico = $this->slugIndex[$normSlug] 
+            ?? ($this->slugIndex[$cleanSlug] 
+            ?? ($this->slugIndex[$slug] 
+            ?? null));
+
+        if (!$politico) {
+            $politico = $this->getPoliticoByNombre($slug);
+        }
+
         if (!$politico) {
             return null;
         }
@@ -779,6 +1135,7 @@ class DataService
      */
     public function getVotaciones(int $limit = 20): array
     {
+        $this->ensureDataLoaded();
         return array_slice($this->votaciones, 0, $limit);
     }
 
@@ -788,6 +1145,7 @@ class DataService
      */
     public function getSesiones(int $limit = 50): array
     {
+        $this->ensureDataLoaded();
         return array_slice($this->sesiones, 0, $limit);
     }
 
@@ -796,6 +1154,7 @@ class DataService
      */
     public function getPoliticoByReferencia(string $referencia): ?array
     {
+        $this->ensureDataLoaded();
         return $this->politicosIndex[$referencia] ?? null;
     }
 
@@ -804,6 +1163,7 @@ class DataService
      */
     public function getPoliticoByNombre(string $nombre): ?array
     {
+        $this->ensureDataLoaded();
         $targetSlug = self::slugify($nombre);
         if (isset($this->slugIndex[$targetSlug])) {
             return $this->slugIndex[$targetSlug];
@@ -839,6 +1199,7 @@ class DataService
      */
     public function getComisiones(): array
     {
+        $this->ensureDataLoaded();
         return $this->comisionesIndex;
     }
 
@@ -847,6 +1208,7 @@ class DataService
      */
     public function getComisionBySlug(string $slug): ?array
     {
+        $this->ensureDataLoaded();
         return $this->comisionesIndex[$slug] ?? null;
     }
 
@@ -860,13 +1222,11 @@ class DataService
     public function getEstados(?int $legislatura = null): array
     {
         $estados = $this->estadosCatalog;
+        $politicos = $this->getPoliticos($legislatura);
 
         // Agrupar políticos por entidad federativa normalizada
         $politicosPorEstado = [];
-        foreach ($this->slugIndex as $p) {
-            if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
-                continue;
-            }
+        foreach ($politicos as $p) {
             $entidadNorm = self::slugify($p['entidad'] ?? '');
             if ($entidadNorm === 'mexico' || $entidadNorm === 'edomex') {
                 $entidadNorm = 'estado-de-mexico';
@@ -922,23 +1282,19 @@ class DataService
         }
 
         $estado = $estados[$targetSlug];
+        $politicos = $this->getPoliticos($legislatura);
+
         $estado['diputados'] = array_values(array_filter(
-            $this->slugIndex,
-            function ($p) use ($targetSlug, $legislatura) {
-                if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
-                    return false;
-                }
+            $politicos,
+            function ($p) use ($targetSlug) {
                 $norm = self::slugify($p['entidad'] ?? '');
                 if ($norm === 'mexico' || $norm === 'edomex') $norm = 'estado-de-mexico';
                 return ($p['camara'] ?? '') === 'Diputados' && $norm === $targetSlug;
             }
         ));
         $estado['senadores'] = array_values(array_filter(
-            $this->slugIndex,
-            function ($p) use ($targetSlug, $legislatura) {
-                if ($legislatura !== null && ((int)($p['legislatura'] ?? 66)) !== $legislatura) {
-                    return false;
-                }
+            $politicos,
+            function ($p) use ($targetSlug) {
                 $norm = self::slugify($p['entidad'] ?? '');
                 if ($norm === 'mexico' || $norm === 'edomex') $norm = 'estado-de-mexico';
                 return ($p['camara'] ?? '') === 'Senadores' && $norm === $targetSlug;
@@ -960,11 +1316,7 @@ class DataService
      */
     public function getEstadisticasEscolaridad(?string $filtroCamara = null, ?string $filtroEstado = null, ?int $legislatura = null): array
     {
-        $coleccion = $this->slugIndex;
-
-        if ($legislatura !== null) {
-            $coleccion = array_filter($coleccion, fn($p) => ((int)($p['legislatura'] ?? 66)) === $legislatura);
-        }
+        $coleccion = $this->getPoliticos($legislatura);
 
         if ($filtroCamara !== null) {
             $coleccion = array_filter($coleccion, fn($p) => ($p['camara'] ?? '') === $filtroCamara);
@@ -998,6 +1350,7 @@ class DataService
             return ['politicos' => [], 'comisiones' => []];
         }
 
+        $this->ensureDataLoaded();
         $resPoliticos = [];
         foreach ($this->slugIndex as $p) {
             $nombre = mb_strtolower($p['nombre_completo'] ?? '');
@@ -1077,6 +1430,7 @@ class DataService
      */
     public function getIniciativas(): array
     {
+        $this->ensureDataLoaded();
         return $this->iniciativas;
     }
 
@@ -1172,7 +1526,7 @@ class DataService
             return $anoB <=> $anoA;
         });
 
-        // Formatear periodos previos
+        // Formatear periodos previos y detectar filiación partidista oficial en el cargo
         foreach ($historialFiltrado as &$h) {
             $h['es_reciente'] = false;
             $h['es_cargo_actual'] = false;
@@ -1187,6 +1541,11 @@ class DataService
             } else {
                 $h['periodo'] = "Trayectoria previa";
             }
+
+            // Detección neutral de partido desde el texto oficial del cargo o trayectoria
+            $partidoDetectado = ViewHelper::detectPartyFromText($h['experiencia'] ?? '');
+            $h['partido'] = $partidoDetectado;
+            $h['partido_color'] = $partidoDetectado ? ViewHelper::getPartyColor($partidoDetectado) : null;
         }
         unset($h);
 
@@ -1218,12 +1577,13 @@ class DataService
         }
 
         $descripcionCargo = "{$cargoTitulo} por {$entidad}";
-        if ($distrito && !str_contains($distrito, 'Senaduría')) {
+        if ($distrito !== null && !str_contains((string)$distrito, 'Senaduría')) {
             $descripcionCargo .= " ({$distrito})";
         }
         $descripcionCargo .= " — {$legRomano} Legislatura del Congreso de la Unión.";
 
         $esActual = ($legNum === 66);
+        $partidoCargoActual = $pol['partido'] ?? 'Sin Partido';
         $cargoActual = [
             'experiencia' => $descripcionCargo,
             'del_ano' => (string)$anoInicio,
@@ -1234,23 +1594,199 @@ class DataService
             'es_cargo_actual' => $esActual,
             'es_reciente' => $esActual,
             'en_licencia' => $tieneLicencia,
+            'partido' => $partidoCargoActual,
+            'partido_color' => ViewHelper::getPartyColor($partidoCargoActual),
+            'nivel' => 'legislativo_federal',
+            'nivel_label' => 'Congreso de la Unión',
+            'icono' => $esSenador ? 'bi-bank' : 'bi-building',
+            'badge_class' => $esSenador ? 'bg-info-subtle text-info-emphasis border border-info-subtle' : 'bg-primary-subtle text-primary border border-primary-subtle',
         ];
 
-        // Verificar si ya existe mención exacta para evitar duplicidad
+        // 3. Cruce e integración de antecedentes multinivel (Poder Ejecutivo, Alcaldías y Congresos Estatales)
+        $slugNormal = self::slugify($pol['nombre_completo'] ?? '');
+        $slugNatural = self::slugify(ViewHelper::formatearNombreNatural($pol['nombre_completo'] ?? ''));
+        $hitosMultinivel = $this->indiceMultinivel[$slugNormal] 
+            ?? ($this->indiceMultinivel[$slugNatural] 
+            ?? []);
+
+        foreach ($hitosMultinivel as $hito) {
+            $yaExisteHito = false;
+            foreach ($historialFiltrado as &$hf) {
+                $textoHf = mb_strtolower($hf['experiencia'] ?? '');
+                $esMismoHito = false;
+
+                if ($hito['nivel'] === 'municipal' && !empty($hito['municipio']) && str_contains($textoHf, mb_strtolower($hito['municipio']))) {
+                    $esMismoHito = true;
+                } elseif ($hito['nivel'] === 'ejecutivo_estatal' && (str_contains($textoHf, 'gobernador') || str_contains($textoHf, 'jefe de gobierno'))) {
+                    $esMismoHito = true;
+                } elseif ($hito['nivel'] === 'legislativo_local' && str_contains($textoHf, 'diputad') && (str_contains($textoHf, 'local') || str_contains($textoHf, 'estado'))) {
+                    if (!empty($hito['del_ano']) && ($hf['del_ano'] ?? 0) == $hito['del_ano']) {
+                        $esMismoHito = true;
+                    }
+                }
+
+                if ($esMismoHito) {
+                    $yaExisteHito = true;
+                    $hf['nivel'] = $hito['nivel'];
+                    $hf['nivel_label'] = $hito['nivel_label'];
+                    $hf['icono'] = $hito['icono'];
+                    $hf['badge_class'] = $hito['badge_class'];
+                    $hf['url_destino'] = $hito['url_destino'];
+                    $hf['es_auditado_multinivel'] = true;
+                    if (empty($hf['partido']) && !empty($hito['partido'])) {
+                        $hf['partido'] = ViewHelper::getCanonicalPartyName($hito['partido']);
+                        $hf['partido_color'] = ViewHelper::getPartyColor($hf['partido']);
+                    }
+                    break;
+                }
+            }
+            unset($hf);
+
+            if (!$yaExisteHito) {
+                $partidoHito = !empty($hito['partido']) ? ViewHelper::getCanonicalPartyName($hito['partido']) : null;
+                $historialFiltrado[] = [
+                    'experiencia' => $hito['cargo'],
+                    'del_ano' => !empty($hito['del_ano']) ? (string)$hito['del_ano'] : null,
+                    'al_ano' => !empty($hito['al_ano']) ? (string)$hito['al_ano'] : null,
+                    'periodo' => $hito['periodo'],
+                    'es_reciente' => false,
+                    'es_cargo_actual' => false,
+                    'en_licencia' => false,
+                    'partido' => $partidoHito,
+                    'partido_color' => $partidoHito ? ViewHelper::getPartyColor($partidoHito) : null,
+                    'nivel' => $hito['nivel'],
+                    'nivel_label' => $hito['nivel_label'],
+                    'icono' => $hito['icono'],
+                    'badge_class' => $hito['badge_class'],
+                    'url_destino' => $hito['url_destino'],
+                    'es_auditado_multinivel' => true,
+                ];
+            }
+        }
+
+        // 4. Asignar metadatos de nivel institucional a cada nodo del SIL si aún no los tiene
+        foreach ($historialFiltrado as &$node) {
+            if (empty($node['nivel'])) {
+                $expLower = mb_strtolower($node['experiencia'] ?? '');
+                $reGobExclusionesNode = '/\b(?:candidat[ao]|precandidat[ao]|aspirante|campa[ñn]a|precampa[ñn]a|elecci[oó]n|elecciones|asesor[a]?|secretari[ao]|subsecretari[ao]|director[a]?|coordinador[a]?|chofer|auxiliar|asistente|jefe\s+de\s+(?:oficina|departamento|unidad|gabinete)|jefatura\s+de\s+departamento|representante|comisi[oó]n\s+de\s+gobierno|secretar[ií]a\s+(?:general\s+)?de\s+gobierno|gabinete|administraci[oó]n\s+del|espos[ao]|hij[ao]|suplente|enlace|palacio\s+de\s+gobierno|casa\s+de\s+gobierno|informe\s+de\s+gobierno|capacitador[a]?|consejer[ao]|delegad[ao]|agenda\s+del|equipo\s+de|comisionad[ao]|durante\s+la\s+elecci[oó]n)\b/ui';
+                $reGobTitularNode = '/\b(?:gobernador[a]?\s+(?:constitucional|interin[ao]|sustitut[ao]|provisional|del?\s+estado|elect[ao])|jef[ea]\s+de\s+gobierno(?:\s+(?:constitucional|interin[ao]|sustitut[ao]|elect[ao]|del\s+distrito\s+federal|de\s+la\s+ciudad\s+de\s+m[eé]xico|del\s+d\.?f\.?|de\s+la\s+cdmx))?)\b/ui';
+
+                if (preg_match($reGobTitularNode, $expLower) && !preg_match($reGobExclusionesNode, $expLower)) {
+                    $node['nivel'] = 'ejecutivo_estatal';
+                    $node['nivel_label'] = 'Poder Ejecutivo Estatal';
+                    $node['icono'] = 'bi-shield-shaded';
+                    $node['badge_class'] = 'bg-danger-subtle text-danger border border-danger-subtle';
+                } elseif (preg_match('/\b(president[ea]\s+municipal|alcald[ea]|jef[ea]\s+delegacional)\b/ui', $expLower)) {
+                    $node['nivel'] = 'municipal';
+                    $node['nivel_label'] = 'Gobierno Municipal';
+                    $node['icono'] = 'bi-houses-fill';
+                    $node['badge_class'] = 'bg-warning-subtle text-warning-emphasis border border-warning-subtle';
+                } elseif (preg_match('/\b(diputad[ao]\s+local|congreso\s+del?\s+estado|asamblea\s+legislativa)\b/ui', $expLower)) {
+                    $node['nivel'] = 'legislativo_local';
+                    $node['nivel_label'] = 'Congreso Local';
+                    $node['icono'] = 'bi-geo-alt-fill';
+                    $node['badge_class'] = 'bg-secondary-subtle text-secondary border border-secondary-subtle';
+                } elseif (preg_match('/\b(senador[a]?|diputad[ao]\s+federal|congreso\s+de\s+la\s+uni[oó]n)\b/ui', $expLower)) {
+                    $node['nivel'] = 'legislativo_federal';
+                    $node['nivel_label'] = 'Congreso de la Unión';
+                    $node['icono'] = 'bi-bank';
+                    $node['badge_class'] = 'bg-primary-subtle text-primary border border-primary-subtle';
+                } else {
+                    $node['nivel'] = 'administracion_publica';
+                    $node['nivel_label'] = 'Administración / Partidista';
+                    $node['icono'] = 'bi-briefcase-fill';
+                    $node['badge_class'] = 'bg-light text-secondary border';
+                }
+            }
+        }
+        unset($node);
+
+        // Verificar si ya existe mención exacta del cargo actual para evitar duplicidad
         $yaExisteCargoActual = false;
-        foreach ($historialFiltrado as $hf) {
+        foreach ($historialFiltrado as &$hf) {
             if (str_contains($hf['experiencia'] ?? '', "{$legRomano} Legislatura") || str_contains($hf['experiencia'] ?? '', "{$legNum} Legislatura")) {
                 $yaExisteCargoActual = true;
+                $hf['es_cargo_actual'] = $esActual;
+                $hf['es_reciente'] = $esActual;
+                $hf['nivel'] = 'legislativo_federal';
+                $hf['nivel_label'] = 'Congreso de la Unión';
+                $hf['icono'] = $esSenador ? 'bi-bank' : 'bi-building';
+                $hf['badge_class'] = $esSenador ? 'bg-info-subtle text-info-emphasis border border-info-subtle' : 'bg-primary-subtle text-primary border border-primary-subtle';
+                if (empty($hf['partido'])) {
+                    $hf['partido'] = $partidoCargoActual;
+                    $hf['partido_color'] = ViewHelper::getPartyColor($partidoCargoActual);
+                }
                 break;
             }
         }
+        unset($hf);
+
+        // Reordenar cronológicamente descendente
+        usort($historialFiltrado, function ($a, $b) {
+            $alA = (int)($a['al_ano'] ?? 0);
+            $delA = (int)($a['del_ano'] ?? 0);
+            $anoA = $alA > 0 ? $alA : $delA;
+
+            $alB = (int)($b['al_ano'] ?? 0);
+            $delB = (int)($b['del_ano'] ?? 0);
+            $anoB = $alB > 0 ? $alB : $delB;
+
+            return $anoB <=> $anoA;
+        });
+
         if (!$yaExisteCargoActual) {
             array_unshift($historialFiltrado, $cargoActual);
         }
 
+        // 5. Análisis cívico de trayectoria: escalas de gobierno y transición de partidos
+        $partidosEnCarrera = [];
+        if (!empty($partidoCargoActual) && !str_contains(strtoupper($partidoCargoActual), 'SIN PARTIDO')) {
+            $canActual = ViewHelper::getCanonicalPartyName($partidoCargoActual);
+            $partidosEnCarrera[$canActual] = true;
+        }
+
+        $tieneGobernador = false;
+        $tieneAlcalde = false;
+        $tieneDipLocal = false;
+        $tieneDipFed = ($camara === 'Diputados');
+        $tieneSenador = ($camara === 'Senadores');
+
+        foreach ($historialFiltrado as $hfItem) {
+            if (!empty($hfItem['partido'])) {
+                $canP = ViewHelper::getCanonicalPartyName($hfItem['partido']);
+                if (!str_contains(strtoupper($canP), 'SIN PARTIDO')) {
+                    $partidosEnCarrera[$canP] = true;
+                }
+            }
+            $niv = $hfItem['nivel'] ?? '';
+            if ($niv === 'ejecutivo_estatal') $tieneGobernador = true;
+            if ($niv === 'municipal') $tieneAlcalde = true;
+            if ($niv === 'legislativo_local') $tieneDipLocal = true;
+            if ($niv === 'legislativo_federal') {
+                $expItem = mb_strtolower($hfItem['experiencia'] ?? '');
+                if (str_contains($expItem, 'senad')) $tieneSenador = true;
+                if (str_contains($expItem, 'diputad')) $tieneDipFed = true;
+            }
+        }
+
+        $cambioPartido = count($partidosEnCarrera) > 1;
+
         return [
             'linea_tiempo' => $historialFiltrado,
             'escolaridad' => $escolaridadItems,
+            'escalas_gobierno' => [
+                'ha_sido_gobernador' => $tieneGobernador,
+                'ha_sido_alcalde' => $tieneAlcalde,
+                'ha_sido_diputado_local' => $tieneDipLocal,
+                'ha_sido_diputado_federal' => $tieneDipFed,
+                'ha_sido_senador' => $tieneSenador,
+                'total_escalas' => ($tieneGobernador ? 1 : 0) + ($tieneAlcalde ? 1 : 0) + ($tieneDipLocal ? 1 : 0) + ($tieneDipFed ? 1 : 0) + ($tieneSenador ? 1 : 0),
+            ],
+            'transicion_partidista' => [
+                'cambio_partido' => $cambioPartido,
+                'total_partidos' => count($partidosEnCarrera),
+                'partidos' => array_keys($partidosEnCarrera),
+            ],
         ];
     }
 

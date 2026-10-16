@@ -21,14 +21,21 @@ $searchApiUrl = Router::url('/api/buscar');
             </div>
             <div class="col-md-6 text-md-end">
                 <a href="<?= $homeUrl ?>" class="text-secondary text-decoration-none small me-3">Inicio</a>
+                <a href="<?= Router::url('/legislaturas') ?>" class="text-secondary text-decoration-none small me-3">Legislaturas</a>
                 <a href="<?= $homeUrl ?>#seccion-mapa" class="text-secondary text-decoration-none small me-3">Mapa Político</a>
                 <a href="<?= Router::url('/estudios') ?>" class="text-secondary text-decoration-none small me-3">Nivel de Estudios</a>
                 <a href="<?= Router::url('/comisiones') ?>" class="text-secondary text-decoration-none small me-3">Comisiones</a>
-                <a href="<?= Router::url('/sitemap.xml') ?>" class="text-secondary text-decoration-none small" target="_blank">Sitemap</a>
+                <button type="button" class="btn btn-link p-0 text-secondary text-decoration-none small me-3" data-bs-toggle="modal" data-bs-target="#modalManifiesto" title="Conoce nuestro Manifiesto de Neutralidad"><i class="bi bi-shield-check text-primary me-1"></i>Manifiesto</button>
+                <a href="<?= Router::url('/sitemap.xml') ?>" class="text-secondary text-decoration-none small me-3" target="_blank">Sitemap</a>
+                <a href="<?= Router::url('/llms.txt') ?>" class="text-secondary text-decoration-none small me-3" target="_blank" title="Guía para modelos de IA">LLMs.txt</a>
+                <button type="button" class="btn btn-link p-0 text-secondary text-decoration-none small btn-reportar-anomalia" data-origen-tipo="general" data-origen-id="sitio-web" data-origen-nombre="Portal Pulso Cívico" title="Reportar anomalía o dato inconsistente"><i class="bi bi-flag text-danger me-1"></i>Reportar error</button>
             </div>
         </div>
     </div>
 </footer>
+
+<?php require dirname(__DIR__) . '/partials/modal_reporte.php'; ?>
+<?php require dirname(__DIR__) . '/partials/modal_manifiesto.php'; ?>
 
 <!-- Bootstrap Bundle JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

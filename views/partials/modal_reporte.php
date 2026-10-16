@@ -1,0 +1,289 @@
+<?php
+declare(strict_types=1);
+
+use PulsoCivico\Core\Router;
+
+$apiUrlReporte = Router::url('/api/reportar-anomalia');
+$urlBaneado = Router::url('/baneado');
+?>
+
+<!-- Modal de Reporte Ciudadano de Anomalías (Auditable) -->
+<div class="modal fade" id="modalReporteAnomalia" tabindex="-1" aria-labelledby="modalReporteLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header bg-light border-bottom py-3">
+                <div class="d-flex align-items-center gap-2">
+                    <span class="d-inline-flex p-2 rounded-circle bg-danger-subtle text-danger">
+                        <i class="bi bi-flag-fill fs-5"></i>
+                    </span>
+                    <div>
+                        <h5 class="modal-title fw-bold text-dark mb-0" id="modalReporteLabel">Reportar anomalía o dato inconsistente</h5>
+                        <small class="text-secondary" id="modalReporteSubtitulo">Expediente cívico</small>
+                    </div>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+
+            <div class="modal-body p-4">
+                <!-- Alerta de Respuesta / Estado -->
+                <div id="reporteAlerta" class="alert d-none mb-3" role="alert"></div>
+
+                <!-- Formulario -->
+                <form id="formReporteAnomalia" autocomplete="off">
+                    <!-- Campos Ocultos de Contexto Precargados -->
+                    <input type="hidden" name="origen_tipo" id="rep_origen_tipo" value="politico">
+                    <input type="hidden" name="origen_id" id="rep_origen_id" value="">
+                    <input type="hidden" name="origen_nombre" id="rep_origen_nombre" value="">
+                    <input type="hidden" name="origen_url" id="rep_origen_url" value="">
+
+                    <!-- Honeypot Anti-Spam (Invisible para humanos) -->
+                    <input type="text" name="website_url_check" id="rep_website_url_check" style="position: absolute; left: -9999px; opacity: 0; pointer-events: none;" tabindex="-1" autocomplete="off">
+
+                    <!-- Ficha precargada visible -->
+                    <div class="p-3 bg-light rounded-3 mb-3 border d-flex align-items-center justify-content-between flex-wrap gap-2">
+                        <div>
+                            <span class="text-uppercase text-secondary fw-semibold d-block" style="font-size: 0.65rem; letter-spacing: 0.05em;">Ficha auditada:</span>
+                            <span class="fw-bold text-dark" id="rep_badge_nombre">Seleccionando...</span>
+                        </div>
+                        <span class="badge bg-secondary-subtle text-secondary border px-2 py-1" id="rep_badge_tipo">Perfil</span>
+                    </div>
+
+                    <!-- 1. Categoría Principal (Dropdown) -->
+                    <div class="mb-3">
+                        <label for="rep_categoria" class="form-label fw-semibold small text-dark">
+                            Tipo de inconsistencia <span class="text-danger">*</span>
+                        </label>
+                        <select name="categoria" id="rep_categoria" class="form-select form-select-sm" required>
+                            <option value="" selected disabled>Selecciona la categoría más adecuada...</option>
+                            <option value="homonimo">⚠️ Homónimo (Mezcla de dos personas distintas con el mismo nombre)</option>
+                            <option value="cargo_suplencia">🔄 Cargo o Suplencia errónea (Aparece como titular y fue suplente, o viceversa)</option>
+                            <option value="partido_coalicion">🏛️ Partido o Coalición equivocada (No corresponde al periodo)</option>
+                            <option value="foto_incorrecta">🖼️ Fotografía no corresponde a la persona o está invertida</option>
+                            <option value="escolaridad">🎓 Grado académico o escolaridad incorrecta / no oficial</option>
+                            <option value="fuente_rota">🔗 Enlace a la fuente oficial roto o caído</option>
+                            <option value="otro">📝 Otro dato inconsistente</option>
+                        </select>
+                    </div>
+
+                    <!-- 2. Checklist Rápido de Detalles -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small text-dark mb-1">
+                            Detalles específicos detectados <span class="text-muted fw-normal">(opcional)</span>
+                        </label>
+                        <div class="row g-2">
+                            <div class="col-12 col-md-6">
+                                <div class="form-check small">
+                                    <input class="form-check-input" type="checkbox" name="checkmarks[]" value="es_suplente" id="chk_suplente">
+                                    <label class="form-check-label text-secondary" for="chk_suplente">
+                                        Es legislador/a suplente y no ejerció funciones
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-check small">
+                                    <input class="form-check-input" type="checkbox" name="checkmarks[]" value="conflicto_fechas" id="chk_fechas">
+                                    <label class="form-check-label text-secondary" for="chk_fechas">
+                                        Conflicto de fechas (dos cargos simultáneos)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-check small">
+                                    <input class="form-check-input" type="checkbox" name="checkmarks[]" value="homonimo_conocido" id="chk_homonimo">
+                                    <label class="form-check-label text-secondary" for="chk_homonimo">
+                                        Existe otra persona con idéntico nombre y estado
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-check small">
+                                    <input class="form-check-input" type="checkbox" name="checkmarks[]" value="partido_desactualizado" id="chk_partido">
+                                    <label class="form-check-label text-secondary" for="chk_partido">
+                                        El partido no coincide con la legislatura/año
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Explicación Detallada -->
+                    <div class="mb-3">
+                        <label for="rep_detalle" class="form-label fw-semibold small text-dark">
+                            Descripción de la anomalía <span class="text-danger">*</span>
+                        </label>
+                        <textarea name="detalle" id="rep_detalle" class="form-control form-control-sm" rows="3" minlength="5" maxlength="2000" placeholder="Explícanos brevemente qué dato está incorrecto y cuál es la corrección correcta..." required></textarea>
+                    </div>
+
+                    <!-- 4. Enlace a Fuente Oficial o Periodística -->
+                    <div class="mb-3">
+                        <label for="rep_fuente_url" class="form-label fw-semibold small text-dark">
+                            Enlace de verificación o fuente oficial <span class="text-muted fw-normal">(altamente recomendado)</span>
+                        </label>
+                        <input type="url" name="fuente_url" id="rep_fuente_url" class="form-control form-control-sm" placeholder="https://gaceta.diputados.gob.mx/... o nota periodística">
+                        <div class="form-text" style="font-size: 0.72rem;">
+                            <i class="bi bi-info-circle me-1"></i>Pulso Cívico respeta el principio de neutralidad: toda corrección requiere respaldo documental oficial o periodístico.
+                        </div>
+                    </div>
+
+                    <!-- 5. Correo de Contacto Opcional -->
+                    <div class="mb-3">
+                        <label for="rep_contacto_email" class="form-label fw-semibold small text-dark">
+                            Tu correo electrónico <span class="text-muted fw-normal">(opcional)</span>
+                        </label>
+                        <input type="email" name="contacto_email" id="rep_contacto_email" class="form-control form-control-sm" placeholder="nombre@ejemplo.com">
+                        <div class="form-text" style="font-size: 0.72rem;">
+                            Solo lo usaremos para avisarte cuando tu observación sea verificada e integrada al dataset.
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-3">
+                        <span class="text-muted" style="font-size: 0.72rem;">
+                            <i class="bi bi-shield-check text-success me-1"></i>Auditoría anónima &bull; Máx. 5 reportes/minuto
+                        </span>
+                        <div class="d-flex gap-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-3" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" id="rep_btn_submit" class="btn btn-sm btn-danger rounded-pill px-4 fw-semibold d-inline-flex align-items-center gap-1">
+                                <span id="rep_btn_text">Enviar reporte</span>
+                                <span id="rep_btn_spinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Pantalla de Éxito posterior al envío -->
+                <div id="reporteExito" class="text-center py-4 d-none">
+                    <span class="d-inline-flex p-3 rounded-circle bg-success-subtle text-success mb-3">
+                        <i class="bi bi-check-lg fs-2"></i>
+                    </span>
+                    <h5 class="fw-bold text-dark mb-1">¡Reporte recibido con éxito!</h5>
+                    <p class="text-secondary small mb-3">Gracias por colaborar con la transparencia cívica y la calidad de los datos.</p>
+                    <div class="p-3 bg-light rounded-3 d-inline-block border text-start mb-4">
+                        <div class="small text-muted">Folio de auditoría asignado:</div>
+                        <div class="fw-bold fs-5 text-dark font-monospace" id="rep_folio_exito">REP-0000</div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-sm btn-primary rounded-pill px-4" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const modalEl = document.getElementById('modalReporteAnomalia');
+    const formEl = document.getElementById('formReporteAnomalia');
+    const alertaEl = document.getElementById('reporteAlerta');
+    const exitoEl = document.getElementById('reporteExito');
+    const btnSubmit = document.getElementById('rep_btn_submit');
+    const btnText = document.getElementById('rep_btn_text');
+    const btnSpinner = document.getElementById('rep_btn_spinner');
+
+    if (!modalEl || !formEl) return;
+
+    // Delegación de eventos para abrir el modal desde cualquier botón .btn-reportar-anomalia
+    document.addEventListener('click', function(e) {
+        const btn = e.target.closest('.btn-reportar-anomalia');
+        if (!btn) return;
+
+        e.preventDefault();
+
+        const tipo = btn.getAttribute('data-origen-tipo') || 'politico';
+        const id = btn.getAttribute('data-origen-id') || '';
+        const nombre = btn.getAttribute('data-origen-nombre') || 'Expediente';
+        const url = btn.getAttribute('data-origen-url') || window.location.href;
+
+        // Inyectar en el formulario
+        document.getElementById('rep_origen_tipo').value = tipo;
+        document.getElementById('rep_origen_id').value = id;
+        document.getElementById('rep_origen_nombre').value = nombre;
+        document.getElementById('rep_origen_url').value = url;
+
+        document.getElementById('rep_badge_nombre').textContent = nombre;
+        document.getElementById('rep_badge_tipo').textContent = tipo.toUpperCase();
+        document.getElementById('modalReporteSubtitulo').textContent = 'Expediente: ' + nombre;
+
+        // Resetear vistas
+        formEl.reset();
+        formEl.classList.remove('d-none');
+        exitoEl.classList.add('d-none');
+        alertaEl.className = 'alert d-none mb-3';
+        alertaEl.textContent = '';
+
+        // Abrir modal con Bootstrap API
+        const bsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+        bsModal.show();
+    });
+
+    // Envío asíncrono del formulario
+    formEl.addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        alertaEl.className = 'alert d-none mb-3';
+        alertaEl.textContent = '';
+
+        // Validar categoría y detalle
+        const categoria = document.getElementById('rep_categoria').value;
+        const detalle = document.getElementById('rep_detalle').value.trim();
+
+        if (!categoria) {
+            alertaEl.className = 'alert alert-danger mb-3';
+            alertaEl.textContent = 'Por favor selecciona la categoría de la anomalía.';
+            return;
+        }
+
+        if (detalle.length < 5) {
+            alertaEl.className = 'alert alert-danger mb-3';
+            alertaEl.textContent = 'La descripción debe tener al menos 5 caracteres.';
+            return;
+        }
+
+        btnSubmit.disabled = true;
+        btnText.textContent = 'Enviando...';
+        btnSpinner.classList.remove('d-none');
+
+        const formData = new FormData(formEl);
+
+        try {
+            const resp = await fetch('<?= $apiUrlReporte ?>', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            const data = await resp.json().catch(() => ({}));
+
+            if (resp.status === 429 || data.banned) {
+                // Suspensión por exceso de reportes (>5 en 1 minuto)
+                window.location.href = data.redirect || '<?= $urlBaneado ?>';
+                return;
+            }
+
+            if (!resp.ok || !data.ok) {
+                alertaEl.className = 'alert alert-danger mb-3';
+                alertaEl.textContent = data.error || 'Ocurrió un error al registrar el reporte. Inténtalo nuevamente.';
+                btnSubmit.disabled = false;
+                btnText.textContent = 'Enviar reporte';
+                btnSpinner.classList.add('d-none');
+                return;
+            }
+
+            // Éxito: Mostrar vista de confirmación con Folio
+            formEl.classList.add('d-none');
+            document.getElementById('rep_folio_exito').textContent = data.ticket_id || 'REP-OK';
+            exitoEl.classList.remove('d-none');
+
+        } catch (err) {
+            alertaEl.className = 'alert alert-danger mb-3';
+            alertaEl.textContent = 'Error de conexión con el servidor. Revisa tu conexión a internet.';
+        } finally {
+            btnSubmit.disabled = false;
+            btnText.textContent = 'Enviar reporte';
+            btnSpinner.classList.add('d-none');
+        }
+    });
+})();
+</script>

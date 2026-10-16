@@ -556,6 +556,15 @@ class SilIngestService
             }
         }
 
+        if (!mb_check_encoding($htmlRaw, 'UTF-8')) {
+            $htmlRaw = mb_convert_encoding($htmlRaw, 'UTF-8', 'ISO-8859-1');
+        } elseif (stripos($htmlRaw, 'charset=windows-1252') !== false || stripos($htmlRaw, 'charset=iso-8859-1') !== false) {
+            $converted = @iconv('WINDOWS-1252', 'UTF-8//IGNORE', $htmlRaw);
+            if ($converted) {
+                $htmlRaw = $converted;
+            }
+        }
+
         $doc = new \DOMDocument();
         @$doc->loadHTML('<?xml encoding="utf-8" ?>' . $htmlRaw);
         $xpath = new \DOMXPath($doc);
@@ -582,31 +591,65 @@ class SilIngestService
             'suplente_referencia_sil' => null,
         ];
 
+        // 1. Extracción directa y estructurada de filas clave de la ficha
+        $filasInfo = $xpath->query("//tr[td/b or td/font/b]");
+        foreach ($filasInfo as $fila) {
+            $tdsFila = $xpath->query("./td", $fila);
+            if ($tdsFila->length < 2) continue;
+            $etiqueta = mb_strtolower($this->cleanString($tdsFila->item(0)->textContent ?? ''));
+            $valor = $this->cleanString($tdsFila->item(1)->textContent ?? '');
+            if (!$valor || in_array(mb_strtolower($valor), ['no disponible', 'sin registro', 'n/a', 'ninguno', ''])) {
+                continue;
+            }
+            if (str_contains($etiqueta, 'grado de estudios')) {
+                $data['ultimo_grado_estudios'] = $valor;
+            } elseif (str_contains($etiqueta, 'preparaci') && str_contains($etiqueta, 'acad')) {
+                $data['preparacion_academica'] = $valor;
+            } elseif (str_contains($etiqueta, 'distrito')) {
+                $data['distrito'] = $valor;
+            } elseif (str_contains($etiqueta, 'ubicaci')) {
+                $data['ubicacion'] = $valor;
+            } elseif (str_contains($etiqueta, 'correo')) {
+                $data['correo'] = $valor;
+            } elseif (str_contains($etiqueta, 'tel')) {
+                $data['telefono'] = $valor;
+            } elseif (str_contains($etiqueta, 'nacimiento')) {
+                $data['nacimiento'] = $valor;
+            }
+        }
+
+        // 2. Fallbacks mediante regex sobre el texto completo
         $textTotal = $xpath->query("//body")->item(0)?->textContent ?? '';
 
-        if (preg_match('/Distrito:\s*([^\r\n<|]+?)(?=(?:Ubicaci|Correo|Tel|$))/iu', $textTotal, $m)) {
+        if (!$data['distrito'] && preg_match('/Distrito:\s*([^\r\n<|]+?)(?=(?:Ubicaci|Correo|Tel|$))/iu', $textTotal, $m)) {
             $data['distrito'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/Suplente:\s*([^\r\n<|]+?)(?=(?:[ÚU]ltimo|Preparaci|Experiencia|$))/iu', $textTotal, $m)) {
+        if (!$data['suplente'] && preg_match('/Suplente:\s*([^\r\n<|]+?)(?=(?:[ÚU]ltimo|Preparaci|Experiencia|$))/iu', $textTotal, $m)) {
             $data['suplente'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/Nacimiento:\s*([^\r\n<|]+?)(?=(?:Entidad|Ciudad|Principio|$))/iu', $textTotal, $m)) {
+        if (!$data['nacimiento'] && preg_match('/Nacimiento:\s*([^\r\n<|]+?)(?=(?:Entidad|Ciudad|Principio|$))/iu', $textTotal, $m)) {
             $data['nacimiento'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/Correo electr[oó]nico:\s*([^\r\n<|]+?)(?=(?:Tel|Suplente|$))/iu', $textTotal, $m)) {
+        if (!$data['correo'] && preg_match('/Correo electr[oó]nico:\s*([^\r\n<|]+?)(?=(?:Tel|Suplente|$))/iu', $textTotal, $m)) {
             $data['correo'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/Tel[eé]fono:\s*([^\r\n<|]+?)(?=(?:Suplente|[ÚU]ltimo|$))/iu', $textTotal, $m)) {
+        if (!$data['telefono'] && preg_match('/Tel[eé]fono:\s*([^\r\n<|]+?)(?=(?:Suplente|[ÚU]ltimo|$))/iu', $textTotal, $m)) {
             $data['telefono'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/Ubicaci[oó]n:\s*([^\r\n<|]+?)(?=(?:Correo|Tel|$))/iu', $textTotal, $m)) {
+        if (!$data['ubicacion'] && preg_match('/Ubicaci[oó]n:\s*([^\r\n<|]+?)(?=(?:Correo|Tel|$))/iu', $textTotal, $m)) {
             $data['ubicacion'] = $this->cleanString($m[1]);
         }
-        if (preg_match('/[UÚ]ltimo grado de estudios:\s*([^\r\n<|]+?)(?=(?:Preparaci|Experiencia|Redes|$))/iu', $textTotal, $m)) {
-            $data['ultimo_grado_estudios'] = $this->cleanString($m[1]);
+        if (!$data['ultimo_grado_estudios'] && preg_match('/[UÚ]ltimo grado de estudios:\s*([^\r\n<|]+?)(?=(?:Preparaci|Experiencia|Redes|$))/iu', $textTotal, $m)) {
+            $val = $this->cleanString($m[1]);
+            if ($val && !in_array(mb_strtolower($val), ['no disponible', 'sin registro', 'n/a'])) {
+                $data['ultimo_grado_estudios'] = $val;
+            }
         }
-        if (preg_match('/Preparaci[oó]n acad[eé]mica:\s*([^\r\n<|]+?)(?=(?:Experiencia|Elecci[oó]n|Redes|$))/iu', $textTotal, $m)) {
-            $data['preparacion_academica'] = $this->cleanString($m[1]);
+        if (!$data['preparacion_academica'] && preg_match('/Preparaci[oó]n acad[eé]mica:\s*([^\r\n<|]+?)(?=(?:Experiencia|Elecci[oó]n|Redes|$))/iu', $textTotal, $m)) {
+            $val = $this->cleanString($m[1]);
+            if ($val && !in_array(mb_strtolower($val), ['no disponible', 'sin registro', 'n/a'])) {
+                $data['preparacion_academica'] = $val;
+            }
         }
         if (preg_match('/Experiencia legislativa:\s*([^\r\n<|]+?)(?=(?:Elecci[oó]n|Redes|$))/iu', $textTotal, $m)) {
             $data['experiencia_legislativa_resumen'] = $this->cleanString($m[1]);
@@ -708,7 +751,7 @@ class SilIngestService
                             ];
                         }
                     }
-                } elseif (str_contains($headerText, 'ESCOLARIDAD')) {
+                } elseif (str_contains($headerText, 'ESCOLARIDAD') || str_contains($headerText, 'TRAYECTORIA ACAD') || str_contains($headerText, 'FORMACIÓN ACAD') || str_contains($headerText, 'FORMACION ACAD')) {
                     if ($cells->length >= 3) {
                         $exp = $this->cleanString($cells->item(2)->textContent);
                         if (!empty($exp)) {

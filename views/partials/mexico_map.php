@@ -23,6 +23,20 @@ $defaultEstado = $estados['baja-california'] ?? [
     'conteo_partidos' => ['Morena' => 14, 'PAN' => 5, 'PVEM' => 4, 'MC' => 1],
     'disponible' => true
 ];
+
+// Cálculo dinámico de fuerzas mayoritarias en el mapa para la legislatura activa
+$partidosEnMapa = [];
+$totalEstadosConDatos = 0;
+foreach ($estados as $slug => $estData) {
+    if (!empty($estData['disponible'])) {
+        $totalEstadosConDatos++;
+        if (!empty($estData['partido_mayoria'])) {
+            $pNom = ViewHelper::getCanonicalPartyName((string)$estData['partido_mayoria']);
+            $partidosEnMapa[$pNom] = ($partidosEnMapa[$pNom] ?? 0) + 1;
+        }
+    }
+}
+arsort($partidosEnMapa);
 ?>
 
 <div class="mapa-mexico-container card-civic p-3 p-md-4 mb-5 position-relative" id="seccion-mapa">
@@ -34,30 +48,39 @@ $defaultEstado = $estados['baja-california'] ?? [
                 Mapa Político de la República Mexicana
             </h2>
             <p class="text-secondary small mb-0">
-                Selecciona cualquier entidad en el mapa para ver la distribución de bancadas partidistas en tiempo real.
+                Selecciona cualquier entidad en el mapa para ver la distribución de bancadas partidistas en tiempo real (Morena, PAN, PRI, PVEM, PT, MC, PRD).
             </p>
         </div>
 
-        <!-- Leyenda de Colores de Partidos y Status -->
+        <!-- Leyenda Dinámica de Colores de Partidos y Status -->
         <div class="d-flex align-items-center gap-2 flex-wrap small">
-            <span class="d-flex align-items-center gap-1 me-1">
-                <span class="rounded-circle d-inline-block" style="width: 10px; height: 10px; background-color: #8B1C3F;"></span>
-                Morena
+            <span class="text-secondary fw-semibold me-1 d-none d-sm-inline" style="font-size: 0.78rem;">
+                Fuerza mayoritaria:
             </span>
-            <span class="d-flex align-items-center gap-1 me-1">
-                <span class="rounded-circle d-inline-block" style="width: 10px; height: 10px; background-color: #003893;"></span>
-                PAN
-            </span>
-            <span class="d-flex align-items-center gap-1 me-1">
-                <span class="rounded-circle d-inline-block" style="width: 10px; height: 10px; background-color: #009E49;"></span>
-                PVEM
-            </span>
-            <span class="d-flex align-items-center gap-1 me-1">
-                <span class="rounded-circle d-inline-block" style="width: 10px; height: 10px; background-color: #FF5A00;"></span>
-                MC
-            </span>
+            <?php if (!empty($partidosEnMapa)): ?>
+                <?php foreach ($partidosEnMapa as $pName => $stCount): 
+                    $pColor = ViewHelper::getPartyColor($pName);
+                ?>
+                <span class="d-flex align-items-center gap-1 me-2" title="<?= ViewHelper::e($pName) ?>: primera fuerza en <?= $stCount ?> entidad<?= $stCount !== 1 ? 'es' : '' ?>">
+                    <span class="rounded-circle d-inline-block shadow-2xs" style="width: 10px; height: 10px; background-color: <?= $pColor ?>;"></span>
+                    <span class="fw-medium text-dark"><?= ViewHelper::e($pName) ?></span>
+                    <span class="text-secondary" style="font-size: 0.72rem;">(<?= $stCount ?>)</span>
+                </span>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <?php 
+                $partidosNacionales = ['Morena', 'PAN', 'PRI', 'PVEM', 'PT', 'MC', 'PRD'];
+                foreach ($partidosNacionales as $pName):
+                    $pColor = ViewHelper::getPartyColor($pName);
+                ?>
+                <span class="d-flex align-items-center gap-1 me-2">
+                    <span class="rounded-circle d-inline-block shadow-2xs" style="width: 10px; height: 10px; background-color: <?= $pColor ?>;"></span>
+                    <span class="fw-medium text-dark"><?= $pName ?></span>
+                </span>
+                <?php endforeach; ?>
+            <?php endif; ?>
             <span class="badge bg-success-subtle text-success border border-success-subtle px-2 py-1 ms-sm-2 d-inline-flex align-items-center gap-1">
-                <i class="bi bi-patch-check-fill"></i> 100% Cobertura (32/32)
+                <i class="bi bi-patch-check-fill"></i> <?= $totalEstadosConDatos ?>/32 Cobertura
             </span>
         </div>
     </div>
@@ -90,7 +113,7 @@ $defaultEstado = $estados['baja-california'] ?? [
                           data-abbr="<?= ViewHelper::e($estadoData['abbr'] ?? 'MEX') ?>"
                           data-party="<?= ViewHelper::e($estadoData['partido_mayoria'] ?? 'En proceso') ?>"
                           data-reps="<?= ViewHelper::e((string)($estadoData['total_representantes'] ?? 0)) ?>"
-                          data-url="<?= Router::url('/estados/' . $slug) ?>"
+                          data-url="<?= Router::url('/estados/' . $slug . ((isset($currentLegNum) && $currentLegNum !== 66) ? '?leg=' . $currentLegNum : '')) ?>"
                           data-conteo='<?= json_encode($estadoData['conteo_partidos'] ?? []) ?>'
                           fill="<?= $color ?>"
                           stroke="#FFFFFF"
@@ -110,7 +133,7 @@ $defaultEstado = $estados['baja-california'] ?? [
             <div class="card-civic p-4 border bg-white shadow-xs text-start" id="estadoOverviewCard" style="border-radius: 18px;">
                 <!-- Encabezado del Estado -->
                 <div class="d-flex align-items-center justify-content-between mb-2">
-                    <span class="badge bg-light text-secondary border small">LXVI Legislatura</span>
+                    <span class="badge bg-light text-secondary border small" id="badgeLegislaturaCard"><?= ViewHelper::e($currentLegRomano ?? 'LXVI') ?> Legislatura</span>
                 </div>
 
                 <h3 class="h5 fw-bold text-dark mb-1" id="cardEstadoNombre">
@@ -127,7 +150,12 @@ $defaultEstado = $estados['baja-california'] ?? [
                     </div>
                     <div class="d-flex align-items-center gap-2" id="cardEstadoMayoriaBadge">
                         <?= ViewHelper::renderPartyBadge($defaultEstado['partido_mayoria']) ?>
-                        <span class="badge bg-light text-dark border small">14 de 24 curules</span>
+                        <?php 
+                        $mayoriaCurules = ($defaultEstado['conteo_partidos'] ?? [])[$defaultEstado['partido_mayoria']] ?? null;
+                        if ($mayoriaCurules !== null): 
+                        ?>
+                            <span class="badge bg-light text-dark border small"><?= $mayoriaCurules ?> de <?= $defaultEstado['total_representantes'] ?> curules</span>
+                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -168,7 +196,7 @@ $defaultEstado = $estados['baja-california'] ?? [
 
                 <!-- Botón de Llamado a la Acción para Explorar (Incentiva Navegación Profunda) -->
                 <div class="pt-2">
-                    <a href="<?= Router::url('/estados/' . $defaultEstado['slug']) ?>" 
+                    <a href="<?= Router::url('/estados/' . $defaultEstado['slug'] . (isset($currentLegNum) && $currentLegNum !== 66 ? '?leg=' . $currentLegNum : '')) ?>" 
                        class="btn btn-primary rounded-pill w-100 py-2 d-flex align-items-center justify-content-center gap-2 fw-semibold shadow-xs" 
                        id="btnExplorarEstado">
                         <span>Ver los <?= $defaultEstado['total_representantes'] ?> legisladores</span>
@@ -240,25 +268,28 @@ $defaultEstado = $estados['baja-california'] ?? [
     const cardPartidosList = document.getElementById('cardEstadoPartidosList');
     const btnExplorar = document.getElementById('btnExplorarEstado');
 
-    // Paleta de partidos para renderizado dinámico en JS
-    const partyColors = {
-        'MORENA': '#8B1C3F',
-        'PAN': '#003893',
-        'PVEM': '#009E49',
-        'PRI': '#C8102E',
-        'PT': '#DA291C',
-        'MC': '#FF8300',
-        'MOVIMIENTO CIUDADANO': '#FF8300',
-        'PES': '#582C83',
-        'PRD': '#FFD100'
-    };
+    const urlParams = new URLSearchParams(window.location.search);
+    const pathLegMatch = window.location.pathname.match(/\/legislaturas\/(\d+)/);
+    const activeLeg = pathLegMatch ? parseInt(pathLegMatch[1], 10) : (urlParams.get('leg') ? parseInt(urlParams.get('leg'), 10) : <?= (int)($currentLegNum ?? 66) ?>);
 
+    if (btnExplorar && activeLeg !== 66 && !btnExplorar.href.includes('?leg=')) {
+        btnExplorar.href += (btnExplorar.href.includes('?') ? '&' : '?') + 'leg=' + activeLeg;
+    }
+
+    // Función resiliente de resolución de color de partido en JS (alineada con ViewHelper::getPartyColor)
     function getPartyColorJs(partido) {
         if (!partido) return '#6C757D';
-        const upper = partido.toUpperCase();
-        for (const [key, color] of Object.entries(partyColors)) {
-            if (upper.includes(key)) return color;
-        }
+        const upper = partido.toUpperCase().trim();
+        if (upper.includes('MORENA')) return '#8B1C3F';
+        if (upper.includes('PAN') && !upper.includes('PANAL')) return '#003893';
+        if (upper.includes('VERDE') || upper.includes('PVEM')) return '#009E49';
+        if (upper.includes('PRI') || upper.includes('REVOLUCIONARIO')) return '#C8102E';
+        if (upper.includes('PT') || upper.includes('TRABAJO')) return '#DA291C';
+        if (upper.includes('MC') || upper.includes('CIUDADANO') || upper.includes('CONVERGENCIA')) return '#FF8300';
+        if (upper.includes('PES') || upper.includes('ENCUENTRO')) return '#582C83';
+        if (upper.includes('PRD')) return '#FFD100';
+        if (upper.includes('PANAL') || upper.includes('NUEVA ALIANZA')) return '#00A896';
+        if (upper.includes('INDEPENDIENTE') || upper.includes('SIN PARTIDO')) return '#64748B';
         return '#6C757D';
     }
 
@@ -270,7 +301,8 @@ $defaultEstado = $estados['baja-california'] ?? [
 
         cardNombre.textContent = name;
         cardTotalReps.textContent = reps > 0 ? reps : 'En integración';
-        btnExplorar.href = baseUrl + '/estados/' + slug;
+        const currentLeg = activeLeg;
+        btnExplorar.href = baseUrl + '/estados/' + slug + (currentLeg !== 66 ? '?leg=' + currentLeg : '');
 
         if (reps > 0 && Object.keys(conteo).length > 0) {
             // Renderizar Badge de mayoría

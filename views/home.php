@@ -20,7 +20,7 @@ require __DIR__ . '/layout/header.php';
 <!-- Hero Section -->
 <div class="text-center py-4 py-md-5 mb-4">
     <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-primary-subtle text-primary small fw-semibold mb-3">
-        <i class="bi bi-shield-check"></i> El Pulso de la Política &bull; LXVI Legislatura (2024–2027)
+        <i class="bi bi-shield-check"></i> El Pulso de la Política &bull; <?= ViewHelper::e($currentLegRomano ?? ($romano ?? 'LXVI')) ?> Legislatura (<?= ViewHelper::e($periodo ?? '2024–2027') ?>)
     </div>
     <h1 class="display-5 fw-bold text-dark mb-3">
         El Pulso de la Política
@@ -42,6 +42,9 @@ require __DIR__ . '/layout/header.php';
         <!-- Accesos Rápidos Populares -->
         <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap mt-3" style="font-size: 0.8rem;">
             <span class="text-muted small">Explorar directo:</span>
+            <a href="<?= Router::url('/politicos') ?>" class="badge bg-primary text-white text-decoration-none py-1 px-2 hover-bg shadow-xs">
+                <i class="bi bi-people-fill me-1"></i>Directorio de Políticos
+            </a>
             <a href="<?= Router::url('/estados/sinaloa') ?>" class="badge bg-white text-secondary border text-decoration-none py-1 px-2 hover-bg">Sinaloa</a>
             <a href="<?= Router::url('/estados/ciudad-de-mexico') ?>" class="badge bg-white text-secondary border text-decoration-none py-1 px-2 hover-bg">CDMX</a>
             <a href="<?= Router::url('/estados/estado-de-mexico') ?>" class="badge bg-white text-secondary border text-decoration-none py-1 px-2 hover-bg">EdoMex</a>
@@ -54,34 +57,34 @@ require __DIR__ . '/layout/header.php';
 <!-- Métricas Rápidas del Congreso -->
 <div class="row g-3 mb-5 text-center">
     <div class="col-6 col-md-3">
-        <div class="card-civic p-3">
-            <div class="h3 fw-bold text-primary mb-0">500</div>
-            <div class="text-muted small">Diputados Federales</div>
-            <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
-                <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Mayoría Relativa: 300 diputados elegidos por voto popular directo en sus distritos electorales.">300 MR</span>
-                <span>&bull;</span>
-                <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Representación Proporcional: 200 diputados plurinominales asignados por listas de partido según votación nacional.">200 RP</span>
-                <button type="button" class="btn btn-link p-0 text-muted border-0 ms-1" style="line-height: 1;" data-bs-toggle="modal" data-bs-target="#modalGlosarioEleccion" title="¿Cómo se eligen? (Toca para ver explicación)">
-                    <i class="bi bi-question-circle text-primary" style="font-size: 0.78rem;"></i>
-                </button>
+        <a href="<?= Router::url('/politicos') ?>" class="text-decoration-none text-dark d-block h-100">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-primary mb-0">500</div>
+                <div class="text-muted small">Diputados Federales</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Mayoría Relativa: 300 diputados elegidos por voto popular directo en sus distritos electorales.">300 MR</span>
+                    <span>&bull;</span>
+                    <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Representación Proporcional: 200 diputados plurinominales asignados por listas de partido según votación nacional.">200 RP</span>
+                    <span class="text-primary ms-1">Ver todos &rarr;</span>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
     <div class="col-6 col-md-3">
-        <div class="card-civic p-3">
-            <div class="h3 fw-bold text-primary mb-0">128</div>
-            <div class="text-muted small">Senadores de la República</div>
-            <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
-                <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Mayoría Relativa: 64 senadores (fórmula ganadora de 2 por cada entidad federativa).">64 MR</span>
-                <span>&bull;</span>
-                <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Primera Minoría: 32 senadores asignados a la fórmula que obtuvo el 2do lugar en cada estado.">32 PM</span>
-                <span>&bull;</span>
-                <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Representación Proporcional: 32 senadores plurinominales por lista nacional de partidos.">32 RP</span>
-                <button type="button" class="btn btn-link p-0 text-muted border-0 ms-1" style="line-height: 1;" data-bs-toggle="modal" data-bs-target="#modalGlosarioEleccion" title="¿Cómo se eligen? (Toca para ver explicación)">
-                    <i class="bi bi-question-circle text-primary" style="font-size: 0.78rem;"></i>
-                </button>
+        <a href="<?= Router::url('/politicos') ?>" class="text-decoration-none text-dark d-block h-100">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-primary mb-0">128</div>
+                <div class="text-muted small">Senadores de la República</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Mayoría Relativa: 64 senadores (fórmula ganadora de 2 por cada entidad federativa).">64 MR</span>
+                    <span>&bull;</span>
+                    <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Primera Minoría: 32 senadores asignados a la fórmula que obtuvo el 2do lugar en cada estado.">32 PM</span>
+                    <span>&bull;</span>
+                    <span class="abbr-tip" data-bs-toggle="tooltip" data-bs-title="Representación Proporcional: 32 senadores plurinominales por lista nacional de partidos.">32 RP</span>
+                    <span class="text-primary ms-1">Ver todos &rarr;</span>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
     <div class="col-6 col-md-3">
         <a href="#seccion-mapa" class="text-decoration-none text-dark">

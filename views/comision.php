@@ -15,6 +15,8 @@ $integrantes = $comision['integrantes'] ?? [];
 $homeUrl = Router::url('/');
 $canonicalUrl = Router::url('/comisiones/' . $slug);
 
+$legNumero = (int)($comision['legislatura'] ?? (isset($_GET['leg']) ? PulsoCivico\Services\DataService::parseNumeroLegislatura((string)$_GET['leg']) : 66));
+
 // Separar por jerarquía: Presidencia, Secretarías y Colegiados
 $presidencia = [];
 $secretarias = [];
@@ -115,7 +117,7 @@ require __DIR__ . '/layout/header.php';
     </h2>
     <div class="row g-3">
         <?php foreach ($presidencia as $pres): ?>
-            <?php renderPresidenciaCard($pres); ?>
+            <?php renderPresidenciaCard($pres, $legNumero); ?>
         <?php endforeach; ?>
     </div>
 </div>
@@ -130,7 +132,7 @@ require __DIR__ . '/layout/header.php';
     </h2>
     <div class="row g-3">
         <?php foreach ($secretarias as $int): ?>
-            <?php renderIntegranteCard($int, true); ?>
+            <?php renderIntegranteCard($int, true, $legNumero); ?>
         <?php endforeach; ?>
     </div>
 </div>
@@ -144,15 +146,16 @@ require __DIR__ . '/layout/header.php';
     </h2>
     <div class="row g-3">
         <?php foreach ($restoIntegrantes as $int): ?>
-            <?php renderIntegranteCard($int, false); ?>
+            <?php renderIntegranteCard($int, false, $legNumero); ?>
         <?php endforeach; ?>
     </div>
 </div>
 
 <?php
-function renderIntegranteCard(array $int, bool $esDirectiva): void {
+function renderIntegranteCard(array $int, bool $esDirectiva, int $legNumero = 66): void {
     $slug = $int['slug'] ?? '';
-    $url = Router::url('/politicos/' . $slug);
+    $legParam = ($legNumero !== 66 && $legNumero !== 0) ? '?leg=' . $legNumero : '';
+    $url = Router::url('/politicos/' . $slug . $legParam);
     $nombre = $int['nombre_completo'] ?? '';
     $partido = $int['partido'] ?? '';
     $camara = $int['camara'] ?? '';
@@ -196,9 +199,10 @@ function renderIntegranteCard(array $int, bool $esDirectiva): void {
     <?php
 }
 
-function renderPresidenciaCard(array $int): void {
+function renderPresidenciaCard(array $int, int $legNumero = 66): void {
     $slug = $int['slug'] ?? '';
-    $url = Router::url('/politicos/' . $slug);
+    $legParam = ($legNumero !== 66 && $legNumero !== 0) ? '?leg=' . $legNumero : '';
+    $url = Router::url('/politicos/' . $slug . $legParam);
     $nombre = $int['nombre_completo'] ?? '';
     $partido = $int['partido'] ?? '';
     $camara = $int['camara'] ?? '';
