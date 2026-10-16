@@ -27,7 +27,7 @@
         {% if politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo) %}
         <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Poder Ejecutivo ({{ politico.entidad }})</a></li>
         {% elif politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo) %}
-        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Gobierno Municipal ({{ politico.entidad }})</a></li>
+        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Gobierno Municipal ({{ (politico.municipio ~ ', ' ~ politico.entidad) if politico.municipio else politico.entidad }})</a></li>
         {% else %}
         <li class="breadcrumb-item"><a href="/legislaturas/{{ legislatura }}" class="text-decoration-none">{{ meta_legislatura.romano }} Legislatura</a></li>
         <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">{{ politico.entidad or 'República Mexicana' }}</a></li>
@@ -335,7 +335,8 @@
     <!-- Columna Derecha: Secciones de Contenido -->
     <div class="col-lg-8">
 
-        <!-- SECCIÓN 1: COMISIONES LEGISLATIVAS -->
+        <!-- SECCIÓN 1: COMISIONES LEGISLATIVAS (Para legisladores) O GOBIERNO MUNICIPAL (Para alcaldes) -->
+        {% if politico.comisiones or (politico.nivel not in ['Municipal', 'Estatal'] and not ('Presidente' in (politico.cargo or '') or 'Gobernador' in (politico.cargo or ''))) %}
         <div class="card-civic p-4 mb-4 border">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
@@ -374,6 +375,44 @@
                 </div>
             {% endif %}
         </div>
+        {% elif politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo) %}
+        <!-- GESTIÓN Y CABILDO MUNICIPAL -->
+        <div class="card-civic p-4 mb-4 border bg-white shadow-xs">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-bank text-primary"></i>
+                    Gobierno y Cabildo Municipal
+                </h2>
+                <span class="badge bg-success-subtle text-success border border-success-subtle small">
+                    <i class="bi bi-circle-fill me-1" style="font-size: 0.45rem;"></i>Poder Ejecutivo Local
+                </span>
+            </div>
+            <div class="p-3 bg-light rounded-3 border">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <span class="text-secondary small d-block">Municipio / Demarcación:</span>
+                        <strong class="text-dark fs-6">{{ politico.municipio or politico.distrito or 'Municipio' }}</strong>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="text-secondary small d-block">Entidad Federativa:</span>
+                        <strong class="text-dark fs-6">{{ politico.entidad }}</strong>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="text-secondary small d-block">Periodo Constitucional:</span>
+                        <strong class="text-dark">{{ politico.periodo or '2024–2027' }}</strong>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="text-secondary small d-block">Principio de Elección:</span>
+                        <strong class="text-dark">{{ politico.principio_eleccion or 'Mayoría Relativa (Voto Popular Directo)' }}</strong>
+                    </div>
+                </div>
+                <div class="mt-3 pt-3 border-top text-secondary small" style="font-size: 0.77rem; line-height: 1.45;">
+                    <i class="bi bi-shield-check text-primary me-1"></i>
+                    Conforme al <strong>Artículo 115 Constitucional</strong>, como titular del Poder Ejecutivo Municipal encabeza la administración pública local, la prestación de servicios municipales y la presidencia del H. Cabildo del Ayuntamiento.
+                </div>
+            </div>
+        </div>
+        {% endif %}
 
         <!-- SECCIÓN 2: LÍNEA DE TIEMPO Y CARGOS + ESTUDIOS -->
         <div class="card-civic p-4 mb-4 border">
@@ -482,7 +521,8 @@
             {% endif %}
         </div>
 
-        <!-- SECCIÓN 3: PROPUESTAS DE LEY E INICIATIVAS -->
+        <!-- SECCIÓN 3: PROPUESTAS DE LEY E INICIATIVAS (Para legisladores o con iniciativas comprobadas) -->
+        {% if politico.iniciativas or (politico.nivel not in ['Municipal', 'Estatal'] and not ('Presidente' in (politico.cargo or '') or 'Gobernador' in (politico.cargo or ''))) %}
         <div class="card-civic p-4 mb-4 border">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
@@ -591,6 +631,7 @@
                 </div>
             {% endif %}
         </div>
+        {% endif %}
 
         <!-- SECCIÓN 4: INFORMACIÓN DE CONTACTO OFICIAL -->
         <div class="card-civic p-4 mb-4 border">
@@ -600,7 +641,7 @@
             <div class="row g-3">
                 <div class="col-sm-6">
                     <span class="text-muted small d-block">Ubicación de Oficina:</span>
-                    <strong class="text-dark small">{{ politico.ubicacion_oficina or ("Palacio Legislativo de San Lázaro" if politico.camara == "Diputados" else "Senado de la República") }}</strong>
+                    <strong class="text-dark small">{{ politico.ubicacion_oficina or ("Palacio Municipal de " ~ (politico.municipio or politico.distrito) if (politico.nivel == "Municipal" or 'Presidente' in (politico.cargo or '')) else ("Palacio de Gobierno de " ~ politico.entidad if (politico.nivel == "Estatal" or 'Gobernador' in (politico.cargo or '')) else ("Palacio Legislativo de San Lázaro" if politico.camara == "Diputados" else "Senado de la República"))) }}</strong>
                 </div>
                 <div class="col-sm-6">
                     <span class="text-muted small d-block">Teléfono Oficial:</span>

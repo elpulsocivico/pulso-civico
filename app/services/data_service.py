@@ -714,6 +714,56 @@ class DataService:
         }
     }
 
+    # Directorio curricular y oficial de alcaldes y presidentes municipales con datos comprobados
+    ALCALDES_DATA: Dict[str, Dict[str, Any]] = {
+        "miriam-elizabeth-cano-nunez": {
+            "nombre_oficial": "Miriam Elizabeth Cano Núñez",
+            "grado": "Licenciatura",
+            "disciplina": "Informática",
+            "institucion": "Instituto Tecnológico de Tijuana (ITT)",
+            "cedula": "12737398",
+            "codigo": "licenciatura",
+            "redes_sociales": [
+                {"label": "Facebook Oficial", "url": "https://www.facebook.com/MiriamCanoBC", "icono": "facebook", "color": "#1877F2"},
+                {"label": "Instagram Oficial", "url": "https://www.instagram.com/miriamcanosq", "icono": "instagram", "color": "#E4405F"}
+            ],
+            "linea_tiempo": [
+                {
+                    "experiencia": "Presidenta Municipal Constitucional de San Quintín, Baja California",
+                    "periodo": "2024–2027",
+                    "partido": "Morena",
+                    "partido_color": "#8B1C3F",
+                    "es_cargo_actual": True,
+                    "es_reciente": True
+                },
+                {
+                    "experiencia": "Secretaria de Inclusión Social e Igualdad de Género (SISIG) del Gobierno del Estado de Baja California",
+                    "periodo": "2021–2024",
+                    "partido": "Morena",
+                    "partido_color": "#8B1C3F",
+                    "es_cargo_actual": False,
+                    "es_reciente": False
+                },
+                {
+                    "experiencia": "Diputada Local en la XXIII Legislatura del Congreso del Estado de Baja California (Distrito XVII)",
+                    "periodo": "2019–2021",
+                    "partido": "Morena",
+                    "partido_color": "#8B1C3F",
+                    "es_cargo_actual": False,
+                    "es_reciente": False
+                }
+            ],
+            "escolaridad_items": [
+                {
+                    "experiencia": "Licenciatura en Informática — Instituto Tecnológico de Tijuana (Cédula Profesional Federal: 12737398)",
+                    "estudio": "Licenciatura en Informática",
+                    "institucion": "Instituto Tecnológico de Tijuana (ITT)",
+                    "cedula": "12737398"
+                }
+            ]
+        }
+    }
+
     def __init__(self):
         # Indexación por legislatura federal
         self.politicos_by_leg: Dict[int, List[Dict[str, Any]]] = {}
@@ -1420,21 +1470,29 @@ class DataService:
             "entidad": entidad
         }]
 
-        linea_tiempo = [{
-            "experiencia": f"{cargo} de {entidad}",
-            "periodo": periodo,
-            "partido": partido,
-            "partido_color": partido_color,
-            "es_cargo_actual": es_actual,
-            "es_reciente": True
-        }]
+        if it.get("linea_tiempo"):
+            linea_tiempo = list(it["linea_tiempo"])
+        else:
+            mun_str = it.get("municipio")
+            exp_text = f"{cargo} de {mun_str}, {entidad}" if (mun_str and nivel == "Municipal") else f"{cargo} de {entidad}"
+            linea_tiempo = [{
+                "experiencia": exp_text,
+                "periodo": periodo,
+                "partido": partido,
+                "partido_color": partido_color,
+                "es_cargo_actual": es_actual,
+                "es_reciente": True
+            }]
 
         grado = it.get("grado_academico") or "Sin Registro"
         disciplina = it.get("disciplina") or "-"
-        escolaridad_items = []
-        if grado != "Sin Registro":
-            disc_label = f" en {disciplina}" if disciplina and disciplina != "-" else ""
-            escolaridad_items.append({"experiencia": f"{grado}{disc_label}", "estudio": f"{grado}{disc_label}"})
+        if it.get("escolaridad_items"):
+            escolaridad_items = list(it["escolaridad_items"])
+        else:
+            escolaridad_items = []
+            if grado != "Sin Registro":
+                disc_label = f" en {disciplina}" if disciplina and disciplina != "-" else ""
+                escolaridad_items.append({"experiencia": f"{grado}{disc_label}", "estudio": f"{grado}{disc_label}"})
 
         perfil_base = {
             "slug": slug,
@@ -1450,7 +1508,7 @@ class DataService:
             "entidad_slug": entidad_slug,
             "distrito": it.get("municipio") or ("Poder Ejecutivo Estatal" if nivel == "Estatal" else ""),
             "municipio": it.get("municipio") or "",
-            "foto_oficial_url": foto,
+            "foto_oficial_url": it.get("foto_oficial_url") or foto,
             "referencia_sil": None,
             "periodo": periodo,
             "legislatura": 66 if es_actual else 0,
@@ -1468,7 +1526,7 @@ class DataService:
             "asistencia_kpi": None,
             "iniciativas": [],
             "comisiones": [],
-            "redes_sociales": [],
+            "redes_sociales": it.get("redes_sociales") or [],
             "disciplina_partidaria_pct": 100.0,
             "fuente_url": it.get("fuente_url") or ""
         }
@@ -2540,12 +2598,33 @@ class DataService:
                 slugs_vistos.add(item_id)
 
                 pol_obj = self.politicos_master.get(p_slug) or self.find_politico_by_nombre(nom_comp)
+                alc_info = self.ALCALDES_DATA.get(p_slug)
+                linea_tiempo_custom = None
+                escolaridad_items_custom = None
+                redes_sociales_custom = None
+
                 if pol_obj:
                     foto_url = pol_obj.get("foto_oficial_url") or (f"/photos/{pol_obj.get('referencia_sil')}.jpg" if pol_obj.get('referencia_sil') else "")
                     trans_info = self._calcular_transicion_partidista(pol_obj, pol_obj.get("slug") or p_slug)
                     perfil_acad = pol_obj.get("perfil_academico") or education_service.clasificar_politico(pol_obj)
                     grado_max = perfil_acad.get("grado_maximo_label") or pol_obj.get("ultimo_grado_estudios") or "Sin Registro"
                     disciplina = perfil_acad.get("disciplina_principal") or pol_obj.get("preparacion_academica") or "General"
+                elif alc_info:
+                    nom_comp = alc_info.get("nombre_oficial") or nom_comp
+                    nom_nat = alc_info.get("nombre_oficial") or nom_nat
+                    foto_url = alc_info.get("foto_url") or f"https://ui-avatars.com/api/?name={nom_comp.replace(' ', '+')}&background=F1F5F9&color=475569"
+                    grado_max = alc_info.get("grado") or "Sin Registro"
+                    disciplina = alc_info.get("disciplina") or "-"
+                    linea_tiempo_custom = alc_info.get("linea_tiempo")
+                    escolaridad_items_custom = alc_info.get("escolaridad_items")
+                    redes_sociales_custom = alc_info.get("redes_sociales")
+                    trans_info = {
+                        "lista": [partido_actual],
+                        "tiene_transicion": False,
+                        "texto": f"{partido_actual} (Fiel)",
+                        "badges": [{"nombre": partido_actual, "color": partido_color}],
+                        "total_partidos": 1
+                    }
                 else:
                     nom_enc = nom_comp.replace(" ", "+")
                     foto_url = f"https://ui-avatars.com/api/?name={nom_enc}&background=F1F5F9&color=475569"
@@ -2608,6 +2687,9 @@ class DataService:
                     "legislatura": 0,
                     "es_actual": True,
                     "url": url_destino,
+                    "linea_tiempo": linea_tiempo_custom,
+                    "escolaridad_items": escolaridad_items_custom,
+                    "redes_sociales": redes_sociales_custom,
                     "fuente_url": alc.get("metadata", {}).get("fuente_url") or "https://github.com/emagar/elecRetrns / INAFED"
                 })
 
