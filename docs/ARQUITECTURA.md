@@ -1,68 +1,93 @@
 # Arquitectura de Pulso Cívico
 
-## Principios
-1. **Low-cost**: sin frameworks, sin Composer, sin base de datos. Corre en cualquier hosting PHP barato.
-2. **Datos trazables**: todo registro conserva su fuente oficial.
-3. **Capas separadas**: las vistas nunca leen archivos ni llaman a portales externos directamente.
+## Principios de Diseño
+1. **Rendimiento Nativo y Low-Cost**: Servidor web asíncrono en **Python (FastAPI + Jinja2 + orjson)** para tiempos de respuesta ultra-rápidos (< 15 ms) con bajo consumo de memoria. Cero bases de datos complejas (sin SQL pesados); toda la información vive en archivos JSON estructurados y versionados en Git.
+2. **Trazabilidad y Evidencia**: Cada registro político posee un hash criptográfico SHA-256 (`sha256_evidencia`) vinculado a fuentes oficiales primarias (`.gob.mx`, POEs, DOF, SIL, INEGI, INE).
+3. **Separación de Capas**: El frontend jamás accede a datos directos sin pasar por los servicios de repositorio (`DataService`), garantizando sanitización, normalización de partidos y cálculo de facetas.
+4. **Dualidad y Resiliencia**: Capa primaria en Python para servicio web/API, y capa auxiliar en PHP 8.1+ para herramientas CLI de auditoría, runner unificado y scrapers históricos.
 
-## Flujo de datos
+---
+
+## Flujo de Datos del Sistema
 
 ```mermaid
-flowchart LR
-  A["Portal oficial (SIL, SITL, Senado...)"] -->|HttpClient + rate limit| B["Scraper / IngestService"]
-  B -->|HTML crudo| R["storage/raw/"]
-  B -->|mapea| C["DTO tipado"]
-  C -->|toArray| D["storage/data/json/*.json"]
-  D --> E["DataService (repositorio en memoria)"]
-  E --> F["WebController"]
-  F --> G["views/*.php"]
-  E --> H["API JSON /api/..."]
+flowchart TD
+  subgraph Ingesta["1. Fuentes Oficiales e Ingesta"]
+    A["Portales Oficiales (SIL, DOF, POEs, INEGI, IEEs)"] -->|Scrapers / HTTP Client| B["storage/data/json/*.json\n(3,201 datasets estructurados)"]
+  end
+
+  subgraph Backend["2. Núcleo Activo Python (FastAPI)"]
+    B -->|Carga ultrarrápida orjson| DS["DataService (app/services/data_service.py)"]
+    DS -->|Índice en Memoria / Caché| R_WEB["Web Router (app/routers/web.py)"]
+    DS -->|Serialización JSON| R_API["API Router (app/routers/api.py)"]
+    DS -->|Auditoría Ciudadana| R_ELEC["Electoral / Auditoría (app/routers/electoral.py)"]
+  end
+
+  subgraph Frontend["3. Presentación (Jinja2 + Bootstrap)"]
+    R_WEB --> TPL["app/templates/ (Plantillas Jinja2)"]
+    R_API --> CLIENT["Consumo AJAX / APIs Externas"]
+  end
+
+  subgraph Contingencia["4. Capa Auxiliar y CLI (PHP)"]
+    B -.-> DS_PHP["DataService PHP (src/Services/)"]
+    DS_PHP -.-> PHP_WEB["WebController (views/*.php)"]
+    GATEWAY["tools/gateway.php / tools/run.ps1"] -->|Linter, Health, Scrapers| B
+  end
 ```
 
-## Estructura de carpetas
+---
+
+## Estructura del Proyecto
+
+```text
+app/                     Núcleo activo de la aplicación en Python (FastAPI)
+  core/                  Configuración (config.py) y seguridad / rate limit (security.py)
+  routers/               Rutas web (web.py), API REST (api.py) y auditoría (electoral.py)
+  services/              Lógica de datos (data_service.py), auditoría (audit_service.py), educación (education_service.py)
+  templates/             Vistas Jinja2 (home.html, politico.html, layouts y partials)
+
+storage/                 Almacenamiento estático de datos abiertos y assets
+  data/json/             Datasets cívicos publicados (3,201 JSONs / 33,368 registros)
+    municipios/          Historial electoral de 54 años y cabildos (2,474 JSONs)
+    ejecutivo/           Gobernadores de 32 estados y CDMX (34 JSONs / 300 reg.)
+  raw/photos/            Fotografías oficiales de legisladores (distribuidas por pack externo)
+  cache/                 Caché de índices y páginas compiladas (ignorado en git)
+
+tools/                   Herramientas de línea de comandos, runner y scrapers
+  run.ps1                Runner centralizado multiplataforma
+  gateway.php            CLI universal de inspección, linting y scrapers
+  core/                  Linter, GitOps, Inspector, CatalogBuilder, DataIntegrityAudit
+
+src/                     Capa legacy / contingencia en PHP
+  Controllers/           WebController, MunicipioController, AuditController
+  Services/              DataService, IngestServices, Scrapers
+  Core/                  Router, HttpClient, Logger, ViewHelper, PageCache
+
+views/                   Plantillas PHP legacy (contingencia / hosting compartido)
+requirements.txt         Dependencias Python (FastAPI, uvicorn, jinja2, orjson, pydantic)
 ```
-index.php            Front controller web (único punto de entrada)
-config/config.php    Configuración (lee .env)
-src/
-  Core/              Router, HttpClient, Logger, ViewHelper, PageCache
-  Controllers/       WebController (rutas generales), MunicipioController (alcaldes y municipios)
-  DTO/               LegisladorDTO, VotacionDTO, SesionPlenoDTO
-  Services/          DataService (lectura unificada), EducationService (análisis estadístico)
-views/               Plantillas (layout/, partials/, páginas por módulo)
-storage/
-  data/json/         Datasets finales publicados (3,201 JSONs / 33,368 registros)
-    alcaldes/        Directorio nacional de alcaldes vigentes (2,474 municipios)
-    municipios/      Historial de 54 años y cabildos por cvegeo (2,474 JSONs)
-    ejecutivo/       Gobernadores de 32 estados y CDMX (34 JSONs / 300 reg.)
-  raw/photos/        Fotos oficiales de legisladores y mandatarios
-  raw/html/          Descargas crudas de respaldo
-tools/
-  gateway.php        CLI universal: php tools/gateway.php <accion>
-  run.ps1            Atajo Windows hacia gateway.php
-  core/              Linter, GitOps, Inspector, CatalogBuilder, BuildDirectoryIndex
 
-## Rutas web
-| Ruta | Descripción |
-|---|---|
-| `/` | Portada con observatorio, métricas nacionales y mapa interactivo |
-| `/legislaturas`, `/legislaturas/{id}` | Explorador de legislaturas federales (LVII a LXVI) |
-| `/politicos`, `/politicos/{slug}` | Directorio de políticos y ficha con trayectoria histórica |
-| `/alcaldes`, `/municipios` | Directorio nacional de alcaldes vigentes (2,474 municipios) |
-| `/municipios/{cvegeo}` | Ficha municipal con historial electoral de 54 años y cabildo |
-| `/estados/{slug}` | Ficha estatal (gobernador, congreso local y legisladores federales) |
-| `/comisiones`, `/comisiones/{slug}` | Comisiones legislativas |
-| `/estudios`, `/estudios/{categoria}` | Estadísticas de paridad, pluralidad y productividad |
-| `/api/buscar`, `/api/politicos`, `/api/alcaldes` | API JSON de consulta |
-| `/sitemap.xml`, `/sitemap-*.xml`, `/llms.txt` | Indexación SEO y contexto para agentes de IA |
+---
 
-## Seguridad
-- `.htaccess` bloquea `src/`, `tools/`, `config/`, `storage/` (salvo fotos), dotfiles y logs.
-- Toda salida en vistas se escapa con `ViewHelper::e()`.
-- Configuración sensible solo en `.env` (nunca versionado).
+## Rutas Web Principales
 
-## Deuda técnica conocida (buenas tareas para voluntarios)
-- Archivos grandes por dividir: `SilIngestService.php`, `DataService.php`, `EducationService.php`, `views/politico.php`.
-- Autoloader PSR-4 duplicado en varios archivos → centralizar en `src/bootstrap.php`.
-- Falta `ScraperInterface` común para nuevas fuentes.
-- Sin tests automatizados ni CI.
-- `index.old.php` y `app.php` son legacy; `views/layout/header.php` referencia `assets/og-cover.png` inexistente.
+| Ruta | Motor | Descripción |
+|---|---|---|
+| `/` | FastAPI + Jinja2 | Portada interactiva, métricas nacionales, mapa cívico y buscador global (`Ctrl+K`) |
+| `/politicos`, `/politicos/{slug}` | FastAPI + Jinja2 | Directorio nacional y expediente individual con historial de legislaturas y partidos |
+| `/legislaturas`, `/legislaturas/{num}` | FastAPI + Jinja2 | Explorador histórico parlamentario (LXI a LXVI) |
+| `/alcaldes`, `/municipios` | FastAPI + Jinja2 | Directorio de 2,474 presidentas y presidentes municipales en funciones |
+| `/municipios/{cvegeo}` | FastAPI + Jinja2 | Expediente municipal con 54 años de elecciones (1970–2024) y cabildo |
+| `/estados/{slug}` | FastAPI + Jinja2 | Ficha estatal (gobernador, congreso local y legisladores federales) |
+| `/comisiones`, `/comisiones/{slug}` | FastAPI + Jinja2 | Comisiones legislativas y composición de integrantes |
+| `/estudios`, `/estudios/{categoria}` | FastAPI + Jinja2 | Análisis de paridad de género, pluralidad y escolaridad parlamentaria |
+| `/api/buscar`, `/api/politicos` | FastAPI (JSON) | API de autocompletado y búsqueda parametrizada |
+| `/sitemap.xml`, `/llms.txt` | FastAPI | Indexación SEO y contexto para agentes de Inteligencia Artificial |
+
+---
+
+## Seguridad Zero-Trust y Resiliencia
+- **Rate Limiting por IP**: Middleware nativo en `app/core/security.py` para protección contra abusos y scraping no autorizado.
+- **Cero Secretos en Repositorio**: Variables de entorno sensibles (`TELEGRAM_BOT_TOKEN`, claves privadas) aisladas en `.env` (ignorado en `.gitignore`).
+- **Aislamiento de Binarios Pesados**: Las más de 4,000 fotos de legisladores se excluyen del repositorio y se distribuyen vía almacenamiento externo, preservando un repositorio liviano.
+- **Protección de Rutas**: `.htaccess` bloquea el acceso HTTP directo a archivos de configuración, logs y datasets crudos.

@@ -16,11 +16,12 @@ Cruzamos **datos oficiales del gobierno** con **noticias** para mostrar el histo
 2. **Neutralidad Absoluta y Verificabilidad:**
    - **Regla de oro:** Todo dato mostrado debe tener un enlace directo a una fuente oficial (`.gob.mx`) o nota periodística verificada con hash criptográfico SHA-256.
    - Cero opiniones, cero adjetivos, cero propaganda partidista.
-3. **Arquitectura Low-Cost y de Fácil Acceso:**
-   - **Cero frameworks pesados** (sin Laravel, sin Symfony).
-   - **Cero bases de datos complejas** (sin MySQL/PostgreSQL): los datos viven en archivos JSON en `storage/data/json/` versionados directamente con Git.
-   - **Cero herramientas de compilación frontend** (Bootstrap 5 vía CDN y JavaScript Vanilla nativo).
-   - Cualquier persona puede correrlo en su computadora en 2 minutos.
+3. **Arquitectura de Alto Rendimiento y Low-Cost (FastAPI + JSON):**
+   - **Stack primario moderno:** Desarrollado en **Python 3.10+ con FastAPI, Uvicorn, Jinja2 y orjson** para máxima velocidad de respuesta (< 15ms), concurrencia asíncrona y pre-indexación en memoria de los más de 3,200 datasets cívicos.
+   - **Cero bases de datos pesadas** (sin MySQL/PostgreSQL): los datos viven en archivos JSON en `storage/data/json/` versionados directamente con Git.
+   - **Frontend ágil:** Bootstrap 5.3 vía CDN y JavaScript Vanilla nativo (sin frameworks SPA ni compiladores pesados).
+   - **Capa CLI y Contingencia:** Mantiene herramientas CLI e ingesta histórica en PHP 8.1+ (`tools/gateway.php`, `tools/run.ps1`) para máxima portabilidad.
+   - Cualquier persona puede correrlo en su computadora en menos de 2 minutos.
 
 ---
 
@@ -45,7 +46,7 @@ Cruzamos **datos oficiales del gobierno** con **noticias** para mostrar el histo
 3. **Optimización de UI y Visualización Cívica:**
    - Mejorar componentes móviles, gráficos de líneas de tiempo de trayectorias políticas y exportación de datos abiertos en CSV.
 4. **Refactorización y Rendimiento:**
-   - Continuar la modularización de servicios grandes (`DataService.php`, `SilIngestService.php`) para mantener archivos < 400 líneas.
+   - Continuar la modularización de servicios grandes para mantener archivos < 400 líneas.
 
 ---
 
@@ -53,8 +54,9 @@ Cruzamos **datos oficiales del gobierno** con **noticias** para mostrar el histo
 
 | Tu Perfil | Tareas Recomendadas | Guías de Referencia |
 |---|---|---|
-| **Programador PHP / Python** | Crear scrapers para congresos estatales faltantes, estandarizar servicios o añadir tests. | [docs/COMO_CREAR_UN_SCRAPER.md](docs/COMO_CREAR_UN_SCRAPER.md) y [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md) |
-| **Frontend / Diseñador** | Mejorar la experiencia móvil (*mobile-first*), diseño de tarjetas de legisladores, accesibilidad y visualizaciones interactivas. | [views/](views/) y [docs/backlog/ISSUE_02_FRONTEND_CONMUTADOR_LEGISLATURAS.md](docs/backlog/ISSUE_02_FRONTEND_CONMUTADOR_LEGISLATURAS.md) |
+| **Programador Python (FastAPI)** | Optimizar routers, endpoints de búsqueda, analítica en Jinja2 o scrapers asíncronos. | [app/](app/), [requirements.txt](requirements.txt) y [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md) |
+| **Programador PHP** | Mantener herramientas de consola, gateway, scrapers históricos o scripts de auditoría. | [tools/](tools/) y [docs/COMO_CREAR_UN_SCRAPER.md](docs/COMO_CREAR_UN_SCRAPER.md) |
+| **Frontend / Diseñador** | Mejorar la experiencia móvil (*mobile-first*), diseño de tarjetas de legisladores, accesibilidad y componentes interactivos. | [app/templates/](app/templates/) y [docs/MANIFIESTO.md](docs/MANIFIESTO.md) |
 | **Investigador / Periodista** | Localizar portales oficiales de congresos locales, verificar datos contra gacetas oficiales y documentar fuentes. | [docs/FUENTES.md](docs/FUENTES.md) y [CONTRIBUTING.md](CONTRIBUTING.md) |
 | **Principiante / Estudiante** | Resolver tareas `good first issue`, documentar, reportar inconsistencias o agregar datos asistido por IA. | [AGENTS.md](AGENTS.md) y [docs/DICCIONARIO_DE_DATOS.md](docs/DICCIONARIO_DE_DATOS.md) |
 
@@ -62,29 +64,34 @@ Cruzamos **datos oficiales del gobierno** con **noticias** para mostrar el histo
 
 ## ⚡ Instalación y Puesta en Marcha Local
 
-### 1. Requisitos previos
-- **PHP 8.1 o superior** con extensiones `curl`, `mbstring` y `json`.
+### 1. Opción Principal: Python (FastAPI + Jinja2) — *Recomendada*
+Es el motor activo de la plataforma por su velocidad, concurrencia y manejo en memoria de datasets.
+
+#### Requisitos:
+- **Python 3.10 o superior**.
 - **Git**.
 
-#### En Linux (Ubuntu / Debian / Mint / WSL):
-```bash
-# Instalar PHP y las extensiones necesarias
-sudo apt update
-sudo apt install -y php-cli php-curl php-mbstring php-xml
-```
-
-#### En Windows:
-- Puedes usar **XAMPP** (colocando la carpeta dentro de `C:\xampp\htdocs\pulso-civico`) o instalar PHP standalone.
-
----
-
-### 2. Configuración y ejecución en 3 pasos:
-
+#### Puesta en marcha en 3 pasos:
 ```bash
 # 1. Copiar archivo de entorno
 cp .env.example .env
 
-# 2. Iniciar el servidor local de PHP
+# 2. Instalar dependencias
+pip install -r requirements.txt
+# (Opcional con uv: uv venv; uv pip install -r requirements.txt)
+
+# 3. Iniciar el servidor FastAPI con recarga en vivo
+uvicorn app.main:app --reload --port 8000
+```
+Abre tu navegador en: [http://localhost:8000](http://localhost:8000)
+
+---
+
+### 2. Opción de Contingencia: PHP (Hosting compartido / Legacy)
+Para entornos de hosting compartido donde no se pueda ejecutar Python:
+- **PHP 8.1 o superior** con extensiones `curl`, `mbstring` y `json`.
+
+```bash
 php -S localhost:8000
 ```
 
