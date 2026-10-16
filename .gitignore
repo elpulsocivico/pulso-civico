@@ -9,10 +9,22 @@
 storage/raw/cookie.txt
 *.cookie
 
-# --- Datos crudos (se regeneran con los scrapers) ---
+# --- Datos crudos y Fotos (distribuidas externamente vía Drive/Mediafire) ---
 storage/raw/html/
 storage/raw/*.txt
 storage/raw/*.html
+storage/raw/*.zip
+storage/raw/*.json
+storage/raw/photos/*
+!storage/raw/photos/.gitkeep
+
+# --- Reportes locales y OSINT generados ---
+storage/*.html
+storage/*.pdf
+storage/reporte_*
+
+# --- Herramientas privadas y bots locales ---
+tools/private/
 
 # --- Logs ---
 storage/logs/*
