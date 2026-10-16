@@ -1,0 +1,230 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="breadcrumb-ios">
+    <ol class="breadcrumb mb-3">
+        <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="/comisiones">Comisiones</a></li>
+        <li class="breadcrumb-item active text-truncate" style="max-width: 300px;" aria-current="page">{{ comision.nombre }}</li>
+    </ol>
+</nav>
+
+{% set polLegParam = ('?leg=' ~ legislatura) if legislatura and legislatura != 66 else '' %}
+
+<!-- Header de Comisión con Balance Político -->
+{% if legislatura != 66 and legislatura != 0 %}
+<div class="alert alert-warning border border-warning-subtle rounded-4 p-3 mb-4 d-flex align-items-center justify-content-between flex-wrap gap-2 shadow-xs">
+    <div class="d-flex align-items-center gap-2">
+        <i class="bi bi-clock-history fs-5 text-warning-emphasis"></i>
+        <div>
+            <span class="fw-bold text-dark">Archivo Histórico:</span>
+            <span class="text-secondary small">Estás consultando la composición de la comisión correspondiente a la <strong>{{ meta_legislatura.romano }} Legislatura ({{ meta_legislatura.periodo }})</strong>.</span>
+        </div>
+    </div>
+    <a href="/comisiones/{{ comision.slug }}" class="btn btn-sm btn-outline-dark rounded-pill px-3">Ver periodo actual &rarr;</a>
+</div>
+{% endif %}
+
+<div class="card-civic p-4 p-md-5 mb-4">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+        <div class="d-flex align-items-center gap-2 flex-wrap">
+            <span class="badge bg-primary rounded-pill">Comisión Ordinaria</span>
+            <span class="badge bg-light text-secondary border">{{ meta_legislatura.romano }} Legislatura</span>
+        </div>
+        {% if comision.legislaturas_disponibles and comision.legislaturas_disponibles|length > 1 %}
+        <div class="d-flex align-items-center gap-1 flex-wrap">
+            <span class="text-secondary small me-1">Cambiar periodo:</span>
+            {% for lDis in comision.legislaturas_disponibles %}
+                {% set lInfo = catalogo_legislaturas.get(lDis, {}) %}
+                {% set lRom = lInfo.get('romano', lDis|string) %}
+                {% set esActiva = (lDis == legislatura) %}
+                {% set lUrl = '/comisiones/' ~ comision.slug ~ ('?leg=' ~ lDis if lDis != 66 else '') %}
+                <a href="{{ lUrl }}" class="btn btn-sm rounded-pill px-3 py-1 fw-semibold {{ 'btn-primary text-white shadow-xs' if esActiva else 'btn-light border text-secondary' }}" style="font-size: 0.75rem;">
+                    {{ lRom }}
+                </a>
+            {% endfor %}
+            <a href="/comisiones/{{ comision.slug }}?leg=0" class="btn btn-sm rounded-pill px-2 py-1 fw-semibold {{ 'btn-dark text-white' if legislatura == 0 else 'btn-light border text-secondary' }}" style="font-size: 0.72rem;" title="Ver todos los integrantes históricos de todos los periodos">
+                Histórico
+            </a>
+        </div>
+        {% endif %}
+    </div>
+    <h1 class="h3 fw-bold text-dark mb-2">{{ comision.nombre }}</h1>
+    <p class="text-secondary small mb-0">
+        Órgano legislativo colegiado encargado de dictaminar iniciativas, puntos de acuerdo e informes en la materia.
+    </p>
+
+    <!-- Balance y Mayoría Parlamentaria -->
+    {% if comision.total_integrantes > 0 %}
+    <div class="mt-4 pt-3 border-top">
+        <div class="d-flex align-items-center justify-content-between mb-2 flex-wrap gap-2">
+            <span class="text-secondary small fw-bold text-uppercase" style="letter-spacing: 0.5px; font-size: 0.74rem;">
+                <i class="bi bi-pie-chart-fill text-primary me-1"></i>Fuerza y Balance Político
+            </span>
+            <span class="badge bg-light text-dark border px-3 py-1">
+                {{ comision.total_integrantes }} Integrantes Registrados
+            </span>
+        </div>
+
+        <!-- Barra de progreso segmentada de partidos -->
+        <div class="progress rounded-pill mb-3" style="height: 12px; background-color: #E5E5EA; overflow: hidden;">
+            {% for p in comision.partidos_stats %}
+                <div class="progress-bar" role="progressbar" 
+                     style="width: {{ p.porcentaje }}%; background-color: {{ p.color }};" 
+                     title="{{ p.partido }}: {{ p.cantidad }} integrantes ({{ p.porcentaje }}%)" 
+                     aria-valuenow="{{ p.porcentaje }}" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Leyenda de partidos con porcentajes -->
+        <div class="d-flex flex-wrap gap-2 align-items-center">
+            {% for p in comision.partidos_stats %}
+                <div class="d-inline-flex align-items-center gap-2 px-2 py-1 bg-light rounded-pill border small" style="font-size: 0.75rem;">
+                    <span class="rounded-circle d-inline-block flex-shrink-0" style="width: 9px; height: 9px; background-color: {{ p.color }};"></span>
+                    <span class="fw-semibold text-dark">{{ p.partido }}</span>
+                    <span class="text-muted">{{ p.cantidad }} <span style="font-size: 0.68rem;">({{ p.porcentaje|round|int }}%)</span></span>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Presidencia de la Comisión -->
+{% if comision.presidencia %}
+<div class="mb-4">
+    <h2 class="h5 fw-bold mb-3 d-flex align-items-center gap-2 text-dark">
+        <i class="bi bi-award-fill text-warning"></i>
+        Presidencia de la Comisión
+    </h2>
+    <div class="row g-3">
+        {% for pres in comision.presidencia %}
+        <div class="col-12 col-md-8 col-lg-6">
+            <a href="/politicos/{{ pres.slug }}{{ polLegParam }}" class="text-decoration-none text-dark d-block">
+                <div class="card-civic p-3 p-md-4 border border-warning border-opacity-50 shadow-sm" style="background: linear-gradient(135deg, #ffffff 0%, #fffdf5 100%);">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="position-relative flex-shrink-0">
+                            <img src="{{ pres.foto_url }}" alt="{{ pres.nombre_completo }}" class="rounded-circle border border-2 border-warning shadow-sm" style="width: 64px; height: 64px; object-fit: cover;" onerror="this.src='https://ui-avatars.com/api/?name={{ pres.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E'">
+                            <span class="position-absolute bottom-0 end-0 badge bg-warning text-dark rounded-circle p-1 border shadow-sm" title="Presidencia" style="transform: translate(20%, 20%); font-size: 0.65rem;">
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                        </div>
+                        <div class="min-w-0 flex-grow-1">
+                            <div class="d-flex align-items-center gap-2 mb-1 flex-wrap">
+                                <span class="badge bg-warning text-dark fw-bold rounded-pill px-2 py-1" style="font-size: 0.72rem;">
+                                    <i class="bi bi-award-fill me-1"></i>{{ pres.puesto }}
+                                </span>
+                                {{ party_badge_func(pres.partido)|safe }}
+                            </div>
+                            <h3 class="h6 fw-bold text-dark mb-1 text-truncate" title="{{ pres.nombre_completo }}">
+                                {{ pres.nombre_completo }}
+                            </h3>
+                            <div class="text-muted d-flex align-items-center gap-1 text-truncate" style="font-size: 0.75rem;" title="{{ pres.camara }}{% if pres.entidad %} • {{ pres.entidad }}{% endif %}">
+                                <span class="flex-shrink-0">{{ pres.camara }}</span>
+                                {% if pres.entidad %}
+                                    <span class="text-muted flex-shrink-0">&bull;</span>
+                                    <span class="text-secondary text-truncate">
+                                        <i class="bi bi-geo-alt-fill text-danger" style="font-size: 0.68rem;"></i> {{ pres.entidad }}
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- Secretarías de la Mesa Directiva -->
+{% if comision.secretarias %}
+<div class="mb-4">
+    <h2 class="h5 fw-bold mb-3 d-flex align-items-center gap-2 text-dark">
+        <i class="bi bi-star-fill text-primary"></i>
+        Secretarías de la Mesa Directiva ({{ comision.secretarias|length }})
+    </h2>
+    <div class="row g-3">
+        {% for int in comision.secretarias %}
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+            <a href="/politicos/{{ int.slug }}{{ polLegParam }}" class="text-decoration-none text-dark d-block h-100">
+                <div class="card-civic p-3 h-100 d-flex flex-column border-primary-subtle shadow-sm">
+                    <div class="d-flex align-items-center gap-3 mb-2">
+                        <img src="{{ int.foto_url }}" alt="{{ int.nombre_completo }}" class="rounded-circle border flex-shrink-0" style="width: 48px; height: 48px; object-fit: cover;" onerror="this.src='https://ui-avatars.com/api/?name={{ int.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E'">
+                        <div class="min-w-0 flex-grow-1">
+                            <div class="fw-semibold text-truncate small" title="{{ int.nombre_completo }}">
+                                {{ int.nombre_completo }}
+                            </div>
+                            <div class="text-muted d-flex align-items-center gap-1 text-truncate" style="font-size: 0.72rem;" title="{{ int.camara }}{% if int.entidad %} • {{ int.entidad }}{% endif %}">
+                                <span class="flex-shrink-0">{{ int.camara }}</span>
+                                {% if int.entidad %}
+                                    <span class="text-muted flex-shrink-0">&bull;</span>
+                                    <span class="text-secondary text-truncate">
+                                        <i class="bi bi-geo-alt-fill text-danger" style="font-size: 0.65rem;"></i> {{ int.entidad }}
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-auto pt-2 border-top">
+                        {{ party_badge_func(int.partido)|safe }}
+                        <span class="badge rounded-pill bg-primary text-white" style="font-size: 0.72rem;">
+                            {{ int.puesto }}
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- Resto de Integrantes -->
+{% if comision.resto_integrantes %}
+<div class="mb-4">
+    <h2 class="h5 fw-bold mb-3 d-flex align-items-center gap-2 text-dark">
+        <i class="bi bi-people-fill text-secondary"></i>
+        Integrantes Colegiados ({{ comision.resto_integrantes|length }})
+    </h2>
+    <div class="row g-3">
+        {% for int in comision.resto_integrantes %}
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+            <a href="/politicos/{{ int.slug }}{{ polLegParam }}" class="text-decoration-none text-dark d-block h-100">
+                <div class="card-civic p-3 h-100 d-flex flex-column">
+                    <div class="d-flex align-items-center gap-3 mb-2">
+                        <img src="{{ int.foto_url }}" alt="{{ int.nombre_completo }}" class="rounded-circle border flex-shrink-0" style="width: 48px; height: 48px; object-fit: cover;" onerror="this.src='https://ui-avatars.com/api/?name={{ int.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E'">
+                        <div class="min-w-0 flex-grow-1">
+                            <div class="fw-semibold text-truncate small" title="{{ int.nombre_completo }}">
+                                {{ int.nombre_completo }}
+                            </div>
+                            <div class="text-muted d-flex align-items-center gap-1 text-truncate" style="font-size: 0.72rem;" title="{{ int.camara }}{% if int.entidad %} • {{ int.entidad }}{% endif %}">
+                                <span class="flex-shrink-0">{{ int.camara }}</span>
+                                {% if int.entidad %}
+                                    <span class="text-muted flex-shrink-0">&bull;</span>
+                                    <span class="text-secondary text-truncate">
+                                        <i class="bi bi-geo-alt-fill text-danger" style="font-size: 0.65rem;"></i> {{ int.entidad }}
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-auto pt-2 border-top">
+                        {{ party_badge_func(int.partido)|safe }}
+                        <span class="badge rounded-pill bg-light text-secondary border" style="font-size: 0.72rem;">
+                            {{ int.puesto }}
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endblock %}

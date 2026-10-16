@@ -1,76 +1,1088 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-<div class="row align-items-center mb-5">
-    <div class="col-lg-8">
-        <h1 class="display-6 fw-bold mb-2">Radiografía del Poder Legislativo</h1>
-        <p class="text-secondary lead fs-6">Transparencia ciudadana, asistencia, iniciativas y perfiles oficiales sin censura.</p>
+<!-- Hero Section Renovado: Comunidad Cívica + Alcance Multinivel + Datos Oficiales -->
+<div class="text-center py-4 py-md-5 mb-4">
+    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-primary-subtle text-primary small fw-semibold mb-3 shadow-2xs">
+        <i class="bi bi-people-fill"></i> Iniciativa cívica mantenida por la comunidad &bull; Datos 100% oficiales y verificables
     </div>
-    <div class="col-lg-4 text-lg-end">
-        <div class="d-inline-flex gap-2">
-            <div class="ios-card px-3 py-2 text-center">
-                <div class="fs-4 fw-bold text-primary">{{ total_diputados }}</div>
-                <div class="text-muted small" style="font-size: 0.75rem;">Diputados</div>
-            </div>
-            <div class="ios-card px-3 py-2 text-center">
-                <div class="fs-4 fw-bold text-success">{{ total_senadores }}</div>
-                <div class="text-muted small" style="font-size: 0.75rem;">Senadores</div>
-            </div>
+    <h1 class="display-5 fw-bold text-dark mb-2">
+        {{ app_name }}
+    </h1>
+    <p class="fs-4 text-dark fw-semibold mb-2" style="letter-spacing: -0.02em;">
+        Radiografía ciudadana de Gobernadores, Alcaldes, Diputados y Senadores
+    </p>
+    <p class="lead text-secondary mx-auto mb-4" style="max-width: 760px; font-size: 1.05rem;">
+        Plataforma independiente de datos abiertos mantenida por la comunidad cívica. Monitorea y audita la trayectoria, bancadas y escolaridad de más de <strong>{{ total_politicos_master if total_politicos_master else 4386 }} servidores públicos</strong> en los 32 estados. Toda la información es extraída de fuentes oficiales primarias y comprobable registro por registro.
+    </p>
+
+    <!-- Barra de Búsqueda Spotlight Front & Center -->
+    <div class="mx-auto" style="max-width: 620px;">
+        <div class="card-civic p-2 d-flex align-items-center gap-2 shadow-sm border" style="cursor: pointer;" onclick="document.getElementById('btnOpenSpotlight').click();">
+            <i class="bi bi-search text-primary fs-5 ms-2"></i>
+            <span class="text-secondary small flex-grow-1 text-start">
+                Buscar por político, municipio, alcaldía, estado o partido...
+            </span>
+            <kbd class="bg-light border text-muted px-2 py-1 small me-2">Ctrl+K</kbd>
+        </div>
+
+        <!-- Tira de Fuentes Verificables (Trust Strip) -->
+        <div class="d-flex align-items-center justify-content-center gap-2 gap-md-3 flex-wrap text-muted small mt-2" style="font-size: 0.76rem;">
+            <span class="d-inline-flex align-items-center gap-1"><i class="bi bi-patch-check-fill text-success"></i> <strong>SIL / SEGOB</strong></span>
+            <span class="text-muted opacity-50">&bull;</span>
+            <span class="d-inline-flex align-items-center gap-1"><i class="bi bi-bank text-primary"></i> <strong>Congreso de la Unión</strong></span>
+            <span class="text-muted opacity-50">&bull;</span>
+            <span class="d-inline-flex align-items-center gap-1"><i class="bi bi-building text-info"></i> <strong>INE</strong></span>
+            <span class="text-muted opacity-50">&bull;</span>
+            <a href="/metodologia" class="text-primary text-decoration-none small d-inline-flex align-items-center gap-1" style="font-size: 0.76rem;">
+                <i class="bi bi-shield-check"></i> Metodología y Fuentes ↗
+            </a>
+        </div>
+
+        <!-- Accesos Rápidos Populares y Multinivel -->
+        <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap mt-3" style="font-size: 0.8rem;">
+            <span class="text-muted small">Explorar directo:</span>
+            <a href="/politicos" class="badge bg-primary text-white text-decoration-none py-1 px-2 shadow-xs">
+                <i class="bi bi-people-fill me-1"></i>Directorio (+{{ total_politicos_master if total_politicos_master else 4386 }})
+            </a>
+            <a href="/politicos?cargo=gobernador" class="badge bg-white text-secondary border text-decoration-none py-1 px-2">
+                <i class="bi bi-shield-shaded text-danger me-1"></i>Gobernadores
+            </a>
+            <a href="/politicos?cargo=alcalde" class="badge bg-white text-secondary border text-decoration-none py-1 px-2">
+                <i class="bi bi-houses text-warning-emphasis me-1"></i>Alcaldes y Cabildos
+            </a>
+            <a href="/politicos?cargo=diputado_federal" class="badge bg-white text-secondary border text-decoration-none py-1 px-2">
+                <i class="bi bi-bank text-primary me-1"></i>Congreso Federal
+            </a>
+            <a href="/estudios" class="badge bg-white text-secondary border text-decoration-none py-1 px-2">
+                <i class="bi bi-mortarboard text-secondary me-1"></i>Escolaridad
+            </a>
         </div>
     </div>
 </div>
 
-<!-- Banner Módulo Electoral -->
-<div class="ios-card p-4 mb-5 border-start border-primary border-4">
-    <div class="row align-items-center">
-        <div class="col-md-8">
-            <h5 class="fw-bold mb-1"><i class="bi bi-shield-lock-fill text-primary me-2"></i>Auditoría y Recuento Ciudadano de Actas</h5>
-            <p class="text-secondary small mb-0">Protege tu voto: sube de forma anónima fotografías de las sábanas electorales de tu casilla para verificación pública inmutable.</p>
-        </div>
-        <div class="col-md-4 text-md-end mt-3 mt-md-0">
-            <a href="/electoral" class="btn btn-primary rounded-pill px-4">Subir Acta de Casilla</a>
-        </div>
-    </div>
-</div>
-
-<!-- Filtros por Estado -->
-<h4 class="fw-bold mb-3">Explorar por Entidad Federativa</h4>
-<div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 mb-5">
-    {% for slug, est in estados.items() %}
-    <div class="col">
-        <a href="/estados/{{ slug }}" class="text-decoration-none text-dark">
-            <div class="ios-card p-2 text-center h-100 d-flex flex-column justify-content-center">
-                <span class="badge bg-light text-secondary mb-1" style="font-size: 0.65rem;">{{ est.abbr }}</span>
-                <span class="small fw-semibold text-truncate">{{ est.nombre }}</span>
+<!-- Métricas Rápidas del Observatorio (+4,380 / 32 / 790+ / 628) -->
+<div class="row g-3 mb-5 text-center">
+    <div class="col-6 col-md-3">
+        <a href="/politicos" class="text-decoration-none text-dark">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-dark mb-0">+{{ total_politicos_master if total_politicos_master else 4386 }}</div>
+                <div class="text-muted small">Servidores Auditados</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span>Historial y en funciones</span>
+                    <i class="bi bi-arrow-right-short text-primary"></i>
+                </div>
             </div>
         </a>
     </div>
-    {% endfor %}
-</div>
-
-<!-- Destacados / Lista Rápida -->
-<h4 class="fw-bold mb-3">Legisladores Recientes</h4>
-<div class="row row-cols-1 row-cols-md-3 g-3">
-    {% for pol in politicos_muestra %}
-    <div class="col">
-        <div class="ios-card p-3 h-100 d-flex flex-column">
-            <div class="d-flex align-items-center gap-3 mb-3">
-                {% if pol.foto_local_path %}
-                <img src="/photos/{{ pol.foto_local_path.split('/')[-1] }}" alt="{{ pol.nombre_completo }}" class="rounded-circle object-fit-cover border" style="width: 54px; height: 54px;" onerror="this.src='https://ui-avatars.com/api/?name={{ pol.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E'">
-                {% else %}
-                <img src="https://ui-avatars.com/api/?name={{ pol.nombre_completo|urlencode }}&background=E5E5EA&color=1C1C1E" class="rounded-circle border" style="width: 54px; height: 54px;">
-                {% endif %}
-                <div class="overflow-hidden">
-                    <span class="badge bg-secondary-subtle text-secondary rounded-pill mb-1" style="font-size: 0.65rem;">{{ pol.camara }} &bull; {{ pol.partido }}</span>
-                    <h6 class="fw-bold mb-0 text-truncate" title="{{ pol.nombre_completo }}">{{ pol.nombre_completo }}</h6>
-                    <small class="text-muted text-truncate d-block">{{ pol.entidad if pol.entidad else "Nacional" }}</small>
+    <div class="col-6 col-md-3">
+        <a href="#seccion-mapa" class="text-decoration-none text-dark">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-dark mb-0">32</div>
+                <div class="text-muted small">Estados y Gobiernos</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span>Gobernadores y Congresos &darr;</span>
                 </div>
             </div>
-            <div class="mt-auto pt-2 border-top">
-                <a href="/politicos/{{ pol.slug }}" class="btn btn-sm btn-outline-dark w-100 rounded-pill">Ver Perfil Completo</a>
+        </a>
+    </div>
+    <div class="col-6 col-md-3">
+        <a href="/politicos?cargo=alcalde" class="text-decoration-none text-dark">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-dark mb-0">790+</div>
+                <div class="text-muted small">Alcaldías y Cabildos</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span>Presidencias y ediles</span>
+                    <i class="bi bi-arrow-right-short text-primary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-md-3">
+        <a href="/legislaturas/{{ legislatura if legislatura else 66 }}" class="text-decoration-none text-dark">
+            <div class="card-civic p-3 h-100">
+                <div class="h3 fw-bold text-dark mb-0">628</div>
+                <div class="text-muted small">Congreso de la Unión</div>
+                <div class="text-secondary mt-1 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;">
+                    <span>500 Diputados &bull; 128 Senadores</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Mapa Político de México (32 Estados Interactivos SVG) -->
+<!-- Mapa Político de México Multinivel (32 Estados Interactivos SVG) -->
+<div class="mapa-mexico-container card-civic p-3 p-md-4 mb-5 position-relative" id="seccion-mapa">
+    <!-- Barra de Píldoras Táctiles Mobile-First -->
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3 pb-2 border-bottom">
+        <div class="mapa-capas-nav d-flex align-items-center gap-2 overflow-x-auto py-1 w-100 w-md-auto" style="scrollbar-width: none; -webkit-overflow-scrolling: touch;">
+            <button type="button" class="btn btn-sm rounded-pill px-3 py-2 fw-semibold d-inline-flex align-items-center gap-2 text-nowrap capa-pill btn-primary shadow-xs" data-capa="gobernadores">
+                <i class="bi bi-person-badge-fill"></i>
+                <span>Gobernadores</span>
+            </button>
+            <button type="button" class="btn btn-sm rounded-pill px-3 py-2 fw-semibold d-inline-flex align-items-center gap-2 text-nowrap capa-pill btn-light text-dark border" data-capa="alcaldias">
+                <i class="bi bi-building"></i>
+                <span>Alcaldías</span>
+            </button>
+            <button type="button" class="btn btn-sm rounded-pill px-3 py-2 fw-semibold d-inline-flex align-items-center gap-2 text-nowrap capa-pill btn-light text-dark border" data-capa="congresos_locales">
+                <i class="bi bi-journal-bookmark-fill"></i>
+                <span>Congresos Locales</span>
+            </button>
+            <button type="button" class="btn btn-sm rounded-pill px-3 py-2 fw-semibold d-inline-flex align-items-center gap-2 text-nowrap capa-pill btn-light text-dark border" data-capa="federal">
+                <i class="bi bi-bank"></i>
+                <span>Congreso Federal</span>
+            </button>
+        </div>
+
+        <div class="d-none d-md-flex align-items-center gap-2 small">
+            <span class="badge bg-light text-secondary border px-2 py-1" id="badgeCapaActiva">
+                Poder Ejecutivo Estatal (32)
+            </span>
+            <span class="badge bg-success-subtle text-success border border-success-subtle px-2 py-1 d-inline-flex align-items-center gap-1">
+                <i class="bi bi-patch-check-fill"></i> 100% Verificado
+            </span>
+        </div>
+    </div>
+
+    <!-- Encabezado del Mapa Dinámico -->
+    <div class="mb-3 text-start">
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
+            <div>
+                <h2 class="h5 fw-bold mb-1 d-flex align-items-center gap-2" id="mapaTitulo">
+                    <i class="bi bi-geo-alt-fill text-danger"></i>
+                    <span>Gobernadores y Jefatura de Gobierno</span>
+                </h2>
+                <p class="text-secondary small mb-0" id="mapaDescripcion">
+                    Titulares del Poder Ejecutivo Estatal electos democráticamente en las 32 entidades federativas de México.
+                </p>
+            </div>
+            <div class="d-none d-md-flex align-items-center gap-2 small">
+                <span class="badge bg-light text-secondary border px-2 py-1" id="badgeCapaActiva">
+                    Poder Ejecutivo Estatal (32)
+                </span>
+                <span class="badge bg-success-subtle text-success border border-success-subtle px-2 py-1 d-inline-flex align-items-center gap-1">
+                    <i class="bi bi-patch-check-fill"></i> 100% Verificado
+                </span>
+            </div>
+        </div>
+
+        <!-- Barra de Distribución Partidista (Chips Interactivos) -->
+        <div class="party-distribution-bar p-2 px-3 rounded-3 border d-flex align-items-center justify-content-between flex-wrap gap-2" id="fuerzaMayoritariaWrapper">
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <span class="text-secondary fw-semibold small d-flex align-items-center gap-1 me-1" style="font-size: 0.78rem;" id="labelFuerzaMayoritaria">
+                    <i class="bi bi-pie-chart-fill text-primary"></i>
+                    <span>Fuerza gobernante:</span>
+                </span>
+                <div class="d-flex align-items-center gap-2 flex-wrap" id="fuerzaMayoritariaContainer">
+                    {% if capas_mapa and capas_mapa.gobernadores %}
+                        {% for pName, stCount in capas_mapa.gobernadores.fuerza_nacional %}
+                        {% set shortName = "MC" if "Ciudadano" in pName else ("PVEM" if "Verde" in pName else ("PT" if "Trabajo" in pName else pName)) %}
+                        <button type="button" class="party-kpi-chip" data-party="{{ pName }}" title="Filtrar por {{ pName }} en el mapa">
+                            <span class="party-kpi-dot" style="background-color: {{ party_color_func(pName) }};"></span>
+                            <span class="party-kpi-name">{{ shortName }}</span>
+                            <span class="party-kpi-count">{{ stCount }}</span>
+                        </button>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill py-0 px-2 d-none align-items-center gap-1 shadow-none" id="btnLimpiarFiltroPartidos" style="font-size: 0.72rem;" title="Restaurar todas las entidades">
+                    <i class="bi bi-arrow-counterclockwise"></i>
+                    <span>Limpiar filtro</span>
+                </button>
+                <div class="small text-muted d-none d-lg-flex align-items-center gap-1" id="hintFiltroPartidos" style="font-size: 0.73rem;">
+                    <i class="bi bi-hand-index-thumb text-primary"></i>
+                    <span>Haz clic en un partido para aislar sus entidades</span>
+                </div>
             </div>
         </div>
     </div>
-    {% endfor %}
+
+    <!-- Layout Split-View: Mapa SVG (Izq) + Overview Card Adaptativa (Der) -->
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-8">
+            <div class="map-svg-wrapper position-relative mx-auto">
+                <svg viewBox="0 0 960 600" class="w-100 h-auto" id="mexicoSvgMap" style="filter: drop-shadow(0 4px 12px rgba(0,0,0,0.06));">
+                    {% set gov_init = capas_mapa.gobernadores.estados if capas_mapa and capas_mapa.gobernadores else {} %}
+                    {% for st in mexico_paths %}
+                        {% set slug = st.slug %}
+                        {% set est = gov_init.get(slug) %}
+                        {% set party = est.partido_mayoria if est else "Morena" %}
+                        {% set color = est.color_mayoria if est else party_color_func(party) %}
+                        <path d="{{ st.d }}"
+                              id="state-{{ slug }}"
+                              class="state-path state-active {% if slug == 'baja-california' %}state-selected{% endif %}"
+                              data-slug="{{ slug }}"
+                              data-name="{{ st.name }}"
+                              data-abbr="{{ est.abbr if est else 'MEX' }}"
+                              data-party="{{ party }}"
+                              data-reps="{{ est.total_representantes if est else 1 }}"
+                              data-url="{{ est.boton_url if est else '/estados/' ~ slug }}"
+                              data-conteo='{{ est.conteo_partidos|tojson if est else "{}" }}'
+                              data-titular="{{ est.titular if est and est.titular else '' }}"
+                              data-cargo="{{ est.cargo if est and est.cargo else '' }}"
+                              data-periodo="{{ est.periodo if est and est.periodo else '' }}"
+                              data-label="{{ est.mayoria_label if est and est.mayoria_label else '' }}"
+                              data-subtitle="{{ est.subtitulo_card if est and est.subtitulo_card else '' }}"
+                              data-btntext="{{ est.boton_text if est and est.boton_text else '' }}"
+                              fill="{{ color }}"
+                              stroke="#FFFFFF"
+                              stroke-width="1.2"
+                              stroke-linejoin="round">
+                        </path>
+                    {% endfor %}
+                </svg>
+                <div id="mapTooltip" class="map-tooltip shadow-sm"></div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card-civic p-4 border bg-white shadow-xs text-start" id="estadoOverviewCard" style="border-radius: 18px;">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <span class="badge bg-light text-secondary border small" id="cardCapaBadge">Poder Ejecutivo Estatal</span>
+                    <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill py-0 px-2 d-inline-flex align-items-center gap-1 shadow-none" id="btnLimpiarFiltro" style="font-size: 0.72rem;" title="Restaurar mapa y limpiar filtros">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                        <span>Limpiar filtro</span>
+                    </button>
+                </div>
+
+                <h3 class="h5 fw-bold text-dark mb-1" id="cardEstadoNombre">
+                    Baja California
+                </h3>
+                <div class="text-secondary small mb-3" id="cardEstadoSubtitulo">
+                    Poder Ejecutivo Estatal
+                </div>
+
+                <!-- Sección Principal de Fuerza Mayoritaria o Titular -->
+                <div class="p-3 bg-light rounded-3 mb-3 border">
+                    <div class="text-secondary small mb-1 fw-semibold" id="cardMayoriaTitulo" style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em;">
+                        Titular en Funciones:
+                    </div>
+                    <div id="cardEstadoMayoriaBadge">
+                        <div class="d-flex align-items-center mb-1">
+                            {{ party_badge_func("Morena")|safe }}
+                        </div>
+                        <div class="text-secondary small d-flex align-items-center gap-1" style="font-size: 0.74rem;">
+                            <i class="bi bi-calendar3 text-muted"></i>
+                            <span id="cardEstadoMayoriaCurules">Periodo 2021–2027</span>
+                        </div>
+                    </div>
+                    <div class="fw-bold text-dark mt-2" id="cardTitularNombre" style="font-size: 0.95rem;">
+                        Marina del Pilar Ávila Olmeda
+                    </div>
+                    <div class="text-muted small" id="cardTitularCargo" style="font-size: 0.75rem;">
+                        Gobernadora Constitucional
+                    </div>
+                </div>
+
+                <!-- Sección Desglose / Composición Partidista -->
+                <div class="mb-3" id="cardSeccionDesglose">
+                    <div class="d-flex justify-content-between align-items-center small text-secondary mb-1">
+                        <span class="fw-semibold text-dark" id="cardDesgloseTitulo" style="font-size: 0.75rem;">Filiación Institucional:</span>
+                    </div>
+
+                    <div class="progress mb-2" style="height: 8px; border-radius: 6px;" id="cardEstadoProgressBar">
+                        <div class="progress-bar" style="width: 100%; background-color: #8B1C3F;" title="Morena: 1"></div>
+                    </div>
+
+                    <div class="d-flex flex-column gap-2 small text-secondary" id="cardEstadoPartidosList">
+                        <div class="d-flex justify-content-between align-items-center py-1 border-bottom border-light">
+                            <span class="d-flex align-items-center gap-2">
+                                <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: #8B1C3F;"></span>
+                                <span class="text-dark fw-medium">Morena</span>
+                            </span>
+                            <span class="badge bg-light text-dark border font-monospace">
+                                <strong>Vigente</strong>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-2">
+                    <a href="/politicos?q=Marina+del+Pilar"
+                       class="btn btn-primary rounded-pill w-100 py-2 d-flex align-items-center justify-content-center gap-2 fw-semibold shadow-xs"
+                       id="btnExplorarEstado">
+                        <span id="btnExplorarText">Ver perfil en el directorio</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- JSON incrustado para reactividad instantánea sin latencia de red -->
+<script id="capasMapaJson" type="application/json">
+{{ capas_mapa|tojson|safe }}
+</script>
+<script id="resumenEstados360Json" type="application/json">
+{{ resumen_estados_360|tojson|safe }}
+</script>
+
+<!-- Comisiones Destacadas y Accesos Directos -->
+<div class="row g-4 mb-5">
+    <div class="col-lg-6">
+        <div class="card-civic p-4 h-100 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2">
+                    <i class="bi bi-briefcase-fill text-primary"></i>
+                    Comisiones Clave del Congreso
+                </h2>
+                <a href="/comisiones" class="badge bg-light text-primary border text-decoration-none small">Ver todas ({{ total_comisiones }})</a>
+            </div>
+            <p class="text-secondary small mb-3">
+                Órganos donde se debaten y aprueban las reformas constitucionales y el presupuesto federal.
+            </p>
+            <div class="list-group list-group-flush mb-3">
+                {% for slug, c in top_comisiones %}
+                <a href="/comisiones/{{ slug }}" class="list-group-item px-0 py-2 d-flex align-items-center justify-content-between text-decoration-none text-dark hover-bg">
+                    <div class="fw-medium small text-truncate pe-2">{{ c.nombre }}</div>
+                    <span class="badge bg-light text-secondary border small">{{ c.integrantes|length }} int.</span>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="mt-auto pt-2 text-end border-top">
+                <a href="/comisiones" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-medium">
+                    Explorar todas las comisiones &rarr;
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Radiografía Estatal 360° (Multinivel, Estudios y Transparencia) -->
+    <div class="col-lg-6">
+        <div class="card-civic p-4 h-100 d-flex flex-column" id="cardRadiografia360">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <div>
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle small font-monospace" id="rad360Abbr">{{ default_resumen.abbr }}</span>
+                        <span class="badge bg-light text-secondary border small">Radiografía Estatal 360°</span>
+                    </div>
+                    <h2 class="h5 fw-bold text-dark mb-0 d-flex align-items-center gap-2">
+                        <i class="bi bi-geo-alt-fill text-danger"></i>
+                        <span id="rad360Nombre">{{ default_resumen.nombre }}</span>
+                    </h2>
+                </div>
+                <span class="badge bg-success-subtle text-success border border-success-subtle small" id="rad360CargosBadge">
+                    {{ default_resumen.total_cargos }} Cargos Auditados
+                </span>
+            </div>
+            <p class="text-secondary small mb-3">
+                Consolidado multinivel de representación política, antecedentes y formación cívica en la entidad.
+            </p>
+
+            <!-- Matriz de Poder Multinivel (Tabla Rápida de 4 Niveles) -->
+            <div class="table-responsive rounded-3 border mb-3 bg-white">
+                <table class="table table-sm align-middle mb-0" style="font-size: 0.82rem;">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-3 py-2 fw-semibold text-secondary">Nivel de Poder</th>
+                            <th class="py-2 fw-semibold text-secondary text-center">Cargos</th>
+                            <th class="py-2 fw-semibold text-secondary text-end pe-3">Fuerza Mayoritaria</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 1. Gobernador -->
+                        <tr>
+                            <td class="ps-3 py-2">
+                                <span class="d-flex align-items-center gap-1">
+                                    <i class="bi bi-person-badge text-primary"></i>
+                                    <span>Gobernatura / Titular</span>
+                                </span>
+                            </td>
+                            <td class="text-center fw-bold py-2">1</td>
+                            <td class="text-end pe-3 py-2" id="rad360GovParty">
+                                <span class="badge rounded-pill px-2 py-1" style="background-color: {{ default_resumen.gobernador.color }}; color: #fff;">
+                                    {{ default_resumen.gobernador.partido }}
+                                </span>
+                            </td>
+                        </tr>
+                        <!-- 2. Alcaldías -->
+                        <tr>
+                            <td class="ps-3 py-2">
+                                <a href="{{ default_resumen.alcaldias_url }}" id="rad360AlcLink" class="text-decoration-none text-dark hover-text-primary d-flex align-items-center gap-1" title="Filtrar alcaldes de este estado en el Explorador">
+                                    <i class="bi bi-buildings text-secondary"></i>
+                                    <span>Alcaldías / Municipios</span>
+                                </a>
+                            </td>
+                            <td class="text-center fw-bold py-2" id="rad360AlcTotal">{{ default_resumen.alcaldias.total }}</td>
+                            <td class="text-end pe-3 py-2" id="rad360AlcParty">
+                                <span class="badge rounded-pill px-2 py-1" style="background-color: {{ default_resumen.alcaldias.color }}; color: #fff;">
+                                    {{ default_resumen.alcaldias.partido }}
+                                </span>
+                            </td>
+                        </tr>
+                        <!-- 3. Congreso Local -->
+                        <tr>
+                            <td class="ps-3 py-2">
+                                <span class="d-flex align-items-center gap-1">
+                                    <i class="bi bi-journal-bookmark-fill text-secondary"></i>
+                                    <span>Congreso Local (Diputados)</span>
+                                </span>
+                            </td>
+                            <td class="text-center fw-bold py-2" id="rad360LocTotal">{{ default_resumen.congreso_local.total }}</td>
+                            <td class="text-end pe-3 py-2" id="rad360LocParty">
+                                <span class="badge rounded-pill px-2 py-1" style="background-color: {{ default_resumen.congreso_local.color }}; color: #fff;">
+                                    {{ default_resumen.congreso_local.partido }}
+                                </span>
+                            </td>
+                        </tr>
+                        <!-- 4. Federal (Diputados y Senadores) -->
+                        <tr>
+                            <td class="ps-3 py-2">
+                                <a href="{{ default_resumen.federal_url }}" id="rad360FedLink" class="text-decoration-none text-dark hover-text-primary d-flex align-items-center gap-1" title="Ver legisladores federales en la ficha del estado">
+                                    <i class="bi bi-bank text-secondary"></i>
+                                    <span>Congreso Unión (Fed.)</span>
+                                </a>
+                            </td>
+                            <td class="text-center fw-bold py-2" id="rad360FedTotal">
+                                <span title="{{ default_resumen.federal.diputados }} Diputados + {{ default_resumen.federal.senadores }} Senadores">
+                                    {{ default_resumen.federal.total }}
+                                </span>
+                            </td>
+                            <td class="text-end pe-3 py-2" id="rad360FedParty">
+                                <span class="badge rounded-pill px-2 py-1" style="background-color: {{ default_resumen.federal.color }}; color: #fff;">
+                                    {{ default_resumen.federal.partido }}
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Indicadores Clave de Integridad y Perfil (Estudios y Chapulines) -->
+            <div class="row g-2 mb-3">
+                <!-- Card Estudios -->
+                <div class="col-6">
+                    <a href="{{ default_resumen.estudios_url }}" id="rad360EstudiosLink" class="text-decoration-none d-block p-2 px-3 bg-light rounded-3 border h-100 hover-shadow-sm transition-all" title="Ver figuras con posgrado de este estado en el Explorador">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <span class="text-muted small fw-semibold" style="font-size: 0.72rem; text-transform: uppercase;">
+                                <i class="bi bi-mortarboard-fill text-primary me-1"></i>Estudios
+                            </span>
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle font-monospace" id="rad360EstudiosPct" style="font-size: 0.72rem;">
+                                {{ default_resumen.estudios.superiores_pct }}%
+                            </span>
+                        </div>
+                        <div class="text-dark fw-bold small text-truncate" id="rad360EstudiosDetalle">
+                            {{ default_resumen.estudios.superiores_total }} con Licenciatura / Posgrado
+                        </div>
+                        <div class="text-muted" style="font-size: 0.7rem;" id="rad360PosgradosDetalle">
+                            {{ default_resumen.estudios.posgrados_total }} cuentan con Posgrado
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card Chapulines / Movilidad -->
+                <div class="col-6">
+                    <a href="{{ default_resumen.chapulines_url }}" id="rad360ChapulinesLink" class="text-decoration-none d-block p-2 px-3 bg-light rounded-3 border h-100 hover-shadow-sm transition-all" title="Ver chapulines de este estado en el Explorador">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <span class="text-muted small fw-semibold" style="font-size: 0.72rem; text-transform: uppercase;">
+                                <i class="bi bi-arrow-left-right text-warning me-1"></i>Chapulines
+                            </span>
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle font-monospace" id="rad360ChapulinesPct" style="font-size: 0.72rem;">
+                                {{ default_resumen.chapulines.pct }}%
+                            </span>
+                        </div>
+                        <div class="text-dark fw-bold small text-truncate" id="rad360ChapulinesDetalle">
+                            {{ default_resumen.chapulines.total }} con cambio de partido
+                        </div>
+                        <div class="text-muted" style="font-size: 0.7rem;" id="rad360FielesDetalle">
+                            {{ default_resumen.chapulines.fieles_total }} han sido fieles a su partido
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Botonera / Acciones con Filtros Pre-activados en el Explorador -->
+            <div class="mt-auto pt-2 border-top d-flex gap-2 align-items-center justify-content-between flex-wrap">
+                <a href="{{ default_resumen.federal_url }}" id="rad360BtnFichaEstatal" class="btn btn-sm btn-outline-secondary rounded-pill px-3 fw-medium">
+                    <i class="bi bi-file-earmark-person me-1"></i>Ficha Legislativa
+                </a>
+                <a href="{{ default_resumen.explorador_url }}" id="rad360BtnExplorador" class="btn btn-sm btn-primary rounded-pill px-3 fw-semibold shadow-xs">
+                    <span>Ver ficha completa de {{ default_resumen.nombre }} en Explorador</span>
+                    <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.state-path {
+    cursor: pointer;
+    transition: fill 0.2s ease, filter 0.2s ease, stroke-width 0.2s ease;
+}
+.state-path:hover {
+    filter: brightness(1.12);
+    stroke: #1C1C1E;
+    stroke-width: 1.8;
+}
+.state-selected {
+    stroke: #1C1C1E !important;
+    stroke-width: 2.2 !important;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.25)) !important;
+}
+.party-distribution-bar {
+    background-color: #F8F9FA !important;
+    border: 1px solid rgba(60, 60, 67, 0.08) !important;
+}
+.party-kpi-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px 4px 8px;
+    border-radius: 9999px;
+    background: #FFFFFF;
+    border: 1px solid rgba(60, 60, 67, 0.12);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #1C1C1E;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    cursor: pointer;
+    line-height: 1.4;
+    user-select: none;
+}
+.party-kpi-chip:hover {
+    background: #FFFFFF;
+    border-color: rgba(60, 60, 67, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+.party-kpi-chip.chip-active {
+    background: #1C1C1E !important;
+    color: #FFFFFF !important;
+    border-color: #1C1C1E !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25) !important;
+}
+.party-kpi-chip.chip-active .party-kpi-count {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: #FFFFFF !important;
+}
+.party-kpi-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.party-kpi-name {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+.party-kpi-count {
+    background: #F2F2F7;
+    color: #48484A;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 12px;
+}
+.state-path.state-dimmed {
+    opacity: 0.22 !important;
+    filter: grayscale(85%) !important;
+}
+.state-path.state-highlighted {
+    opacity: 1 !important;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3)) brightness(1.05) !important;
+    stroke: #FFFFFF !important;
+    stroke-width: 1.6 !important;
+}
+.map-tooltip {
+    position: absolute;
+    display: none;
+    background: rgba(28, 28, 30, 0.94);
+    color: #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    pointer-events: none;
+    z-index: 100;
+    white-space: nowrap;
+    backdrop-filter: blur(4px);
+}
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+    const map = document.getElementById('mexicoSvgMap');
+    const tooltip = document.getElementById('mapTooltip');
+    const capasDataEl = document.getElementById('capasMapaJson');
+    let capasData = {};
+    try {
+        capasData = JSON.parse(capasDataEl.textContent || '{}');
+    } catch(e) {
+        console.error('Error parsing capas data:', e);
+    }
+
+    const resumen360El = document.getElementById('resumenEstados360Json');
+    let resumen360Data = {};
+    try {
+        resumen360Data = JSON.parse(resumen360El.textContent || '{}');
+    } catch(e) {
+        console.error('Error parsing resumen360 data:', e);
+    }
+
+    // Elementos del Encabezado
+    const badgeCapaActiva = document.getElementById('badgeCapaActiva');
+    const mapaTituloSpan = document.querySelector('#mapaTitulo span');
+    const mapaDescripcion = document.getElementById('mapaDescripcion');
+    const labelFuerzaMayoritaria = document.getElementById('labelFuerzaMayoritaria');
+    const fuerzaMayoritariaContainer = document.getElementById('fuerzaMayoritariaContainer');
+    const capaPills = document.querySelectorAll('.capa-pill');
+
+    // Elementos de la Tarjeta Overview
+    const cardCapaBadge = document.getElementById('cardCapaBadge');
+    const cardEstadoAbbr = document.getElementById('cardEstadoAbbr');
+    const cardNombre = document.getElementById('cardEstadoNombre');
+    const cardSubtitulo = document.getElementById('cardEstadoSubtitulo');
+    const cardMayoriaTitulo = document.getElementById('cardMayoriaTitulo');
+    const cardMayoriaBadge = document.getElementById('cardEstadoMayoriaBadge');
+    const cardTitularNombre = document.getElementById('cardTitularNombre');
+    const cardTitularCargo = document.getElementById('cardTitularCargo');
+    const cardDesgloseTitulo = document.getElementById('cardDesgloseTitulo');
+    const cardProgressBar = document.getElementById('cardEstadoProgressBar');
+    const cardPartidosList = document.getElementById('cardEstadoPartidosList');
+    const btnExplorar = document.getElementById('btnExplorarEstado');
+    const btnExplorarText = document.getElementById('btnExplorarText');
+
+    let currentCapa = 'gobernadores';
+    let selectedSlug = 'baja-california';
+    let activeFilteredParty = null;
+
+    function getShortPartyName(partido) {
+        if (!partido) return '';
+        const upper = partido.toUpperCase().trim();
+        if (upper.includes('USOS Y COSTUMBRES') || upper.includes('SNI') || upper.includes('UYC')) return 'SNI / UYC';
+        if (upper.includes('CONCEJO')) return 'Concejo';
+        if (upper.includes('LITIGIO')) return 'En Litigio';
+        if (upper.includes('MOVIMIENTO CIUDADANO') || upper === 'MC') return 'MC';
+        if (upper.includes('VERDE') || upper.includes('PVEM')) return 'PVEM';
+        if (upper.includes('TRABAJO') || upper === 'PT') return 'PT';
+        if (upper.includes('INDEPENDIENTE') || upper.includes('SIN PARTIDO') || upper === 'INDEP') return 'Indep.';
+        if (upper.includes('NUEVA ALIANZA') || upper.includes('PANAL')) return 'PANAL';
+        if (upper.includes('REVOLUCIONARIO') || upper === 'PRI') return 'PRI';
+        if (upper.includes('ACCION NACIONAL') || upper === 'PAN') return 'PAN';
+        if (upper.includes('MORENA')) return 'Morena';
+        if (upper.includes('PRD')) return 'PRD';
+        if (upper.includes('PES') || upper.includes('ENCUENTRO')) return 'PES';
+        return partido;
+    }
+
+    function applyPartyFilter(party) {
+        if (!map) return;
+        const paths = map.querySelectorAll('.state-path');
+        const chips = fuerzaMayoritariaContainer ? fuerzaMayoritariaContainer.querySelectorAll('.party-kpi-chip') : [];
+        const btnPartidos = document.getElementById('btnLimpiarFiltroPartidos');
+        const hintPartidos = document.getElementById('hintFiltroPartidos');
+
+        if (activeFilteredParty === party) {
+            // Deseleccionar y restaurar vista completa
+            activeFilteredParty = null;
+            paths.forEach(p => p.classList.remove('state-dimmed', 'state-highlighted'));
+            chips.forEach(c => c.classList.remove('chip-active'));
+            if (btnPartidos) { btnPartidos.classList.add('d-none'); btnPartidos.classList.remove('d-inline-flex'); }
+            if (hintPartidos) hintPartidos.classList.remove('d-none');
+        } else {
+            // Aislar partido seleccionado
+            activeFilteredParty = party;
+            const targetShort = getShortPartyName(party).toUpperCase();
+            paths.forEach(p => {
+                const pParty = p.getAttribute('data-party') || '';
+                const pShort = getShortPartyName(pParty).toUpperCase();
+                const matches = (pParty.toUpperCase() === party.toUpperCase()) || (pShort === targetShort);
+                p.classList.toggle('state-dimmed', !matches);
+                p.classList.toggle('state-highlighted', matches);
+            });
+            chips.forEach(c => {
+                const cParty = c.getAttribute('data-party') || '';
+                const cShort = getShortPartyName(cParty).toUpperCase();
+                const matches = (cParty.toUpperCase() === party.toUpperCase()) || (cShort === targetShort);
+                c.classList.toggle('chip-active', matches);
+            });
+            if (btnPartidos) { btnPartidos.classList.remove('d-none'); btnPartidos.classList.add('d-inline-flex'); }
+            if (hintPartidos) hintPartidos.classList.add('d-none');
+        }
+    }
+
+    function getPartyColorJs(partido) {
+        if (!partido) return '#6C757D';
+        const upper = partido.toUpperCase().trim();
+        if (upper.includes('MORENA')) return '#8B1C3F';
+        if (upper.includes('PAN') && !upper.includes('PANAL')) return '#003893';
+        if (upper.includes('VERDE') || upper.includes('PVEM')) return '#009E49';
+        if (upper.includes('PRI') || upper.includes('REVOLUCIONARIO')) return '#C8102E';
+        if (upper.includes('PT') || upper.includes('TRABAJO')) return '#DA291C';
+        if (upper.includes('MC') || upper.includes('CIUDADANO') || upper.includes('CONVERGENCIA')) return '#FF8300';
+        if (upper.includes('PES') || upper.includes('ENCUENTRO')) return '#582C83';
+        if (upper.includes('PRD')) return '#FFD100';
+        if (upper.includes('PANAL') || upper.includes('NUEVA ALIANZA')) return '#00A896';
+        if (upper.includes('USOS Y COSTUMBRES') || upper.includes('SNI') || upper.includes('UYC')) return '#475569';
+        if (upper.includes('INDEPENDIENTE') || upper.includes('SIN PARTIDO') || upper === 'INDEP') return '#64748B';
+        if (upper.includes('CONCEJO') || upper.includes('LITIGIO')) return '#94A3B8';
+        return '#6C757D';
+    }
+
+    function updateCard(slug) {
+        selectedSlug = slug;
+        const capaInfo = capasData[currentCapa];
+        if (!capaInfo || !capaInfo.estados || !capaInfo.estados[slug]) return;
+        const est = capaInfo.estados[slug];
+
+        if (cardCapaBadge) cardCapaBadge.textContent = capaInfo.badge;
+        if (cardEstadoAbbr) cardEstadoAbbr.textContent = est.abbr || 'MEX';
+        if (cardNombre) cardNombre.textContent = est.nombre;
+        if (cardSubtitulo) cardSubtitulo.textContent = est.subtitulo_card;
+
+        const partyColor = est.color_mayoria || getPartyColorJs(est.partido_mayoria);
+
+        if (currentCapa === 'gobernadores') {
+            if (cardMayoriaTitulo) cardMayoriaTitulo.textContent = 'Titular en Funciones:';
+            if (cardMayoriaBadge) {
+                cardMayoriaBadge.innerHTML = `
+                    <div class="d-flex align-items-center mb-1">
+                        <span class="badge rounded-pill px-3 py-1" style="background-color: ${partyColor}; color: #fff; font-weight: 600;">${est.partido_mayoria}</span>
+                    </div>
+                    <div class="text-secondary small d-flex align-items-center gap-1" style="font-size: 0.74rem;">
+                        <i class="bi bi-calendar3 text-muted"></i>
+                        <span>${est.mayoria_label}</span>
+                    </div>
+                `;
+            }
+            if (cardTitularNombre) {
+                cardTitularNombre.textContent = est.titular || 'Titular del Ejecutivo';
+                cardTitularNombre.style.display = 'block';
+            }
+            if (cardTitularCargo) {
+                cardTitularCargo.textContent = est.cargo || 'Gobernador(a) Constitucional';
+                cardTitularCargo.style.display = 'block';
+            }
+            if (cardDesgloseTitulo) cardDesgloseTitulo.textContent = 'Filiación Institucional:';
+            if (cardProgressBar) {
+                cardProgressBar.innerHTML = `<div class="progress-bar" style="width: 100%; background-color: ${partyColor};" title="${est.partido_mayoria}"></div>`;
+            }
+            if (cardPartidosList) {
+                cardPartidosList.innerHTML = `
+                    <div class="d-flex justify-content-between align-items-center py-1 border-bottom border-light">
+                        <span class="d-flex align-items-center gap-2">
+                            <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: ${partyColor};"></span>
+                            <span class="text-dark fw-medium">${est.partido_mayoria}</span>
+                        </span>
+                        <span class="badge bg-light text-dark border font-monospace"><strong>Vigente</strong></span>
+                    </div>
+                `;
+            }
+        } else {
+            // Capas con desglose (alcaldias, congresos_locales, federal)
+            if (cardMayoriaTitulo) {
+                cardMayoriaTitulo.textContent = currentCapa === 'alcaldias' ? 'Fuerza Mayoritaria en Municipios:' :
+                    (currentCapa === 'congresos_locales' ? 'Mayoría Parlamentaria Local:' : 'Fuerza Mayoritaria en el Congreso:');
+            }
+            if (cardMayoriaBadge) {
+                cardMayoriaBadge.innerHTML = `
+                    <div class="d-flex align-items-center mb-1">
+                        <span class="badge rounded-pill px-3 py-1" style="background-color: ${partyColor}; color: #fff; font-weight: 600;">${est.partido_mayoria}</span>
+                    </div>
+                    <div class="text-secondary small d-flex align-items-center gap-1" style="font-size: 0.74rem;">
+                        <i class="bi bi-pie-chart-fill text-muted"></i>
+                        <span>${est.mayoria_label}</span>
+                    </div>
+                `;
+            }
+            if (cardTitularNombre) cardTitularNombre.style.display = 'none';
+            if (cardTitularCargo) cardTitularCargo.style.display = 'none';
+            if (cardDesgloseTitulo) cardDesgloseTitulo.textContent = 'Composición por Bancadas:';
+
+            const total = est.total_representantes || 1;
+            let progressHtml = '';
+            let listHtml = '';
+            const conteo = est.conteo_partidos || {};
+
+            for (const [pName, pCount] of Object.entries(conteo)) {
+                const pct = Math.max(3, Math.round((pCount / total) * 100));
+                const c = getPartyColorJs(pName);
+                progressHtml += `<div class="progress-bar" style="width: ${pct}%; background-color: ${c};" title="${pName}: ${pCount}"></div>`;
+                const labelUnit = currentCapa === 'alcaldias' ? (pCount === 1 ? 'alcaldía' : 'alcaldías') : 'curules';
+                listHtml += `
+                    <div class="d-flex justify-content-between align-items-center py-1 border-bottom border-light">
+                        <span class="d-flex align-items-center gap-2">
+                            <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: ${c};"></span>
+                            <span class="text-dark fw-medium">${pName}</span>
+                        </span>
+                        <span class="badge bg-light text-dark border font-monospace"><strong>${pCount}</strong> ${labelUnit}</span>
+                    </div>
+                `;
+            }
+            if (cardProgressBar) cardProgressBar.innerHTML = progressHtml;
+            if (cardPartidosList) cardPartidosList.innerHTML = listHtml;
+        }
+
+        if (btnExplorar) btnExplorar.href = est.boton_url || '#';
+        if (btnExplorarText) btnExplorarText.textContent = est.boton_text || 'Explorar detalles';
+
+        updateRadiografia360(slug);
+    }
+
+    function updateRadiografia360(slug) {
+        if (!resumen360Data || !resumen360Data[slug]) return;
+        const r = resumen360Data[slug];
+
+        const radAbbr = document.getElementById('rad360Abbr');
+        if (radAbbr) radAbbr.textContent = r.abbr || 'MEX';
+
+        const radNom = document.getElementById('rad360Nombre');
+        if (radNom) radNom.textContent = r.nombre;
+
+        const radBadge = document.getElementById('rad360CargosBadge');
+        if (radBadge) radBadge.textContent = `${r.total_cargos} Cargos Auditados`;
+
+        // Gobernador
+        const govEl = document.getElementById('rad360GovParty');
+        if (govEl && r.gobernador) {
+            govEl.innerHTML = `<span class="badge rounded-pill px-2 py-1" style="background-color: ${r.gobernador.color}; color: #fff;">${r.gobernador.partido}</span>`;
+        }
+
+        // Alcaldías
+        const alcLink = document.getElementById('rad360AlcLink');
+        if (alcLink) alcLink.href = r.alcaldias_url;
+        const alcTot = document.getElementById('rad360AlcTotal');
+        if (alcTot && r.alcaldias) alcTot.textContent = r.alcaldias.total;
+        const alcParty = document.getElementById('rad360AlcParty');
+        if (alcParty && r.alcaldias) {
+            alcParty.innerHTML = `<span class="badge rounded-pill px-2 py-1" style="background-color: ${r.alcaldias.color}; color: #fff;">${r.alcaldias.partido}</span>`;
+        }
+
+        // Congreso Local
+        const locTot = document.getElementById('rad360LocTotal');
+        if (locTot && r.congreso_local) locTot.textContent = r.congreso_local.total;
+        const locParty = document.getElementById('rad360LocParty');
+        if (locParty && r.congreso_local) {
+            locParty.innerHTML = `<span class="badge rounded-pill px-2 py-1" style="background-color: ${r.congreso_local.color}; color: #fff;">${r.congreso_local.partido}</span>`;
+        }
+
+        // Congreso Federal
+        const fedLink = document.getElementById('rad360FedLink');
+        if (fedLink) fedLink.href = r.federal_url;
+        const fedTot = document.getElementById('rad360FedTotal');
+        if (fedTot && r.federal) {
+            fedTot.textContent = r.federal.total;
+            fedTot.title = `${r.federal.diputados} Diputados + ${r.federal.senadores} Senadores`;
+        }
+        const fedParty = document.getElementById('rad360FedParty');
+        if (fedParty && r.federal) {
+            fedParty.innerHTML = `<span class="badge rounded-pill px-2 py-1" style="background-color: ${r.federal.color}; color: #fff;">${r.federal.partido}</span>`;
+        }
+
+        // Estudios
+        const estLink = document.getElementById('rad360EstudiosLink');
+        if (estLink) estLink.href = r.estudios_url;
+        const estPct = document.getElementById('rad360EstudiosPct');
+        if (estPct && r.estudios) estPct.textContent = `${r.estudios.superiores_pct}%`;
+        const estDet = document.getElementById('rad360EstudiosDetalle');
+        if (estDet && r.estudios) estDet.textContent = `${r.estudios.superiores_total} con Licenciatura / Posgrado`;
+        const posDet = document.getElementById('rad360PosgradosDetalle');
+        if (posDet && r.estudios) posDet.textContent = `${r.estudios.posgrados_total} cuentan con Posgrado`;
+
+        // Chapulines
+        const chapLink = document.getElementById('rad360ChapulinesLink');
+        if (chapLink) chapLink.href = r.chapulines_url;
+        const chapPct = document.getElementById('rad360ChapulinesPct');
+        if (chapPct && r.chapulines) chapPct.textContent = `${r.chapulines.pct}%`;
+        const chapDet = document.getElementById('rad360ChapulinesDetalle');
+        if (chapDet && r.chapulines) chapDet.textContent = `${r.chapulines.total} con cambio de partido`;
+        const fielDet = document.getElementById('rad360FielesDetalle');
+        if (fielDet && r.chapulines) fielDet.textContent = `${r.chapulines.fieles_total} han sido fieles a su partido`;
+
+        // Botones inferiores
+        const btnFicha = document.getElementById('rad360BtnFichaEstatal');
+        if (btnFicha) btnFicha.href = r.federal_url;
+        const btnExp = document.getElementById('rad360BtnExplorador');
+        if (btnExp) {
+            btnExp.href = r.explorador_url;
+            btnExp.innerHTML = `<span>Ver ficha completa de ${r.nombre} en Explorador</span><i class="bi bi-arrow-right ms-1"></i>`;
+        }
+    }
+
+    function renderCapa(capaKey) {
+        currentCapa = capaKey;
+        activeFilteredParty = null;
+        const capaInfo = capasData[capaKey];
+        if (!capaInfo) return;
+
+        // 1. Botones de píldoras
+        capaPills.forEach(btn => {
+            const isTarget = btn.getAttribute('data-capa') === capaKey;
+            btn.classList.toggle('btn-primary', isTarget);
+            btn.classList.toggle('text-white', isTarget);
+            btn.classList.toggle('shadow-xs', isTarget);
+            btn.classList.toggle('btn-light', !isTarget);
+            btn.classList.toggle('text-dark', !isTarget);
+            btn.classList.toggle('border', !isTarget);
+        });
+
+        // 2. Textos del Encabezado
+        if (badgeCapaActiva) badgeCapaActiva.textContent = capaInfo.badge;
+        if (mapaTituloSpan) mapaTituloSpan.textContent = capaInfo.titulo;
+        if (mapaDescripcion) mapaDescripcion.textContent = capaInfo.descripcion;
+        if (labelFuerzaMayoritaria) labelFuerzaMayoritaria.textContent = (capaInfo.label_fuerza || 'Fuerza mayoritaria') + ':';
+
+        // 3. Chips de Fuerza Nacional (Píldoras interactivas con abreviaturas y conteo)
+        if (fuerzaMayoritariaContainer && capaInfo.fuerza_nacional) {
+            let chipsHtml = '';
+            capaInfo.fuerza_nacional.forEach(([pName, count]) => {
+                const color = getPartyColorJs(pName);
+                const shortName = getShortPartyName(pName);
+                chipsHtml += `
+                    <button type="button" class="party-kpi-chip" data-party="${pName}" title="Filtrar entidades por ${pName}">
+                        <span class="party-kpi-dot" style="background-color: ${color};"></span>
+                        <span class="party-kpi-name">${shortName}</span>
+                        <span class="party-kpi-count">${count}</span>
+                    </button>
+                `;
+            });
+            fuerzaMayoritariaContainer.innerHTML = chipsHtml;
+
+            // Conectar evento click para aislar partido en el mapa
+            const chipButtons = fuerzaMayoritariaContainer.querySelectorAll('.party-kpi-chip');
+            chipButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const party = btn.getAttribute('data-party');
+                    applyPartyFilter(party);
+                });
+            });
+        }
+
+        // 4. Repintar paths del mapa SVG y reiniciar aislamiento
+        if (map) {
+            const paths = map.querySelectorAll('.state-path');
+            paths.forEach(p => {
+                p.classList.remove('state-dimmed', 'state-highlighted');
+                const slug = p.getAttribute('data-slug');
+                const est = capaInfo.estados[slug];
+                if (est) {
+                    p.setAttribute('fill', est.color_mayoria || getPartyColorJs(est.partido_mayoria));
+                    p.setAttribute('data-party', est.partido_mayoria);
+                    p.setAttribute('data-reps', est.total_representantes);
+                    p.setAttribute('data-subtitle', est.subtitulo_card);
+                    p.setAttribute('data-label', est.mayoria_label);
+                    p.setAttribute('data-url', est.boton_url);
+                    p.setAttribute('data-btntext', est.boton_text);
+                    if (est.titular) {
+                        p.setAttribute('data-titular', est.titular);
+                        p.setAttribute('data-cargo', est.cargo);
+                        p.setAttribute('data-periodo', est.periodo);
+                    } else {
+                        p.removeAttribute('data-titular');
+                        p.removeAttribute('data-cargo');
+                        p.removeAttribute('data-periodo');
+                    }
+                }
+            });
+        }
+
+        // 5. Actualizar la tarjeta para el estado actualmente seleccionado
+        updateCard(selectedSlug);
+    }
+
+    // Inicializar listeners de las píldoras
+    capaPills.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const capa = btn.getAttribute('data-capa');
+            if (capa && capa !== currentCapa) {
+                renderCapa(capa);
+            }
+        });
+    });
+
+    // Inicializar listeners del mapa SVG
+    if (map) {
+        const paths = map.querySelectorAll('.state-path');
+        paths.forEach(p => {
+            p.addEventListener('mouseenter', (e) => {
+                const name = p.getAttribute('data-name');
+                const party = p.getAttribute('data-party');
+                const titular = p.getAttribute('data-titular');
+                const reps = p.getAttribute('data-reps');
+                let extra = '';
+                if (currentCapa === 'gobernadores' && titular) {
+                    extra = `<small>${titular} &bull; ${party}</small>`;
+                } else if (currentCapa === 'alcaldias') {
+                    extra = `<small>${reps} alcaldías &bull; Mayoría ${party}</small>`;
+                } else if (currentCapa === 'congresos_locales') {
+                    extra = `<small>${reps} curules locales &bull; Mayoría ${party}</small>`;
+                } else {
+                    extra = `<small>${reps} legisladores &bull; ${party}</small>`;
+                }
+                tooltip.innerHTML = `<strong>${name}</strong><br>${extra}`;
+                tooltip.style.display = 'block';
+            });
+
+            p.addEventListener('mousemove', (e) => {
+                const rect = map.getBoundingClientRect();
+                tooltip.style.left = (e.clientX - rect.left + 15) + 'px';
+                tooltip.style.top = (e.clientY - rect.top + 10) + 'px';
+            });
+
+            p.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none';
+            });
+
+            p.addEventListener('click', () => {
+                paths.forEach(el => el.classList.remove('state-selected'));
+                p.classList.add('state-selected');
+                const slug = p.getAttribute('data-slug');
+                updateCard(slug);
+            });
+        });
+    }
+
+    function limpiarTodosLosFiltros() {
+        // 1. Quitar aislamiento partidista en el mapa
+        activeFilteredParty = null;
+        if (map) {
+            const paths = map.querySelectorAll('.state-path');
+            paths.forEach(p => p.classList.remove('state-dimmed', 'state-highlighted', 'state-selected'));
+        }
+        if (fuerzaMayoritariaContainer) {
+            const chips = fuerzaMayoritariaContainer.querySelectorAll('.party-kpi-chip');
+            chips.forEach(c => c.classList.remove('chip-active'));
+        }
+        const btnPartidos = document.getElementById('btnLimpiarFiltroPartidos');
+        if (btnPartidos) {
+            btnPartidos.classList.add('d-none');
+            btnPartidos.classList.remove('d-inline-flex');
+        }
+        const hintPartidos = document.getElementById('hintFiltroPartidos');
+        if (hintPartidos) hintPartidos.classList.remove('d-none');
+
+        // 2. Restaurar tarjeta al estado default
+        updateCard('baja-california');
+    }
+
+    const btnLimpiar = document.getElementById('btnLimpiarFiltro');
+    if (btnLimpiar) {
+        btnLimpiar.addEventListener('click', (e) => {
+            e.preventDefault();
+            limpiarTodosLosFiltros();
+        });
+    }
+
+    const btnLimpiarPartidos = document.getElementById('btnLimpiarFiltroPartidos');
+    if (btnLimpiarPartidos) {
+        btnLimpiarPartidos.addEventListener('click', (e) => {
+            e.preventDefault();
+            limpiarTodosLosFiltros();
+        });
+    }
+
+    // Render inicial en modo 'gobernadores'
+    if (capasData && capasData.gobernadores) {
+        renderCapa('gobernadores');
+    }
+})();
+</script>
 {% endblock %}

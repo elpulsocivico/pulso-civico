@@ -1,0 +1,127 @@
+{% set analisis = p.analisis_academico or {} %}
+{% set grado_key = analisis.grado_maximo or 'sin_registro' %}
+{% set grado_info = analisis.grado_info or {} %}
+{% set categoria_grupo = p.categoria_grupo or 'media-trunca' %}
+{% set nombre = p.nombre_completo or '' %}
+{% set nombre_mostrar = p.nombre_natural or nombre %}
+{% set slug = p.slug or '' %}
+{% set camara = p.camara or 'Diputados' %}
+{% set partido = p.partido or 'Sin Partido' %}
+{% set partido_can = canonical_party_name_func(partido) if canonical_party_name_func else partido %}
+{% set entidad = p.entidad or 'México' %}
+{% set estado_slug = p.entidad_slug or 'mexico' %}
+{% set distrito = p.distrito %}
+{% set principio = p.principio_eleccion %}
+{% set distrito_texto = ('Dto. ' ~ distrito) if distrito and distrito != 'null' else (('Plurinominal' if principio == 'Representación Proporcional' else principio) if principio else '') %}
+{% set titulo_destacado = analisis.titulo_destacado or 'Sin registro académico' %}
+{% set disciplina = analisis.disciplina_principal or 'General / Diversa' %}
+{% set tiene_trunca = analisis.tiene_trunca %}
+{% set inst_resumen = analisis.institucion_resumen or {} %}
+{% set alma_mater = inst_resumen.alma_mater_destacada or '' %}
+{% set tipo_inst = inst_resumen.tipo_predominante or 'no_determinada' %}
+{% set inst_info = inst_resumen.info or {} %}
+{% set search_corpus = p.search_corpus or '' %}
+{% set roles_flags = p.roles_flags or {} %}
+{% set roles_str = p.roles_str or '' %}
+{% set es_activo = p.es_activo %}
+{% set foto_url = p.foto_url or (('/photos/' ~ p.referencia_sil ~ '.jpg') if (p.tiene_foto_local and p.referencia_sil) else (p.foto_oficial_url or '')) %}
+
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3 item-legislador politico-card-item" 
+     data-categoria="{{ categoria_grupo }}" 
+     data-estado="{{ estado_slug }}" 
+     data-partido="{{ p.partido_slug or partido|lower }}" 
+     data-disciplina="{{ disciplina }}" 
+     data-roles="{{ roles_str }}" 
+     data-institucion="{{ tipo_inst }}" 
+     data-activo="{{ '1' if es_activo else '0' }}">
+    <div class="card-civic p-3 p-md-4 h-100 d-flex flex-column justify-content-between position-relative shadow-xs">
+        <div>
+            <!-- Encabezado de la Card: Entidad, Cargo / Municipio y Partido -->
+            <div class="d-flex align-items-center justify-content-between mb-3 gap-1">
+                <span class="badge bg-light text-secondary border small text-truncate" style="max-width: 60%; font-size: 0.7rem;" title="{{ entidad }}{% if p.municipio_alcalde %} • {{ p.municipio_alcalde }}{% elif distrito_texto %} • {{ distrito_texto }}{% endif %}">
+                    <i class="bi bi-geo-alt-fill text-danger me-1"></i>{{ entidad }}{% if p.municipio_alcalde %} • {{ p.municipio_alcalde }}{% elif distrito_texto %} • {{ distrito_texto }}{% endif %}
+                </span>
+                {{ party_badge_func(partido)|safe }}
+            </div>
+
+            <!-- Foto y Datos Principales -->
+            <div class="text-center mb-3">
+                <div class="position-relative d-inline-block mb-2">
+                    {% if foto_url %}
+                    <img src="{{ foto_url }}" 
+                         alt="{{ nombre_mostrar }}" 
+                         class="rounded-circle shadow-sm border object-fit-cover" 
+                         style="width: 78px; height: 78px;"
+                         loading="lazy"
+                         onerror="if (this.dataset.triedFallback !== '1' && '{{ p.foto_oficial_url }}' && this.src.indexOf('{{ p.foto_oficial_url }}') === -1) { this.dataset.triedFallback = '1'; this.src = '{{ p.foto_oficial_url }}'; } else { this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ nombre_mostrar|urlencode }}&background=0D8ABC&color=fff'; }">
+                    {% else %}
+                    <img src="https://ui-avatars.com/api/?name={{ nombre_mostrar|urlencode }}&background=0D8ABC&color=fff" 
+                         alt="{{ nombre_mostrar }}" 
+                         class="rounded-circle shadow-sm border object-fit-cover" 
+                         style="width: 78px; height: 78px;">
+                    {% endif %}
+                    <span class="position-absolute bottom-0 end-0 badge rounded-pill bg-white text-secondary border shadow-xs" style="font-size: 0.65rem;" title="{{ p.cargo_resumen or camara }}">
+                        {% if roles_flags.gobernador %}GOB
+                        {% elif roles_flags.alcalde %}ALC
+                        {% elif roles_flags.senador %}SEN
+                        {% elif roles_flags.diputado_local %}LOC
+                        {% elif roles_flags.edil %}EDIL
+                        {% else %}{{ 'SEN' if camara == 'Senadores' else 'DIP' }}{% endif %}
+                    </span>
+                </div>
+                <h2 class="h6 fw-bold text-dark mb-1 text-truncate" title="{{ nombre }}">
+                    <a href="/politicos/{{ slug }}" class="text-decoration-none text-dark hover-primary">
+                        {{ nombre_mostrar }}
+                    </a>
+                </h2>
+                <div class="text-muted small text-truncate" style="font-size: 0.75rem;" title="{{ p.cargo_resumen or (camara ~ ' • ' ~ entidad) }}">
+                    {{ p.cargo_resumen or (camara ~ ' • ' ~ (distrito_texto if distrito_texto else entidad)) }}
+                </div>
+            </div>
+
+            <!-- Insignia Académica y Título -->
+            <div class="p-2 px-3 rounded-3 bg-light border mb-3">
+                <div class="d-flex align-items-center justify-content-between mb-1">
+                    <span class="badge {{ grado_info.badge_class or 'bg-secondary-subtle text-secondary' }}" style="font-size: 0.72rem;">
+                        <i class="bi bi-{{ grado_info.icono or 'mortarboard' }} me-1"></i>{{ grado_info.label or 'Sin registro' }}
+                    </span>
+                    {% if tiene_trunca and grado_key != 'trunca' %}
+                    <span class="badge bg-warning-subtle text-dark border border-warning-subtle" style="font-size: 0.65rem;" title="Cuenta con título superior pero dejó otra carrera trunca">
+                        +1 carrera trunca
+                    </span>
+                    {% elif grado_key == 'trunca' %}
+                    <span class="badge bg-warning-subtle text-dark border border-warning-subtle" style="font-size: 0.65rem;">
+                        Sin título acreditado
+                    </span>
+                    {% endif %}
+                </div>
+                <div class="fw-semibold text-dark small text-truncate" title="{{ titulo_destacado }}" style="font-size: 0.8rem;">
+                    {{ titulo_destacado }}
+                </div>
+                <div class="text-muted small text-truncate" style="font-size: 0.72rem;" title="{{ disciplina }}">
+                    <i class="bi bi-compass me-1"></i>{{ disciplina }}
+                </div>
+
+                <!-- Alma Máter / Institución -->
+                {% if alma_mater and alma_mater != 'No especificada en ficha' %}
+                <div class="mt-2 pt-2 border-top d-flex align-items-center justify-content-between" style="font-size: 0.72rem;">
+                    <span class="badge {{ inst_info.badge_class or 'bg-light text-secondary' }}" style="font-size: 0.65rem;">
+                        <i class="bi bi-{{ 'bank' if tipo_inst == 'publica' else ('mortarboard' if tipo_inst == 'privada' else 'shuffle') }} me-1"></i>
+                        {{ 'Pública' if tipo_inst == 'publica' else ('Privada' if tipo_inst == 'privada' else 'Mixta') }}
+                    </span>
+                    <span class="text-secondary text-truncate ms-2 fw-medium text-end" title="{{ alma_mater }}" style="max-width: 140px;">
+                        {{ alma_mater }}
+                    </span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Botón de acceso a Ficha Canónica -->
+        <div class="pt-2 border-top text-center">
+            <a href="/politicos/{{ slug }}" class="btn btn-outline-primary btn-sm rounded-pill w-100 py-1" style="font-size: 0.78rem;">
+                Ver expediente completo &rarr;
+            </a>
+        </div>
+    </div>
+</div>

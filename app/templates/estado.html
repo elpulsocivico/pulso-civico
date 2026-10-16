@@ -1,0 +1,399 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="breadcrumb-ios mb-3">
+    <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="/#seccion-mapa" class="text-decoration-none">Estados</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ estado.nombre }}</li>
+    </ol>
+</nav>
+
+<!-- Hero de la Entidad Federativa -->
+<div class="card-civic p-4 p-md-5 mb-4 position-relative overflow-hidden border">
+    <div class="row align-items-center">
+        <div class="col-lg-7">
+            <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
+                <span class="badge bg-primary rounded-pill px-3 py-1">{{ estado.abbr or 'MEX' }}</span>
+                <span class="badge bg-light text-secondary border">{{ meta_legislatura.romano }} Legislatura</span>
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill px-2 py-0" style="font-size: 0.72rem;" data-bs-toggle="modal" data-bs-target="#modalLegislaturas">
+                    <i class="bi bi-clock-history me-1"></i>Cambiar legislatura
+                </button>
+            </div>
+            <h1 class="display-6 fw-bold text-dark mb-2">
+                Radiografía Legislativa de {{ estado.nombre }}
+            </h1>
+            <p class="text-secondary mb-3">
+                Conoce a los {{ estado.total_representantes }} representantes de la entidad en el H. Congreso de la Unión durante la {{ meta_legislatura.romano }} Legislatura: sus bancadas, comisiones, grado escolar e iniciativas.
+            </p>
+
+            <!-- Resumen de Mayoría y Curules -->
+            <div class="d-flex align-items-center gap-2 flex-wrap mb-3">
+                <span class="small text-muted me-1">Fuerza dominante:</span>
+                {{ party_badge_func(estado.partido_mayoria) | safe }}
+                <span class="badge bg-light text-secondary border">{{ estado.diputados|length }} Diputados</span>
+                <span class="badge bg-light text-secondary border">{{ estado.senadores|length }} Senadores</span>
+            </div>
+
+            <!-- Barra de Distribución Porcentual Partidista -->
+            {% if estado.conteo_partidos and estado.total_representantes > 0 %}
+            <div class="progress mb-2" style="height: 10px; border-radius: 8px;">
+                {% for pNombre, pCount in estado.conteo_partidos.items() %}
+                {% set pct = ((pCount / estado.total_representantes) * 100) | round(1) %}
+                {% set color = party_color_func(pNombre) %}
+                <div class="progress-bar" role="progressbar" style="width: {{ pct }}%; background-color: {{ color }};" title="{{ pNombre }}: {{ pCount }} ({{ pct }}%)"></div>
+                {% endfor %}
+            </div>
+            <div class="d-flex flex-wrap gap-3 small text-muted mb-2">
+                {% for pNombre, pCount in estado.conteo_partidos.items() %}
+                {% set color = party_color_func(pNombre) %}
+                <span class="d-flex align-items-center gap-1">
+                    <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: {{ color }};"></span>
+                    {{ pNombre }}: <strong>{{ pCount }}</strong>
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Columna Lateral: Perfil Académico del Estado -->
+        <div class="col-lg-5 mt-4 mt-lg-0">
+            <div class="p-3 p-md-4 bg-light rounded-4 border">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="small fw-bold text-dark d-flex align-items-center gap-1">
+                        <i class="bi bi-mortarboard-fill text-primary"></i> Perfil Académico del Estado
+                    </span>
+                    <a href="/estudios" class="small text-decoration-none text-primary fw-medium" title="Ver radiografía educativa nacional">
+                        Nacional &rarr;
+                    </a>
+                </div>
+
+                {% set escStats = estado.escolaridad_stats %}
+                {% set posgrados = escStats.resumen_posgrados if escStats else {'total': 0, 'porcentaje': 0} %}
+                {% set licenciaturas = escStats.resumen_licenciaturas if escStats else {'total': 0, 'porcentaje': 0} %}
+                {% set mediaTrunca = escStats.resumen_media_trunca if escStats else {'total': 0, 'porcentaje': 0} %}
+                {% set niveles = escStats.niveles if escStats else {} %}
+                {% set docCount = niveles.doctorado.cantidad if niveles and niveles.doctorado else 0 %}
+                {% set mtrCount = niveles.maestria.cantidad if niveles and niveles.maestria else 0 %}
+
+                <div class="row g-2 text-center mb-3">
+                    <!-- Posgrados / Doctores -->
+                    <div class="col-4">
+                        <div class="p-2 bg-white rounded-3 border h-100 shadow-2xs">
+                            <div class="h5 fw-bold text-primary mb-0">{{ posgrados.porcentaje }}%</div>
+                            <div class="text-secondary fw-semibold" style="font-size: 0.68rem;">Posgrados</div>
+                            <div class="text-muted" style="font-size: 0.66rem;">
+                                {{ docCount }} Dr. &bull; {{ mtrCount }} Mtr.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Licenciaturas -->
+                    <div class="col-4">
+                        <div class="p-2 bg-white rounded-3 border h-100 shadow-2xs">
+                            <div class="h5 fw-bold text-success mb-0">{{ licenciaturas.porcentaje }}%</div>
+                            <div class="text-secondary fw-semibold" style="font-size: 0.68rem;">Licenciaturas</div>
+                            <div class="text-muted" style="font-size: 0.66rem;">
+                                {{ licenciaturas.total }} titulados
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Media / Trunca -->
+                    <div class="col-4">
+                        <div class="p-2 bg-white rounded-3 border h-100 shadow-2xs">
+                            <div class="h5 fw-bold text-warning-emphasis mb-0">{{ mediaTrunca.porcentaje }}%</div>
+                            <div class="text-secondary fw-semibold" style="font-size: 0.68rem;">Media / Trunca</div>
+                            <div class="text-muted" style="font-size: 0.66rem;">
+                                {{ mediaTrunca.total }} legisladores
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top small text-secondary" style="font-size: 0.74rem;">
+                    <span><i class="bi bi-people-fill text-primary me-1"></i><strong>{{ estado.total_representantes }}</strong> Legisladores auditados</span>
+                    <span class="badge bg-white text-secondary border">Fuente: SIL SEGOB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Filtros de Cámara -->
+<div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+    <div class="d-flex align-items-center gap-2 flex-wrap">
+        <ul class="nav nav-pills" id="filtroCamara" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-pill px-3 px-md-4 btn-sm" id="tab-todos" data-bs-toggle="pill" data-bs-target="#panel-todos" type="button" role="tab" aria-controls="panel-todos" aria-selected="true">
+                    Todos ({{ estado.todos|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill px-3 px-md-4 btn-sm" id="tab-diputados" data-bs-toggle="pill" data-bs-target="#panel-diputados" type="button" role="tab" aria-controls="panel-diputados" aria-selected="false">
+                    Diputados Federales ({{ estado.diputados|length }})
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill px-3 px-md-4 btn-sm" id="tab-senadores" data-bs-toggle="pill" data-bs-target="#panel-senadores" type="button" role="tab" aria-controls="panel-senadores" aria-selected="false">
+                    Senadores ({{ estado.senadores|length }})
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="text-muted small">
+        Toca cualquier tarjeta para consultar el expediente completo con sus iniciativas.
+    </div>
+</div>
+
+<!-- Macro para renderizar tarjeta de legislador -->
+{% macro render_politico_card(p, leg) %}
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+    <a href="/politicos/{{ p.slug }}{{ '?leg=' ~ leg if leg != 66 else '' }}" class="text-decoration-none text-dark d-block h-100">
+        <div class="card-apple p-3 p-md-4 h-100 d-flex flex-column">
+            <!-- Barra Superior: Entidad y Partido -->
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <span class="chip-neutral">
+                    <i class="bi bi-geo-alt-fill text-danger me-1"></i>{{ p.entidad or estado.nombre }}
+                </span>
+                {{ party_badge_func(p.partido) | safe }}
+            </div>
+
+            <!-- Avatar y Nombre Centrados -->
+            <div class="text-center my-1 flex-grow-1">
+                <div class="avatar-container mb-2 position-relative d-inline-block">
+                    {% if p.referencia_sil %}
+                    <img src="/photos/{{ p.referencia_sil }}.jpg" alt="{{ p.nombre_completo }}" class="avatar-img" loading="lazy" onerror="this.onerror=null; this.src='{{ p.foto_oficial_url if p.foto_oficial_url else 'https://via.placeholder.com/150' }}';">
+                    {% elif p.foto_oficial_url %}
+                    <img src="{{ p.foto_oficial_url }}" alt="{{ p.nombre_completo }}" class="avatar-img" loading="lazy">
+                    {% else %}
+                    <div class="avatar-img d-inline-flex align-items-center justify-content-center bg-light text-secondary fs-4">
+                        <i class="bi bi-person"></i>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <h2 class="h6 fw-bold mb-1 text-dark name-clamp" title="{{ p.nombre_completo }}">
+                    {{ p.nombre_completo }}
+                </h2>
+
+                <div class="text-secondary small mb-1">
+                    {{ p.camara }} &bull; {{ 'Suplente' if p.tipo_cargo == 'Suplente' else 'Titular Electo' }}
+                </div>
+
+                <div class="text-secondary small mb-2" style="font-size: 0.74rem;">
+                    {{ p.principio_eleccion or 'Mayoría Relativa' }} {{ '(Distrito ' ~ p.distrito ~ ')' if p.distrito else '' }}
+                </div>
+
+                <!-- Chips de Resumen: Rol, Edad y Asistencia -->
+                <div class="d-flex justify-content-center align-items-center gap-1 flex-wrap mb-2">
+                    {% if p.tipo_cargo == 'Suplente' %}
+                    <span class="chip-suplente"><i class="bi bi-arrow-repeat me-1"></i>Suplente</span>
+                    {% else %}
+                    <span class="chip-titular"><i class="bi bi-check-circle me-1"></i>Titular</span>
+                    {% endif %}
+
+                    {% if p.edad %}
+                    <span class="chip-age"><i class="bi bi-calendar3 me-1"></i>{{ p.edad }} años</span>
+                    {% endif %}
+
+                    {% if p.asistencia_kpi and p.asistencia_kpi.porcentaje is not none %}
+                    {% set pct = p.asistencia_kpi.porcentaje %}
+                    {% set sem_class = 'bg-success-subtle text-success border-success-subtle' if pct >= 90 else ('bg-warning-subtle text-warning-emphasis border-warning-subtle' if pct >= 75 else 'bg-danger-subtle text-danger border-danger-subtle') %}
+                    <span class="badge border {{ sem_class }} py-1 px-2" style="font-size: 0.70rem;" title="{{ pct }}% asistencia ({{ p.asistencia_kpi.asistencias }} asist., {{ p.asistencia_kpi.faltas }} faltas de {{ p.asistencia_kpi.total_sesiones }} sesiones)">
+                        <i class="bi bi-calendar-check me-1"></i>{{ "%.1f"|format(pct) }}% Asist.
+                    </span>
+                    {% endif %}
+                </div>
+
+                <!-- Insignia de Escolaridad y Grado Académico -->
+                {% if p.perfil_academico and p.perfil_academico.grado_info %}
+                {% set ginfo = p.perfil_academico.grado_info %}
+                <div class="mt-2">
+                    <span class="badge {{ ginfo.badge_class or 'bg-light text-secondary border' }} py-1 px-2 text-truncate d-inline-block mw-100" style="font-size: 0.70rem;" title="{{ p.perfil_academico.titulo_destacado or ginfo.label }}">
+                        <i class="bi bi-{{ ginfo.icono or 'mortarboard' }} me-1"></i>{{ ginfo.label }}
+                    </span>
+                    {% set alma = p.perfil_academico.institucion_resumen.alma_mater_destacada if p.perfil_academico.institucion_resumen else None %}
+                    {% if alma and alma != 'No especificada en ficha' %}
+                    <div class="text-muted text-truncate mt-1" style="font-size: 0.68rem;" title="{{ alma }}">
+                        <i class="bi bi-bank me-1"></i>{{ alma }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Métricas al Pie de la Card -->
+            <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center small text-secondary" style="font-size: 0.74rem;">
+                <span><i class="bi bi-briefcase me-1 text-primary"></i>{{ p.total_comisiones or (p.comisiones|length) }} comisiones</span>
+                {% if p.iniciativas and p.iniciativas|length > 0 %}
+                <span class="badge bg-primary-subtle text-primary border"><i class="bi bi-file-earmark-text me-1"></i>{{ p.iniciativas|length }} inic.</span>
+                {% elif p.trayectoria_politica or p.trayectoria_legislativa %}
+                <span><i class="bi bi-clock-history me-1 text-muted"></i>{{ (p.trayectoria_politica|length) + (p.trayectoria_legislativa|length) }} cargos</span>
+                {% else %}
+                <span><i class="bi bi-check2-circle me-1 text-success"></i>Ver expediente</span>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+</div>
+{% endmacro %}
+
+<!-- Contenido de Pestañas con Cards de Políticos -->
+<div class="tab-content mb-5" id="filtroCamaraContent">
+    <!-- Tab Todos -->
+    <div class="tab-pane fade show active" id="panel-todos" role="tabpanel" aria-labelledby="tab-todos">
+        <div class="row g-3 g-md-4">
+            {% for p in estado.todos %}
+                {{ render_politico_card(p, legislatura) }}
+            {% else %}
+                <div class="col-12 text-center text-muted py-5">
+                    No se encontraron legisladores registrados para esta entidad en la legislatura seleccionada.
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Tab Diputados -->
+    <div class="tab-pane fade" id="panel-diputados" role="tabpanel" aria-labelledby="tab-diputados">
+        <div class="row g-3 g-md-4">
+            {% for p in estado.diputados %}
+                {{ render_politico_card(p, legislatura) }}
+            {% else %}
+                <div class="col-12 text-center text-muted py-5">
+                    No se encontraron diputados federales registrados para esta entidad.
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Tab Senadores -->
+    <div class="tab-pane fade" id="panel-senadores" role="tabpanel" aria-labelledby="tab-senadores">
+        <div class="row g-3 g-md-4">
+            {% for p in estado.senadores %}
+                {{ render_politico_card(p, legislatura) }}
+            {% else %}
+                <div class="col-12 text-center text-muted py-5">
+                    No se encontraron senadores registrados para esta entidad.
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+.card-apple {
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    min-height: 290px;
+}
+.card-apple:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.avatar-img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.name-clamp {
+    font-size: 0.92rem;
+    line-height: 1.25;
+    min-height: 2.3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.chip-neutral {
+    background: #F2F2F7;
+    color: #1C1C1E;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+.chip-titular {
+    background: #E8F5E9;
+    color: #2E7D32;
+    font-size: 0.70rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 6px;
+}
+.chip-suplente {
+    background: #FFF3E0;
+    color: #E65100;
+    font-size: 0.70rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 6px;
+}
+.chip-age {
+    background: #F3E8FF;
+    color: #6B21A8;
+    font-size: 0.70rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 6px;
+}
+.shadow-2xs {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+</style>
+
+<!-- Modal Cambiar Legislatura para la Entidad -->
+<div class="modal fade" id="modalLegislaturas" tabindex="-1" aria-labelledby="modalLegislaturasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+            <div class="modal-header border-0 pb-1">
+                <div>
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 small mb-1">
+                        Archivo Histórico
+                    </span>
+                    <h5 class="modal-title fw-bold text-dark" id="modalLegislaturasLabel">
+                        Consultar {{ estado.nombre }} por Periodo
+                    </h5>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body p-3">
+                <p class="text-secondary small mb-3">
+                    Selecciona una legislatura para consultar los diputados y senadores que representaron a {{ estado.nombre }} en ese periodo constitucional:
+                </p>
+                <div class="list-group list-group-flush rounded-3 border overflow-hidden">
+                    {% for lNum, lInfo in catalogo_legislaturas.items() %}
+                        {% set esEsta = (lNum == legislatura) %}
+                        {% set esAct = (lInfo.estatus == 'activa') %}
+                        {% set urlLegEstado = '/estados/' ~ estado.slug ~ ('?leg=' ~ lNum if lNum != 66 else '') %}
+                        <a href="{{ urlLegEstado }}" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between p-3 {% if esEsta %}bg-primary-subtle text-primary fw-bold{% endif %}">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="badge {% if esEsta %}bg-primary text-white{% elif esAct %}bg-success text-white{% else %}bg-light text-secondary border{% endif %} rounded-pill px-2.5 py-1">
+                                    {{ lInfo.romano }}
+                                </span>
+                                <div>
+                                    <div class="fw-semibold small">{{ lInfo.romano }} Legislatura</div>
+                                    <div class="text-muted" style="font-size: 0.72rem;">{{ lInfo.periodo }}</div>
+                                </div>
+                            </div>
+                            {% if esEsta %}
+                                <i class="bi bi-check2 text-primary fs-5"></i>
+                            {% elif esAct %}
+                                <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill small">Actual</span>
+                            {% else %}
+                                <i class="bi bi-chevron-right text-muted small"></i>
+                            {% endif %}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
