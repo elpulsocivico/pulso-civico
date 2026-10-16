@@ -147,6 +147,48 @@ class ScraperRouter
             case 'congreso_zacatecas':
                 return self::scrapeEstadoGenerico('CongresoZacatecasScraperService', 'ROUTER-ZAC', $config, $params);
 
+            case 'cdmx':
+            case 'ciudaddemexico':
+            case 'df':
+            case 'aldf':
+            case 'congreso_cdmx':
+                return self::scrapeCdmx($config, $params);
+
+            case 'mor':
+            case 'morelos':
+            case 'congreso_morelos':
+                return self::scrapeEstadoGenerico('CongresoMorelosScraperService', 'ROUTER-MOR', $config, $params);
+
+            case 'gro':
+            case 'guerrero':
+            case 'congreso_guerrero':
+                return self::scrapeEstadoGenerico('CongresoGuerreroScraperService', 'ROUTER-GRO', $config, $params);
+
+            case 'tlax':
+            case 'tlaxcala':
+            case 'congreso_tlaxcala':
+                return self::scrapeEstadoGenerico('CongresoTlaxcalaScraperService', 'ROUTER-TLAX', $config, $params);
+
+            case 'ver':
+            case 'veracruz':
+            case 'congreso_veracruz':
+                return self::scrapeEstadoGenerico('CongresoVeracruzScraperService', 'ROUTER-VER', $config, $params);
+
+            case 'oax':
+            case 'oaxaca':
+            case 'congreso_oaxaca':
+                return self::scrapeEstadoGenerico('CongresoOaxacaScraperService', 'ROUTER-OAX', $config, $params);
+
+            case 'tab':
+            case 'tabasco':
+            case 'congreso_tabasco':
+                return self::scrapeEstadoGenerico('CongresoTabascoScraperService', 'ROUTER-TAB', $config, $params);
+
+            case 'col':
+            case 'colima':
+            case 'congreso_colima':
+                return self::scrapeEstadoGenerico('CongresoColimaScraperService', 'ROUTER-COL', $config, $params);
+
             case 'alcaldes':
             case 'alcaldes:vigentes':
             case 'alcaldes:historico':
@@ -165,7 +207,8 @@ class ScraperRouter
                         'bc', 'bcs', 'campeche', 'yucatan', 'quintanaroo', 'chiapas',
                         'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon',
                         'aguascalientes', 'edomex', 'guanajuato', 'hidalgo', 'jalisco',
-                        'michoacan', 'nayarit', 'puebla', 'queretaro', 'sanluispotosi', 'zacatecas'
+                        'michoacan', 'nayarit', 'puebla', 'queretaro', 'sanluispotosi', 'zacatecas',
+                        'cdmx', 'morelos', 'guerrero', 'tlaxcala', 'veracruz', 'oaxaca', 'tabasco', 'colima'
                     ],
                 ];
         }
@@ -502,6 +545,19 @@ class ScraperRouter
         }
         $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
         return $res;
+    }
+
+    private static function scrapeCdmx(array $config, array $params): array
+    {
+        $logger = new Logger($config['paths']['logs'], 'ROUTER-CDMX');
+        $httpClient = new HttpClient($config['sil'], $logger);
+        $service = new \PulsoCivico\Services\CongresoCdmxScraperService($httpClient, $logger, $config['paths']['storage']);
+
+        if (!empty($params['key'])) {
+            return $service->scrapeLegislaturaKey((string)$params['key']);
+        }
+
+        return $service->scrapeAll();
     }
 
     private static function scrapeAlcaldes(array $config, array $params): array
