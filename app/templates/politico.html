@@ -77,20 +77,19 @@
     <!-- Columna Izquierda: Tarjeta de Perfil Fija (Sticky) -->
     <div class="col-lg-4">
         <div class="card-civic p-4 text-center sticky-top" style="top: 80px;">
+            {% set refSil = politico.referencia_sil|string if politico.referencia_sil else "" %}
+            {% set fotoOficial = politico.foto_oficial_url or "" %}
+            {% set fotoPerfil = politico.foto_url or (('/photos/' ~ refSil ~ '.jpg') if (politico.tiene_foto_local and refSil) else (fotoOficial or "")) %}
+            {% set fallbackAvatar = 'https://ui-avatars.com/api/?name=' ~ (politico.nombre_completo|urlencode) ~ '&background=F1F5F9&color=475569&size=256' %}
+
             <div class="position-relative d-inline-block mx-auto mb-3">
-                {% if politico.referencia_sil %}
-                <img src="/photos/{{ politico.referencia_sil }}.jpg" 
+                <img src="{{ fotoPerfil if fotoPerfil else fallbackAvatar }}" 
                      alt="Fotografía oficial de {{ politico.nombre_completo }}" 
                      class="rounded-4 shadow-sm border" 
                      style="width: 170px; height: 210px; object-fit: cover;"
-                     onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&background=F1F5F9&color=475569&size=256';">
-                {% else %}
-                <img src="{{ politico.foto_oficial_url if politico.foto_oficial_url else ('https://ui-avatars.com/api/?name=' ~ (politico.nombre_completo|urlencode) ~ '&background=F1F5F9&color=475569&size=256') }}" 
-                     alt="Fotografía oficial de {{ politico.nombre_completo }}"
-                     class="rounded-4 shadow-sm border" 
-                     style="width: 170px; height: 210px; object-fit: cover;"
-                     onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&background=F1F5F9&color=475569&size=256';">
-                {% endif %}
+                     loading="lazy"
+                     referrerpolicy="no-referrer"
+                     onerror="if (this.dataset.triedFallback !== '1' && '{{ fotoOficial }}' && this.src.indexOf('{{ fotoOficial }}') === -1) { this.dataset.triedFallback = '1'; this.src = '{{ fotoOficial }}'; } else { this.onerror=null; this.src='{{ fallbackAvatar }}'; }">
                 <span class="position-absolute bottom-0 end-0 badge bg-primary rounded-pill px-2 py-1 shadow-sm text-truncate" style="font-size: 0.75rem; max-width: 150px;">
                     {{ 'Gobernador(a)' if (politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo)) else ('Alcalde' if (politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo)) else (politico.camara or politico.cargo)) }}
                 </span>
@@ -844,14 +843,11 @@
     <!-- 2. Ficha de Identidad y Situación Jurídica (Hero Horizontal) -->
     <section class="print-hero-card">
         <div class="print-hero-photo-col">
-            {% if politico.referencia_sil %}
-            <img src="/photos/{{ politico.referencia_sil }}.jpg" 
+            <img src="{{ fotoPerfil if fotoPerfil else fallbackAvatar }}" 
                  alt="{{ politico.nombre_completo }}"
                  class="print-photo-img"
-                 onerror="this.onerror=null; this.src='{{ politico.foto_oficial_url if politico.foto_oficial_url else '' }}';">
-            {% elif politico.foto_oficial_url %}
-            <img src="{{ politico.foto_oficial_url }}" alt="{{ politico.nombre_completo }}" class="print-photo-img">
-            {% endif %}
+                 referrerpolicy="no-referrer"
+                 onerror="if (this.dataset.triedFallback !== '1' && '{{ fotoOficial }}' && this.src.indexOf('{{ fotoOficial }}') === -1) { this.dataset.triedFallback = '1'; this.src = '{{ fotoOficial }}'; } else { this.onerror=null; this.src='{{ fallbackAvatar }}'; }">
             <div class="print-camara-badge">{{ politico.camara }}</div>
         </div>
         <div class="print-hero-info-col">

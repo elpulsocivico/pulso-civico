@@ -162,10 +162,12 @@
             <!-- Avatar y Nombre Centrados -->
             <div class="text-center my-1 flex-grow-1">
                 <div class="avatar-container mb-2 position-relative d-inline-block">
-                    {% if p.referencia_sil %}
-                    <img src="/photos/{{ p.referencia_sil }}.jpg" alt="{{ p.nombre_completo }}" class="avatar-img" loading="lazy" onerror="this.onerror=null; this.src='{{ p.foto_oficial_url if p.foto_oficial_url else 'https://via.placeholder.com/150' }}';">
-                    {% elif p.foto_oficial_url %}
-                    <img src="{{ p.foto_oficial_url }}" alt="{{ p.nombre_completo }}" class="avatar-img" loading="lazy">
+                    {% set pRefSil = p.referencia_sil|string if p.referencia_sil else "" %}
+                    {% set pFotoOficial = p.foto_oficial_url or "" %}
+                    {% set pFoto = p.foto_url or (('/photos/' ~ pRefSil ~ '.jpg') if (p.tiene_foto_local and pRefSil) else (pFotoOficial or "")) %}
+                    {% set pFallback = 'https://ui-avatars.com/api/?name=' ~ (p.nombre_completo|urlencode) ~ '&background=F1F5F9&color=475569&size=150' %}
+                    {% if pFoto %}
+                    <img src="{{ pFoto }}" alt="{{ p.nombre_completo }}" class="avatar-img" loading="lazy" referrerpolicy="no-referrer" onerror="if (this.dataset.triedFallback !== '1' && '{{ pFotoOficial }}' && this.src.indexOf('{{ pFotoOficial }}') === -1) { this.dataset.triedFallback = '1'; this.src = '{{ pFotoOficial }}'; } else { this.onerror=null; this.src='{{ pFallback }}'; }">
                     {% else %}
                     <div class="avatar-img d-inline-flex align-items-center justify-content-center bg-light text-secondary fs-4">
                         <i class="bi bi-person"></i>

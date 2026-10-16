@@ -107,7 +107,7 @@ require __DIR__ . '/layout/header.php';
     <div class="col-lg-4">
         <div class="card-civic p-4 text-center sticky-top" style="top: 80px;">
             <div class="position-relative d-inline-block mx-auto mb-3">
-                <img src="<?= ViewHelper::e($fotoUrl) ?>" alt="Fotografía oficial de <?= ViewHelper::e($nombre) ?>" class="rounded-4 shadow-sm border" style="width: 170px; height: 210px; object-fit: cover;">
+                <img src="<?= ViewHelper::e($fotoUrl) ?>" alt="Fotografía oficial de <?= ViewHelper::e($nombre) ?>" class="rounded-4 shadow-sm border" style="width: 170px; height: 210px; object-fit: cover;" referrerpolicy="no-referrer" onerror="if (this.dataset.triedFallback !== '1' && '<?= ViewHelper::e($politico['foto_oficial_url'] ?? '') ?>' && this.src.indexOf('<?= ViewHelper::e($politico['foto_oficial_url'] ?? '') ?>') === -1) { this.dataset.triedFallback = '1'; this.src = '<?= ViewHelper::e($politico['foto_oficial_url'] ?? '') ?>'; } else { this.onerror=null; this.src='https://ui-avatars.com/api/?name=<?= urlencode($nombre) ?>&background=F1F5F9&color=475569&size=256'; }">
                 <span class="position-absolute bottom-0 end-0 badge bg-primary rounded-pill px-2 py-1 shadow-sm" style="font-size: 0.75rem;">
                     <?= ViewHelper::e($camara) ?>
                 </span>
