@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="100%" height="100%" fill="none">
+  <!-- Fondo y Borde sutil transparente -->
+  <rect width="340" height="70" rx="8" fill="#FBFBFC"/>
+  <rect x="0.5" y="0.5" width="339" height="69" rx="7.5" stroke="#E5E7EB"/>
+
+  <!-- Emblema LXII (2012-2015) -->
+  <g transform="translate(14, 12)">
+    <rect width="46" height="46" rx="8" fill="#1E5631"/>
+    
+    <!-- Monograma LXII -->
+    <path d="M11 14 v18 h8 v-3 h-5 v-15 Z" fill="#D4AF37"/>
+    <path d="M21 20 l4 5.5 l-4 5.5 h4 l2 -3 l2 3 h4 l-4 -5.5 l4 -5.5 h-4 l-2 3 l-2 -3 Z" fill="#FFFFFF"/>
+    <path d="M34 14 v18 h3.5 v-18 Z" fill="#D4AF37"/>
+    <path d="M40 14 v18 h3.5 v-18 Z" fill="#D4AF37"/>
+  </g>
+
+  <!-- Tipografía Oficial LXII Legislatura -->
+  <g transform="translate(70, 0)">
+    <text x="0" y="27" fill="#1E5631" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="0.5">LXII LEGISLATURA</text>
+    <text x="0" y="43" fill="#1C1C1E" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1">CÁMARA DE DIPUTADOS</text>
+    <text x="0" y="55" fill="#6B7280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="500" letter-spacing="0.2">PACTO POR MÉXICO &bull; 2012–2015</text>
+  </g>
+
+  <!-- Acento lateral verde pino -->
+  <path d="M334 18 v34" stroke="#1E5631" stroke-width="3" stroke-linecap="round"/>
+</svg>

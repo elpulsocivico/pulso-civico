@@ -1,0 +1,31 @@
+name: "Reporte de Error en Datos (Fe de Erratas)"
+description: "Señala un dato incorrecto, desactualizado o discrepante en la plataforma"
+title: "[Fe de Erratas] Discrepancia en dato de <Funcionario / Estado>"
+labels: ["fe-de-erratas", "calidad-datos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pulso Cívico se rige por la verdad fáctica de las fuentes oficiales. Si encuentras un dato erróneo, por favor documenta la fuente oficial correspondiente para corregir el scraper.
+  - type: input
+    id: funcionario
+    attributes:
+      label: Funcionario o Entidad afectada
+      placeholder: Ej. Dip. Juan Pérez / Congreso de Jalisco
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion_error
+    attributes:
+      label: Descripción de la discrepancia
+      description: ¿Qué dato muestra la plataforma y cuál es el dato correcto según el portal oficial?
+    validations:
+      required: true
+  - type: input
+    id: fuente_oficial
+    attributes:
+      label: Enlace a la Fuente Oficial que comprueba el error
+      description: URL oficial del Congreso o gaceta (.gob.mx).
+      placeholder: https://congreso.gob.mx/...
+    validations:
+      required: true

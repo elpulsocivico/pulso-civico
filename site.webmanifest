@@ -1,0 +1,52 @@
+{
+  "name": "El Pulso de la Política",
+  "short_name": "Pulso Político",
+  "description": "Observatorio cívico del Congreso Mexicano — Datos oficiales de legisladores, comisiones y municipios.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2F2F7",
+  "theme_color": "#007AFF",
+  "lang": "es",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["government", "news", "politics"],
+  "screenshots": [
+    {
+      "src": "/assets/og-cover.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Mapa político interactivo de México"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Directorio de Políticos",
+      "url": "/politicos",
+      "description": "Búscador de legisladores y representantes"
+    },
+    {
+      "name": "Alcaldes y Municipios",
+      "url": "/alcaldes",
+      "description": "Directorio nacional de presidentes municipales"
+    },
+    {
+      "name": "Comisiones",
+      "url": "/comisiones",
+      "description": "Comisiones ordinarias del Congreso"
+    }
+  ]
+}

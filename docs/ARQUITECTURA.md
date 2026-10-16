@@ -24,34 +24,36 @@ flowchart LR
 index.php            Front controller web (único punto de entrada)
 config/config.php    Configuración (lee .env)
 src/
-  Core/              Router, HttpClient, Logger, ViewHelper
-  Controllers/       WebController (rutas → vistas)
-  DTO/               LegisladorDTO, VotacionDTO, SesionPlenoDTO (contratos de datos)
-  Services/          DataService (lectura), SilIngestService y ParliamentScraperService (ingesta), EducationService (análisis)
-views/               Plantillas (layout/, partials/, páginas)
+  Core/              Router, HttpClient, Logger, ViewHelper, PageCache
+  Controllers/       WebController (rutas generales), MunicipioController (alcaldes y municipios)
+  DTO/               LegisladorDTO, VotacionDTO, SesionPlenoDTO
+  Services/          DataService (lectura unificada), EducationService (análisis estadístico)
+views/               Plantillas (layout/, partials/, páginas por módulo)
 storage/
-  data/json/         Datasets finales publicados
-  raw/photos/        Fotos oficiales (únicas accesibles por HTTP dentro de storage)
-  raw/html/          Descargas crudas (no versionadas)
-  logs/              Bitácoras (no versionadas)
+  data/json/         Datasets finales publicados (3,201 JSONs / 33,368 registros)
+    alcaldes/        Directorio nacional de alcaldes vigentes (2,474 municipios)
+    municipios/      Historial de 54 años y cabildos por cvegeo (2,474 JSONs)
+    ejecutivo/       Gobernadores de 32 estados y CDMX (34 JSONs / 300 reg.)
+  raw/photos/        Fotos oficiales de legisladores y mandatarios
+  raw/html/          Descargas crudas de respaldo
 tools/
   gateway.php        CLI universal: php tools/gateway.php <accion>
   run.ps1            Atajo Windows hacia gateway.php
-  core/              Linter, GitOps, Inspector, ScraperRouter
-bin/console.php      CLI de ingesta
-database/schema.sql  Modelo relacional de referencia (futuro, no usado en runtime)
-```
+  core/              Linter, GitOps, Inspector, CatalogBuilder, BuildDirectoryIndex
 
 ## Rutas web
 | Ruta | Descripción |
 |---|---|
-| `/` | Inicio + mapa |
-| `/politicos/{slug}` | Perfil de legislador |
-| `/estados/{slug}` | Legisladores por entidad |
-| `/comisiones`, `/comisiones/{slug}` | Comisiones |
-| `/estudios`, `/estudios/{categoria}` | Estadísticas |
-| `/api/buscar`, `/api/estados/{slug}` | API JSON |
-| `/sitemap.xml` | SEO |
+| `/` | Portada con observatorio, métricas nacionales y mapa interactivo |
+| `/legislaturas`, `/legislaturas/{id}` | Explorador de legislaturas federales (LVII a LXVI) |
+| `/politicos`, `/politicos/{slug}` | Directorio de políticos y ficha con trayectoria histórica |
+| `/alcaldes`, `/municipios` | Directorio nacional de alcaldes vigentes (2,474 municipios) |
+| `/municipios/{cvegeo}` | Ficha municipal con historial electoral de 54 años y cabildo |
+| `/estados/{slug}` | Ficha estatal (gobernador, congreso local y legisladores federales) |
+| `/comisiones`, `/comisiones/{slug}` | Comisiones legislativas |
+| `/estudios`, `/estudios/{categoria}` | Estadísticas de paridad, pluralidad y productividad |
+| `/api/buscar`, `/api/politicos`, `/api/alcaldes` | API JSON de consulta |
+| `/sitemap.xml`, `/sitemap-*.xml`, `/llms.txt` | Indexación SEO y contexto para agentes de IA |
 
 ## Seguridad
 - `.htaccess` bloquea `src/`, `tools/`, `config/`, `storage/` (salvo fotos), dotfiles y logs.

@@ -1,0 +1,78 @@
+name: "Adopción de Congreso Estatal"
+description: "Reclama un estado para construir o actualizar el scraper de su congreso local"
+title: "[Scraper] Congreso de <Estado>"
+labels: ["scraper", "congreso-local", "datos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por adoptar un Congreso Local para Pulso Cívico.
+        Recuerda que solo se admiten fuentes oficiales (.gob.mx) y datasets reproducibles mediante scrapers.
+  - type: dropdown
+    id: estado
+    attributes:
+      label: Entidad Federativa
+      description: Selecciona el estado que vas a scrapear.
+      options:
+        - Aguascalientes
+        - Baja California
+        - Baja California Sur
+        - Campeche
+        - Coahuila
+        - Colima
+        - Chiapas
+        - Chihuahua
+        - Ciudad de México
+        - Durango
+        - Guanajuato
+        - Guerrero
+        - Hidalgo
+        - Jalisco
+        - Estado de México
+        - Michoacán
+        - Morelos
+        - Nayarit
+        - Nuevo León
+        - Oaxaca
+        - Puebla
+        - Querétaro
+        - Quintana Roo
+        - San Luis Potosí
+        - Sinaloa
+        - Sonora
+        - Tabasco
+        - Tlaxcala
+        - Veracruz
+        - Yucatán
+        - Zacatecas
+    validations:
+      required: true
+  - type: input
+    id: url_oficial
+    attributes:
+      label: URL Oficial del Congreso
+      description: Debe ser un dominio oficial gubernamental (.gob.mx).
+      placeholder: https://www.congresojal.gob.mx
+    validations:
+      required: true
+  - type: input
+    id: legislaturas
+    attributes:
+      label: Legislaturas a extraer
+      description: Ej. LXVI actual, o históricas (LVII a LXVI)
+      placeholder: LXVI actual (2024-2027)
+    validations:
+      required: true
+  - type: checkboxes
+    id: compromisos
+    attributes:
+      label: Lista de verificación ética y técnica
+      options:
+        - label: Mi scraper respetará el rate limit mínimo de 1,000 ms por petición.
+          required: true
+        - label: Todo registro generado incluirá metadata.fuente_url apuntando al portal oficial.
+          required: true
+        - label: No incluiré datos personales sensibles (domicilios, teléfonos privados, familias).
+          required: true
+        - label: Entregaré el código del scraper en src/Services/Scrapers/ junto con el PR.
+          required: true

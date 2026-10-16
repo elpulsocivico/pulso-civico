@@ -59,9 +59,40 @@ La fuente de verdad del formato son las clases en `src/DTO/`.
 ## Sesión de Pleno (`SesionPlenoDTO`)
 Ver `src/DTO/SesionPlenoDTO.php` (asistencias por sesión).
 
-## Próximos contratos (pendientes de diseñar en comunidad)
-- **Persona** (ID único entre legislaturas, para seguir a un político a lo largo del tiempo).
-- **Militancia** (`persona_id`, `partido`, `desde`, `hasta`, `fuente_url`) → chapulineómetro.
-- **Nota periodística** (`titulo`, `url`, `medio`, `fecha`, `personas[]`, `verificada`). Solo metadatos y enlace, nunca el texto completo.
+## Alcalde y Mandato Municipal (`alcaldes` / `municipios/{cvegeo}.json`)
+| Campo | Tipo | Req. | Descripción |
+|---|---|---|---|
+| `cvegeo` | string | ✅ | Clave geoestadística única INEGI (5 dígitos: ej. `01001`) |
+| `entidad` | string | ✅ | Nombre oficial de la entidad federativa |
+| `cve_ent` | int | ✅ | Clave de entidad (1 a 32) |
+| `municipio` | string | ✅ | Nombre oficial del municipio o alcaldía |
+| `cve_mun` | int | ✅ | Clave de municipio según catálogo INEGI |
+| `nombre_completo`| string | ✅ | Nombre completo de la presidenta o presidente municipal |
+| `periodo` | string | ✅ | Rango de gestión (ej. `2024-2027`) |
+| `ano_inicio` | int | ✅ | Año de inicio de mandato |
+| `ano_fin` | int | ✅ | Año de término de mandato |
+| `partido` | string | ✅ | Siglas o coalición partidista |
+| `es_vigente` | bool | ✅ | Indica si se encuentra en funciones |
+| `genero` | string | | `M`, `F` |
+| `margen_victoria`| float\|null| | Diferencia porcentual respecto al segundo lugar |
+| `segundo_lugar` | string\|null| | Candidatura que quedó en segunda posición |
+| `partido_segundo_lugar` | string\|null| | Siglas del partido en segunda posición |
+| `metadata` | object | ✅ | `{fuente_url, fecha_extraccion}` |
 
-> Cambiar un DTO existente rompe datasets: requiere Issue aprobado y campos nuevos **opcionales**.
+## Mandatario Estatal / Gobernador (`ejecutivo/*.json`)
+| Campo | Tipo | Req. | Descripción |
+|---|---|---|---|
+| `slug` | string | ✅ | Identificador único URL (ej. `teresa-jimenez-esquivel`) |
+| `entidad` | string | ✅ | Estado representado |
+| `cve_ent` | int | ✅ | Clave de entidad INEGI |
+| `nombre_completo`| string | ✅ | Nombre oficial del mandatario |
+| `tipo_mandato` | string | ✅ | `Constitucional`, `Sustituto`, `Interino`, `Regente` |
+| `periodo_inicio` | date/int | ✅ | Fecha o año de inicio de funciones |
+| `periodo_fin` | date/int | ✅ | Fecha o año de conclusión |
+| `partido` | string | ✅ | Siglas o filiación política |
+| `es_vigente` | bool | ✅ | Si encabeza el ejecutivo actualmente |
+| `metadata` | object | ✅ | `{fuente_url, fecha_extraccion}` |
+
+---
+
+> Cambiar un DTO o esquema existente requiere verificación de compatibilidad con los datasets JSON ya consolidados.

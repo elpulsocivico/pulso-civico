@@ -26,15 +26,16 @@ Este documento describe el modelo de datos, metodología y cobertura histórica 
 |:---:|---|---|:---:|:---:|:---:|
 | 01 | **Aguascalientes** | Gobernadores Constitucionales y Sustituto | 1992–2027 (35 años) | 7 | ✅ Completado |
 | 09 | **Ciudad de México / Distrito Federal** | Regentes DDF + Jefes de Gobierno | 1929–2030 (101 años) | 35 | ✅ Completado |
-| 02-08, 10-32 | Restantes 30 Entidades | Gobernadores Constitucionales e Interinos | Diseño listo | — | 🚧 En Proceso |
+| 02–08, 10–32 | **Restantes 30 Entidades Federativas** | Gobernadores Constitucionales e Interinos | Cronologías estatales oficiales | ~258 | ✅ Completado |
+| **Total** | **32 Entidades + Cronologías Nacionales** | **Poder Ejecutivo Estatal** | **Histórico consolidado** | **34 JSONs / 300 reg.** | ✅ **100% Match** |
 
 ---
 
 ## 4. Estructura de Datasets y Fuentes Oficiales Auditadas
 
-Los datasets se almacenan en `storage/data/json/ejecutivo/`:
-* `gobernadores_aguascalientes.json`: 7 gobernadores (1992–2027).
-  * **Fuentes primarias**: Periódico Oficial del Estado de Aguascalientes (POEA, `https://eservicios2.aguascalientes.gob.mx/servicios/periodicooficial/`) e Instituto Estatal Electoral de Aguascalientes (IEEA, `https://www.ieeags.mx/`).
+Los datasets se almacenan en `storage/data/json/ejecutivo/` (34 archivos JSON en total):
+* `gobernadores_<estado_slug>.json`: 32 archivos individuales con mandatarios constitucionales, sustitutos y periodos electorales.
+  * **Fuentes primarias**: Periódicos Oficiales Estatales (POEs), Institutos Electorales Locales (IEEs/OPLEs) y gacetas legislativas.
 * `regentes_distrito_federal_1929_1997.json`: 25 Regentes del Departamento del Distrito Federal.
   * **Fuente primaria**: Diario Oficial de la Federación (`https://www.dof.gob.mx`), decretos presidenciales de nombramiento y Ley Orgánica del DDF (DOF 31/12/1928).
 * `jefes_gobierno_cdmx_1997_2030.json`: 10 Jefes de Gobierno del DF y CDMX.

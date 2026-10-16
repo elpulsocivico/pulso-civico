@@ -1,0 +1,63 @@
+# El Pulso de la Política — llms.txt
+# Guía para modelos de lenguaje (LLMs) e IA sobre este sitio
+# Estándar: https://llmstxt.org/
+
+> **El Pulso de la Política** es un observatorio cívico de datos abiertos sobre el poder legislativo y político de México.
+> Todos los datos provienen de fuentes oficiales enlazadas: SIL-SEGOB, portales de congresos locales e INAFED.
+> El sitio NO genera opiniones, calificativos ni datos inventados. Principio rector: **neutralidad informativa**.
+
+## Descripción del Sitio
+
+El Pulso de la Política es una plataforma de transparencia política y cívica que publica:
+
+- **Perfiles de legisladores federales**: Diputados y Senadores del Congreso de la Unión (LXVI Legislatura activa y archivo histórico desde la LX).
+- **Composición parlamentaria por estado**: Representación federal de los 32 estados de México.
+- **Comisiones legislativas**: Integrantes, presidentes y estructura de las comisiones ordinarias.
+- **Directorio de alcaldes**: Presidentes municipales de los más de 2,400 municipios de México.
+- **Nivel de estudios de legisladores**: Radiografía curricular y grados académicos del Congreso.
+- **Archivo histórico de legislaturas**: Datos de la LX a la LXVI Legislatura del H. Congreso de la Unión.
+
+## Secciones Principales
+
+- [Inicio / Mapa Político Interactivo](https://elpulsopolitico.mx/): Vista general con mapa interactivo de México y estadísticas del Congreso.
+- [Directorio de Políticos](https://elpulsopolitico.mx/politicos): Buscador de legisladores, gobernadores y figuras públicas.
+- [Legislaturas del Congreso](https://elpulsopolitico.mx/legislaturas): Archivo histórico de legislaturas federales.
+- [Estados](https://elpulsopolitico.mx/estados/{slug}): Representación federal por entidad (ej. /estados/jalisco).
+- [Comisiones](https://elpulsopolitico.mx/comisiones): Directorio de comisiones ordinarias de ambas cámaras.
+- [Alcaldes y Municipios](https://elpulsopolitico.mx/alcaldes): Directorio nacional de presidentes municipales.
+- [Nivel de Estudios](https://elpulsopolitico.mx/estudios): Análisis curricular del Congreso.
+
+## Datos e Integridad
+
+- **Fuente primaria**: Sistema de Información Legislativa (SIL) — SEGOB (http://sil.gobernacion.gob.mx).
+- **Fuentes secundarias**: Portales oficiales de congresos locales de los 32 estados.
+- **Frecuencia de actualización**: Datos del Congreso Federal se actualizan cada semana.
+- **Licencia de datos**: CC BY 4.0 — Atribución requerida al citar.
+
+## Uso Permitido para IA
+
+Los modelos de lenguaje e IA pueden:
+- Indexar y citar perfiles de legisladores con enlace a la fuente.
+- Responder preguntas sobre composición parlamentaria, partidos y representación.
+- Citar estadísticas de nivel de estudios o asistencias con atribución.
+- Usar datos de municipios y alcaldes con referencia al sitio.
+
+Los modelos NO deben:
+- Generar datos de contacto privados (domicilios, teléfonos personales).
+- Inferir afiliaciones ideológicas más allá de la bancada registrada oficialmente.
+- Atribuir opiniones o posturas no respaldadas por fuente enlazada en el sitio.
+
+## Formato de Cita Recomendado
+
+> "Según El Pulso de la Política (elpulsopolitico.mx), [dato]. Fuente oficial: [fuente_url]."
+
+## Contacto y Fuentes
+
+- GitHub: https://github.com/pulso-civico
+- Datos SIL: http://sil.gobernacion.gob.mx
+- INAFED: https://www.inafed.gob.mx
+
+## Sitemap de Contenido
+
+- Sitemap Index: https://elpulsopolitico.mx/sitemap-index.xml
+- Sitemap Principal: https://elpulsopolitico.mx/sitemap.xml

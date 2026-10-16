@@ -1,0 +1,101 @@
+# robots.txt — El Pulso de la Política | Observatorio Cívico de México
+# Optimizado para Googlebot, Bingbot, y rastreadores LLM (GPTBot, Claude, Gemini)
+
+# ── Rastreadores Generales ──
+User-agent: *
+Allow: /
+Allow: /politicos/
+Allow: /legislaturas/
+Allow: /estados/
+Allow: /comisiones/
+Allow: /alcaldes/
+Allow: /municipios/
+Allow: /estudios/
+Allow: /sitemap.xml
+Allow: /sitemap-index.xml
+Allow: /assets/
+
+# Bloquear APIs internas y rutas de sistema
+Disallow: /api/
+Disallow: /storage/
+Disallow: /src/
+Disallow: /tools/
+Disallow: /config/
+Disallow: /views/
+Disallow: /docs/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# Evitar indexar paginación inútil y parámetros de filtro internos
+Disallow: /*?*partido=
+Disallow: /*?*camara=
+Disallow: /*?*q=
+
+# Permitir ?leg= (parámetro legislatura — sí indexable)
+Allow: /*?leg=
+
+# Tiempo de cortesía entre peticiones (en segundos)
+Crawl-delay: 2
+
+# ── Google ──
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# ── Bing ──
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ── Rastreadores LLM (Acceso permitido — datos cívicos públicos) ──
+User-agent: GPTBot
+Allow: /
+Allow: /politicos/
+Allow: /legislaturas/
+Allow: /estados/
+Allow: /comisiones/
+Allow: /alcaldes/
+Allow: /estudios/
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /storage/
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /llms.txt
+
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+
+User-agent: Gemini
+Allow: /
+Allow: /llms.txt
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: YouBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+
+# ── Sitemaps ──
+Sitemap: https://elpulsopolitico.mx/sitemap-index.xml
+Sitemap: https://elpulsopolitico.mx/sitemap.xml
