@@ -1,0 +1,808 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb small">
+        <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Directorio por Nivel de Estudios</li>
+    </ol>
+</nav>
+
+<!-- Hero de Auditoría Académica -->
+<div class="card-civic p-4 p-md-5 mb-4 position-relative overflow-hidden">
+    <div class="row align-items-center">
+        <div class="col-lg-8">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-primary-subtle text-primary small fw-semibold mb-3">
+                <i class="bi bi-mortarboard-fill"></i> Observatorio de Trayectorias y Formación
+            </div>
+            <h1 class="display-6 fw-bold text-dark mb-2">
+                Nivel Académico de la Clase Política de México
+            </h1>
+            <p class="text-secondary mb-3" style="max-width: 680px;">
+                ¿Qué preparación tienen quienes representan a tu estado y toman decisiones públicas? Explora títulos, universidades y áreas de especialidad de <strong>{{ total_politicos|default(stats.total_legisladores) }}</strong> figuras y representantes de México.
+            </p>
+
+            <!-- Nota ciudadana / pedagógica -->
+            <div class="p-3 bg-light rounded-3 border d-flex align-items-start gap-2 mb-2" style="font-size: 0.8rem; line-height: 1.45;">
+                <i class="bi bi-info-circle-fill text-primary flex-shrink-0 mt-1"></i>
+                <div class="text-secondary">
+                    <strong class="text-dark">Principio de Representación Popular:</strong> La Constitución no exige título universitario para ser representante popular, garantizando el derecho a ser votado. En este observatorio auditamos la formación declarada ante fuentes oficiales con fines de máxima transparencia ciudadana.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+            <!-- Resumen Nacional de Distribución -->
+            <div class="p-3 bg-white rounded-3 border shadow-sm">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <span class="small fw-bold text-secondary text-uppercase" style="font-size: 0.72rem; letter-spacing: 0.5px;">
+                        Promedio Nacional
+                    </span>
+                    <span class="badge bg-light text-dark border small">{{ stats.total_legisladores }} auditados</span>
+                </div>
+                <div class="row g-2 text-center">
+                    <div class="col-4">
+                        <div class="p-2 bg-primary-subtle rounded-3 h-100">
+                            <div class="h5 fw-bold text-primary mb-0" id="heroPosgradosPct">{{ stats.resumen_posgrados.porcentaje }}%</div>
+                            <div class="text-muted" style="font-size: 0.68rem;">Posgrado</div>
+                            <span class="badge bg-primary text-white rounded-pill mt-1" style="font-size: 0.65rem;" id="heroPosgradosTotal">{{ stats.resumen_posgrados.total }}</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-2 bg-success-subtle rounded-3 h-100">
+                            <div class="h5 fw-bold text-success mb-0" id="heroLicenciaturasPct">{{ stats.resumen_licenciaturas.porcentaje }}%</div>
+                            <div class="text-muted" style="font-size: 0.68rem;">Licenciatura</div>
+                            <span class="badge bg-success text-white rounded-pill mt-1" style="font-size: 0.65rem;" id="heroLicenciaturasTotal">{{ stats.resumen_licenciaturas.total }}</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-2 bg-warning-subtle rounded-3 h-100">
+                            <div class="h5 fw-bold text-warning-emphasis mb-0" id="heroMediaTruncaPct">{{ stats.resumen_media_trunca.porcentaje }}%</div>
+                            <div class="text-muted" style="font-size: 0.68rem;">Trunca / Media</div>
+                            <span class="badge bg-dark-subtle text-dark rounded-pill mt-1" style="font-size: 0.65rem;" id="heroMediaTruncaTotal">{{ stats.resumen_media_trunca.total }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Termómetro / Radiografía Dinámica del Filtro Seleccionado -->
+<div id="panelTermometroEstado" class="card-civic p-3 p-md-4 mb-4 border bg-gradient-light shadow-sm" style="transition: all 0.3s ease;">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 mb-3">
+        <div>
+            <span class="badge bg-primary-subtle text-primary border small mb-1">
+                <i class="bi bi-geo-alt-fill me-1"></i><span id="termometroBadgeTipo">Vista General</span>
+            </span>
+            <h2 class="h5 fw-bold text-dark mb-0" id="termometroTitulo">
+                Radiografía General de México
+            </h2>
+            <div class="text-secondary small" id="termometroSubtitulo">
+                Promedio acumulado de preparación académica. Aplica filtros o selecciona tu entidad para ver el desglose en tiempo real.
+            </div>
+        </div>
+        <div id="termometroEnlaceEstado" style="display: none;">
+            <a href="#" id="linkFichaEstado" class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-semibold">
+                Ver expediente del estado &rarr;
+            </a>
+        </div>
+    </div>
+
+    <!-- Barra de distribución visual apilada -->
+    <div class="mb-3">
+        <div class="d-flex justify-content-between small text-muted mb-1" style="font-size: 0.75rem;">
+            <span>Distribución de estudios:</span>
+            <span id="termometroLeyendaValores">
+                Posgrados: {{ stats.resumen_posgrados.porcentaje }}% | Licenciaturas: {{ stats.resumen_licenciaturas.porcentaje }}% | Trunca/Media: {{ stats.resumen_media_trunca.porcentaje }}%
+            </span>
+        </div>
+        <div class="progress" style="height: 12px; border-radius: 6px; background-color: #e2e8f0;">
+            <div id="barraPosgrado" class="progress-bar bg-primary" role="progressbar" style="width: {{ stats.resumen_posgrados.porcentaje }}%;" title="Posgrado"></div>
+            <div id="barraLicenciatura" class="progress-bar bg-success" role="progressbar" style="width: {{ stats.resumen_licenciaturas.porcentaje }}%;" title="Licenciatura"></div>
+            <div id="barraMediaTrunca" class="progress-bar bg-warning" role="progressbar" style="width: {{ stats.resumen_media_trunca.porcentaje }}%;" title="Trunca / Media Superior"></div>
+        </div>
+    </div>
+
+    <!-- 3 Mini Bloques Informativos -->
+    <div class="row g-2 text-center" id="termometroMetricas">
+        <div class="col-4">
+            <div class="p-2 rounded-3 bg-white border">
+                <div class="text-muted small" style="font-size: 0.7rem;">Con Posgrado</div>
+                <div class="fw-bold text-primary" id="termometroValPosgrado">{{ stats.resumen_posgrados.total }} ({{ stats.resumen_posgrados.porcentaje }}%)</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="p-2 rounded-3 bg-white border">
+                <div class="text-muted small" style="font-size: 0.7rem;">Con Licenciatura</div>
+                <div class="fw-bold text-success" id="termometroValLicenciatura">{{ stats.resumen_licenciaturas.total }} ({{ stats.resumen_licenciaturas.porcentaje }}%)</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="p-2 rounded-3 bg-white border">
+                <div class="text-muted small" style="font-size: 0.7rem;">Media / Trunca</div>
+                <div class="fw-bold text-warning-emphasis" id="termometroValMediaTrunca">{{ stats.resumen_media_trunca.total }} ({{ stats.resumen_media_trunca.porcentaje }}%)</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Centro de Control y Filtros Dinámicos -->
+<div class="card-civic p-3 p-md-4 mb-4 border bg-white shadow-sm">
+    <!-- Fila 1: Pestañas de Nivel Académico (Píldoras Reactivas) -->
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3 pb-3 border-bottom">
+        <div class="d-flex flex-wrap gap-2" id="selectorCategorias" role="group" aria-label="Filtro de nivel de estudios">
+            <button type="button" 
+                    class="btn btn-sm rounded-pill px-3 fw-semibold {% if categoria_activa == 'todos' %}btn-primary{% else %}btn-light border text-dark{% endif %}" 
+                    data-categoria="todos">
+                Todos <span class="badge bg-dark-subtle text-dark ms-1" id="badgePillTodos">{{ stats.total_legisladores }}</span>
+            </button>
+            <button type="button" 
+                    class="btn btn-sm rounded-pill px-3 fw-semibold {% if categoria_activa == 'posgrados' %}btn-primary{% else %}btn-light border text-dark{% endif %}" 
+                    data-categoria="posgrados">
+                <i class="bi bi-mortarboard me-1"></i> Posgrados <span class="badge bg-primary-subtle text-primary ms-1" id="badgePillPosgrados">{{ stats.resumen_posgrados.total }}</span>
+            </button>
+            <button type="button" 
+                    class="btn btn-sm rounded-pill px-3 fw-semibold {% if categoria_activa == 'licenciatura' %}btn-primary{% else %}btn-light border text-dark{% endif %}" 
+                    data-categoria="licenciatura">
+                <i class="bi bi-award me-1"></i> Licenciaturas <span class="badge bg-success-subtle text-success ms-1" id="badgePillLicenciaturas">{{ stats.resumen_licenciaturas.total }}</span>
+            </button>
+            <button type="button" 
+                    class="btn btn-sm rounded-pill px-3 fw-semibold {% if categoria_activa == 'media-trunca' %}btn-primary{% else %}btn-light border text-dark{% endif %}" 
+                    data-categoria="media-trunca">
+                <i class="bi bi-layers-half me-1"></i> Media Superior / Trunca <span class="badge bg-warning-subtle text-dark ms-1" id="badgePillMediaTrunca">{{ stats.resumen_media_trunca.total }}</span>
+            </button>
+        </div>
+
+        <button type="button" id="btnLimpiarTodo" class="btn btn-outline-secondary btn-sm rounded-pill px-3 shadow-xs">
+            <i class="bi bi-arrow-counterclockwise me-1"></i> Limpiar filtros
+        </button>
+    </div>
+
+    <!-- Fila 2: Buscador en Tiempo Real -->
+    <div class="mb-3">
+        <div class="input-group">
+            <span class="input-group-text bg-light border-end-0 text-muted rounded-start-pill ps-3">
+                <i class="bi bi-search"></i>
+            </span>
+            <input type="text" 
+                   id="buscadorEnVivo" 
+                   class="form-control bg-light border-start-0 border-end-0 py-2 shadow-none" 
+                   placeholder="Buscar por nombre, estado, municipio cabecera, carrera (ej. médico, abogado), universidad..." 
+                   autocomplete="off">
+            <button class="btn btn-outline-secondary border-start-0 bg-light rounded-end-pill pe-3" type="button" id="btnLimpiarTexto" title="Borrar búsqueda" style="display: none;">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Fila 3: Filtros Dropdown (Estado, Disciplina, Alma Máter) -->
+    <div class="row g-2 mb-3">
+        <!-- Filtro por Estado / Entidad -->
+        <div class="col-12 col-md-4">
+            <label for="filtroEstado" class="form-label small fw-semibold text-secondary mb-1">
+                <i class="bi bi-geo-alt me-1"></i> Estado / Entidad
+            </label>
+            <select id="filtroEstado" class="form-select form-select-sm bg-light rounded-pill py-2 shadow-none">
+                <option value="todos">🇲🇽 Todos los estados (32)</option>
+                {% for est in estados_lista %}
+                <option value="{{ est.slug }}">
+                    {{ est.nombre }} ({{ est.total_representantes }})
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Filtro por Área / Disciplina -->
+        <div class="col-12 col-md-4">
+            <label for="filtroDisciplina" class="form-label small fw-semibold text-secondary mb-1">
+                <i class="bi bi-compass me-1"></i> Área de Conocimiento
+            </label>
+            <select id="filtroDisciplina" class="form-select form-select-sm bg-light rounded-pill py-2 shadow-none">
+                <option value="todas">Todas las áreas</option>
+                {% for disc_nombre, disc_count in disciplinas_lista %}
+                <option value="{{ disc_nombre }}">
+                    {{ disc_nombre }} ({{ disc_count }})
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Filtro por Alma Máter (Pública vs Privada) -->
+        <div class="col-12 col-md-4">
+            <label for="filtroInstitucion" class="form-label small fw-semibold text-secondary mb-1">
+                <i class="bi bi-bank me-1"></i> Tipo de Alma Máter
+            </label>
+            <select id="filtroInstitucion" class="form-select form-select-sm bg-light rounded-pill py-2 shadow-none">
+                <option value="todas">Todas las universidades</option>
+                <option value="publica">🏛️ Univ. Pública (UNAM, IPN, Estatales...)</option>
+                <option value="privada">🎓 Univ. Privada (Tec, ITAM, Ibero...)</option>
+                <option value="mixta">⚖️ Formación Mixta</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Fila 4: Selección Múltiple por Cargo / Representación (Checkboxes Interactivos) -->
+    <div class="mb-3 p-3 bg-light rounded-4 border">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+            <div class="d-flex align-items-center gap-2">
+                <span class="small fw-bold text-secondary text-uppercase" style="font-size: 0.75rem; letter-spacing: 0.5px;">
+                    <i class="bi bi-person-badge-fill text-primary me-1"></i> Cargo o Trayectoria (Cruza información con checkboxes):
+                </span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <div class="form-check form-switch m-0 d-inline-flex align-items-center gap-1">
+                    <input class="form-check-input shadow-none cursor-pointer" type="checkbox" role="switch" id="filtroSoloActivos">
+                    <label class="form-check-label small text-secondary fw-semibold cursor-pointer" for="filtroSoloActivos" style="font-size: 0.75rem;">
+                        Solo en funciones (LXVI)
+                    </label>
+                </div>
+                <button type="button" id="btnDesmarcarCargos" class="btn btn-link text-decoration-none text-muted p-0 small" style="font-size: 0.75rem;">
+                    Desmarcar cargos
+                </button>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap gap-2" id="contenedorCheckboxesCargos">
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_senador">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_senador" value="senador">
+                <span>🏛️ Senadores</span>
+            </label>
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_dip_fed">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_dip_fed" value="diputado_federal">
+                <span>🏛️ Dip. Federales</span>
+            </label>
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_dip_loc">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_dip_loc" value="diputado_local">
+                <span>🏛️ Dip. Locales</span>
+            </label>
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_alcalde">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_alcalde" value="alcalde">
+                <span>🏢 Alcaldes / Pdtes. Mpal.</span>
+            </label>
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_edil">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_edil" value="edil">
+                <span>👥 Regidores / Síndicos</span>
+            </label>
+            <label class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-2 cursor-pointer cargo-check-label" for="cargo_gobernador">
+                <input class="form-check-input m-0 check-cargo cursor-pointer" type="checkbox" id="cargo_gobernador" value="gobernador">
+                <span>🏛️ Gobernadores</span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Fila 5: Píldoras Rápidas por Partido Político -->
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="small fw-semibold text-secondary" style="font-size: 0.78rem;">
+                <i class="bi bi-flag me-1"></i> Filtrar por Partido:
+            </span>
+        </div>
+        <div class="d-flex flex-wrap gap-2" id="selectorPartidos">
+            <button type="button" class="btn btn-sm rounded-pill px-3 fw-semibold btn-dark active" data-partido="todos">
+                Todos
+            </button>
+            {% for party_name in ['Morena', 'PAN', 'PRI', 'PVEM', 'PT', 'Movimiento Ciudadano'] %}
+            <button type="button" 
+                    class="btn btn-sm rounded-pill px-3 fw-semibold btn-light border text-dark d-inline-flex align-items-center gap-1 party-filter-btn" 
+                    data-partido="{{ party_name }}">
+                {{ party_micro_icon_func(party_name)|safe }}
+                <span>{{ party_name }}</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Barra de Conteo y Chips de Filtros Activos -->
+<div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-2 mb-3 px-1 small text-muted">
+    <div class="d-flex align-items-center flex-wrap gap-2">
+        <span>Mostrando <strong class="text-dark" id="conteoVisible">{{ politicos|length }}</strong> de <span id="conteoTotal">{{ total_politicos|default(stats.total_legisladores) }}</span> figuras auditadas</span>
+        <div id="contenedorChipsActivos" class="d-flex flex-wrap gap-1"></div>
+    </div>
+    <div>
+        <a href="/" class="text-decoration-none small text-secondary">
+            &larr; Volver al inicio
+        </a>
+    </div>
+</div>
+
+<!-- Grid de Personas / Políticos (Lote Inicial SSR) -->
+<div class="row g-3 g-md-4 mb-4" id="gridLegisladores">
+    {% for p in politicos %}
+        {% include "partials/card_estudios.html" %}
+    {% endfor %}
+</div>
+
+<!-- Centinela y Loader de Lazy Load Progresivo -->
+<div id="infiniteScrollSentinel" class="text-center py-4 my-3 {{ 'd-none' if total_politicos <= 32 else '' }}">
+    <div id="loaderSpinner" class="d-none mb-2">
+        <div class="spinner-border text-primary spinner-border-sm me-2" role="status"></div>
+        <span class="text-secondary small fw-medium">Cargando más representantes...</span>
+    </div>
+    <button type="button" id="btnCargarMas" class="btn btn-outline-primary rounded-pill px-4 btn-sm fw-semibold shadow-xs">
+        <i class="bi bi-arrow-down-circle me-1"></i>Cargar más representantes
+    </button>
+</div>
+
+<!-- Estado Vacío cuando ningún resultado coincide -->
+<div id="sinResultados" class="card-civic p-5 text-center bg-white rounded-4 border shadow-sm my-4 d-none">
+    <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-light text-muted mb-3" style="width: 60px; height: 60px;">
+        <i class="bi bi-search fs-3"></i>
+    </div>
+    <h3 class="h5 fw-bold text-dark mb-1">No se encontraron figuras con estos criterios</h3>
+    <p class="text-muted small mb-3">Prueba desmarcando cargos, cambiando de estado o buscando otro término.</p>
+    <button type="button" class="btn btn-primary rounded-pill btn-sm px-4" id="btnRestablecerVacios">
+        Restablecer todos los filtros
+    </button>
+</div>
+
+<!-- Lógica JavaScript Reactiva con Lazy Loading y Recálculo Dinámico de Píldoras -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const apiUrl = '/api/estudios';
+    const selectorCategorias = document.getElementById('selectorCategorias');
+    const selectorPartidos = document.getElementById('selectorPartidos');
+    const buscadorEnVivo = document.getElementById('buscadorEnVivo');
+    const btnLimpiarTexto = document.getElementById('btnLimpiarTexto');
+    const filtroEstado = document.getElementById('filtroEstado');
+    const filtroDisciplina = document.getElementById('filtroDisciplina');
+    const filtroInstitucion = document.getElementById('filtroInstitucion');
+    const switchActivos = document.getElementById('filtroSoloActivos');
+    const btnLimpiarTodo = document.getElementById('btnLimpiarTodo');
+    const btnRestablecerVacios = document.getElementById('btnRestablecerVacios');
+    const btnDesmarcarCargos = document.getElementById('btnDesmarcarCargos');
+    const cargoCheckboxes = document.querySelectorAll('.check-cargo');
+
+    const grid = document.getElementById('gridLegisladores');
+    const conteoVisible = document.getElementById('conteoVisible');
+    const conteoTotal = document.getElementById('conteoTotal');
+    const sinResultados = document.getElementById('sinResultados');
+    const contenedorChips = document.getElementById('contenedorChipsActivos');
+    const sentinel = document.getElementById('infiniteScrollSentinel');
+    const btnCargarMas = document.getElementById('btnCargarMas');
+    const loaderSpinner = document.getElementById('loaderSpinner');
+
+    // Badges de las Píldoras de Categoría
+    const badgePillTodos = document.getElementById('badgePillTodos');
+    const badgePillPosgrados = document.getElementById('badgePillPosgrados');
+    const badgePillLicenciaturas = document.getElementById('badgePillLicenciaturas');
+    const badgePillMediaTrunca = document.getElementById('badgePillMediaTrunca');
+
+    // Elementos del Termómetro
+    const termometroBadgeTipo = document.getElementById('termometroBadgeTipo');
+    const termometroTitulo = document.getElementById('termometroTitulo');
+    const termometroSubtitulo = document.getElementById('termometroSubtitulo');
+    const termometroEnlaceEstado = document.getElementById('termometroEnlaceEstado');
+    const linkFichaEstado = document.getElementById('linkFichaEstado');
+    const termometroLeyendaValores = document.getElementById('termometroLeyendaValores');
+    const barraPosgrado = document.getElementById('barraPosgrado');
+    const barraLicenciatura = document.getElementById('barraLicenciatura');
+    const barraMediaTrunca = document.getElementById('barraMediaTrunca');
+    const termometroValPosgrado = document.getElementById('termometroValPosgrado');
+    const termometroValLicenciatura = document.getElementById('termometroValLicenciatura');
+    const termometroValMediaTrunca = document.getElementById('termometroValMediaTrunca');
+
+    let categoriaActual = '{{ categoria_activa }}';
+    let partidoActual = 'todos';
+    let currentPage = 1;
+    let isLoading = false;
+    let hasMore = {{ 'true' if total_politicos > 32 else 'false' }};
+    let currentAbortController = null;
+    let userHasScrolled = false;
+
+    function getSelectedCargos() {
+        const checked = [];
+        cargoCheckboxes.forEach(cb => {
+            if (cb.checked) checked.push(cb.value);
+        });
+        return checked;
+    }
+
+    function getParametros(pageNumber = 1) {
+        const params = new URLSearchParams();
+        params.set('page', pageNumber);
+        params.set('limit', '32');
+
+        if (categoriaActual && categoriaActual !== 'todos') {
+            params.set('categoria', categoriaActual);
+        }
+
+        const q = (buscadorEnVivo.value || '').trim();
+        if (q) params.set('q', q);
+
+        const est = filtroEstado.value;
+        if (est && est !== 'todos') params.set('estado', est);
+
+        if (partidoActual && partidoActual !== 'todos') {
+            params.set('partido', partidoActual);
+        }
+
+        const disc = filtroDisciplina.value;
+        if (disc && disc !== 'todas') params.set('disciplina', disc);
+
+        if (filtroInstitucion && filtroInstitucion.value !== 'todas') {
+            params.set('institucion', filtroInstitucion.value);
+        }
+
+        const cargos = getSelectedCargos();
+        if (cargos.length > 0) {
+            params.set('cargos', cargos.join(','));
+        }
+
+        if (switchActivos && switchActivos.checked) {
+            params.set('activo', '1');
+        }
+
+        return params;
+    }
+
+    function syncCargoButtonStyles() {
+        cargoCheckboxes.forEach(cb => {
+            const label = cb.closest('label');
+            if (!label) return;
+            if (cb.checked) {
+                label.classList.remove('btn-outline-secondary');
+                label.classList.add('btn-primary', 'text-white');
+            } else {
+                label.classList.remove('btn-primary', 'text-white');
+                label.classList.add('btn-outline-secondary');
+            }
+        });
+    }
+
+    function renderChipsActivos() {
+        let chipsHtml = '';
+        const q = (buscadorEnVivo.value || '').trim();
+        const est = filtroEstado.value;
+        const disc = filtroDisciplina.value;
+        const inst = filtroInstitucion ? filtroInstitucion.value : 'todas';
+        const cargos = getSelectedCargos();
+        const esActivo = switchActivos && switchActivos.checked;
+
+        if (categoriaActual !== 'todos') {
+            const labels = {
+                'posgrados': '🎓 Posgrados',
+                'licenciatura': '📜 Licenciaturas',
+                'media-trunca': '📄 Media / Trunca'
+            };
+            chipsHtml += `<span class="badge bg-primary text-white d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">${labels[categoriaActual] || categoriaActual} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('categoria')"></i></span>`;
+        }
+
+        if (cargos.length > 0) {
+            const cargoLabels = {
+                'senador': 'Senadores',
+                'diputado_federal': 'Dip. Federales',
+                'diputado_local': 'Dip. Locales',
+                'alcalde': 'Alcaldes',
+                'edil': 'Regidores/Síndicos',
+                'gobernador': 'Gobernadores'
+            };
+            const labelsTxt = cargos.map(c => cargoLabels[c] || c).join(', ');
+            chipsHtml += `<span class="badge bg-info-subtle text-info-emphasis border d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">🏛️ ${labelsTxt} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('cargos')"></i></span>`;
+        }
+
+        if (est !== 'todos') {
+            const opt = filtroEstado.options[filtroEstado.selectedIndex];
+            const nomEst = opt ? opt.text.split('(')[0].trim() : est;
+            chipsHtml += `<span class="badge bg-secondary text-white d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">📍 ${nomEst} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('estado')"></i></span>`;
+        }
+
+        if (partidoActual !== 'todos') {
+            chipsHtml += `<span class="badge bg-dark text-white d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">🚩 ${partidoActual} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('partido')"></i></span>`;
+        }
+
+        if (disc !== 'todas') {
+            chipsHtml += `<span class="badge bg-light text-dark border d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">📚 ${disc} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('disciplina')"></i></span>`;
+        }
+
+        if (inst !== 'todas') {
+            const instMap = { 'publica': 'Univ. Pública', 'privada': 'Univ. Privada', 'mixta': 'Formación Mixta' };
+            chipsHtml += `<span class="badge bg-light text-dark border d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">${instMap[inst] || inst} <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('institucion')"></i></span>`;
+        }
+
+        if (esActivo) {
+            chipsHtml += `<span class="badge bg-success-subtle text-success border border-success-subtle d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">🟢 En funciones (LXVI) <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('activo')"></i></span>`;
+        }
+
+        if (q) {
+            chipsHtml += `<span class="badge bg-warning-subtle text-dark border d-inline-flex align-items-center gap-1 rounded-pill px-2 py-1">🔍 "${q}" <i class="bi bi-x-circle cursor-pointer" onclick="window.quitarFiltro('texto')"></i></span>`;
+        }
+
+        contenedorChips.innerHTML = chipsHtml;
+    }
+
+    async function cargarLote(reset = false) {
+        if (isLoading) return;
+        if (!reset && !hasMore) return;
+
+        if (currentAbortController) {
+            currentAbortController.abort();
+        }
+        currentAbortController = new AbortController();
+
+        isLoading = true;
+        const targetPage = reset ? 1 : (currentPage + 1);
+
+        if (reset) {
+            grid.innerHTML = '';
+            sinResultados.classList.add('d-none');
+            grid.classList.remove('d-none');
+        }
+
+        if (sentinel) {
+            sentinel.classList.remove('d-none');
+            if (loaderSpinner) loaderSpinner.classList.remove('d-none');
+            if (btnCargarMas) btnCargarMas.classList.add('d-none');
+        }
+
+        try {
+            const params = getParametros(targetPage);
+            const response = await fetch(`${apiUrl}?${params.toString()}`, {
+                signal: currentAbortController.signal,
+                headers: { 'Accept': 'application/json' }
+            });
+
+            if (!response.ok) throw new Error('Error al cargar datos escolares');
+
+            const data = await response.json();
+            if (data.ok) {
+                // Actualizar píldoras con métricas reactivas del universo filtrado
+                if (data.stats && data.stats.por_categoria) {
+                    if (badgePillTodos) badgePillTodos.textContent = Number(data.stats.por_categoria.todos || 0).toLocaleString();
+                    if (badgePillPosgrados) badgePillPosgrados.textContent = Number(data.stats.por_categoria.posgrados || 0).toLocaleString();
+                    if (badgePillLicenciaturas) badgePillLicenciaturas.textContent = Number(data.stats.por_categoria.licenciatura || 0).toLocaleString();
+                    if (badgePillMediaTrunca) badgePillMediaTrunca.textContent = Number(data.stats.por_categoria['media-trunca'] || 0).toLocaleString();
+                }
+
+                // Actualizar Termómetro / Radiografía Superior
+                if (data.stats) {
+                    const st = data.stats;
+                    barraPosgrado.style.width = st.pct_posgrados + '%';
+                    barraLicenciatura.style.width = st.pct_licenciaturas + '%';
+                    barraMediaTrunca.style.width = st.pct_media_trunca + '%';
+
+                    termometroLeyendaValores.textContent = `Posgrados: ${st.pct_posgrados}% | Licenciaturas: ${st.pct_licenciaturas}% | Trunca/Media: ${st.pct_media_trunca}%`;
+
+                    termometroValPosgrado.textContent = `${st.posgrados} (${st.pct_posgrados}%)`;
+                    termometroValLicenciatura.textContent = `${st.licenciaturas} (${st.pct_licenciaturas}%)`;
+                    termometroValMediaTrunca.textContent = `${st.media_trunca} (${st.pct_media_trunca}%)`;
+
+                    if (data.estado_info && data.estado_info.nombre) {
+                        termometroBadgeTipo.textContent = 'Entidad Federativa';
+                        termometroTitulo.textContent = `📍 ${data.estado_info.nombre} (${st.total} representantes)`;
+                        termometroSubtitulo.textContent = `Radiografía de preparación académica de los representantes vinculados a ${data.estado_info.nombre}.`;
+                        linkFichaEstado.href = `/estados/${data.estado_info.slug}`;
+                        linkFichaEstado.textContent = `Ver expediente de ${data.estado_info.nombre} →`;
+                        termometroEnlaceEstado.style.display = 'block';
+                    } else {
+                        termometroBadgeTipo.textContent = 'Radiografía Dinámica';
+                        termometroTitulo.textContent = `Distribución Académica (${st.total} figuras)`;
+                        termometroSubtitulo.textContent = `Radiografía de preparación curricular según los filtros de cargo, entidad y partido seleccionados.`;
+                        termometroEnlaceEstado.style.display = 'none';
+                    }
+                }
+
+                // Renderizar cards
+                if (data.html && data.html.trim() !== '') {
+                    grid.insertAdjacentHTML('beforeend', data.html);
+                    sinResultados.classList.add('d-none');
+                    grid.classList.remove('d-none');
+                } else if (reset) {
+                    sinResultados.classList.remove('d-none');
+                    grid.classList.add('d-none');
+                }
+
+                // Contadores visibles
+                const totalEnDOM = grid.querySelectorAll('.politico-card-item').length;
+                if (conteoVisible) conteoVisible.textContent = totalEnDOM.toLocaleString();
+                if (conteoTotal && data.total_filtrados !== undefined) {
+                    conteoTotal.textContent = Number(data.total_filtrados).toLocaleString();
+                }
+
+                currentPage = targetPage;
+                hasMore = Boolean(data.has_more);
+
+                if (!hasMore && sentinel) {
+                    sentinel.classList.add('d-none');
+                }
+            }
+        } catch (err) {
+            if (err.name !== 'AbortError') {
+                console.error('Error cargando representantes escolares:', err);
+            }
+        } finally {
+            isLoading = false;
+            if (loaderSpinner) loaderSpinner.classList.add('d-none');
+            if (hasMore && btnCargarMas) {
+                btnCargarMas.classList.remove('d-none');
+            }
+            renderChipsActivos();
+        }
+    }
+
+    let debounceTimer = null;
+    function debounce(fn, delay = 250) {
+        return function (...args) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => fn.apply(this, args), delay);
+        };
+    }
+
+    // Eventos de Píldoras de Categoría Académica
+    selectorCategorias.addEventListener('click', function (e) {
+        const btn = e.target.closest('button[data-categoria]');
+        if (!btn) return;
+
+        categoriaActual = btn.getAttribute('data-categoria');
+
+        selectorCategorias.querySelectorAll('button[data-categoria]').forEach(function (b) {
+            if (b === btn) {
+                b.className = 'btn btn-sm rounded-pill px-3 fw-semibold btn-primary';
+            } else {
+                b.className = 'btn btn-sm rounded-pill px-3 fw-semibold btn-light border text-dark';
+            }
+        });
+
+        const nuevaUrl = (categoriaActual === 'todos') ? '/estudios' : '/estudios/' + categoriaActual;
+        window.history.replaceState({ categoria: categoriaActual }, '', nuevaUrl);
+
+        cargarLote(true);
+    });
+
+    // Eventos de Selección de Partidos
+    selectorPartidos.addEventListener('click', function (e) {
+        const btn = e.target.closest('button[data-partido]');
+        if (!btn) return;
+
+        partidoActual = btn.getAttribute('data-partido');
+
+        selectorPartidos.querySelectorAll('button[data-partido]').forEach(function (b) {
+            if (b === btn) {
+                b.classList.remove('btn-light', 'border');
+                b.classList.add('btn-dark', 'active');
+            } else {
+                b.classList.remove('btn-dark', 'active');
+                b.classList.add('btn-light', 'border');
+            }
+        });
+
+        cargarLote(true);
+    });
+
+    // Eventos de Checkboxes de Cargos
+    cargoCheckboxes.forEach(cb => {
+        cb.addEventListener('change', function () {
+            syncCargoButtonStyles();
+            cargarLote(true);
+        });
+    });
+
+    if (btnDesmarcarCargos) {
+        btnDesmarcarCargos.addEventListener('click', function () {
+            cargoCheckboxes.forEach(cb => { cb.checked = false; });
+            syncCargoButtonStyles();
+            cargarLote(true);
+        });
+    }
+
+    // Buscador
+    buscadorEnVivo.addEventListener('input', function () {
+        btnLimpiarTexto.style.display = this.value ? 'block' : 'none';
+        debounce(() => cargarLote(true))();
+    });
+
+    btnLimpiarTexto.addEventListener('click', function () {
+        buscadorEnVivo.value = '';
+        btnLimpiarTexto.style.display = 'none';
+        cargarLote(true);
+        buscadorEnVivo.focus();
+    });
+
+    // Selects
+    filtroEstado.addEventListener('change', () => cargarLote(true));
+    filtroDisciplina.addEventListener('change', () => cargarLote(true));
+    if (filtroInstitucion) filtroInstitucion.addEventListener('change', () => cargarLote(true));
+    if (switchActivos) switchActivos.addEventListener('change', () => cargarLote(true));
+
+    // Resetear
+    function resetearTodosLosFiltros() {
+        categoriaActual = 'todos';
+        partidoActual = 'todos';
+        buscadorEnVivo.value = '';
+        btnLimpiarTexto.style.display = 'none';
+        filtroEstado.value = 'todos';
+        filtroDisciplina.value = 'todas';
+        if (filtroInstitucion) filtroInstitucion.value = 'todas';
+        if (switchActivos) switchActivos.checked = false;
+        cargoCheckboxes.forEach(cb => { cb.checked = false; });
+        syncCargoButtonStyles();
+
+        selectorCategorias.querySelectorAll('button[data-categoria]').forEach(function (b) {
+            b.className = (b.getAttribute('data-categoria') === 'todos') 
+                ? 'btn btn-sm rounded-pill px-3 fw-semibold btn-primary' 
+                : 'btn btn-sm rounded-pill px-3 fw-semibold btn-light border text-dark';
+        });
+
+        selectorPartidos.querySelectorAll('button[data-partido]').forEach(function (b) {
+            if (b.getAttribute('data-partido') === 'todos') {
+                b.classList.remove('btn-light', 'border');
+                b.classList.add('btn-dark', 'active');
+            } else {
+                b.classList.remove('btn-dark', 'active');
+                b.classList.add('btn-light', 'border');
+            }
+        });
+
+        window.history.replaceState({ categoria: 'todos' }, '', '/estudios');
+        cargarLote(true);
+    }
+
+    btnLimpiarTodo.addEventListener('click', resetearTodosLosFiltros);
+    btnRestablecerVacios.addEventListener('click', resetearTodosLosFiltros);
+
+    // Función global para quitar chips
+    window.quitarFiltro = function (tipo) {
+        if (tipo === 'categoria') {
+            categoriaActual = 'todos';
+            selectorCategorias.querySelectorAll('button[data-categoria]').forEach(function (b) {
+                b.className = (b.getAttribute('data-categoria') === 'todos') 
+                    ? 'btn btn-sm rounded-pill px-3 fw-semibold btn-primary' 
+                    : 'btn btn-sm rounded-pill px-3 fw-semibold btn-light border text-dark';
+            });
+            window.history.replaceState({ categoria: 'todos' }, '', '/estudios');
+        } else if (tipo === 'cargos') {
+            cargoCheckboxes.forEach(cb => { cb.checked = false; });
+            syncCargoButtonStyles();
+        } else if (tipo === 'estado') {
+            filtroEstado.value = 'todos';
+        } else if (tipo === 'partido') {
+            partidoActual = 'todos';
+            selectorPartidos.querySelectorAll('button[data-partido]').forEach(function (b) {
+                if (b.getAttribute('data-partido') === 'todos') {
+                    b.classList.remove('btn-light', 'border');
+                    b.classList.add('btn-dark', 'active');
+                } else {
+                    b.classList.remove('btn-dark', 'active');
+                    b.classList.add('btn-light', 'border');
+                }
+            });
+        } else if (tipo === 'disciplina') {
+            filtroDisciplina.value = 'todas';
+        } else if (tipo === 'institucion') {
+            if (filtroInstitucion) filtroInstitucion.value = 'todas';
+        } else if (tipo === 'activo') {
+            if (switchActivos) switchActivos.checked = false;
+        } else if (tipo === 'texto') {
+            buscadorEnVivo.value = '';
+            btnLimpiarTexto.style.display = 'none';
+        }
+        cargarLote(true);
+    };
+
+    // Botón de Cargar Más manual
+    if (btnCargarMas) {
+        btnCargarMas.addEventListener('click', () => cargarLote(false));
+    }
+
+    // Scroll infinito proactivo
+    window.addEventListener('scroll', () => { userHasScrolled = true; }, { passive: true, once: true });
+
+    if ('IntersectionObserver' in window && sentinel) {
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && userHasScrolled && hasMore && !isLoading) {
+                cargarLote(false);
+            }
+        }, {
+            root: null,
+            rootMargin: '250px',
+            threshold: 0.1
+        });
+        observer.observe(sentinel);
+    }
+
+    syncCargoButtonStyles();
+    renderChipsActivos();
+});
+</script>
+{% endblock %}

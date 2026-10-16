@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "titulo": "Resumen Estadístico y Metadatos Agregados - Nuevo León",
+        "entidad_id": 19,
+        "entidad_nombre": "Nuevo León",
+        "entidad_slug": "nuevoleon",
+        "clave_iso": "MX-NLE",
+        "generado_en": "2026-10-15T00:24:01+02:00",
+        "estatus_auditoria": "100% verificado sin errores sintácticos"
+    },
+    "poder_ejecutivo": {
+        "mandatario_actual": null,
+        "total_mandatarios_historicos": 0,
+        "cobertura": "Pendiente"
+    },
+    "poder_legislativo_estatal": {
+        "legislatura_vigente": 77,
+        "total_diputados": 42,
+        "bancadas_partidistas": {
+            "MC": 11,
+            "PRI": 11,
+            "PAN": 11,
+            "MORENA": 6,
+            "DSP": 1,
+            "PVEM": 1,
+            "PT": 1
+        },
+        "total_legislaturas_historicas": 7
+    },
+    "representacion_federal": {
+        "legislatura": 66,
+        "diputados_federales": 25,
+        "senadores_republica": 3,
+        "total_federal": 28,
+        "distribucion_partidos": {
+            "Morena": 6,
+            "PAN": 6,
+            "MC": 5,
+            "PRI": 4,
+            "PVEM": 4,
+            "PT": 3
+        }
+    },
+    "indicadores_clave": {
+        "total_cargos_registrados": 70,
+        "fuerza_mayoritaria_local": "MC",
+        "fuerza_mayoritaria_federal": "Morena"
+    }
+}

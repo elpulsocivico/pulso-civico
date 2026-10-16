@@ -1,0 +1,634 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<!-- Breadcrumbs -->
+<nav aria-label="breadcrumb" class="breadcrumb-ios">
+    <ol class="breadcrumb mb-3">
+        <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Directorio de Políticos</li>
+    </ol>
+</nav>
+
+<!-- Hero del Directorio -->
+<div class="card-civic p-4 p-md-5 mb-4 position-relative overflow-hidden">
+    <div class="row align-items-center">
+        <div class="col-lg-8">
+            <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
+                <span class="badge bg-primary rounded-pill">Directorio Ciudadano</span>
+                <span class="badge bg-light text-secondary border">
+                    <i class="bi bi-person-badge me-1"></i>{{ total_politicos }} Registros Auditados
+                </span>
+                <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">
+                    <i class="bi bi-shield-check me-1"></i>Fuentes Oficiales
+                </span>
+            </div>
+            <h1 class="display-6 fw-bold text-dark mb-2">
+                Directorio de Políticos y Representantes
+            </h1>
+            <p class="text-secondary mb-0">
+                Consulta el expediente público, cargos actuales y trayectoria acumulada de legisladores, gobernadores y ediles de la República Mexicana.
+            </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+            <div class="d-inline-flex flex-column align-items-lg-end gap-1 p-3 bg-light rounded-4 border">
+                <span class="text-muted small">Cargos históricos rastreados:</span>
+                <div class="d-flex flex-wrap gap-1 justify-content-lg-end">
+                    <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle">Senadores</span>
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Dip. Federales</span>
+                    <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">Dip. Locales</span>
+                    <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle">Alcaldes</span>
+                    <span class="badge bg-danger-subtle text-danger border border-danger-subtle">Gobernadores</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Barra de Búsqueda y Filtros Reactivos -->
+<div class="card-civic p-3 p-md-4 mb-4 bg-white shadow-sm border">
+    <div class="row g-2 align-items-center">
+        <!-- Buscador de Texto Libre -->
+        <div class="col-12 col-md-4">
+            <div class="input-group">
+                <span class="input-group-text bg-light border-end-0 text-muted rounded-start-pill ps-3">
+                    <i class="bi bi-search"></i>
+                </span>
+                <input type="text" id="filtroTexto" class="form-control bg-light border-start-0 rounded-end-pill py-2 shadow-none" placeholder="Buscar por nombre o apodo..." autocomplete="off">
+            </div>
+        </div>
+
+        <!-- Filtro por Legislatura -->
+        <div class="col-6 col-md-2">
+            <select id="filtroLegislatura" class="form-select bg-light rounded-pill py-2 shadow-none text-secondary">
+                <option value="todas">Todas las Legislaturas</option>
+                {% for numL, infoL in catalog_legislaturas.items() %}
+                    <option value="{{ numL }}" {% if selected_leg == numL|string %}selected{% endif %}>
+                        {{ infoL.romano }} ({{ infoL.periodo }}) {% if numL == 66 %}• Actual{% endif %}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Filtro por Cargo / Trayectoria Acumulada -->
+        <div class="col-6 col-md-2">
+            <select id="filtroCargo" class="form-select bg-light rounded-pill py-2 shadow-none text-secondary">
+                <option value="todos">Todos los Cargos</option>
+                <option value="senador">🏛️ Senadores</option>
+                <option value="diputado_federal">🏛️ Diputados Federales</option>
+                <option value="diputado_local" {% if selected_leg != 'todas' %}disabled class="text-muted"{% endif %}>🏛️ Diputados Locales</option>
+                <option value="alcalde" {% if selected_leg != 'todas' %}disabled class="text-muted"{% endif %}>🏢 Alcaldes</option>
+                <option value="edil" {% if selected_leg != 'todas' %}disabled class="text-muted"{% endif %}>👥 Regidores / Síndicos (Cabildo)</option>
+                <option value="gobernador" {% if selected_leg != 'todas' %}disabled class="text-muted"{% endif %}>🏛️ Ex-Gobernadores (Trayectoria)</option>
+                <option value="cambio_partido" {% if selected_leg != 'todas' %}disabled class="text-muted"{% endif %}>🔀 Transición Partidista</option>
+            </select>
+        </div>
+
+        <!-- Filtro por Entidad Federativa -->
+        <div class="col-6 col-md-2">
+            <select id="filtroEstado" class="form-select bg-light rounded-pill py-2 shadow-none text-secondary">
+                <option value="todos">Todas las Entidades</option>
+                {% for est in estados_catalog %}
+                    <option value="{{ est.slug }}">{{ est.nombre }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Filtro por Partido Político -->
+        <div class="col-6 col-md-2">
+            <select id="filtroPartido" class="form-select bg-light rounded-pill py-2 shadow-none text-secondary">
+                <option value="todos">Todos los Partidos</option>
+                <option value="morena">Morena</option>
+                <option value="pan">PAN</option>
+                <option value="pri">PRI</option>
+                <option value="pvem">PVEM (Verde)</option>
+                <option value="pt">PT (Trabajo)</option>
+                <option value="mc">Movimiento Ciudadano</option>
+                <option value="prd">PRD</option>
+                <option value="independiente">Independiente / Sin Partido</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Barra Secundaria: Conmutador Solo Activos, Botón de Reporte Cívico y Contador de Resultados -->
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mt-3 pt-3 border-top">
+        <div class="d-flex align-items-center gap-3 flex-wrap">
+            <div class="form-check form-switch m-0">
+                <input class="form-check-input shadow-none" type="checkbox" role="switch" id="filtroSoloActivos">
+                <label class="form-check-label small text-secondary fw-semibold" for="filtroSoloActivos">
+                    Solo en funciones actualmente
+                </label>
+            </div>
+            <button type="button" class="btn btn-sm btn-link text-decoration-none text-muted p-0 d-none" id="btnLimpiarFiltros">
+                <i class="bi bi-x-circle me-1"></i>Limpiar filtros
+            </button>
+        </div>
+        <div class="d-flex align-items-center gap-3 flex-wrap">
+            <button type="button" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1 d-inline-flex align-items-center gap-1 shadow-xs" id="btnReportarFiltros" title="Reportar falso positivo o dato no verídico en este resultado">
+                <i class="bi bi-flag-fill text-danger"></i>
+                <span class="fw-semibold">¿Información no verídica?</span> <span class="d-none d-sm-inline">Reportar aquí</span>
+            </button>
+            <div class="text-secondary small fw-medium" id="contadorResultados">
+                Mostrando <strong class="text-dark" id="numMostrados">32</strong> de <span id="numTotales">{{ total_politicos }}</span> políticos
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Grid de Políticos (Lote Inicial SSR de 32 para render instantáneo) -->
+<div class="row g-3" id="gridPoliticos">
+    {% for pol in politicos %}
+        {% include "partials/card_politico.html" %}
+    {% endfor %}
+</div>
+
+<!-- Centinela y Loader de Lazy Load Progresivo -->
+<div id="infiniteScrollSentinel" class="text-center py-4 my-3 {{ 'd-none' if total_politicos <= 32 else '' }}">
+    <div id="loaderSpinner" class="d-none mb-2">
+        <div class="spinner-border text-primary spinner-border-sm me-2" role="status"></div>
+        <span class="text-secondary small fw-medium">Cargando más representantes...</span>
+    </div>
+    <button type="button" id="btnCargarMas" class="btn btn-outline-primary rounded-pill px-4 btn-sm fw-semibold shadow-xs">
+        <i class="bi bi-arrow-down-circle me-1"></i>Cargar más representantes
+    </button>
+</div>
+
+<!-- Banner Cívico de Auditoría Ciudadana y Reporte de Inconsistencias -->
+<div class="card-civic p-3 my-4 bg-light text-center border shadow-2xs" id="bannerReporteCivico">
+    <div class="d-flex align-items-center justify-content-center flex-wrap gap-2">
+        <span class="text-secondary small">
+            <i class="bi bi-shield-check text-success me-1"></i>¿Detectas un cargo inexacto, un falso positivo o información no verídica en este listado?
+        </span>
+        <button type="button" class="btn btn-sm btn-outline-danger rounded-pill px-3 py-1 fw-semibold d-inline-flex align-items-center gap-1 shadow-xs" id="btnReportarBanner">
+            <i class="bi bi-flag-fill"></i>Reportar con filtros activos
+        </button>
+    </div>
+</div>
+
+<!-- Estado Vacío (Sin Resultados) -->
+<div id="noResultados" class="card-civic p-5 text-center my-4 d-none">
+    <div class="rounded-circle bg-light d-inline-flex align-items-center justify-content-center mb-3" style="width: 64px; height: 64px;">
+        <i class="bi bi-search text-muted fs-3"></i>
+    </div>
+    <h3 class="h5 fw-bold text-dark mb-1">No se encontraron políticos</h3>
+    <p class="text-secondary small mb-3" style="max-width: 420px; margin: 0 auto;">
+        No hay registros que coincidan con los filtros aplicados. Intenta restablecer los filtros o buscar con otro término.
+    </p>
+    <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+        <button type="button" class="btn btn-sm btn-primary rounded-pill px-4" id="btnResetTodos">
+            Restablecer todos los filtros
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-danger rounded-pill px-3" id="btnReportarSinResultados">
+            <i class="bi bi-flag-fill me-1"></i>Reportar inconsistencia
+        </button>
+    </div>
+</div>
+
+<!-- Script Reactivo de Lazy Loading e Infinite Scroll Progresivo -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const apiUrl = '/api/politicos';
+    const inputTexto = document.getElementById('filtroTexto');
+    const selectLeg = document.getElementById('filtroLegislatura');
+    const selectCargo = document.getElementById('filtroCargo');
+    const selectEstado = document.getElementById('filtroEstado');
+    const selectPartido = document.getElementById('filtroPartido');
+    const switchActivos = document.getElementById('filtroSoloActivos');
+    const numMostrados = document.getElementById('numMostrados');
+    const numTotales = document.getElementById('numTotales');
+    const btnLimpiar = document.getElementById('btnLimpiarFiltros');
+    const btnReset = document.getElementById('btnResetTodos');
+    const noResultados = document.getElementById('noResultados');
+    const grid = document.getElementById('gridPoliticos');
+    const sentinel = document.getElementById('infiniteScrollSentinel');
+    const btnCargarMas = document.getElementById('btnCargarMas');
+    const loaderSpinner = document.getElementById('loaderSpinner');
+
+    let currentPage = 1;
+    let isLoading = false;
+    let hasMore = {{ 'true' if total_politicos > 32 else 'false' }};
+    let currentAbortController = null;
+
+    function getParametros(pageNumber = 1) {
+        const params = new URLSearchParams();
+        params.set('page', pageNumber);
+        params.set('limit', '32');
+
+        const texto = (inputTexto.value || '').trim();
+        if (texto !== '') params.set('q', texto);
+
+        const leg = selectLeg.value;
+        if (leg !== 'todas') params.set('leg', leg);
+
+        const cargo = selectCargo.value;
+        if (cargo !== 'todos') params.set('cargo', cargo);
+
+        const estado = selectEstado.value;
+        if (estado !== 'todos') params.set('estado', estado);
+
+        const partido = selectPartido.value;
+        if (partido !== 'todos') params.set('partido', partido);
+
+        if (switchActivos.checked) params.set('activo', '1');
+
+        return params;
+    }
+
+    function hayFiltrosActivos() {
+        return (inputTexto.value || '').trim() !== ''
+            || selectLeg.value !== 'todas'
+            || selectCargo.value !== 'todos'
+            || selectEstado.value !== 'todos'
+            || selectPartido.value !== 'todos'
+            || switchActivos.checked;
+    }
+
+    // Respaldar catálogo original completo de cada select para manipulación limpia del DOM (Faceted Cascading)
+    const opcionesOriginales = new Map();
+    [
+        { select: selectLeg, neutro: 'todas' },
+        { select: selectCargo, neutro: 'todos' },
+        { select: selectEstado, neutro: 'todos' },
+        { select: selectPartido, neutro: 'todos' }
+    ].forEach(item => {
+        if (item.select) {
+            opcionesOriginales.set(item.select, Array.from(item.select.options).map(opt => ({
+                value: opt.value,
+                text: opt.text
+            })));
+        }
+    });
+
+    const CARGOS_LOCALES_MUNICIPALES = new Set(['diputado_local', 'alcalde', 'edil', 'gobernador', 'cambio_partido']);
+
+    function sincronizarFiltrosCruzados() {
+        const esSoloActivos = switchActivos.checked;
+        const legVal = selectLeg.value;
+        const cargoVal = selectCargo.value;
+
+        // 1. Si está activo el switch "Solo en funciones (LXVI)"
+        if (esSoloActivos) {
+            selectLeg.value = '66';
+            selectLeg.disabled = true;
+            selectLeg.classList.add('bg-secondary-subtle');
+
+            // En una legislatura federal activa no existen alcaldes ni cargos locales
+            Array.from(selectCargo.options).forEach(opt => {
+                const esInvalido = CARGOS_LOCALES_MUNICIPALES.has(opt.value);
+                opt.disabled = esInvalido;
+                opt.classList.toggle('text-muted', esInvalido);
+            });
+            if (CARGOS_LOCALES_MUNICIPALES.has(selectCargo.value)) {
+                selectCargo.value = 'todos';
+            }
+            return;
+        }
+
+        // Si no está activo el switch, habilitar select de legislatura
+        selectLeg.disabled = false;
+        selectLeg.classList.remove('bg-secondary-subtle');
+
+        // 2. Si se seleccionó una legislatura federal específica (ej. LXV, LXVI, etc.)
+        if (legVal !== 'todas') {
+            // Deshabilitar y atenuar cargos que NO pertenecen a una legislatura del Congreso de la Unión
+            Array.from(selectCargo.options).forEach(opt => {
+                const esInvalido = CARGOS_LOCALES_MUNICIPALES.has(opt.value);
+                opt.disabled = esInvalido;
+                opt.classList.toggle('text-muted', esInvalido);
+            });
+
+            // Si tenía seleccionado un cargo municipal o local, resetear a 'todos'
+            if (CARGOS_LOCALES_MUNICIPALES.has(selectCargo.value)) {
+                selectCargo.value = 'todos';
+            }
+
+            // Asegurar que las opciones de legislatura estén disponibles
+            Array.from(selectLeg.options).forEach(opt => {
+                opt.disabled = false;
+                opt.classList.remove('text-muted');
+            });
+            return;
+        }
+
+        // 3. Si se seleccionó un cargo municipal o local (Alcalde, Edil, Gobernador, etc.)
+        if (CARGOS_LOCALES_MUNICIPALES.has(cargoVal)) {
+            // Un alcalde o regidor no corresponde a legislaturas del Congreso de la Unión
+            selectLeg.value = 'todas';
+            Array.from(selectLeg.options).forEach(opt => {
+                const esInvalido = (opt.value !== 'todas');
+                opt.disabled = esInvalido;
+                opt.classList.toggle('text-muted', esInvalido);
+            });
+
+            // En el selector de cargo, asegurar que los cargos estén habilitados
+            Array.from(selectCargo.options).forEach(opt => {
+                opt.disabled = false;
+                opt.classList.remove('text-muted');
+            });
+            return;
+        }
+
+        // 4. Estado neutro o estándar: "Todas las Legislaturas" con cargo compatible
+        Array.from(selectCargo.options).forEach(opt => {
+            opt.disabled = false;
+            opt.classList.remove('text-muted');
+        });
+        Array.from(selectLeg.options).forEach(opt => {
+            opt.disabled = false;
+            opt.classList.remove('text-muted');
+        });
+    }
+
+    function actualizarOpcionesDropdown(selectElement, valoresValidos, neutroValue = 'todos') {
+        if (!selectElement || !Array.isArray(valoresValidos)) return;
+        const optsOriginales = opcionesOriginales.get(selectElement);
+        if (!optsOriginales) return;
+
+        const setValidos = new Set(valoresValidos.map(v => String(v).toLowerCase()));
+        const valorActual = selectElement.value;
+        let valorSigueValido = false;
+
+        // Limpiar el select para forzar a Chrome/Edge/móviles a redibujar solo opciones válidas
+        selectElement.innerHTML = '';
+
+        for (const opt of optsOriginales) {
+            const val = opt.value;
+            const esNeutro = (val === neutroValue || val === '');
+            const esValida = esNeutro || setValidos.has(String(val).toLowerCase());
+
+            if (esValida) {
+                const optEl = document.createElement('option');
+                optEl.value = val;
+                optEl.textContent = opt.text;
+                if (val === valorActual) {
+                    optEl.selected = true;
+                    valorSigueValido = true;
+                }
+                selectElement.appendChild(optEl);
+            }
+        }
+
+        // Si la selección previa ya no existe entre los resultados válidos, restaurar neutro
+        if (!valorSigueValido && valorActual !== neutroValue) {
+            selectElement.value = neutroValue;
+        }
+
+        // Re-sincronizar dependencias cruzadas de cargos y legislaturas
+        sincronizarFiltrosCruzados();
+    }
+
+    function resetearOpcionesDropdown(selectElement, neutroValue = 'todos') {
+        if (!selectElement) return;
+        const optsOriginales = opcionesOriginales.get(selectElement);
+        if (!optsOriginales) return;
+
+        selectElement.innerHTML = '';
+        for (const opt of optsOriginales) {
+            const optEl = document.createElement('option');
+            optEl.value = opt.value;
+            optEl.textContent = opt.text;
+            if (opt.value === neutroValue) {
+                optEl.selected = true;
+            }
+            selectElement.appendChild(optEl);
+        }
+        selectElement.value = neutroValue;
+    }
+
+    async function cargarLote(reset = false) {
+        if (isLoading) return;
+        if (!reset && !hasMore) return;
+
+        if (currentAbortController) {
+            currentAbortController.abort();
+        }
+        currentAbortController = new AbortController();
+
+        isLoading = true;
+        const targetPage = reset ? 1 : (currentPage + 1);
+
+        if (reset) {
+            grid.innerHTML = '';
+            if (noResultados) noResultados.classList.add('d-none');
+            grid.classList.remove('d-none');
+        }
+
+        if (sentinel) {
+            sentinel.classList.remove('d-none');
+            if (loaderSpinner) loaderSpinner.classList.remove('d-none');
+            if (btnCargarMas) btnCargarMas.classList.add('d-none');
+        }
+
+        if (btnLimpiar) {
+            btnLimpiar.classList.toggle('d-none', !hayFiltrosActivos());
+        }
+
+        try {
+            const params = getParametros(targetPage);
+            const response = await fetch(`${apiUrl}?${params.toString()}`, {
+                signal: currentAbortController.signal,
+                headers: { 'Accept': 'application/json' }
+            });
+
+            if (!response.ok) throw new Error('Error al consultar representantes');
+
+            const data = await response.json();
+            if (data.ok) {
+                // Actualizar opciones de droplists dinámicamente según resultados disponibles (Faceted Filtering)
+                if (data.facetas) {
+                    if (data.facetas.partidos) actualizarOpcionesDropdown(selectPartido, data.facetas.partidos, 'todos');
+                    if (data.facetas.estados) actualizarOpcionesDropdown(selectEstado, data.facetas.estados, 'todos');
+                    if (data.facetas.cargos) actualizarOpcionesDropdown(selectCargo, data.facetas.cargos, 'todos');
+                    if (data.facetas.legislaturas) actualizarOpcionesDropdown(selectLeg, data.facetas.legislaturas, 'todas');
+                }
+
+                if (data.html && data.html.trim() !== '') {
+                    grid.insertAdjacentHTML('beforeend', data.html);
+                    if (noResultados) noResultados.classList.add('d-none');
+                    grid.classList.remove('d-none');
+                } else if (reset) {
+                    if (noResultados) noResultados.classList.remove('d-none');
+                    grid.classList.add('d-none');
+                }
+
+                const totalEnDOM = grid.querySelectorAll('.politico-card-item').length;
+                if (numMostrados) {
+                    numMostrados.textContent = totalEnDOM.toLocaleString();
+                }
+                if (numTotales && data.total_filtrados !== undefined) {
+                    numTotales.textContent = Number(data.total_filtrados).toLocaleString();
+                }
+
+                currentPage = targetPage;
+                hasMore = Boolean(data.has_more);
+
+                if (!hasMore && sentinel) {
+                    sentinel.classList.add('d-none');
+                }
+            }
+        } catch (err) {
+            if (err.name !== 'AbortError') {
+                console.error('Error cargando representantes:', err);
+            }
+        } finally {
+            isLoading = false;
+            if (loaderSpinner) loaderSpinner.classList.add('d-none');
+            if (hasMore && btnCargarMas) {
+                btnCargarMas.classList.remove('d-none');
+            }
+        }
+    }
+
+    function resetearFiltros() {
+        inputTexto.value = '';
+        switchActivos.checked = false;
+        resetearOpcionesDropdown(selectLeg, 'todas');
+        resetearOpcionesDropdown(selectCargo, 'todos');
+        resetearOpcionesDropdown(selectEstado, 'todos');
+        resetearOpcionesDropdown(selectPartido, 'todos');
+        sincronizarFiltrosCruzados();
+        cargarLote(true);
+    }
+
+    let debounceTimer = null;
+    function debounce(fn, delay) {
+        return function(...args) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => fn.apply(this, args), delay);
+        };
+    }
+
+    let userHasScrolled = false;
+    window.addEventListener('scroll', () => { userHasScrolled = true; }, { once: true, passive: true });
+
+    // Botón manual Cargar Más
+    if (btnCargarMas) {
+        btnCargarMas.addEventListener('click', () => {
+            userHasScrolled = true;
+            cargarLote(false);
+        });
+    }
+
+    // Configurar IntersectionObserver para Infinite Scroll progresivo tras scroll
+    if (sentinel && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            const first = entries[0];
+            if (first && first.isIntersecting && hasMore && !isLoading && userHasScrolled) {
+                cargarLote(false);
+            }
+        }, {
+            rootMargin: '100px 0px'
+        });
+
+        observer.observe(sentinel);
+    }
+
+    // Event Listeners reactivos
+    inputTexto.addEventListener('input', debounce(() => cargarLote(true), 220));
+    selectLeg.addEventListener('change', () => {
+        sincronizarFiltrosCruzados();
+        cargarLote(true);
+    });
+    selectCargo.addEventListener('change', () => {
+        sincronizarFiltrosCruzados();
+        cargarLote(true);
+    });
+    selectEstado.addEventListener('change', () => cargarLote(true));
+    selectPartido.addEventListener('change', () => cargarLote(true));
+    switchActivos.addEventListener('change', () => {
+        sincronizarFiltrosCruzados();
+        cargarLote(true);
+    });
+
+    if (btnLimpiar) btnLimpiar.addEventListener('click', resetearFiltros);
+    if (btnReset) btnReset.addEventListener('click', resetearFiltros);
+
+    // Sincronización inicial al cargar el DOM
+    sincronizarFiltrosCruzados();
+
+    // Sistema de Auditoría Ciudadana y Reporte de Falsos Positivos con Contexto de Filtros
+    function abrirReporteDesdeFiltros() {
+        const texto = (inputTexto.value || '').trim();
+        const legText = selectLeg.options[selectLeg.selectedIndex] ? selectLeg.options[selectLeg.selectedIndex].text : selectLeg.value;
+        const cargoText = selectCargo.options[selectCargo.selectedIndex] ? selectCargo.options[selectCargo.selectedIndex].text : selectCargo.value;
+        const estadoText = selectEstado.options[selectEstado.selectedIndex] ? selectEstado.options[selectEstado.selectedIndex].text : selectEstado.value;
+        const partidoText = selectPartido.options[selectPartido.selectedIndex] ? selectPartido.options[selectPartido.selectedIndex].text : selectPartido.value;
+        const soloActivos = switchActivos.checked;
+
+        // Recolectar nombres de las tarjetas visibles actualmente en pantalla
+        const cardsVisibles = Array.from(grid.querySelectorAll('.card-civic-hover, .card-civic')).slice(0, 15);
+        const politicosVisibles = cardsVisibles.map(card => {
+            const enlace = card.querySelector('h5 a, a.fw-bold') || card.querySelector('h5, strong');
+            const nombre = enlace ? enlace.textContent.trim() : 'Sin nombre';
+            const badgeCargo = card.querySelector('.badge.bg-primary-subtle, .badge.bg-danger-subtle, .badge');
+            const cargo = badgeCargo ? badgeCargo.textContent.trim() : '';
+            return { nombre, cargo };
+        }).filter(p => p.nombre !== 'Sin nombre');
+
+        const totalMostrados = parseInt(numMostrados ? numMostrados.textContent : '0') || 0;
+        const totalRegistros = parseInt(numTotales ? numTotales.textContent : '0') || 0;
+
+        const payload = {
+            filtros_activos: {
+                busqueda_texto: texto || '(ninguna)',
+                legislatura: selectLeg.value,
+                legislatura_label: legText,
+                cargo: selectCargo.value,
+                cargo_label: cargoText,
+                entidad_federativa: selectEstado.value,
+                entidad_label: estadoText,
+                partido_politico: selectPartido.value,
+                partido_label: partidoText,
+                solo_en_funciones_lxvi: soloActivos
+            },
+            resultados_obtenidos: {
+                total_filtrados: totalRegistros,
+                mostrados_en_pantalla: totalMostrados,
+                muestra_primeros_representantes: politicosVisibles
+            },
+            meta: {
+                url_consulta: window.location.href,
+                fecha_reporte: new Date().toISOString()
+            }
+        };
+
+        const resumenHumano = `
+            <div><strong>Filtros aplicados:</strong> Cargo: <code>${cargoText}</code> &bull; Estado: <code>${estadoText}</code> &bull; Partido: <code>${partidoText}</code> &bull; Legislatura: <code>${legText}</code> ${soloActivos ? '&bull; <em>Solo en funciones (LXVI)</em>' : ''}</div>
+            <div class="text-muted mt-1">Resultados auditados: <strong>${totalRegistros}</strong> encontrados (${politicosVisibles.length} en pantalla).</div>
+        `;
+
+        let prellenadoDetalle = '';
+        if (selectCargo.value === 'gobernador') {
+            prellenadoDetalle = 'Reporto que en los resultados del filtro "Ex-Gobernadores" aparece(n) figura(s) que nunca ejercieron la titularidad de una Gubernatura o Jefatura de Gobierno: ';
+        } else if (totalRegistros === 0) {
+            prellenadoDetalle = 'Reporto inconsistencia en este cruce de filtros porque no arroja resultados o la información parece faltante: ';
+        }
+
+        if (typeof window.abrirModalReporte === 'function') {
+            window.abrirModalReporte({
+                tipo: 'filtro_directorio',
+                id: 'filtro_' + selectCargo.value + '_' + selectEstado.value,
+                nombre: 'Directorio: ' + cargoText + ' (' + estadoText + ')',
+                url: window.location.href,
+                filtrosJson: payload,
+                filtrosHumano: resumenHumano,
+                categoriaDefault: 'falso_positivo',
+                prellenarDetalle: prellenadoDetalle
+            });
+        }
+    }
+
+    const btnReportarFiltros = document.getElementById('btnReportarFiltros');
+    const btnReportarBanner = document.getElementById('btnReportarBanner');
+    const btnReportarSinResultados = document.getElementById('btnReportarSinResultados');
+
+    if (btnReportarFiltros) btnReportarFiltros.addEventListener('click', abrirReporteDesdeFiltros);
+    if (btnReportarBanner) btnReportarBanner.addEventListener('click', abrirReporteDesdeFiltros);
+    if (btnReportarSinResultados) btnReportarSinResultados.addEventListener('click', abrirReporteDesdeFiltros);
+
+    // Sincronizar facetas de inmediato si la vista inició con algún filtro preseleccionado
+    if (hayFiltrosActivos()) {
+        cargarLote(true);
+    }
+});
+</script>
+{% endblock %}

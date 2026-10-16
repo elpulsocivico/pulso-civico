@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "titulo": "Resumen Estadístico y Metadatos Agregados - Estado de México",
+        "entidad_id": 15,
+        "entidad_nombre": "Estado de México",
+        "entidad_slug": "edomex",
+        "clave_iso": "MX-MEX",
+        "generado_en": "2026-10-15T00:24:01+02:00",
+        "estatus_auditoria": "100% verificado sin errores sintácticos"
+    },
+    "poder_ejecutivo": {
+        "mandatario_actual": null,
+        "total_mandatarios_historicos": 0,
+        "cobertura": "Pendiente"
+    },
+    "poder_legislativo_estatal": {
+        "legislatura_vigente": 62,
+        "total_diputados": 75,
+        "bancadas_partidistas": {
+            "MORENA": 32,
+            "PAN": 13,
+            "https://es.wikipedia.org/wiki/Archivo:PT_logo_.svg": 9,
+            "PVEM": 8,
+            "PRI": 7,
+            "MC": 4,
+            "PRD": 2
+        },
+        "total_legislaturas_historicas": 12
+    },
+    "representacion_federal": {
+        "legislatura": 66,
+        "diputados_federales": 58,
+        "senadores_republica": 3,
+        "total_federal": 61,
+        "distribucion_partidos": {
+            "Morena": 32,
+            "PVEM": 10,
+            "PT": 7,
+            "PAN": 4,
+            "PRI": 4,
+            "MC": 4
+        }
+    },
+    "indicadores_clave": {
+        "total_cargos_registrados": 136,
+        "fuerza_mayoritaria_local": "MORENA",
+        "fuerza_mayoritaria_federal": "Morena"
+    }
+}

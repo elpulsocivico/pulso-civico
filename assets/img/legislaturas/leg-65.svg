@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="100%" height="100%" fill="none">
+  <!-- Fondo y Borde sutil transparente -->
+  <rect width="340" height="70" rx="8" fill="#FBFBFC"/>
+  <rect x="0.5" y="0.5" width="339" height="69" rx="7.5" stroke="#E5E7EB"/>
+
+  <!-- Emblema Geométrico LXV (Paridad e Inclusión) -->
+  <g transform="translate(14, 12)">
+    <rect width="46" height="46" rx="8" fill="#0C4A34"/>
+    
+    <!-- Elementos estilizados LXV en verde esmeralda, morado y oro -->
+    <path d="M11 13 v20 h10 v-3 h-6 v-17 Z" fill="#2ECC71"/>
+    <path d="M21 21 l4 6 l-4 6 h4 l2 -3.2 l2 3.2 h4 l-4 -6 l4 -6 h-4 l-2 3.2 l-2 -3.2 Z" fill="#A569BD"/>
+    <path d="M33 13 l4 14 l4 -14 h4 l-6 20 h-4 l-6 -20 Z" fill="#F1C40F"/>
+  </g>
+
+  <!-- Tipografía Oficial LXV Legislatura -->
+  <g transform="translate(70, 0)">
+    <text x="0" y="27" fill="#0C4A34" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="0.5">LXV LEGISLATURA</text>
+    <text x="0" y="43" fill="#1C1C1E" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1">CÁMARA DE DIPUTADOS</text>
+    <text x="0" y="55" fill="#6B7280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="500" letter-spacing="0.2">PARIDAD, INCLUSIÓN Y DIVERSIDAD &bull; 2021–2024</text>
+  </g>
+
+  <!-- Acento lateral esmeralda -->
+  <path d="M334 18 v34" stroke="#0C4A34" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -60,4 +60,17 @@ class GitOps
             'summary' => implode("\n", $output),
         ];
     }
+
+    public static function execGit(string $cmd): array
+    {
+        $output = [];
+        $code = 0;
+        exec("git --no-pager {$cmd} 2>&1", $output, $code);
+        return [
+            'cmd' => "git {$cmd}",
+            'code' => $code,
+            'output' => $output,
+        ];
+    }
 }
+

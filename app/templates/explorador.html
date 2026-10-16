@@ -1,0 +1,1043 @@
+{% extends "layout/base.html" %}
+
+{% block extra_head %}
+<style>
+    .kpi-chip {
+        background: #FFFFFF;
+        border-radius: 14px;
+        padding: 10px 16px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    .kpi-chip .value {
+        font-size: 1.25rem;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    .kpi-chip .label {
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: var(--ios-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+    }
+    .filter-badge-btn {
+        font-size: 0.78rem;
+        padding: 5px 12px;
+        border-radius: 999px;
+        transition: all 0.15s ease;
+        white-space: nowrap;
+    }
+    .table-explorador th {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #6C757D;
+        background: #F8F9FA;
+        border-top: none;
+        white-space: nowrap;
+        padding: 12px 14px;
+    }
+    .table-explorador td {
+        font-size: 0.84rem;
+        padding: 12px 14px;
+        vertical-align: middle;
+    }
+    .col-toggle-panel {
+        max-height: 380px;
+        overflow-y: auto;
+    }
+    .col-hidden {
+        display: none !important;
+    }
+    .avatar-sm {
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: #E9ECEF;
+        overflow: hidden;
+        flex-shrink: 0;
+        display: inline-block;
+    }
+    .party-tag-sm {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 8px;
+        line-height: 1.2;
+    }
+    .transition-chain {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .bg-purple-subtle, .badge-suplente {
+        background-color: #F3E8FF !important;
+        color: #6B21A8 !important;
+        border: 1px solid #D8B4FE !important;
+        font-weight: 600;
+    }
+    .text-purple {
+        color: #6B21A8 !important;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="breadcrumb-ios">
+        <ol class="breadcrumb mb-3">
+            <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Explorador de Datos y Reportes</li>
+        </ol>
+    </nav>
+
+    <!-- Header Hero -->
+    <div class="card-civic p-4 p-md-5 mb-4 position-relative overflow-hidden">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
+                    <span class="badge bg-primary text-white rounded-pill px-3 py-1">
+                        <i class="bi bi-table me-1"></i> Explorador Universal
+                    </span>
+                    <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill px-3 py-1">
+                        <i class="bi bi-sliders me-1"></i> Constructor de Reportes
+                    </span>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-3 py-1">
+                        <i class="bi bi-file-earmark-spreadsheet me-1"></i> Exportación CSV
+                    </span>
+                </div>
+                <h1 class="display-6 fw-bold text-dark mb-2">
+                    Constructor de Reportes Ciudadanos
+                </h1>
+                <p class="text-secondary fs-6 mb-0">
+                    Cruza, filtra y analiza la base de datos pública del Estado Mexicano: <strong>Congreso Federal, congresos locales, alcaldías y gubernaturas</strong>. Personaliza las columnas de tu reporte, audita saltos de partido, licencias, asistencias y descarga tus datos limpios en Excel/CSV.
+                </p>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                <div class="d-inline-flex flex-column align-items-lg-end gap-2 w-100">
+                    <button class="btn btn-outline-primary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-2 shadow-2xs" id="btnCopiarEnlace" type="button">
+                        <i class="bi bi-share"></i>
+                        <span>Copiar Enlace con Filtros</span>
+                    </button>
+                    <button class="btn btn-success btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-2 shadow-2xs text-white" id="btnDescargarCSV" type="button">
+                        <i class="bi bi-download"></i>
+                        <span>Descargar Reporte (.CSV)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Presets Rápidos Populares -->
+        <div class="mt-4 pt-3 border-top">
+            <span class="text-secondary small fw-semibold me-2 d-inline-block mb-2">Consultas Rápidas:</span>
+            <div class="d-inline-flex flex-wrap gap-2">
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn fw-semibold" onclick="aplicarPreset('actuales')">
+                    🟢 Solo Actuales (2024–)
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('chapulines')">
+                    🔄 Chapulines (2+ Partidos)
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('pluris')">
+                    📋 Plurinominales (Lista)
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('mayoria')">
+                    🗳️ Mayoría Relativa (Voto Directo)
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('licencias')">
+                    🟠 Con Licencia (Dejaron curul)
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('suplentes')">
+                    🟣 Suplentes en Funciones
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('reelectos')">
+                    🔁 Reelectos Consecutivos
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('alcaldes')">
+                    🏛️ Alcaldes y Ediles
+                </button>
+                <button type="button" class="btn btn-sm btn-light border filter-badge-btn" onclick="aplicarPreset('gobernadores')">
+                    👑 Gobernadores en Funciones
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de Filtros Multivariables -->
+    <div class="card-civic p-3 p-md-4 mb-4">
+        <form id="formFiltros" class="row g-2 g-md-3">
+            <!-- Búsqueda Texto -->
+            <div class="col-12 col-md-4">
+                <label class="form-label small text-muted fw-bold mb-1">Buscar por nombre o palabra clave</label>
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text bg-light border-end-0"><i class="bi bi-search text-muted"></i></span>
+                    <input type="text" name="q" id="filtroQ" class="form-control border-start-0 shadow-none" placeholder="Ej: Noroña, Tijuana, Morena, Presupuesto..." value="{{ filtros.q }}">
+                </div>
+            </div>
+
+            <!-- Nivel de Gobierno -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Nivel de Gobierno</label>
+                <select name="nivel" id="filtroNivel" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.nivel == 'todos' %}selected{% endif %}>Todos los niveles</option>
+                    <option value="federal" {% if filtros.nivel == 'federal' %}selected{% endif %}>Federal (San Lázaro / Senado)</option>
+                    <option value="estatal" {% if filtros.nivel == 'estatal' %}selected{% endif %}>Estatal (Gobernadores / Congresos)</option>
+                    <option value="municipal" {% if filtros.nivel == 'municipal' %}selected{% endif %}>Municipal (Alcaldes / Ediles)</option>
+                </select>
+            </div>
+
+            <!-- Cargo Oficial -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Tipo de Cargo</label>
+                <select name="cargo" id="filtroCargo" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.cargo == 'todos' %}selected{% endif %}>Todos los cargos</option>
+                    <option value="senador" {% if filtros.cargo == 'senador' %}selected{% endif %}>Senador de la República</option>
+                    <option value="diputado_federal" {% if filtros.cargo == 'diputado_federal' %}selected{% endif %}>Diputado Federal</option>
+                    <option value="diputado_local" {% if filtros.cargo == 'diputado_local' %}selected{% endif %}>Diputado Local</option>
+                    <option value="alcalde" {% if filtros.cargo == 'alcalde' %}selected{% endif %}>Presidente Municipal / Alcalde</option>
+                    <option value="gobernador" {% if filtros.cargo == 'gobernador' %}selected{% endif %}>Gobernador / Regente</option>
+                </select>
+            </div>
+
+            <!-- Entidad / Estado -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Entidad Federativa</label>
+                <select name="entidad" id="filtroEntidad" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.entidad == 'todos' %}selected{% endif %}>Todas las entidades (32)</option>
+                    {% for est in estados_catalog %}
+                    <option value="{{ est.slug }}" {% if filtros.entidad == est.slug %}selected{% endif %}>{{ est.nombre }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Partido Actual -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Partido Político</label>
+                <select name="partido" id="filtroPartido" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.partido == 'todos' %}selected{% endif %}>Todos los partidos</option>
+                    {% for part in partidos_catalog %}
+                    <option value="{{ part.slug }}" {% if filtros.partido == part.slug %}selected{% endif %}>{{ part.nombre }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Fila Secundaria de Filtros Avanzados (6 columnas de 2 en desktop) -->
+            <!-- Periodo / Legislatura -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Periodo / Vigencia</label>
+                <select name="periodo" id="filtroPeriodo" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.periodo == 'todos' %}selected{% endif %}>Todos los periodos</option>
+                    <option value="actuales" {% if filtros.periodo == 'actuales' %}selected{% endif %}>🟢 En Funciones (Actuales)</option>
+                    <option value="lxvi" {% if filtros.periodo == 'lxvi' %}selected{% endif %}>🏛️ LXVI Legislatura (2024–2027)</option>
+                    <option value="2024_2027" {% if filtros.periodo == '2024_2027' %}selected{% endif %}>📅 Periodo 2024–2027</option>
+                    <option value="2024_2030" {% if filtros.periodo == '2024_2030' %}selected{% endif %}>📅 Periodo 2024–2030</option>
+                    <option value="historico" {% if filtros.periodo == 'historico' %}selected{% endif %}>📜 Histórico / Concluidos</option>
+                </select>
+            </div>
+
+            <!-- Nivel Educativo / Escolaridad -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Nivel Académico</label>
+                <select name="educacion" id="filtroEducacion" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.educacion == 'todos' %}selected{% endif %}>Todos los niveles</option>
+                    <option value="doctorado" {% if filtros.educacion == 'doctorado' %}selected{% endif %}>🎓 Doctorado</option>
+                    <option value="maestria" {% if filtros.educacion == 'maestria' %}selected{% endif %}>📜 Maestría</option>
+                    <option value="especialidad" {% if filtros.educacion == 'especialidad' %}selected{% endif %}>🩺 Especialidad</option>
+                    <option value="licenciatura" {% if filtros.educacion == 'licenciatura' %}selected{% endif %}>🏛️ Licenciatura / Profesional</option>
+                    <option value="pasante_trunca" {% if filtros.educacion == 'pasante_trunca' %}selected{% endif %}>📚 Pasante / Trunca</option>
+                    <option value="tecnico" {% if filtros.educacion == 'tecnico' %}selected{% endif %}>⚙️ Técnico / Normalista</option>
+                    <option value="preparatoria" {% if filtros.educacion == 'preparatoria' %}selected{% endif %}>🎒 Bachillerato / Prepa</option>
+                    <option value="secundaria" {% if filtros.educacion == 'secundaria' %}selected{% endif %}>📖 Secundaria</option>
+                    <option value="sin_registro" {% if filtros.educacion == 'sin_registro' %}selected{% endif %}>⚪ Sin Registro</option>
+                </select>
+            </div>
+
+            <!-- Estatus Licencia -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Estatus del Cargo</label>
+                <select name="licencia" id="filtroLicencia" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.licencia == 'todos' %}selected{% endif %}>Todos los estatus</option>
+                    <option value="en_funciones" {% if filtros.licencia == 'en_funciones' %}selected{% endif %}>🟢 Titular en Funciones</option>
+                    <option value="con_licencia" {% if filtros.licencia == 'con_licencia' %}selected{% endif %}>🟠 Con Licencia</option>
+                    <option value="suplentes" {% if filtros.licencia == 'suplentes' %}selected{% endif %}>🟣 Suplente en Funciones</option>
+                    <option value="historico" {% if filtros.licencia == 'historico' %}selected{% endif %}>⚪ Histórico / Concluido</option>
+                </select>
+            </div>
+
+            <!-- Principio de Elección -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Principio de Elección</label>
+                <select name="principio" id="filtroPrincipio" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.principio == 'todos' %}selected{% endif %}>Todos los principios</option>
+                    <option value="mayoria" {% if filtros.principio == 'mayoria' %}selected{% endif %}>🗳️ Mayoría Relativa</option>
+                    <option value="plurinominal" {% if filtros.principio == 'plurinominal' %}selected{% endif %}>📋 Plurinominal</option>
+                    <option value="primera_minoria" {% if filtros.principio == 'primera_minoria' %}selected{% endif %}>🥈 Primera Minoría</option>
+                </select>
+            </div>
+
+            <!-- Transición Partidista / Chapulineo -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Transición Partidista</label>
+                <select name="transicion" id="filtroTransicion" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.transicion == 'todos' %}selected{% endif %}>Todos los historiales</option>
+                    <option value="con_cambio" {% if filtros.transicion == 'con_cambio' %}selected{% endif %}>🔄 Cambio partido (2+)</option>
+                    <option value="sin_cambio" {% if filtros.transicion == 'sin_cambio' %}selected{% endif %}>🛡️ Fieles (1 partido)</option>
+                </select>
+            </div>
+
+            <!-- Reelección Consecutiva -->
+            <div class="col-6 col-md-2">
+                <label class="form-label small text-muted fw-bold mb-1">Reelección</label>
+                <select name="reeleccion" id="filtroReeleccion" class="form-select form-select-sm shadow-none">
+                    <option value="todos" {% if filtros.reeleccion == 'todos' %}selected{% endif %}>Todos</option>
+                    <option value="reelecto" {% if filtros.reeleccion == 'reelecto' %}selected{% endif %}>🔁 Reelecto</option>
+                    <option value="primer_periodo" {% if filtros.reeleccion == 'primer_periodo' %}selected{% endif %}>🌱 Primer Periodo</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <!-- Tarjetas de Métricas Rápidas (KPIs) -->
+    <div class="row g-2 mb-4" id="kpisContainer">
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-primary" id="kpiTotal">{{ kpis.total if kpis else 0 }}</div>
+                <div class="label">Registros</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-danger" id="kpiTransicion">{{ kpis.con_transicion if kpis else 0 }}</div>
+                <div class="label">Saltos de Partido</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-warning-emphasis" id="kpiLicencia">{{ kpis.con_licencia if kpis else 0 }}</div>
+                <div class="label">Con Licencia</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-info" id="kpiPluris">{{ kpis.plurinominales if kpis else 0 }}</div>
+                <div class="label">Plurinominales</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-success" id="kpiMayoria">{{ kpis.mayoria if kpis else 0 }}</div>
+                <div class="label">Mayoría Relativa</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="kpi-chip">
+                <div class="value text-dark" id="kpiReelectos">{{ kpis.reelectos if kpis else 0 }}</div>
+                <div class="label">Reelectos</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de Control de Tabla y Selector de Columnas -->
+    <div class="card-civic p-3 mb-3 d-flex flex-wrap align-items-center justify-content-between gap-2">
+        <div class="d-flex align-items-center gap-2">
+            <span class="small text-muted fw-semibold" id="resumenConteo">
+                Mostrando <strong id="lblMostrados">{{ items|length }}</strong> de <strong id="lblTotal">{{ total_filtrados }}</strong> figuras
+            </span>
+            <div class="spinner-border spinner-border-sm text-primary d-none" id="loaderSpinner" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 flex-wrap">
+            <!-- Botón Configurar Columnas -->
+            <div class="dropdown">
+                <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 dropdown-toggle d-inline-flex align-items-center gap-2 shadow-2xs" type="button" id="btnDropdownColumnas" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-layout-three-columns"></i>
+                    <span>Personalizar Columnas</span>
+                    <span class="badge bg-secondary text-white rounded-pill px-1" id="lblColsActivas">10</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 p-3 col-toggle-panel" aria-labelledby="btnDropdownColumnas" style="min-width: 290px;">
+                    <div class="d-flex align-items-center justify-content-between pb-2 mb-2 border-bottom">
+                        <span class="small fw-bold text-dark">Columnas Visibles</span>
+                        <button type="button" class="btn btn-link btn-sm p-0 text-decoration-none" onclick="restablecerColumnasDefault()">Restablecer</button>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColFoto" data-col="col-foto" checked>
+                        <label class="form-check-label small" for="chkColFoto">Foto Oficial</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColNombre" data-col="col-nombre" checked disabled>
+                        <label class="form-check-label small" for="chkColNombre">Político / Funcionario (Fijo)</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColNivel" data-col="col-nivel" checked>
+                        <label class="form-check-label small" for="chkColNivel">Nivel de Gobierno</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColCargo" data-col="col-cargo" checked>
+                        <label class="form-check-label small" for="chkColCargo">Cargo Oficial</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColEntidad" data-col="col-entidad" checked>
+                        <label class="form-check-label small" for="chkColEntidad">Entidad Federativa</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColMunicipio" data-col="col-municipio" checked>
+                        <label class="form-check-label small" for="chkColMunicipio">Municipio / Distrito</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColPartido" data-col="col-partido" checked>
+                        <label class="form-check-label small" for="chkColPartido">Partido Actual</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColTransicion" data-col="col-transicion" checked>
+                        <label class="form-check-label small fw-semibold text-danger" for="chkColTransicion">🔄 Transición Partidista</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColPrincipio" data-col="col-principio" checked>
+                        <label class="form-check-label small" for="chkColPrincipio">Principio de Elección</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColLicencia" data-col="col-licencia" checked>
+                        <label class="form-check-label small" for="chkColLicencia">Estatus de Licencia y Suplente</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColReeleccion" data-col="col-reeleccion" checked>
+                        <label class="form-check-label small" for="chkColReeleccion">Reelección Consecutiva</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColAsistencia" data-col="col-asistencia" checked>
+                        <label class="form-check-label small" for="chkColAsistencia">Asistencia Nominal (%)</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColIniciativas" data-col="col-iniciativas" checked>
+                        <label class="form-check-label small" for="chkColIniciativas">Propuestas e Iniciativas</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColEstudios" data-col="col-estudios">
+                        <label class="form-check-label small" for="chkColEstudios">Grado Académico y Carrera</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColComisiones" data-col="col-comisiones">
+                        <label class="form-check-label small" for="chkColComisiones">Comisiones que Preside</label>
+                    </div>
+                    <div class="form-check mb-1">
+                        <input class="form-check-input col-toggle" type="checkbox" id="chkColPeriodo" data-col="col-periodo">
+                        <label class="form-check-label small" for="chkColPeriodo">Periodo Constitucional</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón Restablecer Filtros -->
+            <button type="button" class="btn btn-sm btn-light border rounded-pill px-3 shadow-2xs text-secondary" onclick="limpiarFiltros()">
+                <i class="bi bi-arrow-counterclockwise"></i>
+                <span class="d-none d-sm-inline">Restablecer</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Tabla Principal del Reporte -->
+    <div class="card-civic overflow-hidden mb-4 shadow-sm">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0 table-explorador" id="tablaExplorador">
+                <thead>
+                    <tr>
+                        <th class="col-foto text-center" style="width: 48px;">Foto</th>
+                        <th class="col-nombre">Político / Funcionario</th>
+                        <th class="col-nivel">Nivel</th>
+                        <th class="col-cargo">Cargo Oficial</th>
+                        <th class="col-entidad">Entidad</th>
+                        <th class="col-municipio">Municipio / Distrito</th>
+                        <th class="col-partido">Partido Actual</th>
+                        <th class="col-transicion">Transición Partidista</th>
+                        <th class="col-principio">Principio</th>
+                        <th class="col-licencia">Estatus / Suplente</th>
+                        <th class="col-reeleccion">Reelección</th>
+                        <th class="col-asistencia text-center">Asistencia</th>
+                        <th class="col-iniciativas text-center">Iniciativas</th>
+                        <th class="col-estudios col-hidden">Grado Académico</th>
+                        <th class="col-comisiones col-hidden">Comisiones</th>
+                        <th class="col-periodo col-hidden">Periodo</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    {% for it in items %}
+                    <tr>
+                        <!-- Foto -->
+                        <td class="col-foto text-center">
+                            {% if it.foto_url %}
+                            <img src="{{ it.foto_url }}" alt="" class="avatar-sm border" loading="lazy" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ it.nombre|urlencode }}&background=F1F5F9&color=475569';">
+                            {% else %}
+                            <div class="avatar-sm d-inline-flex align-items-center justify-content-center text-muted fw-bold border">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            {% endif %}
+                        </td>
+
+                        <!-- Nombre -->
+                        <td class="col-nombre">
+                            <a href="{{ it.url }}" class="fw-bold text-dark text-decoration-none d-block lh-sm hover-primary">
+                                {{ it.nombre }}
+                            </a>
+                        </td>
+
+                        <!-- Nivel -->
+                        <td class="col-nivel">
+                            {% if it.nivel == 'Federal' %}
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill">Federal</span>
+                            {% elif it.nivel == 'Estatal' %}
+                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle rounded-pill">Estatal</span>
+                            {% else %}
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle rounded-pill">Municipal</span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Cargo -->
+                        <td class="col-cargo">
+                            <span class="fw-semibold text-secondary">{{ it.cargo }}</span>
+                        </td>
+
+                        <!-- Entidad -->
+                        <td class="col-entidad">
+                            <a href="/estados/{{ it.entidad_slug }}" class="text-decoration-none text-dark hover-primary">
+                                {{ it.entidad }}
+                            </a>
+                        </td>
+
+                        <!-- Municipio / Distrito -->
+                        <td class="col-municipio">
+                            <span class="text-muted small">{{ it.municipio or 'Representación Estatal' }}</span>
+                        </td>
+
+                        <!-- Partido Actual -->
+                        <td class="col-partido">
+                            <span class="party-tag-sm border" style="background-color: {{ it.partido_actual_color }}14; color: {{ it.partido_actual_color }}; border-color: {{ it.partido_actual_color }}40 !important;">
+                                {{ it.partido_actual }}
+                            </span>
+                        </td>
+
+                        <!-- Transición Partidista -->
+                        <td class="col-transicion">
+                            {% if it.tiene_transicion %}
+                            <div class="transition-chain">
+                                {% for b in it.transicion_badges %}
+                                <span class="party-tag-sm border" style="background-color: {{ b.color }}14; color: {{ b.color }}; border-color: {{ b.color }}40 !important;">
+                                    {{ b.nombre }}
+                                </span>
+                                {% if not loop.last %}<i class="bi bi-arrow-right text-muted" style="font-size: 0.65rem;"></i>{% endif %}
+                                {% endfor %}
+                            </div>
+                            <div class="small text-danger fw-semibold" style="font-size: 0.68rem;">
+                                <i class="bi bi-arrow-left-right me-1"></i>{{ it.transicion_lista|length }} partidos
+                            </div>
+                            {% else %}
+                            <span class="text-muted small">
+                                <i class="bi bi-shield-check text-success me-1"></i>{{ it.partido_actual }} (Fiel)
+                            </span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Principio de Elección -->
+                        <td class="col-principio">
+                            {% if it.principio_tipo == 'mayoria' %}
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill" style="font-size: 0.72rem;">
+                                <i class="bi bi-check-circle me-1"></i>Mayoría Relativa
+                            </span>
+                            {% elif it.principio_tipo == 'plurinominal' %}
+                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle rounded-pill" style="font-size: 0.72rem;">
+                                <i class="bi bi-card-list me-1"></i>Plurinominal
+                            </span>
+                            {% elif it.principio_tipo == 'primera_minoria' %}
+                            <span class="badge bg-secondary-subtle text-dark border border-secondary-subtle rounded-pill" style="font-size: 0.72rem;">
+                                Primera Minoría
+                            </span>
+                            {% else %}
+                            <span class="badge bg-light text-secondary border rounded-pill" style="font-size: 0.72rem;">
+                                {{ it.principio_eleccion }}
+                            </span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Licencia / Suplente -->
+                        <td class="col-licencia">
+                            <span class="badge {{ it.licencia_badge }} rounded-pill mb-1 d-inline-block" style="font-size: 0.72rem;">
+                                {{ it.estatus_licencia }}
+                            </span>
+                            {% if it.tiene_licencia and it.suplente_nombre %}
+                            <div class="small" style="font-size: 0.72rem;">
+                                <span class="text-muted">Suplente:</span>
+                                <a href="/politicos/{{ it.suplente_slug or '' }}" class="fw-semibold text-primary text-decoration-none">
+                                    {{ it.suplente_nombre }} ↗
+                                </a>
+                            </div>
+                            {% elif it.es_suplente and it.titular_nombre %}
+                            <div class="small" style="font-size: 0.72rem;">
+                                <span class="text-muted">Cubre a:</span>
+                                <a href="/politicos/{{ it.titular_slug or '' }}" class="fw-semibold text-primary text-decoration-none">
+                                    {{ it.titular_nombre }} ↗
+                                </a>
+                            </div>
+                            {% endif %}
+                        </td>
+
+                        <!-- Reelección -->
+                        <td class="col-reeleccion">
+                            {% if it.es_reelecto %}
+                            <span class="badge bg-dark text-white rounded-pill" style="font-size: 0.72rem;">
+                                <i class="bi bi-arrow-repeat me-1"></i>{{ it.reeleccion_texto }}
+                            </span>
+                            {% else %}
+                            <span class="text-muted small">Primer Periodo</span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Asistencia -->
+                        <td class="col-asistencia text-center">
+                            {% if it.asistencia_pct is not none %}
+                            <a href="{{ it.url }}#asistencia" class="text-decoration-none">
+                                {% if it.asistencia_semaforo == 'verde' %}
+                                <span class="badge bg-success text-white rounded-pill px-2" style="font-size: 0.75rem;">
+                                    {{ it.asistencia_pct_fmt }}
+                                </span>
+                                {% elif it.asistencia_semaforo == 'amarillo' %}
+                                <span class="badge bg-warning text-dark rounded-pill px-2" style="font-size: 0.75rem;">
+                                    {{ it.asistencia_pct_fmt }}
+                                </span>
+                                {% else %}
+                                <span class="badge bg-danger text-white rounded-pill px-2" style="font-size: 0.75rem;">
+                                    {{ it.asistencia_pct_fmt }}
+                                </span>
+                                {% endif %}
+                                <div class="text-muted" style="font-size: 0.65rem;">{{ it.asistencia_sesiones }}</div>
+                            </a>
+                            {% else %}
+                            <span class="text-muted small">-</span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Iniciativas -->
+                        <td class="col-iniciativas text-center">
+                            {% if it.iniciativas_total > 0 %}
+                            <a href="{{ it.url }}#iniciativas" class="badge bg-light text-primary border rounded-pill px-2 text-decoration-none fw-bold" style="font-size: 0.75rem;">
+                                {{ it.iniciativas_total }} ↗
+                            </a>
+                            {% else %}
+                            <span class="text-muted small">0</span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Grado Académico -->
+                        <td class="col-estudios col-hidden">
+                            <div class="fw-semibold">{{ it.grado_academico }}</div>
+                            <small class="text-muted">{{ it.disciplina }}</small>
+                        </td>
+
+                        <!-- Comisiones -->
+                        <td class="col-comisiones col-hidden">
+                            {% if it.preside_comision %}
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill">
+                                Preside: {{ it.presidencias_str }}
+                            </span>
+                            {% else %}
+                            <span class="text-muted small">{{ it.comisiones_total }} comisiones</span>
+                            {% endif %}
+                        </td>
+
+                        <!-- Periodo -->
+                        <td class="col-periodo col-hidden">
+                            <span class="badge bg-light text-secondary border">{{ it.periodo }}</span>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="16" class="text-center py-5 text-muted">
+                            <i class="bi bi-search display-6 d-block mb-2 text-secondary"></i>
+                            No se encontraron figuras públicas con los filtros seleccionados.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<!-- Script del Explorador Reactivo y Personalizador de Columnas -->
+<script>
+    const CONFIG_STORAGE_KEY = 'pulso_explorador_columnas_v1';
+    let timeoutBusqueda = null;
+
+    // 1. Inicializar personalización de columnas
+    document.addEventListener('DOMContentLoaded', () => {
+        cargarConfiguracionColumnas();
+        registrarEventosFiltros();
+    });
+
+    function cargarConfiguracionColumnas() {
+        const guardadas = localStorage.getItem(CONFIG_STORAGE_KEY);
+        let columnas = null;
+        if (guardadas) {
+            try { columnas = JSON.parse(guardadas); } catch (e) {}
+        }
+
+        document.querySelectorAll('.col-toggle').forEach(chk => {
+            const colClass = chk.dataset.col;
+            if (columnas && columnas[colClass] !== undefined) {
+                chk.checked = columnas[colClass];
+            }
+            toggleColumnaVisual(colClass, chk.checked);
+
+            chk.addEventListener('change', () => {
+                toggleColumnaVisual(colClass, chk.checked);
+                guardarConfiguracionColumnas();
+                actualizarConteoColumnas();
+            });
+        });
+        actualizarConteoColumnas();
+    }
+
+    function toggleColumnaVisual(colClass, visible) {
+        document.querySelectorAll('.' + colClass).forEach(el => {
+            if (visible) {
+                el.classList.remove('col-hidden');
+            } else {
+                el.classList.add('col-hidden');
+            }
+        });
+    }
+
+    function guardarConfiguracionColumnas() {
+        const cfg = {};
+        document.querySelectorAll('.col-toggle').forEach(chk => {
+            cfg[chk.dataset.col] = chk.checked;
+        });
+        localStorage.setItem(CONFIG_STORAGE_KEY, JSON.stringify(cfg));
+    }
+
+    function actualizarConteoColumnas() {
+        const activas = document.querySelectorAll('.col-toggle:checked').length;
+        document.getElementById('lblColsActivas').textContent = activas;
+    }
+
+    function restablecerColumnasDefault() {
+        localStorage.removeItem(CONFIG_STORAGE_KEY);
+        document.querySelectorAll('.col-toggle').forEach(chk => {
+            if (chk.dataset.col === 'col-estudios' || chk.dataset.col === 'col-comisiones' || chk.dataset.col === 'col-periodo') {
+                chk.checked = false;
+            } else {
+                chk.checked = true;
+            }
+            toggleColumnaVisual(chk.dataset.col, chk.checked);
+        });
+        actualizarConteoColumnas();
+    }
+
+    // 2. Reactividad en Filtros con API
+    function registrarEventosFiltros() {
+        const form = document.getElementById('formFiltros');
+        const inputs = form.querySelectorAll('select, input');
+
+        inputs.forEach(el => {
+            if (el.tagName === 'INPUT') {
+                el.addEventListener('input', () => {
+                    clearTimeout(timeoutBusqueda);
+                    timeoutBusqueda = setTimeout(ejecutarConsulta, 300);
+                });
+            } else {
+                el.addEventListener('change', () => {
+                    ejecutarConsulta();
+                });
+            }
+        });
+
+        // Botón Descargar CSV
+        document.getElementById('btnDescargarCSV').addEventListener('click', () => {
+            descargarReporteCSV();
+        });
+
+        // Botón Copiar Enlace
+        document.getElementById('btnCopiarEnlace').addEventListener('click', () => {
+            copiarEnlaceCompartible();
+        });
+    }
+
+    function obtenerParametrosActuales() {
+        const form = document.getElementById('formFiltros');
+        const formData = new FormData(form);
+        const params = new URLSearchParams();
+        for (let [k, v] of formData.entries()) {
+            if (v && v !== 'todos') {
+                params.set(k, v);
+            }
+        }
+        return params;
+    }
+
+    async function ejecutarConsulta() {
+        const spinner = document.getElementById('loaderSpinner');
+        spinner.classList.remove('d-none');
+
+        const params = obtenerParametrosActuales();
+        params.set('limit', 100);
+
+        try {
+            const resp = await fetch(`/api/explorador?${params.toString()}`);
+            const data = await resp.json();
+
+            if (data.ok) {
+                renderizarTabla(data.items);
+                actualizarKPIs(data.kpis, data.total_filtrados);
+
+                // Actualizar URL sin recargar
+                const nuevaUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                window.history.replaceState({}, '', nuevaUrl);
+            }
+        } catch (err) {
+            console.error('Error al consultar datos:', err);
+        } finally {
+            spinner.classList.add('d-none');
+        }
+    }
+
+    function actualizarKPIs(kpis, total) {
+        document.getElementById('kpiTotal').textContent = total;
+        document.getElementById('kpiTransicion').textContent = kpis.con_transicion || 0;
+        document.getElementById('kpiLicencia').textContent = kpis.con_licencia || 0;
+        document.getElementById('kpiPluris').textContent = kpis.plurinominales || 0;
+        document.getElementById('kpiMayoria').textContent = kpis.mayoria || 0;
+        document.getElementById('kpiReelectos').textContent = kpis.reelectos || 0;
+
+        document.getElementById('lblTotal').textContent = total;
+    }
+
+    function renderizarTabla(items) {
+        const tbody = document.getElementById('tablaBody');
+        document.getElementById('lblMostrados').textContent = items.length;
+
+        if (!items || items.length === 0) {
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="16" class="text-center py-5 text-muted">
+                        <i class="bi bi-search display-6 d-block mb-2 text-secondary"></i>
+                        No se encontraron figuras públicas con los filtros seleccionados.
+                    </td>
+                </tr>`;
+            return;
+        }
+
+        let html = '';
+        for (let it of items) {
+            // Foto
+            let fallbackAvatar = `https://ui-avatars.com/api/?name=${encodeURIComponent(it.nombre || '')}&background=F1F5F9&color=475569`;
+            let fotoHtml = it.foto_url
+                ? `<img src="${it.foto_url}" alt="" class="avatar-sm border" loading="lazy" onerror="this.onerror=null; this.src='${fallbackAvatar}';">`
+                : `<div class="avatar-sm d-inline-flex align-items-center justify-content-center text-muted fw-bold border"><i class="bi bi-person"></i></div>`;
+
+            // Nivel
+            let nivelBadge = '';
+            if (it.nivel === 'Federal') {
+                nivelBadge = '<span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill">Federal</span>';
+            } else if (it.nivel === 'Estatal') {
+                nivelBadge = '<span class="badge bg-info-subtle text-info-emphasis border border-info-subtle rounded-pill">Estatal</span>';
+            } else {
+                nivelBadge = '<span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle rounded-pill">Municipal</span>';
+            }
+
+            // Transición
+            let transicionHtml = '';
+            if (it.tiene_transicion) {
+                let chain = '';
+                for (let i = 0; i < it.transicion_badges.length; i++) {
+                    const b = it.transicion_badges[i];
+                    chain += `<span class="party-tag-sm border" style="background-color: ${b.color}14; color: ${b.color}; border-color: ${b.color}40 !important;">${b.nombre}</span>`;
+                    if (i < it.transicion_badges.length - 1) {
+                        chain += '<i class="bi bi-arrow-right text-muted" style="font-size: 0.65rem;"></i>';
+                    }
+                }
+                transicionHtml = `
+                    <div class="transition-chain">${chain}</div>
+                    <div class="small text-danger fw-semibold" style="font-size: 0.68rem;">
+                        <i class="bi bi-arrow-left-right me-1"></i>${it.transicion_lista.length} partidos
+                    </div>`;
+            } else {
+                transicionHtml = `<span class="text-muted small"><i class="bi bi-shield-check text-success me-1"></i>${it.partido_actual} (Fiel)</span>`;
+            }
+
+            // Principio
+            let principioBadge = '';
+            if (it.principio_tipo === 'mayoria') {
+                principioBadge = '<span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill" style="font-size: 0.72rem;"><i class="bi bi-check-circle me-1"></i>Mayoría Relativa</span>';
+            } else if (it.principio_tipo === 'plurinominal') {
+                principioBadge = '<span class="badge bg-info-subtle text-info-emphasis border border-info-subtle rounded-pill" style="font-size: 0.72rem;"><i class="bi bi-card-list me-1"></i>Plurinominal</span>';
+            } else {
+                principioBadge = `<span class="badge bg-light text-secondary border rounded-pill" style="font-size: 0.72rem;">${it.principio_eleccion}</span>`;
+            }
+
+            // Licencia
+            let licenciaSub = '';
+            if (it.tiene_licencia && it.suplente_nombre) {
+                licenciaSub = `<div class="small" style="font-size: 0.72rem;"><span class="text-muted">Suplente:</span> <a href="/politicos/${it.suplente_slug || ''}" class="fw-semibold text-primary text-decoration-none">${it.suplente_nombre} ↗</a></div>`;
+            } else if (it.es_suplente && it.titular_nombre) {
+                licenciaSub = `<div class="small" style="font-size: 0.72rem;"><span class="text-muted">Cubre a:</span> <a href="/politicos/${it.titular_slug || ''}" class="fw-semibold text-primary text-decoration-none">${it.titular_nombre} ↗</a></div>`;
+            }
+
+            // Asistencia
+            let asistHtml = '<span class="text-muted small">-</span>';
+            if (it.asistencia_pct !== null && it.asistencia_pct !== undefined) {
+                let badgeClass = it.asistencia_semaforo === 'verde' ? 'bg-success text-white' : (it.asistencia_semaforo === 'amarillo' ? 'bg-warning text-dark' : 'bg-danger text-white');
+                asistHtml = `
+                    <a href="${it.url}#asistencia" class="text-decoration-none">
+                        <span class="badge ${badgeClass} rounded-pill px-2" style="font-size: 0.75rem;">${it.asistencia_pct_fmt}</span>
+                        <div class="text-muted" style="font-size: 0.65rem;">${it.asistencia_sesiones}</div>
+                    </a>`;
+            }
+
+            // Fila HTML
+            html += `
+                <tr>
+                    <td class="col-foto text-center">${fotoHtml}</td>
+                    <td class="col-nombre">
+                        <a href="${it.url}" class="fw-bold text-dark text-decoration-none d-block lh-sm hover-primary">${it.nombre}</a>
+                    </td>
+                    <td class="col-nivel">${nivelBadge}</td>
+                    <td class="col-cargo"><span class="fw-semibold text-secondary">${it.cargo}</span></td>
+                    <td class="col-entidad"><a href="/estados/${it.entidad_slug}" class="text-decoration-none text-dark hover-primary">${it.entidad}</a></td>
+                    <td class="col-municipio"><span class="text-muted small">${it.municipio || 'Representación Estatal'}</span></td>
+                    <td class="col-partido">
+                        <span class="party-tag-sm border" style="background-color: ${it.partido_actual_color}14; color: ${it.partido_actual_color}; border-color: ${it.partido_actual_color}40 !important;">${it.partido_actual}</span>
+                    </td>
+                    <td class="col-transicion">${transicionHtml}</td>
+                    <td class="col-principio">${principioBadge}</td>
+                    <td class="col-licencia">
+                        <span class="badge ${it.licencia_badge} rounded-pill mb-1 d-inline-block" style="font-size: 0.72rem;">${it.estatus_licencia}</span>
+                        ${licenciaSub}
+                    </td>
+                    <td class="col-reeleccion">
+                        ${it.es_reelecto ? `<span class="badge bg-dark text-white rounded-pill" style="font-size: 0.72rem;"><i class="bi bi-arrow-repeat me-1"></i>${it.reeleccion_texto}</span>` : '<span class="text-muted small">Primer Periodo</span>'}
+                    </td>
+                    <td class="col-asistencia text-center">${asistHtml}</td>
+                    <td class="col-iniciativas text-center">
+                        ${it.iniciativas_total > 0 ? `<a href="${it.url}#iniciativas" class="badge bg-light text-primary border rounded-pill px-2 text-decoration-none fw-bold" style="font-size: 0.75rem;">${it.iniciativas_total} ↗</a>` : '<span class="text-muted small">0</span>'}
+                    </td>
+                    <td class="col-estudios col-hidden">
+                        <div class="fw-semibold">${it.grado_academico}</div>
+                        <small class="text-muted">${it.disciplina}</small>
+                    </td>
+                    <td class="col-comisiones col-hidden">
+                        ${it.preside_comision ? `<span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill">Preside: ${it.presidencias_str}</span>` : `<span class="text-muted small">${it.comisiones_total} comisiones</span>`}
+                    </td>
+                    <td class="col-periodo col-hidden">
+                        <span class="badge bg-light text-secondary border">${it.periodo}</span>
+                    </td>
+                </tr>`;
+        }
+
+        tbody.innerHTML = html;
+
+        // Reaplicar clases ocultas según la configuración de columnas del usuario
+        document.querySelectorAll('.col-toggle').forEach(chk => {
+            toggleColumnaVisual(chk.dataset.col, chk.checked);
+        });
+    }
+
+    // 3. Aplicar Presets Rápidos
+    function aplicarPreset(tipo) {
+        limpiarFiltros(false);
+        if (tipo === 'actuales') {
+            document.getElementById('filtroPeriodo').value = 'actuales';
+        } else if (tipo === 'chapulines') {
+            document.getElementById('filtroTransicion').value = 'con_cambio';
+        } else if (tipo === 'pluris') {
+            document.getElementById('filtroPrincipio').value = 'plurinominal';
+        } else if (tipo === 'mayoria') {
+            document.getElementById('filtroPrincipio').value = 'mayoria';
+        } else if (tipo === 'licencias') {
+            document.getElementById('filtroLicencia').value = 'con_licencia';
+        } else if (tipo === 'suplentes') {
+            document.getElementById('filtroLicencia').value = 'suplentes';
+        } else if (tipo === 'reelectos') {
+            document.getElementById('filtroReeleccion').value = 'reelecto';
+        } else if (tipo === 'alcaldes') {
+            document.getElementById('filtroNivel').value = 'municipal';
+            document.getElementById('filtroCargo').value = 'alcalde';
+            document.getElementById('filtroLicencia').value = 'en_funciones';
+        } else if (tipo === 'gobernadores') {
+            document.getElementById('filtroNivel').value = 'estatal';
+            document.getElementById('filtroCargo').value = 'gobernador';
+            document.getElementById('filtroLicencia').value = 'en_funciones';
+        }
+        ejecutarConsulta();
+    }
+
+    function limpiarFiltros(ejecutar = true) {
+        document.getElementById('filtroQ').value = '';
+        document.getElementById('filtroNivel').value = 'todos';
+        document.getElementById('filtroCargo').value = 'todos';
+        document.getElementById('filtroEntidad').value = 'todos';
+        document.getElementById('filtroPartido').value = 'todos';
+        document.getElementById('filtroPeriodo').value = 'todos';
+        document.getElementById('filtroEducacion').value = 'todos';
+        document.getElementById('filtroPrincipio').value = 'todos';
+        document.getElementById('filtroTransicion').value = 'todos';
+        document.getElementById('filtroLicencia').value = 'todos';
+        document.getElementById('filtroReeleccion').value = 'todos';
+
+        if (ejecutar) {
+            ejecutarConsulta();
+        }
+    }
+
+    // 4. Descargar Reporte CSV con columnas visibles
+    function descargarReporteCSV() {
+        const params = obtenerParametrosActuales();
+
+        // Obtener nombres de columnas visibles seleccionadas
+        const colsActivas = [];
+        const mapCols = {
+            'col-nombre': 'nombre',
+            'col-nivel': 'nivel',
+            'col-cargo': 'cargo',
+            'col-entidad': 'entidad',
+            'col-municipio': 'municipio',
+            'col-partido': 'partido',
+            'col-transicion': 'transicion',
+            'col-principio': 'principio',
+            'col-licencia': 'licencia',
+            'col-reeleccion': 'reeleccion',
+            'col-asistencia': 'asistencia',
+            'col-iniciativas': 'iniciativas',
+            'col-estudios': 'estudios',
+            'col-comisiones': 'comisiones',
+            'col-periodo': 'periodo'
+        };
+
+        document.querySelectorAll('.col-toggle:checked').forEach(chk => {
+            const apiCol = mapCols[chk.dataset.col];
+            if (apiCol) colsActivas.push(apiCol);
+        });
+
+        params.set('columnas', colsActivas.join(','));
+        window.location.href = `/api/explorador/exportar.csv?${params.toString()}`;
+    }
+
+    // 5. Copiar Enlace Compartible
+    function copiarEnlaceCompartible() {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+            const btn = document.getElementById('btnCopiarEnlace');
+            const original = btn.innerHTML;
+            btn.innerHTML = '<i class="bi bi-check-lg text-success"></i> ¡Enlace Copiado!';
+            setTimeout(() => { btn.innerHTML = original; }, 2000);
+        });
+    }
+</script>
+{% endblock %}

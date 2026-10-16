@@ -1,0 +1,319 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb" class="breadcrumb-ios">
+    <ol class="breadcrumb mb-3">
+        <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Metodología y Fuentes Oficiales</li>
+    </ol>
+</nav>
+
+<!-- Hero Section Metodología -->
+<div class="card-civic p-4 p-md-5 mb-5 border shadow-sm">
+    <div class="row align-items-center">
+        <div class="col-lg-8">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-primary-subtle text-primary small fw-semibold mb-3 shadow-2xs">
+                <i class="bi bi-shield-check"></i> Transparencia, Neutralidad y Rigor Documental
+            </div>
+            <h1 class="display-6 fw-bold text-dark mb-3">
+                Metodología y Fuentes Oficiales
+            </h1>
+            <p class="lead text-secondary mb-3" style="font-size: 1.08rem; line-height: 1.6;">
+                <strong>{{ app_name }}</strong> es un observatorio cívico independiente mantenido por la comunidad. No pertenecemos a ningún partido político ni recibimos subsidios gubernamentales. Nuestro único compromiso es hacer transparente, auditable y comprensible la información pública oficial del Estado Mexicano.
+            </p>
+            <div class="d-flex align-items-center gap-3 flex-wrap">
+                <span class="badge bg-success-subtle text-success border border-success-subtle py-2 px-3 rounded-pill">
+                    <i class="bi bi-check2-circle me-1"></i> 100% Fuentes Primarias Gubernamentales
+                </span>
+                <span class="badge bg-light text-secondary border py-2 px-3 rounded-pill">
+                    <i class="bi bi-file-earmark-lock me-1"></i> Amparado en el Art. 6° Constitucional
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-4 text-center mt-4 mt-lg-0">
+            <div class="p-4 bg-light rounded-4 border text-start">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                    <i class="bi bi-patch-check-fill text-primary fs-4"></i>
+                    <h6 class="fw-bold text-dark mb-0">Auditoría Registro por Registro</h6>
+                </div>
+                <p class="small text-muted mb-3" style="line-height: 1.5;">
+                    Cada legislador, gobernador o alcalde en este observatorio cuenta con trazabilidad directa a folios oficiales de SEGOB, decretos en gacetas parlamentarias o actas de cómputo del INE.
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-sm rounded-pill w-100 btn-reportar-anomalia" data-origen-tipo="general" data-origen-id="metodologia" data-origen-nombre="Portal El Pulso">
+                    <i class="bi bi-flag me-1"></i> Reportar discrepancia o actualización
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 4 Pilares de Credibilidad -->
+<div class="row g-4 mb-5">
+    <div class="col-md-6 col-lg-3">
+        <div class="card-civic p-4 h-100 border">
+            <div class="d-inline-flex p-2 rounded-circle bg-primary-subtle text-primary mb-3">
+                <i class="bi bi-file-earmark-check fs-4"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">1. Fuentes 100% Oficiales</h5>
+            <p class="small text-secondary mb-0" style="line-height: 1.5;">
+                Prohibido el uso de trascendidos, rumores, columnas de opinión o fuentes anónimas. Toda la información procede de diarios oficiales, portales de transparencia y registros del Estado.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="card-civic p-4 h-100 border">
+            <div class="d-inline-flex p-2 rounded-circle bg-success-subtle text-success mb-3">
+                <i class="bi bi-arrow-repeat fs-4"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">2. Trazabilidad Clicable</h5>
+            <p class="small text-secondary mb-0" style="line-height: 1.5;">
+                Ningún dato se muestra como un hecho aislado. Proveemos folios oficiales (como la referencia SIL de SEGOB) y enlaces directos para que cualquier persona contraste la información en origen.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="card-civic p-4 h-100 border">
+            <div class="d-inline-flex p-2 rounded-circle bg-warning-subtle text-warning-emphasis mb-3">
+                <i class="bi bi-calculator fs-4"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">3. Metodología Abierta</h5>
+            <p class="small text-secondary mb-0" style="line-height: 1.5;">
+                Cero juicios de valor. Las asistencias se computan sobre pases de lista en el pleno; la disciplina partidaria mide coincidencias matemáticas de votación; y las comisiones reflejan acuerdos vigentes de JUCOPO.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="card-civic p-4 h-100 border">
+            <div class="d-inline-flex p-2 rounded-circle bg-danger-subtle text-danger mb-3">
+                <i class="bi bi-people fs-4"></i>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">4. Corrección Ciudadana</h5>
+            <p class="small text-secondary mb-0" style="line-height: 1.5;">
+                Si un organismo gubernamental actualiza un dato o existe una homonimia de cargo, cualquier ciudadano puede enviar un reporte con evidencia documental para su verificación y corrección inmediata.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Catálogo Exhaustivo de Fuentes Primarias -->
+<div class="card-civic p-4 p-md-5 mb-5 border">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4 border-bottom pb-3">
+        <div>
+            <h2 class="h4 fw-bold text-dark mb-1">
+                <i class="bi bi-database-check text-primary me-2"></i>Catálogo Exhaustivo de Fuentes Primarias
+            </h2>
+            <p class="text-secondary small mb-0">
+                Registro de dependencias gubernamentales, órganos constitucionales y diarios oficiales consultados.
+            </p>
+        </div>
+        <span class="badge bg-primary text-white rounded-pill px-3 py-2">
+            Niveles: Federal &bull; Estatal &bull; Municipal
+        </span>
+    </div>
+
+    <!-- 1. Nivel Federal -->
+    <div class="mb-5">
+        <h5 class="fw-bold text-dark d-flex align-items-center gap-2 mb-3">
+            <span class="badge bg-primary text-white rounded-circle p-2" style="width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem;">A</span>
+            Poder Legislativo Federal y Órganos Electorales
+        </h5>
+        <div class="table-responsive border rounded-3">
+            <table class="table table-hover align-middle mb-0" style="font-size: 0.88rem;">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 24%;">Órgano / Institución</th>
+                        <th style="width: 38%;">Datos Oficiales Extraídos</th>
+                        <th style="width: 22%;">Portal de Acceso Primario</th>
+                        <th style="width: 16%;" class="text-center">Cobertura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-bank text-primary me-1"></i> SEGOB (SIL)
+                            <div class="text-muted small fw-normal">Sistema de Información Legislativa</div>
+                        </td>
+                        <td>Fichas curriculares oficiales, trayectoria política acumulada, suplencias, grado académico e historial de comisiones.</td>
+                        <td><a href="http://sil.gobernacion.gob.mx" target="_blank" rel="noopener" class="text-decoration-none"><code>sil.gobernacion.gob.mx</code> ↗</a></td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">LVII a LXVI (1997–2027)</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-buildings text-primary me-1"></i> Cámara de Diputados (SITL)
+                            <div class="text-muted small fw-normal">Sistema de Información Técnica</div>
+                        </td>
+                        <td>Pases de lista nominales, asistencias y justificaciones en pleno, votaciones de dictámenes e iniciativas parlamentarias.</td>
+                        <td><a href="https://sitl.diputados.gob.mx" target="_blank" rel="noopener" class="text-decoration-none"><code>sitl.diputados.gob.mx</code> ↗</a></td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">En Tiempo Real</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-bank2 text-primary me-1"></i> Senado de la República
+                            <div class="text-muted small fw-normal">Cámara de Senadores</div>
+                        </td>
+                        <td>Integración de los 128 escaños de senadores de la República, mesas directivas, comisiones ordinarias y especiales.</td>
+                        <td><a href="https://www.senado.gob.mx" target="_blank" rel="noopener" class="text-decoration-none"><code>senado.gob.mx</code> ↗</a></td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">Vigente y Archivo</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-journal-text text-primary me-1"></i> Gaceta Parlamentaria
+                            <div class="text-muted small fw-normal">Órgano Informativo Oficial</div>
+                        </td>
+                        <td>Decretos aprobados, acuerdos de la Junta de Coordinación Política (JUCOPO) y reformas constitucionales publicadas.</td>
+                        <td><a href="https://gaceta.diputados.gob.mx" target="_blank" rel="noopener" class="text-decoration-none"><code>gaceta.diputados.gob.mx</code> ↗</a></td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">Sesión por Sesión</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-shield-check text-primary me-1"></i> INE
+                            <div class="text-muted small fw-normal">Instituto Nacional Electoral</div>
+                        </td>
+                        <td>Cómputos distritales, constancias oficiales de mayoría relativa y asignación por representación proporcional (plurinominales).</td>
+                        <td><a href="https://www.ine.mx" target="_blank" rel="noopener" class="text-decoration-none"><code>ine.mx</code> ↗</a></td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">Procesos Federales</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 2. Nivel Estatal -->
+    <div class="mb-5">
+        <h5 class="fw-bold text-dark d-flex align-items-center gap-2 mb-3">
+            <span class="badge bg-danger text-white rounded-circle p-2" style="width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem;">B</span>
+            Poder Ejecutivo y Legislativo Estatal (32 Entidades Federativas)
+        </h5>
+        <div class="table-responsive border rounded-3">
+            <table class="table table-hover align-middle mb-0" style="font-size: 0.88rem;">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 24%;">Ámbito Estatal</th>
+                        <th style="width: 38%;">Datos Oficiales Extraídos</th>
+                        <th style="width: 22%;">Fuentes Primarias</th>
+                        <th style="width: 16%;" class="text-center">Cobertura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-shield-shaded text-danger me-1"></i> Gobernadores y Jefatura CDMX
+                            <div class="text-muted small fw-normal">Poder Ejecutivo en 32 Entidades</div>
+                        </td>
+                        <td>Mandatarios constitucionales, interinos y sustitutos, periodos de mandato legal y partidos postulantes.</td>
+                        <td>Periódicos Oficiales Estatales (POEs), Diario Oficial de la Federación (DOF), Bandos Solemnes y acuerdos de validez electoral.</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">32 Estados (100%)</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-geo-alt-fill text-danger me-1"></i> 32 Congresos Estatales
+                            <div class="text-muted small fw-normal">Diputaciones Locales</div>
+                        </td>
+                        <td>Integración de legislaturas estatales, diputados de mayoría y plurinominales, coordinaciones parlamentarias locales.</td>
+                        <td>Portales oficiales de los 32 Congresos Estatales (dominios <code>.gob.mx</code> o <code>congreso[estado].gob.mx</code>) y gacetas legislativas locales.</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">32 Legislaturas Locales</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-check2-square text-danger me-1"></i> OPLEs / IEEs
+                            <div class="text-muted small fw-normal">Organismos Públicos Locales Electorales</div>
+                        </td>
+                        <td>Cómputos de elecciones a gubernaturas y diputaciones locales, cómputo de votos por partido y coalición en cada estado.</td>
+                        <td>Institutos Electorales Estatales de las 32 Entidades (ej. IECM, IEPC, IEE, etc.).</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">32 Institutos Locales</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 3. Nivel Municipal -->
+    <div class="mb-4">
+        <h5 class="fw-bold text-dark d-flex align-items-center gap-2 mb-3">
+            <span class="badge bg-warning text-dark rounded-circle p-2" style="width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem;">C</span>
+            Alcaldías, Presidencias Municipales y Cabildos
+        </h5>
+        <div class="table-responsive border rounded-3">
+            <table class="table table-hover align-middle mb-0" style="font-size: 0.88rem;">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 24%;">Ámbito Municipal</th>
+                        <th style="width: 38%;">Datos Oficiales Extraídos</th>
+                        <th style="width: 22%;">Fuentes Primarias</th>
+                        <th style="width: 16%;" class="text-center">Cobertura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-houses text-warning-emphasis me-1"></i> Alcaldes y Presidentes Municipales
+                            <div class="text-muted small fw-normal">Ayuntamientos Constitucionales</div>
+                        </td>
+                        <td>Titulares de presidencias municipales y alcaldías de la CDMX, afiliación partidista y fechas de ejercicio constitucional.</td>
+                        <td>INAFED (Instituto Nacional para el Federalismo y el Desarrollo Municipal), OPLEs y Bandos Municipales.</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">2,474 Municipios</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-people text-warning-emphasis me-1"></i> Ediles de Cabildo
+                            <div class="text-muted small fw-normal">Síndicos y Regidores</div>
+                        </td>
+                        <td>Integración colegiada de cabildos, síndicos procuradores y regidurías de mayoría y representación proporcional.</td>
+                        <td>Acuerdos de asignación de regidurías de los IEEs estatales, actas de sesión de instalación de cabildo y gacetas municipales.</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">Cabildos Auditados</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-flower1 text-warning-emphasis me-1"></i> Sistemas Normativos Indígenas
+                            <div class="text-muted small fw-normal">Usos y Costumbres</div>
+                        </td>
+                        <td>Autoridades tradicionales electas mediante asambleas comunitarias indígenas en municipios sin régimen de partidos políticos.</td>
+                        <td>Validaciones y acuerdos de asamblea emitidos por el IEEPCO (Oaxaca: 417 municipios) e instancias comunitarias oficiales.</td>
+                        <td class="text-center"><span class="badge bg-success-subtle text-success border border-success-subtle">Oaxaca y Zonas Étnicas</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Marco Legal y Protocolo de Corrección Ciudadana -->
+<div class="row g-4 mb-5">
+    <div class="col-lg-6">
+        <div class="card-civic p-4 h-100 border">
+            <h5 class="fw-bold text-dark d-flex align-items-center gap-2 mb-3">
+                <i class="bi bi-book-half text-primary"></i>
+                Fundamentación Constitucional
+            </h5>
+            <p class="text-secondary small mb-3" style="line-height: 1.6;">
+                El ejercicio de este observatorio se fundamenta estrictamente en el <strong>Artículo 6° de la Constitución Política de los Estados Unidos Mexicanos</strong>, que establece que toda la información en posesión de cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo, Legislativo y Judicial, órganos autónomos y partidos políticos es pública y sólo podrá ser reservada temporalmente por razones de interés público en los términos que fijen las leyes.
+            </p>
+            <div class="alert alert-light border small text-muted mb-0">
+                <i class="bi bi-info-circle text-primary me-1"></i>
+                {{ app_name }} respeta los lineamientos del Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) limitándose a información pública oficial de servidores en el desempeño de su cargo.
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="card-civic p-4 h-100 border">
+            <h5 class="fw-bold text-dark d-flex align-items-center gap-2 mb-3">
+                <i class="bi bi-shield-exclamation text-danger"></i>
+                Protocolo de Verificación y Corrección
+            </h5>
+            <p class="text-secondary small mb-3" style="line-height: 1.6;">
+                La integridad del observatorio descansa en la participación ciudadana. Si detectas alguna de las siguientes situaciones:
+            </p>
+            <ul class="small text-secondary mb-3 ps-3">
+                <li>Una actualización de cargo o suplencia publicada recientemente en gaceta.</li>
+                <li>Una discrepancia ortográfica o de homonimia en nombres propios.</li>
+                <li>Una comisión asignada que no aparezca reflejada tras acuerdo de JUCOPO.</li>
+            </ul>
+            <button type="button" class="btn btn-primary rounded-pill btn-sm px-4 btn-reportar-anomalia" data-origen-tipo="general" data-origen-id="metodologia-bottom" data-origen-nombre="Portal Metodología">
+                <i class="bi bi-flag-fill me-1"></i> Enviar reporte de corrección con evidencia oficial
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}

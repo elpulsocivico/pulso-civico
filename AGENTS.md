@@ -3,8 +3,10 @@
 > Este archivo lo leen automáticamente Cursor, Claude Code, GitHub Copilot, Gemini/Antigravity, Codex y otros agentes.
 > Si usas ChatGPT u otra IA de chat, **pégale este archivo al inicio de la conversación**.
 
-## Contexto del proyecto
-- **Pulso Cívico**: plataforma de transparencia política (México). PHP 8.1+ vanilla, **sin frameworks, sin Composer, sin base de datos** (JSON en `storage/data/json/`).
+## Contexto del proyecto y Entorno Activo
+- **ENTORNO ACTIVO EN ESTA PC: PYTHON (FastAPI + Jinja2)**.
+  - El servidor que se ejecuta y visualiza localmente en esta máquina corre en **Python / FastAPI (`app/main.py`)** con plantillas en `app/templates/`.
+  - **REGLA ESTRICTA**: Todo desarrollo nuevo de backend, endpoints, vistas y lógica visual DEBE realizarse en **Python** dentro del directorio `app/` (`app/routers/`, `app/services/`, `app/templates/`), NO en PHP (`src/`, `views/`), para que los cambios se reflejen de inmediato en la aplicación en ejecución.
 - Principio rector: **neutralidad**. Todo dato mostrado debe provenir de una fuente oficial o nota periodística **enlazada**. Nunca generar opiniones, calificativos ni datos inventados.
 
 ## Mapa del código

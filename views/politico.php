@@ -135,6 +135,30 @@ require __DIR__ . '/layout/header.php';
             </div>
 
             <?php 
+            $escalas = $politico['escalas_gobierno'] ?? [];
+            $tieneBadgesTrayectoria = !empty($escalas['ha_sido_gobernador']) || !empty($escalas['ha_sido_alcalde']) || !empty($escalas['ha_sido_diputado_local']);
+            if ($tieneBadgesTrayectoria):
+            ?>
+            <div class="d-flex justify-content-center align-items-center gap-1 mb-3 flex-wrap">
+                <?php if (!empty($escalas['ha_sido_gobernador'])): ?>
+                <span class="badge bg-danger-subtle text-danger border border-danger-subtle rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                    <i class="bi bi-shield-shaded me-1"></i>Ex-Gobernador(a)
+                </span>
+                <?php endif; ?>
+                <?php if (!empty($escalas['ha_sido_alcalde'])): ?>
+                <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                    <i class="bi bi-houses me-1"></i>Ex-Alcalde(sa)
+                </span>
+                <?php endif; ?>
+                <?php if (!empty($escalas['ha_sido_diputado_local'])): ?>
+                <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                    <i class="bi bi-geo-alt me-1"></i>Ex-Diputado(a) Local
+                </span>
+                <?php endif; ?>
+            </div>
+            <?php endif; ?>
+
+            <?php 
             $redes = $politico['redes_sociales'] ?? [];
             if (!empty($redes) || !empty($correo)): 
             ?>
@@ -234,10 +258,19 @@ require __DIR__ . '/layout/header.php';
                     <?= ViewHelper::e($politico['fecha_toma_protesta']) ?>
                 </div>
                 <?php endif; ?>
-                <?php if (!empty($politico['referencia_sil'])): ?>
-                <div>
+                <?php if (!empty($politico['referencia_sil'])): 
+                    $silRefNum = (string)$politico['referencia_sil'];
+                    $silGobUrl = 'http://sil.gobernacion.gob.mx/Librerias/pp_PerfilLegislador.php?Referencia=' . urlencode($silRefNum);
+                ?>
+                <div class="mb-2">
                     <strong class="text-dark d-block">Folio Oficial SEGOB:</strong>
-                    <span class="font-monospace text-muted">SIL-<?= ViewHelper::e($politico['referencia_sil']) ?></span>
+                    <div class="d-flex align-items-center justify-content-between mt-1 flex-wrap gap-1">
+                        <span class="font-monospace text-muted small">SIL-<?= ViewHelper::e($silRefNum) ?></span>
+                        <a href="<?= ViewHelper::e($silGobUrl) ?>" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary py-0 px-2 rounded-pill d-inline-flex align-items-center gap-1 text-decoration-none" style="font-size: 0.7rem;" title="Verificar expediente original en la Secretaría de Gobernación">
+                            <span>Ver en SEGOB</span>
+                            <i class="bi bi-box-arrow-up-right" style="font-size: 0.6rem;"></i>
+                        </a>
+                    </div>
                 </div>
                 <?php endif; ?>
 
@@ -355,11 +388,21 @@ require __DIR__ . '/layout/header.php';
             </div>
             <?php endif; ?>
 
-            <!-- Botones de Acción / Compartir -->
+            <!-- Botones de Acción / Compartir y Auditoría -->
             <div class="d-grid gap-2">
                 <button class="btn btn-outline-primary rounded-pill btn-sm d-flex align-items-center justify-content-center gap-2" id="btnShare" data-title="Ficha legislativa de <?= ViewHelper::e($nombre) ?>" data-url="<?= $canonicalUrl ?>">
                     <i class="bi bi-share"></i>
                     <span>Compartir Expediente</span>
+                </button>
+                <button type="button"
+                        class="btn btn-outline-danger rounded-pill btn-sm d-flex align-items-center justify-content-center gap-2 btn-reportar-anomalia"
+                        data-origen-tipo="politico"
+                        data-origen-id="<?= ViewHelper::e($politico['slug'] ?? '') ?>"
+                        data-origen-nombre="<?= ViewHelper::e($nombre) ?>"
+                        data-origen-url="<?= $canonicalUrl ?>"
+                        title="Reportar homónimo, cargo falso o dato incorrecto">
+                    <i class="bi bi-flag"></i>
+                    <span>Reportar inconsistencia</span>
                 </button>
             </div>
         </div>
@@ -385,7 +428,7 @@ require __DIR__ . '/layout/header.php';
                     <?php foreach ($comisiones as $com): 
                         $comNombre = $com['comision'] ?? '';
                         $comSlug = PulsoCivico\Services\DataService::slugify($comNombre);
-                        $comUrl = Router::url('/comisiones/' . $comSlug);
+                        $comUrl = Router::url('/comisiones/' . $comSlug . ($legNumero !== 66 ? '?leg=' . $legNumero : ''));
                         $puesto = $com['puesto'] ?? 'Integrante';
                         $esPresid = str_contains(strtoupper($puesto), 'PRESID');
                         $esSecret = str_contains(strtoupper($puesto), 'SECRET');
@@ -412,23 +455,126 @@ require __DIR__ . '/layout/header.php';
 
         <!-- SECCIÓN 2: LÍNEA DE TIEMPO Y CARGOS (CHRONOLOGICAL TIMELINE) + ESTUDIOS -->
         <div class="card-civic p-4 mb-4">
-            <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
                 <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
-                    <i class="bi bi-clock-history text-primary"></i>
-                    Línea de Tiempo y Cargos (<?= count($lineaTiempo) ?>)
+                    <i class="bi bi-diagram-3-fill text-primary"></i>
+                    Trayectoria Política y Cargos Públicos (<?= count($lineaTiempo) ?>)
                 </h2>
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                    <i class="bi bi-shield-check me-1"></i>Ruta de Gobernanza Auditada
+                </span>
             </div>
+
+            <?php 
+            $escalasPol = $politico['escalas_gobierno'] ?? [];
+            if (!empty($escalasPol['total_escalas']) && (int)$escalasPol['total_escalas'] > 1):
+            ?>
+            <!-- Resumen de Escalas de Gobierno Ejercidas -->
+            <div class="p-2 px-3 mb-3 bg-light rounded-3 border d-flex align-items-center justify-content-between flex-wrap gap-2">
+                <span class="text-secondary fw-semibold d-inline-flex align-items-center gap-1" style="font-size: 0.73rem;">
+                    <i class="bi bi-layers-fill text-primary"></i>
+                    Escalas de Gobierno en su Carrera (<?= (int)$escalasPol['total_escalas'] ?>):
+                </span>
+                <div class="d-flex align-items-center gap-1 flex-wrap">
+                    <?php if (!empty($escalasPol['ha_sido_alcalde'])): ?>
+                        <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle rounded-pill py-1 px-2" style="font-size: 0.68rem;">
+                            <i class="bi bi-houses me-1"></i>Municipal (Alcaldía)
+                        </span>
+                    <?php endif; ?>
+                    <?php if (!empty($escalasPol['ha_sido_diputado_local'])): ?>
+                        <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill py-1 px-2" style="font-size: 0.68rem;">
+                            <i class="bi bi-geo-alt me-1"></i>Legislativo Local
+                        </span>
+                    <?php endif; ?>
+                    <?php if (!empty($escalasPol['ha_sido_gobernador'])): ?>
+                        <span class="badge bg-danger-subtle text-danger border border-danger-subtle rounded-pill py-1 px-2" style="font-size: 0.68rem;">
+                            <i class="bi bi-shield-shaded me-1"></i>Ejecutivo Estatal (Gobernador)
+                        </span>
+                    <?php endif; ?>
+                    <?php if (!empty($escalasPol['ha_sido_diputado_federal']) || !empty($escalasPol['ha_sido_senador'])): ?>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill py-1 px-2" style="font-size: 0.68rem;">
+                            <i class="bi bi-bank me-1"></i>Congreso de la Unión
+                        </span>
+                    <?php endif; ?>
+                </div>
+            </div>
+            <?php endif; ?>
+
+            <?php 
+            // Extraer filiaciones partidistas presentes en la trayectoria
+            $partidosTrayectoria = [];
+            if (!empty($partido) && !str_contains(strtoupper($partido), 'SIN PARTIDO')) {
+                $canPart = ViewHelper::getCanonicalPartyName($partido);
+                $partidosTrayectoria[$canPart] = [
+                    'nombre' => $canPart,
+                    'es_actual' => true,
+                ];
+            }
+            foreach ($lineaTiempo as $lt) {
+                $pDet = $lt['partido'] ?? null;
+                if ($pDet) {
+                    $canDet = ViewHelper::getCanonicalPartyName($pDet);
+                    if (!isset($partidosTrayectoria[$canDet])) {
+                        $partidosTrayectoria[$canDet] = [
+                            'nombre' => $canDet,
+                            'es_actual' => false,
+                        ];
+                    }
+                }
+            }
+            ?>
+            <?php if (count($partidosTrayectoria) > 1): ?>
+            <!-- Alerta Ciudadana: Transición Partidista / Múltiples Militancias -->
+            <div class="alert alert-warning border-warning-subtle d-flex align-items-center gap-2 mb-3 rounded-3 py-2 px-3 shadow-xs">
+                <i class="bi bi-shuffle text-warning fs-5 flex-shrink-0"></i>
+                <div class="small text-dark">
+                    <strong>Transición de Militancia Partidista:</strong> A lo largo de su carrera pública, esta figura ha ejercido cargos o militado bajo <strong><?= count($partidosTrayectoria) ?> fuerzas políticas</strong> diferentes.
+                </div>
+            </div>
+            <?php endif; ?>
+
+            <?php if (!empty($partidosTrayectoria)): ?>
+            <div class="p-2 px-3 mb-3 bg-light rounded-3 border d-flex align-items-center flex-wrap gap-2">
+                <span class="text-secondary fw-semibold d-inline-flex align-items-center gap-1" style="font-size: 0.73rem;">
+                    <i class="bi bi-diagram-3-fill text-primary"></i>
+                    <?= count($partidosTrayectoria) > 1 ? 'Partidos en su trayectoria:' : 'Filiación partidista:' ?>
+                </span>
+                <div class="d-flex align-items-center gap-1 flex-wrap">
+                    <?php foreach ($partidosTrayectoria as $pInfo): ?>
+                        <?= ViewHelper::renderPartyTimelineBadge($pInfo['nombre'], $pInfo['es_actual']) ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <?php endif; ?>
 
             <?php if (empty($lineaTiempo)): ?>
                 <p class="text-secondary small mb-0">Sin cargos o trayectoria previa reportada en la ficha oficial.</p>
             <?php else: ?>
                 <div class="timeline-track mt-2">
-                    <?php foreach ($lineaTiempo as $h): ?>
-                    <div class="timeline-node <?= (!empty($h['es_cargo_actual']) || !empty($h['es_reciente'])) ? 'reciente' : '' ?>">
-                        <div class="d-flex align-items-center gap-2 mb-1">
+                    <?php foreach ($lineaTiempo as $h): 
+                        $pCargo = $h['partido'] ?? (!empty($h['es_cargo_actual']) ? $partido : null);
+                        $pColor = $pCargo ? ViewHelper::getPartyColor($pCargo) : null;
+                        $nodeStyle = $pColor 
+                            ? "--node-color: {$pColor}; --node-ring: {$pColor}33;" 
+                            : "--node-color: #94A3B8; --node-ring: #E2E8F0;";
+                    ?>
+                    <div class="timeline-node <?= (!empty($h['es_cargo_actual']) || !empty($h['es_reciente'])) ? 'reciente' : '' ?>" style="<?= $nodeStyle ?>">
+                        <div class="d-flex align-items-center gap-2 mb-1 flex-wrap">
                             <span class="text-secondary fw-bold" style="font-size: 0.76rem;">
                                 <?= ViewHelper::e($h['periodo']) ?>
                             </span>
+
+                            <?php if (!empty($h['nivel_label'])): ?>
+                                <span class="badge <?= ViewHelper::e($h['badge_class'] ?? 'bg-light text-secondary border') ?> d-inline-flex align-items-center gap-1 py-1 px-2 rounded-pill" style="font-size: 0.68rem; font-weight: 600;">
+                                    <i class="bi <?= ViewHelper::e($h['icono'] ?? 'bi-geo-alt') ?>"></i>
+                                    <?= ViewHelper::e($h['nivel_label']) ?>
+                                </span>
+                            <?php endif; ?>
+
+                            <?php if ($pCargo): ?>
+                                <?= ViewHelper::renderPartyTimelineBadge($pCargo, !empty($h['es_cargo_actual'])) ?>
+                            <?php endif; ?>
+
                             <?php if (!empty($h['es_cargo_actual'])): ?>
                                 <?php if (!empty($h['en_licencia']) || $tieneLicencia): ?>
                                 <span class="badge bg-warning text-dark py-1 px-2 border border-warning shadow-sm d-inline-flex align-items-center gap-1" style="font-size: 0.68rem;">
@@ -443,6 +589,12 @@ require __DIR__ . '/layout/header.php';
                                     <i class="bi bi-circle-fill text-success" style="font-size: 0.45rem;"></i> Cargo Actual
                                 </span>
                                 <?php endif; ?>
+                            <?php endif; ?>
+
+                            <?php if (!empty($h['url_destino'])): ?>
+                                <a href="<?= Router::url($h['url_destino']) ?>" class="btn btn-sm btn-outline-primary rounded-pill py-0 px-2 ms-auto text-decoration-none d-inline-flex align-items-center gap-1 shadow-xs" style="font-size: 0.67rem;" title="Consultar expediente oficial">
+                                    <span>Ver Expediente</span> <i class="bi bi-arrow-up-right"></i>
+                                </a>
                             <?php endif; ?>
                         </div>
                         <div class="small text-dark fw-medium"><?= ViewHelper::e($h['experiencia']) ?></div>
@@ -1003,11 +1155,172 @@ require __DIR__ . '/layout/header.php';
         </div>
         <?php endif; ?>
 
+        <!-- SECCIÓN 5: FUENTES OFICIALES Y TRAZABILIDAD DE DATOS (AUDIT TRAIL) -->
+        <div class="card-civic p-4 mb-4 border border-primary-subtle shadow-sm bg-white">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-patch-check-fill text-primary"></i>
+                    Fuentes Oficiales y Trazabilidad de Datos
+                </h2>
+                <span class="badge bg-success-subtle text-success border border-success-subtle d-inline-flex align-items-center gap-1">
+                    <i class="bi bi-shield-lock-fill"></i> Registro Público Verificable
+                </span>
+            </div>
+
+            <div class="p-3 bg-light rounded-3 mb-4 border text-secondary" style="font-size: 0.88rem; line-height: 1.5;">
+                <p class="mb-0">
+                    <strong>Garantía de fidelidad institucional:</strong> Los datos presentados en esta ficha provienen estrictamente de registros públicos y documentos oficiales emitidos por los Poderes de la Unión. 
+                    <strong>Pulso Cívico</strong> no emite opiniones subjetivas, no califica el desempeño político ni inventa métricas. Cada dato puede ser contrastado directamente en las dependencias y gacetas correspondientes.
+                </p>
+            </div>
+
+            <!-- Grilla de Fuentes Primarias con Enlaces Oficiales -->
+            <div class="row g-3 mb-4">
+                <?php if (!empty($politico['referencia_sil'])): 
+                    $silRefId = (string)$politico['referencia_sil'];
+                    $silGobLink = 'http://sil.gobernacion.gob.mx/Librerias/pp_PerfilLegislador.php?Referencia=' . urlencode($silRefId);
+                ?>
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Perfil Curricular y Escolaridad</span>
+                                <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.65rem;">SEGOB</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Sistema de Información Legislativa (SIL). Folio oficial registrado: <strong class="text-dark font-monospace">SIL-<?= ViewHelper::e($silRefId) ?></strong>.
+                            </div>
+                        </div>
+                        <a href="<?= ViewHelper::e($silGobLink) ?>" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Verificar Ficha en SEGOB</span>
+                            <i class="bi bi-box-arrow-up-right" style="font-size: 0.7rem;"></i>
+                        </a>
+                    </div>
+                </div>
+                <?php endif; ?>
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Órgano Legislativo y Pleno</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;"><?= ViewHelper::e($camara) ?></span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                <?php if ($camara === 'Senadores'): ?>
+                                    Directorio oficial del Senado de la República y mesa directiva de la <?= ViewHelper::e($legRomano) ?> Legislatura.
+                                <?php else: ?>
+                                    Sistema de Información Técnica Legislativa (SITL) de la Cámara de Diputados.
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                        <?php if ($camara === 'Senadores'): ?>
+                        <a href="https://www.senado.gob.mx" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Portal Oficial del Senado ↗</span>
+                        </a>
+                        <?php else: ?>
+                        <a href="https://sitl.diputados.gob.mx/LXVI_leg/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Portal SITL Diputados ↗</span>
+                        </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Comisiones y Acuerdos</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">JUCOPO</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Integración y presidencia de comisiones ordinarias, bicamerales y especiales según acuerdos publicados en Gaceta.
+                            </div>
+                        </div>
+                        <a href="<?= $camara === 'Senadores' ? 'https://www.senado.gob.mx/66/gaceta_del_senado' : 'https://gaceta.diputados.gob.mx' ?>" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Consultar Gaceta Parlamentaria ↗</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Constancia Electoral y Distrito</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">INE</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Cómputos distritales, constancia de mayoría relativa o asignación de primera minoría / representación proporcional.
+                            </div>
+                        </div>
+                        <a href="https://computos2024.ine.mx" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Cómputos Oficiales INE ↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preguntas Frecuentes y Desmitificación Rápida -->
+            <div class="accordion accordion-flush mb-4 border rounded-3 overflow-hidden" id="faqTrazabilidad">
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq1">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq1" aria-expanded="false" aria-controls="collapseFaq1">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿Por qué aparecen tantas comisiones legislativas?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq1" class="accordion-collapse collapse" aria-labelledby="headingFaq1" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            En el Congreso mexicano existen decenas de comisiones ordinarias (más de 40 en Diputados y más de 30 en el Senado), además de comisiones especiales y bicamerales creadas por acuerdo de los grupos parlamentarios. Cada legislador suele pertenecer formalmente a entre 3 y 6 comisiones a la vez, fungiendo como presidente, secretario o integrante.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq2">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq2" aria-expanded="false" aria-controls="collapseFaq2">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿Cómo se calculan la asistencia y la alineación partidaria?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq2" class="accordion-collapse collapse" aria-labelledby="headingFaq2" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            La asistencia se calcula sobre el total de sesiones registradas con lista nominal en la legislatura, distinguiendo presencias, inasistencias y justificaciones avaladas por la Mesa Directiva. La alineación mide el porcentaje de votos en el mismo sentido (a favor/en contra) que la mayoría de su propio grupo parlamentario.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq3">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq3" aria-expanded="false" aria-controls="collapseFaq3">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿De dónde proviene la trayectoria política previa?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq3" class="accordion-collapse collapse" aria-labelledby="headingFaq3" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            Se extrae del currículum público registrado ante la Secretaría de Gobernación y se cruza con las bases históricas de periódicos oficiales estatales (para exgobernadores y alcaldes) y de los 32 Congresos Estatales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acciones de Transparencia y Manifiesto -->
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 pt-3 border-top">
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-1" data-bs-toggle="modal" data-bs-target="#modalManifiesto">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Conoce nuestro Manifiesto</span>
+                    </button>
+                </div>
+                <button type="button" class="btn btn-outline-danger btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-1 btn-reportar-anomalia" data-origen-tipo="politico" data-origen-id="<?= ViewHelper::e($politico['slug'] ?? '') ?>" data-origen-nombre="<?= ViewHelper::e($nombre) ?>" data-origen-url="<?= ViewHelper::e($canonicalUrl) ?>" title="Reportar inconsistencia o discrepancia">
+                    <i class="bi bi-flag-fill"></i>
+                    <span>Reportar discrepancia con fuente oficial</span>
+                </button>
+            </div>
+        </div>
+
     </div>
 </div>
 
 <style>
-/* Estilos Timeline Idénticos al Modal */
+/* Estilos Timeline Idénticos al Modal con Soporte Partidista */
 .timeline-track {
     position: relative;
     padding-left: 28px;
@@ -1033,13 +1346,28 @@ require __DIR__ . '/layout/header.php';
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #007AFF;
+    background: var(--node-color, #94A3B8);
     border: 2px solid #FFFFFF;
-    box-shadow: 0 0 0 2px #BFDBFE;
+    box-shadow: 0 0 0 2px var(--node-ring, #E2E8F0);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .timeline-node.reciente::before {
-    background: #10B981;
-    box-shadow: 0 0 0 2px #A7F3D0;
+    width: 12px;
+    height: 12px;
+    left: -26px;
+    top: 4px;
+    background: var(--node-color, #10B981);
+    box-shadow: 0 0 0 3px var(--node-ring, rgba(16, 185, 129, 0.25));
+}
+.timeline-node:hover::before {
+    transform: scale(1.25);
+}
+.party-timeline-badge {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.party-timeline-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 .hover-bg-subtle:hover {
     background-color: #F8FAFC !important;

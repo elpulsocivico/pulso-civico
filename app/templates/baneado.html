@@ -1,0 +1,66 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+<div class="container py-5 my-md-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-7">
+            <div class="card card-civic shadow-sm border-0 text-center p-4 p-md-5">
+                <div class="mb-4">
+                    <span class="d-inline-flex align-items-center justify-content-center bg-danger-subtle text-danger rounded-circle p-4 mb-3" style="width: 88px; height: 88px;">
+                        <i class="bi bi-shield-slash fs-1"></i>
+                    </span>
+                    <h1 class="h3 fw-bold text-dark mb-2">Acceso a Reportes Restringido</h1>
+                    <p class="text-secondary small mb-0">Protección activa de integridad y prevención de tráfico automatizado</p>
+                </div>
+
+                {% if ban_status and ban_status.banned %}
+                    <div class="alert alert-warning border text-start p-3 mb-4 rounded-3">
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-exclamation-triangle-fill text-warning fs-5 flex-shrink-0"></i>
+                            <div>
+                                <strong class="d-block mb-1">Tu dirección IP se encuentra en periodo de enfriamiento (24 horas)</strong>
+                                <span class="small text-muted d-block mb-2">
+                                    Se detectaron más de <strong>5 envíos por minuto</strong> desde tu conexión, lo cual excede el ritmo normal de un usuario humano y activa las defensas anti-spam del observatorio cívico.
+                                </span>
+                                <ul class="list-unstyled small mb-0 text-secondary border-top pt-2 mt-2">
+                                    <li><i class="bi bi-hdd-network me-1"></i> <strong>IP registrada:</strong> <code>{{ ip }}</code></li>
+                                    <li><i class="bi bi-clock me-1"></i> <strong>Tiempo restante aprox:</strong> {{ (ban_status.remaining_seconds / 3600)|round(1) }} hora(s)</li>
+                                    <li><i class="bi bi-info-circle me-1"></i> <strong>Motivo:</strong> {{ ban_status.reason or 'Exceso de solicitudes automatizadas' }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="alert alert-info border text-start p-3 mb-4 rounded-3">
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-check-circle-fill text-success fs-5 flex-shrink-0"></i>
+                            <div>
+                                <strong class="d-block mb-1">Estado de tu conexión: Habilitada</strong>
+                                <span class="small text-muted">
+                                    Tu dirección IP (<code>{{ ip }}</code>) no cuenta con restricciones activas en este momento. Recuerda que el sistema admite hasta 5 reportes por minuto por conexión.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+
+                <div class="p-3 bg-light rounded-3 mb-4 text-start">
+                    <h6 class="fw-semibold text-dark mb-2 small"><i class="bi bi-question-circle me-1"></i> ¿Por qué existe esta medida de seguridad?</h6>
+                    <p class="text-secondary small mb-0">
+                        {{ app_name }} es una iniciativa ciudadana de neutralidad y datos abiertos. Para evitar saturación maliciosa, inyección de bots y garantizar que cada ticket de inconsistencia sea auditado responsablemente por la comunidad, limitamos la velocidad de envío a 5 reportes/minuto.
+                    </p>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+                    <a href="/" class="btn btn-primary rounded-pill px-4 fw-semibold">
+                        <i class="bi bi-house-door me-1"></i> Volver al Inicio
+                    </a>
+                    <a href="/politicos" class="btn btn-outline-secondary rounded-pill px-4">
+                        <i class="bi bi-people me-1"></i> Explorar Políticos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

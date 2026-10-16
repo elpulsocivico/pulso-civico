@@ -381,4 +381,56 @@ function renderPoliticoCardFull(array $p, int $numLeg = 66): void {
 }
 </style>
 
+<!-- Modal Cambiar Legislatura para la Entidad -->
+<div class="modal fade" id="modalLegislaturas" tabindex="-1" aria-labelledby="modalLegislaturasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+            <div class="modal-header border-0 pb-1">
+                <div>
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 small mb-1">
+                        Archivo Histórico
+                    </span>
+                    <h5 class="modal-title fw-bold text-dark" id="modalLegislaturasLabel">
+                        Consultar <?= ViewHelper::e($nombre) ?> por Periodo
+                    </h5>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body p-3">
+                <p class="text-secondary small mb-3">
+                    Selecciona una legislatura para consultar los diputados y senadores que representaron a <?= ViewHelper::e($nombre) ?> en ese periodo constitucional:
+                </p>
+                <div class="list-group list-group-flush rounded-3 border overflow-hidden">
+                    <?php 
+                    $catalogLegs = \PulsoCivico\Services\DataService::LEGISLATURAS_CATALOG;
+                    foreach ($catalogLegs as $lNum => $lInfo): 
+                        $esEsta = ($lNum === ($numLeg ?? 66));
+                        $esAct = (($lInfo['estatus'] ?? '') === 'activa');
+                        $urlLegEstado = Router::url('/estados/' . ($estado['slug'] ?? 'baja-california') . ($lNum !== 66 ? '?leg=' . $lNum : ''));
+                    ?>
+                    <a href="<?= $urlLegEstado ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between p-3 <?= $esEsta ? 'bg-primary-subtle text-primary fw-bold' : '' ?>">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge <?= $esEsta ? 'bg-primary text-white' : ($esAct ? 'bg-success text-white' : 'bg-light text-secondary border') ?> rounded-pill px-2.5 py-1">
+                                <?= ViewHelper::e($lInfo['romano']) ?>
+                            </span>
+                            <div>
+                                <div class="fw-semibold small"><?= ViewHelper::e($lInfo['romano']) ?> Legislatura</div>
+                                <div class="text-muted" style="font-size: 0.72rem;"><?= ViewHelper::e($lInfo['periodo']) ?></div>
+                            </div>
+                        </div>
+                        <?php if ($esEsta): ?>
+                            <i class="bi bi-check2 text-primary fs-5"></i>
+                        <?php elseif ($esAct): ?>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill small">Actual</span>
+                        <?php else: ?>
+                            <i class="bi bi-chevron-right text-muted small"></i>
+                        <?php endif; ?>
+                    </a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php require __DIR__ . '/layout/footer.php'; ?>

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>{{ seo.title if seo and seo.title else "El Pulso de la Política — Observatorio del Congreso Mexicano" }}</title>
-    <meta name="description" content="{{ seo.description if seo and seo.description else "Monitoreo ciudadano y radiografía del poder legislativo en México." }}">
+    <title>{{ seo.title if seo and seo.title else app_name ~ " — Gobernadores, Alcaldes y Congreso de México" }}</title>
+    <meta name="description" content="{{ seo.description if seo and seo.description else "Observatorio comunitario e independiente de datos abiertos sobre el poder público en México. Información 100% oficial y comprobable sobre gobernadores, alcaldes, diputados y senadores." }}">
     <link rel="canonical" href="{{ seo.canonical if seo and seo.canonical else "/" }}">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ seo.title if seo and seo.title else "El Pulso de la Política" }}">
-    <meta property="og:description" content="{{ seo.description if seo and seo.description else "Monitoreo ciudadano del Congreso" }}">
+    <meta property="og:title" content="{{ seo.title if seo and seo.title else app_name ~ " — Datos Abiertos de Servidores Públicos en México" }}">
+    <meta property="og:description" content="{{ seo.description if seo and seo.description else "Observatorio comunitario e independiente con información 100% oficial y comprobable sobre más de 4,300 gobernadores, alcaldes, diputados y senadores en México." }}">
     <meta property="og:url" content="{{ seo.canonical if seo and seo.canonical else "/" }}">
 
     <!-- Bootstrap 5.3 CSS & Icons -->
@@ -33,78 +33,650 @@
             --ios-gray-fill: #E5E5EA;
             --ios-card-radius: 20px;
         }
+
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
             background-color: var(--ios-bg);
             color: var(--ios-text);
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: -0.015em;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
-        .navbar-blur {
-            background-color: rgba(255, 255, 255, 0.85);
+
+        .navbar-ios {
+            background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--ios-separator);
+            position: sticky;
+            top: 0;
+            z-index: 1030;
         }
-        .ios-card {
-            background-color: var(--ios-surface);
+
+        .party-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: #F2F2F7;
+            color: var(--ios-text);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            line-height: 1;
+        }
+
+        .party-icon {
+            flex-shrink: 0;
+            vertical-align: middle;
+        }
+
+        .card-civic {
+            background: var(--ios-surface);
             border-radius: var(--ios-card-radius);
-            border: 1px solid var(--ios-separator);
+            border: 1px solid rgba(0, 0, 0, 0.05);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        .ios-card:hover {
+
+        .card-civic:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+        }
+
+        .text-truncate-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .shadow-2xs {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+        }
+
+        .breadcrumb-ios {
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+        .breadcrumb-ios a {
+            color: var(--ios-secondary);
+            text-decoration: none;
+        }
+        .breadcrumb-ios a:hover {
+            color: var(--ios-blue);
+        }
+
+        .spotlight-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(8px);
+            z-index: 2000;
+            display: none;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 10vh;
+        }
+        .spotlight-card {
+            background: #FFFFFF;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        .nav-link-ios {
+            color: #48484A;
+            font-size: 0.88rem;
+            font-weight: 500;
+            padding: 0.4rem 0.75rem;
+            border-radius: 10px;
+            transition: color 0.15s ease, background-color 0.15s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .nav-link-ios:hover {
+            color: var(--ios-blue);
+            background-color: rgba(0, 122, 255, 0.06);
+        }
+        .nav-link-ios.active {
+            color: var(--ios-blue);
+            font-weight: 600;
+            background-color: var(--ios-blue-light);
+        }
+        .hover-text-primary:hover {
+            color: var(--ios-blue) !important;
+        }
+        .hover-text-danger:hover {
+            color: #DC3545 !important;
+        }
+        .bg-purple-subtle, .badge-suplente {
+            background-color: #F3E8FF !important;
+            color: #6B21A8 !important;
+            border: 1px solid #D8B4FE !important;
+            font-weight: 600;
+        }
+        .text-purple {
+            color: #6B21A8 !important;
         }
     </style>
     {% block extra_head %}{% endblock %}
 </head>
 <body>
-    <!-- Navbar Superior -->
-    <header class="navbar navbar-expand-lg navbar-blur sticky-top py-2">
-        <div class="container">
-            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="/">
-                <span class="badge bg-danger rounded-pill px-2 py-1"><i class="bi bi-activity"></i></span>
-                <span class="fs-5 tracking-tight text-dark">Pulso Cívico</span>
-            </a>
-            <div class="d-flex align-items-center gap-2">
-                <a href="/diputados" class="btn btn-sm btn-light rounded-pill px-3 fw-medium">Diputados</a>
-                <a href="/senadores" class="btn btn-sm btn-light rounded-pill px-3 fw-medium">Senadores</a>
-                <a href="/electoral" class="btn btn-sm btn-primary rounded-pill px-3 fw-medium"><i class="bi bi-shield-check me-1"></i>Actas Casilla</a>
+
+<nav class="navbar navbar-expand-lg navbar-ios py-2">
+    <div class="container">
+        <!-- Marca / Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark me-3" href="/">
+            <span class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+                <i class="bi bi-activity"></i>
+            </span>
+            <span>{{ app_name }}</span>
+        </a>
+
+        <!-- Botón Hamburguesa Móvil -->
+        <button class="navbar-toggler border-0 shadow-none px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Navegación">
+            <i class="bi bi-list fs-4"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <!-- Menú Central Limpio (Texto plano con hover suave) -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+                <li class="nav-item">
+                    <a class="nav-link-ios {% if request.url.path.startswith('/politicos') %}active{% endif %}" href="/politicos">
+                        <i class="bi bi-people"></i>
+                        <span>Directorio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-ios {% if request.url.path.startswith('/estados') %}active{% endif %}" href="/#seccion-mapa">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Estados</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link-ios dropdown-toggle {% if request.url.path.startswith('/comisiones') or request.url.path.startswith('/legislaturas') %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-bank"></i>
+                        <span>Congreso</span>
+                    </a>
+                    <ul class="dropdown-menu shadow-lg border-0 rounded-3 p-2 mt-1">
+                        <li>
+                            <a class="dropdown-item rounded-2 py-2 small d-flex align-items-center gap-2" href="/legislaturas/{{ legislatura if legislatura else 66 }}">
+                                <i class="bi bi-buildings text-primary"></i>
+                                <span>Congreso de la Unión (LXVI)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item rounded-2 py-2 small d-flex align-items-center gap-2" href="/comisiones">
+                                <i class="bi bi-briefcase text-secondary"></i>
+                                <span>Comisiones Ordinarias (136)</span>
+                            </a>
+                        </li>
+                        <li><hr class="dropdown-divider my-1"></li>
+                        <li>
+                            <a class="dropdown-item rounded-2 py-2 small d-flex align-items-center gap-2" href="/legislaturas">
+                                <i class="bi bi-clock-history text-muted"></i>
+                                <span>Archivo Histórico (1997–2027)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-ios {% if request.url.path.startswith('/estudios') %}active{% endif %}" href="/estudios">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Escolaridad</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-ios {% if request.url.path.startswith('/explorador') or request.url.path.startswith('/reportes') %}active{% endif %}" href="/explorador">
+                        <i class="bi bi-table"></i>
+                        <span>Explorador</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Herramientas a la Derecha: Selector de Legislatura + Buscador Compacto -->
+            <div class="d-flex align-items-center gap-2 pt-2 pt-lg-0">
+                <!-- Dropdown Cambiar Legislatura -->
+                <div class="dropdown">
+                    <button class="btn btn-sm btn-light border rounded-pill px-2 px-md-3 d-inline-flex align-items-center gap-1 gap-md-2 text-dark shadow-xs" type="button" id="btnCambiarLegislatura" data-bs-toggle="dropdown" aria-expanded="false" title="Cambiar periodo de Legislatura">
+                        <i class="bi bi-clock-history text-primary"></i>
+                        <span class="d-none d-sm-inline small text-secondary">Leg:</span>
+                        <span class="badge bg-primary text-white rounded-pill px-2 py-0 fw-bold" style="font-size: 0.75rem;">{{ meta_legislatura.romano if meta_legislatura else 'LXVI' }}</span>
+                        <i class="bi bi-chevron-down text-muted" style="font-size: 0.65rem;"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 p-2 mt-2" aria-labelledby="btnCambiarLegislatura" style="min-width: 295px; max-width: 330px; max-height: 420px; overflow-y: auto;">
+                        <li class="px-2 py-1 mb-1 border-bottom sticky-top bg-white" style="top: -8px; z-index: 2;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-uppercase text-secondary fw-bold" style="font-size: 0.68rem; letter-spacing: 0.05em;">
+                                    <i class="bi bi-clock-history me-1 text-primary"></i> Cambiar Legislatura
+                                </span>
+                                <span class="badge bg-light text-muted border" style="font-size: 0.65rem;">H. Congreso</span>
+                            </div>
+                        </li>
+                        {% set is_comisiones_page = request.url.path.startswith('/comisiones') %}
+                        {% set is_estudios_page = request.url.path.startswith('/estudios') %}
+                        {% set is_estado_page = request.url.path.startswith('/estados/') %}
+                        {% for leg_num, leg_info in [
+                            (66, {'romano': 'LXVI', 'periodo': '2024–2027', 'activa': True}),
+                            (65, {'romano': 'LXV', 'periodo': '2021–2024', 'activa': False}),
+                            (64, {'romano': 'LXIV', 'periodo': '2018–2021', 'activa': False}),
+                            (63, {'romano': 'LXIII', 'periodo': '2015–2018', 'activa': False}),
+                            (62, {'romano': 'LXII', 'periodo': '2012–2015', 'activa': False}),
+                            (61, {'romano': 'LXI', 'periodo': '2009–2012', 'activa': False}),
+                            (60, {'romano': 'LX', 'periodo': '2006–2009', 'activa': False}),
+                            (59, {'romano': 'LIX', 'periodo': '2003–2006', 'activa': False}),
+                            (58, {'romano': 'LVIII', 'periodo': '2000–2003', 'activa': False}),
+                            (57, {'romano': 'LVII', 'periodo': '1997–2000', 'activa': False})
+                        ] %}
+                        <li>
+                            {% if is_estado_page %}
+                                {% set leg_target_url = request.url.path ~ ('?leg=' ~ leg_num if leg_num != 66 else '') %}
+                            {% elif is_comisiones_page %}
+                                {% if request.url.path != '/comisiones' %}
+                                    {% set leg_target_url = request.url.path ~ ('?leg=' ~ leg_num if leg_num != 66 else '') %}
+                                {% else %}
+                                    {% set leg_target_url = '/comisiones' ~ ('?leg=' ~ leg_num if leg_num != 66 else '') %}
+                                {% endif %}
+                            {% elif request.url.path == '/politicos' %}
+                                {% set leg_target_url = '/politicos' ~ ('?leg=' ~ leg_num if leg_num != 66 else '') %}
+                            {% elif is_estudios_page %}
+                                {% set leg_target_url = '/estudios' ~ ('?leg=' ~ leg_num if leg_num != 66 else '') %}
+                            {% else %}
+                                {% set leg_target_url = '/legislaturas/' ~ leg_num %}
+                            {% endif %}
+                            <a class="dropdown-item rounded-3 py-2 px-2 d-flex align-items-center justify-content-between {% if legislatura == leg_num %}bg-primary-subtle text-primary fw-bold{% else %}text-dark{% endif %}" href="{{ leg_target_url }}">
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="badge {% if legislatura == leg_num %}bg-primary text-white{% elif leg_info.activa %}bg-success text-white{% else %}bg-light text-secondary border{% endif %} rounded-pill" style="min-width: 44px; font-size: 0.72rem;">{{ leg_info.romano }}</span>
+                                    <div>
+                                        <div class="small fw-semibold leading-tight">{{ leg_info.romano }} Legislatura</div>
+                                        <div class="text-muted" style="font-size: 0.7rem;">{{ leg_info.periodo }}</div>
+                                    </div>
+                                </div>
+                                {% if legislatura == leg_num %}
+                                    <i class="bi bi-check2 text-primary fs-6"></i>
+                                {% elif leg_info.activa %}
+                                    <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill" style="font-size: 0.62rem;">Activa</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
+                        {% if is_comisiones_page %}
+                        <li><hr class="dropdown-divider my-2"></li>
+                        <li>
+                            <a class="dropdown-item rounded-3 py-2 px-2 d-flex align-items-center justify-content-between {% if legislatura == 0 %}bg-primary-subtle text-primary fw-bold{% else %}text-dark{% endif %}" href="{% if request.url.path != '/comisiones' and request.url.path.startswith('/comisiones/') %}{{ request.url.path }}?leg=0{% else %}/comisiones?leg=0{% endif %}">
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="badge {% if legislatura == 0 %}bg-primary text-white{% else %}bg-light text-secondary border{% endif %} rounded-pill" style="min-width: 44px; font-size: 0.72rem;">TODO</span>
+                                    <div>
+                                        <div class="small fw-semibold leading-tight">Archivo Histórico Completo</div>
+                                        <div class="text-muted" style="font-size: 0.7rem;">546 comisiones (1997–2027)</div>
+                                    </div>
+                                </div>
+                                {% if legislatura == 0 %}<i class="bi bi-check2 text-primary fs-6"></i>{% endif %}
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+
+                <!-- Buscador Rápido Compacto -->
+                <button class="btn btn-sm btn-light border rounded-pill px-3 d-inline-flex align-items-center gap-2 text-secondary shadow-xs" id="btnOpenSpotlight" type="button" title="Búsqueda rápida en todo el observatorio (Ctrl+K)">
+                    <i class="bi bi-search text-dark"></i>
+                    <span class="d-none d-xl-inline small">Buscar...</span>
+                    <kbd class="bg-white border text-muted px-1" style="font-size: 0.65rem;">Ctrl+K</kbd>
+                </button>
             </div>
         </div>
-    </header>
+    </div>
+</nav>
 
-    <!-- Contenido Principal -->
-    <main class="flex-grow-1 py-4">
-        <div class="container">
-            {% block content %}{% endblock %}
+<!-- Modal Spotlight Search Universal -->
+<div class="spotlight-backdrop" id="spotlightModal">
+    <div class="spotlight-card">
+        <div class="p-3 border-bottom d-flex align-items-center gap-2">
+            <i class="bi bi-search text-secondary fs-5"></i>
+            <input type="text" id="spotlightInput" class="form-control border-0 shadow-none fs-6" placeholder="Escribe el nombre de un legislador, estado o comisión..." autocomplete="off">
+            <button type="button" class="btn btn-sm btn-light rounded-circle" id="btnCloseSpotlight">
+                <i class="bi bi-x-lg"></i>
+            </button>
         </div>
-    </main>
+        <div class="p-2" id="spotlightResults" style="max-height: 380px; overflow-y: auto;">
+            <div class="text-center text-muted p-4 small">Comienza a escribir para buscar...</div>
+        </div>
+    </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-white border-top py-4 mt-auto">
-        <div class="container text-center text-md-start">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-3 mb-md-0">
-                    <span class="fw-bold text-dark">Pulso Cívico</span> &bull;
-                    <span class="text-secondary small">Observatorio de datos abiertos y auditoría ciudadana.</span>
+<main class="flex-grow-1 py-4">
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</main>
+
+<footer class="bg-white border-top pt-5 pb-4 mt-auto">
+    <div class="container">
+        <div class="row g-4 mb-4 text-start">
+            <!-- Columna 1: Identidad & Comunidad -->
+            <div class="col-12 col-md-4">
+                <a class="d-flex align-items-center gap-2 fw-bold text-dark text-decoration-none mb-2" href="/">
+                    <span class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 28px; height: 28px;">
+                        <i class="bi bi-activity"></i>
+                    </span>
+                    <span>{{ app_name }}</span>
+                </a>
+                <div class="mb-2">
+                    <span class="badge bg-light text-secondary border rounded-pill" style="font-size: 0.7rem;">Iniciativa Ciudadana Comunitaria</span>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="/" class="text-secondary text-decoration-none small me-3">Inicio</a>
-                    <a href="/diputados" class="text-secondary text-decoration-none small me-3">Diputados</a>
-                    <a href="/senadores" class="text-secondary text-decoration-none small me-3">Senadores</a>
-                    <a href="/electoral" class="text-secondary text-decoration-none small me-3">Auditoría Electoral</a>
-                    <a href="/docs" class="text-secondary text-decoration-none small" target="_blank">API Docs</a>
+                <p class="text-secondary small mb-2" style="line-height: 1.6;">
+                    Observatorio ciudadano independiente de datos abiertos sobre el poder público en México. Monitoreo, trazabilidad y rendición de cuentas de más de 4,300 servidores públicos en los 32 estados.
+                </p>
+                <div class="text-muted small" style="font-size: 0.72rem;">
+                    Sin financiamiento gubernamental ni fines partidistas.
+                </div>
+            </div>
+
+            <!-- Columna 2: Exploración Cívica -->
+            <div class="col-6 col-md-3">
+                <h6 class="fw-bold text-dark text-uppercase small mb-3" style="font-size: 0.75rem; letter-spacing: 0.05em;">
+                    Exploración Cívica
+                </h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                    <li><a href="/politicos" class="text-secondary text-decoration-none hover-text-primary">Directorio de Políticos (+4,380)</a></li>
+                    <li><a href="/politicos?cargo=gobernador" class="text-secondary text-decoration-none hover-text-primary">Gobernadores y Jefes de Gobierno</a></li>
+                    <li><a href="/politicos?cargo=alcalde" class="text-secondary text-decoration-none hover-text-primary">Alcaldes y Cabildos</a></li>
+                    <li><a href="/legislaturas/{{ legislatura if legislatura else 66 }}" class="text-secondary text-decoration-none hover-text-primary">Congreso de la Unión (LXVI)</a></li>
+                    <li><a href="/comisiones" class="text-secondary text-decoration-none hover-text-primary">Comisiones Ordinarias (136)</a></li>
+                    <li><a href="/estudios" class="text-secondary text-decoration-none hover-text-primary">Nivel de Escolaridad</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Transparencia & Fuentes -->
+            <div class="col-6 col-md-2">
+                <h6 class="fw-bold text-dark text-uppercase small mb-3" style="font-size: 0.75rem; letter-spacing: 0.05em;">
+                    Transparencia
+                </h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                    <li>
+                        <a href="/metodologia" class="text-secondary text-decoration-none hover-text-primary">
+                            <i class="bi bi-shield-check text-primary me-1"></i>Metodología y Fuentes
+                        </a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-link p-0 text-secondary text-decoration-none small text-start btn-reportar-anomalia hover-text-danger" data-origen-tipo="general" data-origen-id="sitio-web" data-origen-nombre="{{ app_name }}">
+                            <i class="bi bi-flag text-danger me-1"></i>Reportar corrección
+                        </button>
+                    </li>
+                    <li><a href="http://sil.gobernacion.gob.mx" target="_blank" rel="noopener" class="text-secondary text-decoration-none hover-text-primary">SEGOB &bull; SIL ↗</a></li>
+                    <li><a href="https://www.diputados.gob.mx" target="_blank" rel="noopener" class="text-secondary text-decoration-none hover-text-primary">Cámara de Diputados ↗</a></li>
+                    <li><a href="https://www.senado.gob.mx" target="_blank" rel="noopener" class="text-secondary text-decoration-none hover-text-primary">Senado de la República ↗</a></li>
+                    <li><a href="https://www.ine.mx" target="_blank" rel="noopener" class="text-secondary text-decoration-none hover-text-primary">INE Oficial ↗</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 4: Datos & Tecnología -->
+            <div class="col-12 col-md-3">
+                <h6 class="fw-bold text-dark text-uppercase small mb-3" style="font-size: 0.75rem; letter-spacing: 0.05em;">
+                    Datos Abiertos
+                </h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-3">
+                    <li><a href="/explorador" class="text-secondary text-decoration-none hover-text-primary"><i class="bi bi-table me-1"></i>Explorador de Datos</a></li>
+                    <li><a href="/legislaturas" class="text-secondary text-decoration-none hover-text-primary"><i class="bi bi-clock-history me-1"></i>Archivo Histórico (1997–2027)</a></li>
+                    <li><a href="/docs" target="_blank" class="text-secondary text-decoration-none hover-text-primary"><i class="bi bi-code-slash me-1"></i>API REST Documentation</a></li>
+                </ul>
+                <div class="p-2 bg-light rounded-3 border">
+                    <span class="d-block text-dark fw-semibold" style="font-size: 0.75rem;">
+                        <i class="bi bi-patch-check-fill text-success me-1"></i> Datos Comprobables
+                    </span>
+                    <span class="text-muted" style="font-size: 0.7rem; line-height: 1.4; display: block;">
+                        Toda información cuenta con trazabilidad directa a fichas curriculares oficiales del Estado Mexicano.
+                    </span>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    {% block scripts %}{% endblock %}
+        <!-- Sub-footer Bottom Bar -->
+        <div class="border-top pt-3 d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 text-muted" style="font-size: 0.75rem;">
+            <div>
+                &copy; 2026 <strong>{{ app_name }}</strong> &bull; Datos públicos bajo el Artículo 6° Constitucional Mexicano.
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <a href="/" class="text-muted text-decoration-none hover-text-primary">Inicio</a>
+                <a href="/#seccion-mapa" class="text-muted text-decoration-none hover-text-primary">Mapa</a>
+                <a href="/politicos" class="text-muted text-decoration-none hover-text-primary">Políticos</a>
+                <a href="/docs" class="text-muted text-decoration-none hover-text-primary">API</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% include "partials/modal_reporte.html" %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// Spotlight Search Controller
+(function() {
+    const modal = document.getElementById('spotlightModal');
+    const input = document.getElementById('spotlightInput');
+    const resultsContainer = document.getElementById('spotlightResults');
+    const btnOpen = document.getElementById('btnOpenSpotlight');
+    const btnClose = document.getElementById('btnCloseSpotlight');
+
+    function openSpotlight() {
+        if (!modal) return;
+        modal.style.display = 'flex';
+        input.value = '';
+        resultsContainer.innerHTML = '<div class="text-center text-muted p-4 small">Comienza a escribir para buscar...</div>';
+        setTimeout(() => input.focus(), 50);
+    }
+
+    function closeSpotlight() {
+        if (!modal) return;
+        modal.style.display = 'none';
+    }
+
+    if (btnOpen) btnOpen.addEventListener('click', openSpotlight);
+    if (btnClose) btnClose.addEventListener('click', closeSpotlight);
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeSpotlight();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+            e.preventDefault();
+            if (modal.style.display === 'flex') closeSpotlight();
+            else openSpotlight();
+        }
+        if (e.key === 'Escape' && modal.style.display === 'flex') {
+            closeSpotlight();
+        }
+    });
+
+    let debounceTimer;
+    input.addEventListener('input', (e) => {
+        const query = e.target.value.trim();
+        clearTimeout(debounceTimer);
+        if (query.length < 2) {
+            resultsContainer.innerHTML = '<div class="text-center text-muted p-4 small">Escribe al menos 2 caracteres...</div>';
+            return;
+        }
+
+        debounceTimer = setTimeout(() => {
+            fetch(`/api/buscar?q=${encodeURIComponent(query)}`)
+                .then(r => r.json())
+                .then(data => {
+                    const items = data.resultados || [];
+                    if (items.length === 0) {
+                        resultsContainer.innerHTML = '<div class="text-center text-muted p-4 small">No se encontraron resultados para "' + query + '"</div>';
+                        return;
+                    }
+                    resultsContainer.innerHTML = items.map(item => `
+                        <a href="${item.url}" class="d-flex align-items-center justify-content-between p-2 rounded text-decoration-none text-dark hover-bg">
+                            <div>
+                                <div class="fw-semibold small">${item.nombre}</div>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">${item.camara || ''} &bull; ${item.partido || ''}</span>
+                            </div>
+                            <small class="text-muted">${item.entidad || ''}</small>
+                        </a>
+                    `).join('');
+                })
+                .catch(() => {
+                    resultsContainer.innerHTML = '<div class="text-center text-danger p-4 small">Error al consultar el servicio</div>';
+                });
+        }, 200);
+    });
+})();
+</script>
+<!-- Modal de Manifiesto de Neutralidad y Metodología de Datos -->
+<div class="modal fade" id="modalManifiesto" tabindex="-1" aria-labelledby="modalManifiestoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header bg-light border-bottom py-3">
+                <div class="d-flex align-items-center gap-2">
+                    <span class="d-inline-flex p-2 rounded-circle bg-primary-subtle text-primary">
+                        <i class="bi bi-shield-check fs-5"></i>
+                    </span>
+                    <div>
+                        <h5 class="modal-title fw-bold text-dark mb-0" id="modalManifiestoLabel">Manifiesto de Neutralidad y Metodología</h5>
+                        <small class="text-secondary">Principios rectores de {{ app_name }} para la fiscalización ciudadana</small>
+                    </div>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+
+            <div class="modal-body p-4 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                <!-- Declaración de Principios -->
+                <div class="p-3 bg-light rounded-3 border mb-4">
+                    <h6 class="fw-bold text-dark mb-2 d-flex align-items-center gap-2">
+                        <i class="bi bi-compass text-primary"></i> Nuestro Compromiso Fundamental
+                    </h6>
+                    <p class="mb-0 small">
+                        <strong>{{ app_name }}</strong> es una plataforma ciudadana independiente y sin fines de lucro. 
+                        No pertenecemos a ningún partido político ni recibimos financiamiento gubernamental. 
+                        Nuestra misión es hacer accesible, auditable y comprensible la información pública oficial del Estado Mexicano, sin emitir juicios de valor, opiniones editoriales ni calificativos hacia ningún representante.
+                    </p>
+                </div>
+
+                <!-- 4 Pilares de Credibilidad -->
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-primary-subtle text-primary rounded-circle p-2">
+                                    <i class="bi bi-file-earmark-check"></i>
+                                </span>
+                                <h6 class="fw-bold text-dark mb-0">1. Fuentes 100% Oficiales</h6>
+                            </div>
+                            <p class="small text-muted mb-0">
+                                Cada dato proviene de fuentes primarias del Estado Mexicano (SEGOB, INE, Senado de la República, Cámara de Diputados y Gacetas Parlamentarias). No utilizamos trascendidos ni fuentes no confirmadas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-success-subtle text-success rounded-circle p-2">
+                                    <i class="bi bi-arrow-repeat"></i>
+                                </span>
+                                <h6 class="fw-bold text-dark mb-0">2. Trazabilidad Clicable</h6>
+                            </div>
+                            <p class="small text-muted mb-0">
+                                Ningún número o antecedente se muestra como un hecho aislado. Proveemos folios oficiales (como el registro SIL de SEGOB) y enlaces directos para que cualquier ciudadano contraste la información en los portales gubernamentales.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-warning-subtle text-warning-emphasis rounded-circle p-2">
+                                    <i class="bi bi-calculator"></i>
+                                </span>
+                                <h6 class="fw-bold text-dark mb-0">3. Metodología Abierta</h6>
+                            </div>
+                            <p class="small text-muted mb-0">
+                                Las asistencias se computan sobre pases de lista en el pleno; la disciplina partidaria mide la coincidencia con las votaciones del grupo parlamentario; y las comisiones reflejan acuerdos vigentes de la JUCOPO publicados en la Gaceta.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-danger-subtle text-danger rounded-circle p-2">
+                                    <i class="bi bi-flag"></i>
+                                </span>
+                                <h6 class="fw-bold text-dark mb-0">4. Corrección Ciudadana</h6>
+                            </div>
+                            <p class="small text-muted mb-0">
+                                Si una dependencia gubernamental actualiza un registro oficial o existe alguna discrepancia de homonimia o cargo, cualquier usuario puede enviar un reporte con evidencia para su revisión inmediata.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catálogo de Fuentes Gubernamentales -->
+                <h6 class="fw-bold text-dark mb-2">Registro de Fuentes Primarias Empleadas</h6>
+                <div class="table-responsive border rounded-3 mb-4">
+                    <table class="table table-sm table-striped align-middle mb-0" style="font-size: 0.8rem;">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Órgano Oficial</th>
+                                <th>Dato Extraído</th>
+                                <th>Dominio Oficial</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-semibold">SEGOB (SIL)</td>
+                                <td>Fichas curriculares, trayectoria y escolaridad</td>
+                                <td><code>sil.gobernacion.gob.mx</code></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-semibold">Senado de la República</td>
+                                <td>Comisiones, escaños y mesa directiva</td>
+                                <td><code>senado.gob.mx</code></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-semibold">Cámara de Diputados (SITL)</td>
+                                <td>Asistencias nominales y votaciones en pleno</td>
+                                <td><code>sitl.diputados.gob.mx</code></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-semibold">Gaceta Parlamentaria</td>
+                                <td>Decretos, iniciativas y acuerdos de bancadas</td>
+                                <td><code>gaceta.diputados.gob.mx</code></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-semibold">INE</td>
+                                <td>Cómputos de votos y constancias de mayoría</td>
+                                <td><code>ine.mx</code></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="alert alert-info py-2 px-3 small border-info-subtle mb-0 d-flex align-items-center gap-2">
+                    <i class="bi bi-info-circle-fill text-info fs-5 flex-shrink-0"></i>
+                    <span>
+                        {{ app_name }} respeta los derechos de acceso a la información pública contemplados en el Artículo 6° de la Constitución Política de los Estados Unidos Mexicanos.
+                    </span>
+                </div>
+            </div>
+
+            <div class="modal-footer bg-light py-2">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill px-4" data-bs-dismiss="modal">Entendido</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block scripts %}{% endblock %}
 </body>
 </html>

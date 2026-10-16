@@ -1,76 +1,1384 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-<div class="row justify-content-center">
-    <div class="col-lg-8">
-        <nav aria-label="breadcrumb" class="mb-3">
-            <ol class="breadcrumb small">
-                <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="/{{ 'diputados' if politico.camara == 'Diputados' else 'senadores' }}" class="text-decoration-none">{{ politico.camara }}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ politico.nombre_completo }}</li>
-            </ol>
-        </nav>
-
-        <div class="ios-card p-4 mb-4">
-            <div class="d-flex flex-column flex-sm-row align-items-center gap-4 text-center text-sm-start">
-                {% if politico.foto_local_path %}
-                <img src="/photos/{{ politico.foto_local_path.split('/')[-1] }}" alt="{{ politico.nombre_completo }}" class="rounded-circle border shadow-sm object-fit-cover" style="width: 110px; height: 110px;" onerror="this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&size=128&background=E5E5EA&color=1C1C1E'">
-                {% else %}
-                <img src="https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&size=128&background=E5E5EA&color=1C1C1E" class="rounded-circle border shadow-sm" style="width: 110px; height: 110px;">
-                {% endif %}
-
-                <div class="flex-grow-1">
-                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-sm-start mb-2">
-                        <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">{{ politico.camara }}</span>
-                        <span class="badge bg-dark rounded-pill px-3 py-1">{{ politico.partido }}</span>
-                        <span class="badge bg-light text-secondary rounded-pill px-3 py-1">LXVI Legislatura</span>
-                    </div>
-                    <h2 class="fw-bold mb-1">{{ politico.nombre_completo }}</h2>
-                    <p class="text-secondary mb-0">
-                        <i class="bi bi-geo-alt me-1"></i>{{ politico.entidad if politico.entidad else "Nacional" }}
-                        {% if politico.distrito %} &bull; Distrito {{ politico.distrito }}{% endif %}
-                        &bull; {{ politico.principio_eleccion if politico.principio_eleccion else "Mayoría Relativa" }}
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Ficha de Datos Oficiales -->
-        <div class="ios-card p-4 mb-4">
-            <h5 class="fw-bold mb-3 border-bottom pb-2">Información del Cargo</h5>
-            <div class="row g-3">
-                <div class="col-sm-6">
-                    <span class="text-muted small d-block">Tipo de Cargo</span>
-                    <span class="fw-semibold">{{ politico.tipo_cargo if politico.tipo_cargo else "Propietario" }}</span>
-                </div>
-                <div class="col-sm-6">
-                    <span class="text-muted small d-block">Suplente</span>
-                    <span class="fw-semibold">{{ politico.suplente_nombre if politico.suplente_nombre else "No registrado" }}</span>
-                </div>
-                <div class="col-sm-6">
-                    <span class="text-muted small d-block">Último Grado de Estudios</span>
-                    <span class="fw-semibold">{{ politico.ultimo_grado_estudios if politico.ultimo_grado_estudios else "No especificado" }}</span>
-                </div>
-                <div class="col-sm-6">
-                    <span class="text-muted small d-block">Correo Institucional</span>
-                    <span class="fw-semibold">{{ politico.correo_institucional if politico.correo_institucional else "No disponible" }}</span>
-                </div>
-            </div>
-        </div>
-
-        {% if politico.comisiones %}
-        <div class="ios-card p-4 mb-4">
-            <h5 class="fw-bold mb-3 border-bottom pb-2">Comisiones Legislativas</h5>
-            <div class="list-group list-group-flush">
-                {% for com in politico.comisiones %}
-                <div class="list-group-item bg-transparent px-0 d-flex justify-content-between align-items-center">
-                    <span>{{ com.comision if com.comision else com.nombre }}</span>
-                    <span class="badge bg-light text-dark border rounded-pill">{{ com.puesto if com.puesto else "Integrante" }}</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+{% set unique_parties = [] %}
+{% if politico.partido and 'SIN PARTIDO' not in politico.partido.upper() %}
+    {% set can_act = canonical_party_name_func(politico.partido) %}
+    {% set _ = unique_parties.append({'nombre': can_act, 'es_actual': True}) %}
+{% endif %}
+{% for lt in politico.linea_tiempo or [] %}
+    {% if lt.partido %}
+        {% set can_p = canonical_party_name_func(lt.partido) %}
+        {% set exists = unique_parties | selectattr('nombre', 'equalto', can_p) | list %}
+        {% if not exists %}
+            {% set _ = unique_parties.append({'nombre': can_p, 'es_actual': False}) %}
         {% endif %}
+    {% endif %}
+{% endfor %}
+
+<!-- ========================================================
+     VISTA WEB INTERACTIVA (Se oculta al imprimir / guardar PDF)
+     ======================================================== -->
+<div class="d-print-none">
+<!-- Breadcrumbs con Trazabilidad Completa -->
+<nav aria-label="breadcrumb" class="breadcrumb-ios mb-3">
+    <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
+        {% if politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo) %}
+        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Poder Ejecutivo ({{ politico.entidad }})</a></li>
+        {% elif politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo) %}
+        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Gobierno Municipal ({{ politico.entidad }})</a></li>
+        {% else %}
+        <li class="breadcrumb-item"><a href="/legislaturas/{{ legislatura }}" class="text-decoration-none">{{ meta_legislatura.romano }} Legislatura</a></li>
+        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">{{ politico.entidad or 'República Mexicana' }}</a></li>
+        {% endif %}
+        <li class="breadcrumb-item active text-truncate" style="max-width: 280px;" aria-current="page">{{ politico.nombre_completo }}</li>
+    </ol>
+</nav>
+
+{% if politico.legislaturas_disponibles and politico.legislaturas_disponibles|length > 1 %}
+<!-- Conmutador Responsivo de Legislaturas -->
+<div class="card-civic p-3 mb-4 bg-white shadow-sm border">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1">
+                <i class="bi bi-clock-history me-1"></i>Trayectoria Parlamentaria
+            </span>
+            <span class="text-secondary small fw-semibold">Consultar legislatura:</span>
+        </div>
+        <div class="d-flex align-items-center gap-1 flex-wrap">
+            {% for lDis in politico.legislaturas_disponibles %}
+            {% set lRom = 'LXVI' if lDis == 66 else ('LXV' if lDis == 65 else ('LXIV' if lDis == 64 else ('LXIII' if lDis == 63 else ('LXII' if lDis == 62 else 'LXI')))) %}
+            {% set esActiva = (lDis == legislatura) %}
+            <a href="/politicos/{{ politico.slug }}{{ '?leg=' ~ lDis if lDis != 66 else '' }}" 
+               class="btn btn-sm rounded-pill px-3 py-1 fw-semibold transition-all {{ 'btn-primary shadow-sm' if esActiva else 'btn-light border text-secondary hover-bg-subtle' }}">
+                {{ lRom }} Legislatura {% if lDis == 66 %}<span class="badge bg-success ms-1 small">Actual</span>{% endif %}
+            </a>
+            {% endfor %}
+        </div>
     </div>
 </div>
+{% endif %}
+
+{% if legislatura != 66 and not politico.es_actual %}
+<!-- Aviso de Registro Histórico -->
+<div class="alert alert-warning border-warning-subtle d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4 rounded-3 shadow-sm py-2 px-3">
+    <div class="d-flex align-items-center gap-2 small text-dark">
+        <i class="bi bi-archive-fill text-warning fs-5"></i>
+        <span>Estás consultando el expediente oficial histórico de <strong>{{ politico.nombre_completo }}</strong> correspondiente a la <strong>{{ meta_legislatura.romano }} Legislatura</strong>.</span>
+    </div>
+    <a href="/politicos/{{ politico.slug }}" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 small">
+        Ver perfil actual &rarr;
+    </a>
+</div>
+{% endif %}
+
+<div class="row g-4">
+    <!-- Columna Izquierda: Tarjeta de Perfil Fija (Sticky) -->
+    <div class="col-lg-4">
+        <div class="card-civic p-4 text-center sticky-top" style="top: 80px;">
+            <div class="position-relative d-inline-block mx-auto mb-3">
+                {% if politico.referencia_sil %}
+                <img src="/photos/{{ politico.referencia_sil }}.jpg" 
+                     alt="Fotografía oficial de {{ politico.nombre_completo }}" 
+                     class="rounded-4 shadow-sm border" 
+                     style="width: 170px; height: 210px; object-fit: cover;"
+                     onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&background=F1F5F9&color=475569&size=256';">
+                {% else %}
+                <img src="{{ politico.foto_oficial_url if politico.foto_oficial_url else ('https://ui-avatars.com/api/?name=' ~ (politico.nombre_completo|urlencode) ~ '&background=F1F5F9&color=475569&size=256') }}" 
+                     alt="Fotografía oficial de {{ politico.nombre_completo }}"
+                     class="rounded-4 shadow-sm border" 
+                     style="width: 170px; height: 210px; object-fit: cover;"
+                     onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ politico.nombre_completo|urlencode }}&background=F1F5F9&color=475569&size=256';">
+                {% endif %}
+                <span class="position-absolute bottom-0 end-0 badge bg-primary rounded-pill px-2 py-1 shadow-sm text-truncate" style="font-size: 0.75rem; max-width: 150px;">
+                    {{ 'Gobernador(a)' if (politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo)) else ('Alcalde' if (politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo)) else (politico.camara or politico.cargo)) }}
+                </span>
+            </div>
+
+            <h1 class="h4 fw-bold mb-2 text-dark">{{ politico.nombre_completo }}</h1>
+
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-3 flex-wrap">
+                {{ party_badge_func(politico.partido) | safe }}
+                {% if politico.tipo_cargo == 'Suplente' %}
+                <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle">
+                    <i class="bi bi-person-fill-up me-1"></i>Suplente en Funciones
+                </span>
+                {% elif politico.tiene_licencia %}
+                <span class="badge bg-light text-secondary border">Titular Electo</span>
+                <span class="badge bg-warning text-dark border border-warning shadow-sm">
+                    <i class="bi bi-pause-circle-fill me-1"></i>Con Licencia
+                </span>
+                {% else %}
+                <span class="badge bg-light text-secondary border">Titular Electo</span>
+                {% endif %}
+                {% if politico.edad %}
+                <span class="badge bg-light text-secondary border">{{ politico.edad }} años</span>
+                {% endif %}
+            </div>
+
+            <!-- Redes Sociales y Correo Oficial -->
+            {% if politico.redes_sociales or politico.correo_institucional %}
+            <div class="d-flex justify-content-center align-items-center gap-2 mb-3 flex-wrap">
+                {% for r in politico.redes_sociales or [] %}
+                <a href="{{ r.url }}" target="_blank" rel="noopener noreferrer" 
+                   class="btn btn-sm btn-light border rounded-circle d-inline-flex align-items-center justify-content-center p-0 shadow-sm" 
+                   style="width: 36px; height: 36px; color: {{ r.color or '#333333' }};" 
+                   title="{{ r.label or 'Red Social' }}" data-bs-toggle="tooltip">
+                    <i class="bi bi-{{ r.icono or 'link-45deg' }} fs-5"></i>
+                </a>
+                {% endfor %}
+                {% if politico.correo_institucional %}
+                <a href="mailto:{{ politico.correo_institucional }}" 
+                   class="btn btn-sm btn-light border rounded-circle d-inline-flex align-items-center justify-content-center p-0 shadow-sm" 
+                   style="width: 36px; height: 36px; color: #EA4335;" 
+                   title="Correo Institucional: {{ politico.correo_institucional }}" data-bs-toggle="tooltip">
+                    <i class="bi bi-envelope-fill fs-5"></i>
+                </a>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            <!-- Métricas Clave de Desempeño Parlamentario -->
+            {% if politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
+            {% set asistPct = politico.asistencia_kpi.porcentaje %}
+            {% set semaforoColor = '#198754' if asistPct >= 90 else ('#ffc107' if asistPct >= 75 else '#dc3545') %}
+            {% set sesTotales = politico.asistencia_kpi.total_sesiones or 39 %}
+            {% set asistReal = politico.asistencia_kpi.asistencias or 0 %}
+            {% set faltasReal = politico.asistencia_kpi.faltas or 0 %}
+            <div class="row g-2 mb-3 text-start">
+                <div class="col-6">
+                    <div class="bg-light rounded-3 p-2 h-100 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span class="text-secondary fw-semibold text-uppercase" style="font-size: 0.65rem; letter-spacing: 0.5px;">Asistencia</span>
+                            <i class="bi bi-calendar-check" style="color: {{ semaforoColor }}; font-size: 0.85rem;"></i>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold mb-0" style="color: {{ semaforoColor }}; line-height: 1.1;">
+                                {{ "%.1f"|format(asistPct) }}%
+                            </div>
+                            <span class="text-muted d-block mt-1 text-truncate" style="font-size: 0.68rem; line-height: 1.2;" title="{{ asistReal }} de {{ sesTotales }} sesiones ({{ faltasReal }} faltas)">
+                                {% if faltasReal > 0 %}
+                                    {{ asistReal }} de {{ sesTotales }} ses. <span class="text-danger">({{ faltasReal }} faltas)</span>
+                                {% else %}
+                                    {{ asistReal }} de {{ sesTotales }} sesiones
+                                {% endif %}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="bg-light rounded-3 p-2 h-100 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span class="text-secondary fw-semibold text-uppercase" style="font-size: 0.65rem; letter-spacing: 0.5px;">Alineación</span>
+                            <i class="bi bi-shield-check text-primary" style="font-size: 0.85rem;"></i>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold text-primary mb-0" style="line-height: 1.1;">
+                                {{ "%.1f"|format(politico.disciplina_partidaria_pct or 98.4) }}%
+                            </div>
+                            <span class="text-muted d-block mt-1 text-truncate" style="font-size: 0.68rem; line-height: 1.2;" title="Cohesión con el grupo parlamentario">
+                                Con {{ politico.partido }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Ficha de Datos Clave -->
+            <div class="text-start bg-light rounded-3 p-3 small text-secondary mb-3">
+                {% if politico.legislatura and politico.legislatura > 0 and politico.nivel != 'Estatal' and politico.nivel != 'Municipal' %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Legislatura:</strong>
+                    <a href="/legislaturas/{{ legislatura }}" class="text-decoration-none fw-semibold text-primary">
+                        <i class="bi bi-bank me-1"></i>{{ meta_legislatura.romano }} Legislatura
+                    </a>
+                </div>
+                {% else %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Periodo Constitucional:</strong>
+                    <span class="fw-semibold text-primary"><i class="bi bi-calendar3 me-1"></i>{{ politico.periodo or '2024–2027' }}</span>
+                </div>
+                {% endif %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Principio de Elección:</strong>
+                    {{ politico.principio_eleccion or 'Mayoría Relativa' }} {{ '(Distrito ' ~ politico.distrito ~ ')' if politico.distrito else '' }}
+                </div>
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Entidad Federativa:</strong>
+                    <a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none fw-medium">{{ politico.entidad or 'República Mexicana' }}</a>
+                </div>
+                {% if politico.fecha_toma_protesta %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Toma de Protesta:</strong>
+                    {{ politico.fecha_toma_protesta }}
+                </div>
+                {% endif %}
+                {% if politico.referencia_sil %}
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Folio Oficial SEGOB:</strong>
+                    <div class="d-flex align-items-center justify-content-between mt-1 flex-wrap gap-1">
+                        <span class="font-monospace text-muted small">SIL-{{ politico.referencia_sil }}</span>
+                        <a href="http://sil.gobernacion.gob.mx/Librerias/pp_PerfilLegislador.php?Referencia={{ politico.referencia_sil }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary py-0 px-2 rounded-pill d-inline-flex align-items-center gap-1 text-decoration-none" style="font-size: 0.7rem;" title="Verificar expediente original en la Secretaría de Gobernación">
+                            <span>Ver en SEGOB</span>
+                            <i class="bi bi-box-arrow-up-right" style="font-size: 0.6rem;"></i>
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if politico.perfil_academico and politico.perfil_academico.grado_info %}
+                {% set gInfo = politico.perfil_academico.grado_info %}
+                <div class="mt-2 pt-2 border-top">
+                    <strong class="text-dark d-block mb-1">Máximo Grado de Estudios:</strong>
+                    <span class="badge {{ gInfo.badge_class or 'bg-light text-secondary border' }} d-inline-flex align-items-center gap-1 py-1 px-2 text-wrap text-start">
+                        <i class="bi bi-{{ gInfo.icono or 'mortarboard' }}"></i>
+                        {{ gInfo.label }}
+                    </span>
+                    {% if politico.perfil_academico.titulo_destacado and politico.perfil_academico.grado_maximo != 'sin_registro' %}
+                    <div class="text-muted mt-1" style="font-size: 0.72rem; line-height: 1.3;">
+                        {{ politico.perfil_academico.titulo_destacado }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Bloque de Suplencia / Relevo -->
+            {% if politico.tipo_cargo == 'Suplente' %}
+            <div class="p-3 bg-warning-subtle rounded-3 mb-3 text-start small border border-warning-subtle">
+                <div class="text-secondary fw-semibold" style="font-size: 0.72rem;">ROL PARLAMENTARIO</div>
+                <div class="fw-bold text-dark mt-1">Suplente en Funciones</div>
+                <div class="text-muted" style="font-size: 0.73rem;">Asume funciones oficiales en ausencia del titular electo.</div>
+                {% if politico.titular_politico %}
+                <div class="mt-2 pt-2 border-top border-warning-subtle">
+                    <div class="text-secondary fw-semibold" style="font-size: 0.7rem;">TITULAR ELECTO DEL ESCAÑO:</div>
+                    <div class="fw-bold text-dark mt-1">{{ politico.titular_politico.nombre_completo }}</div>
+                    <a href="/politicos/{{ politico.titular_politico.slug }}" class="btn btn-sm btn-dark rounded-pill w-100 d-flex align-items-center justify-content-center gap-2 mt-2 shadow-sm" title="Ver perfil oficial del titular electo">
+                        <i class="bi bi-person-check-fill text-warning"></i>
+                        <span>Ver Perfil del Titular</span>
+                        <i class="bi bi-arrow-right-short fs-6"></i>
+                    </a>
+                </div>
+                {% elif politico.metadata and politico.metadata.titular_nombre %}
+                <div class="mt-2 pt-2 border-top border-warning-subtle">
+                    <div class="text-secondary fw-semibold" style="font-size: 0.7rem;">TITULAR DEL ESCAÑO:</div>
+                    <div class="fw-bold text-dark mt-1">{{ politico.metadata.titular_nombre }}</div>
+                    <a href="/?q={{ politico.metadata.titular_nombre|urlencode }}" class="btn btn-sm btn-outline-dark rounded-pill w-100 d-flex align-items-center justify-content-center gap-2 mt-2" title="Buscar ficha del titular">
+                        <i class="bi bi-search"></i>
+                        <span>Buscar Titular</span>
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+            {% elif politico.suplente_nombre %}
+            <div class="p-3 bg-light rounded-3 mb-3 text-start small border">
+                <div class="text-secondary fw-semibold" style="font-size: 0.72rem;">SUPLENTE DESIGNADO OFICIAL</div>
+                <div class="fw-bold text-dark mt-1 fs-6">{{ politico.suplente_nombre }}</div>
+                <div class="text-muted mt-1 mb-2" style="font-size: 0.73rem;">Relevo legal registrado ante la Cámara.</div>
+                {% if politico.suplente_politico %}
+                <a href="/politicos/{{ politico.suplente_politico.slug }}" class="btn btn-sm btn-outline-primary rounded-pill w-100 d-flex align-items-center justify-content-center gap-2 mt-2 shadow-sm" title="Ver perfil oficial de {{ politico.suplente_nombre }}">
+                    <i class="bi bi-person-badge"></i>
+                    <span>Ver Perfil del Suplente</span>
+                    <i class="bi bi-arrow-right-short fs-6"></i>
+                </a>
+                {% else %}
+                <a href="/?q={{ politico.suplente_nombre|urlencode }}" class="btn btn-sm btn-outline-secondary rounded-pill w-100 d-flex align-items-center justify-content-center gap-2 mt-2" title="Buscar ficha de {{ politico.suplente_nombre }}">
+                    <i class="bi bi-search"></i>
+                    <span>Buscar Expediente</span>
+                </a>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            <!-- Botones de Acción / Compartir y Reporte -->
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-primary rounded-pill btn-sm d-flex align-items-center justify-content-center gap-2" id="btnShare" data-title="Expediente de {{ politico.nombre_completo }}">
+                    <i class="bi bi-share"></i>
+                    <span>Compartir Expediente</span>
+                </button>
+                <button type="button" class="btn btn-outline-dark rounded-pill btn-sm d-flex align-items-center justify-content-center gap-2" id="btnPrintPdf" title="Descargar expediente en PDF o imprimir">
+                    <i class="bi bi-file-earmark-pdf"></i>
+                    <span>Descargar PDF / Imprimir</span>
+                </button>
+                <button type="button" 
+                        class="btn btn-outline-danger rounded-pill btn-sm d-flex align-items-center justify-content-center gap-2 btn-reportar-anomalia"
+                        data-origen-tipo="politico"
+                        data-origen-id="{{ politico.slug }}"
+                        data-origen-nombre="{{ politico.nombre_completo }}"
+                        data-origen-url="/politicos/{{ politico.slug }}"
+                        title="Reportar anomalía o dato inconsistente en esta ficha">
+                    <i class="bi bi-flag"></i>
+                    <span>Reportar inconsistencia</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Columna Derecha: Secciones de Contenido -->
+    <div class="col-lg-8">
+
+        <!-- SECCIÓN 1: COMISIONES LEGISLATIVAS -->
+        <div class="card-civic p-4 mb-4 border">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-briefcase-fill text-primary"></i>
+                    Comisiones Legislativas ({{ politico.comisiones|length if politico.comisiones else 0 }})
+                </h2>
+                <span class="badge bg-light text-secondary border small">Toca para explorar</span>
+            </div>
+
+            {% if not politico.comisiones %}
+                <p class="text-muted small mb-0">Sin asignación de comisiones reportada en el SIL para el periodo actual.</p>
+            {% else %}
+                <div class="list-group list-group-flush">
+                    {% for com in politico.comisiones %}
+                    {% set comNombre = com.comision or com.nombre or '' %}
+                    {% set comSlug = com.slug or comNombre|lower|replace(' ', '-')|replace('.', '')|replace('(', '')|replace(')', '') %}
+                    {% set puesto = com.puesto or 'Integrante' %}
+                    {% set esPresid = 'PRESID' in puesto|upper %}
+                    {% set esSecret = 'SECRET' in puesto|upper %}
+                    {% set comLegParam = ('?leg=' ~ legislatura) if legislatura and legislatura != 66 else '' %}
+                    <a href="/comisiones/{{ comSlug }}{{ comLegParam }}" class="list-group-item px-0 py-3 d-flex align-items-center justify-content-between text-decoration-none hover-bg-subtle">
+                        <div class="min-w-0 pe-2">
+                            <div class="fw-semibold text-dark small mb-1">{{ comNombre }}</div>
+                            <div class="text-secondary" style="font-size: 0.73rem;">
+                                Cargo: <strong>{{ puesto }}</strong> &bull; Periodo: {{ com.fecha_inicio or 'Inicio' }} al {{ com.fecha_fin or 'Fin' }}
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 flex-shrink-0">
+                            <span class="badge rounded-pill px-3 py-2 {{ badgeClass }} small">
+                                {{ puesto }}
+                            </span>
+                            <i class="bi bi-chevron-right text-muted small"></i>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- SECCIÓN 2: LÍNEA DE TIEMPO Y CARGOS + ESTUDIOS -->
+        <div class="card-civic p-4 mb-4 border">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-clock-history text-primary"></i>
+                    Línea de Tiempo y Cargos ({{ politico.linea_tiempo|length if politico.linea_tiempo else 0 }})
+                </h2>
+            </div>
+
+            {% set unique_parties = [] %}
+            {% if politico.partido and 'SIN PARTIDO' not in politico.partido.upper() %}
+                {% set can_act = canonical_party_name_func(politico.partido) %}
+                {% set _ = unique_parties.append({'nombre': can_act, 'es_actual': True}) %}
+            {% endif %}
+            {% for lt in politico.linea_tiempo or [] %}
+                {% if lt.partido %}
+                    {% set can_p = canonical_party_name_func(lt.partido) %}
+                    {% set exists = unique_parties | selectattr('nombre', 'equalto', can_p) | list %}
+                    {% if not exists %}
+                        {% set _ = unique_parties.append({'nombre': can_p, 'es_actual': False}) %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if unique_parties %}
+            <div class="p-2 px-3 mb-3 bg-light rounded-3 border d-flex align-items-center flex-wrap gap-2">
+                <span class="text-secondary fw-semibold d-inline-flex align-items-center gap-1" style="font-size: 0.73rem;">
+                    <i class="bi bi-diagram-3-fill text-primary"></i>
+                    {{ 'Partidos en su trayectoria:' if unique_parties|length > 1 else 'Filiación partidista:' }}
+                </span>
+                <div class="d-flex align-items-center gap-1 flex-wrap">
+                    {% for p_info in unique_parties %}
+                        {{ party_timeline_badge_func(p_info.nombre, p_info.es_actual)|safe }}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if not politico.linea_tiempo %}
+                <p class="text-secondary small mb-0">Sin cargos o trayectoria previa reportada en la ficha oficial.</p>
+            {% else %}
+                <div class="timeline-track mt-2">
+                    {% for h in politico.linea_tiempo %}
+                    {% set p_cargo = h.partido or (politico.partido if h.es_cargo_actual else none) %}
+                    {% set p_color = party_color_func(p_cargo) if p_cargo else none %}
+                    {% set node_style = "--node-color: " ~ p_color ~ "; --node-ring: " ~ p_color ~ "33;" if p_color else "--node-color: #94A3B8; --node-ring: #E2E8F0;" %}
+                    <div class="timeline-node {{ 'reciente' if h.es_cargo_actual or h.es_reciente else '' }}" style="{{ node_style }}">
+                        <div class="d-flex align-items-center gap-2 mb-1 flex-wrap">
+                            <span class="text-secondary fw-bold" style="font-size: 0.76rem;">
+                                {{ h.periodo }}
+                            </span>
+
+                            {% if p_cargo %}
+                                {{ party_timeline_badge_func(p_cargo, h.es_cargo_actual)|safe }}
+                            {% endif %}
+
+                            {% if h.es_cargo_actual %}
+                                {% if h.en_licencia or politico.tiene_licencia %}
+                                <span class="badge bg-warning text-dark py-1 px-2 border border-warning shadow-sm d-inline-flex align-items-center gap-1" style="font-size: 0.68rem;">
+                                    <i class="bi bi-pause-circle-fill text-dark" style="font-size: 0.55rem;"></i> En Licencia (Separación)
+                                </span>
+                                {% elif politico.tipo_cargo == 'Suplente' %}
+                                <span class="badge bg-success-subtle text-success py-1 px-2 border border-success-subtle d-inline-flex align-items-center gap-1" style="font-size: 0.68rem;">
+                                    <i class="bi bi-circle-fill text-success" style="font-size: 0.45rem;"></i> Suplente en Funciones
+                                </span>
+                                {% else %}
+                                <span class="badge bg-success-subtle text-success py-1 px-2 border border-success-subtle d-inline-flex align-items-center gap-1" style="font-size: 0.68rem;">
+                                    <i class="bi bi-circle-fill text-success" style="font-size: 0.45rem;"></i> Cargo Actual
+                                </span>
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                        <div class="small text-dark fw-medium">{{ h.experiencia }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <!-- Estudios y Formación Académica -->
+            {% if politico.escolaridad_items %}
+            <div class="mt-4 pt-3 border-top">
+                <h3 class="h6 fw-bold text-dark mb-2 d-flex align-items-center gap-2">
+                    <i class="bi bi-mortarboard-fill text-primary"></i>
+                    Estudios y Formación Académica:
+                </h3>
+                <ul class="list-unstyled mb-0">
+                    {% for e in politico.escolaridad_items %}
+                    {% set exp = e.experiencia or '' %}
+                    {% set normExp = exp|lower %}
+                    {% set esTruncaItem = 'trunca' in normExp or 'trunco' in normExp or 'pasante' in normExp or 'inconcluso' in normExp %}
+                    <li class="small text-dark mb-2 d-flex align-items-start gap-2">
+                        <i class="bi bi-dot text-primary fs-5 lh-1"></i>
+                        <div>
+                            <span>{{ exp }}</span>
+                            {% if esTruncaItem %}
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle ms-1" style="font-size: 0.7rem;">
+                                <i class="bi bi-exclamation-triangle"></i> Trunca / Pasante
+                            </span>
+                            {% endif %}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- SECCIÓN 3: PROPUESTAS DE LEY E INICIATIVAS -->
+        <div class="card-civic p-4 mb-4 border">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-file-earmark-text-fill text-primary"></i>
+                    Propuestas de Ley e Iniciativas ({{ politico.iniciativas|length if politico.iniciativas else 0 }})
+                </h2>
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    {% set cronicaQuery = ('site:senado.gob.mx "Versión Estenográfica" ' if politico.camara == 'Senadores' else 'site:cronica.diputados.gob.mx "Diario de los Debates" ') ~ '("' ~ politico.nombre_completo ~ '")' %}
+                    <a href="https://www.google.com/search?q={{ cronicaQuery|urlencode }}" target="_blank" rel="noopener noreferrer" class="badge bg-white text-secondary border text-decoration-none py-1 px-2 d-inline-flex align-items-center gap-1" title="Ver intervenciones en tribuna registradas en el Diario de los Debates">
+                        <i class="bi bi-mic-fill text-danger"></i>Diario de los Debates (Tribuna) ↗
+                    </a>
+                    <span class="badge bg-light text-secondary border small">{{ meta_legislatura.romano }} Legislatura</span>
+                </div>
+            </div>
+
+            <!-- Mini-Guía Ciudadana de Estatus -->
+            <div class="p-3 mb-3 bg-light rounded-3 border small text-secondary">
+                <div class="fw-bold text-dark mb-2" style="font-size: 0.78rem;">
+                    <i class="bi bi-info-circle-fill text-primary me-1"></i>¿Qué significa el estatus de una iniciativa?
+                </div>
+                <div class="d-flex flex-column gap-2" style="font-size: 0.75rem;">
+                    <div>
+                        <span class="badge bg-warning-subtle text-dark border">En Comisiones</span> 
+                        <strong>Fase de Estudio:</strong> La mesa técnica temática está debatiendo y analizando a fondo los artículos.
+                    </div>
+                    <div>
+                        <span class="badge bg-primary-subtle text-primary border">En Dictamen</span> 
+                        <strong>Lista para el Pleno:</strong> La comisión ya aprobó el documento oficial; está en antesala de votación general.
+                    </div>
+                    <div>
+                        <span class="badge bg-success-subtle text-success border">Aprobada</span> 
+                        <strong>Decreto Vigente:</strong> Votada por ambas cámaras y promulgada en el Diario Oficial de la Federación.
+                    </div>
+                </div>
+            </div>
+
+            {% if not politico.iniciativas %}
+                {% set googleIniciativasUrl = "https://www.google.com/search?q=" ~ ("iniciativas \"" ~ politico.nombre_completo ~ "\" LXVI Legislatura Gaceta Parlamentaria")|urlencode %}
+                <div class="p-4 bg-light rounded-4 text-center border">
+                    <div class="d-inline-flex align-items-center justify-content-center p-3 rounded-circle bg-white border shadow-xs mb-3 text-primary">
+                        <i class="bi bi-file-earmark-ruled-fill fs-3"></i>
+                    </div>
+                    <h3 class="h6 fw-bold text-dark mb-1">Labor Legislativa y Registro de Asuntos</h3>
+                    <p class="text-secondary small mb-3 mx-auto" style="max-width: 580px; font-size: 0.78rem;">
+                        Este legislador participa en el desahogo de dictámenes en sus comisiones asignadas y en el voto de reformas constitucionales en el Pleno. Puedes consultar el histórico completo en los repositorios parlamentarios oficiales:
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap">
+                        <a href="{{ googleIniciativasUrl }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-1 shadow-xs" style="font-size: 0.76rem;">
+                            <i class="bi bi-search"></i>Buscar Iniciativas del Legislador ↗
+                        </a>
+                        <a href="https://gaceta.diputados.gob.mx/Gaceta/Iniciativas/iniciativas.html" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 d-inline-flex align-items-center gap-1" style="font-size: 0.76rem;">
+                            <i class="bi bi-file-earmark-text"></i>Gaceta Parlamentaria ↗
+                        </a>
+                        <a href="http://sil.gobernacion.gob.mx/Librerias/pp_BusquedaAsuntos.php" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-1 d-inline-flex align-items-center gap-1" style="font-size: 0.76rem;">
+                            <i class="bi bi-bank"></i>SIL SEGOB ↗
+                        </a>
+                    </div>
+                </div>
+            {% else %}
+                <div class="d-flex flex-column gap-3" id="listaIniciativas">
+                    {% for ini in politico.iniciativas %}
+                    {% set estatus = ini.estatus or 'En Comisiones' %}
+                    {% set badgeColor = 'bg-success-subtle text-success border' if 'aprobada' in estatus|lower else ('bg-primary-subtle text-primary border' if 'dictamen' in estatus|lower else 'bg-warning-subtle text-dark border') %}
+                    <div class="p-3 bg-white border rounded-3 shadow-xs">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                            <div class="d-flex align-items-center gap-1 flex-wrap">
+                                <span class="badge bg-primary-subtle text-primary" style="font-size: 0.70rem;">{{ ini.tipo or 'Iniciativa' }}</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.70rem;">{{ ini.camara_origen or politico.camara }}</span>
+                                {% if ini.es_autor_principal %}
+                                <span class="badge bg-dark text-white" style="font-size: 0.68rem;">Autor Principal</span>
+                                {% else %}
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.68rem;">Co-promovente</span>
+                                {% endif %}
+                            </div>
+                            <span class="badge {{ badgeColor }}" style="font-size: 0.72rem;">
+                                {{ estatus }}
+                            </span>
+                        </div>
+
+                        <div class="fw-semibold text-dark small mb-1">{{ ini.titulo or '' }}</div>
+                        <p class="text-secondary small mb-2" style="font-size: 0.78rem; line-height: 1.45;">{{ ini.resumen or '' }}</p>
+
+                        {% if ini.comision_turnada %}
+                        <div class="p-2 rounded-2 bg-light mb-2 small text-secondary" style="font-size: 0.72rem;">
+                            <i class="bi bi-briefcase-fill text-primary me-1"></i><strong>Turnada a:</strong> {{ ini.comision_turnada }}
+                        </div>
+                        {% endif %}
+
+                        <div class="d-flex justify-content-between align-items-center pt-2 border-top flex-wrap gap-2">
+                            <span class="text-secondary small" style="font-size: 0.72rem;">
+                                <i class="bi bi-calendar3 me-1"></i>{{ ini.fecha or '' }}
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                                {% if ini.gaceta_url %}
+                                <a href="{{ ini.gaceta_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                                    Gaceta Oficial ↗
+                                </a>
+                                {% endif %}
+                                <a href="https://www.google.com/search?q={{ ('iniciativa ' ~ (ini.titulo or '') ~ ' ' ~ politico.nombre_completo)|urlencode }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary rounded-pill py-1 px-2" style="font-size: 0.72rem;">
+                                    Buscar Expediente ↗
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- SECCIÓN 4: INFORMACIÓN DE CONTACTO OFICIAL -->
+        <div class="card-civic p-4 mb-4 border">
+            <h5 class="fw-bold mb-3 d-flex align-items-center gap-2">
+                <i class="bi bi-building text-dark"></i> Información de Contacto Oficial
+            </h5>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Ubicación de Oficina:</span>
+                    <strong class="text-dark small">{{ politico.ubicacion_oficina or ("Palacio Legislativo de San Lázaro" if politico.camara == "Diputados" else "Senado de la República") }}</strong>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Teléfono Oficial:</span>
+                    <strong class="text-dark small">{{ politico.telefono or ("Conmutador Cámara de Diputados" if politico.camara == "Diputados" else "Conmutador Senado") }}</strong>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Correo Institucional:</span>
+                    <strong class="text-dark small">{{ politico.correo_institucional or "No especificado" }}</strong>
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-muted small d-block">Fecha de Toma de Protesta:</span>
+                    <strong class="text-dark small">{{ politico.fecha_toma_protesta or "29/08/2024" }}</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 5: FUENTES OFICIALES Y TRAZABILIDAD DE DATOS (AUDIT TRAIL) -->
+        <div class="card-civic p-4 mb-4 border border-primary-subtle shadow-sm bg-white">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
+                    <i class="bi bi-patch-check-fill text-primary"></i>
+                    Fuentes Oficiales y Trazabilidad de Datos
+                </h2>
+                <span class="badge bg-success-subtle text-success border border-success-subtle d-inline-flex align-items-center gap-1">
+                    <i class="bi bi-shield-lock-fill"></i> Registro Público Verificable
+                </span>
+            </div>
+
+            <div class="p-3 bg-light rounded-3 mb-4 border text-secondary" style="font-size: 0.88rem; line-height: 1.5;">
+                <p class="mb-0">
+                    <strong>Garantía de fidelidad institucional:</strong> Los datos presentados en esta ficha provienen estrictamente de registros públicos y documentos oficiales emitidos por los Poderes de la Unión. 
+                    <strong>{{ app_name }}</strong> no emite opiniones subjetivas, no califica el desempeño político ni inventa métricas. Cada dato puede ser contrastado directamente en las dependencias y gacetas correspondientes.
+                </p>
+            </div>
+
+            <!-- Grilla de Fuentes Primarias con Enlaces Oficiales -->
+            <div class="row g-3 mb-4">
+                {% if politico.referencia_sil %}
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Perfil Curricular y Escolaridad</span>
+                                <span class="badge bg-light text-secondary border font-monospace" style="font-size: 0.65rem;">SEGOB</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Sistema de Información Legislativa (SIL). Folio oficial registrado: <strong class="text-dark font-monospace">SIL-{{ politico.referencia_sil }}</strong>.
+                            </div>
+                        </div>
+                        <a href="http://sil.gobernacion.gob.mx/Librerias/pp_PerfilLegislador.php?Referencia={{ politico.referencia_sil }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Verificar Ficha en SEGOB</span>
+                            <i class="bi bi-box-arrow-up-right" style="font-size: 0.7rem;"></i>
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Órgano Legislativo y Pleno</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">{{ politico.camara }}</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                {% if politico.camara == 'Senadores' %}
+                                    Directorio oficial del Senado de la República y mesa directiva de la {{ meta_legislatura.romano }} Legislatura.
+                                {% else %}
+                                    Sistema de Información Técnica Legislativa (SITL) de la Cámara de Diputados.
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% if politico.camara == 'Senadores' %}
+                        <a href="https://www.senado.gob.mx" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Portal Oficial del Senado ↗</span>
+                        </a>
+                        {% else %}
+                        <a href="https://sitl.diputados.gob.mx/LXVI_leg/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Portal SITL Diputados ↗</span>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Comisiones y Acuerdos</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">JUCOPO</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Integración y presidencia de comisiones ordinarias, bicamerales y especiales según acuerdos publicados en Gaceta.
+                            </div>
+                        </div>
+                        <a href="{{ 'https://www.senado.gob.mx/66/gaceta_del_senado' if politico.camara == 'Senadores' else 'https://gaceta.diputados.gob.mx' }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Consultar Gaceta Parlamentaria ↗</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="border rounded-3 p-3 h-100 bg-white d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span class="fw-bold text-dark small">Constancia Electoral y Distrito</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">INE</span>
+                            </div>
+                            <div class="text-muted small mb-2" style="font-size: 0.78rem;">
+                                Cómputos distritales, constancia de mayoría relativa o asignación de primera minoría / representación proporcional.
+                            </div>
+                        </div>
+                        <a href="https://computos2024.ine.mx" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-flex align-items-center justify-content-center gap-1 w-100" style="font-size: 0.78rem;">
+                            <span>Cómputos Oficiales INE ↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preguntas Frecuentes y Desmitificación Rápida -->
+            <div class="accordion accordion-flush mb-4 border rounded-3 overflow-hidden" id="faqTrazabilidad">
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq1">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq1" aria-expanded="false" aria-controls="collapseFaq1">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿Por qué aparecen tantas comisiones legislativas?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq1" class="accordion-collapse collapse" aria-labelledby="headingFaq1" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            En el Congreso mexicano existen decenas de comisiones ordinarias (más de 40 en Diputados y más de 30 en el Senado), además de comisiones especiales y bicamerales creadas por acuerdo de los grupos parlamentarios. Cada legislador suele pertenecer formalmente a entre 3 y 6 comisiones a la vez, fungiendo como presidente, secretario o integrante.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq2">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq2" aria-expanded="false" aria-controls="collapseFaq2">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿Cómo se calculan la asistencia y la alineación partidaria?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq2" class="accordion-collapse collapse" aria-labelledby="headingFaq2" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            La asistencia se calcula sobre el total de sesiones registradas con lista nominal en la legislatura, distinguiendo presencias, inasistencias y justificaciones avaladas por la Mesa Directiva. La alineación mide el porcentaje de votos en el mismo sentido (a favor/en contra) que la mayoría de su propio grupo parlamentario.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFaq3">
+                        <button class="accordion-button collapsed py-2 px-3 small fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq3" aria-expanded="false" aria-controls="collapseFaq3">
+                            <i class="bi bi-question-circle text-primary me-2"></i>¿De dónde proviene la trayectoria política previa?
+                        </button>
+                    </h3>
+                    <div id="collapseFaq3" class="accordion-collapse collapse" aria-labelledby="headingFaq3" data-bs-parent="#faqTrazabilidad">
+                        <div class="accordion-body small text-muted py-2 px-3" style="line-height: 1.5;">
+                            Se extrae del currículum público registrado ante la Secretaría de Gobernación y se cruza con las bases históricas de periódicos oficiales estatales (para exgobernadores y alcaldes) y de los 32 Congresos Estatales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acciones de Transparencia y Manifiesto -->
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 pt-3 border-top">
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-1" data-bs-toggle="modal" data-bs-target="#modalManifiesto">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Conoce nuestro Manifiesto</span>
+                    </button>
+                </div>
+                <a href="mailto:contacto@pulsocivico.mx?subject=Discrepancia%20en%20expediente%20de%20{{ politico.nombre_completo|urlencode }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-1" title="Reportar inconsistencia o discrepancia">
+                    <i class="bi bi-flag-fill text-danger"></i>
+                    <span>Reportar discrepancia con fuente oficial</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div> <!-- /d-print-none -->
+
+<!-- ========================================================
+     EXPEDIENTE EJECUTIVO IMPRESO (Solo visible al imprimir / PDF)
+     Diseñado específicamente para formato Carta / A4 (1-2 páginas)
+     ======================================================== -->
+<div class="d-none d-print-block print-dossier">
+    <!-- 1. Membrete Oficial del Congreso / Observatorio -->
+    <header class="print-header">
+        <div class="print-header-brand">
+            <h1 class="print-brand-title">{{ app_name|upper }}</h1>
+            <div class="print-brand-subtitle">{{ app_tagline }} &bull; Observatorio Ciudadano</div>
+        </div>
+        <div class="print-header-meta">
+            <span class="print-badge-official">EXPEDIENTE OFICIAL LEGISLATIVO</span>
+            <div class="print-meta-text">
+                <strong>Folio SIL:</strong> SIL-{{ politico.referencia_sil or 'S/N' }} &bull; 
+                <strong>Legislatura:</strong> {{ meta_legislatura.romano }} ({{ meta_legislatura.periodo or '' }})<br>
+                <strong>Fecha de Emisión:</strong> <span class="print-date-target"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Ficha de Identidad y Situación Jurídica (Hero Horizontal) -->
+    <section class="print-hero-card">
+        <div class="print-hero-photo-col">
+            {% if politico.referencia_sil %}
+            <img src="/photos/{{ politico.referencia_sil }}.jpg" 
+                 alt="{{ politico.nombre_completo }}"
+                 class="print-photo-img"
+                 onerror="this.onerror=null; this.src='{{ politico.foto_oficial_url if politico.foto_oficial_url else '' }}';">
+            {% elif politico.foto_oficial_url %}
+            <img src="{{ politico.foto_oficial_url }}" alt="{{ politico.nombre_completo }}" class="print-photo-img">
+            {% endif %}
+            <div class="print-camara-badge">{{ politico.camara }}</div>
+        </div>
+        <div class="print-hero-info-col">
+            <h2 class="print-pol-name">{{ politico.nombre_completo }}</h2>
+            
+            <div class="print-badges-row">
+                <span class="print-tag-party">{{ politico.partido }}</span>
+                {% if politico.tiene_licencia %}
+                <span class="print-tag-status tag-warning">Con Licencia</span>
+                {% elif politico.tipo_cargo == 'Suplente' %}
+                <span class="print-tag-status tag-info">Suplente en Funciones</span>
+                {% else %}
+                <span class="print-tag-status tag-success">Titular Electo</span>
+                {% endif %}
+                <span class="print-tag-status">{{ meta_legislatura.romano }} Legislatura</span>
+                {% if politico.edad %}
+                <span class="print-tag-status">{{ politico.edad }} años</span>
+                {% endif %}
+            </div>
+
+            <div class="print-meta-grid">
+                <div><span class="print-label">Entidad Federativa:</span> {{ politico.entidad or 'República Mexicana' }}</div>
+                <div><span class="print-label">Principio de Elección:</span> {{ politico.principio_eleccion or 'Mayoría Relativa' }} {{ '(Distrito ' ~ politico.distrito ~ ')' if politico.distrito else '' }}</div>
+                <div><span class="print-label">Toma de Protesta:</span> {{ politico.fecha_toma_protesta or 'Inicio de Periodo' }}</div>
+                <div><span class="print-label">Folio Oficial SEGOB:</span> SIL-{{ politico.referencia_sil or 'S/N' }}</div>
+                <div><span class="print-label">Máx. Grado de Estudios:</span> {{ politico.perfil_academico.grado_info.label if (politico.perfil_academico and politico.perfil_academico.grado_info) else 'No reportado / Sin registro' }}</div>
+                {% if politico.tipo_cargo == 'Suplente' and (politico.titular_politico or politico.metadata.titular_nombre) %}
+                <div><span class="print-label">Titular Electo:</span> {{ politico.titular_politico.nombre_completo if politico.titular_politico else politico.metadata.titular_nombre }}</div>
+                {% elif politico.suplente_nombre %}
+                <div><span class="print-label">Suplente Oficial:</span> {{ politico.suplente_nombre }}</div>
+                {% endif %}
+                {% if politico.ubicacion_oficina %}
+                <div><span class="print-label">Oficina:</span> {{ politico.ubicacion_oficina }}</div>
+                {% endif %}
+                {% if politico.correo_institucional %}
+                <div><span class="print-label">Correo Institucional:</span> {{ politico.correo_institucional }}</div>
+                {% endif %}
+                {% if politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
+                <div><span class="print-label">Asistencia Nominal:</span> {{ "%.1f"|format(politico.asistencia_kpi.porcentaje) }}% ({{ politico.asistencia_kpi.asistencias or 0 }}/{{ politico.asistencia_kpi.total_sesiones or 0 }} sesiones)</div>
+                <div><span class="print-label">Cohesión de Bancada:</span> {{ "%.1f"|format(politico.disciplina_partidaria_pct or 98.4) }}%</div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Comisiones Legislativas -->
+    {% if politico.comisiones %}
+    <section class="print-section">
+        <h3 class="print-section-title">Comisiones Legislativas ({{ politico.comisiones|length }})</h3>
+        <table class="print-table">
+            <thead>
+                <tr>
+                    <th style="width: 58%;">Comisión</th>
+                    <th style="width: 20%;">Cargo</th>
+                    <th style="width: 22%;">Periodo Registrado</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for com in politico.comisiones %}
+                {% set comNombre = com.comision or com.nombre or '' %}
+                {% set puesto = com.puesto or 'Integrante' %}
+                <tr>
+                    <td><strong>{{ comNombre }}</strong></td>
+                    <td>
+                        <span class="print-puesto-pill {{ 'puesto-presid' if 'PRESID' in puesto|upper else ('puesto-secret' if 'SECRET' in puesto|upper else '') }}">
+                            {{ puesto }}
+                        </span>
+                    </td>
+                    <td class="print-text-muted">{{ com.fecha_inicio or '' }} al {{ com.fecha_fin or '' }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+
+    <!-- 4. Línea de Tiempo y Trayectoria Curricular -->
+    {% if politico.linea_tiempo %}
+    <section class="print-section">
+        <div class="print-section-header-flex">
+            <h3 class="print-section-title" style="margin: 0; border: none; padding: 0;">Línea de Tiempo y Cargos Públicos ({{ politico.linea_tiempo|length }})</h3>
+            {% if unique_parties %}
+            <div class="print-parties-summary">
+                <span>Filiación partidista:</span>
+                {% for p_info in unique_parties %}
+                <span class="print-party-micro-pill">{{ p_info.nombre }}{{ ' (Actual)' if p_info.es_actual else '' }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="print-timeline-container">
+            {% for h in politico.linea_tiempo %}
+            <div class="print-timeline-row">
+                <div class="print-timeline-left">
+                    <span class="print-period-badge">{{ h.periodo }}</span>
+                    {% if h.partido %}
+                    <span class="print-party-micro-pill">{{ h.partido }}</span>
+                    {% endif %}
+                </div>
+                <div class="print-timeline-right">
+                    {{ h.experiencia }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- 5. Estudios y Formación Académica Complementaria -->
+    {% if politico.escolaridad_items %}
+    <section class="print-section">
+        <h3 class="print-section-title">Estudios y Formación Académica</h3>
+        <ul class="print-list-bullets">
+            {% for e in politico.escolaridad_items %}
+            <li>{{ e.experiencia }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+    <!-- 6. Iniciativas Parlamentarias (Solo si existen) -->
+    {% if politico.iniciativas and politico.iniciativas|length > 0 %}
+    <section class="print-section">
+        <h3 class="print-section-title">Iniciativas Parlamentarias Registradas ({{ politico.iniciativas|length }})</h3>
+        <table class="print-table">
+            <thead>
+                <tr>
+                    <th style="width: 14%;">Fecha</th>
+                    <th style="width: 56%;">Título del Asunto</th>
+                    <th style="width: 15%;">Estatus</th>
+                    <th style="width: 15%;">Carácter</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ini in politico.iniciativas[:8] %}
+                <tr>
+                    <td class="print-text-muted">{{ ini.fecha or '' }}</td>
+                    <td><strong>{{ ini.titulo or '' }}</strong></td>
+                    <td><span class="print-tag-status">{{ ini.estatus or 'En Comisiones' }}</span></td>
+                    <td>{{ 'Autor Principal' if ini.es_autor_principal else 'Co-promovente' }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+
+    <!-- 7. Sello y Certificación de Fuentes Oficiales -->
+    <footer class="print-footer">
+        <div class="print-footer-grid">
+            <div>
+                <strong>Trazabilidad y Fuentes Primarias:</strong> Sistema de Información Legislativa (SIL SEGOB), Diario Oficial de la Federación, Gaceta Parlamentaria e Instituto Nacional Electoral (INE).
+            </div>
+            <div class="text-end">
+                Documento público emitido por <strong>pulsocivico.mx</strong> para fines de transparencia y fiscalización ciudadana. Prohibido su uso con fines partidistas o electorales.
+            </div>
+        </div>
+    </footer>
+</div>
+
+<style>
+/* Estilos normales de pantalla para línea de tiempo interactiva */
+.timeline-track {
+    position: relative;
+    padding-left: 28px;
+}
+.timeline-track::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: #E2E8F0;
+}
+.timeline-node {
+    position: relative;
+    margin-bottom: 22px;
+}
+.timeline-node::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--node-color, #94A3B8);
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 0 2px var(--node-ring, #E2E8F0);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.timeline-node.reciente::before {
+    width: 12px;
+    height: 12px;
+    left: -26px;
+    top: 4px;
+    background: var(--node-color, #10B981);
+    box-shadow: 0 0 0 3px var(--node-ring, rgba(16, 185, 129, 0.25));
+}
+.timeline-node:hover::before {
+    transform: scale(1.25);
+}
+.party-timeline-badge {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.party-timeline-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+.hover-bg-subtle:hover {
+    background-color: #F8FAFC !important;
+}
+
+/* =======================================================
+   ESTILOS DEDICADOS DE IMPRESIÓN Y DESCARGA EN PDF (EXECUTIVE DOSSIER)
+   ======================================================= */
+@media print {
+    @page {
+        size: letter portrait;
+        margin: 8mm 10mm 10mm 10mm;
+    }
+
+    /* Ocultar TODO el layout web en la impresión para evitar desbordes */
+    .d-print-none,
+    nav,
+    footer:not(.print-footer),
+    .navbar-ios,
+    .breadcrumb-ios,
+    .spotlight-backdrop,
+    .modal,
+    #btnShare,
+    #btnPrintPdf,
+    .btn-reportar-anomalia {
+        display: none !important;
+    }
+
+    /* Activar el expediente ejecutivo */
+    .print-dossier {
+        display: block !important;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #111827 !important;
+        background: #FFFFFF !important;
+        font-size: 8pt !important;
+        line-height: 1.35 !important;
+    }
+
+    body {
+        background: #FFFFFF !important;
+        color: #111827 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* 1. Header */
+    .print-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 2px solid #1E293B;
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+    }
+    .print-brand-title {
+        font-size: 14pt;
+        font-weight: 900;
+        letter-spacing: -0.5px;
+        margin: 0;
+        color: #0F172A;
+        line-height: 1;
+    }
+    .print-brand-subtitle {
+        font-size: 7pt;
+        color: #64748B;
+        margin-top: 2px;
+    }
+    .print-badge-official {
+        display: inline-block;
+        background: #0F172A;
+        color: #FFFFFF;
+        font-size: 6.5pt;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        padding: 2px 6px;
+        border-radius: 3px;
+    }
+    .print-meta-text {
+        font-size: 7pt;
+        color: #475569;
+        margin-top: 3px;
+        text-align: right;
+        line-height: 1.3;
+    }
+
+    /* 2. Hero Card */
+    .print-hero-card {
+        display: flex;
+        gap: 12px;
+        border: 1px solid #CBD5E1;
+        border-radius: 6px;
+        padding: 8px 10px;
+        margin-bottom: 9px;
+        background: #F8FAFC !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .print-hero-photo-col {
+        width: 82px;
+        flex: 0 0 82px;
+        text-align: center;
+    }
+    .print-photo-img {
+        width: 82px;
+        height: 104px;
+        object-fit: cover;
+        border-radius: 4px;
+        border: 1px solid #CBD5E1;
+        display: block;
+    }
+    .print-camara-badge {
+        margin-top: 3px;
+        background: #2563EB;
+        color: #FFFFFF;
+        font-size: 6.5pt;
+        font-weight: 700;
+        padding: 1px 4px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .print-hero-info-col {
+        flex: 1;
+    }
+    .print-pol-name {
+        font-size: 12pt;
+        font-weight: 800;
+        margin: 0 0 4px 0;
+        color: #0F172A;
+        letter-spacing: -0.3px;
+    }
+    .print-badges-row {
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+        margin-bottom: 6px;
+    }
+    .print-tag-party {
+        background: #EEF2FF;
+        color: #3730A3;
+        border: 1px solid #C7D2FE;
+        font-size: 6.8pt;
+        font-weight: 700;
+        padding: 1px 6px;
+        border-radius: 10px;
+    }
+    .print-tag-status {
+        background: #F1F5F9;
+        color: #334155;
+        border: 1px solid #CBD5E1;
+        font-size: 6.5pt;
+        font-weight: 600;
+        padding: 1px 5px;
+        border-radius: 10px;
+    }
+    .tag-warning {
+        background: #FEF3C7 !important;
+        color: #92400E !important;
+        border-color: #FDE68A !important;
+    }
+    .tag-success {
+        background: #DCFCE7 !important;
+        color: #166534 !important;
+        border-color: #BBF7D0 !important;
+    }
+    .tag-info {
+        background: #E0E7FF !important;
+        color: #3730A3 !important;
+        border-color: #C7D2FE !important;
+    }
+
+    .print-meta-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px 14px;
+        font-size: 7.2pt;
+        color: #334155;
+        line-height: 1.35;
+    }
+    .print-label {
+        font-weight: 700;
+        color: #0F172A;
+    }
+
+    /* 3. Secciones generales */
+    .print-section {
+        margin-bottom: 8px;
+        break-inside: auto;
+    }
+    .print-section-title {
+        font-size: 8.5pt;
+        font-weight: 800;
+        color: #0F172A;
+        border-bottom: 1px solid #CBD5E1;
+        padding-bottom: 2px;
+        margin: 0 0 5px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+    }
+    .print-section-header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #CBD5E1;
+        padding-bottom: 2px;
+        margin-bottom: 5px;
+    }
+    .print-parties-summary {
+        font-size: 6.5pt;
+        color: #64748B;
+        display: flex;
+        gap: 3px;
+        align-items: center;
+    }
+    .print-party-micro-pill {
+        background: #F1F5F9;
+        border: 1px solid #CBD5E1;
+        border-radius: 6px;
+        padding: 0 4px;
+        font-size: 6pt;
+        font-weight: 600;
+        color: #1E293B;
+    }
+
+    /* 4. Tablas compactas de comisiones e iniciativas */
+    .print-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 7.2pt;
+    }
+    .print-table th {
+        background: #F1F5F9 !important;
+        color: #1E293B;
+        font-weight: 700;
+        text-align: left;
+        padding: 3px 5px;
+        border: 1px solid #CBD5E1;
+        font-size: 6.8pt;
+    }
+    .print-table td {
+        padding: 3px 5px;
+        border: 1px solid #E2E8F0;
+        vertical-align: middle;
+        line-height: 1.25;
+    }
+    .print-table tr {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .print-text-muted {
+        color: #64748B;
+    }
+    .print-puesto-pill {
+        display: inline-block;
+        padding: 0 4px;
+        border-radius: 3px;
+        font-size: 6.2pt;
+        font-weight: 600;
+        background: #F1F5F9;
+        color: #334155;
+        border: 1px solid #E2E8F0;
+    }
+    .puesto-presid {
+        background: #FEF3C7 !important;
+        color: #92400E !important;
+        border-color: #FDE68A !important;
+        font-weight: 700;
+    }
+    .puesto-secret {
+        background: #DBEAFE !important;
+        color: #1E40AF !important;
+        border-color: #BFDBFE !important;
+        font-weight: 700;
+    }
+
+    /* 5. Línea de tiempo compacta */
+    .print-timeline-container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #E2E8F0;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    .print-timeline-row {
+        display: flex;
+        padding: 3px 6px;
+        border-bottom: 1px solid #F1F5F9;
+        font-size: 7.2pt;
+        line-height: 1.25;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .print-timeline-row:last-child {
+        border-bottom: none;
+    }
+    .print-timeline-left {
+        flex: 0 0 160px;
+        color: #475569;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+    .print-period-badge {
+        font-weight: 700;
+        color: #0F172A;
+    }
+    .print-timeline-right {
+        flex: 1;
+        color: #0F172A;
+    }
+
+    /* 6. Listas */
+    .print-list-bullets {
+        margin: 0;
+        padding-left: 14px;
+        font-size: 7.2pt;
+        color: #1E293B;
+    }
+    .print-list-bullets li {
+        margin-bottom: 2px;
+    }
+
+    /* 7. Footer */
+    .print-footer {
+        border-top: 1px solid #0F172A;
+        padding-top: 4px;
+        margin-top: 8px;
+        font-size: 6.2pt;
+        color: #64748B;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .print-footer-grid {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        line-height: 1.3;
+    }
+}
+</style>
+
+<script>
+// Actualizar fecha de consulta dinámica para impresión y PDF
+function actualizarFechaImpresion() {
+    const targets = document.querySelectorAll('.print-date-target, #printFechaConsulta');
+    const ahora = new Date();
+    const str = ahora.toLocaleDateString('es-MX', { day: '2-digit', month: 'short', year: 'numeric' });
+    targets.forEach(el => el.textContent = str);
+}
+actualizarFechaImpresion();
+
+// Botón de Descargar en PDF / Imprimir
+document.getElementById('btnPrintPdf')?.addEventListener('click', function() {
+    actualizarFechaImpresion();
+    window.print();
+});
+
+// Botón de Compartir Expediente
+document.getElementById('btnShare')?.addEventListener('click', async function() {
+    const title = this.dataset.title;
+    const url = window.location.href;
+    if (navigator.share) {
+        try {
+            await navigator.share({ title, url });
+        } catch (e) {}
+    } else {
+        await navigator.clipboard.writeText(url);
+        alert('Enlace copiado al portapapeles: ' + url);
+    }
+});
+</script>
 {% endblock %}

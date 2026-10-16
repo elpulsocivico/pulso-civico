@@ -4,6 +4,10 @@
 > Las reglas universales para cualquier IA y colaborador están en [`AGENTS.md`](AGENTS.md) (leer primero).
 > Este archivo agrega solo las reglas operativas del entorno Gemini/Antigravity.
 
+## 0. REGLA MAESTRA DE STACK: ENTORNO ACTIVO EN PYTHON (FASTAPI / JINJA2)
+- **El entorno que corre localmente en esta PC es Python con FastAPI (`app/main.py`)** sirviendo plantillas Jinja2 desde `app/templates/`.
+- **PROHIBIDO codear en PHP (`src/`, `views/`)** para características visuales o de backend que el usuario prueba en esta máquina. Todo endpoint, servicio y vista activa DEBE implementarse en Python dentro de `app/` (`app/routers/`, `app/services/`, `app/templates/`) para que los cambios se reflejen de inmediato en el navegador del usuario (`http://localhost:8000`).
+
 ---
 
 ## 1. RUNNER CENTRALIZADO Y COMANDO ÚNICO (ZERO-PROMPT)

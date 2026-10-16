@@ -3,13 +3,27 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/core/Linter.php';
 require_once __DIR__ . '/core/GitOps.php';
+require_once __DIR__ . '/core/GitHubOps.php';
 require_once __DIR__ . '/core/Inspector.php';
 require_once __DIR__ . '/core/ScraperRouter.php';
+require_once __DIR__ . '/core/DataRepair.php';
+require_once __DIR__ . '/core/CatalogBuilder.php';
+require_once __DIR__ . '/core/BuildDirectoryIndex.php';
+require_once __DIR__ . '/core/DataIntegrityAudit.php';
+require_once dirname(__DIR__) . '/src/Core/PageCache.php';
+require_once dirname(__DIR__) . '/src/Services/AuditService.php';
 
 use PulsoCivico\Tools\Linter;
 use PulsoCivico\Tools\GitOps;
+use PulsoCivico\Tools\GitHubOps;
 use PulsoCivico\Tools\Inspector;
 use PulsoCivico\Tools\ScraperRouter;
+use PulsoCivico\Tools\DataRepair;
+use PulsoCivico\Tools\CatalogBuilder;
+use PulsoCivico\Tools\BuildDirectoryIndex;
+use PulsoCivico\Tools\DataIntegrityAudit;
+use PulsoCivico\Core\PageCache;
+use PulsoCivico\Services\AuditService;
 
 $rootDir = dirname(__DIR__);
 $action = $argv[1] ?? 'help';
@@ -22,6 +36,464 @@ $response = [
 ];
 
 switch ($action) {
+    case 'cache:clear':
+        $cleared = PageCache::clearAll();
+        $response['archivos_eliminados'] = $cleared;
+        $response['ok'] = true;
+        break;
+
+    case 'cache:status':
+        $response['status'] = PageCache::status();
+        $response['ok'] = true;
+        break;
+
+    case 'audit:integrity':
+        $auditResult = DataIntegrityAudit::run($rootDir);
+        $response = array_merge($response, $auditResult);
+        break;
+
+    case 'audit:reports':
+        $auditService = new AuditService($rootDir . '/storage');
+        $reports = $auditService->getReports($target !== '' ? $target : null);
+        $response['total'] = count($reports);
+        $response['filtro_estado'] = $target !== '' ? $target : 'todos';
+        $response['reportes'] = $reports;
+        $response['ok'] = true;
+        break;
+
+    case 'audit:bans':
+        $auditService = new AuditService($rootDir . '/storage');
+        $bans = $auditService->getActiveBans();
+        $response['total_baneadas'] = count($bans);
+        $response['bans_activos'] = $bans;
+        $response['ok'] = true;
+        break;
+
+    case 'audit:unban':
+        if ($target === '') {
+            $response['ok'] = false;
+            $response['error'] = 'Debe especificar la IP a desbanear. Ej: audit:unban 192.168.1.1';
+            break;
+        }
+        $auditService = new AuditService($rootDir . '/storage');
+        $desbaneado = $auditService->unbanIp($target);
+        $response['ip'] = $target;
+        $response['desbaneado'] = $desbaneado;
+        $response['ok'] = true;
+        break;
+
+    case 'audit:status':
+        if ($target === '' || $extra === '') {
+            $response['ok'] = false;
+            $response['error'] = 'Uso: audit:status <ticket_id> <nuevo_estado>';
+            break;
+        }
+        $auditService = new AuditService($rootDir . '/storage');
+        $actualizado = $auditService->updateReportStatus($target, $extra);
+        $response['ticket_id'] = $target;
+        $response['nuevo_estado'] = $extra;
+        $response['actualizado'] = $actualizado;
+        $response['ok'] = $actualizado;
+        break;
+
+    case 'telegram:check':
+        $envFile = $rootDir . '/.env';
+        $token = '';
+        if (file_exists($envFile)) {
+            $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [];
+            foreach ($lines as $line) {
+                if (str_starts_with(trim($line), 'TELEGRAM_BOT_TOKEN=')) {
+                    $token = trim(substr(trim($line), strlen('TELEGRAM_BOT_TOKEN=')));
+                    break;
+                }
+            }
+        }
+        if (empty($token)) {
+            $response['ok'] = false;
+            $response['error'] = 'No se encontró TELEGRAM_BOT_TOKEN en .env';
+            break;
+        }
+
+        $ctx = stream_context_create([
+            'http' => ['timeout' => 10],
+            'ssl' => ['verify_peer' => false, 'verify_peer_name' => false],
+        ]);
+        $apiUrl = "https://api.telegram.org/bot{$token}/getUpdates?limit=10";
+        $raw = @file_get_contents($apiUrl, false, $ctx);
+        $data = $raw ? json_decode($raw, true) : null;
+        $chats = [];
+        if (!empty($data['result']) && is_array($data['result'])) {
+            foreach ($data['result'] as $upd) {
+                $msg = $upd['message'] ?? $upd['channel_post'] ?? $upd['edited_message'] ?? null;
+                if ($msg && !empty($msg['chat']['id'])) {
+                    $cId = (string)$msg['chat']['id'];
+                    $chats[$cId] = [
+                        'chat_id' => $cId,
+                        'title' => $msg['chat']['title'] ?? ($msg['chat']['first_name'] ?? 'Direct'),
+                        'type' => $msg['chat']['type'] ?? 'unknown',
+                        'topic_id' => $msg['message_thread_id'] ?? null,
+                    ];
+                }
+            }
+        }
+        $response['ok'] = true;
+        $response['chats_detectados'] = array_values($chats);
+        break;
+
+    case 'telegram:test':
+        $auditService = new AuditService($rootDir . '/storage');
+        $testReport = [
+            'ticket_id' => 'REP-TEST-' . strtoupper(bin2hex(random_bytes(2))),
+            'fecha_humana' => date('Y-m-d H:i:s'),
+            'ip' => '127.0.0.1',
+            'origen' => [
+                'nombre' => 'Expediente de Prueba',
+                'url' => 'http://localhost/elpulso/politicos',
+            ],
+            'categoria' => 'homonimo',
+            'checkmarks' => ['Prueba de integración de tickets a Telegram'],
+            'detalle' => 'Mensaje de prueba del sistema de auditoría cívica descentralizada para la manada.',
+            'fuente_url' => 'https://sil.gobernacion.gob.mx',
+        ];
+
+        $sent = $auditService->dispatchTelegramNotification($testReport);
+        $response['ticket_enviado'] = $testReport['ticket_id'];
+        $response['telegram_notificado'] = $sent;
+        $response['ok'] = $sent;
+        break;
+
+    case 'cache:warmup':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $file = $baseDir . str_replace('\\', '/', substr($class, $len)) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+
+        $ctrl = new \PulsoCivico\Controllers\WebController();
+        ob_start();
+        $ctrl->politicos();
+        $htmlPoliticos = ob_get_clean();
+
+        ob_start();
+        $ctrl->home();
+        $htmlHome = ob_get_clean();
+
+        $response['politicos_bytes'] = strlen((string)$htmlPoliticos);
+        $response['home_bytes'] = strlen((string)$htmlHome);
+        $response['status'] = PageCache::status();
+        $response['ok'] = true;
+        break;
+
+    case 'test:audit':
+        $tempDir = sys_get_temp_dir() . '/audit_test_' . time();
+        $service = new AuditService($tempDir);
+        $testIp = '198.51.100.42';
+        $testUa = 'Unit-Tester';
+
+        // 1. 5 reportes permitidos
+        $reportsOk = 0;
+        for ($i = 1; $i <= 5; $i++) {
+            $r = $service->submitReport([
+                'categoria' => 'homonimo',
+                'detalle' => "Reporte de prueba $i",
+            ], $testIp, $testUa);
+            if (!empty($r['ok'])) $reportsOk++;
+        }
+
+        // 2. 6to reporte debe disparar baneo de 24h
+        $r6 = $service->submitReport([
+            'categoria' => 'homonimo',
+            'detalle' => 'Reporte 6 en menos de 1 minuto',
+        ], $testIp, $testUa);
+
+        // 3. Checar status de ban
+        $banStatus = $service->checkBanStatus($testIp);
+
+        // 4. Desbanear
+        $unbanned = $service->unbanIp($testIp);
+        $statusAfter = $service->checkBanStatus($testIp);
+
+        // 5. Honeypot check
+        $botIp = '203.0.113.99';
+        $rBot = $service->submitReport([
+            'categoria' => 'otro',
+            'detalle' => 'Soy bot',
+            'website_url_check' => 'spam',
+        ], $botIp, $testUa);
+        $botStatus = $service->checkBanStatus($botIp);
+
+        $response['primeros_5_ok'] = ($reportsOk === 5);
+        $response['intento_6_baneado'] = !empty($r6['banned']);
+        $response['ban_24h_activo'] = ($banStatus['banned'] === true && $banStatus['remaining_seconds'] > 86000);
+        $response['desban_exitoso'] = ($unbanned && !$statusAfter['banned']);
+        $response['honeypot_baneado'] = (!empty($rBot['banned']) && $botStatus['banned']);
+        $response['todos_los_tests_pasaron'] = (
+            $response['primeros_5_ok'] &&
+            $response['intento_6_baneado'] &&
+            $response['ban_24h_activo'] &&
+            $response['desban_exitoso'] &&
+            $response['honeypot_baneado']
+        );
+        $response['ok'] = $response['todos_los_tests_pasaron'];
+        break;
+
+    case 'build:index':
+        $indexRes = BuildDirectoryIndex::build($rootDir);
+        $response['resultado'] = $indexRes;
+        $response['ok'] = !empty($indexRes['success']);
+        break;
+
+    case 'test:speed':
+        // Autoloader PSR-4 nativo
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $file = $baseDir . str_replace('\\', '/', substr($class, $len)) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+
+        $t0 = microtime(true);
+        $ds = new \PulsoCivico\Services\DataService($rootDir . '/storage');
+        $t1 = microtime(true);
+        $directorio = $ds->getDirectorioPoliticos(null);
+        $t2 = microtime(true);
+
+        // Prueba de PageCache
+        $cache = new \PulsoCivico\Core\PageCache('politicos_todas');
+        $tc0 = microtime(true);
+        $cachedHtml = $cache->get();
+        $tc1 = microtime(true);
+
+        // Prueba de API paginada /api/politicos
+        $_GET['page'] = '2';
+        $_GET['limit'] = '32';
+        $ctrl = new \PulsoCivico\Controllers\WebController($ds);
+        $tApi0 = microtime(true);
+        ob_start();
+        $ctrl->apiPoliticos();
+        $rawApi = (string)ob_get_clean();
+        $tApi1 = microtime(true);
+        $apiData = json_decode($rawApi, true);
+
+        $response['tiempo_init_dataservice_ms'] = round(($t1 - $t0) * 1000, 2);
+        $response['tiempo_get_directorio_ms'] = round(($t2 - $t1) * 1000, 2);
+        $response['tiempo_page_cache_read_ms'] = round(($tc1 - $tc0) * 1000, 2);
+        $response['tiempo_api_politicos_ms'] = round(($tApi1 - $tApi0) * 1000, 2);
+        $response['api_politicos_bytes'] = strlen($rawApi);
+        $response['api_total_filtrados'] = $apiData['total_filtrados'] ?? null;
+        $response['api_facetas'] = $apiData['facetas'] ?? null;
+        $response['page_cache_hit'] = ($cachedHtml !== null);
+        $response['total_politicos'] = count($directorio);
+        $response['memoria_pico_mb'] = round(memory_get_peak_usage(true) / 1024 / 1024, 2);
+        $response['ok'] = true;
+        break;
+
+    case 'test:photos':
+        $idxFile = $rootDir . '/storage/cache/directorio_politicos_index.json';
+        $pols = json_decode((string)file_get_contents($idxFile), true);
+        $sample = array_slice($pols ?: [], 0, 4);
+        $response['sample'] = array_map(function($p) use ($rootDir) {
+            $ref = $p['referencia_sil'] ?? '';
+            $photoPath = $rootDir . "/storage/raw/photos/{$ref}.jpg";
+            return [
+                'slug' => $p['slug'] ?? '',
+                'nombre' => $p['nombre_completo'] ?? '',
+                'ref' => $ref,
+                'tiene_foto_local' => $p['tiene_foto_local'] ?? false,
+                'file_exists_en_disco' => file_exists($photoPath),
+                'foto_oficial_url' => $p['foto_oficial_url'] ?? '',
+            ];
+        }, $sample);
+        $response['ok'] = true;
+        break;
+
+    case 'build:fase1':
+    case 'build:catalogs':
+        $rawOax = 'C:/Users/pc/.gemini/antigravity/brain/1f47f70a-1604-4cd8-bfd0-f87201681701/.system_generated/steps/262/content.md';
+        $rawYuc = 'C:/Users/pc/.gemini/antigravity/brain/1f47f70a-1604-4cd8-bfd0-f87201681701/.system_generated/steps/258/content.md';
+        
+        // Respaldar a storage/raw
+        $rawDir = $rootDir . '/storage/raw';
+        if (!is_dir($rawDir)) @mkdir($rawDir, 0777, true);
+        if (file_exists($rawOax)) @copy($rawOax, $rawDir . '/inegi_oaxaca_570.json');
+        if (file_exists($rawYuc)) @copy($rawYuc, $rawDir . '/inegi_yucatan_106.json');
+        
+        $oaxRes = CatalogBuilder::buildOaxacaCatalog($rootDir, $rawOax);
+        $yucRes = CatalogBuilder::buildYucatanCatalog($rootDir, $rawYuc);
+        $partRes = CatalogBuilder::buildPartidosCatalog($rootDir);
+        $sumRes = CatalogBuilder::buildStateSummaries($rootDir);
+        $multiRes = CatalogBuilder::buildMultinivelIndex($rootDir);
+        
+        $response['catalogo_oaxaca'] = $oaxRes;
+        $response['catalogo_yucatan'] = $yucRes;
+        $response['catalogo_partidos'] = $partRes;
+        $response['resumenes_estadisticos'] = $sumRes;
+        $response['indice_multinivel'] = $multiRes;
+        $response['total_archivos_generados'] = 4 + ($sumRes['total_resumenes_generados'] ?? 0);
+        $response['ok'] = true;
+        break;
+
+    case 'build:multinivel':
+        $multiRes = CatalogBuilder::buildMultinivelIndex($rootDir);
+        $response['indice_multinivel'] = $multiRes;
+        $response['ok'] = true;
+        break;
+
+    case 'test:multinivel':
+        require_once $rootDir . '/src/Core/Router.php';
+        require_once $rootDir . '/src/Core/ViewHelper.php';
+        require_once $rootDir . '/src/Services/EducationService.php';
+        require_once $rootDir . '/src/Services/DataService.php';
+        
+        $ds = new \PulsoCivico\Services\DataService();
+        $testSlug = $target ?: 'ayala-robles-armando';
+        $pol = $ds->getPoliticoBySlug($testSlug);
+        
+        $response['politico_encontrado'] = (bool)$pol;
+        if ($pol) {
+            $response['nombre'] = $pol['nombre_completo'];
+            $response['escalas_gobierno'] = $pol['escalas_gobierno'] ?? [];
+            $response['transicion_partidista'] = $pol['transicion_partidista'] ?? [];
+            $response['total_hitos_linea_tiempo'] = count($pol['linea_tiempo'] ?? []);
+            $response['muestra_linea_tiempo'] = array_slice($pol['linea_tiempo'] ?? [], 0, 5);
+        }
+        $response['ok'] = true;
+        break;
+
+    case 'data:inventory':
+        $dataDir = $rootDir . '/storage/data';
+        $allJsonFiles = [];
+        $rdi = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dataDir, \FilesystemIterator::SKIP_DOTS));
+        foreach ($rdi as $file) {
+            if ($file->isFile() && $file->getExtension() === 'json') {
+                $allJsonFiles[] = str_replace('\\', '/', $file->getPathname());
+            }
+        }
+        
+        $categories = [
+            'cabildos_municipales' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'alcaldes' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'congresos_locales' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'poder_legislativo_federal' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'gobernadores' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'catalogos_auxiliares' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'sesiones' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'votaciones' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'iniciativas' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'resumenes_estatales' => ['files' => 0, 'records' => 0, 'sample' => []],
+            'otros' => ['files' => 0, 'records' => 0, 'sample' => []],
+        ];
+
+        $subdirs = [];
+        foreach ($allJsonFiles as $jf) {
+            $rel = str_replace(str_replace('\\', '/', $rootDir) . '/', '', $jf);
+            $parts = explode('/', $rel);
+            $parentFolder = count($parts) > 2 ? $parts[2] : 'root';
+            $subdirs[$parentFolder] = ($subdirs[$parentFolder] ?? 0) + 1;
+        }
+
+        $totalRecords = 0;
+        $totalFiles = count($allJsonFiles);
+
+        foreach ($allJsonFiles as $jf) {
+            $base = basename($jf);
+            $rel = str_replace(str_replace('\\', '/', $rootDir) . '/', '', $jf);
+            $content = @file_get_contents($jf);
+            $decoded = json_decode($content ?: '', true);
+            $recCount = 0;
+            
+            if (is_array($decoded)) {
+                if (isset($decoded['ediles']) && is_array($decoded['ediles'])) {
+                    $recCount = count($decoded['ediles']);
+                } elseif (isset($decoded['cabildo']) && is_array($decoded['cabildo'])) {
+                    $recCount = count($decoded['cabildo']);
+                } elseif (isset($decoded['integrantes']) && is_array($decoded['integrantes'])) {
+                    $recCount = count($decoded['integrantes']);
+                } elseif (isset($decoded['alcaldes']) && is_array($decoded['alcaldes'])) {
+                    $recCount = count($decoded['alcaldes']);
+                } elseif (isset($decoded['municipios']) && is_array($decoded['municipios'])) {
+                    $recCount = count($decoded['municipios']);
+                } elseif (isset($decoded['gobernadores']) && is_array($decoded['gobernadores'])) {
+                    $recCount = count($decoded['gobernadores']);
+                } elseif (isset($decoded['mandatarios']) && is_array($decoded['mandatarios'])) {
+                    $recCount = count($decoded['mandatarios']);
+                } elseif (isset($decoded['diputados']) || isset($decoded['senadores'])) {
+                    $recCount = count($decoded['diputados'] ?? []) + count($decoded['senadores'] ?? []);
+                } elseif (isset($decoded['legisladores']) && is_array($decoded['legisladores'])) {
+                    $recCount = count($decoded['legisladores']);
+                } elseif (isset($decoded['sesiones']) && is_array($decoded['sesiones'])) {
+                    $recCount = count($decoded['sesiones']);
+                } elseif (isset($decoded['votaciones']) && is_array($decoded['votaciones'])) {
+                    $recCount = count($decoded['votaciones']);
+                } elseif (isset($decoded['iniciativas']) && is_array($decoded['iniciativas'])) {
+                    $recCount = count($decoded['iniciativas']);
+                } elseif (array_is_list($decoded)) {
+                    $recCount = count($decoded);
+                } else {
+                    $recCount = 1;
+                }
+            }
+            $totalRecords += $recCount;
+
+            // Clasificación
+            if (str_contains($jf, 'cabildo') || str_contains($jf, 'ayuntamiento') || str_contains($jf, 'municip') && !str_contains($jf, 'alcalde')) {
+                $categories['cabildos_municipales']['files']++;
+                $categories['cabildos_municipales']['records'] += $recCount;
+                if (count($categories['cabildos_municipales']['sample']) < 3) $categories['cabildos_municipales']['sample'][] = $rel;
+            } elseif (str_contains($jf, 'alcalde') || str_contains($jf, 'directorio_nacional_alcaldes')) {
+                $categories['alcaldes']['files']++;
+                $categories['alcaldes']['records'] += $recCount;
+                if (count($categories['alcaldes']['sample']) < 3) $categories['alcaldes']['sample'][] = $rel;
+            } elseif (preg_match('/congreso_(?!union)/i', $base)) {
+                $categories['congresos_locales']['files']++;
+                $categories['congresos_locales']['records'] += $recCount;
+                if (count($categories['congresos_locales']['sample']) < 3) $categories['congresos_locales']['sample'][] = $rel;
+            } elseif (str_contains($base, 'congreso_union') || str_contains($base, 'legisladores_entidad_')) {
+                $categories['poder_legislativo_federal']['files']++;
+                $categories['poder_legislativo_federal']['records'] += $recCount;
+                if (count($categories['poder_legislativo_federal']['sample']) < 3) $categories['poder_legislativo_federal']['sample'][] = $rel;
+            } elseif (str_contains($jf, 'gobernador') || str_contains($jf, 'ejecutivo')) {
+                $categories['gobernadores']['files']++;
+                $categories['gobernadores']['records'] += $recCount;
+                if (count($categories['gobernadores']['sample']) < 3) $categories['gobernadores']['sample'][] = $rel;
+            } elseif (str_contains($jf, 'geo') || str_contains($jf, 'catalogo') || str_contains($jf, 'oaxaca') || str_contains($jf, 'yucatan')) {
+                $categories['catalogos_auxiliares']['files']++;
+                $categories['catalogos_auxiliares']['records'] += $recCount;
+                if (count($categories['catalogos_auxiliares']['sample']) < 3) $categories['catalogos_auxiliares']['sample'][] = $rel;
+            } elseif (str_contains($base, 'sesion')) {
+                $categories['sesiones']['files']++;
+                $categories['sesiones']['records'] += $recCount;
+                if (count($categories['sesiones']['sample']) < 3) $categories['sesiones']['sample'][] = $rel;
+            } elseif (str_contains($base, 'votacion')) {
+                $categories['votaciones']['files']++;
+                $categories['votaciones']['records'] += $recCount;
+                if (count($categories['votaciones']['sample']) < 3) $categories['votaciones']['sample'][] = $rel;
+            } elseif (str_contains($base, 'iniciativa')) {
+                $categories['iniciativas']['files']++;
+                $categories['iniciativas']['records'] += $recCount;
+                if (count($categories['iniciativas']['sample']) < 3) $categories['iniciativas']['sample'][] = $rel;
+            } elseif (str_contains($base, 'resumen') || str_contains($base, 'estado_') || str_contains($base, 'estadistica')) {
+                $categories['resumenes_estatales']['files']++;
+                $categories['resumenes_estatales']['records'] += $recCount;
+                if (count($categories['resumenes_estatales']['sample']) < 3) $categories['resumenes_estatales']['sample'][] = $rel;
+            } else {
+                $categories['otros']['files']++;
+                $categories['otros']['records'] += $recCount;
+                if (count($categories['otros']['sample']) < 10) $categories['otros']['sample'][] = $rel;
+            }
+        }
+
+        $response['total_json_files'] = $totalFiles;
+        $response['total_records_detected'] = $totalRecords;
+        $response['subdirs'] = $subdirs;
+        $response['categories'] = $categories;
+        break;
+
     case 'lint':
         // target puede ser una lista de archivos separados por coma o un solo archivo
         if ($target === '') {
@@ -61,6 +533,49 @@ switch ($action) {
         $response = array_merge($response, $result);
         break;
 
+    case 'inspect:politico':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $ds = new \PulsoCivico\Services\DataService();
+        $slugs = explode(',', $target !== '' ? $target : 'valladolid-rodriguez-antonio,talavera-hernandez-maria-eloisa,schroeder-verdugo-maria-fernanda,zepeda-berrelleza-hugo-adriel');
+        $directorio = $ds->getDirectorioPoliticos();
+        $dirBySlug = [];
+        foreach ($directorio as $item) {
+            $dirBySlug[$item['slug'] ?? ''] = $item;
+        }
+
+        $out = [];
+        foreach ($slugs as $s) {
+            $s = trim($s);
+            $dirItem = $dirBySlug[$s] ?? null;
+            $p = $ds->getPoliticoBySlug($s);
+            if ($p) {
+                $out[$s] = [
+                    'nombre' => $p['nombre_completo'] ?? '',
+                    'entidad' => $p['entidad'] ?? '',
+                    'cargos_badges' => $dirItem['cargos_badges'] ?? [],
+                    'roles_flags' => $dirItem['roles_flags'] ?? [],
+                    'municipio_alcalde' => $dirItem['municipio_alcalde'] ?? '',
+                ];
+            } else {
+                $out[$s] = 'No encontrado';
+            }
+        }
+        $response['politicos'] = $out;
+        break;
+
+    case 'data:repair-studies':
+        $result = DataRepair::repairStudies($rootDir);
+        $response = array_merge($response, $result);
+        break;
+
     case 'git:cmd':
         $fullCmd = $target . ($extra !== '' ? " {$extra}" : '');
         $result = GitOps::execGit($fullCmd);
@@ -69,8 +584,14 @@ switch ($action) {
 
     case 'gh:cmd':
         $fullCmd = $target . ($extra !== '' ? " {$extra}" : '');
-        $result = GitOps::execGh($fullCmd);
-        $response = array_merge($response, $result);
+        $output = [];
+        $code = 0;
+        exec("gh {$fullCmd} 2>&1", $output, $code);
+        $response = array_merge($response, [
+            'cmd' => "gh {$fullCmd}",
+            'code' => $code,
+            'output' => $output,
+        ]);
         break;
 
     case 'git:commit':
@@ -84,6 +605,250 @@ switch ($action) {
         $result = GitOps::execGit("push -u origin {$branch}");
         $response = array_merge($response, $result);
         break;
+
+    case 'git:sync_push':
+        $fetchRes = GitOps::execGit('fetch origin main');
+        $pullRes = GitOps::execGit('pull --rebase --autostash origin main');
+        GitOps::execGit('branch -f main HEAD');
+        $pushRes = GitOps::execGit('push origin HEAD:main');
+        $response['fetch'] = $fetchRes;
+        $response['pull_rebase'] = $pullRes;
+        $response['push'] = $pushRes;
+        $response['ok'] = ($pushRes['code'] === 0);
+        break;
+
+    case 'git:push_branch':
+        $branch = $target !== '' ? $target : 'data/integracion-congresos-norte';
+        GitOps::execGit("checkout -B {$branch}");
+        $pushRes = GitOps::execGit("push -u origin {$branch} --force");
+        $response['push'] = $pushRes;
+        $response['ok'] = ($pushRes['code'] === 0);
+        $response['branch'] = $branch;
+        break;
+
+    case 'git:conflicts':
+        $out = [];
+        GitOps::execGit('fetch origin main');
+        exec('git --no-pager merge-tree --write-tree origin/main data/integracion-congresos-norte 2>&1', $out);
+        $response['merge_tree'] = $out;
+        break;
+
+    case 'github:auth':
+    case 'github:whoami':
+        $result = GitHubOps::verifyAuth();
+        $response = array_merge($response, $result);
+        break;
+
+    case 'github:prs':
+        $state = in_array($target, ['open', 'closed', 'all'], true) ? $target : 'open';
+        $result = GitHubOps::listPullRequests('elpulsocivico/pulso-civico', $state);
+        $prs = [];
+        if (!empty($result['data']) && is_array($result['data'])) {
+            foreach ($result['data'] as $p) {
+                $userLogin = $p['user']['login'] ?? '';
+                if ($extra !== '' && stripos($userLogin, $extra) === false && stripos((string)($p['title'] ?? ''), $extra) === false) {
+                    continue;
+                }
+                $prs[] = [
+                    'number' => $p['number'] ?? 0,
+                    'title' => $p['title'] ?? '',
+                    'user' => $userLogin,
+                    'state' => $p['state'] ?? '',
+                    'head' => $p['head']['ref'] ?? '',
+                    'base' => $p['base']['ref'] ?? '',
+                ];
+            }
+        }
+        $response['prs'] = $prs;
+        $response['total'] = count($prs);
+        $response['ok'] = $result['ok'] ?? false;
+        break;
+
+    case 'github:search':
+        $query = urlencode($target . ' repo:elpulsocivico/pulso-civico');
+        $result = GitHubOps::api('GET', "search/issues?q={$query}");
+        $items = [];
+        foreach ($result['data']['items'] ?? [] as $it) {
+            $items[] = [
+                'number' => $it['number'] ?? 0,
+                'title' => $it['title'] ?? '',
+                'state' => $it['state'] ?? '',
+                'html_url' => $it['html_url'] ?? '',
+            ];
+        }
+        $response['items'] = $items;
+        $response['total_count'] = $result['data']['total_count'] ?? 0;
+        break;
+
+    case 'github:find_legs':
+        $branches = ['data/leg-58', 'data/leg-59', 'data/leg-60'];
+        $foundPrs = [];
+        foreach ($branches as $b) {
+            $res = GitHubOps::api('GET', "repos/elpulsocivico/pulso-civico/pulls?head=elpulsocivico:{$b}&state=all");
+            $list = [];
+            if (!empty($res['data']) && is_array($res['data'])) {
+                foreach ($res['data'] as $p) {
+                    $list[] = [
+                        'number' => $p['number'] ?? null,
+                        'title' => $p['title'] ?? '',
+                        'state' => $p['state'] ?? '',
+                        'html_url' => $p['html_url'] ?? '',
+                    ];
+                }
+            }
+            $foundPrs[$b] = $list;
+        }
+        $response['legs_prs'] = $foundPrs;
+        break;
+
+    case 'github:pr':
+        $num = is_numeric($target) ? (int)$target : 52;
+        $result = GitHubOps::api('GET', "repos/elpulsocivico/pulso-civico/pulls/{$num}");
+        $d = $result['data'] ?? [];
+        $response['pr'] = [
+            'number' => $d['number'] ?? $num,
+            'title' => $d['title'] ?? '',
+            'state' => $d['state'] ?? '',
+            'mergeable' => $d['mergeable'] ?? null,
+            'mergeable_state' => $d['mergeable_state'] ?? '',
+            'head' => $d['head']['ref'] ?? '',
+            'base' => $d['base']['ref'] ?? '',
+        ];
+        break;
+
+    case 'github:fetch_all_prs_data':
+        $dryRun = ($target === 'dry-run');
+        $prListRes = GitHubOps::listPullRequests('elpulsocivico/pulso-civico', 'open');
+        $prs = $prListRes['data'] ?? [];
+        $downloadedFiles = [];
+        $errors = [];
+        $skipped = [];
+
+        foreach ($prs as $pr) {
+            $prNum = $pr['number'] ?? 0;
+            $prTitle = $pr['title'] ?? '';
+            $headRef = $pr['head']['ref'] ?? '';
+            if ($prNum <= 0) continue;
+
+            $filesRes = GitHubOps::api('GET', "repos/elpulsocivico/pulso-civico/pulls/{$prNum}/files?per_page=100");
+            $prFiles = $filesRes['data'] ?? [];
+            if (!is_array($prFiles)) continue;
+
+            foreach ($prFiles as $pf) {
+                $filename = $pf['filename'] ?? '';
+                $status = $pf['status'] ?? '';
+                if ($status === 'removed' || $filename === '') continue;
+
+                // Solo traer archivos de datos o scrapers/servicios complementarios
+                if (!str_starts_with($filename, 'storage/data/') && !str_starts_with($filename, 'src/Services/')) {
+                    $skipped[] = "PR #{$prNum}: {$filename} (no es archivo de datos/servicio)";
+                    continue;
+                }
+
+                $destPath = $rootDir . '/' . $filename;
+                if ($dryRun) {
+                    $downloadedFiles[] = [
+                        'pr' => $prNum,
+                        'file' => $filename,
+                        'head' => $headRef,
+                        'action' => 'would_download',
+                    ];
+                    continue;
+                }
+
+                // Descargar contenido usando API de GitHub
+                $rawUrl = $pf['raw_url'] ?? '';
+                $content = null;
+
+                if ($rawUrl !== '') {
+                    $token = getenv('GITHUB_TOKEN');
+                    if (!$token) {
+                        $envFile = $rootDir . '/.env';
+                        if (file_exists($envFile)) {
+                            foreach (file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [] as $line) {
+                                if (str_starts_with(trim($line), 'GITHUB_TOKEN=')) {
+                                    $token = trim(substr(trim($line), 13));
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    $ch = curl_init($rawUrl);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                        'User-Agent: PulsoCivico-Agent/1.0',
+                        'Authorization: Bearer ' . $token,
+                    ]);
+                    $content = curl_exec($ch);
+                    $hCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                    curl_close($ch);
+
+                    if ($hCode !== 200 || $content === false) {
+                        $content = null;
+                    }
+                }
+
+                if ($content === null) {
+                    // Fallback a contents API
+                    $cRes = GitHubOps::api('GET', "repos/elpulsocivico/pulso-civico/contents/{$filename}?ref=" . urlencode($headRef));
+                    if ($cRes['ok'] && isset($cRes['data']['content'])) {
+                        $content = base64_decode($cRes['data']['content']);
+                    }
+                }
+
+                if ($content !== null) {
+                    $dirName = dirname($destPath);
+                    if (!is_dir($dirName)) {
+                        @mkdir($dirName, 0777, true);
+                    }
+                    file_put_contents($destPath, $content);
+                    $downloadedFiles[] = [
+                        'pr' => $prNum,
+                        'title' => $prTitle,
+                        'file' => $filename,
+                        'bytes' => strlen($content),
+                    ];
+                } else {
+                    $errors[] = "PR #{$prNum}: Fallo al descargar {$filename}";
+                }
+            }
+        }
+
+        $response['total_prs_inspected'] = count($prs);
+        $response['total_files_brought'] = count($downloadedFiles);
+        $response['downloaded_files'] = $downloadedFiles;
+        $response['errors'] = $errors;
+        $response['skipped_count'] = count($skipped);
+        $response['merge_performed'] = false;
+        break;
+
+    case 'github:merge':
+        $prNum = is_numeric($target) ? (int)$target : 0;
+        if ($prNum <= 0) {
+            $response['error'] = 'Debe especificar el número del Pull Request a fusionar.';
+            $response['ok'] = false;
+            break;
+        }
+        $result = GitHubOps::mergePullRequest($prNum, $extra);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'github:ship':
+        $headBranch = $target !== '' ? $target : 'data/integracion-congresos-norte';
+        $title = $extra !== '' ? $extra : 'feat(data): incorporar datasets historicos y scrapers de 18 congresos estatales';
+        $result = GitHubOps::createAndMerge($headBranch, $title);
+        $response = array_merge($response, $result);
+        break;
+
+    case 'github:merge_all':
+    case 'github:ship_all':
+        $result = GitHubOps::mergeAllReady();
+        $response = array_merge($response, $result);
+        break;
+
 
     case 'git:preflight':
         $result = GitOps::preflightCheck($rootDir);
@@ -428,7 +1193,7 @@ switch ($action) {
                         $params[$k] = is_numeric($v) ? (int)$v : $v;
                     }
                 }
-            } elseif (in_array(strtolower($inp), ['sil', 'votaciones', 'asistencias', 'bc', 'bajacalifornia', 'bcs', 'bajacaliforniasur', 'yuc', 'yucatan', 'qroo', 'quintanaroo'])) {
+            } else {
                 $source = strtolower($inp);
             }
         }
@@ -748,6 +1513,21 @@ switch ($action) {
         $response['consolidado_actualizado'] = file_exists($consolidadoFile);
         $response['consolidado_total_diputados'] = $totalNacionalDips;
         $response['consolidado_total_senadores'] = $totalNacionalSens;
+        break;
+
+    case 'py:run':
+    case 'py:test':
+        $pyExe = file_exists($rootDir . '/.venv/Scripts/python.exe') ? $rootDir . '/.venv/Scripts/python.exe' : 'python';
+        $scriptPath = $target;
+        if (!preg_match('/^[a-zA-Z]:\\\\|^\//', $scriptPath)) {
+            $scriptPath = $rootDir . '/' . ltrim($scriptPath, '/\\');
+        }
+        $cmd = escapeshellarg($pyExe) . ' ' . escapeshellarg($scriptPath) . ($extra !== '' ? " {$extra}" : '') . ' 2>&1';
+        $pyOut = [];
+        $pyCode = 0;
+        exec($cmd, $pyOut, $pyCode);
+        $response['py_code'] = $pyCode;
+        $response['py_output'] = implode("\n", $pyOut);
         break;
 
     case 'stats:educacion':
@@ -1344,6 +2124,157 @@ switch ($action) {
         $response['resumen_nacional'] = $resumenNacional;
         $response['archivo_consolidado'] = $archivoConsolidado;
         $response['archivo_resumen'] = $archivoResumen;
+        break;
+
+    case 'alcaldes:ingest':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $csvPath = $target !== '' ? $target : 'https://raw.githubusercontent.com/emagar/elecRetrns/master/data/aymu1989-on.incumbents.csv';
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $res = $srv->ingestarHistoricoIncumbents($csvPath);
+        $response = array_merge($response, $res);
+        break;
+
+    case 'alcaldes:stats':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $vigentes = $srv->getDirectorioVigente();
+        $partidos = [];
+        $entidades = [];
+        foreach ($vigentes as $a) {
+            $p = $a['partido'] ?? 'SIN_PARTIDO';
+            $partidos[$p] = ($partidos[$p] ?? 0) + 1;
+            $e = $a['entidad'] ?? 'DESCONOCIDO';
+            $entidades[$e] = ($entidades[$e] ?? 0) + 1;
+        }
+        arsort($partidos);
+        ksort($entidades);
+        $response['total_municipios_vigentes'] = count($vigentes);
+        $response['top_partidos'] = array_slice($partidos, 0, 10, true);
+        $response['por_entidad'] = $entidades;
+        break;
+
+    case 'alcaldes:municipio':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $cvegeo = $target !== '' ? $target : '01001';
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $historial = $srv->getHistorialMunicipio($cvegeo);
+        if ($historial !== null) {
+            $response['municipio'] = $historial;
+        } else {
+            $response['error'] = "Municipio con CVEGEO {$cvegeo} no encontrado.";
+        }
+        break;
+
+    case 'alcaldes:inafed':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $config = require $rootDir . '/config/config.php';
+        $logger = new \PulsoCivico\Core\Logger($config['paths']['logs'], 'GATEWAY-INAFED');
+        $httpConfig = $config['sil'] ?? [];
+        $httpConfig['rate_limit_ms'] = max(1000, (int)($httpConfig['rate_limit_ms'] ?? 1000));
+        $httpClient = new \PulsoCivico\Core\HttpClient($httpConfig, $logger);
+        $inafed = new \PulsoCivico\Services\InafedScraperService($httpClient, $logger);
+        $cvegeo = $target !== '' ? $target : '01001';
+        $res = $inafed->scrapeMunicipioHistorico($cvegeo);
+        $response = array_merge($response, $res);
+        break;
+
+    case 'alcaldes:sni':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $res = $srv->integrarMunicipiosIndigenasOaxaca();
+        $response = array_merge($response, $res);
+        break;
+
+    case 'alcaldes:extend1970':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $csvUrl = $target !== '' ? $target : 'https://raw.githubusercontent.com/emagar/elecRetrns/master/data/aymu1970-on.coalAgg.csv';
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $res = $srv->extenderHistorico1970($csvUrl);
+        $response = array_merge($response, $res);
+        break;
+
+    case 'alcaldes:completar':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $srv = new \PulsoCivico\Services\MunicipioService();
+        $resSni = $srv->integrarMunicipiosIndigenasOaxaca();
+        $csvUrl = 'https://raw.githubusercontent.com/emagar/elecRetrns/master/data/aymu1970-on.coalAgg.csv';
+        $res1970 = $srv->extenderHistorico1970($csvUrl);
+        $response['sni'] = $resSni;
+        $response['extend1970'] = $res1970;
+        $response['ok'] = ($resSni['ok'] ?? false) && ($res1970['ok'] ?? false);
+        break;
+
+    case 'cabildos:procesar':
+    case 'cabildos:ingest':
+        spl_autoload_register(function (string $class) use ($rootDir): void {
+            $prefix = 'PulsoCivico\\';
+            $baseDir = $rootDir . '/src/';
+            $len = strlen($prefix);
+            if (strncmp($prefix, $class, $len) !== 0) return;
+            $relativeClass = substr($class, $len);
+            $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+            if (file_exists($file)) require_once $file;
+        });
+        $srv = new \PulsoCivico\Services\CabildoService();
+        $zipPath = $target !== '' ? $target : null;
+        $res = $srv->procesarCabildosInegi($zipPath);
+        $response = array_merge($response, $res);
         break;
 
     case 'help':

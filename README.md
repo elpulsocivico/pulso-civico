@@ -24,28 +24,28 @@ Cruzamos **datos oficiales del gobierno** con **noticias** para mostrar el histo
 
 ---
 
-## 🧭 ¿Qué hay hoy y qué es lo que falta?
+## 🧭 ¿Qué hay hoy y qué es lo que tenemos?
 
-### ✅ Lo que ya está construido:
-- **Cámara de Diputados Federal (LXVI Legislatura 2024–2027):** 500 perfiles con foto, comisiones, suplentes y trayectoria.
-- **Votaciones y Asistencias:** Votaciones nominales y registro de asistencias al pleno.
-- **Histórico Federal (LXI a LXV Legislaturas):** Datasets históricos del Congreso de la Unión.
-- **Congresos Estatales Iniciales:** Datasets de Baja California, Baja California Sur, Durango, Coahuila, Nuevo León, Quintana Roo, Sinaloa, Sonora, Tamaulipas y Yucatán.
-- **Interfaz Web:** Buscador global (`Ctrl+K`), mapa interactivo por entidad, fichas de perfil de políticos, explorador por comisiones y estudios estadísticos.
+### ✅ Lo que ya está construido y consolidado en local:
+- **Poder Legislativo Federal (Diputados y Senadores):** 326 JSONs / 10,983 registros correspondientes a las Legislaturas 57 a 66 (1997–2027). Incluye comisiones, asistencias, suplentes y trayectorias.
+- **Congresos Locales (32 Entidades):** 320 JSONs / 10,728 registros cubriendo la totalidad de las 32 legislaturas estatales de México.
+- **Poder Ejecutivo Estatal (Gobernadores):** 34 JSONs / 300 mandatarios (32 estados con gobernadores constitucionales e interinos, más cronología completa de CDMX y Regentes DDF 1929–2030).
+- **Directorio Nacional de Alcaldes Vigentes:** 1 JSON / 2,474 registros con el 100% de presidentas y presidentes municipales en funciones.
+- **Historial Municipal de 54 Años (1970–2024):** 2,474 JSONs / 35,700 mandatos históricos que documentan alternancia y márgenes de victoria comicio por comicio.
+- **Gobiernos Municipales (Cabildos Canónicos):** 2,476 JSONs / 8,098 registros (7,422 ediles canónicos), incluyendo sistemas normativos internos (Usos y Costumbres en Oaxaca) y municipios de Yucatán.
+- **Votaciones, Asistencias e Iniciativas:** Votaciones nominales y asistencias parlamentarias de la LXVI Legislatura.
+- **Total de la Plataforma:** **3,201 JSONs / 33,368 registros** activos en almacenamiento estático local (`storage/data/json/`).
+- **Interfaz Web:** Buscador global (`Ctrl+K`), mapa interactivo nacional, directorio de políticos, conmutador de legislaturas, visualizador municipal por clave INEGI (`/municipios/{cvegeo}`), explorador de alcaldes y estudios estadísticos.
 
-### 🚧 Lo que falta (¡Dónde se necesita más ayuda!):
-1. **Congresos Estatales Pendientes (22 estados):**
-   - Faltan scrapers y datos de estados clave como: **CDMX, Jalisco, Estado de México, Puebla, Guanajuato, Veracruz, Michoacán, Oaxaca, Chihuahua, Chiapas, Aguascalientes, Querétaro**, entre otros.
-   - Ver el avance detallado en [docs/ESTADOS_COBERTURA.md](docs/ESTADOS_COBERTURA.md).
-2. **Senado de la República:**
-   - El portal hoy cuenta con Cámara de Diputados federal y congresos locales; falta incorporar la Cámara de Senadores (perfiles, votaciones y asistencias).
-3. **Trazabilidad Histórica y UI:**
-   - Conmutador visual de pastillas por legislatura en [views/politico.php](views/politico.php) para alternar entre mandatos (ej. ver cómo votó en la LXIV vs LXVI legislatura).
-4. **Módulo de Noticias y Hechos:**
-   - Vincular notas periodísticas de fuentes acreditadas a votaciones polémicas o cambios de bancada.
-5. **Calidad de Código y Limpieza:**
-   - Dividir clases grandes (>400 líneas) como `DataService.php` o `SilIngestService.php`.
-   - Estandarizar una `ScraperInterface` común para facilitar la creación de scrapers.
+### 🚧 Próximos pasos y líneas de colaboración:
+1. **Módulo de Noticias y Hechos:**
+   - Vincular notas periodísticas de medios acreditados con hash criptográfico SHA-256 a votaciones polémicas o cambios de bancada ("chapulineo").
+2. **Profundización de Cabildos Municipales:**
+   - Ampliar la cobertura de síndicos y regidores en municipios donde los OPLEs publiquen las sábanas de integración completa.
+3. **Optimización de UI y Visualización Cívica:**
+   - Mejorar componentes móviles, gráficos de líneas de tiempo de trayectorias políticas y exportación de datos abiertos en CSV.
+4. **Refactorización y Rendimiento:**
+   - Continuar la modularización de servicios grandes (`DataService.php`, `SilIngestService.php`) para mantener archivos < 400 líneas.
 
 ---
 

@@ -6,11 +6,14 @@ from pydantic_settings import BaseSettings
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 class Settings(BaseSettings):
-    APP_NAME: str = "Pulso Cívico"
+    BASE_DIR: Path = BASE_DIR
+    APP_NAME: str = "El Pulso de la Política"
+    APP_SHORT_NAME: str = "El Pulso"
+    APP_TAGLINE: str = "Radiografía ciudadana de Gobernadores, Alcaldes, Diputados y Senadores"
     APP_ENV: str = "development"
     DEBUG: bool = True
     PORT: int = 8000
-    HOST: str = "127.0.0.1"
+    HOST: str = "0.0.0.0"
 
     # Rutas de almacenamiento existentes
     STORAGE_DATA_DIR: Path = BASE_DIR / "storage" / "data" / "json"
@@ -21,6 +24,16 @@ class Settings(BaseSettings):
 
     # Límite de subida de fotos (15 MB)
     MAX_UPLOAD_SIZE_BYTES: int = 15 * 1024 * 1024
+
+    # Candados de protección de recursos y API
+    ENABLE_API_DOCS: bool = False  # Oculta /docs y /openapi.json en producción salvo activación explícita
+    API_RATE_LIMIT_PER_MINUTE: int = 60  # Máximo de consultas por minuto por IP en rutas /api
+    ALLOWED_ORIGINS: list[str] = [
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://localhost",
+        "http://127.0.0.1",
+    ]
 
     class Config:
         env_file = ".env"
