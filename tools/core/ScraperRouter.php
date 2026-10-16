@@ -147,12 +147,21 @@ class ScraperRouter
             case 'congreso_zacatecas':
                 return self::scrapeEstadoGenerico('CongresoZacatecasScraperService', 'ROUTER-ZAC', $config, $params);
 
+            case 'alcaldes':
+            case 'alcaldes:vigentes':
+            case 'alcaldes:historico':
+                return self::scrapeAlcaldes($config, $params);
+
+            case 'alcaldes:inafed':
+            case 'inafed':
+                return self::scrapeInafed($config, $params);
+
             default:
                 return [
                     'ok' => false,
                     'error' => "Fuente de scraping '{$source}' no soportada.",
                     'available_sources' => [
-                        'sil', 'votaciones', 'asistencias',
+                        'sil', 'votaciones', 'asistencias', 'alcaldes', 'alcaldes:inafed',
                         'bc', 'bcs', 'campeche', 'yucatan', 'quintanaroo', 'chiapas',
                         'sinaloa', 'sonora', 'durango', 'chihuahua', 'coahuila', 'nuevoleon',
                         'aguascalientes', 'edomex', 'guanajuato', 'hidalgo', 'jalisco',
@@ -491,6 +500,37 @@ class ScraperRouter
             $legislatura = isset($params['legislatura']) ? (int)$params['legislatura'] : 77;
             $res = $service->extraer($legislatura);
         }
+        $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
+        return $res;
+    }
+
+    private static function scrapeAlcaldes(array $config, array $params): array
+    {
+        $inicio = microtime(true);
+        $service = new \PulsoCivico\Services\MunicipioService();
+
+        $archivo = $params['archivo'] ?? $params['csv'] ?? null;
+        if (empty($archivo)) {
+            $archivo = 'https://raw.githubusercontent.com/emagar/elecRetrns/master/data/aymu1989-on.incumbents.csv';
+        }
+
+        $res = $service->ingestarHistoricoIncumbents((string)$archivo);
+        $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
+        return $res;
+    }
+
+    private static function scrapeInafed(array $config, array $params): array
+    {
+        $inicio = microtime(true);
+        $logger = new Logger($config['paths']['logs'], 'SCRAPER-INAFED');
+        $httpConfig = $config['sil'] ?? [];
+        $httpConfig['rate_limit_ms'] = max(1000, (int)($httpConfig['rate_limit_ms'] ?? 1000));
+        $httpClient = new HttpClient($httpConfig, $logger);
+
+        $service = new \PulsoCivico\Services\InafedScraperService($httpClient, $logger);
+
+        $cvegeo = isset($params['cvegeo']) ? (string)$params['cvegeo'] : ($params['municipio'] ?? '01001');
+        $res = $service->scrapeMunicipioHistorico((string)$cvegeo);
         $res['duracion_segundos'] = round(microtime(true) - $inicio, 2);
         return $res;
     }
