@@ -33,6 +33,8 @@ class DataService
     private array $asistenciasNominales = [];
     /** @var array<string, array> */
     private array $indiceMultinivel = [];
+    /** @var array<int, array> */
+    private array $indiceBusquedaUniversal = [];
     private EducationService $educationService;
     private bool $isDataLoaded = false;
 
@@ -118,6 +120,15 @@ class DataService
             $rawMulti = json_decode((string)file_get_contents($indiceMultiFile), true);
             if (!empty($rawMulti['indice']) && is_array($rawMulti['indice'])) {
                 $this->indiceMultinivel = $rawMulti['indice'];
+            }
+        }
+
+        // 1.05 Cargar índice de búsqueda universal (Federales, Estatales, Municipales y Ejecutivos)
+        $indiceUniFile = $this->storagePath . '/data/json/indice_busqueda_universal.json';
+        if (file_exists($indiceUniFile)) {
+            $rawUni = json_decode((string)file_get_contents($indiceUniFile), true);
+            if (is_array($rawUni)) {
+                $this->indiceBusquedaUniversal = $rawUni;
             }
         }
 
@@ -1113,6 +1124,16 @@ class DataService
             $politico = $this->getPoliticoByNombre($slug);
         }
 
+        if (!$politico && !empty($this->indiceBusquedaUniversal)) {
+            foreach ($this->indiceBusquedaUniversal as $it) {
+                $itSlug = $it['slug'] ?? '';
+                if ($itSlug === $normSlug || $itSlug === $cleanSlug || $itSlug === $slug) {
+                    $politico = $this->buildPerfilFromUniversalItem($it);
+                    break;
+                }
+            }
+        }
+
         if (!$politico) {
             return null;
         }
@@ -1127,6 +1148,69 @@ class DataService
         }
 
         return $politico;
+    }
+
+    /**
+     * Construye una ficha canónica completa a partir de un registro del índice universal.
+     * @param array<string, mixed> $it
+     * @return array<string, mixed>
+     */
+    private function buildPerfilFromUniversalItem(array $it): array
+    {
+        $slug = $it['slug'] ?? self::slugify($it['nombre'] ?? '');
+        $nombre = $it['nombre'] ?? '';
+        $cargo = $it['cargo'] ?? 'Servidor(a) Público(a)';
+        $camara = $it['camara'] ?? $cargo;
+        $partido = $it['partido'] ?? 'Sin Partido';
+        $entidad = $it['entidad'] ?? 'México';
+        $municipio = $it['municipio'] ?? '';
+        $ambito = $it['ambito'] ?? 'Estatal';
+        $foto = $it['foto_url'] ?? '';
+
+        return [
+            'slug' => $slug,
+            'nombre_completo' => ($ambito === 'Estatal' && !str_starts_with($nombre, 'Dip.')) ? "Dip. {$nombre}" : $nombre,
+            'nombre' => $nombre,
+            'cargo' => $cargo,
+            'camara' => $camara,
+            'tipo_cargo' => 'Titular Electo',
+            'nivel' => $ambito,
+            'partido' => $partido,
+            'entidad' => $entidad,
+            'entidad_slug' => self::slugify($entidad),
+            'distrito' => $municipio,
+            'municipio' => $municipio,
+            'foto_oficial_url' => $foto,
+            'periodo' => 'Mandato Registrado',
+            'legislatura' => 0,
+            'legislaturas_disponibles' => [],
+            'mandatos_historicos' => [],
+            'es_actual' => false,
+            'tiene_licencia' => false,
+            'principio_eleccion' => 'Elección Popular',
+            'ubicacion_oficina' => "Palacio de Gobierno / Poder Legislativo de {$entidad}",
+            'ultimo_grado_estudios' => null,
+            'preparacion_academica' => null,
+            'grado_academico' => 'Sin Registro',
+            'disciplina' => '-',
+            'linea_tiempo' => [
+                [
+                    'experiencia' => "{$cargo} por {$entidad}",
+                    'periodo' => 'Mandato Registrado',
+                    'partido' => $partido,
+                    'es_cargo_actual' => false,
+                ]
+            ],
+            'iniciativas' => [],
+            'comisiones' => [],
+            'redes_sociales' => [],
+            'disciplina_partidaria_pct' => 100.0,
+            'fuente_url' => 'Archivo Histórico Oficial',
+            'perfil_academico' => $this->educationService->clasificarPolitico([
+                'ultimo_grado_estudios' => null,
+                'preparacion_academica' => null,
+            ]),
+        ];
     }
 
     /**
@@ -1352,20 +1436,70 @@ class DataService
 
         $this->ensureDataLoaded();
         $resPoliticos = [];
-        foreach ($this->slugIndex as $p) {
-            $nombre = mb_strtolower($p['nombre_completo'] ?? '');
-            $partido = mb_strtolower($p['partido'] ?? '');
-            if (str_contains($nombre, $q) || str_contains($partido, $q)) {
-                $resPoliticos[] = [
-                    'tipo' => 'politico',
-                    'nombre' => $p['nombre_completo'],
-                    'slug' => $p['slug'],
-                    'partido' => $p['partido'],
-                    'camara' => $p['camara'],
-                    'foto_url' => $p['foto_oficial_url'],
-                    'url' => '/politicos/' . $p['slug'],
-                ];
-                if (count($resPoliticos) >= $limite) break;
+
+        if (!empty($this->indiceBusquedaUniversal)) {
+            $qSlug = self::slugify($q);
+            $palabras = array_filter(explode('-', $qSlug), fn($w) => mb_strlen($w) >= 2);
+            if (empty($palabras)) {
+                $palabras = [$qSlug];
+            }
+            $slugsAgregados = [];
+
+            foreach ($this->indiceBusquedaUniversal as $it) {
+                $sText = mb_strtolower($it['search'] ?? '');
+                $slug = $it['slug'] ?? '';
+                if ($slug === '' || isset($slugsAgregados[$slug])) {
+                    continue;
+                }
+
+                $match = str_contains($sText, $qSlug);
+                if (!$match) {
+                    $matchAll = true;
+                    foreach ($palabras as $p) {
+                        if (!str_contains($sText, $p)) {
+                            $matchAll = false;
+                            break;
+                        }
+                    }
+                    $match = $matchAll;
+                }
+
+                if ($match) {
+                    $slugsAgregados[$slug] = true;
+                    $cargoFmt = $it['cargo'] ?? ($it['camara'] ?? 'Servidor Público');
+                    $resPoliticos[] = [
+                        'tipo' => 'politico',
+                        'nombre' => $it['nombre'] ?? '',
+                        'slug' => $slug,
+                        'partido' => $it['partido'] ?? 'Sin Partido',
+                        'camara' => $cargoFmt,
+                        'cargo' => $cargoFmt,
+                        'entidad' => $it['entidad'] ?? '',
+                        'ambito' => $it['ambito'] ?? 'Público',
+                        'foto_url' => $it['foto_url'] ?? '',
+                        'url' => $it['url'] ?? ('/politicos/' . $slug),
+                    ];
+                    if (count($resPoliticos) >= $limite) {
+                        break;
+                    }
+                }
+            }
+        } else {
+            foreach ($this->slugIndex as $p) {
+                $nombre = mb_strtolower($p['nombre_completo'] ?? '');
+                $partido = mb_strtolower($p['partido'] ?? '');
+                if (str_contains($nombre, $q) || str_contains($partido, $q)) {
+                    $resPoliticos[] = [
+                        'tipo' => 'politico',
+                        'nombre' => $p['nombre_completo'],
+                        'slug' => $p['slug'],
+                        'partido' => $p['partido'],
+                        'camara' => $p['camara'],
+                        'foto_url' => $p['foto_oficial_url'],
+                        'url' => '/politicos/' . $p['slug'],
+                    ];
+                    if (count($resPoliticos) >= $limite) break;
+                }
             }
         }
 

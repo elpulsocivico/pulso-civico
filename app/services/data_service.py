@@ -718,6 +718,7 @@ class DataService:
     ALCALDES_DATA: Dict[str, Dict[str, Any]] = {
         "miriam-elizabeth-cano-nunez": {
             "nombre_oficial": "Miriam Elizabeth Cano Núñez",
+            "foto_url": "/photos/miriam-elizabeth-cano-nunez.jpg",
             "grado": "Licenciatura",
             "disciplina": "Informática",
             "institucion": "Instituto Tecnológico de Tijuana (ITT)",
@@ -785,6 +786,8 @@ class DataService:
         self.votaciones: List[Dict[str, Any]] = []
         self.iniciativas: List[Dict[str, Any]] = []
         self.indice_multinivel: Dict[str, List[Dict[str, Any]]] = {}
+        self.indice_busqueda_universal: List[Dict[str, Any]] = []
+        self._universal_by_slug: Dict[str, Dict[str, Any]] = {}
         self._explorador_catalogo_cache: Optional[List[Dict[str, Any]]] = None
         self._capas_mapa_cache: Optional[Dict[str, Any]] = None
         self._resumen_360_cache: Optional[Dict[str, Any]] = None
@@ -893,6 +896,17 @@ class DataService:
                 self.indice_multinivel = raw_multi.get("indice", {})
             except Exception:
                 self.indice_multinivel = {}
+
+        # 5. Cargar índice de búsqueda universal (Congreso de la Unión, Congresos Estatales, Gobernadores, Alcaldes)
+        uni_file = json_dir / "indice_busqueda_universal.json"
+        if uni_file.exists():
+            try:
+                with open(uni_file, "rb") as f:
+                    self.indice_busqueda_universal = orjson.loads(f.read())
+                self._universal_by_slug = {it["slug"]: it for it in self.indice_busqueda_universal if "slug" in it}
+            except Exception:
+                self.indice_busqueda_universal = []
+                self._universal_by_slug = {}
 
         self.asistencias = self.asistencias_nominales
 
@@ -1533,6 +1547,111 @@ class DataService:
         perfil_base["perfil_academico"] = education_service.clasificar_politico(perfil_base)
         return perfil_base
 
+    def _build_perfil_from_universal_item(self, it: Dict[str, Any]) -> Dict[str, Any]:
+        """Construye un perfil oficial completo para figuras de Congresos Locales, Alcaldías o Gubernaturas registradas en el índice universal."""
+        slug = it.get("slug") or slugify(it.get("nombre", ""))
+        nombre = it.get("nombre", "")
+        cargo = it.get("cargo") or "Servidor(a) Público(a)"
+        camara = it.get("camara") or cargo
+        partido = get_canonical_party_name(it.get("partido") or "Sin Partido")
+        partido_color = get_party_color(partido)
+        entidad = it.get("entidad") or "México"
+        entidad_slug = normalizar_entidad(entidad)
+        municipio = it.get("municipio") or ""
+        ambito = it.get("ambito") or "Estatal"
+        foto = it.get("foto_url") or ""
+
+        # Enriquecer datos si existe el dataset del congreso local correspondiente
+        info_extra = {}
+        if ambito == "Estatal" and "Leg." in cargo:
+            m_leg = re.search(r"(\d+)\s*Leg", cargo)
+            leg_num = m_leg.group(1) if m_leg else ""
+            ent_norm = entidad_slug.replace("-", "")
+            json_dir = settings.STORAGE_DATA_DIR
+            c_files = list(json_dir.glob(f"congreso_{ent_norm}*_leg_{leg_num}.json")) if leg_num else []
+            if not c_files and leg_num:
+                c_files = list(json_dir.glob(f"congreso_*_leg_{leg_num}.json"))
+            for cf in c_files:
+                try:
+                    with open(cf, "rb") as fp:
+                        c_data = orjson.loads(fp.read())
+                    for c_p in (c_data.get("diputados", []) or c_data.get("legisladores", [])):
+                        if slugify(c_p.get("nombre_completo", "")) in (slug, slugify(nombre)):
+                            info_extra = c_p
+                            break
+                    if info_extra:
+                        break
+                except Exception:
+                    pass
+
+        distrito = info_extra.get("distrito") or municipio
+        principio = info_extra.get("principio_eleccion") or "Mayoría Relativa"
+        periodo = info_extra.get("periodo") or it.get("periodo") or "Mandato Registrado"
+        comisiones = info_extra.get("comisiones") or []
+        ubicacion = info_extra.get("ubicacion_oficina") or (f"Edificio del Poder Legislativo de {entidad}" if ambito == "Estatal" else f"Palacio Municipal de {municipio}")
+
+        mandatos = [{
+            "legislatura": 0,
+            "romano": cargo,
+            "periodo": periodo,
+            "camara": camara,
+            "partido": partido,
+            "principio_eleccion": principio,
+            "entidad": entidad
+        }]
+
+        linea_tiempo = [{
+            "experiencia": f"{cargo} por {entidad}" + (f" ({distrito})" if distrito else ""),
+            "periodo": periodo,
+            "partido": partido,
+            "partido_color": partido_color,
+            "es_cargo_actual": False,
+            "es_reciente": True
+        }]
+
+        nombre_completo = info_extra.get("nombre_completo") or (f"Dip. {nombre}" if ambito == "Estatal" else nombre)
+        nombre_natural = formatear_nombre_natural(nombre_completo)
+
+        perfil = {
+            "slug": slug,
+            "nombre_completo": nombre_completo,
+            "nombre_natural": nombre_natural,
+            "cargo": cargo,
+            "camara": camara,
+            "tipo_cargo": info_extra.get("tipo_cargo") or "Titular Electo",
+            "nivel": ambito,
+            "partido": partido,
+            "partido_actual_color": partido_color,
+            "entidad": entidad,
+            "entidad_slug": entidad_slug,
+            "distrito": distrito,
+            "municipio": municipio,
+            "foto_oficial_url": info_extra.get("foto_oficial_url") or foto,
+            "referencia_sil": info_extra.get("referencia_sil"),
+            "periodo": periodo,
+            "legislatura": 0,
+            "es_actual": False,
+            "tiene_licencia": False,
+            "principio_eleccion": principio,
+            "ubicacion_oficina": ubicacion,
+            "ultimo_grado_estudios": info_extra.get("ultimo_grado_estudios"),
+            "preparacion_academica": info_extra.get("preparacion_academica"),
+            "grado_academico": info_extra.get("ultimo_grado_estudios") or "Sin Registro",
+            "disciplina": info_extra.get("preparacion_academica") or "-",
+            "escolaridad_items": [],
+            "linea_tiempo": linea_tiempo,
+            "mandatos_historicos": mandatos,
+            "legislaturas_disponibles": [],
+            "asistencia_kpi": None,
+            "iniciativas": [],
+            "comisiones": comisiones,
+            "redes_sociales": [],
+            "disciplina_partidaria_pct": 100.0,
+            "fuente_url": info_extra.get("fuente_url") or it.get("fuente_url") or "Archivo Histórico Parlamentario Oficial"
+        }
+        perfil["perfil_academico"] = education_service.clasificar_politico(perfil)
+        return perfil
+
     def get_politico_by_slug(self, slug: str, legislatura: Optional[int] = None) -> Optional[Dict[str, Any]]:
         norm_slug = slugify(slug)
         clean_slug = re.sub(r"-\d+$", "", norm_slug)
@@ -1559,6 +1678,15 @@ class DataService:
             )
             if cat_it:
                 p = self._build_perfil_from_catalogo_item(cat_it)
+
+        if not p and hasattr(self, "_universal_by_slug"):
+            uni_it = (
+                self._universal_by_slug.get(norm_slug)
+                or self._universal_by_slug.get(clean_slug)
+                or self._universal_by_slug.get(slug)
+            )
+            if uni_it:
+                p = self._build_perfil_from_universal_item(uni_it)
 
         if p:
             real_slug = p.get("slug") or norm_slug
@@ -1588,11 +1716,16 @@ class DataService:
             if ref_sil and (settings.STORAGE_RAW_PHOTOS / f"{ref_sil}.jpg").exists():
                 foto_url = f"/photos/{ref_sil}.jpg"
                 tiene_foto_local = True
+            elif (settings.STORAGE_RAW_PHOTOS / f"{real_slug}.jpg").exists():
+                foto_url = f"/photos/{real_slug}.jpg"
+                tiene_foto_local = True
             elif foto_local and (Path(settings.BASE_DIR) / str(foto_local).lstrip("/\\")).exists():
                 foto_url = f"/{str(foto_local).lstrip('/')}"
                 tiene_foto_local = True
             elif p.get("foto_oficial_url"):
                 foto_url = p.get("foto_oficial_url")
+            elif p.get("foto_url"):
+                foto_url = p.get("foto_url")
             else:
                 foto_url = ""
 
@@ -2169,36 +2302,74 @@ class DataService:
         pols = self.get_politicos(legislatura)
         return education_service.generar_metricas(pols)
 
-    def buscar(self, query: str, legislatura: int = 66, limite: int = 20) -> List[Dict[str, Any]]:
+    def buscar(self, query: str, legislatura: Optional[int] = None, limite: int = 20) -> List[Dict[str, Any]]:
         if not query or len(query.strip()) < 2:
             return []
-        q = slugify(query)
-        resultados = []
-        for p in self.get_politicos(legislatura):
-            nombre_slug = slugify(p.get("nombre_completo", ""))
-            partido_slug = slugify(p.get("partido", ""))
-            entidad_slug = p.get("entidad_slug", "")
-            if q in nombre_slug or q in partido_slug or q in entidad_slug:
-                resultados.append({
-                    "nombre": p.get("nombre_completo"),
-                    "slug": p.get("slug"),
-                    "camara": p.get("camara"),
-                    "partido": p.get("partido"),
-                    "entidad": p.get("entidad"),
-                    "url": f"/politicos/{p.get('slug')}"
-                })
-                if len(resultados) >= limite:
-                    break
+        q_raw = query.strip()
+        q = slugify(q_raw)
+        palabras = [slugify(w) for w in q_raw.split() if len(w) >= 2]
+        if not palabras:
+            palabras = [q]
 
+        resultados = []
+        slugs_agregados = set()
+
+        # 1. Búsqueda en el Índice Universal (Federales de todas las legislaturas, Locales, Gobernadores, Alcaldes)
+        if hasattr(self, "indice_busqueda_universal") and self.indice_busqueda_universal:
+            for item in self.indice_busqueda_universal:
+                s_text = item.get("search", "")
+                slug = item.get("slug")
+                if not slug or slug in slugs_agregados:
+                    continue
+
+                # Coincidencia: si contiene el slug completo o todas las palabras buscadas
+                if q in s_text or all(p in s_text for p in palabras):
+                    slugs_agregados.add(slug)
+                    cargo_fmt = item.get("cargo") or item.get("camara") or "Servidor Público"
+                    resultados.append({
+                        "nombre": item.get("nombre"),
+                        "slug": slug,
+                        "cargo": cargo_fmt,
+                        "camara": cargo_fmt,
+                        "partido": item.get("partido"),
+                        "entidad": item.get("entidad"),
+                        "ambito": item.get("ambito", "Público"),
+                        "foto_url": item.get("foto_url") or "",
+                        "url": item.get("url") or f"/politicos/{slug}"
+                    })
+                    if len(resultados) >= limite:
+                        break
+        else:
+            for p in self.get_politicos(legislatura or 66):
+                nombre_slug = slugify(p.get("nombre_completo", ""))
+                partido_slug = slugify(p.get("partido", ""))
+                entidad_slug = p.get("entidad_slug", "")
+                if q in nombre_slug or q in partido_slug or q in entidad_slug:
+                    resultados.append({
+                        "nombre": p.get("nombre_completo"),
+                        "slug": p.get("slug"),
+                        "cargo": p.get("camara"),
+                        "camara": p.get("camara"),
+                        "partido": p.get("partido"),
+                        "entidad": p.get("entidad"),
+                        "ambito": "Federal",
+                        "url": f"/politicos/{p.get('slug')}"
+                    })
+                    if len(resultados) >= limite:
+                        break
+
+        # 2. Búsqueda en Comisiones del Congreso si aún hay cupo
         if len(resultados) < limite:
             for c_slug, c in self.comisiones_master.items():
                 if q in c_slug or q in slugify(c.get("nombre", "")):
                     resultados.append({
                         "nombre": c.get("nombre"),
                         "slug": c_slug,
+                        "cargo": "Comisión Parlamentaria",
                         "camara": c.get("camara_tag", "Comisión"),
                         "partido": f"{c.get('total_integrantes', len(c.get('integrantes', [])))} integrantes",
                         "entidad": "Congreso de la Unión",
+                        "ambito": "Federal",
                         "url": f"/comisiones/{c_slug}"
                     })
                     if len(resultados) >= limite:
