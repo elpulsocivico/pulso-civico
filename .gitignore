@@ -66,3 +66,13 @@ __pycache__/
 storage/electoral/actas/*
 !storage/electoral/actas/.gitkeep
 tor_keys/
+
+# --- Módulos en desarrollo / scrapers y datos experimentales ---
+storage/data/adquisiciones/
+storage/data/declaraciones/
+storage/data/veracruz/
+storage/raw/adquisiciones/
+tools/scrapers/
+tools/sync_facebook_to_sheets.py
+app/services/declaraciones_service.py
+docs/CONTEXTO_MONITOR_POLITICO_BC.md
