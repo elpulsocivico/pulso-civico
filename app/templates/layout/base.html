@@ -519,7 +519,7 @@
                         <a href="${item.url}" class="d-flex align-items-center justify-content-between p-2 rounded text-decoration-none text-dark hover-bg">
                             <div>
                                 <div class="fw-semibold small">${item.nombre}</div>
-                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">${item.camara || ''} &bull; ${item.partido || ''}</span>
+                                <span class="badge bg-light text-secondary border" style="font-size: 0.65rem;">${item.cargo || item.camara || ''} &bull; ${item.partido || ''}</span>
                             </div>
                             <small class="text-muted">${item.entidad || ''}</small>
                         </a>

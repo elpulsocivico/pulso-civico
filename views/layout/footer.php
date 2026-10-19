@@ -123,15 +123,17 @@ $searchApiUrl = Router::url('/api/buscar');
 
         let html = '';
         if (politicos.length > 0) {
-            html += '<div class="px-3 py-1 text-muted fw-bold" style="font-size: 0.72rem; text-transform: uppercase;">Legisladores</div>';
+            html += '<div class="px-3 py-1 text-muted fw-bold" style="font-size: 0.72rem; text-transform: uppercase;">Servidores Públicos y Representantes</div>';
             politicos.forEach(p => {
                 const targetUrl = baseUrl + p.url;
+                const cargoDisplay = p.cargo || p.camara || 'Servidor Público';
+                const entidadDisplay = p.entidad ? ` &bull; ${escapeHtml(p.entidad)}` : '';
                 html += `
                 <a href="${targetUrl}" class="d-flex align-items-center gap-3 p-2 rounded text-decoration-none text-dark hover-bg">
                     <img src="${p.foto_url || 'https://via.placeholder.com/40'}" class="rounded-circle border" style="width: 36px; height: 36px; object-fit: cover;">
                     <div class="flex-grow-1 min-w-0">
                         <div class="fw-semibold text-truncate small">${escapeHtml(p.nombre)}</div>
-                        <div class="text-muted" style="font-size: 0.75rem;">${escapeHtml(p.partido)} &bull; ${escapeHtml(p.camara)}</div>
+                        <div class="text-muted text-truncate" style="font-size: 0.75rem;">${escapeHtml(p.partido)} &bull; ${escapeHtml(cargoDisplay)}${entidadDisplay}</div>
                     </div>
                     <i class="bi bi-chevron-right text-muted small"></i>
                 </a>`;
