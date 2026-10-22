@@ -1,1987 +1,1987 @@
 {
-    "metadata": {
-        "entidad_id": 6,
-        "entidad_nombre": "Colima",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T10:21:36+00:00",
-        "total_diputados": 13,
-        "total_senadores": 3,
-        "total_general": 16
+  "metadata": {
+    "entidad_id": 6,
+    "entidad_nombre": "Colima",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T10:21:36+00:00",
+    "total_diputados": 13,
+    "total_senadores": 3,
+    "total_general": 16
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9222490",
+      "nombre_completo": "Aguilera Brenes Sebastián",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jorge Ariff Marave Sánchez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1995-06-10",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222490.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/04/2021",
+          "fecha_fin": "30/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Juventud y Diversidad Sexual (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "26/11/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Miembro activo de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Auxiliar jurídico en el Instituto Municipal de Cultura Física, Deporte y Juventud de Chihuahua, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/SAguileraBrenes",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/SAguileraBrenes",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/sebastianaguilerabrenes/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222491",
+        "fecha_extraccion": "2026-10-13T10:21:13+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9222642",
+      "nombre_completo": "Falomir Sáenz Alan Jesús",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eduardo Humberto Gameros Gardea",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222642.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9222490",
-            "nombre_completo": "Aguilera Brenes Sebastián",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jorge Ariff Marave Sánchez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1995-06-10",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222490.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/04/2021",
-                    "fecha_fin": "30/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Juventud y Diversidad Sexual (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "26/11/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar jurídico en el Instituto Municipal de Cultura Física, Deporte y Juventud de Chihuahua, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/SAguileraBrenes",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/SAguileraBrenes",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/sebastianaguilerabrenes/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222491",
-                "fecha_extraccion": "2026-10-13T10:21:13+00:00"
-            }
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "10/03/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222642",
-            "nombre_completo": "Falomir Sáenz Alan Jesús",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eduardo Humberto Gameros Gardea ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222642.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "10/03/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/03/2020",
-                    "fecha_fin": "31/08/2020",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "10/03/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal de MC en Chihuahua."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2016",
-                    "experiencia": "Secretario de Acuerdos de la Comisión Operativa Estatal de MC en Chihuahua."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2014",
-                    "experiencia": "Secretario de Organización de la Comisión Operativa Estatal de MC en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local suplente en la LXV Legislatura del Congreso de Chihuahua (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Regidor de Chihuahua, Chihuahua."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Servicios profesionales en administración gubernamental."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Jefe de Operación Aduanera del SAT."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Profesional ejecutivo del SAT en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Encargado del Programa PROCEDE del Registro Agrario Nacional en Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/CandidatoAlanFalomir",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/alanfalomir?lang=en",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/alanfalomir/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222643",
-                "fecha_extraccion": "2026-10-13T10:21:15+00:00"
-            }
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/03/2020",
+          "fecha_fin": "31/08/2020",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9223741",
-            "nombre_completo": "García Soto Ulises",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "César Omar Peña Ibarbol ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223741.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Delegado del Consejo Nacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en la Secretaria de Mexicanos en el Exterior y Política Internacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante de MORENA ante la Comisión Distrital de Vigilancia del INE en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/UlisesGarciaS4",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223742",
-                "fecha_extraccion": "2026-10-13T10:21:17+00:00"
-            }
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222644",
-            "nombre_completo": "Gutiérrez Valdez María de los Angeles",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Sinai del Rocio Sánchez Huerta ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222644.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos de la Niñez y Adolescencia (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Integrante del Comité Directivo Municipal del PAN en Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Integrante del Comité Directivo Estatal del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Representante de la Secretaría de Vinculación con la Sociedad del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora municipal de campaña del candidato del PAN a Presidencia de la República."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Integrante del SNTE."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Jefa de Servicios Educativos de Chihuahua, Región Sur."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Secretaria de Administración Municipal de Parral, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "25/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "09/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/AngelesGutierrezValdez",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/AngelesGtzChih",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/angelesgtz2018/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222645",
-                "fecha_extraccion": "2026-10-13T10:21:19+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223739",
-            "nombre_completo": "Lastra Muñoz Claudia Elena",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Daniela Beatriz Cabrera Fernández ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223739.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Cultura y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/DipClaudiaLastra/",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223740",
-                "fecha_extraccion": "2026-10-13T10:21:21+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223791",
-            "nombre_completo": "Loera De La Rosa Juan Carlos",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Francisco Jorge Villarreal Pasaret ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223791.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/11/2020",
-                    "fecha_fin": "11/01/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional de MORENA."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Comité Ejecutivo Estatal de MORENA en Chihuahua."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Delegado distrital al Congreso de MORENA."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Consejero nacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable de la organización de conferencias en el exterior del Presidente Nacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario nacional en la Cartera de Mexicanos en el Exterior y Política Internacional de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "15/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "11/01/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "04/11/2020",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "01/12/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/JuanCarlosLoeradelaRosa",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/JloeraJuan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/juancarlosloera/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223792",
-                "fecha_extraccion": "2026-10-13T10:21:24+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222636",
-            "nombre_completo": "Mata Carrasco Mario",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Carlos González Nuñez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222636.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/12/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Presidente fundador de la Asociación Nacional de Exalcaldes Humanistas."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Secretario general de la Asociación Nacional de Alcaldes y Ayuntamientos."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2016",
-                    "experiencia": "Consejero estatal del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente de la Junta Municipal de Agua y Saneamiento de Chihuahua, Chihuahua."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Presidente municipal de Delicias, Chihuahua."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Analista de PEMEX."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MarioMataChihuahua",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MarioMataC",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/mario_matac/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222637",
-                "fecha_extraccion": "2026-10-13T10:21:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223735",
-            "nombre_completo": "Mejía Cruz María Esther",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Elizabeth Guzmán Argueta ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223735.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidata a diputada federal."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MejiaEsther01",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/esth_mejia",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/esther_mejia45/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223736",
-                "fecha_extraccion": "2026-10-13T10:21:27+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222638",
-            "nombre_completo": "Riggs Baeza Miguel Alonso",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "MC",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jaime Ricardo Fernández Horcasitas ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222638.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Síndico de Chihuahua, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "28/04/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "21/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MiguelRIGGS.mx",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MiguelRiggs3",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/miguelriggs3/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222639",
-                "fecha_extraccion": "2026-10-13T10:21:29+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223795",
-            "nombre_completo": "Rocha Vega Efraín",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jorge Valdez Anaya ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223795.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2016",
-                    "experiencia": "Presidente del Comité Estatal de MORENA."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Directivo Municipal de MORENA en Cuauhtémoc, Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1992",
-                    "experiencia": "Inspector de campo en BANRURAL."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Dip-Efra%C3%ADn-Rocha-Vega-109812157277054",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223796",
-                "fecha_extraccion": "2026-10-13T10:21:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223743",
-            "nombre_completo": "Rodríguez Gómez Eraclio",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Armando Domínguez Prado ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223743.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Líder del Barzón campesino en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/YakorodriguezG",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/yakorod",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223744",
-                "fecha_extraccion": "2026-10-13T10:21:32+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222062",
-            "nombre_completo": "Terrazas Baca Patricia",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Perla Paola Adame Torres ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1966-09-26",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222062.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión Permanente del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión de Vigilancia del PAN."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidata a diputada federal."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PAN."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2014",
-                    "experiencia": "Participación en elección interna para la Presidencia del Comité Directivo Estatal del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Participación en la campaña del candidato del PAN a la gubernatura de Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Candidato a regidora."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Participación en campaña de candidato del PAN a presidencia municipal."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Subsecretaria de Ingresos del gobierno de Chihuahua."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Presidente municipal suplente de Cuauhtémoc, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/patyterrazasBaca",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/PatyTerrazas7",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/patyterrazasb/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222063",
-                "fecha_extraccion": "2026-10-13T10:21:34+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223737",
-            "nombre_completo": "Vargas Meraz Teresita de Jesús",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Yalia Naharai Romero Chavez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223737.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2017",
-                    "experiencia": "Presidenta del Comité Municipal de MORENA en Nuevo Casas Grandes."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MaiteVargasMeraz/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MerazMaite",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/maitevargasmeraz/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223738",
-                "fecha_extraccion": "2026-10-13T10:21:36+00:00"
-            }
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "10/03/2020",
+          "estatus": "Baja"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9221857",
-            "nombre_completo": "Caraveo Camarena Bertha Alicia",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Flor Pilar Cazares Holguín ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221857.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para dar seguimiento a los casos de feminicidio de niñas y adolescentes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/03/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "18/12/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para la Igualdad de Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "06/04/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidata a diputada federal."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Consultivo de MORENA en Chihuahua."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundadora del partido MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Directora de la Universidad Autónoma de Ciudad Juárez (UACJ) en el plantel Nuevo Casas Grandes, Chihuahua."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Directora de la Escuela de Sociología del ICSA-UACJ."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1981",
-                    "experiencia": "Psicóloga del Centro de Integración Juvenil (CIJ)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/BerthaCaraveoC/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/CaraveoBertha",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/berthacaraveoc/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221858",
-                "fecha_extraccion": "2026-10-13T10:21:36+00:00"
-            }
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Coordinador estatal de MC en Chihuahua."
         },
         {
-            "referencia_sil": "9221649",
-            "nombre_completo": "Madero Muñoz Gustavo Enrique",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Carlos Alfredo Olson San Vicente ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221649.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "De Seguimiento a la Implementación del T-MEC (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Bienestar Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Consultivo del Senado de la República."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Presidente del CEN del PAN."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Consejo Rector del Pacto por México."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Presidente del CEN del PAN."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2013",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2015",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejero estratégico de campaña presidencial del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Candidato a presidente municipal de Chihuahua, Chihuahua."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de comunicación de la campaña presidencial del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2010",
-                    "experiencia": "Senador en las LX y LXI legislaturas. Presidente de la Mesa Directiva y de la JUCOPO. Presidente de la Comisión de Hacienda y Crédito Público. Integrante de las comisiones de Relaciones Exteriores; Relaciones exteriores Asia-Pacífico; de Comercio y Fomento Industrial; de Educación; de Energía."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX Legislatura. Presidente de la Comisión de Hacienda y Crédito Público. Integrante de las comisiones de Presupuesto y Cuenta pública y de la Especial de Investigación sobre el IPAB. Secretario de la Tercera Comisión de Trabajo de la Comisión Permanente."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinador ejecutivo de gabinete en el gobierno de Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Director General de planeación y evaluación de Chihuahua."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador de promoción y capacitación campesina en el Instituto Nacional de Capacitación Agropecuaria."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Jefe del departamento en la Dirección General de Educación de Adultos de la SEP."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1975",
-                    "experiencia": "Promotor social en el Proyecto Santa Cecilia de Guadalajara, del Instituto Mexicano del Desarrollo de la Comunidad."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Diputado federal en la LXIII Legislatura. Presidente de la Comisión de Atención a Grupos Vulnerables. Integrante de las comisiones de Desarrollo Social; Educación Pública y Servicios Educativos; y, Comité del Centro de Estudios de las Finanzas Públicas."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "28/01/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "04/12/2020",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GustavoMadero/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/GustavoMadero",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gustavomadero/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221650",
-                "fecha_extraccion": "2026-10-13T10:21:36+00:00"
-            }
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a diputado federal."
         },
         {
-            "referencia_sil": "9221859",
-            "nombre_completo": "Pérez Cuellar Cruz",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rafael Espino De la Peña ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1969-01-16",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221859.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 9,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral del Canal de Televisión del Congreso General de los Estados Unidos Mexicanos (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/03/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "17/10/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura, Ganadería, Pesca y Desarrollo Rural (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/12/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "06/12/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidato a la gubernatura de Chihuahua."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2017",
-                    "experiencia": "Miembro activo de MC."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Precandidato a senador."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Presidente del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de diputados locales del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "2006",
-                    "experiencia": "Consejero estatal del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario de Organización del Comité Directivo Estatal (CDE) del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Consejero Universitario suplente de la UACJ."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Fundador de la organización Jus-Pax de Estudiantes de Derecho en la Universidad Autónoma de Ciudad Juárez (UACJ)."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "2015",
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de Información de la Organización Jux-Pax."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de Nuestra Hora, órgano de información de Fuerza Estudiantil Democrática."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado federal en la LX Legislatura. Secretario en la Comisión de Investigación encargada de revisar la legalidad de los contratos de suministros de bienes de consumo o de compraventa de bienes inmuebles de titularidad pública, otorgada por organismos descentralizados o empresas de participación estatal mayoritaria a la Empresa Construcciones Prácticas, SA de CV. Integrante en las comisiones de Puntos Constitucionales; Relaciones Exteriores; y, Población, Frontera y Asuntos Migratorios."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local en la LVIII Legislatura el Congreso de Chihuahua. Coordinador del Grupo Parlamentario del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI Legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Funcionario municipal en Ciudad Juárez, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/CruzPerezCuellarCh/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/CruzPerzCuellar",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/cruzperezcuellar/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221860",
-                "fecha_extraccion": "2026-10-13T10:21:36+00:00"
-            }
+          "del_ano": "2014",
+          "al_ano": "2016",
+          "experiencia": "Secretario de Acuerdos de la Comisión Operativa Estatal de MC en Chihuahua."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2014",
+          "experiencia": "Secretario de Organización de la Comisión Operativa Estatal de MC en Chihuahua."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputado local suplente en la LXV Legislatura del Congreso de Chihuahua (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Regidor de Chihuahua, Chihuahua."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Servicios profesionales en administración gubernamental."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Jefe de Operación Aduanera del SAT."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Profesional ejecutivo del SAT en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Encargado del Programa PROCEDE del Registro Agrario Nacional en Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/CandidatoAlanFalomir",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/alanfalomir?lang=en",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/alanfalomir/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222643",
+        "fecha_extraccion": "2026-10-13T10:21:15+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223741",
+      "nombre_completo": "García Soto Ulises",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "César Omar Peña Ibarbol",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223741.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Delegado del Consejo Nacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en la Secretaria de Mexicanos en el Exterior y Política Internacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante de MORENA ante la Comisión Distrital de Vigilancia del INE en Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/UlisesGarciaS4",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223742",
+        "fecha_extraccion": "2026-10-13T10:21:17+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222644",
+      "nombre_completo": "Gutiérrez Valdez María de los Angeles",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Sinai del Rocio Sánchez Huerta",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222644.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos de la Niñez y Adolescencia (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Integrante del Comité Directivo Municipal del PAN en Parral, Chihuahua."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Integrante del Comité Directivo Estatal del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Representante de la Secretaría de Vinculación con la Sociedad del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora municipal de campaña del candidato del PAN a Presidencia de la República."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Integrante del SNTE."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Jefa de Servicios Educativos de Chihuahua, Región Sur."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Secretaria de Administración Municipal de Parral, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "25/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "09/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/AngelesGutierrezValdez",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/AngelesGtzChih",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/angelesgtz2018/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222645",
+        "fecha_extraccion": "2026-10-13T10:21:19+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223739",
+      "nombre_completo": "Lastra Muñoz Claudia Elena",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Daniela Beatriz Cabrera Fernández",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223739.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Cultura y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/DipClaudiaLastra/",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223740",
+        "fecha_extraccion": "2026-10-13T10:21:21+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223791",
+      "nombre_completo": "Loera De La Rosa Juan Carlos",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Francisco Jorge Villarreal Pasaret",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223791.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/11/2020",
+          "fecha_fin": "11/01/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Consejero nacional de MORENA."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Secretario general del Comité Ejecutivo Estatal de MORENA en Chihuahua."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Delegado distrital al Congreso de MORENA."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Consejero nacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable de la organización de conferencias en el exterior del Presidente Nacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario nacional en la Cartera de Mexicanos en el Exterior y Política Internacional de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "15/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "11/01/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "04/11/2020",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "01/12/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/JuanCarlosLoeradelaRosa",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/JloeraJuan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/juancarlosloera/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223792",
+        "fecha_extraccion": "2026-10-13T10:21:24+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222636",
+      "nombre_completo": "Mata Carrasco Mario",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Carlos González Nuñez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222636.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/12/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Presidente fundador de la Asociación Nacional de Exalcaldes Humanistas."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Secretario general de la Asociación Nacional de Alcaldes y Ayuntamientos."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2016",
+          "experiencia": "Consejero estatal del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Presidente de la Junta Municipal de Agua y Saneamiento de Chihuahua, Chihuahua."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Presidente municipal de Delicias, Chihuahua."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Analista de PEMEX."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MarioMataChihuahua",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MarioMataC",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/mario_matac/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222637",
+        "fecha_extraccion": "2026-10-13T10:21:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223735",
+      "nombre_completo": "Mejía Cruz María Esther",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Elizabeth Guzmán Argueta",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223735.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidata a diputada federal."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MejiaEsther01",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/esth_mejia",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/esther_mejia45/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223736",
+        "fecha_extraccion": "2026-10-13T10:21:27+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222638",
+      "nombre_completo": "Riggs Baeza Miguel Alonso",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "MC",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jaime Ricardo Fernández Horcasitas",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222638.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Síndico de Chihuahua, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "28/04/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "21/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MiguelRIGGS.mx",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MiguelRiggs3",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/miguelriggs3/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222639",
+        "fecha_extraccion": "2026-10-13T10:21:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223795",
+      "nombre_completo": "Rocha Vega Efraín",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jorge Valdez Anaya",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223795.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2016",
+          "experiencia": "Presidente del Comité Estatal de MORENA."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Directivo Municipal de MORENA en Cuauhtémoc, Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1982",
+          "al_ano": "1992",
+          "experiencia": "Inspector de campo en BANRURAL."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Dip-Efra%C3%ADn-Rocha-Vega-109812157277054",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223796",
+        "fecha_extraccion": "2026-10-13T10:21:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223743",
+      "nombre_completo": "Rodríguez Gómez Eraclio",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Armando Domínguez Prado",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223743.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Líder del Barzón campesino en Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/YakorodriguezG",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/yakorod",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223744",
+        "fecha_extraccion": "2026-10-13T10:21:32+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222062",
+      "nombre_completo": "Terrazas Baca Patricia",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Perla Paola Adame Torres",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1966-09-26",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222062.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión Permanente del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión de Vigilancia del PAN."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidata a diputada federal."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PAN."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2014",
+          "experiencia": "Participación en elección interna para la Presidencia del Comité Directivo Estatal del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Participación en la campaña del candidato del PAN a la gubernatura de Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Candidato a regidora."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Participación en campaña de candidato del PAN a presidencia municipal."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Subsecretaria de Ingresos del gobierno de Chihuahua."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Presidente municipal suplente de Cuauhtémoc, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/patyterrazasBaca",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/PatyTerrazas7",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/patyterrazasb/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222063",
+        "fecha_extraccion": "2026-10-13T10:21:34+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223737",
+      "nombre_completo": "Vargas Meraz Teresita de Jesús",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Yalia Naharai Romero Chavez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223737.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2017",
+          "experiencia": "Presidenta del Comité Municipal de MORENA en Nuevo Casas Grandes."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MaiteVargasMeraz/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MerazMaite",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/maitevargasmeraz/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223738",
+        "fecha_extraccion": "2026-10-13T10:21:36+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9221857",
+      "nombre_completo": "Caraveo Camarena Bertha Alicia",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Flor Pilar Cazares Holguín",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221857.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para dar seguimiento a los casos de feminicidio de niñas y adolescentes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/03/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "18/12/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para la Igualdad de Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "06/04/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidata a diputada federal."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Consultivo de MORENA en Chihuahua."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Miembro activo de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundadora del partido MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera nacional de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Directora de la Universidad Autónoma de Ciudad Juárez (UACJ) en el plantel Nuevo Casas Grandes, Chihuahua."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Directora de la Escuela de Sociología del ICSA-UACJ."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1981",
+          "experiencia": "Psicóloga del Centro de Integración Juvenil (CIJ)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/BerthaCaraveoC/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/CaraveoBertha",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/berthacaraveoc/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221858",
+        "fecha_extraccion": "2026-10-13T10:21:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221649",
+      "nombre_completo": "Madero Muñoz Gustavo Enrique",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Carlos Alfredo Olson San Vicente",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221649.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "De Seguimiento a la Implementación del T-MEC (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Bienestar Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Consultivo del Senado de la República."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Presidente del CEN del PAN."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Presidente del Consejo Rector del Pacto por México."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Presidente del CEN del PAN."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2013",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2015",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejero estratégico de campaña presidencial del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Candidato a presidente municipal de Chihuahua, Chihuahua."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de comunicación de la campaña presidencial del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2010",
+          "experiencia": "Senador en las LX y LXI legislaturas. Presidente de la Mesa Directiva y de la JUCOPO. Presidente de la Comisión de Hacienda y Crédito Público. Integrante de las comisiones de Relaciones Exteriores; Relaciones exteriores Asia-Pacífico; de Comercio y Fomento Industrial; de Educación; de Energía."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX Legislatura. Presidente de la Comisión de Hacienda y Crédito Público. Integrante de las comisiones de Presupuesto y Cuenta pública y de la Especial de Investigación sobre el IPAB. Secretario de la Tercera Comisión de Trabajo de la Comisión Permanente."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Coordinador ejecutivo de gabinete en el gobierno de Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Director General de planeación y evaluación de Chihuahua."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Coordinador de promoción y capacitación campesina en el Instituto Nacional de Capacitación Agropecuaria."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Jefe del departamento en la Dirección General de Educación de Adultos de la SEP."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1975",
+          "experiencia": "Promotor social en el Proyecto Santa Cecilia de Guadalajara, del Instituto Mexicano del Desarrollo de la Comunidad."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Diputado federal en la LXIII Legislatura. Presidente de la Comisión de Atención a Grupos Vulnerables. Integrante de las comisiones de Desarrollo Social; Educación Pública y Servicios Educativos; y, Comité del Centro de Estudios de las Finanzas Públicas."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "28/01/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "04/12/2020",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GustavoMadero/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/GustavoMadero",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gustavomadero/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221650",
+        "fecha_extraccion": "2026-10-13T10:21:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221859",
+      "nombre_completo": "Pérez Cuellar Cruz",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rafael Espino De la Peña",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1969-01-16",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221859.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 9,
+      "comisiones": [
+        {
+          "comision": "Bicamaral del Canal de Televisión del Congreso General de los Estados Unidos Mexicanos (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/03/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "17/10/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura, Ganadería, Pesca y Desarrollo Rural (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/12/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "06/12/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidato a la gubernatura de Chihuahua."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2017",
+          "experiencia": "Miembro activo de MC."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Precandidato a senador."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Presidente del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de diputados locales del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "2006",
+          "experiencia": "Consejero estatal del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretario de Organización del Comité Directivo Estatal (CDE) del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Consejero Universitario suplente de la UACJ."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Fundador de la organización Jus-Pax de Estudiantes de Derecho en la Universidad Autónoma de Ciudad Juárez (UACJ)."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "2015",
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de Información de la Organización Jux-Pax."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de Nuestra Hora, órgano de información de Fuerza Estudiantil Democrática."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado federal en la LX Legislatura. Secretario en la Comisión de Investigación encargada de revisar la legalidad de los contratos de suministros de bienes de consumo o de compraventa de bienes inmuebles de titularidad pública, otorgada por organismos descentralizados o empresas de participación estatal mayoritaria a la Empresa Construcciones Prácticas, SA de CV. Integrante en las comisiones de Puntos Constitucionales; Relaciones Exteriores; y, Población, Frontera y Asuntos Migratorios."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local en la LVIII Legislatura el Congreso de Chihuahua. Coordinador del Grupo Parlamentario del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI Legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Funcionario municipal en Ciudad Juárez, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/CruzPerezCuellarCh/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/CruzPerzCuellar",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/cruzperezcuellar/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221860",
+        "fecha_extraccion": "2026-10-13T10:21:36+00:00"
+      }
+    }
+  ]
 }

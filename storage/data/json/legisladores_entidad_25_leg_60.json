@@ -1,2246 +1,2246 @@
 {
-    "metadata": {
-        "entidad_id": 25,
-        "entidad_nombre": "Sinaloa",
-        "legislatura": 60,
-        "generado_en": "2026-10-13T05:06:41+00:00",
-        "total_diputados": 12,
-        "total_senadores": 5,
-        "total_general": 17
+  "metadata": {
+    "entidad_id": 25,
+    "entidad_nombre": "Sinaloa",
+    "legislatura": 60,
+    "generado_en": "2026-10-13T05:06:41+00:00",
+    "total_diputados": 12,
+    "total_senadores": 5,
+    "total_general": 17
+  },
+  "diputados": [
+    {
+      "referencia_sil": "2300392",
+      "nombre_completo": "Aguilar Acuña Diego",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jorge Aristóteles Sandoval Díaz",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300392.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Subsecretario general de la Federación de Trabajadores de Sinaloa."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2011",
+          "experiencia": "Secretario general del Sindicato Nacional de los Trabajadores, Obreros de la Industria, Agrícolas y Campesinos (SINTOIAC)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2010",
+          "experiencia": "Secretario de agricultura del CEN de la CTM."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Subsecretario General de la Federación de Trabajadores de Sinaloa."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Consejero sustituto de la Comisión de Vigilancia del IMSS."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión de salarios mínimos en el sindicato nacional de trabajadores obreros y asalariados del campo, de la CTM."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1999",
+          "experiencia": "Secretario general del Sindicato Nacional de Trabajadores, Obreros y Asalariados del Campo, Similares y Conexos, CTM."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Integrante de la asamblea general del INFONAVIT en el sindicato nacional de trabajadores obreros y asalariados del campo."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1997",
+          "experiencia": "Subsecretario de agricultura del CEN de la CTM."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Representante Obrero de la CTM ante el IMSS en Sinaloa."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Secretario general sustituto de la Federación de Trabajadores de Sinaloa."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "2011",
+          "experiencia": "Secretario general del CEN del sindicato nacional de trabajadores obreros de industria y asalariados del campo de la CTM."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Delegado estatal del Sindicato Nacional de Trabajadores, obreros y asalariados del campo, similares y conexos de la CTM."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1992",
+          "experiencia": "Secretario de agricultura del Comité Nacional de la CTM."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1989",
+          "experiencia": "Secretario de Acción Social en la Federación de Trabajadores de Sinaloa."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1986",
+          "experiencia": "Secretario de Acción Obrera del CDM del PRI en Guasave."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1987",
+          "experiencia": "Secretario general de la Federación Regional de Obreros y Campesinos de Guasave, Sinaloa."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1979",
+          "experiencia": "Delegado estatal del Sindicato Nacional de Trabajadores, obreros y asalariados del campo, similares y conexos de la CTM."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1974",
+          "experiencia": "Secretario de Trabajo de la Sección 1 del Sindicato Nacional de Trabajadores, obreros, y asalariados del campo, similares y conexos de la CTM."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1988",
+          "experiencia": "Secretario general sustituto en el CEN del Sindicato Nacional de Trabajadores, Obreros y Asalariados del Campo, similares y conexos de la CTM."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1971",
+          "experiencia": "Secretario de Estadística en la sección 1 del Sindicato Nacional de Trabajadores Obreros y Asalariados del Campo, similares y conexos de la CTM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante obrero en la rama de derecho laboral."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal del PRI en la LVII legislatura. Integrante de las comisiones de Trabajo y Previsión Social, Asuntos Indígenas y la Especial de Seguridad Pública."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado local en la L legislatura del Congreso de Sinaloa."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302749",
+        "fecha_extraccion": "2026-10-13T05:01:12+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "2300283",
+      "nombre_completo": "Amador Gaxiola Daniel",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María del Carmen Arias Rodríguez",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300283.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "2300392",
-            "nombre_completo": "Aguilar Acuña Diego",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jorge Aristóteles Sandoval Díaz ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300392.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Subsecretario general de la Federación de Trabajadores de Sinaloa."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2011",
-                    "experiencia": "Secretario general del Sindicato Nacional de los Trabajadores, Obreros de la Industria, Agrícolas y Campesinos (SINTOIAC)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2010",
-                    "experiencia": "Secretario de agricultura del CEN de la CTM."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Subsecretario General de la Federación de Trabajadores de Sinaloa."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Consejero sustituto de la Comisión de Vigilancia del IMSS."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión de salarios mínimos en el sindicato nacional de trabajadores obreros y asalariados del campo, de la CTM."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario general del Sindicato Nacional de Trabajadores, Obreros y Asalariados del Campo, Similares y Conexos, CTM."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Integrante de la asamblea general del INFONAVIT en el sindicato nacional de trabajadores obreros y asalariados del campo."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1997",
-                    "experiencia": "Subsecretario de agricultura del CEN de la CTM."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Representante Obrero de la CTM ante el IMSS en Sinaloa."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Secretario general sustituto de la Federación de Trabajadores de Sinaloa."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "2011",
-                    "experiencia": "Secretario general del CEN del sindicato nacional de trabajadores obreros de industria y asalariados del campo de la CTM."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Delegado estatal del Sindicato Nacional de Trabajadores, obreros y asalariados del campo, similares y conexos de la CTM."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1992",
-                    "experiencia": "Secretario de agricultura del Comité Nacional de la CTM."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de Acción Social en la Federación de Trabajadores de Sinaloa."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de Acción Obrera del CDM del PRI en Guasave."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario general de la Federación Regional de Obreros y Campesinos de Guasave, Sinaloa."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1979",
-                    "experiencia": "Delegado estatal del Sindicato Nacional de Trabajadores, obreros y asalariados del campo, similares y conexos de la CTM."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1974",
-                    "experiencia": "Secretario de Trabajo de la Sección 1 del Sindicato Nacional de Trabajadores, obreros, y asalariados del campo, similares y conexos de la CTM."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario general sustituto en el CEN del Sindicato Nacional de Trabajadores, Obreros y Asalariados del Campo, similares y conexos de la CTM."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1971",
-                    "experiencia": "Secretario de Estadística en la sección 1 del Sindicato Nacional de Trabajadores Obreros y Asalariados del Campo, similares y conexos de la CTM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante obrero en la rama de derecho laboral."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal del PRI en la LVII legislatura. Integrante de las comisiones de Trabajo y Previsión Social, Asuntos Indígenas y la Especial de Seguridad Pública."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado local en la L legislatura del Congreso de Sinaloa."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302749",
-                "fecha_extraccion": "2026-10-13T05:01:12+00:00"
-            }
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/11/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "2300283",
-            "nombre_completo": "Amador Gaxiola Daniel",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María del Carmen Arias Rodríguez ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300283.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/11/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/10/2007",
-                    "fecha_fin": "12/11/2007",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité estatal de acción política del SNTE en Sinaloa."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente municipal del Elota, Sinaloa."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretario de previsión y asistencia social del CEN del SNTE."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general de la sección 53 del SNTE."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario de acción social del PRI."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Presidente del CDM del PRI en Elota, Sinaloa."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": null,
-                    "experiencia": "Miembro del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local de Sinaloa en la LVI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Subsecretario de Desarrollo de la Secretaría de Planeación y Desarrollo. (SEPLADE) de Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302655",
-                "fecha_extraccion": "2026-10-13T05:01:13+00:00"
-            }
+          "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/10/2007",
+          "fecha_fin": "12/11/2007",
+          "estatus": "Baja"
         },
         {
-            "referencia_sil": "2300282",
-            "nombre_completo": "Barajas López Ramón",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Trinidad Armenta Orduño ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300282.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/11/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del Comité Municipal Campesino No. 8 de Guasave, Sinaloa, CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero municipal del PRI en Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicales Campesinas de Sinaloa en la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado nacional de los productores de maíz por Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador financiero de la campaña a la presidencia municipal de Guasave, Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Gerente de la Junta Municipal de Agua Potable y Alcantarillado en Guasave, Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302654",
-                "fecha_extraccion": "2026-10-13T05:02:21+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300822",
-            "nombre_completo": "Cárdenas Fonseca Manuel",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "Panal",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Dora María Guadalupe Talamante Lemas ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300822.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial encargada de vigilar el uso de los recursos públicos federales, estatales y municipales en el proceso electoral 2009. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/02/2009",
-                    "fecha_fin": "31/07/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/03/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Partido Nueva Alianza."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario particular del candidato presidencial del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Colaborador en el IEPES (Instituto de Estudios Políticos Electorales y Sociales) del PRI."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Subsecretario del Consejo Directivo del Comité Consultivo Nacional de Normalización de la Industria Naval."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Auxiliar en la Oficialía Mayor del CDE del PRI en el DF."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Asesor en la Secretaría de Acción Electoral del CEN del PRI."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "2006",
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en Guasave, Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI en Sinaloa."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Agricultura, Programación, Presupuesto y Cuenta Pública, Comercio y Jurisdiccional."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Delegado del ISSSTE en Culiacán, Sinaloa."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Secretario particular de la dirigente del magisterio cuando encabezó a los diputados del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Gerente General del Banrural del Pacífico Norte."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Coordinador Administrativo de la oficina particular del Secretario de Hacienda."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1995",
-                    "experiencia": "Delegado Federal de la Secofi en Sinaloa."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario técnico de la Comisión Mixta para la Promoción de Exportaciones del estado de Sinaloa, COMPEX."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Director de la Unidad de Evaluación y Seguimiento de la Secretaría Particular del titular de la SHCP."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario particular del subsecretario de Planeación y Control Presupuestal de la Secretaría de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinador administrativo en la Coordinación General de Comunicación Social del ISSSTE."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario auxiliar en la Dirección General del CREA (Consejo Nacional de Recursos para la Atención de la Juventud)."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario particular del Contralor General de Banrural."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Abogado \"A\" del Fideicomiso para el otorgamiento de créditos a favor de cooperativas pesqueras camaroneras, FIPESCA."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Secretario particular del director del Registro Agrario Nacional de la SRA."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Supervisor Estatal en la Dirección General de Inafectabilidad agrícola, ganadera y agropecuaria de la SRA."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1979",
-                    "experiencia": "Titular de la Oficina Técnica Jurídica de la Dirección General de Conciliación Agraria de la Secretaría de la Reforma Agraria (SRA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero en Conasupo (Compañía Nacional de Subsistencias Populares)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303172",
-                "fecha_extraccion": "2026-10-13T05:02:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300696",
-            "nombre_completo": "Felton González Carlos Eduardo",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Nadia Haydee Vega Olivas ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300696.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de Apoyo a los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Consejero del CDE del PAN de Sinaloa."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Candidato a la presidencia municipal de Mazatlán, Sinaloa."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Miembro del CDM del PAN Mazatlán."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Representante del PAN ante el Consejo Municipal Electoral en Mazatlán."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante del PAN en casillas en varias elecciones."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado local por el XIX distrito electoral en la LVIII legislatura del Congreso de Sinaloa. Coordinador de la fracción parlamentaria del PAN. Presidente de la comisión de Turismo. Integrante de las comisiones de Concertación Política, Asuntos Obreros, Trabajo y Previsión Social y Biblioteca Cultura Parlamentaria y Asuntos Editoriales."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Regidor y coordinador de regidores en el municipio de Mazatlán, Sinaloa."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Director general de la Junta de Agua Potable del gobierno municipal de Mazatlán."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Director de promoción del fideicomiso Plan Culiacán, del gobierno de Sinaloa."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Subdirector del desarrollo urbano Tres Ríos, del gobierno de Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del subcomité de estudios de la Secretaría de Desarrollo Económico del gobierno de Sinaloa."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303049",
-                "fecha_extraccion": "2026-10-13T05:02:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300291",
-            "nombre_completo": "Ojeda Camacho Gilberto",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Melchor Godoy Gaxiola ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300291.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente del CDM del PRI en Salvador Alvarado, Sin."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la asociación política Morelos."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Delegado del CDE del PRI en diversos municipios de Sinaloa."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario de acción legislativa de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDM del PRI en Salvador Alvarado, Sin."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado local en la LVIII legislatura del Congreso de Sinaloa. Presidente de la Comisión de Gobernación y Puntos Constitucionales; vocal de las comisiones de Derechos Humanos, Protocolo y Régimen Orgánico Interior."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2004",
-                    "experiencia": "Director de organización social de la Secretaría de Planeación y Desarrollo del Gobierno de Sinaloa."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador ejecutivo de la Compañía Nacional de Subsistencias Populares (Conasupo) en la región de Évora, Sinaloa."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Oficial mayor y director de relaciones públicas de la presidencia municipal de Salvador Alvarado, Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302663",
-                "fecha_extraccion": "2026-10-13T05:02:27+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300797",
-            "nombre_completo": "Ortiz Hernández Eduardo",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Carlos Rafael Flores Chávez ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300797.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comité de Competitividad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado local en la LVIII legislatura del Congreso de Sinaloa. Vicepresidente en el primer período ordinario de sesiones; secretario en el segundo período ordinario. Presidente de la Comisión de Planeación y Desarrollo. Secretario de la Comisión de Desarrollo Económico. Integrante de la Comisión de Protocolo y Régimen Orgánico Interior."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador y consejero del Instituto Municipal de Planeación Urbana (IMPLAN) en Culiacán."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303147",
-                "fecha_extraccion": "2026-10-13T05:02:29+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300290",
-            "nombre_completo": "Patrón Montalvo Jesús Manuel",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jesús Martina Beltrán Valenzuela ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300290.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Diputado local en LVII legislatura del Congreso de Sinaloa. Presidente de la Comisión de Asuntos Agropecuarios. Integrante de la Comisión de Hacienda Pública y Tesorería."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302662",
-                "fecha_extraccion": "2026-10-13T05:02:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2302652",
-            "nombre_completo": "Ramírez Ruiz Carlos",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "28/04/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302652.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 1,
-            "comisiones": [
-                {
-                    "comision": "Especial para el Seguimiento del Acuerdo Nacional para el Campo y al Capítulo Agropecuario del Tratado de Libre Comercio (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/04/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero Político Municipal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Regidor del PRI en la presidencia municipal de El Fuerte, Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300280",
-                "titular_nombre": "Mayra Gisela Peñuelas Acuña ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T05:02:33+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2302716",
-            "nombre_completo": "Salgado Amador Manuel Salvador",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "04/10/2007",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302716.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/04/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2007",
-                    "fecha_fin": "30/04/2008",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Presidente del CDE del PVEM en Baja California Sur."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Candidato a presidente municipal de La Paz, BCS."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Frente Nacional de Organizaciones y Ciudadanos (FNOC)en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE del Sindicato Único de Trabajadores al Servicio de los Poderes del Estado y Municipios de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del interior de la CNOP en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de relaciones nacionales e internacionales del CEN de la Federación de Sindicatos de Trabajadores al Servicio de los Gobiernos de los Estados y Municipios de la República Mexicana (FESTEGEM)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la comisión de asuntos políticos del Congreso del Trabajo (CT)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del consejo de vigilancia del CEN de la FESTEGEM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado sindical de la sección de la paz del área de la secretaría de finanzas del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general del movimiento nacional sindical en Baja California Sur."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Diputado local por el PRI en el Congreso de Baja California Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Director general en el gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Regidor VI por el PRI en el ayuntamiento de la Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Visitador fiscal de la tesorería general en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Inspector fiscal y jefe de grupo de la tesorería general del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de auditoría fiscal de la tesorería general del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor técnico de la secretaría de finanzas en el gobierno de baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de presupuesto foráneo en el gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario particular del subsecretario de gobierno en Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300359",
-                "titular_nombre": "Erika Larregui Nagel ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T05:04:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300873",
-            "nombre_completo": "Valenzuela García María Gloria Guadalupe",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Alejo Valenzuela López ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300873.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios para el Adelanto de las Mujeres y la Equidad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Miembro adherente del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Miembro adherente del CDM del PAN en Sinaloa."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Participación en la fundación de la Red de Mujeres en apoyo de candidaturas del PAN."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Colaboradora en la campaña para presidente municipal."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Presidenta del sistema DIF en el municipio de Sinaloa, Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303223",
-                "fecha_extraccion": "2026-10-13T05:06:29+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300281",
-            "nombre_completo": "Vargas Landeros Gerardo Octavio",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Dolores Zamora Lugo ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300281.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "16/10/2007",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Precandidato a presidente municipal de Los Mochis."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Delegado Especial del CEN del PRI en varios estados de la República."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario Coordinador de Ligas Municipales de la Confederación Nacional de Organizaciones Populares (CNOP) en Sinaloa."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1990",
-                    "experiencia": "Delegado del Comité Estatal en varios municipios de Sinaloa."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador Administrativo de la Oficialía Mayor del Comité Nacional de las Juventudes Priístas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputado federal suplente por el PRI en la LIII Legislatura"
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Gerente general de la Junta de Agua Potable y Alcantarillado del municipio de Ahome (JAPAMA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Gerente de la Junta Municipal de Agua Potable y Alcantarillado de Mazatlán (JUMAPAM)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Primer vocal del Consejo de Administración de la Comisión Municipal de Ahome (COMUN)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario Particular en la Dirección General de Gobierno de la Secretaría de Gobernación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector Administrativo del Desarrollo Urbano 3 Ríos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector General Instituto de Vivienda de Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302653",
-                "fecha_extraccion": "2026-10-13T05:06:31+00:00"
-            }
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "2300043",
-            "nombre_completo": "Labastida Ochoa Francisco",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rosa Elena Millán Bueno ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300043.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma del Estado (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "23/10/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Candidato por el PRI a la presidencia de la República."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2006",
-                    "experiencia": "Presidente del Centro de Estudios para el Desarrollo de México, A.C."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de Gobernación."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de Agricultura, Ganadería y Desarrollo Rural."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Embajador de México en Portugal."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1992",
-                    "experiencia": "Gobernador de Sinaloa."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de Energía, Minas e Industria Paraestatal."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Subsecretario de programación de la SPP."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1976",
-                    "experiencia": "Coordinador de proyectos de la Dirección General del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del PRI."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Estatal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Director general de Caminos y Puentes Federales de Ingresos."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Subsecretario de programación de la SPP."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Director general de promoción fiscal de la Secretaría de Hacienda."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1975",
-                    "experiencia": "Subdirector de inversiones públicas de la Secretaría de la Presidencia."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1972",
-                    "experiencia": "Jefe del departamento de Bienestar Social de la Secretaría de la Presidencia."
-                },
-                {
-                    "del_ano": "1966",
-                    "al_ano": "1967",
-                    "experiencia": "Jefe de la oficina de autotransportes de la SCT."
-                },
-                {
-                    "del_ano": "1962",
-                    "al_ano": null,
-                    "experiencia": "Analista en la SHCP."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302435",
-                "fecha_extraccion": "2026-10-13T05:06:34+00:00"
-            }
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Presidente del comité estatal de acción política del SNTE en Sinaloa."
         },
         {
-            "referencia_sil": "2300001",
-            "nombre_completo": "Leal Angulo Augusto César",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro Lucas Orozco Rubio ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300001.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Especial encargada de los festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/02/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "08/02/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Coordinador de la campaña de Manuel Espino a la presidencia nacional del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato plurinominal a senador para la LVII legislatura."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente de la delegación estatal del PAN en Veracruz."
-                },
-                {
-                    "del_ano": "1959",
-                    "al_ano": "1959",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1952",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PAN en Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal y miembro de los comités estatales de Sinaloa y Veracruz en varios periodos."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Funcionario de la Secretaría de Educación Pública."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Asesor del presidente de la República"
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Embajador de México en Grecia y de forma concurrente ante las Repúblicas de Moldova y Chipre."
-                },
-                {
-                    "del_ano": "1956",
-                    "al_ano": "1956",
-                    "experiencia": "Secretario de Desarrollo Económico de Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de vinculación entre los sectores público, privado y social de la Oficialía Mayor de la SEP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del equipo de Pensamiento y Discurso de la Presidencia de la República."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302397",
-                "fecha_extraccion": "2026-10-13T05:06:36+00:00"
-            }
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Presidente municipal del Elota, Sinaloa."
         },
         {
-            "referencia_sil": "2300301",
-            "nombre_completo": "López Valdez Mario",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Sinaloa",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Margarita Villaescusa Rojo ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300301.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "11/03/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "11/03/2009",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente municipal de Ahome, Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del deporte del CDM del PRI en Ahome."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas del CDM del PRI en Ahome."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión de Finanzas del Consejo Político Estatal del PRI en Sinaloa."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario de Planeación y Desarrollo en Sinaloa."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Directivo de la Cruz Roja Mexicana."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del COPLADE en Sinaloa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302670",
-                "fecha_extraccion": "2026-10-13T05:06:38+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretario de previsión y asistencia social del CEN del SNTE."
         },
         {
-            "referencia_sil": "2300207",
-            "nombre_completo": "Ruiz del Rincón Gabriela",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Sinaloa",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Jesús Ramón Rojo Mancillas ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300207.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "11/03/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Garantía de Acceso y Transparencia de la Información (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/04/2007",
-                    "fecha_fin": "26/03/2009",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "08/02/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Miembro de la Comisión Permanente del Consejo Nacional del PAN."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2006",
-                    "experiencia": "Tesorera del CEN del PAN."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Titular del órgano responsable de las finanzas de la coalición: Alianza por el Cambio, en el proceso electoral federal."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinadora de diputados locales del CEN del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2002",
-                    "experiencia": "Secretaria de administración y finanzas del CEN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2005",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2007",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Directora de artículos promociónales para las campañas federales."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Tesorera del CEN del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Área de Administración y Finanzas del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Oficial mayor en la campaña presidencial del PAN."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Directora de promociones económicas del CEN del PAN."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Tesorera del CEN del PAN."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Coordinadora administrativa de promociones económicas del CEN del PAN."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Oficial mayor en la campaña presidencial del PAN."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria ejecutiva del CEN del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Coordinadora administrativa de la oficina del Procurador General de la República."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputada federal en la LIX legislatura. Secretaria de la Comisión de Presupuesto y Cuenta Pública. Integrante del Comité del Centro de Estudios de las Finanzas Públicas. Integrante de la Comisión de Vigilancia de la Auditoría Superior de la Federación."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302596",
-                "fecha_extraccion": "2026-10-13T05:06:39+00:00"
-            }
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario general de la sección 53 del SNTE."
         },
         {
-            "referencia_sil": "2302674",
-            "nombre_completo": "Serrano Serrano María",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Sinaloa",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "07/12/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302674.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/04/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial encargada de los festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos, Segunda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma del Estado (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2006",
-                    "fecha_fin": "28/04/2008",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria del Comité Directivo de la Unión de Usuarios del municipio de El Fuerte."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directiva y funcionaria en las Secretarías de Asuntos Electorales, General Adjunta y de Capacitación del CDE del PAN en Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesora jurídica en materia electoral del CDE del PAN en Sinaloa."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Diputada local en la LVII legislatura del Congreso de Sinaloa. Presidenta de la Comisión de Planeación y Desarrollo; subcoordinadora del grupo parlamentario del PAN."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora general de coordinación de la Subsecretaria de Políticas Públicas de la SRA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirectora de recursos humanos del municipio de Culiacán, Sinaloa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada estatal de INCA RURAL, Regional Occidente (Instituto Nacional de Capacitación del Sector Agropecuario, S. A., Regional de Occidente), con sede en Guadalajara."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora regional del Instituto Nacional de Capacitación del Sector Agropecuario, S.A. Regional de Occidente (INCA RURAL) en Guadalajara."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Auxiliar técnico del Oficial Mayor de la Comisión Electoral de Jalisco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300307",
-                "titular_nombre": "Jesús Heriberto Félix Guerra ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T05:06:41+00:00"
-            }
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario de acción social del PRI."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Presidente del CDM del PRI en Elota, Sinaloa."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": null,
+          "experiencia": "Miembro del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local de Sinaloa en la LVI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Subsecretario de Desarrollo de la Secretaría de Planeación y Desarrollo. (SEPLADE) de Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302655",
+        "fecha_extraccion": "2026-10-13T05:01:13+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300282",
+      "nombre_completo": "Barajas López Ramón",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Trinidad Armenta Orduño",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300282.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/11/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Secretario de organización del Comité Municipal Campesino No. 8 de Guasave, Sinaloa, CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero municipal del PRI en Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicales Campesinas de Sinaloa en la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado nacional de los productores de maíz por Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador financiero de la campaña a la presidencia municipal de Guasave, Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Gerente de la Junta Municipal de Agua Potable y Alcantarillado en Guasave, Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302654",
+        "fecha_extraccion": "2026-10-13T05:02:21+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300822",
+      "nombre_completo": "Cárdenas Fonseca Manuel",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "Panal",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Dora María Guadalupe Talamante Lemas",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300822.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial encargada de vigilar el uso de los recursos públicos federales, estatales y municipales en el proceso electoral 2009. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/02/2009",
+          "fecha_fin": "31/07/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/03/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Miembro del Partido Nueva Alianza."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Secretario particular del candidato presidencial del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Colaborador en el IEPES (Instituto de Estudios Políticos Electorales y Sociales) del PRI."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Subsecretario del Consejo Directivo del Comité Consultivo Nacional de Normalización de la Industria Naval."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Auxiliar en la Oficialía Mayor del CDE del PRI en el DF."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Asesor en la Secretaría de Acción Electoral del CEN del PRI."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "2006",
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en Guasave, Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI en Sinaloa."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Agricultura, Programación, Presupuesto y Cuenta Pública, Comercio y Jurisdiccional."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Delegado del ISSSTE en Culiacán, Sinaloa."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Secretario particular de la dirigente del magisterio cuando encabezó a los diputados del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Gerente General del Banrural del Pacífico Norte."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Coordinador Administrativo de la oficina particular del Secretario de Hacienda."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1995",
+          "experiencia": "Delegado Federal de la Secofi en Sinaloa."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1995",
+          "experiencia": "Secretario técnico de la Comisión Mixta para la Promoción de Exportaciones del estado de Sinaloa, COMPEX."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Director de la Unidad de Evaluación y Seguimiento de la Secretaría Particular del titular de la SHCP."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Secretario particular del subsecretario de Planeación y Control Presupuestal de la Secretaría de Programación y Presupuesto."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Coordinador administrativo en la Coordinación General de Comunicación Social del ISSSTE."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1984",
+          "experiencia": "Secretario auxiliar en la Dirección General del CREA (Consejo Nacional de Recursos para la Atención de la Juventud)."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Secretario particular del Contralor General de Banrural."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Abogado \"A\" del Fideicomiso para el otorgamiento de créditos a favor de cooperativas pesqueras camaroneras, FIPESCA."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Secretario particular del director del Registro Agrario Nacional de la SRA."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Supervisor Estatal en la Dirección General de Inafectabilidad agrícola, ganadera y agropecuaria de la SRA."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1979",
+          "experiencia": "Titular de la Oficina Técnica Jurídica de la Dirección General de Conciliación Agraria de la Secretaría de la Reforma Agraria (SRA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero en Conasupo (Compañía Nacional de Subsistencias Populares)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303172",
+        "fecha_extraccion": "2026-10-13T05:02:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300696",
+      "nombre_completo": "Felton González Carlos Eduardo",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Nadia Haydee Vega Olivas",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300696.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de Apoyo a los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Consejero del CDE del PAN de Sinaloa."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Candidato a la presidencia municipal de Mazatlán, Sinaloa."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Miembro del CDM del PAN Mazatlán."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Representante del PAN ante el Consejo Municipal Electoral en Mazatlán."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante del PAN en casillas en varias elecciones."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Diputado local por el XIX distrito electoral en la LVIII legislatura del Congreso de Sinaloa. Coordinador de la fracción parlamentaria del PAN. Presidente de la comisión de Turismo. Integrante de las comisiones de Concertación Política, Asuntos Obreros, Trabajo y Previsión Social y Biblioteca Cultura Parlamentaria y Asuntos Editoriales."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Regidor y coordinador de regidores en el municipio de Mazatlán, Sinaloa."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Director general de la Junta de Agua Potable del gobierno municipal de Mazatlán."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Director de promoción del fideicomiso Plan Culiacán, del gobierno de Sinaloa."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Subdirector del desarrollo urbano Tres Ríos, del gobierno de Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del subcomité de estudios de la Secretaría de Desarrollo Económico del gobierno de Sinaloa."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303049",
+        "fecha_extraccion": "2026-10-13T05:02:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300291",
+      "nombre_completo": "Ojeda Camacho Gilberto",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Melchor Godoy Gaxiola",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300291.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Presidente del CDM del PRI en Salvador Alvarado, Sin."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Presidente de la asociación política Morelos."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Delegado del CDE del PRI en diversos municipios de Sinaloa."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Secretario de acción legislativa de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDM del PRI en Salvador Alvarado, Sin."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado local en la LVIII legislatura del Congreso de Sinaloa. Presidente de la Comisión de Gobernación y Puntos Constitucionales; vocal de las comisiones de Derechos Humanos, Protocolo y Régimen Orgánico Interior."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2004",
+          "experiencia": "Director de organización social de la Secretaría de Planeación y Desarrollo del Gobierno de Sinaloa."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Coordinador ejecutivo de la Compañía Nacional de Subsistencias Populares (Conasupo) en la región de Évora, Sinaloa."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Oficial mayor y director de relaciones públicas de la presidencia municipal de Salvador Alvarado, Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302663",
+        "fecha_extraccion": "2026-10-13T05:02:27+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300797",
+      "nombre_completo": "Ortiz Hernández Eduardo",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Carlos Rafael Flores Chávez",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300797.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comité de Competitividad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Diputado local en la LVIII legislatura del Congreso de Sinaloa. Vicepresidente en el primer período ordinario de sesiones; secretario en el segundo período ordinario. Presidente de la Comisión de Planeación y Desarrollo. Secretario de la Comisión de Desarrollo Económico. Integrante de la Comisión de Protocolo y Régimen Orgánico Interior."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Coordinador y consejero del Instituto Municipal de Planeación Urbana (IMPLAN) en Culiacán."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303147",
+        "fecha_extraccion": "2026-10-13T05:02:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300290",
+      "nombre_completo": "Patrón Montalvo Jesús Manuel",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jesús Martina Beltrán Valenzuela",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300290.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Diputado local en LVII legislatura del Congreso de Sinaloa. Presidente de la Comisión de Asuntos Agropecuarios. Integrante de la Comisión de Hacienda Pública y Tesorería."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302662",
+        "fecha_extraccion": "2026-10-13T05:02:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2302652",
+      "nombre_completo": "Ramírez Ruiz Carlos",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "28/04/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302652.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 1,
+      "comisiones": [
+        {
+          "comision": "Especial para el Seguimiento del Acuerdo Nacional para el Campo y al Capítulo Agropecuario del Tratado de Libre Comercio (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/04/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Consejero Político Municipal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Regidor del PRI en la presidencia municipal de El Fuerte, Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300280",
+        "titular_nombre": "Mayra Gisela Peñuelas Acuña ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T05:02:33+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2302716",
+      "nombre_completo": "Salgado Amador Manuel Salvador",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "04/10/2007",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302716.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/04/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2007",
+          "fecha_fin": "30/04/2008",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Presidente del CDE del PVEM en Baja California Sur."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Candidato a presidente municipal de La Paz, BCS."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Frente Nacional de Organizaciones y Ciudadanos (FNOC)en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE del Sindicato Único de Trabajadores al Servicio de los Poderes del Estado y Municipios de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del interior de la CNOP en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de relaciones nacionales e internacionales del CEN de la Federación de Sindicatos de Trabajadores al Servicio de los Gobiernos de los Estados y Municipios de la República Mexicana (FESTEGEM)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la comisión de asuntos políticos del Congreso del Trabajo (CT)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del consejo de vigilancia del CEN de la FESTEGEM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado sindical de la sección de la paz del área de la secretaría de finanzas del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general del movimiento nacional sindical en Baja California Sur."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Diputado local por el PRI en el Congreso de Baja California Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Director general en el gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Regidor VI por el PRI en el ayuntamiento de la Paz, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Visitador fiscal de la tesorería general en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Inspector fiscal y jefe de grupo de la tesorería general del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de auditoría fiscal de la tesorería general del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor técnico de la secretaría de finanzas en el gobierno de baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de presupuesto foráneo en el gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario particular del subsecretario de gobierno en Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300359",
+        "titular_nombre": "Erika Larregui Nagel ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T05:04:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300873",
+      "nombre_completo": "Valenzuela García María Gloria Guadalupe",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Alejo Valenzuela López",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300873.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios para el Adelanto de las Mujeres y la Equidad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Miembro adherente del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Miembro adherente del CDM del PAN en Sinaloa."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Participación en la fundación de la Red de Mujeres en apoyo de candidaturas del PAN."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Colaboradora en la campaña para presidente municipal."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Presidenta del sistema DIF en el municipio de Sinaloa, Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303223",
+        "fecha_extraccion": "2026-10-13T05:06:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300281",
+      "nombre_completo": "Vargas Landeros Gerardo Octavio",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Dolores Zamora Lugo",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300281.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "16/10/2007",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Precandidato a presidente municipal de Los Mochis."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Delegado Especial del CEN del PRI en varios estados de la República."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario Coordinador de Ligas Municipales de la Confederación Nacional de Organizaciones Populares (CNOP) en Sinaloa."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1990",
+          "experiencia": "Delegado del Comité Estatal en varios municipios de Sinaloa."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Coordinador Administrativo de la Oficialía Mayor del Comité Nacional de las Juventudes Priístas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputado federal suplente por el PRI en la LIII Legislatura"
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Gerente general de la Junta de Agua Potable y Alcantarillado del municipio de Ahome (JAPAMA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Gerente de la Junta Municipal de Agua Potable y Alcantarillado de Mazatlán (JUMAPAM)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Primer vocal del Consejo de Administración de la Comisión Municipal de Ahome (COMUN)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario Particular en la Dirección General de Gobierno de la Secretaría de Gobernación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector Administrativo del Desarrollo Urbano 3 Ríos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector General Instituto de Vivienda de Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302653",
+        "fecha_extraccion": "2026-10-13T05:06:31+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "2300043",
+      "nombre_completo": "Labastida Ochoa Francisco",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rosa Elena Millán Bueno",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300043.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma del Estado (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "23/10/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Candidato por el PRI a la presidencia de la República."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2006",
+          "experiencia": "Presidente del Centro de Estudios para el Desarrollo de México, A.C."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretario de Gobernación."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario de Agricultura, Ganadería y Desarrollo Rural."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Embajador de México en Portugal."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1992",
+          "experiencia": "Gobernador de Sinaloa."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Secretario de Energía, Minas e Industria Paraestatal."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Subsecretario de programación de la SPP."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1976",
+          "experiencia": "Coordinador de proyectos de la Dirección General del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del PRI."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Estatal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Director general de Caminos y Puentes Federales de Ingresos."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Subsecretario de programación de la SPP."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Director general de promoción fiscal de la Secretaría de Hacienda."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1975",
+          "experiencia": "Subdirector de inversiones públicas de la Secretaría de la Presidencia."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1972",
+          "experiencia": "Jefe del departamento de Bienestar Social de la Secretaría de la Presidencia."
+        },
+        {
+          "del_ano": "1966",
+          "al_ano": "1967",
+          "experiencia": "Jefe de la oficina de autotransportes de la SCT."
+        },
+        {
+          "del_ano": "1962",
+          "al_ano": null,
+          "experiencia": "Analista en la SHCP."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302435",
+        "fecha_extraccion": "2026-10-13T05:06:34+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300001",
+      "nombre_completo": "Leal Angulo Augusto César",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro Lucas Orozco Rubio",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300001.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Especial encargada de los festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/02/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "08/02/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Coordinador de la campaña de Manuel Espino a la presidencia nacional del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidato plurinominal a senador para la LVII legislatura."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1997",
+          "experiencia": "Presidente de la delegación estatal del PAN en Veracruz."
+        },
+        {
+          "del_ano": "1959",
+          "al_ano": "1959",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1952",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PAN en Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal y miembro de los comités estatales de Sinaloa y Veracruz en varios periodos."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Funcionario de la Secretaría de Educación Pública."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Asesor del presidente de la República"
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Embajador de México en Grecia y de forma concurrente ante las Repúblicas de Moldova y Chipre."
+        },
+        {
+          "del_ano": "1956",
+          "al_ano": "1956",
+          "experiencia": "Secretario de Desarrollo Económico de Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de vinculación entre los sectores público, privado y social de la Oficialía Mayor de la SEP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del equipo de Pensamiento y Discurso de la Presidencia de la República."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302397",
+        "fecha_extraccion": "2026-10-13T05:06:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300301",
+      "nombre_completo": "López Valdez Mario",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Sinaloa",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Margarita Villaescusa Rojo",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300301.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "11/03/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "11/03/2009",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Presidente municipal de Ahome, Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del deporte del CDM del PRI en Ahome."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas del CDM del PRI en Ahome."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión de Finanzas del Consejo Político Estatal del PRI en Sinaloa."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Secretario de Planeación y Desarrollo en Sinaloa."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Directivo de la Cruz Roja Mexicana."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del COPLADE en Sinaloa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302670",
+        "fecha_extraccion": "2026-10-13T05:06:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300207",
+      "nombre_completo": "Ruiz del Rincón Gabriela",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Sinaloa",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Jesús Ramón Rojo Mancillas",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300207.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "11/03/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité de Garantía de Acceso y Transparencia de la Información (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/04/2007",
+          "fecha_fin": "26/03/2009",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "08/02/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Miembro de la Comisión Permanente del Consejo Nacional del PAN."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2006",
+          "experiencia": "Tesorera del CEN del PAN."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Titular del órgano responsable de las finanzas de la coalición: Alianza por el Cambio, en el proceso electoral federal."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Coordinadora de diputados locales del CEN del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2002",
+          "experiencia": "Secretaria de administración y finanzas del CEN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2005",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2007",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Directora de artículos promociónales para las campañas federales."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Tesorera del CEN del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro del Área de Administración y Finanzas del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Oficial mayor en la campaña presidencial del PAN."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Directora de promociones económicas del CEN del PAN."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Tesorera del CEN del PAN."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Coordinadora administrativa de promociones económicas del CEN del PAN."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Oficial mayor en la campaña presidencial del PAN."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria ejecutiva del CEN del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Coordinadora administrativa de la oficina del Procurador General de la República."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputada federal en la LIX legislatura. Secretaria de la Comisión de Presupuesto y Cuenta Pública. Integrante del Comité del Centro de Estudios de las Finanzas Públicas. Integrante de la Comisión de Vigilancia de la Auditoría Superior de la Federación."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302596",
+        "fecha_extraccion": "2026-10-13T05:06:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2302674",
+      "nombre_completo": "Serrano Serrano María",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Sinaloa",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "07/12/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302674.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/04/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial encargada de los festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos, Segunda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma del Estado (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2006",
+          "fecha_fin": "28/04/2008",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretaria del Comité Directivo de la Unión de Usuarios del municipio de El Fuerte."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directiva y funcionaria en las Secretarías de Asuntos Electorales, General Adjunta y de Capacitación del CDE del PAN en Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesora jurídica en materia electoral del CDE del PAN en Sinaloa."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Diputada local en la LVII legislatura del Congreso de Sinaloa. Presidenta de la Comisión de Planeación y Desarrollo; subcoordinadora del grupo parlamentario del PAN."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora general de coordinación de la Subsecretaria de Políticas Públicas de la SRA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirectora de recursos humanos del municipio de Culiacán, Sinaloa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada estatal de INCA RURAL, Regional Occidente (Instituto Nacional de Capacitación del Sector Agropecuario, S. A., Regional de Occidente), con sede en Guadalajara."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora regional del Instituto Nacional de Capacitación del Sector Agropecuario, S.A. Regional de Occidente (INCA RURAL) en Guadalajara."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Auxiliar técnico del Oficial Mayor de la Comisión Electoral de Jalisco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300307",
+        "titular_nombre": "Jesús Heriberto Félix Guerra ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T05:06:41+00:00"
+      }
+    }
+  ]
 }

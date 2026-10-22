@@ -1,1225 +1,1225 @@
 {
-    "metadata": {
-        "entidad_id": 29,
-        "entidad_nombre": "Tlaxcala",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:52:48+00:00",
-        "total_diputados": 6,
-        "total_senadores": 3,
-        "total_general": 9
+  "metadata": {
+    "entidad_id": 29,
+    "entidad_nombre": "Tlaxcala",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:52:48+00:00",
+    "total_diputados": 6,
+    "total_senadores": 3,
+    "total_general": 9
+  },
+  "diputados": [
+    {
+      "referencia_sil": "1120",
+      "nombre_completo": "Cano Cortezano Juan de la Cruz Alberto",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Felipa Félix Tepal Coyotl",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1120.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretario de casilla durante la elección presidencial."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente municipal de Villa Vicente Guerrero, Tlaxcala."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador municipal del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Tlaxcala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PAN en Tlaxcala."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178597",
+        "fecha_extraccion": "2026-10-13T01:52:38+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1198",
+      "nombre_completo": "Cova Brindis Eréndira Olimpia",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "04/09/2001",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1198.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "1120",
-            "nombre_completo": "Cano Cortezano Juan de la Cruz Alberto",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Felipa Félix Tepal Coyotl ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1120.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de casilla durante la elección presidencial."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente municipal de Villa Vicente Guerrero, Tlaxcala."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador municipal del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Tlaxcala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PAN en Tlaxcala."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178597",
-                "fecha_extraccion": "2026-10-13T01:52:38+00:00"
-            }
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1198",
-            "nombre_completo": "Cova Brindis Eréndira Olimpia",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "04/09/2001",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1198.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Vicepresidenta por organizaciones civiles del organismo estatal de mujeres del PRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Integrante del Comité Estatal de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en el estado de Tlaxcala."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Subsecretaria de comercio exterior de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Delegada de la Liga de Comunidades Agrarias del PRI en los municipios de Españita y Muñoz de Domingo Arenas, Tlaxcala."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Subsecretaria de acción femenil de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector agrario."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Diputada local suplente del VI distrito de Tlaxcala con cabecera en Calpulalpan (nunca tomó protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1999",
-                    "experiencia": "Secretaria técnica del consejo estatal de población de Tlaxcala."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Regidora de Calpulalpan, Tlaxcala."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "04/09/2001",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "832",
-                "titular_nombre": "Héctor Israel Ortíz Ortíz ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:52:39+00:00"
-            }
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "831",
-            "nombre_completo": "García González Javier",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Teresa Cristina Hernández Sánchez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/831.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Distrito Federal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "15/12/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal del PRI para la campaña en las elecciones presidenciales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité juvenil municipal del PRI en Apizaco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de gestión social del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente Estatal de la CNOP."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado Local."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Juez de primera instancia en el ministerio público."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Notario público en los distritos de Juárez, Huamantla, Cuauhtémoc, Apizaco, Zaragoza, Zacatelco, Hidalgo y Tlaxcala."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178377",
-                "fecha_extraccion": "2026-10-13T01:52:41+00:00"
-            }
-        },
-        {
-            "referencia_sil": "833",
-            "nombre_completo": "Mendieta Cuapio Albino",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Tomás Juárez Muñoz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/833.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/08/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Pertenece al sector obrero del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Promotor del voto del PRI en Tlaxcala e Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la sección 13 del SNTE en Tlaxcala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del grupo de amistad con Ecuador."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaborador en la campaña del PRI para presidencia de la República."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178378",
-                "fecha_extraccion": "2026-10-13T01:52:43+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1133",
-            "nombre_completo": "Paredes Rangel Beatriz Elena",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Julio González Muñoz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1133.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Distrito Federal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Reforma del Estado (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Candidata a la presidencia del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora nacional de enlace del PRI con las organizaciones campesinas y del sector agropecuario."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora de la campaña del PRI para el precandidato a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretaria general del CEN del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Presidenta de la Comisión Nacional de Desarrollo Integral y Justicia Social para los pueblos indígenas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Secretaria general de la CNC."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1993",
-                    "experiencia": "Gobernadora constitucional de Tlaxcala."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Integrante del Consejo Consultivo del Instituto de Estudios Políticos, Económicos y Sociales del PRI."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Directora de promoción y gestoría del CEN del PRI."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Secretaria de acción educativa del CEN de la CNC."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Secretaria de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Tlaxcala."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Secretaria de acción femenil del CNC en Huamantla, Tlaxcala."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1980",
-                    "experiencia": "Secretaria de Planeación Familiar de la CNC."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1977",
-                    "experiencia": "Presidenta del consejo estatal en Tlaxcala del Movimiento Nacional de la Juventud Revolucionaría."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1973",
-                    "experiencia": "Secretaria de acción indigenista del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de las Delegaciones Mexicanas a la Cumbre Mundial de la Alimentación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Mesa Directiva del Senado de la República durante el primer periodo de sesiones ordinarias del segundo año de ejercicio de la LVII legislatura federal."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Senadora de la República por las LVI y LVII legislaturas. Presidenta de la comisión de RTC e integrante de la comisión de fortalecimiento del federalismo."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Diputada federal en la LIII legislatura. Presidenta de la Gran Comisión."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputada federal en la LI legislatura."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1977",
-                    "experiencia": "Diputada local en la XLVIII legislatura del Congreso de Tlaxcala. Presidenta de la Comisión Permanente."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretaria de desarrollo político en la SEGOB."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Subsecretaria de gobierno de la SEGOB."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Embajadora de México en Cuba."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Subsecretaria de la organización agraria de la Secretaría de la Reforma Agraria."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178608",
-                "fecha_extraccion": "2026-10-13T01:52:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1111",
-            "nombre_completo": "Peredo Aguilar Rosalía",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PT",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tlaxcala",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Fidel Gerardo Cruz González ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1111.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Especial (Isidore) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de este huracán. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/10/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Reforma del Estado (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "05/09/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "2000",
-                    "experiencia": "Asesora de la Coordinadora Nacional Obrera Campesina Independiente Revolucionaria."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Integrante de la dirección nacional de la Unión General de Obreros y Campesinos de México."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1985",
-                    "experiencia": "Asesora de la Coordinadora Nacional Plan de Ayala."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CEN del PT."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputada federal en la LIII legislatura postulada por el Partido Revolucionario de los Trabajadores."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178590",
-                "fecha_extraccion": "2026-10-13T01:52:48+00:00"
-            }
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1300",
-            "nombre_completo": "Cisneros Fernández Joaquín",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tlaxcala",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Guadalupe Sánchez Santiago ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1300.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario regional del CEN del PRI."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato del PRI a gobernador de Tlaxcala."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente municipal de Tlaxcala."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Secretario del comité seccional No. 7 en el municipio de Tlaxcala."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico del consejo de promoción del voto en la campaña para diputados locales."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la comisión nacional de atención a grupos marginados del CEN de la CNOP."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la reunión de fortalecimiento municipal en la campaña presidencial del PRI."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Presidente municipal de Tlaxcala."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Delegado de la scretaría de prensa y propaganda del CEN del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del CDE en el DF durante la campaña presidencial del PRI."
-                },
-                {
-                    "del_ano": "1959",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la comisión de agua potable en el municipio de Tlaxcala."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de turismo del gobierno de Tlaxcala."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Director del programa de desarrollo regional La Malitzin, Tlaxcala."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Director del fideicomiso para el desarrollo rural de Tlaxcala."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Presidente de la junta federal de agua potable."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Presidente ejecutivo de la junta de electrificación rural de Tlaxcala."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1976",
-                    "experiencia": "Subsecretario de desarrollo turístico ejidal de la SRA."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1975",
-                    "experiencia": "Director de desarrollo turístico ejidal de la SRA."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1972",
-                    "experiencia": "Subdirector general de fomento agrícola ejidal de la Secretaría de la Reforma Agraria (SRA)."
-                },
-                {
-                    "del_ano": "1966",
-                    "al_ano": "1970",
-                    "experiencia": "Delegado en Alvaro Obregón en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1964",
-                    "experiencia": "Jefe del departamento de relaciones públicas del ISSSTE."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1966",
-                    "experiencia": "Jefe de la oficina de control de calidad del ISSSTE."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178730",
-                "fecha_extraccion": "2026-10-13T01:52:48+00:00"
-            }
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Vicepresidenta por organizaciones civiles del organismo estatal de mujeres del PRI."
         },
         {
-            "referencia_sil": "1299",
-            "nombre_completo": "González Zarur Mariano",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tlaxcala",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Pascual Grande Sánchez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1299.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "25/03/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2003",
-                    "experiencia": "Presidente del CDE del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario regional de la III y IV circunscripción del CEN del PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Delegado general del CEN del PRI en varios estados."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente municipal de Apizaco, Tlaxcala."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Presidente del CDE del PRI en Tlaxcala."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional del CEN del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario de Finanzas y Presupuesto del Comité de Planeación para el Desarrollo de Tlaxcala (COPLADET)."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Integrante de la Comisión Permanente de tesoreros y funcionarios de Hacienda y coordinador de 1978 a1979."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario de finanzas y presupuesto, y tesorero general del gobierno de Tlaxcala."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178729",
-                "fecha_extraccion": "2026-10-13T01:52:48+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Integrante del Comité Estatal de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en el estado de Tlaxcala."
         },
         {
-            "referencia_sil": "1314",
-            "nombre_completo": "Ramírez García María del Carmen",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Tlaxcala",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Nicolás Teodoro Salas Pérez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1314.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Especial Encargada de la Conmemoración del Quincuagésimo Aniversario del Voto de la Mujer en México. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/01/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud y Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2003",
-                    "experiencia": "Funcionaria de la coordinadora nacional de la mujer del CEN del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de medios y propaganda del candidato del PRD al gobierno de Tlaxcala."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de medios y propaganda en las elecciones del PRD para diputado federal en Tlaxcala."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del patronato DIF estatal de Tlaxcala."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Consejera Electoral por el distrito 19 en la elección de jefe de Gobierno del DF."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinadora de información de la Dirección de Promoción Pecuaria en la Dirección General de Ganadería de la SAGDR."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinadora del programa de comunicación social en Teometitla en el municipio de Terrenate, Tlaxcala."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Jefa de Información y Relaciones Públicas en la SARH."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Jefa de información de la Comisión Nacional de Fruticultura (CONAFRUT)."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Reportera en la Secretaría de Agricultura y Recursos Hidráulicos (SARH)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178741",
-                "fecha_extraccion": "2026-10-13T01:52:48+00:00"
-            }
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Subsecretaria de comercio exterior de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Delegada de la Liga de Comunidades Agrarias del PRI en los municipios de Españita y Muñoz de Domingo Arenas, Tlaxcala."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Subsecretaria de acción femenil de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector agrario."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Diputada local suplente del VI distrito de Tlaxcala con cabecera en Calpulalpan (nunca tomó protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1999",
+          "experiencia": "Secretaria técnica del consejo estatal de población de Tlaxcala."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Regidora de Calpulalpan, Tlaxcala."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "04/09/2001",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "832",
+        "titular_nombre": "Héctor Israel Ortíz Ortíz ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:52:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "831",
+      "nombre_completo": "García González Javier",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Teresa Cristina Hernández Sánchez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/831.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Distrito Federal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "15/12/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Coordinador estatal del PRI para la campaña en las elecciones presidenciales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del comité juvenil municipal del PRI en Apizaco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de gestión social del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente Estatal de la CNOP."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado Local."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Juez de primera instancia en el ministerio público."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Notario público en los distritos de Juárez, Huamantla, Cuauhtémoc, Apizaco, Zaragoza, Zacatelco, Hidalgo y Tlaxcala."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178377",
+        "fecha_extraccion": "2026-10-13T01:52:41+00:00"
+      }
+    },
+    {
+      "referencia_sil": "833",
+      "nombre_completo": "Mendieta Cuapio Albino",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Tomás Juárez Muñoz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/833.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/08/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Pertenece al sector obrero del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Promotor del voto del PRI en Tlaxcala e Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la sección 13 del SNTE en Tlaxcala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del grupo de amistad con Ecuador."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaborador en la campaña del PRI para presidencia de la República."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178378",
+        "fecha_extraccion": "2026-10-13T01:52:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1133",
+      "nombre_completo": "Paredes Rangel Beatriz Elena",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Julio González Muñoz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1133.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Distrito Federal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Reforma del Estado (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Candidata a la presidencia del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora nacional de enlace del PRI con las organizaciones campesinas y del sector agropecuario."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora de la campaña del PRI para el precandidato a la presidencia de la República."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretaria general del CEN del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Presidenta de la Comisión Nacional de Desarrollo Integral y Justicia Social para los pueblos indígenas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Secretaria general de la CNC."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1993",
+          "experiencia": "Gobernadora constitucional de Tlaxcala."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Integrante del Consejo Consultivo del Instituto de Estudios Políticos, Económicos y Sociales del PRI."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Directora de promoción y gestoría del CEN del PRI."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Secretaria de acción educativa del CEN de la CNC."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Secretaria de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Tlaxcala."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Secretaria de acción femenil del CNC en Huamantla, Tlaxcala."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1980",
+          "experiencia": "Secretaria de Planeación Familiar de la CNC."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1977",
+          "experiencia": "Presidenta del consejo estatal en Tlaxcala del Movimiento Nacional de la Juventud Revolucionaría."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1973",
+          "experiencia": "Secretaria de acción indigenista del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de las Delegaciones Mexicanas a la Cumbre Mundial de la Alimentación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidenta de la Mesa Directiva del Senado de la República durante el primer periodo de sesiones ordinarias del segundo año de ejercicio de la LVII legislatura federal."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Senadora de la República por las LVI y LVII legislaturas. Presidenta de la comisión de RTC e integrante de la comisión de fortalecimiento del federalismo."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Diputada federal en la LIII legislatura. Presidenta de la Gran Comisión."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputada federal en la LI legislatura."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1977",
+          "experiencia": "Diputada local en la XLVIII legislatura del Congreso de Tlaxcala. Presidenta de la Comisión Permanente."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Subsecretaria de desarrollo político en la SEGOB."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Subsecretaria de gobierno de la SEGOB."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Embajadora de México en Cuba."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Subsecretaria de la organización agraria de la Secretaría de la Reforma Agraria."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178608",
+        "fecha_extraccion": "2026-10-13T01:52:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1111",
+      "nombre_completo": "Peredo Aguilar Rosalía",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PT",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tlaxcala",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Fidel Gerardo Cruz González",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1111.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Especial (Isidore) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de este huracán. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/10/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Reforma del Estado (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "05/09/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1988",
+          "al_ano": "2000",
+          "experiencia": "Asesora de la Coordinadora Nacional Obrera Campesina Independiente Revolucionaria."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Integrante de la dirección nacional de la Unión General de Obreros y Campesinos de México."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1985",
+          "experiencia": "Asesora de la Coordinadora Nacional Plan de Ayala."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CEN del PT."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputada federal en la LIII legislatura postulada por el Partido Revolucionario de los Trabajadores."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178590",
+        "fecha_extraccion": "2026-10-13T01:52:48+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1300",
+      "nombre_completo": "Cisneros Fernández Joaquín",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tlaxcala",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Guadalupe Sánchez Santiago",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1300.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario regional del CEN del PRI."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato del PRI a gobernador de Tlaxcala."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Presidente municipal de Tlaxcala."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Secretario del comité seccional No. 7 en el municipio de Tlaxcala."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Secretario técnico del consejo de promoción del voto en la campaña para diputados locales."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Integrante de la comisión nacional de atención a grupos marginados del CEN de la CNOP."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Coordinador de la reunión de fortalecimiento municipal en la campaña presidencial del PRI."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Presidente municipal de Tlaxcala."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Delegado de la scretaría de prensa y propaganda del CEN del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": null,
+          "experiencia": "Auxiliar del CDE en el DF durante la campaña presidencial del PRI."
+        },
+        {
+          "del_ano": "1959",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Presidente de la comisión de agua potable en el municipio de Tlaxcala."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1991",
+          "experiencia": "Secretario de turismo del gobierno de Tlaxcala."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Director del programa de desarrollo regional La Malitzin, Tlaxcala."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Director del fideicomiso para el desarrollo rural de Tlaxcala."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Presidente de la junta federal de agua potable."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Presidente ejecutivo de la junta de electrificación rural de Tlaxcala."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1976",
+          "experiencia": "Subsecretario de desarrollo turístico ejidal de la SRA."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1975",
+          "experiencia": "Director de desarrollo turístico ejidal de la SRA."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1972",
+          "experiencia": "Subdirector general de fomento agrícola ejidal de la Secretaría de la Reforma Agraria (SRA)."
+        },
+        {
+          "del_ano": "1966",
+          "al_ano": "1970",
+          "experiencia": "Delegado en Alvaro Obregón en el Distrito Federal."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": "1964",
+          "experiencia": "Jefe del departamento de relaciones públicas del ISSSTE."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": "1966",
+          "experiencia": "Jefe de la oficina de control de calidad del ISSSTE."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178730",
+        "fecha_extraccion": "2026-10-13T01:52:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1299",
+      "nombre_completo": "González Zarur Mariano",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tlaxcala",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Pascual Grande Sánchez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1299.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "25/03/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2003",
+          "experiencia": "Presidente del CDE del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Secretario regional de la III y IV circunscripción del CEN del PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Delegado general del CEN del PRI en varios estados."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Presidente municipal de Apizaco, Tlaxcala."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Presidente del CDE del PRI en Tlaxcala."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador regional del CEN del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1981",
+          "al_ano": "1987",
+          "experiencia": "Secretario de Finanzas y Presupuesto del Comité de Planeación para el Desarrollo de Tlaxcala (COPLADET)."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Integrante de la Comisión Permanente de tesoreros y funcionarios de Hacienda y coordinador de 1978 a1979."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1987",
+          "experiencia": "Secretario de finanzas y presupuesto, y tesorero general del gobierno de Tlaxcala."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178729",
+        "fecha_extraccion": "2026-10-13T01:52:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1314",
+      "nombre_completo": "Ramírez García María del Carmen",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Tlaxcala",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Nicolás Teodoro Salas Pérez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1314.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Especial Encargada de la Conmemoración del Quincuagésimo Aniversario del Voto de la Mujer en México. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/01/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud y Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Consejera nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2003",
+          "experiencia": "Funcionaria de la coordinadora nacional de la mujer del CEN del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Coordinadora de medios y propaganda del candidato del PRD al gobierno de Tlaxcala."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Coordinadora de medios y propaganda en las elecciones del PRD para diputado federal en Tlaxcala."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Presidenta del patronato DIF estatal de Tlaxcala."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Consejera Electoral por el distrito 19 en la elección de jefe de Gobierno del DF."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Coordinadora de información de la Dirección de Promoción Pecuaria en la Dirección General de Ganadería de la SAGDR."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Coordinadora del programa de comunicación social en Teometitla en el municipio de Terrenate, Tlaxcala."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Jefa de Información y Relaciones Públicas en la SARH."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Jefa de información de la Comisión Nacional de Fruticultura (CONAFRUT)."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Reportera en la Secretaría de Agricultura y Recursos Hidráulicos (SARH)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178741",
+        "fecha_extraccion": "2026-10-13T01:52:48+00:00"
+      }
+    }
+  ]
 }

@@ -1,1818 +1,1818 @@
 {
-    "metadata": {
-        "entidad_id": 10,
-        "entidad_nombre": "Durango",
-        "legislatura": 66,
-        "generado_en": "2026-10-09T16:49:30+02:00",
-        "total_diputados": 9,
-        "total_senadores": 3,
-        "total_general": 12
+  "metadata": {
+    "entidad_id": 10,
+    "entidad_nombre": "Durango",
+    "legislatura": 66,
+    "generado_en": "2026-10-09T16:49:30+02:00",
+    "total_diputados": 9,
+    "total_senadores": 3,
+    "total_general": 12
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9228516",
+      "nombre_completo": "Del Valle Ramírez Alejandra",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "25/02/2025",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Contaduría",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228516.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228516.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "21/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Candidata a diputada local por el X Distrito."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputada en el Congreso de Durango LXIX legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2019",
+          "al_ano": "2021",
+          "experiencia": "Directora de atención ciudadana en el ayuntamiento de Gómez Palacio."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2019",
+          "experiencia": "Coordinadora municipal de activismo."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Contaduría y Administración por la Universidad Autónoma de Coahuila."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9228515",
+        "titular_nombre": "Betzabé Martínez Arango ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/AlejandraDelValleGP/?locale=es_LA",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/aledelvallex?mx=2",
+          "color": "#000000"
+        }
+      ]
     },
-    "diputados": [
+    {
+      "referencia_sil": "9228738",
+      "nombre_completo": "Flores Elizondo Patricia",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "MC",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Martha Palencia Núñez",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1968-02-06",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ciencias de la Comunicación",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228738.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228738.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9228516",
-            "nombre_completo": "Del Valle Ramírez Alejandra",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "25/02/2025",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Contaduría",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228516.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228516.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "21/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Candidata a diputada local por el X Distrito."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputada en el Congreso de Durango LXIX legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2021",
-                    "experiencia": "Directora de atención ciudadana en el ayuntamiento de Gómez Palacio."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2019",
-                    "experiencia": "Coordinadora municipal de activismo."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Contaduría y Administración por la Universidad Autónoma de Coahuila."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9228515",
-                "titular_nombre": "Betzabé Martínez Arango ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/AlejandraDelValleGP/?locale=es_LA",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/aledelvallex?mx=2",
-                    "color": "#000000"
-                }
-            ]
+          "comision": "De Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228738",
-            "nombre_completo": "Flores Elizondo Patricia",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "MC",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Martha Palencia Núñez ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1968-02-06",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ciencias de la Comunicación",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228738.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228738.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "De Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2023",
-                    "al_ano": "2024",
-                    "experiencia": "Delegada nacional de MC en Durango."
-                },
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Candidata de MC a la gubernatura de Durango."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Jefa de Oficina de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Directora General de Administración de Presidencia de la República."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Encargada del equipo de transición presidencial."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Secretaria General de la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretaria Técnica de la Comisión de Régimen Interno y Concertación Política en la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Secretaria Técnica de la Comisión de Concordia y Pacificación encargada de las negociaciones entre el EZLN y el gobierno federal."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Mercadotecnia Política."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Derecho Parlamentario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Políticas Públicas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Políticas Públicas con perspectiva de género."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1993",
-                    "experiencia": "Licenciatura en Ciencias de la Comunicación por la Universidad de Monterrey."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228739",
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/pfloreselizondo",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/Paty_FloresE",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/patyfloreselizond",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228513",
-            "nombre_completo": "García Vidaña Martha Olivia",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Marina Medrano Ávila ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228513.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228513.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transparencia y Anticorrupción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/03/2025",
-                    "fecha_fin": "14/03/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinadora regional de Morena en Durango."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Presidenta del Comité de Caminos de Tarahumaras y Tepehuanes."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2024",
-                    "experiencia": "Representante de las mujeres comuneras y ejidatarias en la Unión de Ejidos de Santiago Papasquiaro, Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Diputada federal en la LXIV Legislatura. Secretaria de la Comisión de Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales. Integrante de las comisiones de Infraestructura; y, Pueblos Indígenas."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1993",
-                    "experiencia": "Licenciatura en Ingeniería Industrial en Producción por el Instituto Tecnológico de Durango."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228514",
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MarthaOliviaDgo/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/MarthaOliviaDgo/",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marthaoliviadgo/",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228519",
-            "nombre_completo": "Jiménez Delgado Silvia Patricia",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Margarita Sofía Durán Rodarte ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Contador Público",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228519.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228519.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del PAN en Durango."
-                },
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2022",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2022",
-                    "experiencia": "Consejera estatal del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputada local en la LXIX Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Regidora de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "1987",
-                    "experiencia": "Licenciatura como Contador Público por la Universidad Juárez del Estado de Durango."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228520",
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/PatyJimenezD",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/PatyjimenezD",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/PatyJimenezD",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9229219",
-            "nombre_completo": "Moreno De Haro Juan",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ciencias Políticas y Administración Pública",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229219.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229219.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Red Jóvenes X México del PRI en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Juventud Popular del PRI en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal y municipal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Instituto Municipal de la Juventud de Gómez Palacio, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Ciencias Políticas y Administración Pública."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9229389",
-                "titular_nombre": "- - -- ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/JuanMorenodeHaroGP/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/juanmoreno_haro",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/juanmorenoharo/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9229052",
-            "nombre_completo": "Pérez Herrera Verónica",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Cinthia Denisse Garza Urquidy ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1971-10-21",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Maestría",
-            "preparacion_academica": "Administración Pública",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229052.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229052.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transparencia y Anticorrupción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del Comité Directivo Estatal (CDE) del PAN en Durango."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinadora de la campaña del candidato del PAN a la Presidencia de la República en Durango."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2014",
-                    "experiencia": "Integrante de la Comisión Nacional de Elecciones del Comité Ejecutivo Nacional del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora de la campaña interna para la candidatura del PAN a la Presidencia de la República."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Directora nacional de promoción política de la mujer del PAN."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora de la campaña del candidato del PAN a la Presidencia de la República en Durango."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante del CDE del PAN en Durango."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretaria general de administración y finanzas del PAN."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Integrante del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal vitalicia del PAN en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de finanzas del CDE del PAN en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de acción juvenil del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputada local en la LXIX Legislatura del Congreso de Durango. Presidenta de las comisiones de Salud Pública; y, Editorial y Biblioteca. Secretaria de las comisiones de Hacienda, Presupuesto y Cuenta Pública; de Derechos Humanos; de Régimen, Reglamento y Prácticas Parlamentarias; de Asuntos Familiares y de los Derechos de Niñas, Niños y Adolescentes; y, De Igualdad y Género. Vocal de las comisiones de Puntos Constitucionales; de Justicia; de Cultura; y, de Vigilancia de la Entidad Superior del Estado."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputada federal suplente en la LIX Legislatura. Integrante de las comisiones de Juventud y Deporte; y, de Vivienda."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2008",
-                    "experiencia": "Directora General Adjunta en el Instituto Nacional de Migración (INM)."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Directora de Área en el INM."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2005",
-                    "experiencia": "Directora de Operación de la Coordinación de Giras Presidenciales de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Secretaria Técnica en el Congreso de la Unión."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirectora de Área encargada del proceso de transición de la Presidencia de la República."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestría en Administración Pública por la UJED."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestría en Estrategias Anticorrupción y Estado de Derecho por el Instituto Nacional de Ciencias Penales (Inacipe) y la Universidad de Salamanca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado en Políticas Públicas por la Universidad Iberoamericana."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado en Federalismo, Administración Pública Estatal y Municipal por la UNAM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado en Transparencia y Acceso a la Información por el Centro de Investigación y Docencia Económicas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2016",
-                    "experiencia": "Licenciatura como Contadora Pública por la Universidad Juárez del Estado de Durango."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229053",
-                "fecha_extraccion": "2026-10-09T16:49:11+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/VeroPerezHerr/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/VeroPerezHerr",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/veroperezherr/",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9228517",
-            "nombre_completo": "Villarreal Solís Gerardo",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jaqueline Del Río López ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ingeniería Industrial",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228517.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228517.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2024",
-                    "experiencia": "Secretario general del Comité Directivo Estatal del PVEM en Durango."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2024",
-                    "experiencia": "Delegado nacional del PVEM en Durango."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Candidato a diputación federal."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Presidente del Comité Directivo Municipal del PVEM en Guadalupe Victoria, Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Diputado local en la LXVIII Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LXVII Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Síndico de Guadalupe Victoria, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Ingeniería Industrial por la Universidad Autónoma de la Laguna."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/06/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "23/06/2025",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228518",
-                "fecha_extraccion": "2026-10-09T16:49:14+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GerardoVillarrealDgo/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/gerardo_vs",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gerardo_v_s/",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9228794",
-            "nombre_completo": "Vitela Rodríguez Alma Marina",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María de Lourdes García Garay ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": "alma.vi",
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Técnico",
-            "preparacion_academica": "Enfermería",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228794.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228794.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Candidata a la gubernatura de Durango."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Secretaria general del PRI en Durango."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Dirigente del Organismo Nacional de Mujeres Priístas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del Consejo Estatal de Morena en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política, nacional, estatal y municipal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada sindical de guardería del ISSSTE en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada Sindical de la Clínica Hospital del ISSSTE sección XV en Gómez Palacio Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada sindical de acción femenil en el Sindicato de la Clínica Hospital del ISSSTE."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Diputada federal en la LXIV Legislatura. Secretaria de la Comisión de Salud. Integrante en las comisiones de Ganadería; y, de Relaciones Exteriores."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputada federal en la LXII Legislatura. Secretaria de la Comisión de Salud. Integrante de las comisiones de Desarrollo Metropolitano; de Seguridad Social; y, de Programas Sociales."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Diputada local en la LXIV Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2021",
-                    "experiencia": "Presidenta municipal de Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Regidora de Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Enfermera del ISSSTE en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretaria de la Secretaría de Desarrollo Social de Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Enfermera del IMSS en Gómez Palacio Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1984",
-                    "experiencia": "Técnica en Enfermería por el Instituto de Educación Media y Superior Ma. Esther."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228795",
-                "fecha_extraccion": "2026-10-09T16:49:16+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MarinaVitelaDgo",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/MarinaVitela_",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marinavitelagp",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9229200",
-            "nombre_completo": "Yáñez Cuéllar Arturo",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Enrique Díaz López ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Derecho",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229200.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229200.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/09/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2025",
-                    "fecha_fin": "09/09/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Transparencia y Anticorrupción (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2024",
-                    "al_ano": null,
-                    "experiencia": "Secretario adjunto a la presidencia del Comité Ejecutivo Nacional (CEN) del PRI."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Directivo Estatal (CDE) del PRI en Durango."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "2020",
-                    "al_ano": null,
-                    "experiencia": "Secretario regional del CEN del PRI en Durango, Coahuila y Zacatecas."
-                },
-                {
-                    "del_ano": "2019",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia municipal de Durango."
-                },
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal de Movimiento Territorial del PRI en Durango."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Secretario adjunto a la presidencia del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Presidente estatal del Frente Juvenil del PRI en Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local en la LXIII Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Desarrollo Social de Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Secretario del Trabajo de Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Encargado del despacho del presidente municipal de Durango."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Regidor de Durango, Durango."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Regidor de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Derecho por la Universidad Juárez del Estado de Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestría en Derecho Constitucional. (Trunca)"
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229201",
-                "fecha_extraccion": "2026-10-09T16:49:19+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Yanez.Cuellar.Arturo/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/yanez_arturo",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/arturoyanez33/",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9228922",
-            "nombre_completo": "Campuzano González Gina Gerardina",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Salomé Elyd Sáenz ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Derecho",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228922.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228922.jpg",
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hídricos e Infraestructura Hidráulica (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, África (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reordenamiento Urbano y Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputada federal en la LXV Legislatura. Secretaria de la Comisión de Vivienda. Integrante de las comisiones de Hacienda y Crédito Público; y, Infraestructura."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Diputada local en la LXV Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Regidora de Durango, Durango."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Regidora de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "2023",
-                    "experiencia": "Licenciatura en Derecho por la Universidad Tec Milenio."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "31/10/2024",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "29/10/2024",
-                    "fecha_fin": "31/10/2024",
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228923",
-                "fecha_extraccion": "2026-10-09T16:49:24+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ginacampuzanodgo/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/Gina_campuzano",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/Ginacampuzanog",
-                    "color": "#e4405f"
-                }
-            ]
+          "del_ano": "2023",
+          "al_ano": "2024",
+          "experiencia": "Delegada nacional de MC en Durango."
         },
         {
-            "referencia_sil": "9228916",
-            "nombre_completo": "González Yáñez Alejandro",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Isidro Bertín Arias Medrano ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1956-09-09",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Economía",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228916.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228916.jpg",
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Infraestructura Ferroviaria (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "13/12/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hídricos e Infraestructura Hidráulica (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "26/11/2024",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "03/12/2024",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "03/09/2024",
-                    "fecha_fin": "29/09/2026",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Director del sistema nacional de escuelas de cuadros del PT."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato a gobernador de Durango por el PT."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Cofundador del PT."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Cofundador de la Coordinadora Nacional del Movimiento Urbano Popular."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Cofundador de la Organización de Izquierda Revolucionaria Linea de Masas."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Fundador del Comité de Defensa Popular en Vivienda de Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2024",
-                    "experiencia": "Senador en la LXIV y LXV legislaturas. Integrante de la Junta de Coordinación Política. Integrante de las comisiones Bicamaral para la evaluación y seguimiento la fuerza armada permanente en tareas de seguridad pública; y, Medalla Belisario Domínguez."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2012",
-                    "experiencia": "Senador en la LX y XI legislatura. Integrante de la Junta de Coordinación Política. Integrante de las Comisiones de Administración; Seguridad Pública; Especial para el análisis y Seguimiento de las Finanzas Públicas; y, Especial encargada de los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana; de Concordia y Pacificación; y, del Comité de Información."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal por el PT en la LIX legislatura. Integrante de la Junta de Coordinación Política. Secretario de las comisiones de Presupuesto y Cuenta Pública; Especial para la Reforma del Estado; y, Relaciones Exteriores."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Diputado federal en la LVIII legislatura. Coordinador del Grupo Parlamentario del PT. Secretario de la Comisión de Programación, Presupuesto y Cuenta Pública. Integrante de las comisiones de Programación, Presupuesto, y Cuenta Pública; Fortalecimiento Municipal; Hacienda y Crédito Público; y, Vigilancia de la Contaduría Mayor de Hacienda."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Diputado local en la LVIII Legislatura del Congreso de Durango. Coordinador del Grupo Parlamentario del PT."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente Municipal de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Economía por la UNAM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Profesor Normalista por la Escuela Normal Superior de Durango."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228917",
-                "fecha_extraccion": "2026-10-09T16:49:27+02:00"
-            },
-            "redes_sociales": []
-        },
-        {
-            "referencia_sil": "9228918",
-            "nombre_completo": "Valdez Martínez Lilia Margarita",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María de los Ángeles Rojas Rivera ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228918.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228918.jpg",
-            "total_comisiones": 9,
-            "comisiones": [
-                {
-                    "comision": "Economía Circular y Desarrollo Empresarial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "10/12/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Económico y al Emprendimiento (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para revisar y vigilar el proceso de quiebra de Altos Hornos de México, S. A. B. de C. V. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/12/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa de los Consumidores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/11/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "03/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2017",
-                    "experiencia": "Candidata a la Secretaría General del Sindicato del Personal Académico de la Universidad Juárez (SPAUJED)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Partido Socialista Unificado de México (PSUM)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de las Juventudes Populares Socialistas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del sindicato del IMSS."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Frente por la Defensa de la Autonomía Universitaria."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable de la Secretaría de Organización y de Prensa del SPAUJED."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2024",
-                    "experiencia": "Senadora de la República en la LXIV y LXV legislatura. Secretaria de la Mesa Directiva. Presidenta de la Comisión de Salud. Secretaria de la Comisión de los Derechos de la Niñez y la Adolescencia. Integrante de las comisiones de Salud; Seguridad Social; Radio, Televisión y Cinematografía; y, Estudios Legislativos, Primera."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Médico Familiar en las Unidades de Medicina Familiar 44 y 49 del IMSS."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1982",
-                    "experiencia": "Enfermera en el IMSS, delegación Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Médico en la Clínica del Hospital General de Zona N.1 del IMSS en Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "1981",
-                    "experiencia": "Licenciatura como Médico Cirujano por la Universidad Juárez del Estado de Durango."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228919",
-                "fecha_extraccion": "2026-10-09T16:49:30+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/DraMargaritaValdez/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/maguevalmtz",
-                    "color": "#000000"
-                }
-            ]
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Candidata de MC a la gubernatura de Durango."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Jefa de Oficina de la Presidencia de la República."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Directora General de Administración de Presidencia de la República."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Encargada del equipo de transición presidencial."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Secretaria General de la Cámara de Diputados."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretaria Técnica de la Comisión de Régimen Interno y Concertación Política en la Cámara de Diputados."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Secretaria Técnica de la Comisión de Concordia y Pacificación encargada de las negociaciones entre el EZLN y el gobierno federal."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado de Mercadotecnia Política."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado de Derecho Parlamentario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado de Políticas Públicas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado de Políticas Públicas con perspectiva de género."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1993",
+          "experiencia": "Licenciatura en Ciencias de la Comunicación por la Universidad de Monterrey."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228739",
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/pfloreselizondo",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/Paty_FloresE",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/patyfloreselizond",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228513",
+      "nombre_completo": "García Vidaña Martha Olivia",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Marina Medrano Ávila",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228513.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228513.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transparencia y Anticorrupción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/03/2025",
+          "fecha_fin": "14/03/2025",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Coordinadora regional de Morena en Durango."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Presidenta del Comité de Caminos de Tarahumaras y Tepehuanes."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2024",
+          "experiencia": "Representante de las mujeres comuneras y ejidatarias en la Unión de Ejidos de Santiago Papasquiaro, Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Diputada federal en la LXIV Legislatura. Secretaria de la Comisión de Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales. Integrante de las comisiones de Infraestructura; y, Pueblos Indígenas."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1988",
+          "al_ano": "1993",
+          "experiencia": "Licenciatura en Ingeniería Industrial en Producción por el Instituto Tecnológico de Durango."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228514",
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MarthaOliviaDgo/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/MarthaOliviaDgo/",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marthaoliviadgo/",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228519",
+      "nombre_completo": "Jiménez Delgado Silvia Patricia",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Margarita Sofía Durán Rodarte",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Contador Público",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228519.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228519.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2019",
+          "al_ano": null,
+          "experiencia": "Secretaria general del PAN en Durango."
+        },
+        {
+          "del_ano": "2019",
+          "al_ano": "2022",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2022",
+          "experiencia": "Consejera estatal del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputada local en la LXIX Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Regidora de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "1987",
+          "experiencia": "Licenciatura como Contador Público por la Universidad Juárez del Estado de Durango."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228520",
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/PatyJimenezD",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/PatyjimenezD",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/PatyJimenezD",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9229219",
+      "nombre_completo": "Moreno De Haro Juan",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ciencias Políticas y Administración Pública",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229219.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229219.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2020",
+          "al_ano": null,
+          "experiencia": "Presidente de la Red Jóvenes X México del PRI en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Juventud Popular del PRI en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal y municipal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Instituto Municipal de la Juventud de Gómez Palacio, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Ciencias Políticas y Administración Pública."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9229389",
+        "titular_nombre": "- - -- ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/JuanMorenodeHaroGP/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/juanmoreno_haro",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/juanmorenoharo/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9229052",
+      "nombre_completo": "Pérez Herrera Verónica",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Cinthia Denisse Garza Urquidy",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1971-10-21",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Administración Pública",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229052.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229052.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transparencia y Anticorrupción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2020",
+          "al_ano": null,
+          "experiencia": "Presidenta del Comité Directivo Estatal (CDE) del PAN en Durango."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2018",
+          "experiencia": "Coordinadora de la campaña del candidato del PAN a la Presidencia de la República en Durango."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2014",
+          "experiencia": "Integrante de la Comisión Nacional de Elecciones del Comité Ejecutivo Nacional del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora de la campaña interna para la candidatura del PAN a la Presidencia de la República."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Directora nacional de promoción política de la mujer del PAN."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora de la campaña del candidato del PAN a la Presidencia de la República en Durango."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Integrante del CDE del PAN en Durango."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretaria general de administración y finanzas del PAN."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Integrante del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estatal vitalicia del PAN en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de finanzas del CDE del PAN en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de acción juvenil del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputada local en la LXIX Legislatura del Congreso de Durango. Presidenta de las comisiones de Salud Pública; y, Editorial y Biblioteca. Secretaria de las comisiones de Hacienda, Presupuesto y Cuenta Pública; de Derechos Humanos; de Régimen, Reglamento y Prácticas Parlamentarias; de Asuntos Familiares y de los Derechos de Niñas, Niños y Adolescentes; y, De Igualdad y Género. Vocal de las comisiones de Puntos Constitucionales; de Justicia; de Cultura; y, de Vigilancia de la Entidad Superior del Estado."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputada federal suplente en la LIX Legislatura. Integrante de las comisiones de Juventud y Deporte; y, de Vivienda."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2008",
+          "experiencia": "Directora General Adjunta en el Instituto Nacional de Migración (INM)."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Directora de Área en el INM."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2005",
+          "experiencia": "Directora de Operación de la Coordinación de Giras Presidenciales de la Presidencia de la República."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Secretaria Técnica en el Congreso de la Unión."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirectora de Área encargada del proceso de transición de la Presidencia de la República."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestría en Administración Pública por la UJED."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestría en Estrategias Anticorrupción y Estado de Derecho por el Instituto Nacional de Ciencias Penales (Inacipe) y la Universidad de Salamanca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado en Políticas Públicas por la Universidad Iberoamericana."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado en Federalismo, Administración Pública Estatal y Municipal por la UNAM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado en Transparencia y Acceso a la Información por el Centro de Investigación y Docencia Económicas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2016",
+          "experiencia": "Licenciatura como Contadora Pública por la Universidad Juárez del Estado de Durango."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229053",
+        "fecha_extraccion": "2026-10-09T16:49:11+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/VeroPerezHerr/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/VeroPerezHerr",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/veroperezherr/",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228517",
+      "nombre_completo": "Villarreal Solís Gerardo",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jaqueline Del Río López",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ingeniería Industrial",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228517.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228517.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2024",
+          "experiencia": "Secretario general del Comité Directivo Estatal del PVEM en Durango."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2024",
+          "experiencia": "Delegado nacional del PVEM en Durango."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Candidato a diputación federal."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Presidente del Comité Directivo Municipal del PVEM en Guadalupe Victoria, Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Diputado local en la LXVIII Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LXVII Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Síndico de Guadalupe Victoria, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Ingeniería Industrial por la Universidad Autónoma de la Laguna."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/06/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "23/06/2025",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228518",
+        "fecha_extraccion": "2026-10-09T16:49:14+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GerardoVillarrealDgo/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/gerardo_vs",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gerardo_v_s/",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228794",
+      "nombre_completo": "Vitela Rodríguez Alma Marina",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María de Lourdes García Garay",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": "alma.vi",
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Técnico",
+      "preparacion_academica": "Enfermería",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228794.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228794.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Candidata a la gubernatura de Durango."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Secretaria general del PRI en Durango."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Dirigente del Organismo Nacional de Mujeres Priístas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del Consejo Estatal de Morena en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política, nacional, estatal y municipal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada sindical de guardería del ISSSTE en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada Sindical de la Clínica Hospital del ISSSTE sección XV en Gómez Palacio Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada sindical de acción femenil en el Sindicato de la Clínica Hospital del ISSSTE."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Diputada federal en la LXIV Legislatura. Secretaria de la Comisión de Salud. Integrante en las comisiones de Ganadería; y, de Relaciones Exteriores."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputada federal en la LXII Legislatura. Secretaria de la Comisión de Salud. Integrante de las comisiones de Desarrollo Metropolitano; de Seguridad Social; y, de Programas Sociales."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Diputada local en la LXIV Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2019",
+          "al_ano": "2021",
+          "experiencia": "Presidenta municipal de Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Regidora de Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Enfermera del ISSSTE en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretaria de la Secretaría de Desarrollo Social de Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Enfermera del IMSS en Gómez Palacio Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1980",
+          "al_ano": "1984",
+          "experiencia": "Técnica en Enfermería por el Instituto de Educación Media y Superior Ma. Esther."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228795",
+        "fecha_extraccion": "2026-10-09T16:49:16+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MarinaVitelaDgo",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/MarinaVitela_",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marinavitelagp",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9229200",
+      "nombre_completo": "Yáñez Cuéllar Arturo",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Enrique Díaz López",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229200.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229200.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/09/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2025",
+          "fecha_fin": "09/09/2025",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Transparencia y Anticorrupción (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2024",
+          "al_ano": null,
+          "experiencia": "Secretario adjunto a la presidencia del Comité Ejecutivo Nacional (CEN) del PRI."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Directivo Estatal (CDE) del PRI en Durango."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "2020",
+          "al_ano": null,
+          "experiencia": "Secretario regional del CEN del PRI en Durango, Coahuila y Zacatecas."
+        },
+        {
+          "del_ano": "2019",
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia municipal de Durango."
+        },
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Dirigente estatal de Movimiento Territorial del PRI en Durango."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Secretario adjunto a la presidencia del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Presidente estatal del Frente Juvenil del PRI en Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Diputado local en la LXIII Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Secretario de Desarrollo Social de Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Secretario del Trabajo de Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Encargado del despacho del presidente municipal de Durango."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Regidor de Durango, Durango."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Regidor de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Derecho por la Universidad Juárez del Estado de Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestría en Derecho Constitucional. (Trunca)"
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229201",
+        "fecha_extraccion": "2026-10-09T16:49:19+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Yanez.Cuellar.Arturo/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/yanez_arturo",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/arturoyanez33/",
+          "color": "#e4405f"
+        }
+      ]
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9228922",
+      "nombre_completo": "Campuzano González Gina Gerardina",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Salomé Elyd Sáenz",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228922.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228922.jpg",
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hídricos e Infraestructura Hidráulica (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, África (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reordenamiento Urbano y Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputada federal en la LXV Legislatura. Secretaria de la Comisión de Vivienda. Integrante de las comisiones de Hacienda y Crédito Público; y, Infraestructura."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputada local en la LXVII Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Diputada local en la LXV Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Regidora de Durango, Durango."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Regidora de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "2023",
+          "experiencia": "Licenciatura en Derecho por la Universidad Tec Milenio."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "31/10/2024",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "29/10/2024",
+          "fecha_fin": "31/10/2024",
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228923",
+        "fecha_extraccion": "2026-10-09T16:49:24+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ginacampuzanodgo/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/Gina_campuzano",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/Ginacampuzanog",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228916",
+      "nombre_completo": "González Yáñez Alejandro",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Isidro Bertín Arias Medrano",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1956-09-09",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Economía",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228916.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228916.jpg",
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Infraestructura Ferroviaria (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "13/12/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hídricos e Infraestructura Hidráulica (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "26/11/2024",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "03/12/2024",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "03/09/2024",
+          "fecha_fin": "29/09/2026",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Director del sistema nacional de escuelas de cuadros del PT."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato a gobernador de Durango por el PT."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Cofundador del PT."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Cofundador de la Coordinadora Nacional del Movimiento Urbano Popular."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Cofundador de la Organización de Izquierda Revolucionaria Linea de Masas."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Fundador del Comité de Defensa Popular en Vivienda de Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2024",
+          "experiencia": "Senador en la LXIV y LXV legislaturas. Integrante de la Junta de Coordinación Política. Integrante de las comisiones Bicamaral para la evaluación y seguimiento la fuerza armada permanente en tareas de seguridad pública; y, Medalla Belisario Domínguez."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2012",
+          "experiencia": "Senador en la LX y XI legislatura. Integrante de la Junta de Coordinación Política. Integrante de las Comisiones de Administración; Seguridad Pública; Especial para el análisis y Seguimiento de las Finanzas Públicas; y, Especial encargada de los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución Mexicana; de Concordia y Pacificación; y, del Comité de Información."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal por el PT en la LIX legislatura. Integrante de la Junta de Coordinación Política. Secretario de las comisiones de Presupuesto y Cuenta Pública; Especial para la Reforma del Estado; y, Relaciones Exteriores."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Diputado federal en la LVIII legislatura. Coordinador del Grupo Parlamentario del PT. Secretario de la Comisión de Programación, Presupuesto y Cuenta Pública. Integrante de las comisiones de Programación, Presupuesto, y Cuenta Pública; Fortalecimiento Municipal; Hacienda y Crédito Público; y, Vigilancia de la Contaduría Mayor de Hacienda."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Diputado local en la LVIII Legislatura del Congreso de Durango. Coordinador del Grupo Parlamentario del PT."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Presidente Municipal de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Economía por la UNAM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Profesor Normalista por la Escuela Normal Superior de Durango."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228917",
+        "fecha_extraccion": "2026-10-09T16:49:27+02:00"
+      },
+      "redes_sociales": []
+    },
+    {
+      "referencia_sil": "9228918",
+      "nombre_completo": "Valdez Martínez Lilia Margarita",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María de los Ángeles Rojas Rivera",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228918.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228918.jpg",
+      "total_comisiones": 9,
+      "comisiones": [
+        {
+          "comision": "Economía Circular y Desarrollo Empresarial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "10/12/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Económico y al Emprendimiento (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para revisar y vigilar el proceso de quiebra de Altos Hornos de México, S. A. B. de C. V. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/12/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa de los Consumidores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/11/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "03/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2017",
+          "experiencia": "Candidata a la Secretaría General del Sindicato del Personal Académico de la Universidad Juárez (SPAUJED)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Partido Socialista Unificado de México (PSUM)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de las Juventudes Populares Socialistas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del sindicato del IMSS."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Frente por la Defensa de la Autonomía Universitaria."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable de la Secretaría de Organización y de Prensa del SPAUJED."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2024",
+          "experiencia": "Senadora de la República en la LXIV y LXV legislatura. Secretaria de la Mesa Directiva. Presidenta de la Comisión de Salud. Secretaria de la Comisión de los Derechos de la Niñez y la Adolescencia. Integrante de las comisiones de Salud; Seguridad Social; Radio, Televisión y Cinematografía; y, Estudios Legislativos, Primera."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Médico Familiar en las Unidades de Medicina Familiar 44 y 49 del IMSS."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1982",
+          "experiencia": "Enfermera en el IMSS, delegación Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Médico en la Clínica del Hospital General de Zona N.1 del IMSS en Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "1981",
+          "experiencia": "Licenciatura como Médico Cirujano por la Universidad Juárez del Estado de Durango."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228919",
+        "fecha_extraccion": "2026-10-09T16:49:30+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/DraMargaritaValdez/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/maguevalmtz",
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
 }

@@ -1,1866 +1,1866 @@
 {
-    "metadata": {
-        "entidad_id": 6,
-        "entidad_nombre": "Colima",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T00:55:20+00:00",
-        "total_diputados": 11,
-        "total_senadores": 4,
-        "total_general": 15
+  "metadata": {
+    "entidad_id": 6,
+    "entidad_nombre": "Colima",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T00:55:20+00:00",
+    "total_diputados": 11,
+    "total_senadores": 4,
+    "total_general": 15
+  },
+  "diputados": [
+    {
+      "referencia_sil": "733",
+      "nombre_completo": "Borunda Zaragoza José Carlos",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Victoria Álvarez Chabre",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/733.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a los Fondos Aportados por los Trabajadores Mexicanos Braceros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "14/04/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Secretario particular del candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Integrante del equipo de transición de la presidencia municipal de Ciudad Juárez en el área de fomento económico."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Capacitador y miembro del Consejo Técnico del Instituto de Formación Cívica del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Coordinador general de la oficina de asuntos legislativos y gestoría del PAN en la LIX legislatura del Congreso de Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178298",
+        "fecha_extraccion": "2026-10-13T00:54:55+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1081",
+      "nombre_completo": "Duarte Jáquez César Horacio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Margarita Bacconnier Ocejo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1081.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "733",
-            "nombre_completo": "Borunda Zaragoza José Carlos",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Victoria Álvarez Chabre ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/733.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a los Fondos Aportados por los Trabajadores Mexicanos Braceros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "14/04/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario particular del candidato a la presidencia municipal de Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Integrante del equipo de transición de la presidencia municipal de Ciudad Juárez en el área de fomento económico."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Capacitador y miembro del Consejo Técnico del Instituto de Formación Cívica del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de la oficina de asuntos legislativos y gestoría del PAN en la LIX legislatura del Congreso de Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178298",
-                "fecha_extraccion": "2026-10-13T00:54:55+00:00"
-            }
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1081",
-            "nombre_completo": "Duarte Jáquez César Horacio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Margarita Bacconnier Ocejo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1081.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización de la CNC en Chihuahua."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Coordinador del sector agrario del PRI en Chihuahua."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretario general interino de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Chihuahua (LCAySC)."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Delegado del CEN de la CNC en San Luis Potosí, Baja California Sur y Coahuila."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Sindicato de Transportistas Rurales."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRI en diferentes estados de la República."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del PRI en Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM del PRI en Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del CDM del PRI en Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Delegado en la XVII Asamblea Nacional del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del PRI Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Asesor del comité regional de la CNC."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "2003",
-                    "experiencia": "Consejero municipal, estatal en Chihuahua y nacional del PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la campaña del PRI en Balleza, Chihuahua."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Presidente y fundador del Grupo Acción Política."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CDE del PRI de Chihuahua en el municipio de Guadalupe y Calvo."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización de la CNC en Chihuahua."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Frente Juvenil Revolucionario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal de la CNC."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal suplente en la LVII legislatura, no tomo protesta."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejero Consultivo Forestal de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Regional de BANRURAL ene el norte del país."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178563",
-                "fecha_extraccion": "2026-10-13T00:54:56+00:00"
-            }
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "731",
-            "nombre_completo": "Enríquez Ortega Hortencia",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Samuel Muñoz Arreola ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/731.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora distrital en Chihuahua en las elecciones internas del PRI para elegir candidato a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Consejera política del CDE del PRI en Chihuahua."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Delegada especial de la LCAySC en diversos municipios de Chihuahua."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la campaña del candidato a diputado federal del PRI en Buenaventura Chihuahua."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria de Acción femenil del Comité Directivo Campesino del PRI en Buenaventura (Ricardo Flores Magón) Chihuahua."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Presidenta municipal interina de Buenaventura, Chihuahua."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Acción Femenil de la LCAySC de la CNC, Chihuahua."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Promotora del voto a favor de los candidatos del PRI en las elecciones locales de Chihuahua."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": null,
-                    "experiencia": "Militante del PRI en el sector agrario."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada local en la LVIII legislatura del Congreso de Chihuahua, presidenta del Congreso y secretaria de la Comisión de Agricultura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Funcionaria de la Dirección de Enlace Institucional de la Secretaría de Desarrollo Rural del gobierno de Chihuahua."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Regidora de Buenaventura (Ricardo Flores Magón), Chihuahua."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Directora del DIF del municipio de Buenaventura (Ricardo Flores Magón), Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178296",
-                "fecha_extraccion": "2026-10-13T00:54:58+00:00"
-            }
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1052",
-            "nombre_completo": "Jurado Contreras Francisco Ezequiel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Elsi Paz Quintana ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1052.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de campaña del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Consejero estatal del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de campaña del PAN."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente del CDM del PAN en el Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PAN suplente a la presidencia municipal del Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario de organización del CDM del PAN en Parral, Chihuahua."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178538",
-                "fecha_extraccion": "2026-10-13T00:55:00+00:00"
-            }
-        },
-        {
-            "referencia_sil": "734",
-            "nombre_completo": "Meza de la Rosa Gregorio Arturo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Antonio Mercado  ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/734.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de campaña del PAN en Hermosillo, Sonora."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador de campaña del PAN en Coahuila."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador de organización del CDM del PAN en Ciudad Juárez."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1999",
-                    "experiencia": "Consejero y secretario de acción electoral asistente del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1998",
-                    "experiencia": "Representante general del CDM del PAN en Ciudad Juárez."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Representante de casilla en el CDM del PAN en Ciudad Juárez."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Auxiliar de diputado local en el Congreso de Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178299",
-                "fecha_extraccion": "2026-10-13T00:55:02+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1206",
-            "nombre_completo": "Narváez Narváez Manuel Arturo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "19/04/2001",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1206.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/04/2001",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinador electoral del CEN del PAN en Coahuila."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Director de campaña del candidato a diputado federal por el distrito VIII en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Vocero de la campaña del candidato a la presidencia de la República a nivel municipal."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña del candidato a gobernador en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Asistente personal y coordinador de comitiva del candidato a gobernador de Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Fundador del primer comité Amigos de Fox de Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador operativo estatal del comité Amigos de Fox, en Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Jefe de prensa de los candidatos a diputados federales de Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Jefe de prensa del precandidato a gobernador en Chihuahua."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1992",
-                    "experiencia": "Representante de casilla del PAN en elecciones federales y estatales."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Gerente de la oficina de enlace legislativo del distrito VIII de Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "738",
-                "titular_nombre": "José Mario Rodríguez Álvarez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:03+00:00"
-            }
-        },
-        {
-            "referencia_sil": "739",
-            "nombre_completo": "Payán Novoa Manuel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alfredo Salayandia Sáenz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/739.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1975",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante del Consejo Político Estatal del PRI en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178301",
-                "fecha_extraccion": "2026-10-13T00:55:05+00:00"
-            }
-        },
-        {
-            "referencia_sil": "732",
-            "nombre_completo": "Rodríguez Torres David",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Serrano Serrano ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/732.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejero del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de organización del CDM del PAN en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Representante de organizaciones de cartera vencida y deudores de la banca local ante el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador del VIII distrito del PAN."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Delegado del distrito federal 8 del CDM del PAN en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1992",
-                    "experiencia": "Capacitador ideológico del CDM del PAN en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1983",
-                    "experiencia": "Representante de casilla."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Diputado local en la LVIII legislatura del Congreso de Chihuahua. Secretario de las comisiones de Obras y Servicios, y de Trabajo y Previsión Social."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Director de mantenimiento mecánico en el ayuntamiento de Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Regidor de Ciudad Juárez, Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178297",
-                "fecha_extraccion": "2026-10-13T00:55:07+00:00"
-            }
-        },
-        {
-            "referencia_sil": "737",
-            "nombre_completo": "Sandoval Ochoa Jorge Esteban",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Guadalupe Pérez Domínguez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/737.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PRI en Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado general del CEN del PRI en Nayarit."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Delegado general del CEN del PRI en Nayarit."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNC."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal en la LVI legislatura."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Diputado local en la LV legislatura."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la diputación federal priista de Chihuahua."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado estatal de la Comisión Nacional de Zonas Áridas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Regidor del municipio de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Desarrollo Urbano y Ecología."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178300",
-                "fecha_extraccion": "2026-10-13T00:55:08+00:00"
-            }
-        },
-        {
-            "referencia_sil": "348304",
-            "nombre_completo": "Urquidi Astorga Arturo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "31/03/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/348304.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario estatal de acción gubernamental del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario general del CDE del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador estatal de regidores del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente municipal interino Cd. Ojinaga, Chihuahua."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del CDM de Cd. Ojinaga, Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia municipal de Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Asesor del grupo parlamentario del PAN en la LIX Legislatura del Congreso de Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Regidor en Cd. Ojinaga, Chihuahua."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1998",
-                    "experiencia": "Empleado en administración de correos de SEPOMEX."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1981",
-                    "experiencia": "Empleado en PEMEX."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "735",
-                "titular_nombre": "César Patricio Reyes Roel ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:10+00:00"
-            }
-        },
-        {
-            "referencia_sil": "736",
-            "nombre_completo": "Villegas Montes Luis",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "15/03/2001",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/736.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/03/2001",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/03/2001",
-                    "fecha_fin": "17/10/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Coordinador general de la plataforma electoral del PAN en la contienda en Chihuahua."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Representante del PAN ante el IFE."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Representante del PAN ante el Instituto Estatal Electoral de Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Miembro del CDM del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor jurídico del PAN en elecciones estatales y federales."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador de asesores del PAN en el Congreso de Chihuahua."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Jefe de la oficina de asuntos legislativos del Congreso de Chihuahua."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Asesor jurídico del Congreso de Chihuahua."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Jefe de la oficina jurídica del Instituto Nacional Indigenista."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de estudios del PAN."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "15/03/2001",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1212",
-                "titular_nombre": "Francisco Hugo Gutiérrez Dávila ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:12+00:00"
-            }
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1229",
-            "nombre_completo": "Corral Jurado Javier",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Felipe Colomo Castro ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1229.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "30/10/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2002",
-                    "experiencia": "Vocero del CEN del PAN. Integrante de la comisión de Comunicación Social."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Director del programa radiofónico La Hora del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Integrante del CEN del PAN. Integrante de la comisión editorial."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Fundador del Instituto de Formación Cívica y Política: Manuel Gómez Morín en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director fundador de la Revista Foro y Acción."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE en el PAN estatal de Chihuahua"
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente del CDE en el PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador de prensa, propaganda y relaciones en la campaña del candidato del PAN a la gubernatura de Chihuahua."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante de las comisiones redactoras de las plataformas políticas presidenciales del PAN."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Director fundador de la publicación El Cincel, órgano informativo de resistencia y protesta civil."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1998",
-                    "experiencia": "Integrante de las comisiones redactoras de las plataformas políticas estatales del PAN en Chihuahua."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de Acción Electoral del CDM en el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Director fundador de la publicación ¡Ya es tiempo!, órgano oficial de la campaña del PAN al gobierno de Chihuahua."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1983",
-                    "experiencia": "Secretario particular del candidato del PAN a la presidencia municipal de Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Radio, Televisión y Cinematografía e integrante de las comisiones de Biblioteca e Informática y Comunicación Social. Subcoordinador de Cultura, Comunicación y Relaciones del grupo parlamentario del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Diputado local en la LVII legislatura del congreso de Chihuahua. Presidente de las comisiones de Justicia y Derechos Humanos y de Asuntos Editoriales."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Jefe de prensa de la Dirección de Seguridad Pública del municipio de Chihuahua."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Director de Relaciones Públicas y Prensa de la Dirección de Servicios Públicos Municipales de Chihuahua."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178668",
-                "fecha_extraccion": "2026-10-13T00:55:15+00:00"
-            }
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Secretario de organización de la CNC en Chihuahua."
         },
         {
-            "referencia_sil": "1328",
-            "nombre_completo": "Jáuregui Robles Sergio César Alejandro",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Teresa Ortuño Gurza ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1328.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 1,
-            "comisiones": [
-                {
-                    "comision": "Especial encargada de recibir las propuestas de ratificaciones y nuevos nombramientos de magistrados de los Tribunales Unitarios Agrarios. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/09/2000",
-                    "fecha_fin": "21/09/2000",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Director jurídico del CDE en el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente de la Comisión de Orden del Consejo Nacional del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "2000",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general del CDE el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Asesor jurídico del CDM en el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión Jurisdiccional. Secretario de la Comisión de Reglamentos y Prácticas Parlamentarias."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento jurídico de la presidencia municipal de Chihuahua."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Secretario proyectista de la segunda sala civil del Supremo Tribunal de Justicia de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo del Instituto Nacional para el Federalismo y el Desarrollo Municipal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178752",
-                "fecha_extraccion": "2026-10-13T00:55:17+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Coordinador del sector agrario del PRI en Chihuahua."
         },
         {
-            "referencia_sil": "1230",
-            "nombre_completo": "Jones Jones Jeffrey Max",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Maria del Carmen Jiménez Méndez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1230.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Fronterizos (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Consejero del CDE en el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Delegado distrital del CDE en el PAN de Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado local en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Coordinador del grupo de legisladores de Chihuahua. Integrante de las comisiones de Agricultura, Ganadería y Relaciones Exteriores."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178669",
-                "fecha_extraccion": "2026-10-13T00:55:18+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretario general interino de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Chihuahua (LCAySC)."
         },
         {
-            "referencia_sil": "1269",
-            "nombre_completo": "Zapata García Jorge Doroteo",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Chihuahua",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Sergio Héctor Borunda Flores ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1269.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Jubilados y Pensionados (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Primer Secretario General del Sindicato de Trabajadores de la industria Maquiladora (CTM)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de Educación sustituto del CEN de la CTM."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de trabajo sustituto del CEN de la CTM."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Coordinador obrero en el PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario general de la Federación de Trabajadores de Chihuahua."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario general adjunto y sustituto del CEE de la Federación de Trabajadores de Chihuahua."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Director del Departamento Jurídico del PRI."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario de organización de la Federación de Trabajadores del Estado de Chihuahua, afiliado a la CTM."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario general adjunto del Comité Ejecutivo Estatal (CEE) de la Federación de Trabajadores de Chihuahua."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1981",
-                    "experiencia": "Asesor jurídico de la Federación de Trabajadores de Chihuahua."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": null,
-                    "experiencia": "Militante de la Confederación de Trabajadores de México."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Organización del Sindicato de Profesionistas al Servicio del Estado."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Coordinador de los diputados del PRI por Chihuahua. Secretario de la Comisión de Jurisdiccional e integrante de las comisiones de Jubilados y Pensionados, Justicia y Vivienda."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Diputado local en la LVII legislatura del Congreso de Chihuahua."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputado federal en la LIII legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1983",
-                    "experiencia": "Promotor de la Procuraduría Federal del Consumidor en Chihuahua."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Auxiliar en la Junta Local de Conciliación y Arbitraje de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la presidencia municipal de Delicias, Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario General de Aguas y Saneamiento del gobierno de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Oficial Mayor de la PGR."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Primer Subprocurador General de la República."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178703",
-                "fecha_extraccion": "2026-10-13T00:55:20+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Delegado del CEN de la CNC en San Luis Potosí, Baja California Sur y Coahuila."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro del Sindicato de Transportistas Rurales."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Delegado del PRI en diferentes estados de la República."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario general del PRI en Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM del PRI en Parral, Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente del CDM del PRI en Parral, Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Delegado en la XVII Asamblea Nacional del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Secretario general del PRI Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Asesor del comité regional de la CNC."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "2003",
+          "experiencia": "Consejero municipal, estatal en Chihuahua y nacional del PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Coordinador de la campaña del PRI en Balleza, Chihuahua."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Presidente y fundador del Grupo Acción Política."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Delegado del CDE del PRI de Chihuahua en el municipio de Guadalupe y Calvo."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Secretario de organización de la CNC en Chihuahua."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Integrante del Frente Juvenil Revolucionario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estatal de la CNC."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal suplente en la LVII legislatura, no tomo protesta."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejero Consultivo Forestal de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Regional de BANRURAL ene el norte del país."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178563",
+        "fecha_extraccion": "2026-10-13T00:54:56+00:00"
+      }
+    },
+    {
+      "referencia_sil": "731",
+      "nombre_completo": "Enríquez Ortega Hortencia",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Samuel Muñoz Arreola",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/731.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora distrital en Chihuahua en las elecciones internas del PRI para elegir candidato a la presidencia de la República."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Consejera política del CDE del PRI en Chihuahua."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Delegada especial de la LCAySC en diversos municipios de Chihuahua."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Coordinadora de la campaña del candidato a diputado federal del PRI en Buenaventura Chihuahua."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1995",
+          "experiencia": "Secretaria de Acción femenil del Comité Directivo Campesino del PRI en Buenaventura (Ricardo Flores Magón) Chihuahua."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Presidenta municipal interina de Buenaventura, Chihuahua."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Secretaria de Acción Femenil de la LCAySC de la CNC, Chihuahua."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Promotora del voto a favor de los candidatos del PRI en las elecciones locales de Chihuahua."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": null,
+          "experiencia": "Militante del PRI en el sector agrario."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputada local en la LVIII legislatura del Congreso de Chihuahua, presidenta del Congreso y secretaria de la Comisión de Agricultura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Funcionaria de la Dirección de Enlace Institucional de la Secretaría de Desarrollo Rural del gobierno de Chihuahua."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Regidora de Buenaventura (Ricardo Flores Magón), Chihuahua."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Directora del DIF del municipio de Buenaventura (Ricardo Flores Magón), Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178296",
+        "fecha_extraccion": "2026-10-13T00:54:58+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1052",
+      "nombre_completo": "Jurado Contreras Francisco Ezequiel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Elsi Paz Quintana",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1052.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de campaña del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Consejero estatal del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de campaña del PAN."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Presidente del CDM del PAN en el Parral, Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Candidato del PAN suplente a la presidencia municipal del Parral, Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Secretario de organización del CDM del PAN en Parral, Chihuahua."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178538",
+        "fecha_extraccion": "2026-10-13T00:55:00+00:00"
+      }
+    },
+    {
+      "referencia_sil": "734",
+      "nombre_completo": "Meza de la Rosa Gregorio Arturo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Antonio Mercado",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/734.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de campaña del PAN en Hermosillo, Sonora."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Coordinador de campaña del PAN en Coahuila."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Coordinador de organización del CDM del PAN en Ciudad Juárez."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1999",
+          "experiencia": "Consejero y secretario de acción electoral asistente del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1998",
+          "experiencia": "Representante general del CDM del PAN en Ciudad Juárez."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Representante de casilla en el CDM del PAN en Ciudad Juárez."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Auxiliar de diputado local en el Congreso de Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178299",
+        "fecha_extraccion": "2026-10-13T00:55:02+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1206",
+      "nombre_completo": "Narváez Narváez Manuel Arturo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "19/04/2001",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1206.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/04/2001",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Coordinador electoral del CEN del PAN en Coahuila."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Director de campaña del candidato a diputado federal por el distrito VIII en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Vocero de la campaña del candidato a la presidencia de la República a nivel municipal."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña del candidato a gobernador en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Asistente personal y coordinador de comitiva del candidato a gobernador de Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Fundador del primer comité Amigos de Fox de Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Coordinador operativo estatal del comité Amigos de Fox, en Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Jefe de prensa de los candidatos a diputados federales de Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Jefe de prensa del precandidato a gobernador en Chihuahua."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1992",
+          "experiencia": "Representante de casilla del PAN en elecciones federales y estatales."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Gerente de la oficina de enlace legislativo del distrito VIII de Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "738",
+        "titular_nombre": "José Mario Rodríguez Álvarez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:03+00:00"
+      }
+    },
+    {
+      "referencia_sil": "739",
+      "nombre_completo": "Payán Novoa Manuel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alfredo Salayandia Sáenz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/739.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1975",
+          "al_ano": "2000",
+          "experiencia": "Integrante del Consejo Político Estatal del PRI en Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178301",
+        "fecha_extraccion": "2026-10-13T00:55:05+00:00"
+      }
+    },
+    {
+      "referencia_sil": "732",
+      "nombre_completo": "Rodríguez Torres David",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Serrano Serrano",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/732.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejero del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretario de organización del CDM del PAN en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Representante de organizaciones de cartera vencida y deudores de la banca local ante el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Coordinador del VIII distrito del PAN."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Delegado del distrito federal 8 del CDM del PAN en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1992",
+          "experiencia": "Capacitador ideológico del CDM del PAN en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1983",
+          "experiencia": "Representante de casilla."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Diputado local en la LVIII legislatura del Congreso de Chihuahua. Secretario de las comisiones de Obras y Servicios, y de Trabajo y Previsión Social."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Director de mantenimiento mecánico en el ayuntamiento de Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Regidor de Ciudad Juárez, Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178297",
+        "fecha_extraccion": "2026-10-13T00:55:07+00:00"
+      }
+    },
+    {
+      "referencia_sil": "737",
+      "nombre_completo": "Sandoval Ochoa Jorge Esteban",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Guadalupe Pérez Domínguez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/737.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PRI en Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Delegado general del CEN del PRI en Nayarit."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Delegado general del CEN del PRI en Nayarit."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNC."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal en la LVI legislatura."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Diputado local en la LV legislatura."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de la diputación federal priista de Chihuahua."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Delegado estatal de la Comisión Nacional de Zonas Áridas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Regidor del municipio de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Desarrollo Urbano y Ecología."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178300",
+        "fecha_extraccion": "2026-10-13T00:55:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "348304",
+      "nombre_completo": "Urquidi Astorga Arturo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "31/03/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/348304.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Secretario estatal de acción gubernamental del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Secretario general del CDE del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Coordinador estatal de regidores del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Presidente municipal interino Cd. Ojinaga, Chihuahua."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Presidente del CDM de Cd. Ojinaga, Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia municipal de Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Asesor del grupo parlamentario del PAN en la LIX Legislatura del Congreso de Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Regidor en Cd. Ojinaga, Chihuahua."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1998",
+          "experiencia": "Empleado en administración de correos de SEPOMEX."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1981",
+          "experiencia": "Empleado en PEMEX."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "735",
+        "titular_nombre": "César Patricio Reyes Roel ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:10+00:00"
+      }
+    },
+    {
+      "referencia_sil": "736",
+      "nombre_completo": "Villegas Montes Luis",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "15/03/2001",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/736.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/03/2001",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/03/2001",
+          "fecha_fin": "17/10/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Coordinador general de la plataforma electoral del PAN en la contienda en Chihuahua."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Representante del PAN ante el IFE."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Representante del PAN ante el Instituto Estatal Electoral de Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Miembro del CDM del PAN en Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor jurídico del PAN en elecciones estatales y federales."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Coordinador de asesores del PAN en el Congreso de Chihuahua."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Jefe de la oficina de asuntos legislativos del Congreso de Chihuahua."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Asesor jurídico del Congreso de Chihuahua."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Jefe de la oficina jurídica del Instituto Nacional Indigenista."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de estudios del PAN."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "15/03/2001",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1212",
+        "titular_nombre": "Francisco Hugo Gutiérrez Dávila ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:12+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1229",
+      "nombre_completo": "Corral Jurado Javier",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Felipe Colomo Castro",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1229.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "30/10/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2002",
+          "experiencia": "Vocero del CEN del PAN. Integrante de la comisión de Comunicación Social."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Director del programa radiofónico La Hora del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Integrante del CEN del PAN. Integrante de la comisión editorial."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Fundador del Instituto de Formación Cívica y Política: Manuel Gómez Morín en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director fundador de la Revista Foro y Acción."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Integrante del CDE en el PAN estatal de Chihuahua"
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Presidente del CDE en el PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Coordinador de prensa, propaganda y relaciones en la campaña del candidato del PAN a la gubernatura de Chihuahua."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "2000",
+          "experiencia": "Integrante de las comisiones redactoras de las plataformas políticas presidenciales del PAN."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Director fundador de la publicación El Cincel, órgano informativo de resistencia y protesta civil."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1998",
+          "experiencia": "Integrante de las comisiones redactoras de las plataformas políticas estatales del PAN en Chihuahua."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Coordinador de Acción Electoral del CDM en el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Director fundador de la publicación ¡Ya es tiempo!, órgano oficial de la campaña del PAN al gobierno de Chihuahua."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1983",
+          "experiencia": "Secretario particular del candidato del PAN a la presidencia municipal de Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Radio, Televisión y Cinematografía e integrante de las comisiones de Biblioteca e Informática y Comunicación Social. Subcoordinador de Cultura, Comunicación y Relaciones del grupo parlamentario del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Diputado local en la LVII legislatura del congreso de Chihuahua. Presidente de las comisiones de Justicia y Derechos Humanos y de Asuntos Editoriales."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Jefe de prensa de la Dirección de Seguridad Pública del municipio de Chihuahua."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Director de Relaciones Públicas y Prensa de la Dirección de Servicios Públicos Municipales de Chihuahua."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178668",
+        "fecha_extraccion": "2026-10-13T00:55:15+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1328",
+      "nombre_completo": "Jáuregui Robles Sergio César Alejandro",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Teresa Ortuño Gurza",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1328.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 1,
+      "comisiones": [
+        {
+          "comision": "Especial encargada de recibir las propuestas de ratificaciones y nuevos nombramientos de magistrados de los Tribunales Unitarios Agrarios. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/09/2000",
+          "fecha_fin": "21/09/2000",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Director jurídico del CDE en el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Presidente de la Comisión de Orden del Consejo Nacional del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "2000",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Secretario general del CDE el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Asesor jurídico del CDM en el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión Jurisdiccional. Secretario de la Comisión de Reglamentos y Prácticas Parlamentarias."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Jefe del departamento jurídico de la presidencia municipal de Chihuahua."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Secretario proyectista de la segunda sala civil del Supremo Tribunal de Justicia de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo del Instituto Nacional para el Federalismo y el Desarrollo Municipal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178752",
+        "fecha_extraccion": "2026-10-13T00:55:17+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1230",
+      "nombre_completo": "Jones Jones Jeffrey Max",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Maria del Carmen Jiménez Méndez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1230.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Fronterizos (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Consejero del CDE en el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Delegado distrital del CDE en el PAN de Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Candidato a diputado local en Chihuahua."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Coordinador del grupo de legisladores de Chihuahua. Integrante de las comisiones de Agricultura, Ganadería y Relaciones Exteriores."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178669",
+        "fecha_extraccion": "2026-10-13T00:55:18+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1269",
+      "nombre_completo": "Zapata García Jorge Doroteo",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Chihuahua",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Sergio Héctor Borunda Flores",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1269.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Jubilados y Pensionados (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Primer Secretario General del Sindicato de Trabajadores de la industria Maquiladora (CTM)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2003",
+          "experiencia": "Secretario de Educación sustituto del CEN de la CTM."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1998",
+          "experiencia": "Secretario de trabajo sustituto del CEN de la CTM."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Coordinador obrero en el PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "2003",
+          "experiencia": "Secretario general de la Federación de Trabajadores de Chihuahua."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Secretario general adjunto y sustituto del CEE de la Federación de Trabajadores de Chihuahua."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Director del Departamento Jurídico del PRI."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1981",
+          "experiencia": "Secretario de organización de la Federación de Trabajadores del Estado de Chihuahua, afiliado a la CTM."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1981",
+          "experiencia": "Secretario general adjunto del Comité Ejecutivo Estatal (CEE) de la Federación de Trabajadores de Chihuahua."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1981",
+          "experiencia": "Asesor jurídico de la Federación de Trabajadores de Chihuahua."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": null,
+          "experiencia": "Militante de la Confederación de Trabajadores de México."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Organización del Sindicato de Profesionistas al Servicio del Estado."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Coordinador de los diputados del PRI por Chihuahua. Secretario de la Comisión de Jurisdiccional e integrante de las comisiones de Jubilados y Pensionados, Justicia y Vivienda."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Diputado local en la LVII legislatura del Congreso de Chihuahua."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputado federal en la LIII legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1976",
+          "al_ano": "1983",
+          "experiencia": "Promotor de la Procuraduría Federal del Consumidor en Chihuahua."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Auxiliar en la Junta Local de Conciliación y Arbitraje de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la presidencia municipal de Delicias, Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario General de Aguas y Saneamiento del gobierno de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Oficial Mayor de la PGR."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Primer Subprocurador General de la República."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178703",
+        "fecha_extraccion": "2026-10-13T00:55:20+00:00"
+      }
+    }
+  ]
 }

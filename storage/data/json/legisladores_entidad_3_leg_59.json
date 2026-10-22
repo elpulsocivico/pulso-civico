@@ -1,863 +1,863 @@
 {
-    "metadata": {
-        "entidad_id": 3,
-        "entidad_nombre": "Baja California Sur",
-        "legislatura": 59,
-        "generado_en": "2026-10-13T03:27:45+00:00",
-        "total_diputados": 2,
-        "total_senadores": 4,
-        "total_general": 6
+  "metadata": {
+    "entidad_id": 3,
+    "entidad_nombre": "Baja California Sur",
+    "legislatura": 59,
+    "generado_en": "2026-10-13T03:27:45+00:00",
+    "total_diputados": 2,
+    "total_senadores": 4,
+    "total_general": 6
+  },
+  "diputados": [
+    {
+      "referencia_sil": "1287297",
+      "nombre_completo": "Cota Cota Josefina",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2004",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1287297.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/12/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/10/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/10/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretaria general de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente juvenil campesina en el municipio de Comondú, BCS."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estatal de las mujeres campesinas de las comunidades agrarias en BCS."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Senadora suplente en la LVII legislatura (No tomo protesta durante el perido)."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1991",
+          "experiencia": "Diputada en el Congreso de Baja California Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Coordinadora de atención ciudadana, giras y audiencias públicas del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Representante del Programa de la Mujer en el Consejo de Población en el gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Regidora de Comondú, Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "569786",
+        "titular_nombre": "Narciso Agúndez Montaño ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T03:27:35+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "569367",
+      "nombre_completo": "Obregón Espinoza Francisco Javier",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Benjamín García Meza",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569367.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "1287297",
-            "nombre_completo": "Cota Cota Josefina",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2004",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1287297.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/12/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/10/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/10/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria general de la Liga de Comunidades Agrarias y Sindicatos Campesinos de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente juvenil campesina en el municipio de Comondú, BCS."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal de las mujeres campesinas de las comunidades agrarias en BCS."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Senadora suplente en la LVII legislatura (No tomo protesta durante el perido)."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada en el Congreso de Baja California Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinadora de atención ciudadana, giras y audiencias públicas del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Representante del Programa de la Mujer en el Consejo de Población en el gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Regidora de Comondú, Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "569786",
-                "titular_nombre": "Narciso Agúndez Montaño ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T03:27:35+00:00"
-            }
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/06/2005",
+          "fecha_fin": "18/04/2006",
+          "estatus": "Baja"
         },
         {
-            "referencia_sil": "569367",
-            "nombre_completo": "Obregón Espinoza Francisco Javier",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Benjamín García Meza ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569367.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/06/2005",
-                    "fecha_fin": "18/04/2006",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "06/04/2006",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "17/06/2005",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Presidente municipal de Comondú, BCS."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente del CDM del PAN en Comondú, Baja California Sur."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Candidato del PRD a diputado por el municipio de La Paz, BCS."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Diputado en la VIII legislatura de Baja California Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Director de la junta estatal de caminos de Baja California Sur."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Regidor del VIII del municipio de Comondú, Baja California Sur."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Regidor en el IV municipio de La Paz, Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "17/04/2006",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "03/07/2006",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177771",
-                "fecha_extraccion": "2026-10-13T03:27:36+00:00"
-            }
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "06/04/2006",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "17/06/2005",
+          "estatus": "Baja"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "547945",
-            "nombre_completo": "Amaya Téllez Rodimiro",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "Ind.",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Antonio Santisteban Ruiz ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547945.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/04/2004",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "11/11/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Para dar seguimiento al cumplimiento de los objetivos y fines del decreto por el que se expropiaron diversos ingenios azucareros (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "26/08/2004",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Candidato al gobierno de Baja California Sur por la alianza PRI-PVEM."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero estatal del PRD en Baja California Sur."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2004",
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador general de la campaña de la coalición PRD-PT para gobernador de Baja California Sur."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Fundador y dirigente de la Alianza Democrática Sudcaliforniana, en Comondú, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP en Comondú, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1997",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura, por el PRD. Presidente de la Comisión de Ciencia y Tecnología, secretario en la Comisión de Agricultura y Ganadería, e integrante de las comisiones de Hacienda y Crédito Público, Medio Ambiente y Especial para antender las cajas de ahorro."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura, por el PRI."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general de gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del Comité estatal de sanidad vegetal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado consejero del Fondo de Reconversión Agropecuaria del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor agropecuario del gobierno de Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "31/03/2005",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "29/08/2004",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "1299788",
-                "fecha_extraccion": "2026-10-13T03:27:40+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Presidente municipal de Comondú, BCS."
         },
         {
-            "referencia_sil": "547996",
-            "nombre_completo": "Cota Osuna José Carlos",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Lyzzette Patricia Liceaga Vega ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547996.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención y seguimiento a las indagaciones del proceso que se sigue en torno al homicidio del Lic. Luis Donaldo Colosio Murrieta (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Coordinador del CDE del PRI en el municipio de Comondú, BCS."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Integrante del CPN del PRI por el sector popular."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador del CDE del PRI en el municipio de La Paz, BCS."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1990",
-                    "experiencia": "Presidente municipal en La Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario general del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1983",
-                    "experiencia": "Director del Centro de Estudios Políticos, Económicos y Sociales (CEPES) del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1966",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador de la República en la LVIII Legislatura. Secretario de las comisiones de Marina y Turismo e integrante de las Comisiones de Desarrollo Regional y Especial para el seguimiento del caso Colosio. Integrante de la Comisión Permanente durante el receso de mayo-agosto de 2001."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII Legislatura y coordinador de los diputados priistas de BCS. Secretario de la Comisión de Fomento Cooperativo (1997-98) y de la Comisión de Investigación sobre el impacto ecológico de la empresa Exportadora de Sal, S.A de C.V."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Diputado local y Presidente de la Gran Comisión en la VI legislatura del Congreso de Baja California Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Delegado federal de Pesca en Baja California Sur."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Director de obras públicas en el gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario de asentamientos humanos y obras públicas en Baja California Sur."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Director de catastro en Baja California Sur."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1977",
-                    "experiencia": "Analista en la Dirección General de Planeación Territorial de los Asentamientos Humanos de la Secretaría de Asentamientos Humanos y Obras Públicas (SAHOP)."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1977",
-                    "experiencia": "Jefe del departamento de promoción de obras de agua potable de la SAHOP."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1976",
-                    "experiencia": "Subdelegado de obras y servicios en la delegación Magdalena Contreras del DF."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1973",
-                    "experiencia": "Jefe de la oficina de obras públicas en Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178789",
-                "fecha_extraccion": "2026-10-13T03:27:42+00:00"
-            }
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Presidente del CDM del PAN en Comondú, Baja California Sur."
         },
         {
-            "referencia_sil": "548026",
-            "nombre_completo": "Gerardo Higuera Ricardo",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Erasmo Castañeda Álvarez ",
-            "fecha_toma_protesta": "01/11/2004",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/548026.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/11/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/11/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Miembro del consejo consultivo del Instituto de Formación Política del CEN del PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente del CEE del PRD."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Candidato del PRD a la presidencia municipal de la Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente del colegio de economistas revolucionarios de Baja California Sur."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente de la Asociación de Economistas Egresados de la Universidad Autónoma de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del área de política económica del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la comisión de auditoría del CEN del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Sindicato de la SARH en la Paz, Baja Clifornia sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1993",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Relaciones Exteriores: Organismos No Gubernamentales; secretario de la Mesa Directiva (00-01); e integrante de las comisiones de Medio ambiente, Recursos Naturales y Pesca, Relaciones Exteriores: América Latina y el caribe, Especial para las gestiones necesarias para atender la problemática de la Sociedad de Ahorro y Préstamo del noroeste, el Arbolito."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de desarrollo y fomento económico del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Director general de quejas y recomendaciones de la Procuraduría Social del DF."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Subdelegado jurídico y de gobierno del DF en la delegación Gustavo A. Madero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Representante del consejo empresarial del pacífico del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Delegado estatal de la Secretaría de Comercio y Fomento Industrial (SECOFI) en Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "1303124",
-                "fecha_extraccion": "2026-10-13T03:27:44+00:00"
-            }
-        },
-        {
-            "referencia_sil": "548172",
-            "nombre_completo": "Velasco Rodríguez Verónica",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Carlos Bernardo Bandala Cabo ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/548172.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Especial para investigar el funcionamiento del IPAB (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/04/2005",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial que investigue el mercado ilícito y robo de combustible en menoscabo del patrimonio de la empresa paraestatal PEMEX. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PVEM."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Asesora en urbanización del PVEM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de organización del PVEM en Baja California Sur."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senadora de la República en al LVIII Legislatura. Presidenta de la Comisión de Medio Ambiente, Recursos Naturales y Pesca. Integrante de las comisiones de Energía, Hacienda y Crédito Público, y Jurisdiccional."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputada federal en la LVII Legislatura. Vicepresidenta de la Mesa Directiva. Secretaria de las comisiones de Hacienda y Crédito Público, Jurisdiccional, e Investigadora de la Compañía Exportadora de Sal. Integrante de las comisiones de Concordia y Pacificación en Chiapas, caso CONASUPO, y Equidad y Género. Integrante de la Comisión Permanente."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178844",
-                "fecha_extraccion": "2026-10-13T03:27:45+00:00"
-            }
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Candidato del PRD a diputado por el municipio de La Paz, BCS."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Diputado en la VIII legislatura de Baja California Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Director de la junta estatal de caminos de Baja California Sur."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Regidor del VIII del municipio de Comondú, Baja California Sur."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Regidor en el IV municipio de La Paz, Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "17/04/2006",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "03/07/2006",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177771",
+        "fecha_extraccion": "2026-10-13T03:27:36+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "547945",
+      "nombre_completo": "Amaya Téllez Rodimiro",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "Ind.",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Antonio Santisteban Ruiz",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547945.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/04/2004",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "11/11/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Para dar seguimiento al cumplimiento de los objetivos y fines del decreto por el que se expropiaron diversos ingenios azucareros (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "26/08/2004",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Candidato al gobierno de Baja California Sur por la alianza PRI-PVEM."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Consejero estatal del PRD en Baja California Sur."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2004",
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Coordinador general de la campaña de la coalición PRD-PT para gobernador de Baja California Sur."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Fundador y dirigente de la Alianza Democrática Sudcaliforniana, en Comondú, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP en Comondú, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1997",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura, por el PRD. Presidente de la Comisión de Ciencia y Tecnología, secretario en la Comisión de Agricultura y Ganadería, e integrante de las comisiones de Hacienda y Crédito Público, Medio Ambiente y Especial para antender las cajas de ahorro."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura, por el PRI."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario general de gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1996",
+          "experiencia": "Presidente del Comité estatal de sanidad vegetal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado consejero del Fondo de Reconversión Agropecuaria del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor agropecuario del gobierno de Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "31/03/2005",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "29/08/2004",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "1299788",
+        "fecha_extraccion": "2026-10-13T03:27:40+00:00"
+      }
+    },
+    {
+      "referencia_sil": "547996",
+      "nombre_completo": "Cota Osuna José Carlos",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Lyzzette Patricia Liceaga Vega",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547996.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención y seguimiento a las indagaciones del proceso que se sigue en torno al homicidio del Lic. Luis Donaldo Colosio Murrieta (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Coordinador del CDE del PRI en el municipio de Comondú, BCS."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Integrante del CPN del PRI por el sector popular."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Presidente del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Coordinador del CDE del PRI en el municipio de La Paz, BCS."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1990",
+          "experiencia": "Presidente municipal en La Paz, Baja California Sur."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Secretario general del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1983",
+          "experiencia": "Director del Centro de Estudios Políticos, Económicos y Sociales (CEPES) del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1966",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador de la República en la LVIII Legislatura. Secretario de las comisiones de Marina y Turismo e integrante de las Comisiones de Desarrollo Regional y Especial para el seguimiento del caso Colosio. Integrante de la Comisión Permanente durante el receso de mayo-agosto de 2001."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII Legislatura y coordinador de los diputados priistas de BCS. Secretario de la Comisión de Fomento Cooperativo (1997-98) y de la Comisión de Investigación sobre el impacto ecológico de la empresa Exportadora de Sal, S.A de C.V."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Diputado local y Presidente de la Gran Comisión en la VI legislatura del Congreso de Baja California Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Delegado federal de Pesca en Baja California Sur."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Director de obras públicas en el gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Secretario de asentamientos humanos y obras públicas en Baja California Sur."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Director de catastro en Baja California Sur."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1977",
+          "experiencia": "Analista en la Dirección General de Planeación Territorial de los Asentamientos Humanos de la Secretaría de Asentamientos Humanos y Obras Públicas (SAHOP)."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1977",
+          "experiencia": "Jefe del departamento de promoción de obras de agua potable de la SAHOP."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1976",
+          "experiencia": "Subdelegado de obras y servicios en la delegación Magdalena Contreras del DF."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1973",
+          "experiencia": "Jefe de la oficina de obras públicas en Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178789",
+        "fecha_extraccion": "2026-10-13T03:27:42+00:00"
+      }
+    },
+    {
+      "referencia_sil": "548026",
+      "nombre_completo": "Gerardo Higuera Ricardo",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Erasmo Castañeda Álvarez",
+      "fecha_toma_protesta": "01/11/2004",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/548026.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial para atender la problemática de la Sociedad de Ahorro y Préstamo del Noroeste Denominada \"El Arbolito\" (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/11/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/11/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Miembro del consejo consultivo del Instituto de Formación Política del CEN del PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Presidente del CEE del PRD."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Candidato del PRD a la presidencia municipal de la Paz, Baja California Sur."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1999",
+          "experiencia": "Presidente del colegio de economistas revolucionarios de Baja California Sur."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Presidente de la Asociación de Economistas Egresados de la Universidad Autónoma de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del área de política económica del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la comisión de auditoría del CEN del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Sindicato de la SARH en la Paz, Baja Clifornia sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1993",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Relaciones Exteriores: Organismos No Gubernamentales; secretario de la Mesa Directiva (00-01); e integrante de las comisiones de Medio ambiente, Recursos Naturales y Pesca, Relaciones Exteriores: América Latina y el caribe, Especial para las gestiones necesarias para atender la problemática de la Sociedad de Ahorro y Préstamo del noroeste, el Arbolito."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de desarrollo y fomento económico del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Director general de quejas y recomendaciones de la Procuraduría Social del DF."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Subdelegado jurídico y de gobierno del DF en la delegación Gustavo A. Madero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Representante del consejo empresarial del pacífico del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Delegado estatal de la Secretaría de Comercio y Fomento Industrial (SECOFI) en Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "1303124",
+        "fecha_extraccion": "2026-10-13T03:27:44+00:00"
+      }
+    },
+    {
+      "referencia_sil": "548172",
+      "nombre_completo": "Velasco Rodríguez Verónica",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Carlos Bernardo Bandala Cabo",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/548172.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Especial para investigar el funcionamiento del IPAB (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/04/2005",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial que investigue el mercado ilícito y robo de combustible en menoscabo del patrimonio de la empresa paraestatal PEMEX. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PVEM."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Asesora en urbanización del PVEM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de organización del PVEM en Baja California Sur."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senadora de la República en al LVIII Legislatura. Presidenta de la Comisión de Medio Ambiente, Recursos Naturales y Pesca. Integrante de las comisiones de Energía, Hacienda y Crédito Público, y Jurisdiccional."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputada federal en la LVII Legislatura. Vicepresidenta de la Mesa Directiva. Secretaria de las comisiones de Hacienda y Crédito Público, Jurisdiccional, e Investigadora de la Compañía Exportadora de Sal. Integrante de las comisiones de Concordia y Pacificación en Chiapas, caso CONASUPO, y Equidad y Género. Integrante de la Comisión Permanente."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178844",
+        "fecha_extraccion": "2026-10-13T03:27:45+00:00"
+      }
+    }
+  ]
 }

@@ -1,1678 +1,1678 @@
 {
-    "metadata": {
-        "entidad_id": 24,
-        "entidad_nombre": "San Luis Potosí",
-        "legislatura": 57,
-        "generado_en": "2026-10-13T00:17:05+00:00",
-        "total_diputados": 8,
-        "total_senadores": 3,
-        "total_general": 11
+  "metadata": {
+    "entidad_id": 24,
+    "entidad_nombre": "San Luis Potosí",
+    "legislatura": 57,
+    "generado_en": "2026-10-13T00:17:05+00:00",
+    "total_diputados": 8,
+    "total_senadores": 3,
+    "total_general": 11
+  },
+  "diputados": [
+    {
+      "referencia_sil": "29",
+      "nombre_completo": "Algara Cossío Javier",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Héctor Manuel Posadas Zúñiga",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/29.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Miembro del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Encargado de capacitación en el CDM del PAN en San Luís Potosí."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción gubernamental del CDE del PAN en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177795",
+        "fecha_extraccion": "2026-10-13T00:16:45+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "142",
+      "nombre_completo": "Elías Loredo Álvaro",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juan Raúl Acosta Rodríguez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/142.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
         {
-            "referencia_sil": "29",
-            "nombre_completo": "Algara Cossío Javier",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Héctor Manuel Posadas Zúñiga ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/29.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Miembro del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Encargado de capacitación en el CDM del PAN en San Luís Potosí."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción gubernamental del CDE del PAN en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177795",
-                "fecha_extraccion": "2026-10-13T00:16:45+00:00"
-            }
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/10/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "142",
-            "nombre_completo": "Elías Loredo Álvaro",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juan Raúl Acosta Rodríguez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/142.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/10/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Estudios Legislativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Representante de la organización campesina de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato del PAN para la gubernatura de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Candidato del PAN para la gubernatura de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1981",
-                    "experiencia": "Presidente del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1986",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1975",
-                    "experiencia": "Representante del PAN ante el Consejo Estatal Electoral."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1975",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1975",
-                    "experiencia": "Secretario general del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1971",
-                    "experiencia": "Secretario de organización juvenil del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del sindicato del personal académico de la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Chihuahua."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado local en la LIV legislatura del Congreso de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Diputado local plurinominal en la LI legislatura del Congreso de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal plurinominal en la LI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177881",
-                "fecha_extraccion": "2026-10-13T00:16:46+00:00"
-            }
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "151",
-            "nombre_completo": "Esper Bujaidar Antonio",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luz María Lastras Martínez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/151.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comité de Administración (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de Gestión Social del CDE del PRI en San Luís Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente municipal de Ciudad Valles, San Luís Potosí."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Presidente municipal de Ciudad Valles, San Luís Potosí."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Asesor económico del CEPES (Centro de Estudios Políticos, Económicos y Sociales) del PRI."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1970",
-                    "experiencia": "Responsable de Acción Electoral en la zona Huasteca durante la campaña del candidato del PRI a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1957",
-                    "al_ano": null,
-                    "experiencia": "Militante activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal por la LV Legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario de Obras y Servicios Púbicos del Gobierno de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Coordinador General de Agua Potable y Drenaje de Ciudad Valles, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1977",
-                    "experiencia": "Presidente de la Junta de Mejoras Materiales en Ciudad Valles, San Luís Potosí."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1971",
-                    "experiencia": "Primer regidor en Ciudad Valles."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177890",
-                "fecha_extraccion": "2026-10-13T00:16:48+00:00"
-            }
+          "comision": "Especial de Estudios Legislativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "223",
-            "nombre_completo": "González Ortiz Juana",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Nicolás Rueda Leiva ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/223.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "11/04/2000",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/03/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Artesanías (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Titular de la Secretaría de Educación y Comunicación Social del Comité Ejecutivo del Sindicato de Profesionistas de la Federación de Trabajadores de SLP."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Representante general del PRI en el distrito federal electoral 6 de San Luís Potosí."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Encargada de la Secretaría de Educación y Comunicación Social del Comité Ejecutivo del Sindicato de Profesionistas de la Federación de Trabajadores de SLP."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Delegada del PRI de San Luís Potosí a la XIV Asamblea Nacional."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Representante de la CTM ante la Comisión para los consejos municipales y estatales del Consejo para la Integración de la Mujer en SLP."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Delegada del PRI para el Consejo de Integración de la Mujer en el municipio de Ébano, SLP."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Sindicato de Profesionistas de la Federación de Trabajadores del Estado de SLP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política suplente del sector obrero en el Consejo Político Estatal del PRI en San Luís Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política del sector obrero en el Consejo Político Municipal del PRI en Soledad de Graciano Sánchez, SLP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada del PRI para la selección de candidatos a la presidencia municipal de Soledad de Graciano Sánchez, SLP."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada federal suplente en la LIV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinadora de la Comisión Estatal de Alimentación en el gobierno de San Luís Potosí."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Directora de Trabajo y Previsión Social en el gobierno de San Luís Potosí."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinadora de Asuntos Jurídicos en la Distribuidora Conasupo del Norte, S.A. de C.V."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177943",
-                "fecha_extraccion": "2026-10-13T00:16:50+00:00"
-            }
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "277",
-            "nombre_completo": "Jiménez Macías Carlos Martín",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Macedonio Reyes Alvarez ",
-            "fecha_toma_protesta": "04/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/277.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial investigadora del Instituto Mexicano del Seguro Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/09/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de prensa de CEN del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario adjunto a la Presidencia del CEN del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general de la CNOP."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente del Congreso del Trabajo."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CPN del PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Secretario adjunto de la presidencia del CEN del PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario general de la FSTSE."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador del movimento sindical de la CNOP."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Integrante de la comisión revisora del consejo nacional preparatorio de la XIV Asamblea Nacional del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario adjunto de la presidencia del CEN del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente del CDE del PRI en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Director de asuntos jurídicos de la FSTSE."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Integrante de las Subcomisión Nacional de Democracia Participativa."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1992",
-                    "experiencia": "Asesor del presidente del CEN del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Consejero representante del CEN de la FSTSE ante la junta directiva del ISSSTE."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Delegado especial del CDE del PRI en el DF."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de educación obrera, social y profesional en el Congreso del Trabajo."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de acción popular del CDE del PRI en el DF."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario general de la Federación de Organzaciones Populares del D.F."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de promoción y gestoría del CEN de la CNOP."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Vicepresidente de la Federación Internacional de Empleados, Técnicos y Profesionales."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de trabajo y conflictos del CEN de la FSTSE."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de la Comisión de Relaciones Sindicales Nacionales e Internacionales en el Congreso del Trabajo."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario general del Sindicato del ISSSTE."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Presidente de la Federación Interamericana de Trabajadores de la Salud y Seguridad Social."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Seretario general del II comité distrital del PRI en el D.F."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Secretario general interino de la CNOP de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Director de Educación Sindical para América Latina."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Secretario de organización del CDE del PRI en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del CEN del PRI en Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1997",
-                    "experiencia": "Senador en las LV y LVI legislaturas. Presidente de las comisiones de Relaciones Exteriores (sección Latinoamérica y el Caribe) y de Relaciones Exteriores (sección África y Oceanía). Presidente de las comisiones de Relaciones Exteriores de Asuntos Consulares y Asuntos Multilaterales."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Diputado federal por la LII legislatura. Secretario de la Comisión de Relaciones Exteriores."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1974",
-                    "experiencia": "Diversos cargos en las tiendas del ISSSTE."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177983",
-                "fecha_extraccion": "2026-10-13T00:16:52+00:00"
-            }
-        },
-        {
-            "referencia_sil": "323",
-            "nombre_completo": "Martínez Torres Adoración",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Antonio Gerardo Martínez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/323.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial de Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/04/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Patrimonio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1959",
-                    "al_ano": null,
-                    "experiencia": "Militante activa del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del comité seccional del PRI en San Luís Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178020",
-                "fecha_extraccion": "2026-10-13T00:16:54+00:00"
-            }
-        },
-        {
-            "referencia_sil": "440",
-            "nombre_completo": "Salazar Diez de Sollano Francisco Xavier",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Claudia Mónica Martínez Jaramillo ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/440.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Ecología y Medio Ambiente (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energéticos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de asuntos de la juventud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Delegado del PAN en Villa Juárez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de campaña del candidato del PAN a la gubernatura de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Miembro del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador de la Asamblea de Representantes de la Facultad de Ciencias Químicas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178106",
-                "fecha_extraccion": "2026-10-13T00:16:55+00:00"
-            }
-        },
-        {
-            "referencia_sil": "449",
-            "nombre_completo": "Sánchez Lara Crisógono",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Efraín Rodríguez Gallegos ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/449.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Politica de la sección 26 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Promotor del voto del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del PRI en Tamazunchale, Ébano y Axtla, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del sector popular del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Estadísticas y Planeación de la sección 26 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Finanzas de la sección 26 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Comisión Política de la Delegación D-I-50 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Política de la Delegación D-I-50 del SNTE."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Primer regidor de Tampacá, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Inspector escolar."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Presidente municipal de Tampacán, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Director de la Escuela Primaria Oficial Cuauhtémoc en San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178113",
-                "fecha_extraccion": "2026-10-13T00:16:57+00:00"
-            }
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "620",
-            "nombre_completo": "Medellín Milán José Manuel",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Octavio Rivera Fernández ",
-            "fecha_toma_protesta": "01/09/1994",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/620.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 10,
-            "comisiones": [
-                {
-                    "comision": "Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "16/04/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - 2a Sección (América del Norte) (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/04/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de atención al problema de las carteras vencidas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/11/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/11/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura, Ganadería y Desarrollo Rural (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "15/12/1998",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comunicaciones (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "15/12/1998",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Estatal del PRI en Aguascalientes."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Zacatecas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Estatal del PRI en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador del Plan Nacional Electoral en San Luís Potosí."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Director de Planeación del Programa Nacional de Solidaridad para el Distrito Federal."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador de la Federación Mexicana de Profesionales de la Química."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador Estatal de la campaña de Francisco Labastida Ochoa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Fundación Colosio."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del CEN del PRI en la Confederación Nacional Campesina."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Mesa Directiva del Senado de la República durante marzo-abril en el Segundo Periodo Ordinario de Sesiones del Primer Año de Ejercicio de la LVII legislatura."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Senador de la República en la LVII Legislatura."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador de la República a la LVI Legislatura."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV Legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Programación y Presupuesto en el Gobierno de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Delegado regional de la Secretaría de Programación y Presupuesto en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Gerente Regional de Nacional Financiera en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1988",
-                    "experiencia": "Director General del FIOSCER (Fideicomiso de Obras Sociales para campesinos Cañeros de Escasos Recursos)."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Secretario técnico de la Comisión Intersecretarial de la Industria Farmacéutica."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Subdirector de Industrias de la Comisión Intersecretarial de la Industria Farmacéutica de la Secretaría de Patrimonio y Fomento Industrial (Sepafin)."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Asesor en la Dirección de Promoción Fiscal de la Secretaría de Hacienda."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de Nacional Financiera en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de Planeación en el Programa Nacional de Solidaridad para el Distrito Federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador General del Plan Nacional Electoral."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del Programa Nacional de Solidaridad para el estado de San Luís Potosí."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178222",
-                "fecha_extraccion": "2026-10-13T00:17:01+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Representante de la organización campesina de San Luis Potosí."
         },
         {
-            "referencia_sil": "647",
-            "nombre_completo": "Robledo Ruiz Juan Ramiro",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Manuel López Avila ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/647.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores - 5a Sección (Organismos Internacionales Gubernamentales) (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/04/1999",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos, 3a Sección (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación, 1a Sección (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PRI en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario General del PRI."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado federal por el PRI."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario de Capacitación Política del PRI."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1979",
-                    "experiencia": "Secretario de Divulgación Ideológica de la CNOP en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Consejo de Organizaciones de Profesionistas del Estado de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1990",
-                    "experiencia": "Representante del PRI suplente ante el IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Estatal del PRI de San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador de la República en la LVI Legislatura."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado Federal en la LV Legislatura"
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Diputado Federal suplente en la LII Legislatura"
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Subsecretario de Protección Civil, Prevención y Readaptación Social de la Secretaría de Gobernación."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario general de Gobierno de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente del Consejo Estatal Electoral de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario General."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador de Asuntos Jurídicos."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Síndico del ayuntamiento de San Luis Potosí, SLP"
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1973",
-                    "experiencia": "Defensor de oficio."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1972",
-                    "experiencia": "Actuario del Tribunal de lo Contencioso Administrativo del Distrito Federal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178240",
-                "fecha_extraccion": "2026-10-13T00:17:03+00:00"
-            }
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidato del PAN para la gubernatura de San Luis Potosí."
         },
         {
-            "referencia_sil": "657",
-            "nombre_completo": "Salazar Sáenz Francisco Javier",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Adalberto Trejo Castillo ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/657.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asistencia Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía y Recursos no Renovables (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento a las Artesanías (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/1997",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Consejero estatal del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente interino del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Consejero estatal del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente del CDM del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario general del Sindicato Único de Personal Académico de la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario general de la Confederación Nacional de Trabajadores Universitarios."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario general de la Asociación Nacional de Asociaciones y Sindicatos de Personal Académico Universitario."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1982",
-                    "experiencia": "Presidente de la Asociación de Personal Académico de la Facultad de Química de la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1990",
-                    "experiencia": "Candidato a diputado local en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador de la LVI legislatura. Secretario de la comisión de Trabajo y Previsión Social."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178247",
-                "fecha_extraccion": "2026-10-13T00:17:05+00:00"
-            }
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Presidente del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Candidato del PAN para la gubernatura de San Luis Potosí."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1981",
+          "experiencia": "Presidente del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1986",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1975",
+          "experiencia": "Representante del PAN ante el Consejo Estatal Electoral."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1975",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1975",
+          "experiencia": "Secretario general del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1971",
+          "experiencia": "Secretario de organización juvenil del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del sindicato del personal académico de la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Chihuahua."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado local en la LIV legislatura del Congreso de San Luis Potosí."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Diputado local plurinominal en la LI legislatura del Congreso de San Luis Potosí."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal plurinominal en la LI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177881",
+        "fecha_extraccion": "2026-10-13T00:16:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "151",
+      "nombre_completo": "Esper Bujaidar Antonio",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luz María Lastras Martínez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/151.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comité de Administración (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Secretario de Gestión Social del CDE del PRI en San Luís Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente municipal de Ciudad Valles, San Luís Potosí."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Presidente municipal de Ciudad Valles, San Luís Potosí."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Asesor económico del CEPES (Centro de Estudios Políticos, Económicos y Sociales) del PRI."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1970",
+          "experiencia": "Responsable de Acción Electoral en la zona Huasteca durante la campaña del candidato del PRI a la presidencia de la República."
+        },
+        {
+          "del_ano": "1957",
+          "al_ano": null,
+          "experiencia": "Militante activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal por la LV Legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Secretario de Obras y Servicios Púbicos del Gobierno de San Luis Potosí."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Coordinador General de Agua Potable y Drenaje de Ciudad Valles, San Luis Potosí."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1977",
+          "experiencia": "Presidente de la Junta de Mejoras Materiales en Ciudad Valles, San Luís Potosí."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1971",
+          "experiencia": "Primer regidor en Ciudad Valles."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177890",
+        "fecha_extraccion": "2026-10-13T00:16:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "223",
+      "nombre_completo": "González Ortiz Juana",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Nicolás Rueda Leiva",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/223.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "11/04/2000",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/03/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Artesanías (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Titular de la Secretaría de Educación y Comunicación Social del Comité Ejecutivo del Sindicato de Profesionistas de la Federación de Trabajadores de SLP."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Representante general del PRI en el distrito federal electoral 6 de San Luís Potosí."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Encargada de la Secretaría de Educación y Comunicación Social del Comité Ejecutivo del Sindicato de Profesionistas de la Federación de Trabajadores de SLP."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Delegada del PRI de San Luís Potosí a la XIV Asamblea Nacional."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Representante de la CTM ante la Comisión para los consejos municipales y estatales del Consejo para la Integración de la Mujer en SLP."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Delegada del PRI para el Consejo de Integración de la Mujer en el municipio de Ébano, SLP."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Integrante del Sindicato de Profesionistas de la Federación de Trabajadores del Estado de SLP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política suplente del sector obrero en el Consejo Político Estatal del PRI en San Luís Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política del sector obrero en el Consejo Político Municipal del PRI en Soledad de Graciano Sánchez, SLP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada del PRI para la selección de candidatos a la presidencia municipal de Soledad de Graciano Sánchez, SLP."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Diputada federal suplente en la LIV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Coordinadora de la Comisión Estatal de Alimentación en el gobierno de San Luís Potosí."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Directora de Trabajo y Previsión Social en el gobierno de San Luís Potosí."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Coordinadora de Asuntos Jurídicos en la Distribuidora Conasupo del Norte, S.A. de C.V."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177943",
+        "fecha_extraccion": "2026-10-13T00:16:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "277",
+      "nombre_completo": "Jiménez Macías Carlos Martín",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Macedonio Reyes Alvarez",
+      "fecha_toma_protesta": "04/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/277.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial investigadora del Instituto Mexicano del Seguro Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/09/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Coordinador general de prensa de CEN del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Secretario adjunto a la Presidencia del CEN del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Secretario general de la CNOP."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Presidente del Congreso del Trabajo."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Miembro del CPN del PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Secretario adjunto de la presidencia del CEN del PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Secretario general de la FSTSE."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Coordinador del movimento sindical de la CNOP."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Integrante de la comisión revisora del consejo nacional preparatorio de la XIV Asamblea Nacional del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Secretario adjunto de la presidencia del CEN del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente del CDE del PRI en San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Director de asuntos jurídicos de la FSTSE."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Integrante de las Subcomisión Nacional de Democracia Participativa."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1992",
+          "experiencia": "Asesor del presidente del CEN del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Consejero representante del CEN de la FSTSE ante la junta directiva del ISSSTE."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Delegado especial del CDE del PRI en el DF."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Secretario de educación obrera, social y profesional en el Congreso del Trabajo."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1989",
+          "experiencia": "Secretario de acción popular del CDE del PRI en el DF."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1989",
+          "experiencia": "Secretario general de la Federación de Organzaciones Populares del D.F."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Secretario de promoción y gestoría del CEN de la CNOP."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Vicepresidente de la Federación Internacional de Empleados, Técnicos y Profesionales."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Secretario de trabajo y conflictos del CEN de la FSTSE."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Secretario de la Comisión de Relaciones Sindicales Nacionales e Internacionales en el Congreso del Trabajo."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Secretario general del Sindicato del ISSSTE."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Presidente de la Federación Interamericana de Trabajadores de la Salud y Seguridad Social."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Seretario general del II comité distrital del PRI en el D.F."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Secretario general interino de la CNOP de San Luis Potosí."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Director de Educación Sindical para América Latina."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Secretario de organización del CDE del PRI en San Luis Potosí."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado especial del CEN del PRI en Tabasco."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1997",
+          "experiencia": "Senador en las LV y LVI legislaturas. Presidente de las comisiones de Relaciones Exteriores (sección Latinoamérica y el Caribe) y de Relaciones Exteriores (sección África y Oceanía). Presidente de las comisiones de Relaciones Exteriores de Asuntos Consulares y Asuntos Multilaterales."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Diputado federal por la LII legislatura. Secretario de la Comisión de Relaciones Exteriores."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1964",
+          "al_ano": "1974",
+          "experiencia": "Diversos cargos en las tiendas del ISSSTE."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177983",
+        "fecha_extraccion": "2026-10-13T00:16:52+00:00"
+      }
+    },
+    {
+      "referencia_sil": "323",
+      "nombre_completo": "Martínez Torres Adoración",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Antonio Gerardo Martínez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/323.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial de Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/04/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Patrimonio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1959",
+          "al_ano": null,
+          "experiencia": "Militante activa del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del comité seccional del PRI en San Luís Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178020",
+        "fecha_extraccion": "2026-10-13T00:16:54+00:00"
+      }
+    },
+    {
+      "referencia_sil": "440",
+      "nombre_completo": "Salazar Diez de Sollano Francisco Xavier",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Claudia Mónica Martínez Jaramillo",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/440.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Ecología y Medio Ambiente (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energéticos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de asuntos de la juventud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Delegado del PAN en Villa Juárez, San Luis Potosí."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de campaña del candidato del PAN a la gubernatura de San Luis Potosí."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Miembro del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro fundador de la Asamblea de Representantes de la Facultad de Ciencias Químicas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178106",
+        "fecha_extraccion": "2026-10-13T00:16:55+00:00"
+      }
+    },
+    {
+      "referencia_sil": "449",
+      "nombre_completo": "Sánchez Lara Crisógono",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Efraín Rodríguez Gallegos",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/449.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Politica de la sección 26 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Promotor del voto del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado especial del PRI en Tamazunchale, Ébano y Axtla, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del sector popular del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Estadísticas y Planeación de la sección 26 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Finanzas de la sección 26 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la Comisión Política de la Delegación D-I-50 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Política de la Delegación D-I-50 del SNTE."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Primer regidor de Tampacá, San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Inspector escolar."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Presidente municipal de Tampacán, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Director de la Escuela Primaria Oficial Cuauhtémoc en San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178113",
+        "fecha_extraccion": "2026-10-13T00:16:57+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "620",
+      "nombre_completo": "Medellín Milán José Manuel",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Octavio Rivera Fernández",
+      "fecha_toma_protesta": "01/09/1994",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/620.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 10,
+      "comisiones": [
+        {
+          "comision": "Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "16/04/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - 2a Sección (América del Norte) (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/04/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de atención al problema de las carteras vencidas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/11/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/11/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura, Ganadería y Desarrollo Rural (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "15/12/1998",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comunicaciones (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "15/12/1998",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Estatal del PRI en Aguascalientes."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Zacatecas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Estatal del PRI en San Luis Potosí."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Coordinador del Plan Nacional Electoral en San Luís Potosí."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Director de Planeación del Programa Nacional de Solidaridad para el Distrito Federal."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Miembro fundador de la Federación Mexicana de Profesionales de la Química."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador Estatal de la campaña de Francisco Labastida Ochoa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Fundación Colosio."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del CEN del PRI en la Confederación Nacional Campesina."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidente de la Mesa Directiva del Senado de la República durante marzo-abril en el Segundo Periodo Ordinario de Sesiones del Primer Año de Ejercicio de la LVII legislatura."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Senador de la República en la LVII Legislatura."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador de la República a la LVI Legislatura."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV Legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Secretario de Programación y Presupuesto en el Gobierno de San Luis Potosí."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Delegado regional de la Secretaría de Programación y Presupuesto en San Luis Potosí."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Gerente Regional de Nacional Financiera en San Luis Potosí."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1988",
+          "experiencia": "Director General del FIOSCER (Fideicomiso de Obras Sociales para campesinos Cañeros de Escasos Recursos)."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Secretario técnico de la Comisión Intersecretarial de la Industria Farmacéutica."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Subdirector de Industrias de la Comisión Intersecretarial de la Industria Farmacéutica de la Secretaría de Patrimonio y Fomento Industrial (Sepafin)."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Asesor en la Dirección de Promoción Fiscal de la Secretaría de Hacienda."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de Nacional Financiera en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de Planeación en el Programa Nacional de Solidaridad para el Distrito Federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador General del Plan Nacional Electoral."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del Programa Nacional de Solidaridad para el estado de San Luís Potosí."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178222",
+        "fecha_extraccion": "2026-10-13T00:17:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "647",
+      "nombre_completo": "Robledo Ruiz Juan Ramiro",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Manuel López Avila",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/647.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores - 5a Sección (Organismos Internacionales Gubernamentales) (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/04/1999",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos, 3a Sección (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación, 1a Sección (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PRI en San Luis Potosí."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Subsecretario General del PRI."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": null,
+          "experiencia": "Candidato a diputado federal por el PRI."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1981",
+          "experiencia": "Secretario de Capacitación Política del PRI."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1979",
+          "experiencia": "Secretario de Divulgación Ideológica de la CNOP en San Luis Potosí."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Presidente del Consejo de Organizaciones de Profesionistas del Estado de San Luis Potosí."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1990",
+          "experiencia": "Representante del PRI suplente ante el IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado especial del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador regional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Estatal del PRI de San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador de la República en la LVI Legislatura."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado Federal en la LV Legislatura"
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Diputado Federal suplente en la LII Legislatura"
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Subsecretario de Protección Civil, Prevención y Readaptación Social de la Secretaría de Gobernación."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Secretario general de Gobierno de San Luis Potosí."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Presidente del Consejo Estatal Electoral de San Luis Potosí."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario General."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1986",
+          "experiencia": "Coordinador de Asuntos Jurídicos."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Síndico del ayuntamiento de San Luis Potosí, SLP"
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1973",
+          "experiencia": "Defensor de oficio."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1972",
+          "experiencia": "Actuario del Tribunal de lo Contencioso Administrativo del Distrito Federal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178240",
+        "fecha_extraccion": "2026-10-13T00:17:03+00:00"
+      }
+    },
+    {
+      "referencia_sil": "657",
+      "nombre_completo": "Salazar Sáenz Francisco Javier",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Adalberto Trejo Castillo",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/657.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asistencia Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía y Recursos no Renovables (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento a las Artesanías (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/1997",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Consejero estatal del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Presidente interino del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1998",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Consejero estatal del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente del CDM del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Secretario general del Sindicato Único de Personal Académico de la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1989",
+          "experiencia": "Secretario general de la Confederación Nacional de Trabajadores Universitarios."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Secretario general de la Asociación Nacional de Asociaciones y Sindicatos de Personal Académico Universitario."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1982",
+          "experiencia": "Presidente de la Asociación de Personal Académico de la Facultad de Química de la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1990",
+          "experiencia": "Candidato a diputado local en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador de la LVI legislatura. Secretario de la comisión de Trabajo y Previsión Social."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178247",
+        "fecha_extraccion": "2026-10-13T00:17:05+00:00"
+      }
+    }
+  ]
 }

@@ -1,2431 +1,2431 @@
 {
-    "metadata": {
-        "entidad_id": 19,
-        "entidad_nombre": "Nuevo León",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:24:55+00:00",
-        "total_diputados": 18,
-        "total_senadores": 3,
-        "total_general": 21
+  "metadata": {
+    "entidad_id": 19,
+    "entidad_nombre": "Nuevo León",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:24:55+00:00",
+    "total_diputados": 18,
+    "total_senadores": 3,
+    "total_general": 21
+  },
+  "diputados": [
+    {
+      "referencia_sil": "917",
+      "nombre_completo": "Alamilla Padrón Celita Trinidad",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Guadalupe Sánchez Méndez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/917.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidata a consejera ciudadana del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Representante del PAN ante el centro de acopio de documentación electoral de Cadereyta, Nuevo León."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Participante en la conformación de la plataforma educativa durante la campaña por la gubernatura de Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Consejera municipal del PAN en San Pedro, Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Observadora electoral por Alianza Cívica."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1995",
+          "experiencia": "Miembro adherente del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de los consejos de educación, de cultura, y de ciencia y tecnología del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del sistema de enlace legislativo en el PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Diplomados para líderes del PAN en la Universidad Mexicana del Noroeste."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178435",
+        "fecha_extraccion": "2026-10-13T01:23:12+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1085",
+      "nombre_completo": "Anaya Gutiérrez Alberto",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PT",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Guadalupe Rodríguez Martínez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1085.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "917",
-            "nombre_completo": "Alamilla Padrón Celita Trinidad",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Guadalupe Sánchez Méndez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/917.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidata a consejera ciudadana del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Representante del PAN ante el centro de acopio de documentación electoral de Cadereyta, Nuevo León."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Participante en la conformación de la plataforma educativa durante la campaña por la gubernatura de Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Consejera municipal del PAN en San Pedro, Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Observadora electoral por Alianza Cívica."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1995",
-                    "experiencia": "Miembro adherente del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de los consejos de educación, de cultura, y de ciencia y tecnología del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del sistema de enlace legislativo en el PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Diplomados para líderes del PAN en la Universidad Mexicana del Noroeste."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178435",
-                "fecha_extraccion": "2026-10-13T01:23:12+00:00"
-            }
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1085",
-            "nombre_completo": "Anaya Gutiérrez Alberto",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PT",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Guadalupe Rodríguez Martínez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1085.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Reforma del Estado (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Fundador e integrante activo del PT."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": null,
-                    "experiencia": "Fundador e integrante del Frente Popular Tierra y Libertad de Monterrey, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE del PT en Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la Comisión Ejecutiva Nacional del PT."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente nacional del PT."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal del PT en Nuevo León."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Senador en la LVII legislatura. Integrante de las comisiones de Gobernación, de las 3 comisiones de Relaciones Exteriores y de la Desarrollo Urbano y Vivienda."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal en la LIV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178566",
-                "fecha_extraccion": "2026-10-13T01:23:14+00:00"
-            }
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1087",
-            "nombre_completo": "Aragón Castillo Hortensia",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Sonia Villarreal Silguero ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1087.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/12/2002",
-                    "fecha_fin": "10/12/2002",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "27/03/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante de Milenio Feminista."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Integrante de la Secretaría de Relaciones Internacionales del CEN del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Titular de la Secretaría de la Mujer del CEN del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Consejera nacional por planilla."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinadora de campaña en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidata a diputada federal por el distrito 8 de Chihuahua."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Cofundadora del grupo plural por los derechos políticos de las ciudadanas."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Promotora de la reforma de género en todos los niveles de elección en el Estado de Chihuahua."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretaria de organización del CEE del PRD."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Fundadora de la Coordinadora Nacional de Mujeres."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Fundadora del Centro de Atención a la Mujer Trabajadora."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Fundadora del movimiento Chihuahuense por la mujer."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1977",
-                    "experiencia": "Secretaria general del Consejo Estudiantil de la Escuela Normal Rural de Saucillo, Chihuahua."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1978",
-                    "experiencia": "Miembro de la Federación de Estudiantes Campesinos Socialistas Unidos de México."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Promotora de educación política en los círculos del Comité de Defensa Popular de la Colonia Campesina de Chihuahua."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Partido Mexicano Socialista, Partido Socialista Unificado de México y Partido Comunista Mexicano."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Integrante de la Comisión Especial para la Reforma de la Constitución Política del Estado de Chihuahua y del Código Estatal Electoral."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Asesora en el Congreso de Chihuahua para la reforma educativa estatal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178568",
-                "fecha_extraccion": "2026-10-13T01:23:16+00:00"
-            }
+          "comision": "Especial para la Reforma del Estado (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "321040",
-            "nombre_completo": "Benavides Hernández Zinthia de los Ángeles",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "15/03/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/321040.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Responsable de la administración de la oficina de la Coordinación Estatal de Campañas en las elecciones federales."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de finanzas de la campaña presidencial del PAN en la oficina regional (Coah., N.L y Tamps)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Directora de acción ciudadana del CDE del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de finanzas de la campaña a diputado federal en el distrito VII."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN NL."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Responsable de la capacitación de representantes de casilla para las elecciones en Monterrey, NL."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretario de capacitación del CDM del PAN en Monterrey, NL."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Secretaria juvenil del PAN en Monterrey."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de eventos de la Secretaría Juvenil del PAN en Monterrey, NL."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora general de campaña del candidato a secretario juvenil nacional del PAN."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de 24 casillas del poniente de Monterrey en la elección a gobernador."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de eventos de la secretaría estatal juvenil del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Tesorera de la Secretaría Estatal Juvenil del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Tesorera y fundadora del comité del segundo distrito local."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora administrativa del área de Comunicación y Prensa en la oficina del gobernador de Nuevo León."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Desarrollo Humano en el gobierno de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "15/05/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "922",
-                "titular_nombre": "Francisco Javier Cantú Torres ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:23:18+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1060",
-            "nombre_completo": "Camacho Galván Hugo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Adriana Elizondo Ruiz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1060.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de campañas electorales estatales de Nuevo León."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario ejecutivo del CDE del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDM del PAN en Monterrey, Nuevo León."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Secretario de capacitación del CDM del PAN en Monterrey, Nuevo León."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del PAN en Coahuila."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Consultor de la STPS y del Banco Mundial en proyectos de productividad en la pequeña y mediana empresa."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178545",
-                "fecha_extraccion": "2026-10-13T01:23:19+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1055",
-            "nombre_completo": "Campoy Ruy Sánchez María Teresa",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Otilia Zulueta Campoy ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1055.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "10/01/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comité Conmemorativo para que organice y promueva un programa de actividades con el fin de celebrar el CCL Aniversario del Natalicio de Don Miguel Hidalgo y Costilla (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/08/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Representante en el Encuentro Internacional de Gestión Ambiental, celebrado en San Luis Potosí."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora de la segunda circunscripción del PVEM."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PVEM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante del Poder Legislativo en el Consejo General del IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante en el Programa Partidos Políticos del IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaboradora del Comité Estatal del PVEM en el Distrito Federal."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178541",
-                "fecha_extraccion": "2026-10-13T01:23:21+00:00"
-            }
-        },
-        {
-            "referencia_sil": "921",
-            "nombre_completo": "Cantú Segovia Eloy",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Raúl González Rodríguez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/921.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/07/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/10/2002",
-                    "fecha_fin": "22/04/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario ejecutivo de la Conferencia Permanente de Partidos Políticos América Latina (COPPPAL)."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente de la Fundación Colosio en Nuevo León."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de análisis regional del CEN del PRI."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Asesor del presidente del CEN del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Presidente del CDE del PRI en Nuevo León."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Subdirector General del CEPES en Nuevo León."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1975",
-                    "experiencia": "Secretario general del Movimiento Estatal de la Juventud Revolucionaria del PRI en Nuevo León."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Senador en la LVII legislatura. Presidente de la Comisión de Relaciones Exteriores: Europa y Asia, secretario de la Comisión de Comunicaciones, presidente del grupo de amistad México-Francia."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador en la LVI legislatura. Presidente de la Mesa Directiva del Senado, presidente de la Comisión de Administración, integrante de las Comisiones de Comunicaciones y Transportes, de Cultura, de Desarrollo Urbano y Vivienda, de Gobernación y de Hacienda y Crédito Público."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura. Presidente de la Comisión de Asuntos Fronterizos y Secretario de Programación y Cuenta Pública."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Desarrollo Económico del gobierno de Nuevo León."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Comisionado del Instituto Nacional de Migración de la SEGOB."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Oficial mayor de la SEGOB."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de Programación y Desarrollo del gobierno de Nuevo León."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Director de estudios y seguimiento de la descentralización de la Secretaría de Programación y Presupuesto (SPP)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Subdirector de fomento al desarrollo organizacional en la Coordinación General de Estudios Administrativos de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Director general de programación, organización y sistemas de la Secretaría de Gobernación (SEGOB)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "20/03/2003",
-                    "fecha_fin": "15/07/2003",
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "15/07/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "343565",
-                "fecha_extraccion": "2026-10-13T01:23:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1076",
-            "nombre_completo": "Chapa Hernández María Elena",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Alfonso Yánez Arreola ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1076.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Secretaria adjunta del CEN del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1999",
-                    "experiencia": "Presidenta del Congreso Nacional de las Mujeres por el Cambio del CEN del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de gestión social en el CEN del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria de capacitación del CEN del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1999",
-                    "experiencia": "Consejera nacional del PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Secretaria de organización del CDE del PRI en Nuevo León."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Secretaria de acción femenil en la CNOP del PRI en Nuevo León."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar de organización en la CNOP."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputada en la LXVIII legislatura del Congreso de Nuevo León."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senadora en la LVI legislatura. Presidenta de la Comisión de de Población y Desarrollo."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Senadora en la LV legislatura. Presidenta de la Comisión de Relaciones Exteriores, Tercera Sección. Asuntos Diplomáticos y Consulares."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada federal por la LIV legislatura. Secretaria de la Comisión de Relaciones Exteriores."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Invitada permanente de la junta de gobierno del Instituto Nacional de las Mujeres."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Presidenta del consejo consultivo del Programa Nacional de la Mujer."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Secretaria técnica del Consejo Estatal de Población de Nuevo León."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1984",
-                    "experiencia": "Subdirectora general del DIF de Nuevo León."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1979",
-                    "experiencia": "Jefa del departamento de promoción de la salud en la SSA de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178558",
-                "fecha_extraccion": "2026-10-13T01:23:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "918",
-            "nombre_completo": "De la Garza Tijerina Arturo Bonifacio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Hilario Vega Zamarripa ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/918.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador distrital en Nuevo León durante la precampaña del PRI para la presidencia de la República."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión de Desarrollo Agropecuario de la Fundación Colosio en Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI de Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector popular."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LXVII legislatura del Congreso de Nuevo León. Presidente de la Comisión de Agricultura, Forestal y Ganadería y de la Comisión de Desarrollo Económico."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178436",
-                "fecha_extraccion": "2026-10-13T01:23:26+00:00"
-            }
-        },
-        {
-            "referencia_sil": "926",
-            "nombre_completo": "García Flores Orlando Alfonso",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Sandra Elizabeth Pamanes Ortíz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/926.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de acción electoral del CDM del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de acción electoral del CDM de Monterrey."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador en Nuevo León de la campaña de Vicente Fox para la presidencia de la república."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de Organización del CDE de Nuevo León."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general del CDM del PAN en Monterrey."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Diputado local suplente del PAN en funciones."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador de programas sociales de la Secretaría de Desarrollo Humano del gobierno de Nuevo León."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Regidor del municipio de Monterrey."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador administrativo del grupo parlamentario del PAN en el Congreso de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178440",
-                "fecha_extraccion": "2026-10-13T01:23:28+00:00"
-            }
-        },
-        {
-            "referencia_sil": "923",
-            "nombre_completo": "Gracia Guzmán Raúl",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Tomas David Macías Canales ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/923.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN en San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Representante ante la vocalía distrital del 8 distrital del Registro Federal de Electores."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Meritorio en el juzgado sexto de lo penal del primer distrito judicial de Nuevo León."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Asistente de diputado federal en la LVII legislatura del Congreso de la Unión."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Suplente del tercer regidor del ayuntamiento de Monterrey, Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178438",
-                "fecha_extraccion": "2026-10-13T01:24:36+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1082",
-            "nombre_completo": "Guajardo Villarreal Ildefonso",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ismael Garza T. González ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1082.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Consejero del PRI para asuntos de América del Norte."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de asuntos internacionales del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Liga de Economistas Revolucionarios."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Jefe de la unidad de planeación, comunicación y enlace de la SECOFI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Subsecretario de desarrollo turístico en la SECTUR."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Oficial mayor en la Secretaría de Relaciones Exteriores."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de la oficina de la SECOFI para asuntos del TLC en Washinton DC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de finanzas púbicas y de política macroeconómica de la Secretaría de Programación y Presupuesto."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178564",
-                "fecha_extraccion": "2026-10-13T01:24:38+00:00"
-            }
-        },
-        {
-            "referencia_sil": "924",
-            "nombre_completo": "Hernández Santillán Julián",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Óscar Cano Garza ",
-            "fecha_toma_protesta": "23/07/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/924.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/07/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidato a presidente municipal de Guadalupe, Nuevo León."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Subsecretario de formación y capacitación de funcionarios públicos del CDE del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario general del CDM del PAN en Guadalupe, Nuevo León."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario del subcomité de la colonia Josefa Zozaya."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PAN en San Pedro Garza García, Nuevo León."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LXVIII legislatura del Congreso de Nuevo León. Presidente de la Comisión de Hacienda Pública. Subcoordinador hacendario del grupo parlamentario del PAN."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de fiscalización y ejecución de la dirección de ingresos de la Secretaria de Finanzas y Tesorería Municipal de San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Abogado dictaminador en la Subprocuraduría Fiscal Regional del Noroeste de la Procuraduría Fiscal de la Federación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de ingresos de la Secretaria de Finanzas y Tesorería Municipal en Santa Catarina, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1997",
-                    "experiencia": "Subdirector de regularización y fiscalización de la tesorería municipal de Monterrey, Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "23/07/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "19/02/2003",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "288743",
-                "fecha_extraccion": "2026-10-13T01:24:40+00:00"
-            }
-        },
-        {
-            "referencia_sil": "920",
-            "nombre_completo": "Martínez Ramírez Manuel Braulio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Pedro Salgado Almaguer ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/920.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LX legislatura del Congreso de Nuevo León."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de recursos humanos en la presidencia municipal de San Nicolás de los Garza, Nuevo León."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario auxiliar del presidente municipal de San Nicolás de los Garza, Nuevo León."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Juez calificador en la presidencia municipal de Santa Catarina, Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178437",
-                "fecha_extraccion": "2026-10-13T01:24:41+00:00"
-            }
-        },
-        {
-            "referencia_sil": "925",
-            "nombre_completo": "Paredes Gloria Juan",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Guadalupe Guidi Kawas ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/925.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "22/04/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de la Comisión Legislativa Nacional de la CNC."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente municipal de Doctor Arroyo, Nuevo León."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Delegado de la XIV asmblea nacional del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente municipal de Doctor Arroyo, Nuevo León."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario de organización del CDM del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del sector agrario en el PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente de la CNC en Nuevo León."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LIV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general de comunidades rurales de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178439",
-                "fecha_extraccion": "2026-10-13T01:24:43+00:00"
-            }
-        },
-        {
-            "referencia_sil": "62013",
-            "nombre_completo": "Sada Pérez Verónica",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "25/03/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/62013.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "03/12/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Tesorera del CDE del PAN en Coahuila."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinadora en la zona oriente de la campaña del candidato del PAN a la presidencia municipal de San Pedro Garza García, NL."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinadora de eventos especiales en la campaña al candidato del PAN a la gobernatura de Nuevo León."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2002",
-                    "experiencia": "Titular de la Secretaría de Educación, Cultura y Deporte en el municipio de Monterrey, NL."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Directora de adquisiciones en la presidencia municipal de San Pedro Garza García, Nuevo León"
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinadora administrativa del DIF en San Pedro Garza García, Nuevo León ."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1065",
-                "titular_nombre": "Jesús Mario Garza Guevara ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:24:45+00:00"
-            }
-        },
-        {
-            "referencia_sil": "29642",
-            "nombre_completo": "Treviño Cabello Francisco Luis",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "06/12/2001",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/29642.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Subdelegado de inspección y vigilancia."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Director operativo del Programa Jóvenes por México."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Subdirector de estímulos a la juventud, Instituto Mexicano de la Juventud."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de políticas sociales en la Secretaría de Desarrollo Social."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1050",
-                "titular_nombre": "Fanny Arellanes Cervantes ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:24:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "60918",
-            "nombre_completo": "Villarreal Gutiérrez José Guadalupe",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "24/09/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60918.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal de la Juventud Popular Revolucionaria de la CNOP."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2003",
-                    "experiencia": "Presidente del Frente Juvenil Revolucionario."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Colaborador de comunicación social de la CNOP."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario del FJR."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Coordinador juvenil del FJR."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Frente Juvenil Revolucionario (FJR)."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "919",
-                "titular_nombre": "Abel Guerra Garza ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:24:48+00:00"
-            }
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1244",
-            "nombre_completo": "Madero Quiroga Adalberto Arturo",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rigoberto González González ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1244.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Sistema de Bibliotecas del H. Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de finanzas en la campaña para presidente municipal de Escobedo, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Finanzas y Secretario de Acción gubernamental del CDE del PAN de Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor legal del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero Nacional"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de los regidores de representación proporcional en Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del CDM del PAN de Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local del PAN en la LXVIII legislatura del Congreso de Nuevo León. Presidente del Comité de Biblioteca y miembro de la Comisión de Hacienda. Vicepresidente de la Comisión de Legislación y Puntos Constitucionales."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor jurídico de regidores y funcionarios municipales en Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Cronista del municipio de Allende, Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178681",
-                "fecha_extraccion": "2026-10-13T01:24:51+00:00"
-            }
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Fundador e integrante activo del PT."
         },
         {
-            "referencia_sil": "1245",
-            "nombre_completo": "Margáin Berlanga Fernando",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nuevo León",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eduardo Arias Aparicio ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1245.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente municipal de San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PAN a regidor de San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de Desarrollo Social y Humano en el gobierno de Nuevo León."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario del municipio de Santa Catarina, en Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178682",
-                "fecha_extraccion": "2026-10-13T01:24:53+00:00"
-            }
+          "del_ano": "1973",
+          "al_ano": null,
+          "experiencia": "Fundador e integrante del Frente Popular Tierra y Libertad de Monterrey, Nuevo León."
         },
         {
-            "referencia_sil": "335108",
-            "nombre_completo": "Zarazúa Rocha Rubén",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Nuevo León",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "18/03/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/335108.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos - Primera (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Aspirante a la dirigencia de su partido en Nuevo León."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1985",
-                    "experiencia": "Procurador de Justicia en Nuevo León."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Subprocurador de Justicia de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "18/03/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1283",
-                "titular_nombre": "Jesús Ricardo Canavati Tafich ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:24:55+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CDE del PT en Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de la Comisión Ejecutiva Nacional del PT."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente nacional del PT."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estatal del PT en Nuevo León."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Senador en la LVII legislatura. Integrante de las comisiones de Gobernación, de las 3 comisiones de Relaciones Exteriores y de la Desarrollo Urbano y Vivienda."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal en la LIV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178566",
+        "fecha_extraccion": "2026-10-13T01:23:14+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1087",
+      "nombre_completo": "Aragón Castillo Hortensia",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Sonia Villarreal Silguero",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1087.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/12/2002",
+          "fecha_fin": "10/12/2002",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "27/03/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Integrante de Milenio Feminista."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Integrante de la Secretaría de Relaciones Internacionales del CEN del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Titular de la Secretaría de la Mujer del CEN del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Consejera nacional por planilla."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Coordinadora de campaña en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidata a diputada federal por el distrito 8 de Chihuahua."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Cofundadora del grupo plural por los derechos políticos de las ciudadanas."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Promotora de la reforma de género en todos los niveles de elección en el Estado de Chihuahua."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretaria de organización del CEE del PRD."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Fundadora de la Coordinadora Nacional de Mujeres."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Fundadora del Centro de Atención a la Mujer Trabajadora."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Fundadora del movimiento Chihuahuense por la mujer."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1977",
+          "experiencia": "Secretaria general del Consejo Estudiantil de la Escuela Normal Rural de Saucillo, Chihuahua."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1978",
+          "experiencia": "Miembro de la Federación de Estudiantes Campesinos Socialistas Unidos de México."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Promotora de educación política en los círculos del Comité de Defensa Popular de la Colonia Campesina de Chihuahua."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Partido Mexicano Socialista, Partido Socialista Unificado de México y Partido Comunista Mexicano."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Integrante de la Comisión Especial para la Reforma de la Constitución Política del Estado de Chihuahua y del Código Estatal Electoral."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Asesora en el Congreso de Chihuahua para la reforma educativa estatal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178568",
+        "fecha_extraccion": "2026-10-13T01:23:16+00:00"
+      }
+    },
+    {
+      "referencia_sil": "321040",
+      "nombre_completo": "Benavides Hernández Zinthia de los Ángeles",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "15/03/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/321040.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Responsable de la administración de la oficina de la Coordinación Estatal de Campañas en las elecciones federales."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Coordinadora de finanzas de la campaña presidencial del PAN en la oficina regional (Coah., N.L y Tamps)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Directora de acción ciudadana del CDE del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Coordinadora de finanzas de la campaña a diputado federal en el distrito VII."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN NL."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PAN en Nuevo León."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Responsable de la capacitación de representantes de casilla para las elecciones en Monterrey, NL."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretario de capacitación del CDM del PAN en Monterrey, NL."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Secretaria juvenil del PAN en Monterrey."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Coordinadora de eventos de la Secretaría Juvenil del PAN en Monterrey, NL."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Coordinadora general de campaña del candidato a secretario juvenil nacional del PAN."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Coordinador general de 24 casillas del poniente de Monterrey en la elección a gobernador."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Coordinadora de eventos de la secretaría estatal juvenil del PAN en Nuevo León."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Tesorera de la Secretaría Estatal Juvenil del PAN en Nuevo León."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Tesorera y fundadora del comité del segundo distrito local."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Coordinadora administrativa del área de Comunicación y Prensa en la oficina del gobernador de Nuevo León."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretaria de Desarrollo Humano en el gobierno de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "15/05/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "922",
+        "titular_nombre": "Francisco Javier Cantú Torres ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:23:18+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1060",
+      "nombre_completo": "Camacho Galván Hugo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Adriana Elizondo Ruiz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1060.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de campañas electorales estatales de Nuevo León."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "2000",
+          "experiencia": "Secretario ejecutivo del CDE del PAN en Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDM del PAN en Monterrey, Nuevo León."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Secretario de capacitación del CDM del PAN en Monterrey, Nuevo León."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del PAN en Coahuila."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Consultor de la STPS y del Banco Mundial en proyectos de productividad en la pequeña y mediana empresa."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178545",
+        "fecha_extraccion": "2026-10-13T01:23:19+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1055",
+      "nombre_completo": "Campoy Ruy Sánchez María Teresa",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Otilia Zulueta Campoy",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1055.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "10/01/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comité Conmemorativo para que organice y promueva un programa de actividades con el fin de celebrar el CCL Aniversario del Natalicio de Don Miguel Hidalgo y Costilla (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/08/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Representante en el Encuentro Internacional de Gestión Ambiental, celebrado en San Luis Potosí."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora de la segunda circunscripción del PVEM."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PVEM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante del Poder Legislativo en el Consejo General del IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante en el Programa Partidos Políticos del IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaboradora del Comité Estatal del PVEM en el Distrito Federal."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178541",
+        "fecha_extraccion": "2026-10-13T01:23:21+00:00"
+      }
+    },
+    {
+      "referencia_sil": "921",
+      "nombre_completo": "Cantú Segovia Eloy",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Raúl González Rodríguez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/921.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/07/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/10/2002",
+          "fecha_fin": "22/04/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2003",
+          "experiencia": "Secretario ejecutivo de la Conferencia Permanente de Partidos Políticos América Latina (COPPPAL)."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Presidente de la Fundación Colosio en Nuevo León."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Subsecretario de análisis regional del CEN del PRI."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Asesor del presidente del CEN del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Presidente del CDE del PRI en Nuevo León."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Subdirector General del CEPES en Nuevo León."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1975",
+          "experiencia": "Secretario general del Movimiento Estatal de la Juventud Revolucionaria del PRI en Nuevo León."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Senador en la LVII legislatura. Presidente de la Comisión de Relaciones Exteriores: Europa y Asia, secretario de la Comisión de Comunicaciones, presidente del grupo de amistad México-Francia."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador en la LVI legislatura. Presidente de la Mesa Directiva del Senado, presidente de la Comisión de Administración, integrante de las Comisiones de Comunicaciones y Transportes, de Cultura, de Desarrollo Urbano y Vivienda, de Gobernación y de Hacienda y Crédito Público."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura. Presidente de la Comisión de Asuntos Fronterizos y Secretario de Programación y Cuenta Pública."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Secretario de Desarrollo Económico del gobierno de Nuevo León."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Comisionado del Instituto Nacional de Migración de la SEGOB."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Oficial mayor de la SEGOB."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1989",
+          "experiencia": "Secretario de Programación y Desarrollo del gobierno de Nuevo León."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Director de estudios y seguimiento de la descentralización de la Secretaría de Programación y Presupuesto (SPP)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Subdirector de fomento al desarrollo organizacional en la Coordinación General de Estudios Administrativos de la Presidencia de la República."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Director general de programación, organización y sistemas de la Secretaría de Gobernación (SEGOB)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "20/03/2003",
+          "fecha_fin": "15/07/2003",
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "15/07/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "343565",
+        "fecha_extraccion": "2026-10-13T01:23:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1076",
+      "nombre_completo": "Chapa Hernández María Elena",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Alfonso Yánez Arreola",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1076.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Secretaria adjunta del CEN del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1999",
+          "experiencia": "Presidenta del Congreso Nacional de las Mujeres por el Cambio del CEN del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Secretaria de gestión social en el CEN del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretaria de capacitación del CEN del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1999",
+          "experiencia": "Consejera nacional del PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Secretaria de organización del CDE del PRI en Nuevo León."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Secretaria de acción femenil en la CNOP del PRI en Nuevo León."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Auxiliar de organización en la CNOP."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputada en la LXVIII legislatura del Congreso de Nuevo León."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senadora en la LVI legislatura. Presidenta de la Comisión de de Población y Desarrollo."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Senadora en la LV legislatura. Presidenta de la Comisión de Relaciones Exteriores, Tercera Sección. Asuntos Diplomáticos y Consulares."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputada federal por la LIV legislatura. Secretaria de la Comisión de Relaciones Exteriores."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Invitada permanente de la junta de gobierno del Instituto Nacional de las Mujeres."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Presidenta del consejo consultivo del Programa Nacional de la Mujer."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Secretaria técnica del Consejo Estatal de Población de Nuevo León."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1984",
+          "experiencia": "Subdirectora general del DIF de Nuevo León."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1979",
+          "experiencia": "Jefa del departamento de promoción de la salud en la SSA de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178558",
+        "fecha_extraccion": "2026-10-13T01:23:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "918",
+      "nombre_completo": "De la Garza Tijerina Arturo Bonifacio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Hilario Vega Zamarripa",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/918.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Coordinador distrital en Nuevo León durante la precampaña del PRI para la presidencia de la República."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión de Desarrollo Agropecuario de la Fundación Colosio en Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI de Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector popular."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LXVII legislatura del Congreso de Nuevo León. Presidente de la Comisión de Agricultura, Forestal y Ganadería y de la Comisión de Desarrollo Económico."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178436",
+        "fecha_extraccion": "2026-10-13T01:23:26+00:00"
+      }
+    },
+    {
+      "referencia_sil": "926",
+      "nombre_completo": "García Flores Orlando Alfonso",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Sandra Elizabeth Pamanes Ortíz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/926.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de acción electoral del CDM del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de acción electoral del CDM de Monterrey."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinador en Nuevo León de la campaña de Vicente Fox para la presidencia de la república."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario de Organización del CDE de Nuevo León."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Secretario general del CDM del PAN en Monterrey."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Diputado local suplente del PAN en funciones."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Coordinador de programas sociales de la Secretaría de Desarrollo Humano del gobierno de Nuevo León."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Regidor del municipio de Monterrey."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Coordinador administrativo del grupo parlamentario del PAN en el Congreso de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178440",
+        "fecha_extraccion": "2026-10-13T01:23:28+00:00"
+      }
+    },
+    {
+      "referencia_sil": "923",
+      "nombre_completo": "Gracia Guzmán Raúl",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Tomas David Macías Canales",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/923.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN en San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Representante ante la vocalía distrital del 8 distrital del Registro Federal de Electores."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Meritorio en el juzgado sexto de lo penal del primer distrito judicial de Nuevo León."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Asistente de diputado federal en la LVII legislatura del Congreso de la Unión."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Suplente del tercer regidor del ayuntamiento de Monterrey, Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178438",
+        "fecha_extraccion": "2026-10-13T01:24:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1082",
+      "nombre_completo": "Guajardo Villarreal Ildefonso",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ismael Garza T. González",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1082.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Consejero del PRI para asuntos de América del Norte."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general de asuntos internacionales del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Liga de Economistas Revolucionarios."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Jefe de la unidad de planeación, comunicación y enlace de la SECOFI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Subsecretario de desarrollo turístico en la SECTUR."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Oficial mayor en la Secretaría de Relaciones Exteriores."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de la oficina de la SECOFI para asuntos del TLC en Washinton DC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de finanzas púbicas y de política macroeconómica de la Secretaría de Programación y Presupuesto."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178564",
+        "fecha_extraccion": "2026-10-13T01:24:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "924",
+      "nombre_completo": "Hernández Santillán Julián",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Óscar Cano Garza",
+      "fecha_toma_protesta": "23/07/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/924.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/07/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidato a presidente municipal de Guadalupe, Nuevo León."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Subsecretario de formación y capacitación de funcionarios públicos del CDE del PAN en Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretario general del CDM del PAN en Guadalupe, Nuevo León."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Secretario del subcomité de la colonia Josefa Zozaya."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PAN en San Pedro Garza García, Nuevo León."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LXVIII legislatura del Congreso de Nuevo León. Presidente de la Comisión de Hacienda Pública. Subcoordinador hacendario del grupo parlamentario del PAN."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Coordinador de fiscalización y ejecución de la dirección de ingresos de la Secretaria de Finanzas y Tesorería Municipal de San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Abogado dictaminador en la Subprocuraduría Fiscal Regional del Noroeste de la Procuraduría Fiscal de la Federación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de ingresos de la Secretaria de Finanzas y Tesorería Municipal en Santa Catarina, Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1997",
+          "experiencia": "Subdirector de regularización y fiscalización de la tesorería municipal de Monterrey, Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "23/07/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "19/02/2003",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "288743",
+        "fecha_extraccion": "2026-10-13T01:24:40+00:00"
+      }
+    },
+    {
+      "referencia_sil": "920",
+      "nombre_completo": "Martínez Ramírez Manuel Braulio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Pedro Salgado Almaguer",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/920.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LX legislatura del Congreso de Nuevo León."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de recursos humanos en la presidencia municipal de San Nicolás de los Garza, Nuevo León."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretario auxiliar del presidente municipal de San Nicolás de los Garza, Nuevo León."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Juez calificador en la presidencia municipal de Santa Catarina, Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178437",
+        "fecha_extraccion": "2026-10-13T01:24:41+00:00"
+      }
+    },
+    {
+      "referencia_sil": "925",
+      "nombre_completo": "Paredes Gloria Juan",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Guadalupe Guidi Kawas",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/925.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "22/04/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario de la Comisión Legislativa Nacional de la CNC."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Presidente municipal de Doctor Arroyo, Nuevo León."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Delegado de la XIV asmblea nacional del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente municipal de Doctor Arroyo, Nuevo León."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Secretario de organización del CDM del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del sector agrario en el PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente de la CNC en Nuevo León."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado local en la LIV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretario general de comunidades rurales de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178439",
+        "fecha_extraccion": "2026-10-13T01:24:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "62013",
+      "nombre_completo": "Sada Pérez Verónica",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "25/03/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/62013.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "03/12/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Tesorera del CDE del PAN en Coahuila."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Coordinadora en la zona oriente de la campaña del candidato del PAN a la presidencia municipal de San Pedro Garza García, NL."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Coordinadora de eventos especiales en la campaña al candidato del PAN a la gobernatura de Nuevo León."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2002",
+          "experiencia": "Titular de la Secretaría de Educación, Cultura y Deporte en el municipio de Monterrey, NL."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Directora de adquisiciones en la presidencia municipal de San Pedro Garza García, Nuevo León"
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Coordinadora administrativa del DIF en San Pedro Garza García, Nuevo León ."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1065",
+        "titular_nombre": "Jesús Mario Garza Guevara ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:24:45+00:00"
+      }
+    },
+    {
+      "referencia_sil": "29642",
+      "nombre_completo": "Treviño Cabello Francisco Luis",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "06/12/2001",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/29642.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Subdelegado de inspección y vigilancia."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Director operativo del Programa Jóvenes por México."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Subdirector de estímulos a la juventud, Instituto Mexicano de la Juventud."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de políticas sociales en la Secretaría de Desarrollo Social."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1050",
+        "titular_nombre": "Fanny Arellanes Cervantes ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:24:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "60918",
+      "nombre_completo": "Villarreal Gutiérrez José Guadalupe",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "24/09/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60918.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Consejero estatal de la Juventud Popular Revolucionaria de la CNOP."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2003",
+          "experiencia": "Presidente del Frente Juvenil Revolucionario."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Colaborador de comunicación social de la CNOP."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario del FJR."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Coordinador juvenil del FJR."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Integrante del Frente Juvenil Revolucionario (FJR)."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "919",
+        "titular_nombre": "Abel Guerra Garza ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:24:48+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1244",
+      "nombre_completo": "Madero Quiroga Adalberto Arturo",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rigoberto González González",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1244.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Sistema de Bibliotecas del H. Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de finanzas en la campaña para presidente municipal de Escobedo, Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Finanzas y Secretario de Acción gubernamental del CDE del PAN de Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor legal del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero Nacional"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de los regidores de representación proporcional en Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del CDM del PAN de Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local del PAN en la LXVIII legislatura del Congreso de Nuevo León. Presidente del Comité de Biblioteca y miembro de la Comisión de Hacienda. Vicepresidente de la Comisión de Legislación y Puntos Constitucionales."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor jurídico de regidores y funcionarios municipales en Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Cronista del municipio de Allende, Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178681",
+        "fecha_extraccion": "2026-10-13T01:24:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1245",
+      "nombre_completo": "Margáin Berlanga Fernando",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nuevo León",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eduardo Arias Aparicio",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1245.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Presidente municipal de San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Candidato del PAN a regidor de San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Secretario de Desarrollo Social y Humano en el gobierno de Nuevo León."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Secretario del municipio de Santa Catarina, en Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178682",
+        "fecha_extraccion": "2026-10-13T01:24:53+00:00"
+      }
+    },
+    {
+      "referencia_sil": "335108",
+      "nombre_completo": "Zarazúa Rocha Rubén",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Nuevo León",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "18/03/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/335108.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos - Primera (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Aspirante a la dirigencia de su partido en Nuevo León."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1980",
+          "al_ano": "1985",
+          "experiencia": "Procurador de Justicia en Nuevo León."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Subprocurador de Justicia de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "18/03/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1283",
+        "titular_nombre": "Jesús Ricardo Canavati Tafich ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:24:55+00:00"
+      }
+    }
+  ]
 }

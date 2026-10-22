@@ -1,1355 +1,1355 @@
 {
-    "metadata": {
-        "entidad_id": 8,
-        "entidad_nombre": "Chihuahua",
-        "legislatura": 61,
-        "generado_en": "2026-10-13T05:31:36+00:00",
-        "total_diputados": 6,
-        "total_senadores": 4,
-        "total_general": 10
+  "metadata": {
+    "entidad_id": 8,
+    "entidad_nombre": "Chihuahua",
+    "legislatura": 61,
+    "generado_en": "2026-10-13T05:31:36+00:00",
+    "total_diputados": 6,
+    "total_senadores": 4,
+    "total_general": 10
+  },
+  "diputados": [
+    {
+      "referencia_sil": "2306583",
+      "nombre_completo": "Ceballos Llerenas Hilda",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Mariano Ruiz Zubieta",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306583.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para la Niñez. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "14/04/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Enlace en Colima en la campaña interna para seleccionar al Presidente del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera consultiva del Organismo Nacional de Mujeres Priístas (ONMPRI) en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política municipal y estatal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputada local en la LIV legislatura del Congreso de Colima. Vicepresidenta de la Mesa Directiva. Presidenta de la Comisión de Niñez, Juventud, Discapacidad y Adulto Mayor. Secretaria de las comisiones de Equidad y Género, de Salud y Asistencia Social y de Educación, Cultura y Deporte."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2003",
+          "experiencia": "Presidenta del DIF en Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2306584",
+        "fecha_extraccion": "2026-10-13T05:31:18+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "2306675",
+      "nombre_completo": "Cortés León Yulenny Guylaine",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Jesús Alberto Partida Valencia",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306675.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "2306583",
-            "nombre_completo": "Ceballos Llerenas Hilda",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Mariano Ruiz Zubieta ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306583.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Niñez. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "14/04/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Enlace en Colima en la campaña interna para seleccionar al Presidente del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera consultiva del Organismo Nacional de Mujeres Priístas (ONMPRI) en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política municipal y estatal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputada local en la LIV legislatura del Congreso de Colima. Vicepresidenta de la Mesa Directiva. Presidenta de la Comisión de Niñez, Juventud, Discapacidad y Adulto Mayor. Secretaria de las comisiones de Equidad y Género, de Salud y Asistencia Social y de Educación, Cultura y Deporte."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2003",
-                    "experiencia": "Presidenta del DIF en Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2306584",
-                "fecha_extraccion": "2026-10-13T05:31:18+00:00"
-            }
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "2306675",
-            "nombre_completo": "Cortés León Yulenny Guylaine",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Jesús Alberto Partida Valencia ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306675.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Función Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial del Seguimiento a los Fondos Aportados por los Ex Trabajadores Mexicanos Braceros. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidata a diputada federal suplente."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2002",
-                    "experiencia": "Secretaria de promoción política de la mujer en el CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Directora estatal de promoción ciudadana en el CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinadora de acción política de acción juvenil en el CDM del PAN en Villa de Alvarez, Colima."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Regidora en Villa de Álvarez, Colima. Presidenta de la Comisión de Juventud y Deportes."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Asesora en el LIV legislatura del Congreso de Colima."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Analista en la dirección de planeación del municipio de Colima."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Asistente de la Comisión de Justicia en la LII legislatura del Congreso de Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2306676",
-                "fecha_extraccion": "2026-10-13T05:31:20+00:00"
-            }
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9214121",
-            "nombre_completo": "Cruz Mendoza Carlos",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Patricia Carlos Pérez ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214121.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial de Ganadería. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Coordinador estatal de la campaña para presidente del CEN del PRI en Colima."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente municipal de Armería, Colima."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Candidato a diputado local en el Congreso de Colima."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador en Colima del proceso de elección de la dirigencia nacional del PRI."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PRI en Armería, Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de gestión social en el CDE de PRI en Colima."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado local en la LIV legislatura del Congreso de Colima. Presidente de la Mesa Directiva. Coordinador de la fracción del PRI y presidente de la Comisión de Gobierno Interno."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Secretario de Educación del gobierno de Colima."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2003",
-                    "experiencia": "Director de la unidad de servicios administrativos de la Secretaría de Educación para Tecomán y Armería, Colima."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1982",
-                    "experiencia": "Funcionario del CREA, ahora Poder Joven."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario particular del presidente municipal de Armería, Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Administrador de la Unidad Deportiva de la cabecera municipal de Armería, Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214122",
-                "fecha_extraccion": "2026-10-13T05:31:22+00:00"
-            }
+          "comision": "Función Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2010",
+          "estatus": "Baja"
         },
         {
-            "referencia_sil": "9214053",
-            "nombre_completo": "Morán Sánchez Leoncio Alfonso",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Omar Suárez Zaizar ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214053.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/09/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "08/09/2011",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Coordinador de campaña de la candidata del PAN al gobierno de Colima."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Candidato del PAN a la gubernatura de Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vicepresidente de la Asociación de Municipios de México."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Presidente municipal de Colima, Col."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214054",
-                "fecha_extraccion": "2026-10-13T05:31:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2306677",
-            "nombre_completo": "Peralta Rivas Pedro",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Amalia Castell Ibáñez ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306677.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de Análisis de Políticas de Creación de Nuevos Empleos. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Función Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Precandidato del PAN al gobierno de Colima."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero estatal de PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado local en la LV legislatura del Congreso de Colima. Coordinador del grupo parlamentario del PAN en su primer año de actividades. Presidente del la Comisión Desarrollo Municipal, e integrante de las comisiones de Participación Ciudadana, Peticiones, y Ediciones Legislativas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión Consultiva del INFONAVIT en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo de Administración de la Comisión Intermunicipal de Agua Potable y Alcantarillado de Colima y Villa de Alvarez (CIAPACOV)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2306678",
-                "fecha_extraccion": "2026-10-13T05:31:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "6909874",
-            "nombre_completo": "Vizcaíno Silva Indira",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Priscila López Mejía ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/6909874.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/10/2011",
-                    "fecha_fin": "17/11/2011",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial de Acceso Digital (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial del Impulso a la Calidad Educativa. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "11/10/2011",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Precandidata a diputada local en Colima."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Miembro del Comité Municipal del PRD en Cuauhtémoc, Colima."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del Comité Juvenil Estatal del PRD en Colima."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Becario Presidencia del Supremo Tribunal de Justicia de Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "6909875",
-                "fecha_extraccion": "2026-10-13T05:31:27+00:00"
-            }
+          "comision": "Especial del Seguimiento a los Fondos Aportados por los Ex Trabajadores Mexicanos Braceros. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "2303888",
-            "nombre_completo": "Dueñas Llerenas Jesús",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Josefina Estela Meneses Fernández ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303888.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "11/04/2012",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Agroindustria Azucarera. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/03/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/03/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "23/02/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Límites de las Entidades Federativas (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "06/10/2009",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "09/03/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "09/03/2010",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente municipal de Villa de Álvarez, Colima."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Federación de Productores del Campo, dependiente de la Secretaría de Promoción del campo del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de presidentes municipales del CDE del PAN en Colima."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senador en la LX legislatura. Presidente de la Comisión de Agricultura y Ganadería, Secretario de la Comisión de Límites de las Entidades Federativas. Integrante de las comisiones de Desarrollo Rural, Reforma Agraria y Relaciones Exteriores, América del Norte."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal en la LVIII legislatura. Secretario de la Comisión de Agricultura y Ganadería. Integrante de las comisiones de Reforma Agraria, especiales de la agroindustria azucarera de México y de Ganadería."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Delegado de SAGARPA en Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2304139",
-                "fecha_extraccion": "2026-10-13T05:31:30+00:00"
-            }
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidata a diputada federal suplente."
         },
         {
-            "referencia_sil": "2303486",
-            "nombre_completo": "Rueda Sánchez Rogelio Humberto",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Martha Artemisa Cruz Alcaraz ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303486.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 9,
-            "comisiones": [
-                {
-                    "comision": "Especial para el Análisis y Seguimiento de las Finanzas Públicas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/06/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos, Primera (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/04/2010",
-                    "fecha_fin": "02/09/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Agroindustria Azucarera. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "22/04/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "26/11/2009",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Precandidato a la gubernatura de Colima por el PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRI en Baja California."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión Política Permanente del Consejo Político Nacional."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Presidente municipal de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción electoral de la Liga de comunidades agrarias y sindicatos campesinos de la CNC en Colima."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del CDE del PRI en Colima."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del CDM del PRI en Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario de información y propaganda del CDE del PRI en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en Manzanillo, Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Líder de organizaciones juveniles del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Secretario del consejo técnico de asuntos sociales del Consejo Político Nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senador en la LX legislatura. Secretario de la Comisión de Desarollo Social. Secretario de la Mesa Directiva de la Comisión Permanente."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal de la LIX legislatura. Secretario de la Comisión de Comunicaciones. Integrante de las comisiones de Puntos Constitucionales, Radio, Televisión y Cinematografía y la Especial del Café. Integrante de la Segunda y Tercera Comisión de Trabajo de la Comisión Permanente en el periodo de enero a marzo del 2004."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Subdelegado de la Secretaría de la Reforma Agraria en Colima."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director ejecutivo del Instituto de Administración Pública de Colima."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario del municipio de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario particular del secretario general de gobierno de Colima."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario técnico de la Comisión de Ecología en la LIII legislatura federal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2305873",
-                "fecha_extraccion": "2026-10-13T05:31:32+00:00"
-            }
+          "del_ano": "2000",
+          "al_ano": "2002",
+          "experiencia": "Secretaria de promoción política de la mujer en el CDE del PAN en Colima."
         },
         {
-            "referencia_sil": "2303297",
-            "nombre_completo": "Sosa Govea Martha Leticia",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Luis Fernando Rodríguez Lomelí ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303297.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores, Organizaciones No Gubernamentales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/03/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población y Desarrollo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/10/2010",
-                    "fecha_fin": "08/03/2011",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/03/2010",
-                    "fecha_fin": "06/09/2011",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/11/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "11/03/2010",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Candidata a la gubernatura de Colima."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2013",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidata a diputada federal por el distrito II de Colima."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Delegada municipal del PAN en Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Precandidata del PAN a la gubernatura de Colima."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidenta municipal de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "2001",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria general del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "2001",
-                    "experiencia": "Consejera estatal del PAN en Colima."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Prensa del CDM del PAN en Manzanillo, Colima."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senadora en la LX legislatura. Secretaria de la Comisión de Derechos Humanos. Integrante de las comisiones de Comunicaciones y Transportes; Equidad y Género; Federalismo; Hacienda y Crédito Público y Turismo."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada local en la LI legislatura del Congreso de Colima."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada local suplente en el Congreso de Colima."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Presidenta del patronato del DIF en Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1989",
-                    "experiencia": "Jefe administrativo en la Superintendencia de Operación Portuaria en la SCT."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Comisión de Gobernación y Reglamentos del municipio de Manzanillo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2305689",
-                "fecha_extraccion": "2026-10-13T05:31:34+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Directora estatal de promoción ciudadana en el CDE del PAN en Colima."
         },
         {
-            "referencia_sil": "2303283",
-            "nombre_completo": "Sotelo García Carlos",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro Castrejón Brito ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": "cso",
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303283.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/03/2012",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/02/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "10/02/2011",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Canal de Televisión del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de asuntos electorales del CEN del PRD."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de ciudades y gobiernos municipales del CEN del PRD."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de acción electoral del CEN del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario de organización del CEN del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de ejercicio gubernamental del CEN del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario de imagen y propaganda del CEN del PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Subsecretario de Comunicación y Propaganda del CEN del PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Vicepresidente de la Comisión de Presupuesto del Tercer Consejo Nacional del PRD."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente del CDE del PRD en Colima."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador de Barrios y Colonias por la Democracia, A.C."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente del CDM del PRD en Manzanillo, Colima y secretario de Organización y de Movimientos Sociales del CEE del PRD-Colima."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1989",
-                    "experiencia": "Dirigente estatal de los partidos Comunista Mexicano, Socialista Unificado de México y Mexicano Socialista."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante del PRD ante la Comisión de Radio Difusión del IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRD en Chiapas, Michoacán, Puebla, Campeche, Baja California, Jalisco, Zacatecas, y Sonora, entre otras."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador del Movimiento por la Democracia de la Sección VI del SNTE."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senador en la LX legislatura. Presidente de las comisiones del Canal de Televisión del Congreso de la Unión y Radio, Televisión y Cinematografía. Secretario de la Comisión de Relaciones Exteriores, América Latina y el Caribe. Integrante de las comisiones de Turismo, Federalismo y Vivienda."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado local de la L legislatura en el Congreso de Colima."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Subsecretario de desarrollo político del gobierno de Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2305678",
-                "fecha_extraccion": "2026-10-13T05:31:36+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Coordinadora de acción política de acción juvenil en el CDM del PAN en Villa de Alvarez, Colima."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Regidora en Villa de Álvarez, Colima. Presidenta de la Comisión de Juventud y Deportes."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Asesora en el LIV legislatura del Congreso de Colima."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Analista en la dirección de planeación del municipio de Colima."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Asistente de la Comisión de Justicia en la LII legislatura del Congreso de Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2306676",
+        "fecha_extraccion": "2026-10-13T05:31:20+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214121",
+      "nombre_completo": "Cruz Mendoza Carlos",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Patricia Carlos Pérez",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214121.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial de Ganadería. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Coordinador estatal de la campaña para presidente del CEN del PRI en Colima."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Presidente municipal de Armería, Colima."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Candidato a diputado local en el Congreso de Colima."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Coordinador en Colima del proceso de elección de la dirigencia nacional del PRI."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PRI en Armería, Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de gestión social en el CDE de PRI en Colima."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado local en la LIV legislatura del Congreso de Colima. Presidente de la Mesa Directiva. Coordinador de la fracción del PRI y presidente de la Comisión de Gobierno Interno."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Secretario de Educación del gobierno de Colima."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2003",
+          "experiencia": "Director de la unidad de servicios administrativos de la Secretaría de Educación para Tecomán y Armería, Colima."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1982",
+          "experiencia": "Funcionario del CREA, ahora Poder Joven."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Secretario particular del presidente municipal de Armería, Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Administrador de la Unidad Deportiva de la cabecera municipal de Armería, Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214122",
+        "fecha_extraccion": "2026-10-13T05:31:22+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214053",
+      "nombre_completo": "Morán Sánchez Leoncio Alfonso",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Omar Suárez Zaizar",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214053.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/09/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "08/09/2011",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Coordinador de campaña de la candidata del PAN al gobierno de Colima."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Candidato del PAN a la gubernatura de Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vicepresidente de la Asociación de Municipios de México."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Presidente municipal de Colima, Col."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214054",
+        "fecha_extraccion": "2026-10-13T05:31:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2306677",
+      "nombre_completo": "Peralta Rivas Pedro",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Amalia Castell Ibáñez",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306677.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de Análisis de Políticas de Creación de Nuevos Empleos. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Función Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Precandidato del PAN al gobierno de Colima."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2010",
+          "experiencia": "Consejero estatal de PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado local en la LV legislatura del Congreso de Colima. Coordinador del grupo parlamentario del PAN en su primer año de actividades. Presidente del la Comisión Desarrollo Municipal, e integrante de las comisiones de Participación Ciudadana, Peticiones, y Ediciones Legislativas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión Consultiva del INFONAVIT en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo de Administración de la Comisión Intermunicipal de Agua Potable y Alcantarillado de Colima y Villa de Alvarez (CIAPACOV)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2306678",
+        "fecha_extraccion": "2026-10-13T05:31:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "6909874",
+      "nombre_completo": "Vizcaíno Silva Indira",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Priscila López Mejía",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/6909874.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/10/2011",
+          "fecha_fin": "17/11/2011",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial de Acceso Digital (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial del Impulso a la Calidad Educativa. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "11/10/2011",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Precandidata a diputada local en Colima."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Miembro del Comité Municipal del PRD en Cuauhtémoc, Colima."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del Comité Juvenil Estatal del PRD en Colima."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Becario Presidencia del Supremo Tribunal de Justicia de Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "6909875",
+        "fecha_extraccion": "2026-10-13T05:31:27+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "2303888",
+      "nombre_completo": "Dueñas Llerenas Jesús",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Josefina Estela Meneses Fernández",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303888.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "11/04/2012",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Agroindustria Azucarera. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/03/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/03/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "23/02/2010",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Límites de las Entidades Federativas (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "06/10/2009",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Reforma Agraria (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "09/03/2010",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "09/03/2010",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente municipal de Villa de Álvarez, Colima."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Presidente de la Federación de Productores del Campo, dependiente de la Secretaría de Promoción del campo del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de presidentes municipales del CDE del PAN en Colima."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senador en la LX legislatura. Presidente de la Comisión de Agricultura y Ganadería, Secretario de la Comisión de Límites de las Entidades Federativas. Integrante de las comisiones de Desarrollo Rural, Reforma Agraria y Relaciones Exteriores, América del Norte."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal en la LVIII legislatura. Secretario de la Comisión de Agricultura y Ganadería. Integrante de las comisiones de Reforma Agraria, especiales de la agroindustria azucarera de México y de Ganadería."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Delegado de SAGARPA en Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2304139",
+        "fecha_extraccion": "2026-10-13T05:31:30+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2303486",
+      "nombre_completo": "Rueda Sánchez Rogelio Humberto",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Martha Artemisa Cruz Alcaraz",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303486.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 9,
+      "comisiones": [
+        {
+          "comision": "Especial para el Análisis y Seguimiento de las Finanzas Públicas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/06/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos, Primera (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/04/2010",
+          "fecha_fin": "02/09/2010",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Agroindustria Azucarera. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "22/04/2010",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "26/11/2009",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Precandidato a la gubernatura de Colima por el PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Delegado del PRI en Baja California."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión Política Permanente del Consejo Político Nacional."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Presidente municipal de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario de acción electoral de la Liga de comunidades agrarias y sindicatos campesinos de la CNC en Colima."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente del CDE del PRI en Colima."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente del CDM del PRI en Manzanillo, Colima."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Secretario de información y propaganda del CDE del PRI en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en Manzanillo, Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Líder de organizaciones juveniles del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Secretario del consejo técnico de asuntos sociales del Consejo Político Nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senador en la LX legislatura. Secretario de la Comisión de Desarollo Social. Secretario de la Mesa Directiva de la Comisión Permanente."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal de la LIX legislatura. Secretario de la Comisión de Comunicaciones. Integrante de las comisiones de Puntos Constitucionales, Radio, Televisión y Cinematografía y la Especial del Café. Integrante de la Segunda y Tercera Comisión de Trabajo de la Comisión Permanente en el periodo de enero a marzo del 2004."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Subdelegado de la Secretaría de la Reforma Agraria en Colima."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director ejecutivo del Instituto de Administración Pública de Colima."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Secretario del municipio de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Secretario particular del secretario general de gobierno de Colima."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario técnico de la Comisión de Ecología en la LIII legislatura federal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2305873",
+        "fecha_extraccion": "2026-10-13T05:31:32+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2303297",
+      "nombre_completo": "Sosa Govea Martha Leticia",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Luis Fernando Rodríguez Lomelí",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303297.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores, Organizaciones No Gubernamentales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/03/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población y Desarrollo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/10/2010",
+          "fecha_fin": "08/03/2011",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/03/2010",
+          "fecha_fin": "06/09/2011",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/11/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "11/03/2010",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Candidata a la gubernatura de Colima."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2013",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidata a diputada federal por el distrito II de Colima."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Delegada municipal del PAN en Manzanillo, Colima."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Precandidata del PAN a la gubernatura de Colima."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidenta municipal de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "2001",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Secretaria general del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "2001",
+          "experiencia": "Consejera estatal del PAN en Colima."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Prensa del CDM del PAN en Manzanillo, Colima."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senadora en la LX legislatura. Secretaria de la Comisión de Derechos Humanos. Integrante de las comisiones de Comunicaciones y Transportes; Equidad y Género; Federalismo; Hacienda y Crédito Público y Turismo."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputada local en la LI legislatura del Congreso de Colima."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputada local suplente en el Congreso de Colima."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Presidenta del patronato del DIF en Manzanillo, Colima."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1989",
+          "experiencia": "Jefe administrativo en la Superintendencia de Operación Portuaria en la SCT."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Comisión de Gobernación y Reglamentos del municipio de Manzanillo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2305689",
+        "fecha_extraccion": "2026-10-13T05:31:34+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2303283",
+      "nombre_completo": "Sotelo García Carlos",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro Castrejón Brito",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": "cso",
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303283.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/03/2012",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/02/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "10/02/2011",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Canal de Televisión del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Secretario de asuntos electorales del CEN del PRD."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Secretario de ciudades y gobiernos municipales del CEN del PRD."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Secretario de acción electoral del CEN del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Secretario de organización del CEN del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Secretario de ejercicio gubernamental del CEN del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Secretario de imagen y propaganda del CEN del PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Subsecretario de Comunicación y Propaganda del CEN del PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Vicepresidente de la Comisión de Presupuesto del Tercer Consejo Nacional del PRD."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Presidente del CDE del PRD en Colima."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Miembro fundador de Barrios y Colonias por la Democracia, A.C."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro fundador del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente del CDM del PRD en Manzanillo, Colima y secretario de Organización y de Movimientos Sociales del CEE del PRD-Colima."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1989",
+          "experiencia": "Dirigente estatal de los partidos Comunista Mexicano, Socialista Unificado de México y Mexicano Socialista."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante del PRD ante la Comisión de Radio Difusión del IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRD en Chiapas, Michoacán, Puebla, Campeche, Baja California, Jalisco, Zacatecas, y Sonora, entre otras."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro fundador del Movimiento por la Democracia de la Sección VI del SNTE."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senador en la LX legislatura. Presidente de las comisiones del Canal de Televisión del Congreso de la Unión y Radio, Televisión y Cinematografía. Secretario de la Comisión de Relaciones Exteriores, América Latina y el Caribe. Integrante de las comisiones de Turismo, Federalismo y Vivienda."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado local de la L legislatura en el Congreso de Colima."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Subsecretario de desarrollo político del gobierno de Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2305678",
+        "fecha_extraccion": "2026-10-13T05:31:36+00:00"
+      }
+    }
+  ]
 }

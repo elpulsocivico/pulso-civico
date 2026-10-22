@@ -1,2382 +1,2382 @@
 {
-    "metadata": {
-        "entidad_id": 20,
-        "entidad_nombre": "Oaxaca",
-        "legislatura": 57,
-        "generado_en": "2026-10-13T00:34:06+00:00",
-        "total_diputados": 13,
-        "total_senadores": 4,
-        "total_general": 17
+  "metadata": {
+    "entidad_id": 20,
+    "entidad_nombre": "Oaxaca",
+    "legislatura": 57,
+    "generado_en": "2026-10-13T00:34:06+00:00",
+    "total_diputados": 13,
+    "total_senadores": 4,
+    "total_general": 17
+  },
+  "diputados": [
+    {
+      "referencia_sil": "158",
+      "nombre_completo": "Acevedo Gutiérrez Agustina",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/158.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 0,
+      "comisiones": [],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada local en la LIX legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1",
+        "titular_nombre": "José Antonio Estefan Garfias ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "60",
+      "nombre_completo": "Bazán López Aurora",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Edgardo Villanueva Cuevas",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
         {
-            "referencia_sil": "158",
-            "nombre_completo": "Acevedo Gutiérrez Agustina",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/158.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 0,
-            "comisiones": [],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada local en la LIX legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1",
-                "titular_nombre": "José Antonio Estefan Garfias ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Artesanías (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "60",
-            "nombre_completo": "Bazán López Aurora",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Edgardo Villanueva Cuevas ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Artesanías (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de atención a los trabajadores azucareros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Representante ante el Consejo Local del IFE en Oaxaca."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de promoción de la Comisión Ejecutiva Nacional del PVEM."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Representante Propietaria ante el Consejo General del Instituto Estatal Electoral de Oaxaca."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión de Honor y Justicia Nacional del PVEM."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Presidenta del CEE del PVEM en Oaxaca."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinadora estatal del PVEM en Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada del Segundo Congreso Nacional Indígena."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177822",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "107",
-            "nombre_completo": "Cortés Carrillo Luisa",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Reynaldo Fernández Santiago ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/107.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Artesanías (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de atención y apoyo a discapacitados (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Presidenta municipal de San Pedro Tututepec, Oaxaca."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinadora electoral del candidato del PRI a la gubernatura de Oaxaca."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinadora electoral del candidato del PRI a diputado federal por el 8 distrito de Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada local en la LVI legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Reponsable de los talleres recreativos del CREA (Consejo Nacional de Recursos para la Atención de la Juventud)."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Jefa de oficina en la Subdirección de Turismo del CREA."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177851",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "125",
-            "nombre_completo": "De la Cruz Santiago Vicente",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jorge Toledo Luis ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/125.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "13/12/1999",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ecología y Medio Ambiente (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/1997",
-                    "fecha_fin": "21/04/1998",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador del Programa Colosio en Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario General adjunto del CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Miembro del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Comisionado político del CDE del PRI en la región del Istmo de Tehuantepec."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Subcoordinador operativo del CEPES (Centro de Estudios Políticos, Económicos y Sociales) del PRI en el DF."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Militante activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado local por la LVI legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario Técnico en el gobierno de Oaxaca."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Director de Acción Social en la delegación Iztapalapa."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1989",
-                    "experiencia": "Subdirector de Política de Vivienda de la Sedue (Secretaría de Desarrollo Urbano y Ecología)."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Jefe de la Unidad de Investigación y Análisis de la Imagen Institucional del IMSS."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector de Cultura y Desarrollo Comunitario de la Delegación Iztapalapa en el DDF."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177865",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "163",
-            "nombre_completo": "Fernández Arteaga Francisco",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Manuel Murcia Rodríguez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/163.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bosques y Selvas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente municipal de Tuxtepec, Oaxaca."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Delegado distrital del CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Delegado distrital del CEN del PRI de Oaxaca."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Coordinador de campaña para la presidente municipal de Tuxtepec, Oaxaca."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": "1967",
-                    "experiencia": "Secretario de Prensa y Propaganda del CDM del PRI en Ciudad Juárez, Chihuahua."
-                },
-                {
-                    "del_ano": "1956",
-                    "al_ano": null,
-                    "experiencia": "Militante activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del CDE del PRI en Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Diputado local en la LII legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1961",
-                    "al_ano": "1969",
-                    "experiencia": "Jefe del Programa del Hule en la región de Tuxtepec, Oaxaca."
-                },
-                {
-                    "del_ano": "1960",
-                    "al_ano": "1961",
-                    "experiencia": "Jefe del Programa del Hule en las regiones de Tezonapa Veracruz y Cosolapa Oaxaca."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177899",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "184",
-            "nombre_completo": "García Corpus Teófilo Manuel",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Mario Ageo Cruz Aquino ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/184.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Agricultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/04/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Distribución y Manejo de Bienes de Consumo y Servicios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de asuntos de la frontera sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "21/04/1998",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNC de Oaxaca."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador político general del noveno distrito federal electoral del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Militante activo del PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1997",
-                    "experiencia": "Dirigente estatal de los Consejos Comunitarios de Abasto en Oaxaca."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión SEP-SNTE en Zacatecas."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Delegado efectivo ante las diversas asambleas estatales y nacionales del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la comisión de homologación salarial de la sección 34 del SNTE en Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Líder del Consejo Estatal Campesino y Obrero Emiliano Zapata (CECOEZ)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado sindical del SNTE en Moyahua, Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Nacional de Agricultura en el CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Consejo Estatal Campesino Emiliano Zapata en Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del CEN del PRI en Quintana Roo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN, CDE y del Movimiento de la Juventud Revolucionaria del PRI en el estado de México."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente agropecuario en la región Sierra Sur de la Secretaría de Agricultura y Recursos Hidráulicos."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Gerente de operaciones en CONASUPO-DICONSA Oaxaca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Subgerente de operaciones comunitarias en CONASUPO-DICONSA Oaxaca."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Subgerente regional de operaciones rurales de CONASUPO-DICONSA en Mérida, Yucatán, zona Peninsular."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Coordinador del programa, apoyo a zonas populares-urbanas, (PAZPU) en la región centro de Oaxaca."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Responsable del programa de Organización Agraria Básica en la Secretaría de Desarrollo Agropecuario de Oaxaca."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Residente agropecuario en la región Sierra Sur de Oaxaca, Secretaría de Agricultura y Recursos Hidráulicos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del programa rural de CONASUPO-DICONSA en Ciudad Obregón, Sonora."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del programa rural de CONASUPO-DICONSA en la zona centro de Guadalajara, Jalisco."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector del Centro de Bachillerato Tecnológico y Agropecuario de Moyahua, Zacatecas."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177914",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "190",
-            "nombre_completo": "García Guzmán Emilia",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Eva Florinda Cruz Molina ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/190.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Artesanías (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de atención y apoyo a discapacitados (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Comisionada Política del PRI en el municipio de Santa María, Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinadora de Movilización Ciudadana del PRI en Teotitlán de Flores Magón, Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Representante general del Congreso de Mujeres por el Cambio en Oaxaca."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Secretaria de Asuntos Agrarios de la Unión Nacional de Cafeticultores."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Integrante del Consejo Político Estatal y Presidenta de la Comisión de las Mujeres del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Secretaria de Acción Femenil de la LCAySC (Liga de Comunidades Agrarias y Sindicatos Campesinos)en Oaxaca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Delegada especial de la CNC en Huautla de Jiménez, Oaxaca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Subdelegada del PRI en Huautla de Jiménez, Oaxaca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Delegada especial del PRI en Huautla de Jiménez y en la sierra Mazateca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Integrante del CDM del PRI en Huautla de Jiménez, Oaxaca."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Secretaria de Acción Electoral del PRI en Huautla de Jiménez, Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Gestión Social del Magisterio en la Sierra Mazateca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente regional de profesores de educación indígena, Magisterio de la Sierra Mazateca Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada distrital y ecretaria de Ecología del Consejo para la Integración de la Mujer (PRI)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1999",
-                    "experiencia": "Presidenta del Congreso de Mujeres por el Cambio, PRI-Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Diputada local en la LV Legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Regidora en Huautla de Jiménez, Oaxaca."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177919",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "209",
-            "nombre_completo": "Gómez Sandoval Hernández Alfonso José",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Carlos Elmor Hernández Underwood ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/209.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/04/2000",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario del Consejo Político Estatal del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del CDE de la CNOP."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del sector popular del CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del Consejo Político Estatal del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Municipal del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Delegado efectivo del PRI a la asamblea nacional XVII."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1996",
-                    "experiencia": "Integrante del Consejo Político Estatal del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente municipal interino de Oaxaca, Oaxaca."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Delegado efectivo del PRI a la asamblea nacional LIV."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Comisionado político del PRI en diversos distritos electorales."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Presidente del CDM del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Oficial Mayor del CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Militante activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Subsecretario de Gobierno en Oaxaca."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Director general del Instituto Oaxaqueño de Educación Pública."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Regidor en Oaxaca, Oaxaca."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario particular del Secretario General de Gobierno del estado de Oaxaca."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Jefe del departamento de Titulación Institucional de la Subdirección General Jurídica del ISSSTE."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador jurídico de la Secretaría General de Gobierno de Oaxaca."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Jefe del departamento de Convenios y Contratos en la Subdirección General Jurídica del ISSSTE."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1983",
-                    "experiencia": "Coordinador del Programa de Subsidios de Asistencia Social de la Secretaría de Salud."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177936",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "214",
-            "nombre_completo": "González Davar Juan José",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Alejandro Enríquez Habib ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/214.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité de Administración (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/04/2000",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Tesorero del Congreso de Participación Ciudadana, AC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato externo del PRD a la LVII Legislatura."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Representante del Comité de Crédito en el Istmo de Tehuantepec del Fondo de Apoyo a las Actividades Productivas de Oaxaca."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Director del Consejo de Seguridad Pública y Municipal de Juchitán, Oaxaca."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177939",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "231",
-            "nombre_completo": "Guerra López Claudio Marino",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Manuel Ricardez López ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/231.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Jubilados y Pensionados (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del sector obrero en el CDE del PRI en Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Sindicato de Trabajadores de la Industria de la carne, similares y conexos de la República Mexicana."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Federación de Trabajadores del Estado de Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CTM de Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal por la LV legislatura. Secretario de la Comision de Distribución, Manejo de Bienes de Consumo y Servicios; secretario de la comisión de Comunicaciones y Transportes."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero propietario de la Comisión Nacional de Salarios Mínimos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de Organización Colectiva en la Profeco (Procuraduría Federal del Consumidor)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subprocurador de Oganización y Capacitación en la Profeco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2177949",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "406",
-            "nombre_completo": "Pineda Castillo César Agustín",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Hernán Escobar Ocaña ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/406.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Patrimonio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del Partido de la Revolución Democrática (PRD)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador de la Coalición Obrera Campesino estudiantil del Itsmo, COCEI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor Jurídico de la Coalición Obrera Campesina Estudiantil del Itsmo, COCEI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador del Frente Campesino Independiente."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor de la Central de Trabajadores del Istmo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor de diversos Sindicatos Independientes en Juchitán."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178082",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "416",
-            "nombre_completo": "Ramírez López Germán",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Galindo Martínez González ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/416.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de asuntos de la frontera sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Pertenece al sector obrero del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Federación Regional de la CTM en la Mixteca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de transporte y abasto de la Federación de Trabajadores del Estado de Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado local en la LVI legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Promotor Agrario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable del Departamento Técnico de la Secretaria de la Reforma, Agraria."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Síndico de Huajuapan de León, Oaxaca."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178089",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "446",
-            "nombre_completo": "Sánchez Carreño Miguel Sadot",
-            "camara": "Diputados",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Vicente Lucas Lara ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/446.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "17/03/1998",
-                    "fecha_fin": "29/03/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "13/04/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Programación, Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "23/03/1998",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director Juvenil del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político del CDE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de capacitación política del CDE."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Justicia."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado local en la LVI legislatura del Congreso de Oaxaca. Coordinador de la fracción parlamentaria del PRI. Presidente de la Gran Comisión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Procurador General de Justicia de Oaxaca."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Director jurídico de Aseguramientos de la Procuraduría General de la República."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1984",
-                    "experiencia": "Jefe de Departamento de Legislación y Consulta del Instituto Politécnico Nacional."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1970",
-                    "experiencia": "Agente del Ministerio Público de la Procuraduría General de Justicia."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de Apoyo Administrativo del Banco Nacional de Obras y Servicios Públicos."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178110",
-                "fecha_extraccion": "2026-10-13T00:32:51+00:00"
-            }
+          "comision": "Especial de atención a los trabajadores azucareros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "602",
-            "nombre_completo": "Iturribarría Bolaños-Cacho Jorge Fernando",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "23/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/602.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 11,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "13/04/2000",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/1999",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Alimentarios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/04/1999",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - 5a Sección (Organismos Internacionales Gubernamentales) (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asistencia Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario técnico del Consejo Político Estatal de Oaxaca."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Coordinador del Plan Nacional Electoral del CEN en Oaxaca."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Presidente de la CDE en el estado de Oaxaca."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario general CDE."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Presidente del CDM de Oaxaca."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Asesor en materia de salud del CEPES de Oaxaca."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1964",
-                    "experiencia": "Secretario general de la Sociedad de Alumnos de la Escuela de Medicina y Cirugía de la UABJO."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente municipal de Oaxaca, Oaxaca,(84-86)"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto de la Presidencia del CDE de Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado en varios distritos electorales del estado de Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador suplente en la LVI Legislatura."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV Legislatura"
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Diputado local en la LIII Legislatura del Congreso del estado de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "jefe de los Servicios Coordinados de Salud en el estado de Oaxaca (95-97)"
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "secretario de Salud en el gobierno del estado de Oaxaca (95-98)"
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "delegado del ISSSTE en el estado de Oaxaca (94-95)"
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "y vicepresidente (88-89)"
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1998",
-                    "experiencia": "Médico familiar del IMSS en la ciudad de Oaxaca, Oax."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1971",
-                    "experiencia": "Médico familiar del IMSS en Tuxtepec, Oax."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1965",
-                    "experiencia": "En la UABJO fue: ayudante de laboratorio en la Escuela de Medicina y Cirugía (64-65)"
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": "1966",
-                    "experiencia": "Auxiliar Médico en la policlínica de Ferrocarriles Nacionales de México en la ciudad de Oaxaca."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "23/09/1997",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "682",
-                "titular_nombre": "José Murat Casab ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:34:01+00:00"
-            }
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Representante ante el Consejo Local del IFE en Oaxaca."
         },
         {
-            "referencia_sil": "645",
-            "nombre_completo": "Ramírez López Heladio Elías",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Oaxaca",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Morales Ledezma ",
-            "fecha_toma_protesta": "30/10/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/645.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Alimentarios (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "15/12/1998",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores - 3a Sección (América Latina) (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agricultura, Ganadería y Desarrollo Rural (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Secretario Geenral de la CNC."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Vicepresidente de la mesa directiva del CPN del PRI."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Coordinador del primer proceso de consulta abierta del PRI para elegir candidato a gobernador en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Chihuahua."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general de la CNC."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1992",
-                    "experiencia": "Gobernador de Oaxaca."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Delegado General de la CNC en los estados de Veracruz, Durango, Michoacán, Nuevo León y Chiapas."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario general de la Federación Nacional de Jornaleros Agrícolas de la CNC."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1980",
-                    "experiencia": "Presidente del CDE del PRI de Oaxaca."
-                },
-                {
-                    "del_ano": "1966",
-                    "al_ano": "1970",
-                    "experiencia": "Director Juvenil en el DF por el PRI."
-                },
-                {
-                    "del_ano": "1959",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1959",
-                    "al_ano": null,
-                    "experiencia": "Fundador de la Tribuna de la Juventud, organismo político-estudiantil afiliado al PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado general del CEN del PRI en Baja California, Queretaro y Guanajuato."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del sector agrario del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Senador durante la LIII legislatura."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Senador de la República en la LII legislatura."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Diputado Federal en la L Legislatura"
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director General de la Comisión Nacional de Zonas Áridas de la Sedesol."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Nacional de Desarrollo Integral y Justicia Social para los Pueblos Indígenas."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1976",
-                    "experiencia": "Director del Fideicomiso Cumbres de Llano Largo de la SRA en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1974",
-                    "experiencia": "Director Ejecutivo y Delegado Fiduciario especial del Fideicomiso Puerto Vallarta de la SRA."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Delegado especial agrario del Departamento de Asuntos Agrarios y Colonización en Puerto Vallarta, Jalisco."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1972",
-                    "experiencia": "Jefe del Departamento de Centros de la Juventud del Instituto Nacional de la Juventud."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": "1967",
-                    "experiencia": "Analista de prensa en el IMSS."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178239",
-                "fecha_extraccion": "2026-10-13T00:34:02+00:00"
-            }
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretaria de promoción de la Comisión Ejecutiva Nacional del PVEM."
         },
         {
-            "referencia_sil": "658",
-            "nombre_completo": "Sánchez López Héctor",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRD",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Oaxaca",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Enedino Jiménez Jiménez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/658.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 16,
-            "comisiones": [
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/11/1999",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/1999",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/12/1998",
-                    "fecha_fin": "25/11/1999",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Energía y Recursos no Renovables (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "18/11/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/11/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - 4a Sección (África y Oceanía) (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Distrito Federal (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación, 2a Sección (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - 2a Sección (América del Norte) (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "25/11/1999",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos, 2a Sección (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "18/11/1997",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la Secretaría General del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la gubernatura de Oaxaca."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Fundador del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente municipal de Juchitán, Oaxaca."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Fundador de la Coalición Obrera Campesina Estudiantil del Istmo."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Dirigente de la Coalición Obrera Campesina Estudiantil del Istmo."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Candidato independiente a la Presidencia Municipal de Juchitán, Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CEN del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero Nacional del PRD en Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRD en Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador de la República en la LVI Legislatura. Coordinador del grupo parlamentario del PRD."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Diputado federal en la LII Legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178248",
-                "fecha_extraccion": "2026-10-13T00:34:04+00:00"
-            }
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Representante Propietaria ante el Consejo General del Instituto Estatal Electoral de Oaxaca."
         },
         {
-            "referencia_sil": "659",
-            "nombre_completo": "Sánchez Mendoza Cirila",
-            "camara": "Senadores",
-            "legislatura": 57,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Oaxaca",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Vitalico Cándido Coheto Martínez ",
-            "fecha_toma_protesta": "01/09/1997",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/659.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento a las Artesanías (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/1997",
-                    "fecha_fin": "31/08/2000",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Acción Indígena del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Unión de Pueblos Unidos de la Región Chatina-Costa Chica y presidenta del Consejo Supremo Chatino."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Asuntos Indígenas del CDE del PRI en Oaxaca."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senadora en la LVI Legislatura."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada federal en la LIV Legislatura."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Diputada local en la LII Legislatura del Congreso de Oaxaca."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Procuradora de la Defensa del Indígena de Oaxaca."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Jefa del proyecto Albergue Escuela del Instituto Nacional Indigenista (INI)."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1989",
-                    "experiencia": "Presidenta del Consejo Superior del Consejo Nacional de Pueblos Indígenas."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Jefa del Departamento de Educación Preescolar de la SEP."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1980",
-                    "experiencia": "Directora regional de Educación Indígena."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora del Centro Coordinador Indigenista Chatino."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178249",
-                "fecha_extraccion": "2026-10-13T00:34:06+00:00"
-            }
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión de Honor y Justicia Nacional del PVEM."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Presidenta del CEE del PVEM en Oaxaca."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Coordinadora estatal del PVEM en Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada del Segundo Congreso Nacional Indígena."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177822",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "107",
+      "nombre_completo": "Cortés Carrillo Luisa",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Reynaldo Fernández Santiago",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/107.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Artesanías (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de atención y apoyo a discapacitados (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Presidenta municipal de San Pedro Tututepec, Oaxaca."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Coordinadora electoral del candidato del PRI a la gubernatura de Oaxaca."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Coordinadora electoral del candidato del PRI a diputado federal por el 8 distrito de Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Diputada local en la LVI legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Reponsable de los talleres recreativos del CREA (Consejo Nacional de Recursos para la Atención de la Juventud)."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Jefa de oficina en la Subdirección de Turismo del CREA."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177851",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "125",
+      "nombre_completo": "De la Cruz Santiago Vicente",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jorge Toledo Luis",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/125.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "13/12/1999",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ecología y Medio Ambiente (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/1997",
+          "fecha_fin": "21/04/1998",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Coordinador del Programa Colosio en Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Secretario General adjunto del CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Presidente del CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Miembro del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Comisionado político del CDE del PRI en la región del Istmo de Tehuantepec."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Subcoordinador operativo del CEPES (Centro de Estudios Políticos, Económicos y Sociales) del PRI en el DF."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Militante activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Diputado local por la LVI legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretario Técnico en el gobierno de Oaxaca."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Director de Acción Social en la delegación Iztapalapa."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1989",
+          "experiencia": "Subdirector de Política de Vivienda de la Sedue (Secretaría de Desarrollo Urbano y Ecología)."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Jefe de la Unidad de Investigación y Análisis de la Imagen Institucional del IMSS."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector de Cultura y Desarrollo Comunitario de la Delegación Iztapalapa en el DDF."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177865",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "163",
+      "nombre_completo": "Fernández Arteaga Francisco",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Manuel Murcia Rodríguez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/163.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asentamientos Humanos y Obras Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bosques y Selvas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Presidente municipal de Tuxtepec, Oaxaca."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Delegado distrital del CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Delegado distrital del CEN del PRI de Oaxaca."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Coordinador de campaña para la presidente municipal de Tuxtepec, Oaxaca."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": "1967",
+          "experiencia": "Secretario de Prensa y Propaganda del CDM del PRI en Ciudad Juárez, Chihuahua."
+        },
+        {
+          "del_ano": "1956",
+          "al_ano": null,
+          "experiencia": "Militante activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado especial del CDE del PRI en Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Diputado local en la LII legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1961",
+          "al_ano": "1969",
+          "experiencia": "Jefe del Programa del Hule en la región de Tuxtepec, Oaxaca."
+        },
+        {
+          "del_ano": "1960",
+          "al_ano": "1961",
+          "experiencia": "Jefe del Programa del Hule en las regiones de Tezonapa Veracruz y Cosolapa Oaxaca."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177899",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "184",
+      "nombre_completo": "García Corpus Teófilo Manuel",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Mario Ageo Cruz Aquino",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/184.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Agricultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/04/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Distribución y Manejo de Bienes de Consumo y Servicios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de asuntos de la frontera sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "21/04/1998",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNC de Oaxaca."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Coordinador político general del noveno distrito federal electoral del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Militante activo del PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1997",
+          "experiencia": "Dirigente estatal de los Consejos Comunitarios de Abasto en Oaxaca."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión SEP-SNTE en Zacatecas."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Delegado efectivo ante las diversas asambleas estatales y nacionales del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la comisión de homologación salarial de la sección 34 del SNTE en Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Líder del Consejo Estatal Campesino y Obrero Emiliano Zapata (CECOEZ)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado sindical del SNTE en Moyahua, Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Nacional de Agricultura en el CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Consejo Estatal Campesino Emiliano Zapata en Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado especial del CEN del PRI en Quintana Roo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del CEN, CDE y del Movimiento de la Juventud Revolucionaria del PRI en el estado de México."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Presidente agropecuario en la región Sierra Sur de la Secretaría de Agricultura y Recursos Hidráulicos."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Gerente de operaciones en CONASUPO-DICONSA Oaxaca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Subgerente de operaciones comunitarias en CONASUPO-DICONSA Oaxaca."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Subgerente regional de operaciones rurales de CONASUPO-DICONSA en Mérida, Yucatán, zona Peninsular."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Coordinador del programa, apoyo a zonas populares-urbanas, (PAZPU) en la región centro de Oaxaca."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Responsable del programa de Organización Agraria Básica en la Secretaría de Desarrollo Agropecuario de Oaxaca."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Residente agropecuario en la región Sierra Sur de Oaxaca, Secretaría de Agricultura y Recursos Hidráulicos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del programa rural de CONASUPO-DICONSA en Ciudad Obregón, Sonora."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del programa rural de CONASUPO-DICONSA en la zona centro de Guadalajara, Jalisco."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector del Centro de Bachillerato Tecnológico y Agropecuario de Moyahua, Zacatecas."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177914",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "190",
+      "nombre_completo": "García Guzmán Emilia",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Eva Florinda Cruz Molina",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/190.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Artesanías (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de atención y apoyo a discapacitados (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Comisionada Política del PRI en el municipio de Santa María, Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Coordinadora de Movilización Ciudadana del PRI en Teotitlán de Flores Magón, Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Representante general del Congreso de Mujeres por el Cambio en Oaxaca."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Secretaria de Asuntos Agrarios de la Unión Nacional de Cafeticultores."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Integrante del Consejo Político Estatal y Presidenta de la Comisión de las Mujeres del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Secretaria de Acción Femenil de la LCAySC (Liga de Comunidades Agrarias y Sindicatos Campesinos)en Oaxaca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Delegada especial de la CNC en Huautla de Jiménez, Oaxaca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Subdelegada del PRI en Huautla de Jiménez, Oaxaca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Delegada especial del PRI en Huautla de Jiménez y en la sierra Mazateca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Integrante del CDM del PRI en Huautla de Jiménez, Oaxaca."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Secretaria de Acción Electoral del PRI en Huautla de Jiménez, Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Gestión Social del Magisterio en la Sierra Mazateca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente regional de profesores de educación indígena, Magisterio de la Sierra Mazateca Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada distrital y ecretaria de Ecología del Consejo para la Integración de la Mujer (PRI)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1999",
+          "experiencia": "Presidenta del Congreso de Mujeres por el Cambio, PRI-Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Diputada local en la LV Legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Regidora en Huautla de Jiménez, Oaxaca."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177919",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "209",
+      "nombre_completo": "Gómez Sandoval Hernández Alfonso José",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Carlos Elmor Hernández Underwood",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/209.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/04/2000",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Secretario del Consejo Político Estatal del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del CDE de la CNOP."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del sector popular del CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente del Consejo Político Estatal del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Municipal del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Delegado efectivo del PRI a la asamblea nacional XVII."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1996",
+          "experiencia": "Integrante del Consejo Político Estatal del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Presidente municipal interino de Oaxaca, Oaxaca."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Delegado efectivo del PRI a la asamblea nacional LIV."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Comisionado político del PRI en diversos distritos electorales."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Presidente del CDM del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Oficial Mayor del CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Militante activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Subsecretario de Gobierno en Oaxaca."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Director general del Instituto Oaxaqueño de Educación Pública."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Regidor en Oaxaca, Oaxaca."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Secretario particular del Secretario General de Gobierno del estado de Oaxaca."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Jefe del departamento de Titulación Institucional de la Subdirección General Jurídica del ISSSTE."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Coordinador jurídico de la Secretaría General de Gobierno de Oaxaca."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Jefe del departamento de Convenios y Contratos en la Subdirección General Jurídica del ISSSTE."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1983",
+          "experiencia": "Coordinador del Programa de Subsidios de Asistencia Social de la Secretaría de Salud."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177936",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "214",
+      "nombre_completo": "González Davar Juan José",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Alejandro Enríquez Habib",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/214.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité de Administración (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/04/2000",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de desarrollo regional y apoyo a la producción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Tesorero del Congreso de Participación Ciudadana, AC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato externo del PRD a la LVII Legislatura."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Representante del Comité de Crédito en el Istmo de Tehuantepec del Fondo de Apoyo a las Actividades Productivas de Oaxaca."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Director del Consejo de Seguridad Pública y Municipal de Juchitán, Oaxaca."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177939",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "231",
+      "nombre_completo": "Guerra López Claudio Marino",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Manuel Ricardez López",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/231.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Jubilados y Pensionados (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del sector obrero en el CDE del PRI en Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Sindicato de Trabajadores de la Industria de la carne, similares y conexos de la República Mexicana."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la Federación de Trabajadores del Estado de Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CTM de Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal por la LV legislatura. Secretario de la Comision de Distribución, Manejo de Bienes de Consumo y Servicios; secretario de la comisión de Comunicaciones y Transportes."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero propietario de la Comisión Nacional de Salarios Mínimos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de Organización Colectiva en la Profeco (Procuraduría Federal del Consumidor)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subprocurador de Oganización y Capacitación en la Profeco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2177949",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "406",
+      "nombre_completo": "Pineda Castillo César Agustín",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Hernán Escobar Ocaña",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/406.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Patrimonio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro activo del Partido de la Revolución Democrática (PRD)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador de la Coalición Obrera Campesino estudiantil del Itsmo, COCEI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor Jurídico de la Coalición Obrera Campesina Estudiantil del Itsmo, COCEI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador del Frente Campesino Independiente."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor de la Central de Trabajadores del Istmo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor de diversos Sindicatos Independientes en Juchitán."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178082",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "416",
+      "nombre_completo": "Ramírez López Germán",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Galindo Martínez González",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/416.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de asuntos de la frontera sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Pertenece al sector obrero del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la Federación Regional de la CTM en la Mixteca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de transporte y abasto de la Federación de Trabajadores del Estado de Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Diputado local en la LVI legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Promotor Agrario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable del Departamento Técnico de la Secretaria de la Reforma, Agraria."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Síndico de Huajuapan de León, Oaxaca."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178089",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "446",
+      "nombre_completo": "Sánchez Carreño Miguel Sadot",
+      "camara": "Diputados",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Vicente Lucas Lara",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/446.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "17/03/1998",
+          "fecha_fin": "29/03/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "13/04/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Programación, Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "23/03/1998",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director Juvenil del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político del CDE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de capacitación política del CDE."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Justicia."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Diputado local en la LVI legislatura del Congreso de Oaxaca. Coordinador de la fracción parlamentaria del PRI. Presidente de la Gran Comisión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Procurador General de Justicia de Oaxaca."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Director jurídico de Aseguramientos de la Procuraduría General de la República."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1984",
+          "experiencia": "Jefe de Departamento de Legislación y Consulta del Instituto Politécnico Nacional."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1970",
+          "experiencia": "Agente del Ministerio Público de la Procuraduría General de Justicia."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de Apoyo Administrativo del Banco Nacional de Obras y Servicios Públicos."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178110",
+        "fecha_extraccion": "2026-10-13T00:32:51+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "602",
+      "nombre_completo": "Iturribarría Bolaños-Cacho Jorge Fernando",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "23/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/602.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 11,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "13/04/2000",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/1999",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Alimentarios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/04/1999",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - 5a Sección (Organismos Internacionales Gubernamentales) (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asistencia Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretario técnico del Consejo Político Estatal de Oaxaca."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Coordinador del Plan Nacional Electoral del CEN en Oaxaca."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Presidente de la CDE en el estado de Oaxaca."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Secretario general CDE."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Presidente del CDM de Oaxaca."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Asesor en materia de salud del CEPES de Oaxaca."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": "1964",
+          "experiencia": "Secretario general de la Sociedad de Alumnos de la Escuela de Medicina y Cirugía de la UABJO."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente municipal de Oaxaca, Oaxaca,(84-86)"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto de la Presidencia del CDE de Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado en varios distritos electorales del estado de Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador suplente en la LVI Legislatura."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV Legislatura"
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Diputado local en la LIII Legislatura del Congreso del estado de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "jefe de los Servicios Coordinados de Salud en el estado de Oaxaca (95-97)"
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "secretario de Salud en el gobierno del estado de Oaxaca (95-98)"
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "delegado del ISSSTE en el estado de Oaxaca (94-95)"
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "y vicepresidente (88-89)"
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1998",
+          "experiencia": "Médico familiar del IMSS en la ciudad de Oaxaca, Oax."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1971",
+          "experiencia": "Médico familiar del IMSS en Tuxtepec, Oax."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": "1965",
+          "experiencia": "En la UABJO fue: ayudante de laboratorio en la Escuela de Medicina y Cirugía (64-65)"
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": "1966",
+          "experiencia": "Auxiliar Médico en la policlínica de Ferrocarriles Nacionales de México en la ciudad de Oaxaca."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "23/09/1997",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "682",
+        "titular_nombre": "José Murat Casab ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:34:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "645",
+      "nombre_completo": "Ramírez López Heladio Elías",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Oaxaca",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Morales Ledezma",
+      "fecha_toma_protesta": "30/10/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/645.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Asuntos Alimentarios (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Reforma Agraria (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "15/12/1998",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores - 3a Sección (América Latina) (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agricultura, Ganadería y Desarrollo Rural (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Secretario Geenral de la CNC."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Vicepresidente de la mesa directiva del CPN del PRI."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Coordinador del primer proceso de consulta abierta del PRI para elegir candidato a gobernador en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Chihuahua."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario general de la CNC."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1992",
+          "experiencia": "Gobernador de Oaxaca."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Delegado General de la CNC en los estados de Veracruz, Durango, Michoacán, Nuevo León y Chiapas."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Secretario general de la Federación Nacional de Jornaleros Agrícolas de la CNC."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1980",
+          "experiencia": "Presidente del CDE del PRI de Oaxaca."
+        },
+        {
+          "del_ano": "1966",
+          "al_ano": "1970",
+          "experiencia": "Director Juvenil en el DF por el PRI."
+        },
+        {
+          "del_ano": "1959",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1959",
+          "al_ano": null,
+          "experiencia": "Fundador de la Tribuna de la Juventud, organismo político-estudiantil afiliado al PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado general del CEN del PRI en Baja California, Queretaro y Guanajuato."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del sector agrario del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Senador durante la LIII legislatura."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Senador de la República en la LII legislatura."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Diputado Federal en la L Legislatura"
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director General de la Comisión Nacional de Zonas Áridas de la Sedesol."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Nacional de Desarrollo Integral y Justicia Social para los Pueblos Indígenas."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1976",
+          "experiencia": "Director del Fideicomiso Cumbres de Llano Largo de la SRA en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1974",
+          "experiencia": "Director Ejecutivo y Delegado Fiduciario especial del Fideicomiso Puerto Vallarta de la SRA."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Delegado especial agrario del Departamento de Asuntos Agrarios y Colonización en Puerto Vallarta, Jalisco."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1972",
+          "experiencia": "Jefe del Departamento de Centros de la Juventud del Instituto Nacional de la Juventud."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": "1967",
+          "experiencia": "Analista de prensa en el IMSS."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178239",
+        "fecha_extraccion": "2026-10-13T00:34:02+00:00"
+      }
+    },
+    {
+      "referencia_sil": "658",
+      "nombre_completo": "Sánchez López Héctor",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRD",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Oaxaca",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Enedino Jiménez Jiménez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/658.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 16,
+      "comisiones": [
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/11/1999",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral de Concordia y Pacificación (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/1999",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/12/1998",
+          "fecha_fin": "25/11/1999",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Energía y Recursos no Renovables (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "18/11/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/11/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - 4a Sección (África y Oceanía) (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Distrito Federal (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación, 2a Sección (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - 2a Sección (América del Norte) (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "25/11/1999",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos, 2a Sección (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "18/11/1997",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Candidato a la Secretaría General del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Candidato a la gubernatura de Oaxaca."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Fundador del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente municipal de Juchitán, Oaxaca."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Fundador de la Coalición Obrera Campesina Estudiantil del Istmo."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Dirigente de la Coalición Obrera Campesina Estudiantil del Istmo."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Candidato independiente a la Presidencia Municipal de Juchitán, Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CEN del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero Nacional del PRD en Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRD en Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador de la República en la LVI Legislatura. Coordinador del grupo parlamentario del PRD."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Diputado federal en la LII Legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178248",
+        "fecha_extraccion": "2026-10-13T00:34:04+00:00"
+      }
+    },
+    {
+      "referencia_sil": "659",
+      "nombre_completo": "Sánchez Mendoza Cirila",
+      "camara": "Senadores",
+      "legislatura": 57,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Oaxaca",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Vitalico Cándido Coheto Martínez",
+      "fecha_toma_protesta": "01/09/1997",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/659.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento a las Artesanías (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/1997",
+          "fecha_fin": "31/08/2000",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Secretaria de Acción Indígena del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Unión de Pueblos Unidos de la Región Chatina-Costa Chica y presidenta del Consejo Supremo Chatino."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Asuntos Indígenas del CDE del PRI en Oaxaca."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senadora en la LVI Legislatura."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputada federal en la LIV Legislatura."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Diputada local en la LII Legislatura del Congreso de Oaxaca."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Procuradora de la Defensa del Indígena de Oaxaca."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Jefa del proyecto Albergue Escuela del Instituto Nacional Indigenista (INI)."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1989",
+          "experiencia": "Presidenta del Consejo Superior del Consejo Nacional de Pueblos Indígenas."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Jefa del Departamento de Educación Preescolar de la SEP."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1980",
+          "experiencia": "Directora regional de Educación Indígena."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora del Centro Coordinador Indigenista Chatino."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178249",
+        "fecha_extraccion": "2026-10-13T00:34:06+00:00"
+      }
+    }
+  ]
 }

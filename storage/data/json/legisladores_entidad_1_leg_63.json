@@ -1,1183 +1,1183 @@
 {
-    "metadata": {
-        "entidad_id": 1,
-        "entidad_nombre": "Aguascalientes",
-        "legislatura": 63,
-        "generado_en": "2026-10-13T08:18:13+00:00",
-        "total_diputados": 5,
-        "total_senadores": 3,
-        "total_general": 8
+  "metadata": {
+    "entidad_id": 1,
+    "entidad_nombre": "Aguascalientes",
+    "legislatura": 63,
+    "generado_en": "2026-10-13T08:18:13+00:00",
+    "total_diputados": 5,
+    "total_senadores": 3,
+    "total_general": 8
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9218495",
+      "nombre_completo": "Estrada Torres Elisa",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Aguascalientes",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "03/04/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218495.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "De delitos cometidos por razones de género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidora en Aguascalientes, Aguascalientes."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218494",
+        "titular_nombre": "Patricia García García ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:17:59+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9218311",
+      "nombre_completo": "Ibarra Rangel Miriam Dennis",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Aguascalientes",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Blanca Aurelia Anzaldúa Nájera",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218311.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9218495",
-            "nombre_completo": "Estrada Torres Elisa",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Aguascalientes",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "03/04/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218495.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "De delitos cometidos por razones de género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidora en Aguascalientes, Aguascalientes."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218494",
-                "titular_nombre": "Patricia García García ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:17:59+00:00"
-            }
+          "comision": "Para impulsar a estudiantes de altas capacidades intelectuales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/03/2017",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218311",
-            "nombre_completo": "Ibarra Rangel Miriam Dennis",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Aguascalientes",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Blanca Aurelia Anzaldúa Nájera ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218311.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Para impulsar a estudiantes de altas capacidades intelectuales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/03/2017",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Precandidata a diputada federal por el principio de mayoría relativa."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2014",
-                    "experiencia": "Candidata a Ombudsman de Aguascalientes."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general de Movimiento Territorial en Aguascalientes."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Secretaria de Gestión Social del CDE del PRI en Aguascalientes."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Capacitadora nacional del ICADEP."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Consejera política estatal y municipal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Diputada local en la LXI Legislatura del Congreso de Aguascalientes. Presidenta de la Mesa Directiva. Presidenta de la Comisión de Derechos Humanos."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2014",
-                    "experiencia": "Directora de Becas y Financiamiento Educativo del Instituto de Educación de Aguascalientes."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Directora de Educación en la Comisión Estatal de Derechos Humanos de Aguascalientes."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "28/08/2017",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "16/08/2017",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218312",
-                "fecha_extraccion": "2026-10-13T08:18:01+00:00"
-            }
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218468",
-            "nombre_completo": "López Martín Jorge",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Aguascalientes",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Víctor Odín Castillo Ávila ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218468.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "03/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "29/03/2016",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PAN."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Presidente del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador de campaña del PAN en elecciones estatales."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Secretario técnico de la Comisión Electoral Interna del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Secretario de Acción de Gobierno del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Participante activo en la campaña nacional del candidato del PAN a Presidente de la República."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante de casilla por el PAN en elecciones municipales, estatales y federales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado local."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del CDE del PAN en Aguascalientes."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2014",
-                    "experiencia": "Jefe de la oficina ejecutiva del gobierno de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Asesor e interlocutor de la Comisión de Transportes en la LIX Legislatura."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "28/02/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "15/01/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218469",
-                "fecha_extraccion": "2026-10-13T08:18:03+00:00"
-            }
+          "comision": "Cultura y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218464",
-            "nombre_completo": "Muñoz Cervantes Arlette Ivette",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Aguascalientes",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Cynthia Susana Zaragoza Galván ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218464.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "De proyectos productivos en zonas marginadas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/11/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "04/11/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2013",
-                    "experiencia": "Coordinadora operativa de la campaña interna de candidata a diputada local."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinadora de Gestión Social en la precampaña de candidato a senador."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinadora de la brigada electoral en el distrito 18 federal para Presidente de la República, senadores y diputados."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Participante en diversas generaciones de la Escuela de Mujeres Líderes del PAN de la Secretaría de Promoción Política de la Mujer del CEN del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Asesora en la LXII Legislatura de la Cámara de Senadores."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218465",
-                "fecha_extraccion": "2026-10-13T08:18:04+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221537",
-            "nombre_completo": "Salas Díaz Gerardo Federico",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Aguascalientes",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José de Jesús Valdez Gómez ",
-            "fecha_toma_protesta": "15/12/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221537.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "De seguimiento al Programa Especial Concurrente Anexo 11.1 (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/12/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/04/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/02/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/12/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Sistemas de Riego (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Director general de la CODAGEA."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2008",
-                    "experiencia": "Subdirector general de la Comisión para el Desarrollo Agropecuario del Estado de Aguascalientes (CODAGEA)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221538",
-                "fecha_extraccion": "2026-10-13T08:18:06+00:00"
-            }
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9221495",
-            "nombre_completo": "Herrera Ávila Fernando",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Aguascalientes",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Arturo González Estrada ",
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221495.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Fomento Económico (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "29/09/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comité Directivo del Instituto Belisario Domínguez (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2017",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Organismos No Gubernamentales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "29/09/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "29/09/2015",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Candidato del PAN a presidente municipal de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Consejero estatal del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de comunicación del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Representante de casilla del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de campaña del PAN en los procesos electorales."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de organización del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de acción ciudadana del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario de capacitación del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2006",
-                    "experiencia": "Consejero estatal del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador distrital del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador seccional del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de comunicación del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de acción juvenil del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Representante general del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal en la LVIII Legislatura. Presidente de la Comisión de Fomento Cooperativo y Economía Social. Integrante de la Comisión de Presupuesto y Cuenta Pública."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Diputado local en la LVI Legislatura del Congreso de Aguascalientes. Presidente de la Comisión para la Descentralización Administrativa. Secretario de las comisiones de Derechos Humanos; y, Presupuesto."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Coordinador nacional adjunto de vinculación interinstitucional de la SEDESOL."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Subsecretario de desarrollo social de Aguascalientes."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador del gabinete político de la presidencia municipal de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de desarrollo social de Aguascalientes, y Coordinador de Eje 6 del Plan de Gobierno concerniente a la Calidad de vida y Desarrollo Social."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario de desarrollo social de Aguascalientes."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Regidor de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Contador y auditor en el Instituto Mexicano del Seguro Social (IMSS)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de transporte público de la Secretaría de Desarrollo Social (SEDESO) de Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Programas Sociales de Desarrollo Urbano de la SEDESO de Aguascalientes."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221027",
-                "fecha_extraccion": "2026-10-13T08:18:09+00:00"
-            }
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Precandidata a diputada federal por el principio de mayoría relativa."
         },
         {
-            "referencia_sil": "9221493",
-            "nombre_completo": "Romo Medina Miguel",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Aguascalientes",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jesús Eduardo Rocha Álvarez ",
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221493.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "19/10/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Protección Civil (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": "19/10/2017",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": "23/02/2016",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/09/2015",
-                    "fecha_fin": "29/09/2015",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal de la campaña del candidato del PRI a la presidencia de la República, en Aguascalientes."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Coordinador de la campaña del PRI a gobernador de Aguascalientes."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Participante en la campaña del PRI a gobernador de Aguascalientes."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Coordinador de la campaña del PRI a senador en Aguascalientes."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LI Legislatura del Congreso de Aguascalientes. Presidente de la Gran Comisión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Secretario de Gobierno de Aguascalientes."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinador del Programa Nacional de Vivienda del INFONAVIT."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Contralor interno de la Contraloría en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Visitador general de la Procuraduría General de la República (PGR)."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Presidente municipal de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Secretario particular del coordinador de Comunicación Social y Relaciones Públicas de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1976",
-                    "experiencia": "Subdirector de Prevención y Readaptación Social y director de los Consejos Titulares de la Secretaría de Gobernación (SEGOB)."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Participación en el proyecto del Centro de Readaptación Social (CERESO) en Aguascalientes."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1972",
-                    "experiencia": "Abogado en Caminos y Puentes Federales (CAPUFE)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del IMSS en San Luis Potosí y Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector de Ingresos en el Departamento de Distrito Federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Procurador general de Justicia en Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado regional del INFONAVIT en San Luis Potosí, Aguascalientes, Zacatecas y Jalisco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "19/01/2016",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "11/01/2016",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219705",
-                "fecha_extraccion": "2026-10-13T08:18:11+00:00"
-            }
+          "del_ano": "2014",
+          "al_ano": "2014",
+          "experiencia": "Candidata a Ombudsman de Aguascalientes."
         },
         {
-            "referencia_sil": "9221026",
-            "nombre_completo": "Santana García José de Jesús",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Aguascalientes",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "04/02/2016",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221026.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/03/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para el Diagnóstico y Reflexión sobre el texto que conforma la Constitución Política de los Estados Unidos Mexicanos. (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/12/2016",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Organismos No Gubernamentales (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Auxiliar en Aguascalientes para la renovación del CEN del PAN."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña interna para la candidatura a la presidencia municipal de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2013",
-                    "experiencia": "Representante en el Consejo Municipal del PAN ante el Instituto Estatal Electoral."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Coordinador de estructuras con diversos sectores sociales en campaña para la elección de gobernador."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Miembro delegacional para la sustitución y continuación de actividades del CDM del PAN en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Asistente electoral en jornada interna para elegir candidato a gobernador."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente interino estatal."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Coordinador para la elaboración de la plataforma legislativa."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Secretario general del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2016",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Representante del PAN ante Consejo Distrital del IFE en elecciones para diputado federal."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Miembro del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario de acción gubernamental en el CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de comunicación del CDE del PAN en Aguascalientes."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Colaborador en la elaboración de la plataforma política municipal de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Representante del PAN ante Consejo Distrital Electoral."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de capacitación en Subcomité municipal en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro permanente de la Asociación Nacional de Diputados Locales del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local en la LIX Legislatura del Congreso de Aguascalientes. Vicecoordinador del GPPAN. Presidente de la Mesa Directiva; de la Comisión de Gobernación y Puntos Constitucionales; y, del Consejo Directivo del Instituto de Investigaciones Legislativas de Aguascalientes. Vocal de las comisiones de Gobierno; de Justicia; y, de Asuntos electorales."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2016",
-                    "experiencia": "Regidor de Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Subdirector de Enlace Operativo de la Dirección General de Educación Tecnológica e Industrial (DGETI) de Aguascalientes."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Subdirector de estudios jurídicos y enlace legislativo en la Subsecretaría de Asuntos Jurídicos del gobierno de Aguascalientes."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Capacitador de casilleros y coordinador de sección en elecciones federales en Distrito local electoral en Aguascalientes, Aguascalientes."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Asesor, apoyo jurídico, control y análisis de actas en Aguascalientes de la jornada electoral en elecciones federales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador y presidente del Instituto de Investigaciones Legislativas de Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de la DGETI."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9221494",
-                "titular_nombre": "Martín Orozco Sandoval ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:18:13+00:00"
-            }
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Secretaria general de Movimiento Territorial en Aguascalientes."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Secretaria de Gestión Social del CDE del PRI en Aguascalientes."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Capacitadora nacional del ICADEP."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Consejera política estatal y municipal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política nacional del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Diputada local en la LXI Legislatura del Congreso de Aguascalientes. Presidenta de la Mesa Directiva. Presidenta de la Comisión de Derechos Humanos."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2014",
+          "experiencia": "Directora de Becas y Financiamiento Educativo del Instituto de Educación de Aguascalientes."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Directora de Educación en la Comisión Estatal de Derechos Humanos de Aguascalientes."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "28/08/2017",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "16/08/2017",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218312",
+        "fecha_extraccion": "2026-10-13T08:18:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218468",
+      "nombre_completo": "López Martín Jorge",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Aguascalientes",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Víctor Odín Castillo Ávila",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218468.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "03/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "29/03/2016",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PAN."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Presidente del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinador de campaña del PAN en elecciones estatales."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Secretario técnico de la Comisión Electoral Interna del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Secretario de Acción de Gobierno del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Participante activo en la campaña nacional del candidato del PAN a Presidente de la República."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante de casilla por el PAN en elecciones municipales, estatales y federales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a diputado local."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del CDE del PAN en Aguascalientes."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2014",
+          "experiencia": "Jefe de la oficina ejecutiva del gobierno de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Asesor e interlocutor de la Comisión de Transportes en la LIX Legislatura."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "28/02/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "15/01/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218469",
+        "fecha_extraccion": "2026-10-13T08:18:03+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218464",
+      "nombre_completo": "Muñoz Cervantes Arlette Ivette",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Aguascalientes",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Cynthia Susana Zaragoza Galván",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218464.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "De proyectos productivos en zonas marginadas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/11/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "04/11/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Metropolitano (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2013",
+          "experiencia": "Coordinadora operativa de la campaña interna de candidata a diputada local."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Coordinadora de Gestión Social en la precampaña de candidato a senador."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Coordinadora de la brigada electoral en el distrito 18 federal para Presidente de la República, senadores y diputados."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Participante en diversas generaciones de la Escuela de Mujeres Líderes del PAN de la Secretaría de Promoción Política de la Mujer del CEN del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Asesora en la LXII Legislatura de la Cámara de Senadores."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218465",
+        "fecha_extraccion": "2026-10-13T08:18:04+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221537",
+      "nombre_completo": "Salas Díaz Gerardo Federico",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Aguascalientes",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José de Jesús Valdez Gómez",
+      "fecha_toma_protesta": "15/12/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221537.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "De seguimiento al Programa Especial Concurrente Anexo 11.1 (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/12/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/04/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/02/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/12/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Sistemas de Riego (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Director general de la CODAGEA."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2008",
+          "experiencia": "Subdirector general de la Comisión para el Desarrollo Agropecuario del Estado de Aguascalientes (CODAGEA)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221538",
+        "fecha_extraccion": "2026-10-13T08:18:06+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9221495",
+      "nombre_completo": "Herrera Ávila Fernando",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Aguascalientes",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Arturo González Estrada",
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221495.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Fomento Económico (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "29/09/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comité Directivo del Instituto Belisario Domínguez (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2017",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, Organismos No Gubernamentales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "29/09/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "29/09/2015",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Candidato del PAN a presidente municipal de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Consejero estatal del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de comunicación del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Representante de casilla del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de campaña del PAN en los procesos electorales."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretario de organización del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretario de acción ciudadana del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Secretario de capacitación del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2006",
+          "experiencia": "Consejero estatal del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Coordinador distrital del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Coordinador seccional del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Secretario de comunicación del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Secretario de acción juvenil del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Representante general del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal en la LVIII Legislatura. Presidente de la Comisión de Fomento Cooperativo y Economía Social. Integrante de la Comisión de Presupuesto y Cuenta Pública."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Diputado local en la LVI Legislatura del Congreso de Aguascalientes. Presidente de la Comisión para la Descentralización Administrativa. Secretario de las comisiones de Derechos Humanos; y, Presupuesto."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Coordinador nacional adjunto de vinculación interinstitucional de la SEDESOL."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Subsecretario de desarrollo social de Aguascalientes."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinador del gabinete político de la presidencia municipal de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de desarrollo social de Aguascalientes, y Coordinador de Eje 6 del Plan de Gobierno concerniente a la Calidad de vida y Desarrollo Social."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretario de desarrollo social de Aguascalientes."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Regidor de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Contador y auditor en el Instituto Mexicano del Seguro Social (IMSS)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de transporte público de la Secretaría de Desarrollo Social (SEDESO) de Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Programas Sociales de Desarrollo Urbano de la SEDESO de Aguascalientes."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221027",
+        "fecha_extraccion": "2026-10-13T08:18:09+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221493",
+      "nombre_completo": "Romo Medina Miguel",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Aguascalientes",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jesús Eduardo Rocha Álvarez",
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221493.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "19/10/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Protección Civil (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": "19/10/2017",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": "23/02/2016",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/09/2015",
+          "fecha_fin": "29/09/2015",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Coordinador estatal de la campaña del candidato del PRI a la presidencia de la República, en Aguascalientes."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Coordinador de la campaña del PRI a gobernador de Aguascalientes."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Participante en la campaña del PRI a gobernador de Aguascalientes."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Coordinador de la campaña del PRI a senador en Aguascalientes."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado local en la LI Legislatura del Congreso de Aguascalientes. Presidente de la Gran Comisión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Secretario de Gobierno de Aguascalientes."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Coordinador del Programa Nacional de Vivienda del INFONAVIT."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Contralor interno de la Contraloría en el Distrito Federal."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Visitador general de la Procuraduría General de la República (PGR)."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Presidente municipal de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Secretario particular del coordinador de Comunicación Social y Relaciones Públicas de la Presidencia de la República."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1976",
+          "experiencia": "Subdirector de Prevención y Readaptación Social y director de los Consejos Titulares de la Secretaría de Gobernación (SEGOB)."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Participación en el proyecto del Centro de Readaptación Social (CERESO) en Aguascalientes."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1972",
+          "experiencia": "Abogado en Caminos y Puentes Federales (CAPUFE)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del IMSS en San Luis Potosí y Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector de Ingresos en el Departamento de Distrito Federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Procurador general de Justicia en Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado regional del INFONAVIT en San Luis Potosí, Aguascalientes, Zacatecas y Jalisco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "19/01/2016",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "11/01/2016",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219705",
+        "fecha_extraccion": "2026-10-13T08:18:11+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221026",
+      "nombre_completo": "Santana García José de Jesús",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Aguascalientes",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "04/02/2016",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221026.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/03/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para el Diagnóstico y Reflexión sobre el texto que conforma la Constitución Política de los Estados Unidos Mexicanos. (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/12/2016",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, Organismos No Gubernamentales (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Auxiliar en Aguascalientes para la renovación del CEN del PAN."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña interna para la candidatura a la presidencia municipal de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2013",
+          "experiencia": "Representante en el Consejo Municipal del PAN ante el Instituto Estatal Electoral."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Coordinador de estructuras con diversos sectores sociales en campaña para la elección de gobernador."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Miembro delegacional para la sustitución y continuación de actividades del CDM del PAN en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Asistente electoral en jornada interna para elegir candidato a gobernador."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Presidente interino estatal."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Coordinador para la elaboración de la plataforma legislativa."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Secretario general del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2016",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Representante del PAN ante Consejo Distrital del IFE en elecciones para diputado federal."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Miembro del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Secretario de acción gubernamental en el CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Secretario de comunicación del CDE del PAN en Aguascalientes."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Colaborador en la elaboración de la plataforma política municipal de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Representante del PAN ante Consejo Distrital Electoral."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de capacitación en Subcomité municipal en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro permanente de la Asociación Nacional de Diputados Locales del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Diputado local en la LIX Legislatura del Congreso de Aguascalientes. Vicecoordinador del GPPAN. Presidente de la Mesa Directiva; de la Comisión de Gobernación y Puntos Constitucionales; y, del Consejo Directivo del Instituto de Investigaciones Legislativas de Aguascalientes. Vocal de las comisiones de Gobierno; de Justicia; y, de Asuntos electorales."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2016",
+          "experiencia": "Regidor de Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Subdirector de Enlace Operativo de la Dirección General de Educación Tecnológica e Industrial (DGETI) de Aguascalientes."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Subdirector de estudios jurídicos y enlace legislativo en la Subsecretaría de Asuntos Jurídicos del gobierno de Aguascalientes."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Capacitador de casilleros y coordinador de sección en elecciones federales en Distrito local electoral en Aguascalientes, Aguascalientes."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Asesor, apoyo jurídico, control y análisis de actas en Aguascalientes de la jornada electoral en elecciones federales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador y presidente del Instituto de Investigaciones Legislativas de Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de la DGETI."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9221494",
+        "titular_nombre": "Martín Orozco Sandoval ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:18:13+00:00"
+      }
+    }
+  ]
 }

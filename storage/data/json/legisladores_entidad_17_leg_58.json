@@ -1,933 +1,933 @@
 {
-    "metadata": {
-        "entidad_id": 17,
-        "entidad_nombre": "Morelos",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:52:27+00:00",
-        "total_diputados": 5,
-        "total_senadores": 3,
-        "total_general": 8
+  "metadata": {
+    "entidad_id": 17,
+    "entidad_nombre": "Morelos",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:52:27+00:00",
+    "total_diputados": 5,
+    "total_senadores": 3,
+    "total_general": 8
+  },
+  "diputados": [
+    {
+      "referencia_sil": "911",
+      "nombre_completo": "Álvarez Sotelo Gumercindo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rubén Daniel Terán Izquierdo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/911.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de atención a concesionarios de LICONSA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general de la Comisión Interinstitucional por la Defensa Integral de Niños, Niñas y Adolescentes del gobierno de Morelos."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178430",
+        "fecha_extraccion": "2026-10-13T01:52:19+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "379287",
+      "nombre_completo": "Barrera Amezcua Juana",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Morelos",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "22/04/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/379287.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "911",
-            "nombre_completo": "Álvarez Sotelo Gumercindo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rubén Daniel Terán Izquierdo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/911.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de atención a concesionarios de LICONSA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de la Comisión Interinstitucional por la Defensa Integral de Niños, Niñas y Adolescentes del gobierno de Morelos."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178430",
-                "fecha_extraccion": "2026-10-13T01:52:19+00:00"
-            }
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "379287",
-            "nombre_completo": "Barrera Amezcua Juana",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Morelos",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "22/04/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/379287.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidora de la presidencia municipal de Cuautla."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "22/04/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1123",
-                "titular_nombre": "Adrián Rivera Pérez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:52:19+00:00"
-            }
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "910",
-            "nombre_completo": "Martínez Cue Fernando Josaphat",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rosalío González Nájera ",
-            "fecha_toma_protesta": "09/07/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/910.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "10/09/2002",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "01/10/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro adherente del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la XLVII legislatura del congreso de Morelos."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "362840",
-                "fecha_extraccion": "2026-10-13T01:52:19+00:00"
-            }
-        },
-        {
-            "referencia_sil": "913",
-            "nombre_completo": "Pastrana Gómez Bernardo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Dulce María Huicochea Alonso ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/913.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro adherente del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Integrante del CDM del PAN en Morelos."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de Enlace y federalismo en la Secretaria de la Reforma Agraria."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general del Programa de Agroindustria de la Secretaria de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante regional sur Morelos-Guerrero de la Secretaria de la Reforma Agraria"
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178432",
-                "fecha_extraccion": "2026-10-13T01:52:19+00:00"
-            }
-        },
-        {
-            "referencia_sil": "912",
-            "nombre_completo": "Sánchez Cortés Maricela",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Luis Félix Rodríguez Sosa ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/912.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Pertenece al sector agrario del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de organización del Consejo Estatal de Morelos para la Integración de la Mujer."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Programas de Atención a la Mujer en la LCAySC de Morelos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Político Nacional."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la CNC-Femenil de la región oriente de Morelos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de organización de los Centros de Integración de la Mujer."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta municipal de Ciudad Ayala, Morelos."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Diputada suplente en la Comisión Permanente del Congreso durante el primer receso del primer año del ejecicio."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputada local XLVII por el distrito VIII."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada local suplente."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada suplente."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178431",
-                "fecha_extraccion": "2026-10-13T01:52:19+00:00"
-            }
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
         {
-            "referencia_sil": "1241",
-            "nombre_completo": "Adame Castillo Marco Antonio",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Héctor Javier Hernández Genis ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1241.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud y Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "15/04/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Miembro del CDE del PAN en Morelos. Integrante de la Comisión Política. Representante del PAN ante la Organización Demócrata Cristiana de América, en el tema de la familia."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos de Morelos."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Consejero ciudadano en la Comisión Estatal Electoral de Morelos"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador e integrante de la Coordinadora Ciudadana, Asociación Política Nacional."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Vicepresidente de la Cámara de Diputados, presidente de la Comisión Investigadora del IMSS, secretario de la Comisión de Salud e integrante de las comisiones de Población y Desarrollo, Equidad y Género, Participación Ciudadana y del Comité de Administración. Coordinador de Comunicación Social y Subcoordinador de Enlace Político del grupo parlamentario del PAN en la Cámara de Diputados."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero de la Comisión de Participación Ciudadana en la LVI legislatura"
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178678",
-                "fecha_extraccion": "2026-10-13T01:52:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1280",
-            "nombre_completo": "Jiménez González David",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Morelos",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ma. Elena Espin Ocampo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1280.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial encargada de recibir las propuestas de ratificaciones y nuevos nombramientos de magistrados de los Tribunales Unitarios Agrarios. (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "14/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Distrito Federal (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Representante del PRI a la ALDF por el XIX distrito electoral en Azcapotzalco."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Comisionado propietario del PRI ante la Comisión Federal Electoral. Director de Aasuntos Jurídicos y Delegado del CEN del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Presidente del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Presidente interino del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la secretaria de Promoción Legislativa de la CNOP del PRI."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Delegado general del CEN del PRI en Chiapas."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Presidente del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1976",
-                    "experiencia": "Presidente municipal de Cuernavaca, Morelos."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Asesor de estudios agrarios del CEPES del CDE del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRI en representación de Morelos a la IX, XIII asamblea nacional y VI convención ordinaria del PRI."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1970",
-                    "experiencia": "Representante del PRI en la Comisión Local Electoral en Morelos."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": null,
-                    "experiencia": "Director estatal del directorio nacional del PRI en Morelos."
-                },
-                {
-                    "del_ano": "1958",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Miembro de la Asamblea Legislativa del DF, por el XIX distrito electoral de Azcapotzalco."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputado federal en la LIII legislatura. Presidente de la Comisión de Justicia, coordinador del grupo de diputados federales de Morelos e integrante de la Gran Comisión."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal en la LI legislatura. Coordinador de la Comisión de la Reforma Agraria y Secretario de la Comisión de Justicia."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador general de proyectos estratégicos en BANOBRAS."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Director general de gobierno del Departamento del Distrito Federal."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Subprocurador de asuntos jurídicos y política criminológica de la PGJ del DF."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1992",
-                    "experiencia": "Delegado del departamento del Distrito Federal en Azcapotzalco."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario general de gobierno de Morelos."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Presidente del Tribunal Superior de Justicia de Morelos."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Procurador general de Justicia de Morelos."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1976",
-                    "experiencia": "Secretario de la junta federal de agua potable y alcantarillado del municipio de Cuernavaca, Morelos."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1972",
-                    "experiencia": "Presidente de la Comisión Estatal de Vigilancia Electoral de Morelos."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1973",
-                    "experiencia": "Presidente de la Junta Local de Conciliación y Arbitraje en Morelos."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1973",
-                    "experiencia": "Presidente del Tribunal de Arbitraje de Morelos."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1970",
-                    "experiencia": "Jefe del departamento del patrimonio de Morelos y regularización de la pequeña propiedad rural."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1970",
-                    "experiencia": "Secretario de la junta estatal de agua potable y alcantarillado del medio rural en Morelos."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1970",
-                    "experiencia": "Representante del gobierno de Morelos ante la Comisión Agraria Mixta."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": null,
-                    "experiencia": "Secretario particular del gobernador de Morelos."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178714",
-                "fecha_extraccion": "2026-10-13T01:52:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1242",
-            "nombre_completo": "Xicoténcatl Reynoso Marco Antonio",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Morelos",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Hedilberto Rodríguez Valverio ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1242.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Chiapas (Com. Perm.) Grupo de trabajo (Com. Perm.)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/01/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud y Seguridad Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jubilados y Pensionados (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Consejero estatal del PAN en Morelos."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Secretario general del CDM del PAN en Cuernavaca, Morelos."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la delegación electoral IV del CDM de Cuernavaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción política del CDM del PAN en Cuernavaca, Morelos."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local por el cuarto distrito en la XLVII legislatura del Congreso de Morelos."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Jefe del departamento clínico de medicina familiar del IMSS en Cuernavaca."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de los servicios médicos del Banco Obrero."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario del Comité Local de Investigación en el Hospital General Regional del IMSS en Cuernavaca."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1994",
-                    "experiencia": "Director del sistema médico del DIF en Morelos."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Médico familiar en el IMSS de Morelos."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178679",
-                "fecha_extraccion": "2026-10-13T01:52:27+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidora de la presidencia municipal de Cuautla."
         }
-    ]
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "22/04/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1123",
+        "titular_nombre": "Adrián Rivera Pérez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:52:19+00:00"
+      }
+    },
+    {
+      "referencia_sil": "910",
+      "nombre_completo": "Martínez Cue Fernando Josaphat",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rosalío González Nájera",
+      "fecha_toma_protesta": "09/07/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/910.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "10/09/2002",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "01/10/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro adherente del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la XLVII legislatura del congreso de Morelos."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "362840",
+        "fecha_extraccion": "2026-10-13T01:52:19+00:00"
+      }
+    },
+    {
+      "referencia_sil": "913",
+      "nombre_completo": "Pastrana Gómez Bernardo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Dulce María Huicochea Alonso",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/913.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro adherente del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Integrante del CDM del PAN en Morelos."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de Enlace y federalismo en la Secretaria de la Reforma Agraria."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general del Programa de Agroindustria de la Secretaria de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante regional sur Morelos-Guerrero de la Secretaria de la Reforma Agraria"
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178432",
+        "fecha_extraccion": "2026-10-13T01:52:19+00:00"
+      }
+    },
+    {
+      "referencia_sil": "912",
+      "nombre_completo": "Sánchez Cortés Maricela",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Luis Félix Rodríguez Sosa",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/912.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de la Agroindustria Azucarera de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Pertenece al sector agrario del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de organización del Consejo Estatal de Morelos para la Integración de la Mujer."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Programas de Atención a la Mujer en la LCAySC de Morelos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Político Nacional."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de la CNC-Femenil de la región oriente de Morelos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de organización de los Centros de Integración de la Mujer."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta municipal de Ciudad Ayala, Morelos."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Diputada suplente en la Comisión Permanente del Congreso durante el primer receso del primer año del ejecicio."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputada local XLVII por el distrito VIII."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada local suplente."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada suplente."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178431",
+        "fecha_extraccion": "2026-10-13T01:52:19+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1241",
+      "nombre_completo": "Adame Castillo Marco Antonio",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Héctor Javier Hernández Genis",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1241.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud y Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "15/04/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Miembro del CDE del PAN en Morelos. Integrante de la Comisión Política. Representante del PAN ante la Organización Demócrata Cristiana de América, en el tema de la familia."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos de Morelos."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Consejero ciudadano en la Comisión Estatal Electoral de Morelos"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador e integrante de la Coordinadora Ciudadana, Asociación Política Nacional."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Vicepresidente de la Cámara de Diputados, presidente de la Comisión Investigadora del IMSS, secretario de la Comisión de Salud e integrante de las comisiones de Población y Desarrollo, Equidad y Género, Participación Ciudadana y del Comité de Administración. Coordinador de Comunicación Social y Subcoordinador de Enlace Político del grupo parlamentario del PAN en la Cámara de Diputados."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Consejero de la Comisión Estatal de Derechos Humanos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero de la Comisión de Participación Ciudadana en la LVI legislatura"
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178678",
+        "fecha_extraccion": "2026-10-13T01:52:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1280",
+      "nombre_completo": "Jiménez González David",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Morelos",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ma. Elena Espin Ocampo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1280.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial encargada de recibir las propuestas de ratificaciones y nuevos nombramientos de magistrados de los Tribunales Unitarios Agrarios. (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "14/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Distrito Federal (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Representante del PRI a la ALDF por el XIX distrito electoral en Azcapotzalco."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Comisionado propietario del PRI ante la Comisión Federal Electoral. Director de Aasuntos Jurídicos y Delegado del CEN del PRI en Morelos."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Presidente del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Presidente interino del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Presidente de la secretaria de Promoción Legislativa de la CNOP del PRI."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Delegado general del CEN del PRI en Chiapas."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Presidente del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1976",
+          "experiencia": "Presidente municipal de Cuernavaca, Morelos."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Asesor de estudios agrarios del CEPES del CDE del PRI en Morelos."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Delegado del PRI en representación de Morelos a la IX, XIII asamblea nacional y VI convención ordinaria del PRI."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1970",
+          "experiencia": "Representante del PRI en la Comisión Local Electoral en Morelos."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": null,
+          "experiencia": "Director estatal del directorio nacional del PRI en Morelos."
+        },
+        {
+          "del_ano": "1958",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Miembro de la Asamblea Legislativa del DF, por el XIX distrito electoral de Azcapotzalco."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputado federal en la LIII legislatura. Presidente de la Comisión de Justicia, coordinador del grupo de diputados federales de Morelos e integrante de la Gran Comisión."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal en la LI legislatura. Coordinador de la Comisión de la Reforma Agraria y Secretario de la Comisión de Justicia."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador general de proyectos estratégicos en BANOBRAS."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Director general de gobierno del Departamento del Distrito Federal."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Subprocurador de asuntos jurídicos y política criminológica de la PGJ del DF."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1992",
+          "experiencia": "Delegado del departamento del Distrito Federal en Azcapotzalco."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Secretario general de gobierno de Morelos."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Presidente del Tribunal Superior de Justicia de Morelos."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Procurador general de Justicia de Morelos."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1976",
+          "experiencia": "Secretario de la junta federal de agua potable y alcantarillado del municipio de Cuernavaca, Morelos."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1972",
+          "experiencia": "Presidente de la Comisión Estatal de Vigilancia Electoral de Morelos."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1973",
+          "experiencia": "Presidente de la Junta Local de Conciliación y Arbitraje en Morelos."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1973",
+          "experiencia": "Presidente del Tribunal de Arbitraje de Morelos."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1970",
+          "experiencia": "Jefe del departamento del patrimonio de Morelos y regularización de la pequeña propiedad rural."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1970",
+          "experiencia": "Secretario de la junta estatal de agua potable y alcantarillado del medio rural en Morelos."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1970",
+          "experiencia": "Representante del gobierno de Morelos ante la Comisión Agraria Mixta."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": null,
+          "experiencia": "Secretario particular del gobernador de Morelos."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178714",
+        "fecha_extraccion": "2026-10-13T01:52:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1242",
+      "nombre_completo": "Xicoténcatl Reynoso Marco Antonio",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Morelos",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Hedilberto Rodríguez Valverio",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1242.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Chiapas (Com. Perm.) Grupo de trabajo (Com. Perm.)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/01/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud y Seguridad Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jubilados y Pensionados (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Consejero estatal del PAN en Morelos."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Secretario general del CDM del PAN en Cuernavaca, Morelos."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Coordinador de la delegación electoral IV del CDM de Cuernavaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Secretario de acción política del CDM del PAN en Cuernavaca, Morelos."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local por el cuarto distrito en la XLVII legislatura del Congreso de Morelos."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Jefe del departamento clínico de medicina familiar del IMSS en Cuernavaca."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de los servicios médicos del Banco Obrero."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Secretario del Comité Local de Investigación en el Hospital General Regional del IMSS en Cuernavaca."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1994",
+          "experiencia": "Director del sistema médico del DIF en Morelos."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Médico familiar en el IMSS de Morelos."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178679",
+        "fecha_extraccion": "2026-10-13T01:52:27+00:00"
+      }
+    }
+  ]
 }

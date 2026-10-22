@@ -1,2521 +1,2521 @@
 {
-    "metadata": {
-        "entidad_id": 28,
-        "entidad_nombre": "Tamaulipas",
-        "legislatura": 61,
-        "generado_en": "2026-10-13T06:18:40+00:00",
-        "total_diputados": 12,
-        "total_senadores": 3,
-        "total_general": 15
+  "metadata": {
+    "entidad_id": 28,
+    "entidad_nombre": "Tamaulipas",
+    "legislatura": 61,
+    "generado_en": "2026-10-13T06:18:40+00:00",
+    "total_diputados": 12,
+    "total_senadores": 3,
+    "total_general": 15
+  },
+  "diputados": [
+    {
+      "referencia_sil": "5177239",
+      "nombre_completo": "Flores Rico Carlos",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Nayeli Lizbeth Gómez Ramírez",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/5177239.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "07/02/2012",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a las Agresiones a Periodistas y Medios de Comunicación. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Vocero nacional del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Dirigente nacional del Movimiento Territorial del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Coordinador de campaña presidencial del PRI en Chiapas, Campeche, Puebla y Quintana Roo."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Nacional de Imagen y Comunicación Política del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de prensa del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de divulgación ideológica del Comité Directivo en el Distrito Federal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de normatividad de la Comisión Coordinadora de Convenciones del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario adjunto a la presidencia del PRI en el DF."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del secretario de organización del PRI en el DF."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de colonos e inquilinos del CEN de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del PRI en Nuevo León y Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Movimiento Territorial del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del CDE del PRI en el Distrito Federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de organización de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión de Criterios Generales de Campaña del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2000",
+          "experiencia": "Secretario de operación y organización del Movimiento Territorial del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Desarrollo Social, e integrante de las comisiones de Radio, Televisión y Cinematografía, Relaciones Exteriores, y Especial para la Reforma del Estado."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1998",
+          "experiencia": "Director general de la Comisión para la Regularización de la Tenencia de la Tierra (CORETT)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general de obras y servicios de la delegación Tlalpan."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Gerente de recuperación de créditos del Fideicomiso de Recuperación Crediticia (FIDERE)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del subsecretario de desarrollo regional de la Secretaría de Programación y Presupuesto."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de eventos especiales de la Secretaría de Programación y Presupuesto."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del Plan Chalco del Programa Nacional de Solidaridad."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la Secretaría de Programación y Presupuesto en el estado de México."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la SEDESOL en el estado de México."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subgerente de supervisión de CONASUPO."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de investigación comercial en SECOFI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Gerente de coordinación operativa de Almacenes Nacionales de Depósito, SA (ANDSA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del Programa de Regularización del Ajusco Medio del DF."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de Control de Gestión de la delegación Tlalpan."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Centro de Estudios de Estrategia, Prospectiva y Análisis A.C."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "6909925",
+        "fecha_extraccion": "2026-10-13T06:17:07+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9214371",
+      "nombre_completo": "García Dávila Laura Felícitas",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "25/02/2010",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214371.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "5177239",
-            "nombre_completo": "Flores Rico Carlos",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Nayeli Lizbeth Gómez Ramírez ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/5177239.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "07/02/2012",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a las Agresiones a Periodistas y Medios de Comunicación. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Vocero nacional del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Dirigente nacional del Movimiento Territorial del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador de campaña presidencial del PRI en Chiapas, Campeche, Puebla y Quintana Roo."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Nacional de Imagen y Comunicación Política del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de prensa del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de divulgación ideológica del Comité Directivo en el Distrito Federal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de normatividad de la Comisión Coordinadora de Convenciones del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario adjunto a la presidencia del PRI en el DF."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del secretario de organización del PRI en el DF."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de colonos e inquilinos del CEN de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRI en Nuevo León y Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Movimiento Territorial del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del CDE del PRI en el Distrito Federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de organización de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión de Criterios Generales de Campaña del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de operación y organización del Movimiento Territorial del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Desarrollo Social, e integrante de las comisiones de Radio, Televisión y Cinematografía, Relaciones Exteriores, y Especial para la Reforma del Estado."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1998",
-                    "experiencia": "Director general de la Comisión para la Regularización de la Tenencia de la Tierra (CORETT)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de obras y servicios de la delegación Tlalpan."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Gerente de recuperación de créditos del Fideicomiso de Recuperación Crediticia (FIDERE)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del subsecretario de desarrollo regional de la Secretaría de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de eventos especiales de la Secretaría de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del Plan Chalco del Programa Nacional de Solidaridad."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la Secretaría de Programación y Presupuesto en el estado de México."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la SEDESOL en el estado de México."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subgerente de supervisión de CONASUPO."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de investigación comercial en SECOFI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Gerente de coordinación operativa de Almacenes Nacionales de Depósito, SA (ANDSA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del Programa de Regularización del Ajusco Medio del DF."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de Control de Gestión de la delegación Tlalpan."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Centro de Estudios de Estrategia, Prospectiva y Análisis A.C."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "6909925",
-                "fecha_extraccion": "2026-10-13T06:17:07+00:00"
-            }
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9214371",
-            "nombre_completo": "García Dávila Laura Felícitas",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "25/02/2010",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214371.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del CDM del PRI en Reynosa, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en la secretaría general del sindicato de la Comisión Municipal de Agua Potable y Alcantarillado de Reynosa, Tamaulipas (COMAPA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de acción política del CEE de la Federación de Organizaciones Obreras Femeniles, de Tamaulipas (CTM)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Titular de la cartera de conflictos del sindicato de COMAPA de Reynosa, Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Cajera en la Comisión Municipal de Agua Potable y Alcantarillado de Reynosa, Tamaulipas (COMAPA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2009",
-                    "experiencia": "Secretaria de trabajo de la COMAPA de Reynosa, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9214370",
-                "titular_nombre": "Jesús Everardo Villarreal Salinas ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T06:18:15+00:00"
-            }
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9214376",
-            "nombre_completo": "Gil Ortiz Francisco Javier Martín",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Esdras Romero Vega ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214376.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Presidente municipal de Altamira, Tamaulipas."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Candidato a diputado federal a la LX legislatura."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor político del CDE del Organismo Nacional de Mujeres Priístas (ONMPRI) en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Coordinador del programa: Unidos Avanzamos Más, en Altamira, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Coordinador del proyecto integral de saneamiento de la zona conurbada del sur de Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Gerente general de la Comisión de Agua Potable y Alcantarillado (COMAPA) de Altamira, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214377",
-                "fecha_extraccion": "2026-10-13T06:18:16+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9213965",
-            "nombre_completo": "Guevara Cobos Luis Alejandro",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Sergio Carlos Guajardo Maldonado ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9213965.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/02/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "22/02/2011",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del FJR en Ciudad Victoria, Tamaulipas."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión de Asuntos de la Juventud del Consejo Político Estatal."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE de la VJA en Tamaulipas."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Delegado para la reestructuración de la VJA en Puebla, Nuevo León, Campeche y San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador nacional de dirigencias estatales del CEN del Frente Juvenil Revolucionario (FJR)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDM de Vanguardia Juvenil Agrarista (VJA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE de VJA, en Ciudad Mante, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado para la reestructuración del CDM del PRI, en los municipios de Madero, Valle Hermoso y Cruillas en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado federal suplente en la LX legislatura. (No tomó protesta)."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal suplente en la LIX legislatura. (No tomó protesta)."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Asentamientos Humanos y Obras Públicas; Deporte; Especial de asuntos de la juventud y Especial de Seguridad Pública."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2009",
-                    "experiencia": "Asesor del gobernador de Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214038",
-                "fecha_extraccion": "2026-10-13T06:18:18+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9214412",
-            "nombre_completo": "Guillen Vicente Mercedes del Carmen",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Felipe Cabral Soto ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214412.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para Conocer y dar Seguimiento Puntual y Exhaustivo a las Acciones que han Emprendido las Autoridades Competentes en Relación a los Feminicidios Registrados en México. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/02/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Lucha contra la Trata de Personas. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general adjunta del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Delegada del CEN del PRI en Puebla."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Delegada de la Secretaría de elecciones del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Delegada de la Secretaría de Elecciones CEN."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Secretaria estatal de Divulgación Ideológica del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de elecciones del CDM del PRI en Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Frente Juvenil Revolucionario del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada del CEN del PRI en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Diputada local en la LVII legislatura del Congreso de Tamaulipas. Presidenta de la Gran Comisión."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Diputada local en la LII legislatura del Congreso de Tamaulipas. Presidenta de la Gran Comisión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Directora del Instituto para la Reforma Integral de Seguridad y Justicia de Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Procuradora general de Justicia de Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Secretaria general de gobierno en Tamaulipas."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Asesora de la Comisión Estatal Electoral en Aguascalientes."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinadora estatal de la Comisión Federal Electoral en Baja California Sur y Nuevo León."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario relator del Juzgado Familiar de Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Asesora del Servicio estatal del Empleo en Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Juez menor en el Juzgado Segundo de Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Orientador fiscal en la oficina federal de Hacienda en ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1974",
-                    "experiencia": "Servicio social en el Juzgado Primero de lo Civil en Tampico."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Técnico de la Facultad de Derecho de la Universidad Autónoma de Tamaulipas (UAT)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214413",
-                "fecha_extraccion": "2026-10-13T06:18:20+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9214374",
-            "nombre_completo": "Hinojosa Ochoa Baltazar Manuel",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Martha Alejandrina Molina Pérez ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214374.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/03/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Del Centro de Estudios de las Finanzas Públicas. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para Analizar el Presupuesto de Gastos Fiscales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Presidente municipal de Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Coordinador del programa REDES en Matamoros durante campañas electorales."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Tesorero general de la campaña del candidato del PRI para gobernador de Coahuila."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador de giras y tesorero de la campaña del candidato del PRI al senado por Coahuila."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general del Fideicomiso de la Liga de Economistas Revolucionarios de la Revolución Mexicana, A.C. (LER)"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero municipal del PRI en Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas de la LER."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de la Coordinación Regional Norte de la LER."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Presupuesto y Cuenta Pública e integrante de las comisiones Especial de la Cuenca de Burgos y Hacienda y Crédito Público."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de desarrollo social del gobierno de Tamaulipas. (abril-noviembre)."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario técnico del director general de PEMEX. (enero-marzo)."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de educación, cultura y deporte del gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Director general de egresos en la Secretaría de Finanzas de Coahuila."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Integrante del Consejo del Banco Nacional de Obras y Servicios Banobras de Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Delegado federal de la SEDESOL en Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario técnico del Comité para la Planeación del Desarrollo del Estado de Coahuila (COPLADEC)."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador de asesores de la Comisión de Programación y Presupuesto de la Cámara de Diputados en la LIV legislatura."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario particular del presidente del INEGI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas del gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subgerente comercial del Corporativo de DICONSA-CONASUPO"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de departamento de documentación y análisis de la información de la Secretaría de Programación y Presupuesto (SPP)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector de presupuesto del INEGI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del subdirector de control presupuestal del gobierno de Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor en la dirección general de documentación, análisis y evaluación de la Secretaría de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor y expositor del programa de información de la política económica de la Subsecretaría de Planeación del Desarrollo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de departamento en la Dirección Coordinadora de Planeación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de departamento de presupuestos e ingresos de la oficina del Presidente del INEGI."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214375",
-                "fecha_extraccion": "2026-10-13T06:18:22+00:00"
-            }
-        },
-        {
-            "referencia_sil": "5177376",
-            "nombre_completo": "López Aguilar Cruz",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ana Bertha Silva Solórzano ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/5177376.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para Analizar el Presupuesto de Gastos Fiscales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2011",
-                    "experiencia": "Presidente del CEN de la CNC."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Secretario general del CEN de la CNC."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario de acopio y comercialización de productos e insumos de la CNC."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de atención y seguimiento a consejos técnicos de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero municipal del PRI en Gustavo Díaz Ordaz, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CEN de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Confederación Nacional Agronómica."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI en representación del sector agrario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del sector agrario del CEN del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Presidente de la Comisión de Agricultura y Ganadería, e integrante de las comisiones de Fomento Cooperativo y Economía Social, y Especial de la Cuenca de Burgos."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Delegado en Chihuahua de la Procuraduría Agraria."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director de investigación, planeación y desarrollo de la Comisión Nacional de las Zonas Áridas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la Comisión del Plan Nacional Hidráulico."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1995",
-                    "experiencia": "Director de comercialización de la Productora Nacional de Semillas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Director técnico del Fideicomiso del Fondo Nacional de Fomento Ejidal."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Director general de cooperación técnica de la Comisión Técnica para el Programa de Empleo Rural en la Secretaría de la Reforma Agraria."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Director técnico del fideicomiso del Fondo Nacional de Fomento Ejidal (FIFONAFE)."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Gerente del fideicomiso de riego en la Dirección General de Distritos y Unidades de Temporal."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1983",
-                    "experiencia": "Asesor del vocal ejecutivo de la Comisión del Plan Nacional Hidráulico."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1983",
-                    "experiencia": "Jefe de departamento, subdirector de área y subdirector de apoyo sectorial en la Dirección General de Distritos y Unidades de Temporal."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Jefe de área de Hidrometría y Estadística en la tercera unidad de riego en Bajo Río San Juan, Tamaulipas."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1976",
-                    "experiencia": "Técnico en el departamento de estudios tecnológicos de la Secretaría de Recursos Hidráulicos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de la sección agrometeorológica y trabajos de campo del departamento de irrigación de la Escuela Nacional de Agricultura de Chapingo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "6909930",
-                "fecha_extraccion": "2026-10-13T06:18:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9214372",
-            "nombre_completo": "Melhem Salinas Edgardo",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Litha del Carmen Garza Peña ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214372.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "23/03/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Candidato a presidente municipal de Río Bravo, Tamaulipas."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Sociedad de Alumnos de la Facultad de Derecho de la Universidad de Monterrey."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Frente Juvenil Revolucionario en Río Bravo, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal en Río Bravo, Tamps."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico del presidente del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado Territorial del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Titular de la Organización Política Nacional Vanguardia Juvenil Agrarista en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local suplente en la LIX legislatura del Congreso de Tamaulipas. (Nunca tomó protesta)."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal suplente en la LVIII legislatura. (Nunca tomó protesta)."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal suplente en la LVII legislatura. (Nunca tomó protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Director del programa Unidos Avanzamos Más en Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2009",
-                    "experiencia": "Director general de Programación y Concertación Social de la Secretaría de Desarrollo Social en el gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Coordinador municipal de Política social en Río Bravo, Secretaria de Desarrollo Social Estatal (SEDESOL)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Delegado federal en Tamaulipas del Fideicomiso para el Subsidio a la Tortilla (FIDELIT)."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario particular del diputado federal por el distrito VI de Coahuila y presidente de la Gran Comisión en la LVI Legislatura."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Subcomité de Vivienda para la Validación de Daños en Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214373",
-                "fecha_extraccion": "2026-10-13T06:18:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9214378",
-            "nombre_completo": "Rábago Castillo José Francisco",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Olga Patricia Sosa Ruíz ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214378.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Función Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Presidente municipal de Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador general de la campaña para diputado federal por el XV distrito de Tamaulipas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PRI en Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario general del Frente Nacional de Organizaciones y Ciudadanos en Tampico."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador estatal de compromisos políticos en los 9 distritos federales electorales de Tamaulipas."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario de organización del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de evaluación del CNOP del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de organización para la realización de las actividades inherentes al Programa de Militancia de Servidores Públicos del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Responsable de promoción del voto en Tamaulipas."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Instructor de cursos de oratoria en el Instituto Tamaulipeco de Capacitación Política (ITCAP) del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Delegado especial del CDE del PRI en Altamira, Tamaulipas."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador de acción profesional del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1973",
-                    "experiencia": "Asesor financiero del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP de Tampico, Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local de la LIX legislatura del Congreso de Tamaulipas. Presidente de la Mesa Directiva y de la Comisión de Finanzas, Planeación, Presupuesto y Deuda Pública. Secretario de fiscalización de la Auditoría Superior."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Contralor general del gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador general de las oficinas fiscales del gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de la contraloría del gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1985",
-                    "experiencia": "Auxiliar de la Comisión Federal Electoral para las elecciones de diputado federal."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Director de la contraloría de Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1975",
-                    "experiencia": "Jefe del departamento de presupuesto y control de personal, y director de la oficina de previsión social y pensiones de los trabajadores al servicio del estado en ciudad Victoria, Tamaulipas."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": "1967",
-                    "experiencia": "Jefe de inspectores del departamento de impuestos especiales del gobierno de Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214379",
-                "fecha_extraccion": "2026-10-13T06:18:28+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2306597",
-            "nombre_completo": "Salazar Vázquez Norma Leticia",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Gerardo Javier Saldívar Reyna ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306597.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Especial sobre Migración (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/04/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Lucha contra la Trata de Personas. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Capacitadora nacional del PAN."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Secretaria de promoción política de la mujer del CDE del PAN en Tamaulipas."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Integrante del CDE del PAN en Tamaulipas."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora de Redes Zona Norte."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidata a presidenta del CDM del PAN en Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2008",
-                    "experiencia": "Consejera estatal del PAN en Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Candidata suplente a diputada federal plurinominal por el cuarto distrito electoral con cabecera en Matamoros, Tamps."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Realización del proyecto de Desarrollo Integral de la Familia en la candidatura a la presidencia municipal por Matamoros, Tamps."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Participación en acción juvenil, brigadas comunitarias y campañas electorales."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Diputada local en la LIX legislatura del Congreso de Tamaulipas. Presidenta de las comisiones de Equidad y Género, e Instructora. Integrante de las comisiones de Salud, Seguridad Pública, Prevención y Readaptación Social, Especiales para la Reforma de Seguridad y Justicia y la Reforma Electoral, Especial de la Juventud, Desarrollo Social, Cultura y Deporte Local."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Regidora de Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Auxiliar de magistrado en el Tribunal Fiscal de la Federación (Sala regional del tribunal de Justicia Fiscal y administrativa Monterrey, Nuevo León)."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Auxiliar del secretario de acuerdos en el juzgado tercero de primera instancia de lo Civil distrito V Judicial en Matamoros, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2306598",
-                "fecha_extraccion": "2026-10-13T06:18:29+00:00"
-            }
-        },
-        {
-            "referencia_sil": "4608143",
-            "nombre_completo": "Solís Acero Felipe",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Mónica Deyhanira del Real Jaime ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/4608143.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Gobernación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/02/2012",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Régimen, Reglamento y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "11/10/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/12/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/10/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Representante del PRI ante el IFE."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CEN del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario de acción electoral del CEN del PRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CPN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario técnico de la comisión del proceso interno del PRI para elegir a su candidato a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Asesor del CEN del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario técnico del consejo consultivo del IEPES del PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Coordinador temático de la subdirección de estudios políticos del IEPES del PRI."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Vicepresidente del CEN del Instituto Político Nacional de Administradores Públicos."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector popular."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal en la LVIII Legislatura. Integrante de las comisiones de Puntos Constitucionales, Vigilancia de la Auditoría Superior de la Federación, Jurisdiccional y Especial para la Reforma del Estado."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Secretario técnico de la Junta de Coordinación Política del Senado, LX legislatura."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Secretario técnico de la mesa directiva del Senado, LX legislatura."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario ejecutivo del IFE."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Miembro de la Comisión Federal Electoral."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1996",
-                    "experiencia": "Director ejecutivo de organización electoral del IFE."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Director de desarrollo institucional y organizaciones sociales de la SEGOB."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario particular del director general del ISSSTE."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Subdirector de operación y control delegacional del ISSSTE."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1982",
-                    "experiencia": "Asesor del secretario de administración del gobierno del estado de México."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Jefe de proyectos especiales de la dirección general de asesoría a estados y municipios en la coordinación general de estudios administrativos de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario particular del director de recursos humanos de la Secretaría de Salubridad y Asistencia (SSA)."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1981",
-                    "experiencia": "Auxiliar jurídico en la dirección general de asuntos jurídicos de Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la mesa directiva de la Cámara de Diputados, LIX legislatura."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "6909943",
-                "fecha_extraccion": "2026-10-13T06:18:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9214368",
-            "nombre_completo": "Zamora Cabrera Cristabell",
-            "camara": "Diputados",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Adolfo Víctor García Jiménez ",
-            "fecha_toma_protesta": "29/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214368.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial sobre Migración (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/04/2011",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para la Industria Manufacturera de Exportación. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/04/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Frente Juvenil Revolucionario, en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Enlace juvenil de la campaña interna por la dirigencia nacional del PRI."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Fundación Colosio A.C. filial Nuevo Laredo."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidata a diputada federal en la LIX Legislatura del Congreso de la Unión."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2009",
-                    "experiencia": "Consejera nacional del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinadora juvenil del movimiento territorial Jóvenes en Movimiento, Tamaulipas."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Diseñadora del Plan de Evaluación de Estructuras de Operación Política del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Curso básico de capacitación política juvenil, por el CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejera municipal del PRI en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Cursos de Tópicos de Administración, Organización y Estrategia del PRI, por el CDM del PRI en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de asambleas nacionales del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Comisionada nacional de la Comisión de Presupuesto y Fiscalización del CPN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera municipal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de gestión social del Frente Juvenil Revolucionario en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica de la Comisión Municipal de Gestión Social del CDM PRI en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la Comisión Municipal de Asuntos de Mujeres en el CDM del PRI en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la generación revolucionaria Luis Donaldo Colosio en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Organismo Nacional de Mujeres Priístas (ONMPRI) en Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PRI en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Regidora en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Subdirectora de desarrollo social en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Regidor suplente en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinadora municipal de atención a los jóvenes en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinadora del programa municipal Manos Juveniles en Nuevo Laredo, Tamaulipas."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Directora de Atención a la Juventud en IMSS de Nuevo Laredo, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9214369",
-                "fecha_extraccion": "2026-10-13T06:18:33+00:00"
-            }
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "2303563",
-            "nombre_completo": "Gómez Tueme Amira Gricelda",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Guadalupe Edmundo García Román ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303563.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "15/12/2009",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional del PRI."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinadora de campaña del candidato del PRI al gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretaria de análisis, seguimiento y estrategia política del CDE del PRI Tamaulipas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Subcoordinadora estatal de participación social en Tamaulipas."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Secretaria técnica del comité nacional de financiamiento del CEN del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Secretaria técnica de la Secretaría de Finanzas del CEN del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Secretaria general del CDE del PRI en Tamaulipas."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Presidenta del CDM del PRI en Reynosa, Tamaulipas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política municipal y estatal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senadora en la LX legislatura. Secretaria de las comisiones de Hacienda y Crédito Público y Relaciones Exteriores, América del Norte. Integrante de las comisiones de Agricultura y Ganadería, Comercio y Fomento Industrial, Comunicaciones y Transportes y Relaciones Exteriores."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Diputada local en la LIX legislatura del Congreso de Tamaulipas. Presidenta de la Junta de Coordinación Política."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputada federal en la LVII legislatura. Secretaria de la Comisión de Comunicaciones y Transportes. Integrante de las comisiones de Asuntos Fronterizos, Asuntos Hidráulicos y de Programación, Presupuesto y Cuenta Pública. Secretaria de la Mesa Directiva Cámara de Diputados LVII Año I."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Diputada local en la LIV legislatura del Congreso de Tamaulipas. Presidenta de la Comisión de Obras y Servicios Públicos y secretaria de la Comisión de Patrimonio Estatal y Municipal."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Directora de Trabajo y Previsión Social en la Subsecretaría de Gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Gerente general de la Comisión de Agua Potable y Alcantarillado de Reynosa, Tamaulipas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Presidenta del Consejo de Administración de la Comisión de Agua Potable y Alcantarillado de Reynosa, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2305932",
-                "fecha_extraccion": "2026-10-13T06:18:36+00:00"
-            }
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Secretaria general del CDM del PRI en Reynosa, Tamaulipas."
         },
         {
-            "referencia_sil": "2306350",
-            "nombre_completo": "González Aguilar Lázara Nelly",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306350.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/02/2010",
-                    "fecha_fin": "14/09/2010",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos Zona Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "23/02/2010",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Candidata del PAN a diputada federal."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Candidata del PAN a la presidencia municipal de Mainero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidata suplente a diputada federal plurinominal."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Presidenta de la delegación municipal del PAN en Mainero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la Secretaría de Promoción Ciudadana en el área de capacitación, encuestas y apoyo en la elaboración de proyectos productivos del CDE del PAN en Tamaulipas."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Candidata a la presidencia municipal de Mainero, Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senadora suplente en la LX legislatura. Integrante de las comisiones de Agricultura y Ganadería, Asuntos Fronterizos Zona, Equidad y Género y Salud."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del área de testamentos y escrituras y análisis de proyección para colonias no regularizadas, en el municipio de Linares, Nuevo León."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora regional de validación, revisión y aprobación de los cuestionarios aplicados a la comunidad por el INEGI en los municipios de Linares e Iturbide, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Prácticas profesionales en la policía ministerial del municipio de Guadalupe, Nuevo León."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Servicio social en el Juzgado Primero, Menor Letrado en Monterrey, Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2303998",
-                "titular_nombre": "Alejandro Galván Garza ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T06:18:38+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en la secretaría general del sindicato de la Comisión Municipal de Agua Potable y Alcantarillado de Reynosa, Tamaulipas (COMAPA)."
         },
         {
-            "referencia_sil": "2303895",
-            "nombre_completo": "Sacramento Garza José Julián",
-            "camara": "Senadores",
-            "legislatura": 61,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Raquel Alonso Carmona ",
-            "fecha_toma_protesta": "31/08/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303895.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "14/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "14/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/09/2010",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, África (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "25/02/2010",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Precandidato del PAN a diputado federal."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Candidato del PAN a la gubernatura de Tamaulipas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato del PAN a diputado local, en Tamaulipas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Secretario de acción gubernamental del CDM del PAN en Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de acción política del CDM del PAN en Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Senador en la LX legislatura. Secretario de las comisiones Comunicaciones y Transportes y Relaciones Exteriores, África. Integrante de las comisiones Defensa Nacional y Marina."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Comunicaciones e integrante de las comisiones de Defensa Nacional, Especial de la Cuenca de Burgos y de la de Radio, Televisión y Cinematografía."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Oficial mayor del municipio de Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Director de recursos humanos del municipio de Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Director de fomento agropecuario del municipio de Matamoros, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Toma de protesta",
-                    "fecha_inicio": "31/08/2009",
-                    "fecha_fin": "31/08/2012",
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "25/02/2010",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "21/07/2010",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2304168",
-                "fecha_extraccion": "2026-10-13T06:18:40+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de acción política del CEE de la Federación de Organizaciones Obreras Femeniles, de Tamaulipas (CTM)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Titular de la cartera de conflictos del sindicato de COMAPA de Reynosa, Tamaulipas."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Cajera en la Comisión Municipal de Agua Potable y Alcantarillado de Reynosa, Tamaulipas (COMAPA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2009",
+          "experiencia": "Secretaria de trabajo de la COMAPA de Reynosa, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9214370",
+        "titular_nombre": "Jesús Everardo Villarreal Salinas ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T06:18:15+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214376",
+      "nombre_completo": "Gil Ortiz Francisco Javier Martín",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Esdras Romero Vega",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214376.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Presidente municipal de Altamira, Tamaulipas."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Candidato a diputado federal a la LX legislatura."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor político del CDE del Organismo Nacional de Mujeres Priístas (ONMPRI) en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Coordinador del programa: Unidos Avanzamos Más, en Altamira, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Coordinador del proyecto integral de saneamiento de la zona conurbada del sur de Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Gerente general de la Comisión de Agua Potable y Alcantarillado (COMAPA) de Altamira, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214377",
+        "fecha_extraccion": "2026-10-13T06:18:16+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9213965",
+      "nombre_completo": "Guevara Cobos Luis Alejandro",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Sergio Carlos Guajardo Maldonado",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9213965.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/02/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "22/02/2011",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del FJR en Ciudad Victoria, Tamaulipas."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión de Asuntos de la Juventud del Consejo Político Estatal."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE de la VJA en Tamaulipas."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Delegado para la reestructuración de la VJA en Puebla, Nuevo León, Campeche y San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador nacional de dirigencias estatales del CEN del Frente Juvenil Revolucionario (FJR)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDM de Vanguardia Juvenil Agrarista (VJA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE de VJA, en Ciudad Mante, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado para la reestructuración del CDM del PRI, en los municipios de Madero, Valle Hermoso y Cruillas en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado federal suplente en la LX legislatura. (No tomó protesta)."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal suplente en la LIX legislatura. (No tomó protesta)."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Asentamientos Humanos y Obras Públicas; Deporte; Especial de asuntos de la juventud y Especial de Seguridad Pública."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2009",
+          "experiencia": "Asesor del gobernador de Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214038",
+        "fecha_extraccion": "2026-10-13T06:18:18+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214412",
+      "nombre_completo": "Guillen Vicente Mercedes del Carmen",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Felipe Cabral Soto",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214412.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para Conocer y dar Seguimiento Puntual y Exhaustivo a las Acciones que han Emprendido las Autoridades Competentes en Relación a los Feminicidios Registrados en México. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/02/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Lucha contra la Trata de Personas. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Secretaria general adjunta del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Delegada del CEN del PRI en Puebla."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Delegada de la Secretaría de elecciones del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Delegada de la Secretaría de Elecciones CEN."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Secretaria estatal de Divulgación Ideológica del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de elecciones del CDM del PRI en Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Frente Juvenil Revolucionario del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada del CEN del PRI en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Diputada local en la LVII legislatura del Congreso de Tamaulipas. Presidenta de la Gran Comisión."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Diputada local en la LII legislatura del Congreso de Tamaulipas. Presidenta de la Gran Comisión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Directora del Instituto para la Reforma Integral de Seguridad y Justicia de Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Procuradora general de Justicia de Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Secretaria general de gobierno en Tamaulipas."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Asesora de la Comisión Estatal Electoral en Aguascalientes."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Coordinadora estatal de la Comisión Federal Electoral en Baja California Sur y Nuevo León."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1982",
+          "experiencia": "Secretario relator del Juzgado Familiar de Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Asesora del Servicio estatal del Empleo en Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Juez menor en el Juzgado Segundo de Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Orientador fiscal en la oficina federal de Hacienda en ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1974",
+          "experiencia": "Servicio social en el Juzgado Primero de lo Civil en Tampico."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Técnico de la Facultad de Derecho de la Universidad Autónoma de Tamaulipas (UAT)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214413",
+        "fecha_extraccion": "2026-10-13T06:18:20+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214374",
+      "nombre_completo": "Hinojosa Ochoa Baltazar Manuel",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Martha Alejandrina Molina Pérez",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214374.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/03/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Del Centro de Estudios de las Finanzas Públicas. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para Analizar el Presupuesto de Gastos Fiscales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Presidente municipal de Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Coordinador del programa REDES en Matamoros durante campañas electorales."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Tesorero general de la campaña del candidato del PRI para gobernador de Coahuila."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Coordinador de giras y tesorero de la campaña del candidato del PRI al senado por Coahuila."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general del Fideicomiso de la Liga de Economistas Revolucionarios de la Revolución Mexicana, A.C. (LER)"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero municipal del PRI en Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas de la LER."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de la Coordinación Regional Norte de la LER."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Presupuesto y Cuenta Pública e integrante de las comisiones Especial de la Cuenca de Burgos y Hacienda y Crédito Público."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretario de desarrollo social del gobierno de Tamaulipas. (abril-noviembre)."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretario técnico del director general de PEMEX. (enero-marzo)."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Secretario de educación, cultura y deporte del gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Director general de egresos en la Secretaría de Finanzas de Coahuila."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Integrante del Consejo del Banco Nacional de Obras y Servicios Banobras de Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Delegado federal de la SEDESOL en Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Secretario técnico del Comité para la Planeación del Desarrollo del Estado de Coahuila (COPLADEC)."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Coordinador de asesores de la Comisión de Programación y Presupuesto de la Cámara de Diputados en la LIV legislatura."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario particular del presidente del INEGI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas del gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subgerente comercial del Corporativo de DICONSA-CONASUPO"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de departamento de documentación y análisis de la información de la Secretaría de Programación y Presupuesto (SPP)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector de presupuesto del INEGI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del subdirector de control presupuestal del gobierno de Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor en la dirección general de documentación, análisis y evaluación de la Secretaría de Programación y Presupuesto."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor y expositor del programa de información de la política económica de la Subsecretaría de Planeación del Desarrollo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de departamento en la Dirección Coordinadora de Planeación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de departamento de presupuestos e ingresos de la oficina del Presidente del INEGI."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214375",
+        "fecha_extraccion": "2026-10-13T06:18:22+00:00"
+      }
+    },
+    {
+      "referencia_sil": "5177376",
+      "nombre_completo": "López Aguilar Cruz",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ana Bertha Silva Solórzano",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/5177376.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para Analizar el Presupuesto de Gastos Fiscales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2011",
+          "experiencia": "Presidente del CEN de la CNC."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Secretario general del CEN de la CNC."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2006",
+          "experiencia": "Secretario de acopio y comercialización de productos e insumos de la CNC."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Coordinador de atención y seguimiento a consejos técnicos de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero municipal del PRI en Gustavo Díaz Ordaz, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CEN de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Confederación Nacional Agronómica."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI en representación del sector agrario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del sector agrario del CEN del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Presidente de la Comisión de Agricultura y Ganadería, e integrante de las comisiones de Fomento Cooperativo y Economía Social, y Especial de la Cuenca de Burgos."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Delegado en Chihuahua de la Procuraduría Agraria."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director de investigación, planeación y desarrollo de la Comisión Nacional de las Zonas Áridas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la Comisión del Plan Nacional Hidráulico."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1995",
+          "experiencia": "Director de comercialización de la Productora Nacional de Semillas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Director técnico del Fideicomiso del Fondo Nacional de Fomento Ejidal."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Director general de cooperación técnica de la Comisión Técnica para el Programa de Empleo Rural en la Secretaría de la Reforma Agraria."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Director técnico del fideicomiso del Fondo Nacional de Fomento Ejidal (FIFONAFE)."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Gerente del fideicomiso de riego en la Dirección General de Distritos y Unidades de Temporal."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1983",
+          "experiencia": "Asesor del vocal ejecutivo de la Comisión del Plan Nacional Hidráulico."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1983",
+          "experiencia": "Jefe de departamento, subdirector de área y subdirector de apoyo sectorial en la Dirección General de Distritos y Unidades de Temporal."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Jefe de área de Hidrometría y Estadística en la tercera unidad de riego en Bajo Río San Juan, Tamaulipas."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1976",
+          "experiencia": "Técnico en el departamento de estudios tecnológicos de la Secretaría de Recursos Hidráulicos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de la sección agrometeorológica y trabajos de campo del departamento de irrigación de la Escuela Nacional de Agricultura de Chapingo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "6909930",
+        "fecha_extraccion": "2026-10-13T06:18:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214372",
+      "nombre_completo": "Melhem Salinas Edgardo",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Litha del Carmen Garza Peña",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214372.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "23/03/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Candidato a presidente municipal de Río Bravo, Tamaulipas."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Presidente de la Sociedad de Alumnos de la Facultad de Derecho de la Universidad de Monterrey."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Presidente del Frente Juvenil Revolucionario en Río Bravo, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal en Río Bravo, Tamps."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico del presidente del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado Territorial del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Titular de la Organización Política Nacional Vanguardia Juvenil Agrarista en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Diputado local suplente en la LIX legislatura del Congreso de Tamaulipas. (Nunca tomó protesta)."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal suplente en la LVIII legislatura. (Nunca tomó protesta)."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal suplente en la LVII legislatura. (Nunca tomó protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Director del programa Unidos Avanzamos Más en Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2009",
+          "experiencia": "Director general de Programación y Concertación Social de la Secretaría de Desarrollo Social en el gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Coordinador municipal de Política social en Río Bravo, Secretaria de Desarrollo Social Estatal (SEDESOL)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Delegado federal en Tamaulipas del Fideicomiso para el Subsidio a la Tortilla (FIDELIT)."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Secretario particular del diputado federal por el distrito VI de Coahuila y presidente de la Gran Comisión en la LVI Legislatura."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Subcomité de Vivienda para la Validación de Daños en Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214373",
+        "fecha_extraccion": "2026-10-13T06:18:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214378",
+      "nombre_completo": "Rábago Castillo José Francisco",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Olga Patricia Sosa Ruíz",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214378.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Función Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Presidente municipal de Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador general de la campaña para diputado federal por el XV distrito de Tamaulipas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PRI en Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Secretario general del Frente Nacional de Organizaciones y Ciudadanos en Tampico."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Coordinador estatal de compromisos políticos en los 9 distritos federales electorales de Tamaulipas."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Secretario de organización del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Coordinador de evaluación del CNOP del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Subsecretario de organización para la realización de las actividades inherentes al Programa de Militancia de Servidores Públicos del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Responsable de promoción del voto en Tamaulipas."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Instructor de cursos de oratoria en el Instituto Tamaulipeco de Capacitación Política (ITCAP) del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Delegado especial del CDE del PRI en Altamira, Tamaulipas."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Coordinador de acción profesional del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1973",
+          "experiencia": "Asesor financiero del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP de Tampico, Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Diputado local de la LIX legislatura del Congreso de Tamaulipas. Presidente de la Mesa Directiva y de la Comisión de Finanzas, Planeación, Presupuesto y Deuda Pública. Secretario de fiscalización de la Auditoría Superior."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Contralor general del gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Coordinador general de las oficinas fiscales del gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1993",
+          "experiencia": "Secretario de la contraloría del gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1985",
+          "experiencia": "Auxiliar de la Comisión Federal Electoral para las elecciones de diputado federal."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Director de la contraloría de Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1975",
+          "experiencia": "Jefe del departamento de presupuesto y control de personal, y director de la oficina de previsión social y pensiones de los trabajadores al servicio del estado en ciudad Victoria, Tamaulipas."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": "1967",
+          "experiencia": "Jefe de inspectores del departamento de impuestos especiales del gobierno de Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214379",
+        "fecha_extraccion": "2026-10-13T06:18:28+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2306597",
+      "nombre_completo": "Salazar Vázquez Norma Leticia",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Gerardo Javier Saldívar Reyna",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306597.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Especial sobre Migración (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/04/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de la Región Cuenca de Burgos. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Lucha contra la Trata de Personas. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Capacitadora nacional del PAN."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Secretaria de promoción política de la mujer del CDE del PAN en Tamaulipas."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Integrante del CDE del PAN en Tamaulipas."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora de Redes Zona Norte."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidata a presidenta del CDM del PAN en Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2008",
+          "experiencia": "Consejera estatal del PAN en Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Candidata suplente a diputada federal plurinominal por el cuarto distrito electoral con cabecera en Matamoros, Tamps."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Realización del proyecto de Desarrollo Integral de la Familia en la candidatura a la presidencia municipal por Matamoros, Tamps."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Participación en acción juvenil, brigadas comunitarias y campañas electorales."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Diputada local en la LIX legislatura del Congreso de Tamaulipas. Presidenta de las comisiones de Equidad y Género, e Instructora. Integrante de las comisiones de Salud, Seguridad Pública, Prevención y Readaptación Social, Especiales para la Reforma de Seguridad y Justicia y la Reforma Electoral, Especial de la Juventud, Desarrollo Social, Cultura y Deporte Local."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Regidora de Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Auxiliar de magistrado en el Tribunal Fiscal de la Federación (Sala regional del tribunal de Justicia Fiscal y administrativa Monterrey, Nuevo León)."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Auxiliar del secretario de acuerdos en el juzgado tercero de primera instancia de lo Civil distrito V Judicial en Matamoros, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2306598",
+        "fecha_extraccion": "2026-10-13T06:18:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "4608143",
+      "nombre_completo": "Solís Acero Felipe",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Mónica Deyhanira del Real Jaime",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/4608143.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Gobernación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/02/2012",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Régimen, Reglamento y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "11/10/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/12/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/10/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Representante del PRI ante el IFE."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CEN del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2002",
+          "experiencia": "Secretario de acción electoral del CEN del PRI."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro del CPN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Secretario técnico de la comisión del proceso interno del PRI para elegir a su candidato a la presidencia de la República."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Asesor del CEN del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Secretario técnico del consejo consultivo del IEPES del PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Coordinador temático de la subdirección de estudios políticos del IEPES del PRI."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Vicepresidente del CEN del Instituto Político Nacional de Administradores Públicos."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector popular."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal en la LVIII Legislatura. Integrante de las comisiones de Puntos Constitucionales, Vigilancia de la Auditoría Superior de la Federación, Jurisdiccional y Especial para la Reforma del Estado."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Secretario técnico de la Junta de Coordinación Política del Senado, LX legislatura."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Secretario técnico de la mesa directiva del Senado, LX legislatura."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario ejecutivo del IFE."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Miembro de la Comisión Federal Electoral."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1996",
+          "experiencia": "Director ejecutivo de organización electoral del IFE."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Director de desarrollo institucional y organizaciones sociales de la SEGOB."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario particular del director general del ISSSTE."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Subdirector de operación y control delegacional del ISSSTE."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1982",
+          "experiencia": "Asesor del secretario de administración del gobierno del estado de México."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Jefe de proyectos especiales de la dirección general de asesoría a estados y municipios en la coordinación general de estudios administrativos de la Presidencia de la República."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Secretario particular del director de recursos humanos de la Secretaría de Salubridad y Asistencia (SSA)."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1981",
+          "experiencia": "Auxiliar jurídico en la dirección general de asuntos jurídicos de Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la mesa directiva de la Cámara de Diputados, LIX legislatura."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "6909943",
+        "fecha_extraccion": "2026-10-13T06:18:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9214368",
+      "nombre_completo": "Zamora Cabrera Cristabell",
+      "camara": "Diputados",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Adolfo Víctor García Jiménez",
+      "fecha_toma_protesta": "29/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9214368.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial sobre Migración (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/04/2011",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para la Industria Manufacturera de Exportación. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/04/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Presidente del Frente Juvenil Revolucionario, en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Enlace juvenil de la campaña interna por la dirigencia nacional del PRI."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Integrante de la Fundación Colosio A.C. filial Nuevo Laredo."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidata a diputada federal en la LIX Legislatura del Congreso de la Unión."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2009",
+          "experiencia": "Consejera nacional del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Coordinadora juvenil del movimiento territorial Jóvenes en Movimiento, Tamaulipas."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Diseñadora del Plan de Evaluación de Estructuras de Operación Política del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Curso básico de capacitación política juvenil, por el CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejera municipal del PRI en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Cursos de Tópicos de Administración, Organización y Estrategia del PRI, por el CDM del PRI en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de asambleas nacionales del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Comisionada nacional de la Comisión de Presupuesto y Fiscalización del CPN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera municipal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de gestión social del Frente Juvenil Revolucionario en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria técnica de la Comisión Municipal de Gestión Social del CDM PRI en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la Comisión Municipal de Asuntos de Mujeres en el CDM del PRI en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la generación revolucionaria Luis Donaldo Colosio en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Organismo Nacional de Mujeres Priístas (ONMPRI) en Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PRI en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Regidora en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Subdirectora de desarrollo social en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Regidor suplente en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Coordinadora municipal de atención a los jóvenes en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Coordinadora del programa municipal Manos Juveniles en Nuevo Laredo, Tamaulipas."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Directora de Atención a la Juventud en IMSS de Nuevo Laredo, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9214369",
+        "fecha_extraccion": "2026-10-13T06:18:33+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "2303563",
+      "nombre_completo": "Gómez Tueme Amira Gricelda",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Guadalupe Edmundo García Román",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303563.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "15/12/2009",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejera nacional del PRI."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinadora de campaña del candidato del PRI al gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretaria de análisis, seguimiento y estrategia política del CDE del PRI Tamaulipas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Subcoordinadora estatal de participación social en Tamaulipas."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Secretaria técnica del comité nacional de financiamiento del CEN del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Secretaria técnica de la Secretaría de Finanzas del CEN del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Secretaria general del CDE del PRI en Tamaulipas."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Presidenta del CDM del PRI en Reynosa, Tamaulipas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política municipal y estatal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senadora en la LX legislatura. Secretaria de las comisiones de Hacienda y Crédito Público y Relaciones Exteriores, América del Norte. Integrante de las comisiones de Agricultura y Ganadería, Comercio y Fomento Industrial, Comunicaciones y Transportes y Relaciones Exteriores."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Diputada local en la LIX legislatura del Congreso de Tamaulipas. Presidenta de la Junta de Coordinación Política."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputada federal en la LVII legislatura. Secretaria de la Comisión de Comunicaciones y Transportes. Integrante de las comisiones de Asuntos Fronterizos, Asuntos Hidráulicos y de Programación, Presupuesto y Cuenta Pública. Secretaria de la Mesa Directiva Cámara de Diputados LVII Año I."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Diputada local en la LIV legislatura del Congreso de Tamaulipas. Presidenta de la Comisión de Obras y Servicios Públicos y secretaria de la Comisión de Patrimonio Estatal y Municipal."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Directora de Trabajo y Previsión Social en la Subsecretaría de Gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Gerente general de la Comisión de Agua Potable y Alcantarillado de Reynosa, Tamaulipas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Presidenta del Consejo de Administración de la Comisión de Agua Potable y Alcantarillado de Reynosa, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2305932",
+        "fecha_extraccion": "2026-10-13T06:18:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2306350",
+      "nombre_completo": "González Aguilar Lázara Nelly",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2306350.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/02/2010",
+          "fecha_fin": "14/09/2010",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos Zona Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "23/02/2010",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Candidata del PAN a diputada federal."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Candidata del PAN a la presidencia municipal de Mainero, Tamaulipas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidata suplente a diputada federal plurinominal."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Presidenta de la delegación municipal del PAN en Mainero, Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Coordinadora de la Secretaría de Promoción Ciudadana en el área de capacitación, encuestas y apoyo en la elaboración de proyectos productivos del CDE del PAN en Tamaulipas."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Candidata a la presidencia municipal de Mainero, Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senadora suplente en la LX legislatura. Integrante de las comisiones de Agricultura y Ganadería, Asuntos Fronterizos Zona, Equidad y Género y Salud."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Coordinadora del área de testamentos y escrituras y análisis de proyección para colonias no regularizadas, en el municipio de Linares, Nuevo León."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora regional de validación, revisión y aprobación de los cuestionarios aplicados a la comunidad por el INEGI en los municipios de Linares e Iturbide, Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Prácticas profesionales en la policía ministerial del municipio de Guadalupe, Nuevo León."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Servicio social en el Juzgado Primero, Menor Letrado en Monterrey, Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2303998",
+        "titular_nombre": "Alejandro Galván Garza ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T06:18:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2303895",
+      "nombre_completo": "Sacramento Garza José Julián",
+      "camara": "Senadores",
+      "legislatura": 61,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Raquel Alonso Carmona",
+      "fecha_toma_protesta": "31/08/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303895.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "14/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "14/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/09/2010",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, África (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "25/02/2010",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Precandidato del PAN a diputado federal."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Candidato del PAN a la gubernatura de Tamaulipas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato del PAN a diputado local, en Tamaulipas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Secretario de acción gubernamental del CDM del PAN en Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario de acción política del CDM del PAN en Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Senador en la LX legislatura. Secretario de las comisiones Comunicaciones y Transportes y Relaciones Exteriores, África. Integrante de las comisiones Defensa Nacional y Marina."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Comunicaciones e integrante de las comisiones de Defensa Nacional, Especial de la Cuenca de Burgos y de la de Radio, Televisión y Cinematografía."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Oficial mayor del municipio de Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Director de recursos humanos del municipio de Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Director de fomento agropecuario del municipio de Matamoros, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Toma de protesta",
+          "fecha_inicio": "31/08/2009",
+          "fecha_fin": "31/08/2012",
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "25/02/2010",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "21/07/2010",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2304168",
+        "fecha_extraccion": "2026-10-13T06:18:40+00:00"
+      }
+    }
+  ]
 }

@@ -1,2012 +1,2012 @@
 {
-    "metadata": {
-        "entidad_id": 24,
-        "entidad_nombre": "San Luis Potosí",
-        "legislatura": 66,
-        "generado_en": "2026-10-09T19:55:04+02:00",
-        "total_diputados": 12,
-        "total_senadores": 3,
-        "total_general": 15
+  "metadata": {
+    "entidad_id": 24,
+    "entidad_nombre": "San Luis Potosí",
+    "legislatura": 66,
+    "generado_en": "2026-10-09T19:55:04+02:00",
+    "total_diputados": 12,
+    "total_senadores": 3,
+    "total_general": 15
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9228334",
+      "nombre_completo": "Azuara Zúñiga David",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rafael Armando López Puente",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228334.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228334.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Coordinador de Regidores en San Luis Potosí, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/davidazuara.z",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/DavidAzuaraSLP",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/davidazuaraslp",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228335",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9228330",
+      "nombre_completo": "Bautista Villegas Oscar",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rodrigo Alfredo Castillo Verastegui",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1964-02-06",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Administración",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228330.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228330.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9228334",
-            "nombre_completo": "Azuara Zúñiga David",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rafael Armando López Puente ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Derecho",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228334.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228334.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Coordinador de Regidores en San Luis Potosí, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/davidazuara.z",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/DavidAzuaraSLP",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/davidazuaraslp",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228335",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "05/09/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228330",
-            "nombre_completo": "Bautista Villegas Oscar",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rodrigo Alfredo Castillo Verastegui ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1964-02-06",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Maestría",
-            "preparacion_academica": "Administración",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228330.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228330.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "05/09/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "05/09/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": null,
-                    "experiencia": "Integrante del PRI."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión Política Permanente del PRI estatal."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PRI a diputación local."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en Rioverde, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña del área rural del candidato del PRI a la presidencia municipal de Rioverde, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Presidente de la Liga de Comunidades Agrarias y Sindicatos Campesinos de la Confederación Nacional Campesina (CNC)."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Coordinador del Sindicato Nacional de Trabajadores de la Educación (SNTE), Sección 26, del nivel medio superior, zona media, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente del Frente Juvenil Revolucionario (FJR) en Rioverde, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador del FJR en zona media."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario General de C.T. No. 50 del SNTE, Sección 26."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Acciones Culturales y Productivas del Comité de Alianza del SNTE-CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario General del Comité Municipal Campesino de la CNC en Rioverde, San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Diputado federal en la LXIV Legislatura. Secretario de Recursos Hidráulicos. Integrante de las comisiones de Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria; y, Energía."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LXI del Congreso de San Luis Potosí."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputado federal en la LXII Legislatura. Secretario en la Comisión de Agua Potable y Saneamiento. Integrante en las comisiones Agricultura y Sistemas de Riego; Reforma Agraria; y, Especial Seguimiento a las evaluaciones del programa especial concurrente."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputado local en la LIX Legislatura del Congreso de San Luis Potosí. Coordinador del Grupo Parlamentario del PRI. Secretario de las comisiones de Gobernación; y, Especial de los Festejos del Bicentenario. Vocal de las comisiones de Desarrollo Rural; Desarrollo Económico; y, del Instituto de Investigaciones Legislativas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1999",
-                    "experiencia": "Supervisor de Educación Tecnológica Agropecuaria de la Dirección de Educación Tecnológica Agropecuaria (DGETA)."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Supervisor de Educación Tecnológica Agropecuaria de la DGETA, zona media."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Director de Desarrollo Rural de Rioverde, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Director del CBTA, número 123."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Jefe del Departamento de Vinculación con el Sector Productivo del CBTA, número 120."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Subdirector del CBTA, número 120."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar de la Coordinación Estatal de Educación Tecnológica Agropecuaria, San Luis Potosí."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Supervisor Administrativo de la DGETA."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Maestría en Administración por la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Licenciatura en Ingeniería Agrónoma, especialista en Industrias Agropecuarias, por el Instituto Tecnológico de Linares."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Jefe de la Oficina de Capacitación y Extensión Comunitaria del Centro de Bachillerato Tecnológico Agropecuario (CBTA), número 120."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/OscarBautistaVillegas",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/oscarbautistaslp/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228331",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9229108",
-            "nombre_completo": "Castillo Medina Nubia Iris",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Karla Janett Zúñiga Quezada ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Administración",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229108.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229108.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Cambio Climático y Sostenibilidad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas y Afromexicanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": null,
-                    "experiencia": "Candidata suplente a diputación local."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Candidata a diputación local."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité Directivo Estatal del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en la Tesorería del gobierno de Xilitla, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "2021",
-                    "experiencia": "Licenciatura en Administración por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/NubiaCastilloMe",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/nubiacastillom",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229109",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228332",
-            "nombre_completo": "Castillo Morales Francisco Adrián",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Arturo Alonso García ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Maestría",
-            "preparacion_academica": "Administración de Instituciones de Salud",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228332.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228332.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2023",
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la presidenta del Comité Ejecutivo Estatal de Morena en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2023",
-                    "al_ano": "2024",
-                    "experiencia": "Técnico Especialista \"A\" de Política Criminal en la Dirección General de Política Criminal de la Secretaría de Seguridad Pública y Protección Ciudadana."
-                },
-                {
-                    "del_ano": "2022",
-                    "al_ano": "2023",
-                    "experiencia": "Médico Operativo en Unidad de Salud."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2022",
-                    "experiencia": "Jefe de la Jurisdicción Sanitaria, número 5, con sede en Ciudad Valles."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Subdirector de Unidades de Primer Nivel de Atención Estatal."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de Prevención y Promoción para la Salud."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinador de Unidades de Primer Nivel de Atención."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Coordinador de Unidades de Primer Nivel de Atención."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Supervisor del Programa Caravanas de la Salud."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2010",
-                    "experiencia": "Médico Operativo en Unidad Médica Móvil."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Maestría en Administración de Instituciones de Salud por la Universidad IEU."
-                },
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Maestría en Salud Pública por el Instituto de Ciencias y Estudios Superiores de Tamaulipas, A.C."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura como Médico Cirujano por la Universidad Autónoma de Tamaulipas."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/dr.francisco.castillo.slp",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228333",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9228328",
-            "nombre_completo": "Fernández Martínez José Luis",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Raúl Iván López Guzmán ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Pasante/Licenciatura trunca",
-            "preparacion_academica": "Ingeniería Mecánica y Eléctrica",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228328.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228328.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Reforma Política-Electoral (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "03/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Zonas Metropolitanas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "03/03/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente del Comité Estatal del PRD en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PVEM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité Ejecutivo Estatal del PVEM en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputado local en la LXIII Legislatura del Congreso de San Luis Potosí. Coordinador del Grupo Parlamentario del PVEM. Presidente de la Junta de Coordinación Política. Presidente de la Comisión de Gobernación. Vicepresidente de la Comisión de Desarrollo Territorial Sustentable. Secretario de la Comisión de Transparencia y Acceso a la Información Pública. Vocal de las comisiones de Puntos Constitucionales; y, Agua."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Asesor en el Senado de la República."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Presidente municipal interino de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Regidor de Soledad de Graciano Sánchez, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Ingeniería Mecánica Eléctrica por la Universidad Regiomontana. (Trunca)"
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/joseluischiquisfernandez",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/chiquisfdz",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228329",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9229420",
-            "nombre_completo": "Gaitán Díaz María Graciela",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Maricela Solano Alvarado ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Profesor Normalista",
-            "preparacion_academica": "Educación Primaria",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229420.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229420.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2024",
-                    "experiencia": "Senadora en la LXIV y LXV legislaturas. Secretaria de la Comisión de Energía. Integrante de las comisiones de Agricultura, Ganadería y Desarrollo Rural; Asuntos Fronterizos y Migratorios; Bicamaral de Concordia y Pacificación del Congreso de la Unión; Derechos Humanos; Educación; Gobernación; Para la Igualdad de Género; y, Seguridad Social."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada Local en la LXI Legislatura del Congreso San Luis Potosí. Coordinadora del Grupo Parlamentario del PRD. Vicepresidenta de la Junta de Coordinación Política. Presidenta de la Comisión de Educación, Cultura, Ciencia y Tecnología."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2021",
-                    "experiencia": "Directora de Comercio Municipal del gobierno de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Regidora de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Directora de Participación Ciudadana del gobierno de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Directora del Programa de Oportunidades en Soledad de Graciano Sánchez, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Profesora de Educación Primaria por la Escuela Normal Nocturna Patria, San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/mariagraciela.gaitandiaz.9",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/graciela_diazg",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/maestragracielagaitan",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229421",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9229351",
-            "nombre_completo": "Gallardo Juárez Ricardo",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1955-10-06",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Derecho",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229351.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229351.jpg",
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "16/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia municipal de San Luis Potosí, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente municipal de San Luis Potosí, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Presidente municipal de Soledad de Graciano Sánchez, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Derecho por el Instituto Panamericano de Estudios Superiores Abiertos y a Distancia."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/rgallardojuarez",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9229350",
-                "titular_nombre": "Omar Alejandro Acosta Ornelas ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9228338",
-            "nombre_completo": "García Antonio Briceyda",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Iris Yahel Hernández Ramírez ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Administración",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228338.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228338.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Pueblos Indígenas y Afromexicanos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Participante en la integración de comités de base seccionales de Morena en San Luis Potosí."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinadora operativa territorial de Morena en San Luis Potosí."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Participó en campaña de registro de Morena en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2019",
-                    "experiencia": "Delegada Regional de la Secretaría de Desarrollo Social."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2023",
-                    "experiencia": "Directora Regional de la Secretaría del Bienestar."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Revolución de las Conciencias por la Secretaría de Formación y Capacitación Política (SFyCP) y el Instituto Nacional de Formación Política (INFP) de Morena."
-                },
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Diplomado de Los Cambios Profundos en la Historia de la Democracia Mexicana por la SFyCP y el INFP de Morena."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Administración por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/people/Briceyda-García/61556368814604/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/briceyda_garcia_a1101/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228339",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9228838",
-            "nombre_completo": "Morales Mendoza Gabino",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Enrique Serrano Contreras ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Administración Pública",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228838.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228838.jpg",
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Diversidad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Política-Electoral (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "05/09/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2024",
-                    "al_ano": "2024",
-                    "experiencia": "Precandidato a Senador."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Delegado de Morena en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2023",
-                    "experiencia": "Delegado Estatal de Programas Integrales para el Desarrollo de la Secretaría del Bienestar en San Luis Potosí."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinador de Ventanilla Única en la Delegación Azcapotzalco del Distrito Federal."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Enlace de Jefatura Delegacional en la Delegación Azcapotzalco del Distrito Federal."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "2015",
-                    "experiencia": "Licenciatura en Administración Pública por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GabinoMoralesMendoza1989/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/gabino_mm",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gabino.mm/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228839",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9229348",
-            "nombre_completo": "Noyola Cervantes Ma. Leonor",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Flor Olivia Gómez Vázquez ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Contaduría Pública",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229348.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229348.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": null,
-                    "experiencia": "Consejera política estatal del PVEM."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Delegada estatal del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité Directivo Municipal del PRD en Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora territorial del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Senadora por el PRD en las LXIV y LXV legislaturas. Presidenta de la Comisión de Asuntos Indígenas. Integrante de las comisiones de Agricultura, Ganadería, Pesca y Desarrollo Rural; Derechos Humanos; Seguridad Social; Para la Igualdad de Género; y, Bicamaral de Concordia y Pacificación del Congreso de la Unión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Presidenta municipal de Soledad Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Regidora de Soledad Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2011",
-                    "experiencia": "Directora del Inapam de Soledad Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de Servicios Municipales de Soledad Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del Programa Oportunidades."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Contaduría Públcia por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/leonor.noyolacervantes",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/PRDLeonorNoy",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/leonornoyolacervantes/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229349",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9228336",
-            "nombre_completo": "Valladares Eichelmann Juan Carlos",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "René Contreras Flores ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1981-10-31",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Administración de Empresas",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228336.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228336.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Para el Seguimiento al Tratado Comercial entre México, Estados Unidos y Canadá (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía, Comercio y Competitividad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Coordinador Estatal de Vinculación Empresarial y Emprendimiento del PRI en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Desarrollo Económico de San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Administración de Empresas por el Instituto Tecnológico y de Estudios Superiores de Monterrey."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/JCValladaresMx/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/jcvalladaresmx",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jcvalladares/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228337",
-                "fecha_extraccion": "2026-10-09T19:54:53+02:00"
-            }
-        },
-        {
-            "referencia_sil": "9228326",
-            "nombre_completo": "Velazco Bautista Aremy",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Maricela Oliva Espinoza ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ingeniería Petrolera",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228326.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228326.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "04/03/2026",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2022",
-                    "al_ano": null,
-                    "experiencia": "Aspirante en el proceso de elección de consejeros estatales de Morena en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2023",
-                    "experiencia": "Enlace de Prestación de Servicios a la Nación en la Secretaría de Bienestar."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Ingeniaria Petrolera por el Instituto Tecnologico Superior de Tantoyuca."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/people/Aremy-Velazco/61556372140604/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/aremyvelazco",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228327",
-                "fecha_extraccion": "2026-10-09T19:54:55+02:00"
-            }
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "05/09/2025",
+          "estatus": "Baja"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9229092",
-            "nombre_completo": "González Silva Ruth Miriam",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Virginia Zúñiga Maldonado ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ciencias de la Comunicación",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229092.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229092.jpg",
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Ciberseguridad (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/10/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/11/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "03/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Candidata al Senado de la República por el PRD."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Presidenta Honoraria del Sistema Estatal para el Desarrollo Integral de la Familia DIF de San Luis Potosí."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2021",
-                    "experiencia": "Presidenta del DIF de Soledad de Graciano Sánchez, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Ciencias de la Comunicación."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/05/2026",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "28/05/2026",
-                    "fecha_fin": "29/05/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "23/04/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "10/04/2025",
-                    "fecha_fin": "25/04/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ruthgonzalezmx/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/RuthGonzalezMx/",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/ruthgonzalezmx/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229093",
-                "fecha_extraccion": "2026-10-09T19:54:57+02:00"
-            }
+          "del_ano": "2020",
+          "al_ano": null,
+          "experiencia": "Integrante del PRI."
         },
         {
-            "referencia_sil": "9229094",
-            "nombre_completo": "Hernández Villafuerte Gilberto",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Enrique Hernández Segura ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1962-01-31",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Ingeniería Agrónoma Fitotecnista",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229094.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229094.jpg",
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "20/11/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/11/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Municipal (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/09/2024",
-                    "fecha_fin": "05/09/2024",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2024",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia municipal de San Luis Potosí, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero Político del Comité Ejecutivo Estatal del PVEM en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputado federal en la LXV Legislatura. Secretario de las comisiones de Hacienda y Crédito Público; y, Presupuesto y Cuenta Pública. Integrante de la Comisión de Vigilancia de la Auditoría Superior de la Federación."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Presidente Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Director de Catastro Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Director de Comercio Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Ingeniería Agrónoma Fitotecnista por la Universidad Autónoma de San Luis Potosí."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GilHVillafuerte/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/GilVillafuerte/",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gilbertohvillafuerte/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229095",
-                "fecha_extraccion": "2026-10-09T19:55:00+02:00"
-            }
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión Política Permanente del PRI estatal."
         },
         {
-            "referencia_sil": "9229096",
-            "nombre_completo": "Rodríguez Hernández Verónica",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "San Luis Potosí",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Bertha Estela Arriaga Márquez ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1985-04-30",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Maestría",
-            "preparacion_academica": "Gobierno y Políticas Públicas",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229096.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229096.jpg",
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/03/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "05/02/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/02/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/02/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/02/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2024",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del Comité Directivo Estatal del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Coordinadora estatal de alcaldes, síndicos y regidores del PAN en SLP."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Secretaria estatal de Formación y Capacitación del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión de Vigilancia del Consejo Nacional del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PAN en San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión Permanente del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria municipal de Promoción Política de la Mujer en San Luis Potsí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estudiantil de Acción Juvenil en San Luis Potosí."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Regidora de San Luis Potosí, San Luis Potosí."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada de Cerritos, San Luis Potosí."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Maestría en Administración con Énfasis en Gestión Pública por la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de San Luis Potosí."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Técnico en Informática Administrativa por el Colegio de Estudios Científicos y Tecnológicos del Estado (CECyTE) de San Luis Potosí, Plantel 1 Lomas del Mezquital."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestría en Gobierno y Políticas Públicas por la Universidad Panamericana."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "13/11/2024",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "11/12/2024",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "11/04/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "09/04/2025",
-                    "fecha_fin": "10/04/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/VeronicaRdzSLP",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/VeronicaRdzSLP",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/veronicardzslp",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229097",
-                "fecha_extraccion": "2026-10-09T19:55:04+02:00"
-            }
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Candidato del PRI a diputación local."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en Rioverde, San Luis Potosí."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña del área rural del candidato del PRI a la presidencia municipal de Rioverde, San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Presidente de la Liga de Comunidades Agrarias y Sindicatos Campesinos de la Confederación Nacional Campesina (CNC)."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Coordinador del Sindicato Nacional de Trabajadores de la Educación (SNTE), Sección 26, del nivel medio superior, zona media, San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Presidente del Frente Juvenil Revolucionario (FJR) en Rioverde, San Luis Potosí."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Coordinador del FJR en zona media."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Secretario General de C.T. No. 50 del SNTE, Sección 26."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Acciones Culturales y Productivas del Comité de Alianza del SNTE-CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario General del Comité Municipal Campesino de la CNC en Rioverde, San Luis Potosí."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Diputado federal en la LXIV Legislatura. Secretario de Recursos Hidráulicos. Integrante de las comisiones de Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria; y, Energía."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LXI del Congreso de San Luis Potosí."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputado federal en la LXII Legislatura. Secretario en la Comisión de Agua Potable y Saneamiento. Integrante en las comisiones Agricultura y Sistemas de Riego; Reforma Agraria; y, Especial Seguimiento a las evaluaciones del programa especial concurrente."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputado local en la LIX Legislatura del Congreso de San Luis Potosí. Coordinador del Grupo Parlamentario del PRI. Secretario de las comisiones de Gobernación; y, Especial de los Festejos del Bicentenario. Vocal de las comisiones de Desarrollo Rural; Desarrollo Económico; y, del Instituto de Investigaciones Legislativas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1999",
+          "experiencia": "Supervisor de Educación Tecnológica Agropecuaria de la Dirección de Educación Tecnológica Agropecuaria (DGETA)."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Supervisor de Educación Tecnológica Agropecuaria de la DGETA, zona media."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Director de Desarrollo Rural de Rioverde, San Luis Potosí."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Director del CBTA, número 123."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Jefe del Departamento de Vinculación con el Sector Productivo del CBTA, número 120."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Subdirector del CBTA, número 120."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Auxiliar de la Coordinación Estatal de Educación Tecnológica Agropecuaria, San Luis Potosí."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Supervisor Administrativo de la DGETA."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Maestría en Administración por la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Licenciatura en Ingeniería Agrónoma, especialista en Industrias Agropecuarias, por el Instituto Tecnológico de Linares."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Jefe de la Oficina de Capacitación y Extensión Comunitaria del Centro de Bachillerato Tecnológico Agropecuario (CBTA), número 120."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/OscarBautistaVillegas",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/oscarbautistaslp/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228331",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229108",
+      "nombre_completo": "Castillo Medina Nubia Iris",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Karla Janett Zúñiga Quezada",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Administración",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229108.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229108.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Cambio Climático y Sostenibilidad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas y Afromexicanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2021",
+          "al_ano": null,
+          "experiencia": "Candidata suplente a diputación local."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Candidata a diputación local."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité Directivo Estatal del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en la Tesorería del gobierno de Xilitla, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "2021",
+          "experiencia": "Licenciatura en Administración por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/NubiaCastilloMe",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/nubiacastillom",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229109",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228332",
+      "nombre_completo": "Castillo Morales Francisco Adrián",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Arturo Alonso García",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Administración de Instituciones de Salud",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228332.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228332.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2023",
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la presidenta del Comité Ejecutivo Estatal de Morena en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2023",
+          "al_ano": "2024",
+          "experiencia": "Técnico Especialista \"A\" de Política Criminal en la Dirección General de Política Criminal de la Secretaría de Seguridad Pública y Protección Ciudadana."
+        },
+        {
+          "del_ano": "2022",
+          "al_ano": "2023",
+          "experiencia": "Médico Operativo en Unidad de Salud."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2022",
+          "experiencia": "Jefe de la Jurisdicción Sanitaria, número 5, con sede en Ciudad Valles."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Subdirector de Unidades de Primer Nivel de Atención Estatal."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Coordinador de Prevención y Promoción para la Salud."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Coordinador de Unidades de Primer Nivel de Atención."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Coordinador de Unidades de Primer Nivel de Atención."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Supervisor del Programa Caravanas de la Salud."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2010",
+          "experiencia": "Médico Operativo en Unidad Médica Móvil."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Maestría en Administración de Instituciones de Salud por la Universidad IEU."
+        },
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Maestría en Salud Pública por el Instituto de Ciencias y Estudios Superiores de Tamaulipas, A.C."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Licenciatura como Médico Cirujano por la Universidad Autónoma de Tamaulipas."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/dr.francisco.castillo.slp",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228333",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228328",
+      "nombre_completo": "Fernández Martínez José Luis",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Raúl Iván López Guzmán",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Pasante/Licenciatura trunca",
+      "preparacion_academica": "Ingeniería Mecánica y Eléctrica",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228328.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228328.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Reforma Política-Electoral (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "03/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Zonas Metropolitanas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "03/03/2025",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Presidente del Comité Estatal del PRD en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PVEM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité Ejecutivo Estatal del PVEM en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputado local en la LXIII Legislatura del Congreso de San Luis Potosí. Coordinador del Grupo Parlamentario del PVEM. Presidente de la Junta de Coordinación Política. Presidente de la Comisión de Gobernación. Vicepresidente de la Comisión de Desarrollo Territorial Sustentable. Secretario de la Comisión de Transparencia y Acceso a la Información Pública. Vocal de las comisiones de Puntos Constitucionales; y, Agua."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Asesor en el Senado de la República."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Presidente municipal interino de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Regidor de Soledad de Graciano Sánchez, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Ingeniería Mecánica Eléctrica por la Universidad Regiomontana. (Trunca)"
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/joseluischiquisfernandez",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/chiquisfdz",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228329",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229420",
+      "nombre_completo": "Gaitán Díaz María Graciela",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Maricela Solano Alvarado",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Profesor Normalista",
+      "preparacion_academica": "Educación Primaria",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229420.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229420.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2024",
+          "experiencia": "Senadora en la LXIV y LXV legislaturas. Secretaria de la Comisión de Energía. Integrante de las comisiones de Agricultura, Ganadería y Desarrollo Rural; Asuntos Fronterizos y Migratorios; Bicamaral de Concordia y Pacificación del Congreso de la Unión; Derechos Humanos; Educación; Gobernación; Para la Igualdad de Género; y, Seguridad Social."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputada Local en la LXI Legislatura del Congreso San Luis Potosí. Coordinadora del Grupo Parlamentario del PRD. Vicepresidenta de la Junta de Coordinación Política. Presidenta de la Comisión de Educación, Cultura, Ciencia y Tecnología."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2020",
+          "al_ano": "2021",
+          "experiencia": "Directora de Comercio Municipal del gobierno de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Regidora de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Directora de Participación Ciudadana del gobierno de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Directora del Programa de Oportunidades en Soledad de Graciano Sánchez, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Profesora de Educación Primaria por la Escuela Normal Nocturna Patria, San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/mariagraciela.gaitandiaz.9",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/graciela_diazg",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/maestragracielagaitan",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229421",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229351",
+      "nombre_completo": "Gallardo Juárez Ricardo",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1955-10-06",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229351.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229351.jpg",
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "16/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia municipal de San Luis Potosí, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Presidente municipal de San Luis Potosí, San Luis Potosí."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Presidente municipal de Soledad de Graciano Sánchez, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Derecho por el Instituto Panamericano de Estudios Superiores Abiertos y a Distancia."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/rgallardojuarez",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9229350",
+        "titular_nombre": "Omar Alejandro Acosta Ornelas ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228338",
+      "nombre_completo": "García Antonio Briceyda",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Iris Yahel Hernández Ramírez",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Administración",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228338.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228338.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Pueblos Indígenas y Afromexicanos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Participante en la integración de comités de base seccionales de Morena en San Luis Potosí."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Coordinadora operativa territorial de Morena en San Luis Potosí."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Participó en campaña de registro de Morena en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2019",
+          "al_ano": "2019",
+          "experiencia": "Delegada Regional de la Secretaría de Desarrollo Social."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2023",
+          "experiencia": "Directora Regional de la Secretaría del Bienestar."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Diplomado de Revolución de las Conciencias por la Secretaría de Formación y Capacitación Política (SFyCP) y el Instituto Nacional de Formación Política (INFP) de Morena."
+        },
+        {
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Diplomado de Los Cambios Profundos en la Historia de la Democracia Mexicana por la SFyCP y el INFP de Morena."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Administración por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/people/Briceyda-García/61556368814604/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/briceyda_garcia_a1101/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228339",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228838",
+      "nombre_completo": "Morales Mendoza Gabino",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Enrique Serrano Contreras",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Administración Pública",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228838.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228838.jpg",
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Diversidad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Política-Electoral (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "05/09/2025",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Jurisdiccional (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2024",
+          "al_ano": "2024",
+          "experiencia": "Precandidato a Senador."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Delegado de Morena en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2023",
+          "experiencia": "Delegado Estatal de Programas Integrales para el Desarrollo de la Secretaría del Bienestar en San Luis Potosí."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Coordinador de Ventanilla Única en la Delegación Azcapotzalco del Distrito Federal."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Enlace de Jefatura Delegacional en la Delegación Azcapotzalco del Distrito Federal."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "2015",
+          "experiencia": "Licenciatura en Administración Pública por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GabinoMoralesMendoza1989/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/gabino_mm",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gabino.mm/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228839",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229348",
+      "nombre_completo": "Noyola Cervantes Ma. Leonor",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Flor Olivia Gómez Vázquez",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Contaduría Pública",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229348.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229348.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2021",
+          "al_ano": null,
+          "experiencia": "Consejera política estatal del PVEM."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Delegada estatal del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité Directivo Municipal del PRD en Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora territorial del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera nacional del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Senadora por el PRD en las LXIV y LXV legislaturas. Presidenta de la Comisión de Asuntos Indígenas. Integrante de las comisiones de Agricultura, Ganadería, Pesca y Desarrollo Rural; Derechos Humanos; Seguridad Social; Para la Igualdad de Género; y, Bicamaral de Concordia y Pacificación del Congreso de la Unión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Presidenta municipal de Soledad Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Regidora de Soledad Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2011",
+          "experiencia": "Directora del Inapam de Soledad Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de Servicios Municipales de Soledad Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del Programa Oportunidades."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Contaduría Públcia por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/leonor.noyolacervantes",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/PRDLeonorNoy",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/leonornoyolacervantes/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229349",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228336",
+      "nombre_completo": "Valladares Eichelmann Juan Carlos",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "René Contreras Flores",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1981-10-31",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Administración de Empresas",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228336.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228336.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Para el Seguimiento al Tratado Comercial entre México, Estados Unidos y Canadá (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía, Comercio y Competitividad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Coordinador Estatal de Vinculación Empresarial y Emprendimiento del PRI en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Secretario de Desarrollo Económico de San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Administración de Empresas por el Instituto Tecnológico y de Estudios Superiores de Monterrey."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/JCValladaresMx/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/jcvalladaresmx",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jcvalladares/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228337",
+        "fecha_extraccion": "2026-10-09T19:54:53+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9228326",
+      "nombre_completo": "Velazco Bautista Aremy",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Maricela Oliva Espinoza",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ingeniería Petrolera",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228326.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228326.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "04/03/2026",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2022",
+          "al_ano": null,
+          "experiencia": "Aspirante en el proceso de elección de consejeros estatales de Morena en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2020",
+          "al_ano": "2023",
+          "experiencia": "Enlace de Prestación de Servicios a la Nación en la Secretaría de Bienestar."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Ingeniaria Petrolera por el Instituto Tecnologico Superior de Tantoyuca."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/people/Aremy-Velazco/61556372140604/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/aremyvelazco",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228327",
+        "fecha_extraccion": "2026-10-09T19:54:55+02:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9229092",
+      "nombre_completo": "González Silva Ruth Miriam",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Virginia Zúñiga Maldonado",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ciencias de la Comunicación",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229092.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229092.jpg",
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Ciberseguridad (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/10/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/11/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "03/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Candidata al Senado de la República por el PRD."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Presidenta Honoraria del Sistema Estatal para el Desarrollo Integral de la Familia DIF de San Luis Potosí."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2021",
+          "experiencia": "Presidenta del DIF de Soledad de Graciano Sánchez, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Ciencias de la Comunicación."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/05/2026",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "28/05/2026",
+          "fecha_fin": "29/05/2026",
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "23/04/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "10/04/2025",
+          "fecha_fin": "25/04/2025",
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ruthgonzalezmx/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/RuthGonzalezMx/",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/ruthgonzalezmx/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229093",
+        "fecha_extraccion": "2026-10-09T19:54:57+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229094",
+      "nombre_completo": "Hernández Villafuerte Gilberto",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Enrique Hernández Segura",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1962-01-31",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ingeniería Agrónoma Fitotecnista",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229094.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229094.jpg",
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "20/11/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/11/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Municipal (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/09/2024",
+          "fecha_fin": "05/09/2024",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2024",
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia municipal de San Luis Potosí, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero Político del Comité Ejecutivo Estatal del PVEM en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputado federal en la LXV Legislatura. Secretario de las comisiones de Hacienda y Crédito Público; y, Presupuesto y Cuenta Pública. Integrante de la Comisión de Vigilancia de la Auditoría Superior de la Federación."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Presidente Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Presidente Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Director de Catastro Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Director de Comercio Municipal de Soledad de Graciano Sánchez, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Ingeniería Agrónoma Fitotecnista por la Universidad Autónoma de San Luis Potosí."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GilHVillafuerte/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/GilVillafuerte/",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gilbertohvillafuerte/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229095",
+        "fecha_extraccion": "2026-10-09T19:55:00+02:00"
+      }
+    },
+    {
+      "referencia_sil": "9229096",
+      "nombre_completo": "Rodríguez Hernández Verónica",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "San Luis Potosí",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Bertha Estela Arriaga Márquez",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1985-04-30",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Gobierno y Políticas Públicas",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229096.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229096.jpg",
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/03/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "05/02/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/02/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/02/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/02/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2024",
+          "al_ano": null,
+          "experiencia": "Presidenta del Comité Directivo Estatal del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Coordinadora estatal de alcaldes, síndicos y regidores del PAN en SLP."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Secretaria estatal de Formación y Capacitación del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión de Vigilancia del Consejo Nacional del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PAN en San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión Permanente del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria municipal de Promoción Política de la Mujer en San Luis Potsí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estudiantil de Acción Juvenil en San Luis Potosí."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Regidora de San Luis Potosí, San Luis Potosí."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada de Cerritos, San Luis Potosí."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Maestría en Administración con Énfasis en Gestión Pública por la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de San Luis Potosí."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Técnico en Informática Administrativa por el Colegio de Estudios Científicos y Tecnológicos del Estado (CECyTE) de San Luis Potosí, Plantel 1 Lomas del Mezquital."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestría en Gobierno y Políticas Públicas por la Universidad Panamericana."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "13/11/2024",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "11/12/2024",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "11/04/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "09/04/2025",
+          "fecha_fin": "10/04/2025",
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/VeronicaRdzSLP",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/VeronicaRdzSLP",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/veronicardzslp",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229097",
+        "fecha_extraccion": "2026-10-09T19:55:04+02:00"
+      }
+    }
+  ]
 }

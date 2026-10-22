@@ -1,2466 +1,2466 @@
 {
-    "metadata": {
-        "entidad_id": 5,
-        "entidad_nombre": "Coahuila",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T09:24:38+00:00",
-        "total_diputados": 18,
-        "total_senadores": 3,
-        "total_general": 21
+  "metadata": {
+    "entidad_id": 5,
+    "entidad_nombre": "Coahuila",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T09:24:38+00:00",
+    "total_diputados": 18,
+    "total_senadores": 3,
+    "total_general": 21
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9221623",
+      "nombre_completo": "Aguilar Molina Leticia Arlett",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PES",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Liliana García Albores",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221623.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2018",
+          "experiencia": "Conductora de Programa de Denuncia y Gestión Ciudadana Canal 10 en el gobierno de Chiapas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Directora de Atención Ciudadana en el municipio de Tuxtla Gutiérrez, Chiapas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Regidora de Tuxtla Gutiérrez, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222947",
+        "fecha_extraccion": "2026-10-13T09:22:02+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9223815",
+      "nombre_completo": "Andrade Zavala Marco Antonio",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Daniel Castillo De la Cruz",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223815.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9221623",
-            "nombre_completo": "Aguilar Molina Leticia Arlett",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PES",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Liliana García Albores ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221623.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2018",
-                    "experiencia": "Conductora de Programa de Denuncia y Gestión Ciudadana Canal 10 en el gobierno de Chiapas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Directora de Atención Ciudadana en el municipio de Tuxtla Gutiérrez, Chiapas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Regidora de Tuxtla Gutiérrez, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222947",
-                "fecha_extraccion": "2026-10-13T09:22:02+00:00"
-            }
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9223815",
-            "nombre_completo": "Andrade Zavala Marco Antonio",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Daniel Castillo De la Cruz ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223815.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/04/2021",
-                    "fecha_fin": "29/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinador operativo territorial de MORENA."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Secretario general del Comité Ejecutivo Municipal de MORENA en Tuxtla Gutiérrez, Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Encargado del Registro Voluntario de Proveedores en la Secretaría de Hacienda en el gobierno de Chiapas."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2013",
-                    "experiencia": "Asesor de Subsecretario en la Secretaría de Hacienda en el gobierno de Chiapas."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2011",
-                    "experiencia": "Director de Obligaciones Fiscales y Retenciones en la Secretaría de Hacienda en el gobierno de Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/antonio.zavala.3557",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/AndradeZavala_",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223816",
-                "fecha_extraccion": "2026-10-13T09:22:04+00:00"
-            }
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/04/2021",
+          "fecha_fin": "29/04/2021",
+          "estatus": "Baja"
         },
         {
-            "referencia_sil": "9222945",
-            "nombre_completo": "Bonifaz Moedano Raúl Eduardo",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "08/11/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222945.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/04/2019",
-                    "fecha_fin": "14/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/12/2018",
-                    "fecha_fin": "14/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/11/2018",
-                    "fecha_fin": "08/04/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PES."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Candidato a la presidencia municipal de Tuxtla Gutiérrez, Chiapas."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Instituto de Capacitación y Desarrollo Político, A.C."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Asesor de la Comisión de Desarrollo Municipal en la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2017",
-                    "experiencia": "Delegado del Consejo Nacional de Fomento Educativo en Chiapas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Delegado federal de la SEDATU en Morelos."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Asesor en el gobierno de Chiapas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario técnico en la Oficina del titular de la Secretaria de la Reforma Agraria."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario técnico en la Subsecretaria de Desarrollo Político de la SEGOB."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1973",
-                    "experiencia": "Oficial judicial en el Juzgado Segundo de Distrito de la SCJN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidor de Tuxtla Gutiérrez, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/profile.php?id=1192033124",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/bonifaz49",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/raulbonifazm/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9221617",
-                "titular_nombre": "Zoé Alejandro Robledo Aburto ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:22:06+00:00"
-            }
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222510",
-            "nombre_completo": "De la Cruz Delucio Patricia Del Carmen",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Yendi Nayeli Hernández Solórzano ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222510.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Enlace de Comité Seccional de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/patriciadelcarmen.delacruzdelucio",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222511",
-                "fecha_extraccion": "2026-10-13T09:22:08+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221615",
-            "nombre_completo": "Dekker Gómez Clementina Marta",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Flor de María González Pérez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221615.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/03/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2018",
-                    "fecha_fin": "04/02/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "04/02/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión Ejecutiva Nacional del PT."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2018",
-                    "experiencia": "Integrante de la Comisión Ejecutiva Estatal del PT en Chiapas."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2018",
-                    "experiencia": "Integrante Comisión Ejecutiva Municipal del PT en San Cristóbal de las Casas, Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del PT en San Cristóbal de las Casas, Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión Ejecutiva estatal del PT en Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "23/02/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "04/02/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/DekkerGomezMarta/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/martadekker?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marta_dekker/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221616",
-                "fecha_extraccion": "2026-10-13T09:22:09+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221629",
-            "nombre_completo": "Elorza Flores José Luis",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Alberto De Sancristóbal León ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221629.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "08/10/2019",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Enlace distrital de MORENA."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinador de campaña electoral de MORENA."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinador de campaña municipal del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Asesor de regidor en Tapachula, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Diputado-Federal-Jose-Luis-Elorza-428435620848032/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/ElorzaFlo",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/joseluiselor/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221630",
-                "fecha_extraccion": "2026-10-13T09:22:11+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221625",
-            "nombre_completo": "Farrera Esponda Juan Enrique",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Álvaro Chanona Borges ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221625.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinador municipal en campaña de candidato a la Presidencia de la República."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Candidato a la presidencia municipal de Angel Albino Corzo, Chiapas."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinador municipal en campaña del candidato a la Presidencia de la República por el proyecto Coalición por el Bien de Todos."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Presidente municipal de Ángel Albino Corzo, Chiapas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Regidor de Ángel Albino Corzo, Chiapas."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Jefe de Departamento en el Centro de Convivencia infantil del Gobierno de Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/juanenrique.farreraesponda.79",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/enriquefarrera_?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jenrique_farrera/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222948",
-                "fecha_extraccion": "2026-10-13T09:22:13+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223860",
-            "nombre_completo": "Gordillo Moreno Alfredo Antonio",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/09/2019",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223860.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "06/11/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico del gobierno de Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/paciano.alfredo",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223859",
-                "titular_nombre": "Humberto Pedrero Moreno ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:22:15+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223861",
-            "nombre_completo": "Jiménez Pérez María Roselia",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Sonia Edith Arévalo Flores ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1959-01-01",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223861.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora municipal del PT en Comitán de Domínguez, Chiapas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Integrante de la CNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Comisariada ejidal de Campesinos Unidos en Comitán, Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1980",
-                    "al_ano": "2000",
-                    "experiencia": "Docente por la Dirección General de la Secretaría de Educación Pública."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Maria-Roselia-Jim%C3%A9nez-P%C3%A9rez-597523997292903/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/mariaroseliaji1",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/mariaroseliaji1/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223862",
-                "fecha_extraccion": "2026-10-13T09:22:16+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222522",
-            "nombre_completo": "Martínez Aguilar Emeteria Claudia",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Damaris Del Rocío Vera Lara ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222522.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/07/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y Adolescencia (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ClaudiaMartinezAgui/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/ClaudiaFederal",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222523",
-                "fecha_extraccion": "2026-10-13T09:22:18+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222114",
-            "nombre_completo": "Morales Vázquez Carlos Alberto",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Sin Partido",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Pedro Ameth Navarro Lara ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222114.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "22/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a la presidencia municipal de San Cristóbal de las Casas, Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Síndico de San Cristóbal de las Casas, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/arqcarlosmoralesvazquez/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/mcarlosmorales",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/arqcarlosmorales/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222115",
-                "fecha_extraccion": "2026-10-13T09:22:20+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221607",
-            "nombre_completo": "Obrador Narváez Manuela del Carmen",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Rebeca Arcos Sánchez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221607.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidata a diputada federal."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Enlace distrital de MORENA."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador de MORENA."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2018",
-                    "experiencia": "Consejera nacional de MORENA."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador del Movimiento de Regeneración Nacional."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora estatal de MORENA en Palenque, Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Directora de Hacienda en el gobierno de Palenque, Chiapas."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2012",
-                    "experiencia": "Jefa de Oficina de Pagos de la Secretaría de Educación Pública."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Jefa del departamento administrativo del Programa Fideicomiso Fondo 95 de la Procuraduría Agraria."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Responsable de Cómputo Distrital del Consejo Estatal Electoral de Tenejapa, Chiapas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Técnica en Seguimiento y capacitadora electoral del Consejo Estatal Electoral de Tenejapa, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/manuela.obrador",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221608",
-                "fecha_extraccion": "2026-10-13T09:22:21+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222946",
-            "nombre_completo": "Prado de los Santos Miguel",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Gonzalo de Jesús Moguel Rincón ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222946.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/04/2019",
-                    "fecha_fin": "26/04/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Representante del PVEM en el Instituto de Elecciones y Participación Ciudadana de Chiapas."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PVEM."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LXVI Legislatura del Congreso de Chiapas. Presidente de la Comisión de Desarrollo Pecuario."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Secretario de Pesca y Acuacultura de Chiapas."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2017",
-                    "experiencia": "Delegado de la SEDESOL en Chiapas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Director general del Instituto Chiapaneco de Educación de Jóvenes y Adultos de Chiapas."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Director general del Instituto de Educación para Adultos de Chiapas."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Jefe de departamento de Jubilaciones en el ISSSTE."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MiguelPradodelosSantos/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MiguelPradod",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/miguelpradodls/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221620",
-                "fecha_extraccion": "2026-10-13T09:22:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221613",
-            "nombre_completo": "Rabelo Velasco Roque Luis",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Fidencio Castañon Reyes ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221613.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Delegado municipal de MORENA en Juárez, Chiapas."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario general de la CNOP en Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente estatal de la Confederación Nacional de Organizaciones Populares (CNOP) en Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1995",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Presidente municipal de Juárez, Chiapas."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1971",
-                    "experiencia": "Presidente del Comité Municipal Electoral de Juárez, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://es-la.facebook.com/RoqueRabeloV/",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221614",
-                "fecha_extraccion": "2026-10-13T09:22:25+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221631",
-            "nombre_completo": "Roblero Gordillo Maricruz",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Gladys Mejía Rodríguez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221631.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2008",
-                    "experiencia": "Consejera estatal del PRD en Chiapas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2008",
-                    "experiencia": "Presidenta del CEM del PRD en Juárez, Chiapas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2002",
-                    "experiencia": "Secretaría general del CEM del PRD en el municipio de Juárez, Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaboradora con el PRD en diversas campañas"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaboradora con MORENA en diversas campañas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Regidora en el municipio de Juárez, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://es-la.facebook.com/pages/category/Politician/Maricruz-Roblero-Gordillo-Dip-968140883378716/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/dipfederalmrg?lang=es",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221632",
-                "fecha_extraccion": "2026-10-13T09:22:27+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223863",
-            "nombre_completo": "Rubio Montejo Roberto Antonio",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rogelio Rayo Martínez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223863.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "31/07/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/01/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/01/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/01/2019",
-                    "fecha_fin": "31/07/2019",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Asuntos de la Juventud del PVEM en Chiapas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Delegado nacional y estatal del PVEM."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Asesor legislativo en el Congreso de la Unión."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Asesor legislativo del Congreso de Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2018",
-                    "experiencia": "Secretario técnico del gobierno de Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "18/01/2019",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "01/10/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/RobertoRubioMontejo",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/Roberto_RubioM",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/robertorubiomontejo/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223864",
-                "fecha_extraccion": "2026-10-13T09:22:28+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223812",
-            "nombre_completo": "Sibaja Mendoza Jorge Ángel",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "06/11/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223812.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/02/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/08/2019",
-                    "fecha_fin": "28/02/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Gobernación y Población (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "20/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la sección XXII de la Coordinadora Nacional de Trabajadores de la Educación (CNTE)."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/SibajaMendozaOF/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/AngelJorgeasm",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jorgesibajam/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223811",
-                "titular_nombre": "Ciro Sales Ruiz ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:22:30+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222943",
-            "nombre_completo": "Vázquez Vázquez Alfredo",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Manuel Torres Hernández ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222943.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "12/05/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "21/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a diputado local de MORENA."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2017",
-                    "experiencia": "Enlace distrital de MORENA."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2017",
-                    "experiencia": "Consejero distrital de MORENA."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Integrante del Comité Ejecutivo Municipal de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Asesor jurídico municipal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "09/04/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Alfredo-Vazquez-Vazquez-110134792986813/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/alfredo_vazquezoficial/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222944",
-                "fecha_extraccion": "2026-10-13T09:22:32+00:00"
-            }
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9222403",
-            "nombre_completo": "Castañón Ramírez Noé Fernando",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "MC",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Chiapas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/10/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222403.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 10,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/06/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/04/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medalla Belisario Domínguez (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "09/04/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "23/09/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2017",
-                    "experiencia": "Representante legal del candidato a gobernador de Chiapas."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Presidente del Comité Directivo Municipal del PRI en Tuxtla Gutiérrez, Chiapas."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2013",
-                    "experiencia": "Vicepresidente de Vinculación con el Poder Judicial Federal de la COPECOL."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Abogado y representante legal del candidato a gobernador de Chiapas."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Vicepresidente Sur- Sureste de la Junta de Gobierno de la COPECOL."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Junta de Honor de la Conferencia Permanente de Congresos Locales (COPECOL)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2019",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputado local en la LXV Legislatura del Congreso de Chiapas. Presidente de la Mesa Directiva."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Secretario de estudio y cuenta adjunto del Tribunal Federal Electoral del Poder Judicial de la Federación."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Secretario de estudio y cuenta del Juzgado Séptimo de Distrito en Materia Administrativa con sede en el Primer Circuito Judicial."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/noecastanonramirez/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/noecastanonr",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/noecastanonr/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9221757",
-                "titular_nombre": " ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:22:35+00:00"
-            }
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Coordinador operativo territorial de MORENA."
         },
         {
-            "referencia_sil": "9221855",
-            "nombre_completo": "De León Villard Sasil Dora Luz",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PES",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Isabel Rodríguez Jiménez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221855.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/11/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/11/2019",
-                    "fecha_fin": "08/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/03/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité técnico del Fideicomiso de Inversión y Administración para Apoyar la Construcción y Equipamiento del Nuevo Recinto de la Cámara de Senadores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medalla Belisario Domínguez (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2017",
-                    "experiencia": "Invitada permanente ante la Junta de Gobierno del INMUJERES."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de la Mujer del Comité Estatal del PVEM en Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaboradora en diversas campañas políticas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidata a diputada suplente."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PVEM."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2017",
-                    "experiencia": "Diputada federal en la LXIII Legislatura. Presidenta de la Comisión de Seguimiento a los programas sustentables para mujeres. Secretaria en las comisiones de Igualdad de Género y Relaciones Exteriores e integrante en la Comisión de Defensa Nacional. Integrante del Comité del Centro de Estudios para el Logro de la Igualdad de Género."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2013",
-                    "experiencia": "Diputada local en la LXV Legislatura del Congreso de Chiapas. Presidenta de la Comisión de Salud."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Delegada federal del programa Prospera en Chiapas."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Secretaria para el Desarrollo y Empoderamiento de las Mujeres en Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/SasilDeLeonV/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/sasildeleon",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/sasildeleon/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221856",
-                "fecha_extraccion": "2026-10-13T09:22:39+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221853",
-            "nombre_completo": "Ramírez Aguilar Oscar Eduardo",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Chiapas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Antonio Aguilar Castillejos ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221853.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "26/11/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Medalla Belisario Domínguez (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "01/09/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2018",
-                    "experiencia": "Aspirante a la gubernatura de Chiapas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Dirigente del CDE del PVEM en Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Comité Ejecutivo Estatal del PVEM en Chiapas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LXVI Legislatura del Congreso de Chiapas. Presidente de la Mesa Directiva y de la Junta de Coordinación Política."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Diputado federal en la LXII Legislatura. Presidente de la Comisión de Asuntos Frontera Sur-Sureste. Secretario de las comisiones de Alimentación y de Presupuesto y Cuenta Pública. Integrante de la Comisión de Agricultura y Sistemas de Riego."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Secretario general de Gobierno de Chiapas."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Delegado de Hacienda en la Región 3 Fronteriza."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Presidente municipal de Comitán, Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Síndico de Comitán, Chiapas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente municipal interino de Comitán, Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/EduardoRamirezSenador",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/ramirezlalo_",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/ramirezlalo_/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221854",
-                "fecha_extraccion": "2026-10-13T09:24:38+00:00"
-            }
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Secretario general del Comité Ejecutivo Municipal de MORENA en Tuxtla Gutiérrez, Chiapas."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Encargado del Registro Voluntario de Proveedores en la Secretaría de Hacienda en el gobierno de Chiapas."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2013",
+          "experiencia": "Asesor de Subsecretario en la Secretaría de Hacienda en el gobierno de Chiapas."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2011",
+          "experiencia": "Director de Obligaciones Fiscales y Retenciones en la Secretaría de Hacienda en el gobierno de Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/antonio.zavala.3557",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/AndradeZavala_",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223816",
+        "fecha_extraccion": "2026-10-13T09:22:04+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222945",
+      "nombre_completo": "Bonifaz Moedano Raúl Eduardo",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "08/11/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222945.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/04/2019",
+          "fecha_fin": "14/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/12/2018",
+          "fecha_fin": "14/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/11/2018",
+          "fecha_fin": "08/04/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PES."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Candidato a la presidencia municipal de Tuxtla Gutiérrez, Chiapas."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Instituto de Capacitación y Desarrollo Político, A.C."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Asesor de la Comisión de Desarrollo Municipal en la Cámara de Diputados."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2017",
+          "experiencia": "Delegado del Consejo Nacional de Fomento Educativo en Chiapas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Delegado federal de la SEDATU en Morelos."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Asesor en el gobierno de Chiapas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario técnico en la Oficina del titular de la Secretaria de la Reforma Agraria."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Secretario técnico en la Subsecretaria de Desarrollo Político de la SEGOB."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1973",
+          "experiencia": "Oficial judicial en el Juzgado Segundo de Distrito de la SCJN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidor de Tuxtla Gutiérrez, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/profile.php?id=1192033124",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/bonifaz49",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/raulbonifazm/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9221617",
+        "titular_nombre": "Zoé Alejandro Robledo Aburto ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:22:06+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222510",
+      "nombre_completo": "De la Cruz Delucio Patricia Del Carmen",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Yendi Nayeli Hernández Solórzano",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222510.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Enlace de Comité Seccional de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/patriciadelcarmen.delacruzdelucio",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222511",
+        "fecha_extraccion": "2026-10-13T09:22:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221615",
+      "nombre_completo": "Dekker Gómez Clementina Marta",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Flor de María González Pérez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221615.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/03/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2018",
+          "fecha_fin": "04/02/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "04/02/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión Ejecutiva Nacional del PT."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2018",
+          "experiencia": "Integrante de la Comisión Ejecutiva Estatal del PT en Chiapas."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2018",
+          "experiencia": "Integrante Comisión Ejecutiva Municipal del PT en San Cristóbal de las Casas, Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del PT en San Cristóbal de las Casas, Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión Ejecutiva estatal del PT en Chiapas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "23/02/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "04/02/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/DekkerGomezMarta/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/martadekker?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marta_dekker/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221616",
+        "fecha_extraccion": "2026-10-13T09:22:09+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221629",
+      "nombre_completo": "Elorza Flores José Luis",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Alberto De Sancristóbal León",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221629.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "08/10/2019",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Enlace distrital de MORENA."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Coordinador de campaña electoral de MORENA."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Coordinador de campaña municipal del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Asesor de regidor en Tapachula, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Diputado-Federal-Jose-Luis-Elorza-428435620848032/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/ElorzaFlo",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/joseluiselor/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221630",
+        "fecha_extraccion": "2026-10-13T09:22:11+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221625",
+      "nombre_completo": "Farrera Esponda Juan Enrique",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Álvaro Chanona Borges",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221625.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Coordinador municipal en campaña de candidato a la Presidencia de la República."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Candidato a la presidencia municipal de Angel Albino Corzo, Chiapas."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinador municipal en campaña del candidato a la Presidencia de la República por el proyecto Coalición por el Bien de Todos."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Presidente municipal de Ángel Albino Corzo, Chiapas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Regidor de Ángel Albino Corzo, Chiapas."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Jefe de Departamento en el Centro de Convivencia infantil del Gobierno de Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/juanenrique.farreraesponda.79",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/enriquefarrera_?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jenrique_farrera/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222948",
+        "fecha_extraccion": "2026-10-13T09:22:13+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223860",
+      "nombre_completo": "Gordillo Moreno Alfredo Antonio",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/09/2019",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223860.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "06/11/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico del gobierno de Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/paciano.alfredo",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223859",
+        "titular_nombre": "Humberto Pedrero Moreno ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:22:15+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223861",
+      "nombre_completo": "Jiménez Pérez María Roselia",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Sonia Edith Arévalo Flores",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1959-01-01",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223861.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Coordinadora municipal del PT en Comitán de Domínguez, Chiapas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Integrante de la CNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Comisariada ejidal de Campesinos Unidos en Comitán, Chiapas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1980",
+          "al_ano": "2000",
+          "experiencia": "Docente por la Dirección General de la Secretaría de Educación Pública."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Maria-Roselia-Jim%C3%A9nez-P%C3%A9rez-597523997292903/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/mariaroseliaji1",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/mariaroseliaji1/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223862",
+        "fecha_extraccion": "2026-10-13T09:22:16+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222522",
+      "nombre_completo": "Martínez Aguilar Emeteria Claudia",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Damaris Del Rocío Vera Lara",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222522.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/07/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y Adolescencia (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ClaudiaMartinezAgui/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/ClaudiaFederal",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222523",
+        "fecha_extraccion": "2026-10-13T09:22:18+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222114",
+      "nombre_completo": "Morales Vázquez Carlos Alberto",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Sin Partido",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Pedro Ameth Navarro Lara",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222114.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "22/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a la presidencia municipal de San Cristóbal de las Casas, Chiapas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Síndico de San Cristóbal de las Casas, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/arqcarlosmoralesvazquez/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/mcarlosmorales",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/arqcarlosmorales/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222115",
+        "fecha_extraccion": "2026-10-13T09:22:20+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221607",
+      "nombre_completo": "Obrador Narváez Manuela del Carmen",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Rebeca Arcos Sánchez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221607.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidata a diputada federal."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Enlace distrital de MORENA."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Miembro fundador de MORENA."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2018",
+          "experiencia": "Consejera nacional de MORENA."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Miembro fundador del Movimiento de Regeneración Nacional."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora estatal de MORENA en Palenque, Chiapas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Directora de Hacienda en el gobierno de Palenque, Chiapas."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2012",
+          "experiencia": "Jefa de Oficina de Pagos de la Secretaría de Educación Pública."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Jefa del departamento administrativo del Programa Fideicomiso Fondo 95 de la Procuraduría Agraria."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Responsable de Cómputo Distrital del Consejo Estatal Electoral de Tenejapa, Chiapas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Técnica en Seguimiento y capacitadora electoral del Consejo Estatal Electoral de Tenejapa, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/manuela.obrador",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221608",
+        "fecha_extraccion": "2026-10-13T09:22:21+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222946",
+      "nombre_completo": "Prado de los Santos Miguel",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Gonzalo de Jesús Moguel Rincón",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222946.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/04/2019",
+          "fecha_fin": "26/04/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Representante del PVEM en el Instituto de Elecciones y Participación Ciudadana de Chiapas."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PVEM."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Diputado local en la LXVI Legislatura del Congreso de Chiapas. Presidente de la Comisión de Desarrollo Pecuario."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Secretario de Pesca y Acuacultura de Chiapas."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2017",
+          "experiencia": "Delegado de la SEDESOL en Chiapas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Director general del Instituto Chiapaneco de Educación de Jóvenes y Adultos de Chiapas."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Director general del Instituto de Educación para Adultos de Chiapas."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Jefe de departamento de Jubilaciones en el ISSSTE."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MiguelPradodelosSantos/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MiguelPradod",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/miguelpradodls/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221620",
+        "fecha_extraccion": "2026-10-13T09:22:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221613",
+      "nombre_completo": "Rabelo Velasco Roque Luis",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Fidencio Castañon Reyes",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221613.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Delegado municipal de MORENA en Juárez, Chiapas."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario general de la CNOP en Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente estatal de la Confederación Nacional de Organizaciones Populares (CNOP) en Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1995",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Presidente municipal de Juárez, Chiapas."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1971",
+          "experiencia": "Presidente del Comité Municipal Electoral de Juárez, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://es-la.facebook.com/RoqueRabeloV/",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221614",
+        "fecha_extraccion": "2026-10-13T09:22:25+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221631",
+      "nombre_completo": "Roblero Gordillo Maricruz",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Gladys Mejía Rodríguez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221631.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2008",
+          "experiencia": "Consejera estatal del PRD en Chiapas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2008",
+          "experiencia": "Presidenta del CEM del PRD en Juárez, Chiapas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2002",
+          "experiencia": "Secretaría general del CEM del PRD en el municipio de Juárez, Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaboradora con el PRD en diversas campañas"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaboradora con MORENA en diversas campañas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Regidora en el municipio de Juárez, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://es-la.facebook.com/pages/category/Politician/Maricruz-Roblero-Gordillo-Dip-968140883378716/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/dipfederalmrg?lang=es",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221632",
+        "fecha_extraccion": "2026-10-13T09:22:27+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223863",
+      "nombre_completo": "Rubio Montejo Roberto Antonio",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rogelio Rayo Martínez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223863.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "31/07/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/01/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/01/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/01/2019",
+          "fecha_fin": "31/07/2019",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Secretario de Asuntos de la Juventud del PVEM en Chiapas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Delegado nacional y estatal del PVEM."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Asesor legislativo en el Congreso de la Unión."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Asesor legislativo del Congreso de Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2018",
+          "experiencia": "Secretario técnico del gobierno de Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "18/01/2019",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "01/10/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/RobertoRubioMontejo",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/Roberto_RubioM",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/robertorubiomontejo/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223864",
+        "fecha_extraccion": "2026-10-13T09:22:28+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223812",
+      "nombre_completo": "Sibaja Mendoza Jorge Ángel",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "06/11/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223812.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/02/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/08/2019",
+          "fecha_fin": "28/02/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Gobernación y Población (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "20/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la sección XXII de la Coordinadora Nacional de Trabajadores de la Educación (CNTE)."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/SibajaMendozaOF/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/AngelJorgeasm",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jorgesibajam/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223811",
+        "titular_nombre": "Ciro Sales Ruiz ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:22:30+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222943",
+      "nombre_completo": "Vázquez Vázquez Alfredo",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Manuel Torres Hernández",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222943.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Presidente",
+          "fecha_inicio": "12/05/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "21/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a diputado local de MORENA."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2017",
+          "experiencia": "Enlace distrital de MORENA."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2017",
+          "experiencia": "Consejero distrital de MORENA."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Integrante del Comité Ejecutivo Municipal de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Asesor jurídico municipal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "09/04/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Alfredo-Vazquez-Vazquez-110134792986813/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/alfredo_vazquezoficial/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222944",
+        "fecha_extraccion": "2026-10-13T09:22:32+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9222403",
+      "nombre_completo": "Castañón Ramírez Noé Fernando",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "MC",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Chiapas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/10/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222403.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 10,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/06/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/04/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medalla Belisario Domínguez (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "09/04/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "23/09/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2017",
+          "experiencia": "Representante legal del candidato a gobernador de Chiapas."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Presidente del Comité Directivo Municipal del PRI en Tuxtla Gutiérrez, Chiapas."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2013",
+          "experiencia": "Vicepresidente de Vinculación con el Poder Judicial Federal de la COPECOL."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Abogado y representante legal del candidato a gobernador de Chiapas."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Vicepresidente Sur- Sureste de la Junta de Gobierno de la COPECOL."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Junta de Honor de la Conferencia Permanente de Congresos Locales (COPECOL)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2019",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputado local en la LXV Legislatura del Congreso de Chiapas. Presidente de la Mesa Directiva."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Secretario de estudio y cuenta adjunto del Tribunal Federal Electoral del Poder Judicial de la Federación."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Secretario de estudio y cuenta del Juzgado Séptimo de Distrito en Materia Administrativa con sede en el Primer Circuito Judicial."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/noecastanonramirez/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/noecastanonr",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/noecastanonr/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9221757",
+        "titular_nombre": " ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:22:35+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221855",
+      "nombre_completo": "De León Villard Sasil Dora Luz",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PES",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Isabel Rodríguez Jiménez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221855.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/11/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/11/2019",
+          "fecha_fin": "08/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/03/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité técnico del Fideicomiso de Inversión y Administración para Apoyar la Construcción y Equipamiento del Nuevo Recinto de la Cámara de Senadores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medalla Belisario Domínguez (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2017",
+          "experiencia": "Invitada permanente ante la Junta de Gobierno del INMUJERES."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Secretaria de la Mujer del Comité Estatal del PVEM en Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaboradora en diversas campañas políticas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidata a diputada suplente."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PVEM."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2017",
+          "experiencia": "Diputada federal en la LXIII Legislatura. Presidenta de la Comisión de Seguimiento a los programas sustentables para mujeres. Secretaria en las comisiones de Igualdad de Género y Relaciones Exteriores e integrante en la Comisión de Defensa Nacional. Integrante del Comité del Centro de Estudios para el Logro de la Igualdad de Género."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2013",
+          "experiencia": "Diputada local en la LXV Legislatura del Congreso de Chiapas. Presidenta de la Comisión de Salud."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Delegada federal del programa Prospera en Chiapas."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Secretaria para el Desarrollo y Empoderamiento de las Mujeres en Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/SasilDeLeonV/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/sasildeleon",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/sasildeleon/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221856",
+        "fecha_extraccion": "2026-10-13T09:22:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221853",
+      "nombre_completo": "Ramírez Aguilar Oscar Eduardo",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Chiapas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Antonio Aguilar Castillejos",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221853.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "26/11/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Medalla Belisario Domínguez (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "01/09/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2018",
+          "experiencia": "Aspirante a la gubernatura de Chiapas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Dirigente del CDE del PVEM en Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Comité Ejecutivo Estatal del PVEM en Chiapas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LXVI Legislatura del Congreso de Chiapas. Presidente de la Mesa Directiva y de la Junta de Coordinación Política."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Diputado federal en la LXII Legislatura. Presidente de la Comisión de Asuntos Frontera Sur-Sureste. Secretario de las comisiones de Alimentación y de Presupuesto y Cuenta Pública. Integrante de la Comisión de Agricultura y Sistemas de Riego."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Secretario general de Gobierno de Chiapas."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Delegado de Hacienda en la Región 3 Fronteriza."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Presidente municipal de Comitán, Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Síndico de Comitán, Chiapas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente municipal interino de Comitán, Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/EduardoRamirezSenador",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/ramirezlalo_",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/ramirezlalo_/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221854",
+        "fecha_extraccion": "2026-10-13T09:24:38+00:00"
+      }
+    }
+  ]
 }

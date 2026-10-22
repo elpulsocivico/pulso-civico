@@ -1,1665 +1,1665 @@
 {
-    "metadata": {
-        "entidad_id": 27,
-        "entidad_nombre": "Tabasco",
-        "legislatura": 62,
-        "generado_en": "2026-10-13T07:21:06+00:00",
-        "total_diputados": 10,
-        "total_senadores": 3,
-        "total_general": 13
+  "metadata": {
+    "entidad_id": 27,
+    "entidad_nombre": "Tabasco",
+    "legislatura": 62,
+    "generado_en": "2026-10-13T07:21:06+00:00",
+    "total_diputados": 10,
+    "total_senadores": 3,
+    "total_general": 13
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9216435",
+      "nombre_completo": "Bojórquez Javier Claudia Elizabeth",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Estela Núñez Alvarez",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216435.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Responsable de la estructura de promoción al voto de Tenosique, Tabasco."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2005",
+          "experiencia": "Colaboradora en las campañas de conformación de las estructuras de promoción al voto del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PRD en Tabasco."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada local en la LX Legislatura del Congreso de Tabasco. Coordinadora del Grupo Parlamentario del PRD. Presidenta de la omisión inspectora de Hacienda. Secretaria de la Comisión de Educación. Integrante de la Comisión de Asuntos de la Frontera Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Secretaria Técnica de la Comisión de la Frontera Sur en la LIX Legislatura del Congreso de Tabasco."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Secretaria de la Subgerencia de Tabasco."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Auxiliar contable y contadora general del Banco Nacional de Comercio Interior (BNCI)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218073",
+        "fecha_extraccion": "2026-10-13T07:20:43+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9216441",
+      "nombre_completo": "Brito Lara Tomás",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Querubin Sandoval Fernández",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216441.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "9216435",
-            "nombre_completo": "Bojórquez Javier Claudia Elizabeth",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Estela Núñez Alvarez ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216435.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Responsable de la estructura de promoción al voto de Tenosique, Tabasco."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2005",
-                    "experiencia": "Colaboradora en las campañas de conformación de las estructuras de promoción al voto del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PRD en Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada local en la LX Legislatura del Congreso de Tabasco. Coordinadora del Grupo Parlamentario del PRD. Presidenta de la omisión inspectora de Hacienda. Secretaria de la Comisión de Educación. Integrante de la Comisión de Asuntos de la Frontera Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Secretaria Técnica de la Comisión de la Frontera Sur en la LIX Legislatura del Congreso de Tabasco."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Secretaria de la Subgerencia de Tabasco."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Auxiliar contable y contadora general del Banco Nacional de Comercio Interior (BNCI)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218073",
-                "fecha_extraccion": "2026-10-13T07:20:43+00:00"
-            }
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9216441",
-            "nombre_completo": "Brito Lara Tomás",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Querubin Sandoval Fernández ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216441.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador electoral del candidato a presidente municipal de Cárdenas, Tabasco."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general del CEM en Cárdenas Tabasco."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente de la comisión de afiliación del CEN del PRD en Tabasco."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario particular del candidato del PRD a presidente municipal de Centro, Tabasco."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "2006",
-                    "experiencia": "Consejero estatal del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador electoral del candidato del Frente Democrático Nacional a gobernador de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestro de ceremonias del PRD en Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Presidente municipal de Cárdenas, Tabasco."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Director de Educación, Cultura y Recreación de Cárdenas, Tabasco."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario municipal de Cárdenas, Tabasco."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario auxiliar en la Subsecretaría de Gobernación de la SEGOB."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1981",
-                    "experiencia": "Auxiliar en la representación de Tabasco en el Distrito Federal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216442",
-                "fecha_extraccion": "2026-10-13T07:20:45+00:00"
-            }
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9217328",
-            "nombre_completo": "Cáceres de la Fuente Juan Francisco",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Laura Janet Camelo Fuentes ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217328.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/01/2014",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Programas Sociales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/03/2013",
-                    "fecha_fin": "15/05/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Frontera Sur-Sureste (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "24/01/2014",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Candidato del PAN a gobernador de Tabasco."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Consejero estatal del PAN en Tabasco."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2014",
-                    "experiencia": "Miembro del CDE del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Diputado local en la LX Legislatura del Congreso de Tabasco. Presidente de la Comisión de Fomento y Desarrollo Industrial, Económico, Artesanal, Comercial y Turístico; Secretario de la Comisión de Hacienda y Presupuesto. Vocal de las comisiones Primera Inspectora de Hacienda; de Desarrollo Urbano, Vivienda y Obras Públicas; de Asuntos Agropecuarios, Forestales y Pesqueros."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de Administración del Congreso de Tabasco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9217329",
-                "fecha_extraccion": "2026-10-13T07:20:47+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216814",
-            "nombre_completo": "Fócil Pérez Juan Manuel",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eduardo Torres Sierra ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216814.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "De Puertos y Marina Mercante (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "14/03/2013",
-                    "fecha_fin": "01/04/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Precandidato a senador."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Secretario de desarrollo sustentable y ecología."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Presidente del CEE del PRD en Tabasco."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2014",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Precandidato del PRD a senador."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Presidente del Comité Municipal del PRD en Centro, Tabasco"
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2014",
-                    "experiencia": "Consejero estatal del PRD en Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal y municipal del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216815",
-                "fecha_extraccion": "2026-10-13T07:20:49+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216456",
-            "nombre_completo": "Medina Filigrana Marcos Rosendo",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Edi Olive López ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216456.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Gobernación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/03/2015",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "19/03/2015",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a diputado local de Tabasco."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PRD."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Vocero del candidato del PRD a gobernador de Tabasco."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Representante propietario del Poder Legislativo de la LXII Legislatura, ante el Consejo General del IFE, por el PRD."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Consejo Político Estatal del PRD en Tabasco."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PRD a diputado federal."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Comunicación, difusión y propaganda del PRD en Tabasco."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Vocero del candidato del PRD a gobernador de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de Enlace Legislativo para proyectos municipales del CEN del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de asesores del presidente municipal de Comalcalco, Tabasco."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Director de asuntos jurídicos en Macuspana, Tabasco."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Director de atención ciudadana en Macuspana, Tabasco."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Asesor del Director General de Asuntos Jurídicos de la SEGOB."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de la Comisión Calificadora de Publicaciones y Revistas Ilustradas de la SEGOB."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Jefe de departamento en la Dirección de Coordinación Política con Entidades Federativas y Municipios de la SEGOB."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Asesor del Director General Adjunto de Gobierno de la SEGOB."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Regidor por el PRI de Jalpa de Méndez, Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor de la fracción del PRD en la LVII Legislatura del Congreso de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor en la LIX Legislatura del Congreso de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la Comisión de Asuntos Indígenas en la LX Legislatura del Congreso de Tabasco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "25/03/2015",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "23/03/2015",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216457",
-                "fecha_extraccion": "2026-10-13T07:20:50+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216446",
-            "nombre_completo": "Méndez Denis Lorena",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Bárbara López Castañeda ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216446.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "03/04/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/04/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Protección Civil (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/04/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "03/04/2013",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Delegada al Congreso Estatal del PRD."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del CEM del PRD en Comalcalco, Tabasco."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora de campaña de la elección para Presidente Municipal."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Consejera política nacional del PRD."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Consejera política estatal del PRD."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de gestoría social del Comité Ejecutivo Municipal (CEM) del PRD en Comalcalco, Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada local en la LX Legislatura del Congreso de Tabasco."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216447",
-                "fecha_extraccion": "2026-10-13T07:20:52+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216451",
-            "nombre_completo": "Narváez Romero Christian Manuel",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "21/04/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216451.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Juventud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/04/2015",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/04/2015",
-                    "fecha_fin": "10/07/2015",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico en el Congreso de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en el Instituto de Investigaciones Legislativas de Tabasco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9216450",
-                "titular_nombre": "Gerardo Gaudiano Rovirosa ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T07:20:54+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216828",
-            "nombre_completo": "Romero Lozano María Fernanda",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Ana Yely De la Cruz López ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216828.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "De la Cuenca del Bajo Pánuco (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2013",
-                    "fecha_fin": "01/04/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "07/02/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/02/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "07/02/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "07/02/2013",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Juventud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "07/02/2013",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "07/02/2013",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Coordinación Nacional de Estructura de Promoción y Defensa del Voto de MORENA."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Grupo Movimiento de Regeneración Nacional (MORENA) en Nuevo León."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216829",
-                "fecha_extraccion": "2026-10-13T07:20:55+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9216460",
-            "nombre_completo": "Sansores Sastré Antonio",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Sebastián Deya Becerril ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216460.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Protección Civil (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "07/03/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado federal suplente en la LX Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9216461",
-                "fecha_extraccion": "2026-10-13T07:20:57+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9217163",
-            "nombre_completo": "Vargas Pérez Nelly del Carmen",
-            "camara": "Diputados",
-            "legislatura": 62,
-            "partido": "MC",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tabasco",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Mayra Angélica Amador Pérez ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217163.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Para la prevención, conservación y en su caso restauración del medio ambiente en las entidades federativas donde se ubican las instalaciones de PEMEX (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "26/09/2013",
-                    "fecha_fin": "01/04/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comité de la Evaluación de la Gestión y Operación del Centro de Desarrollo Infantil Antonia Nava de Catalán (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2013",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "De Fortalecimiento a la Educación Superior y la Capacitación para Impulsar el Desarrollo y la Competitividad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/04/2013",
-                    "fecha_fin": "01/04/2015",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "31/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/10/2012",
-                    "fecha_fin": "04/07/2013",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2013",
-                    "experiencia": "Integrante de la Comisión Operativa Nacional de MC."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2013",
-                    "experiencia": "Integrante de la Coordinadora Ciudadana en el Distrito Federal de MC."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Consejera nacional de Convergencia."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2011",
-                    "experiencia": "Secretaria general del CDE de Convergencia en el Distrito Federal."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Coordinadora del Programa de Detección de Perfiles de Mujeres con Liderazgo en el País."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2008",
-                    "experiencia": "Consejera numeraria ante el Consejo Nacional de Convergencia."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2008",
-                    "experiencia": "Delegada política del CEN de Convergencia en Tabasco."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Delegada de la Tercera Asamblea Nacional de Convergencia."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2009",
-                    "experiencia": "Subcoordinadora nacional del Movimiento de Mujeres de Convergencia."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Fundadora del partido Convergencia."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del Comité Directivo de Movimiento Ciudadano (MC)."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputada federal suplente en la LX legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefa del departamento de Presupuesto y Programación en la Dirección de Egresos de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora regional de Presupuesto en DICONSA Sureste."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subgerente regional en DICONSA Sureste."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del DIF en Comalcalco, Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefa de la Oficina de Presupuesto de la Secretaría de Finanzas de Tabasco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9217164",
-                "fecha_extraccion": "2026-10-13T07:20:59+00:00"
-            }
+          "comision": "Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9218048",
-            "nombre_completo": "López Hernández Adán Augusto",
-            "camara": "Senadores",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Carlos Manuel Merino Campos ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218048.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2014",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/09/2014",
-                    "fecha_fin": "23/09/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2014",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/10/2012",
-                    "fecha_fin": "11/09/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Población y Desarrollo (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos Sur (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/10/2012",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinador regional de campaña del candidato del PRD a la presidencia de la República en Tabasco."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Coordinador de campaña en el proceso interno del PRI para elegir candidato a gobernador de Tabasco."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Candidato a gobernador interino de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2001",
-                    "experiencia": "Secretario general del PRI en Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputado federal de la LXI Legislatura. Secretario de las comisiones de Fortalecimiento al Federalismo y Especial de la Cuenca de los ríos Grijalva-Usumacinta. Integrante de las comisiones de Cultura, Vivienda, y Especial para la atención de los asuntos de la frontera sur, encargada de impulsar y dar seguimiento a los programas y proyectos del desarrollo de la Frontera Sur de México."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado local de la LIX Legislatura del Congreso de Tabasco. Coordinador del Grupo Parlamentario del PRD."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente de la Junta Local de Conciliación y Arbitraje en Tabasco."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de Gobierno y Asuntos Jurídicos de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Protección Civil, Desarrollo y Prevención Social de Tabasco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/07/2014",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "23/07/2014",
-                    "fecha_fin": "29/07/2014",
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218049",
-                "fecha_extraccion": "2026-10-13T07:21:02+00:00"
-            }
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinador electoral del candidato a presidente municipal de Cárdenas, Tabasco."
         },
         {
-            "referencia_sil": "9218050",
-            "nombre_completo": "Mayans Canabal Fernando Enrique",
-            "camara": "Senadores",
-            "legislatura": 62,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tabasco",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Mario Enrique Morales Romero ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218050.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2012",
-                    "fecha_fin": "31/08/2015",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Candidato a presidente municipal de Centro, Tabasco."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Candidato a presidente municipal de Centro, Tabasco."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Consejero estatal del PRD en Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Fundación Colosio en Tabasco."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado local en la LVII Legislatura del Congreso de Tabasco."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirector Médico de la Secretaría de Salud (SSA)."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado federal en la LX Legislatura. Secretario de la Comisión de Salud. Integrante de las comisiones de Derechos Humanos; Vigilancia de la Auditoría Superior de la Federación; y, del Comité del Centro de Estudios de las Finanzas Públicas."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218051",
-                "fecha_extraccion": "2026-10-13T07:21:04+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario general del CEM en Cárdenas Tabasco."
         },
         {
-            "referencia_sil": "9217405",
-            "nombre_completo": "Mayans Canabal Humberto Domingo",
-            "camara": "Senadores",
-            "legislatura": 62,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Tabasco",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Arquímedes Oramas Vargas ",
-            "fecha_toma_protesta": "29/08/2012",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217405.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Sur – sureste (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "13/11/2012",
-                    "fecha_fin": "15/07/2014",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/10/2012",
-                    "fecha_fin": "15/07/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/10/2012",
-                    "fecha_fin": "15/07/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/10/2012",
-                    "fecha_fin": "15/07/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Fronterizos Sur (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/2012",
-                    "fecha_fin": "15/07/2014",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/2012",
-                    "fecha_fin": "04/10/2012",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Delegado general del CEN del PRD en Yucatán y Chiapas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2006",
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Delegado general del CEN del PRI en Zacatecas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Delegado del PRI en la reunión de la Internacional Socialista en Bogotá, Colombia."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de organización del CEN del PRI en la campaña presidencial."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Presidente del CDE del PRI en Tabasco."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Delegado de la Secretaría de Coordinación Regional del PRI en Nuevo León y Guanajuato."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de procesos electorales del CDE del PRI en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del PRI en Tabasco."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "2001",
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Grupo Galileo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero polí­tico nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal en la LVIII Legislatura. Secretario de la Comisión Especial del Sur Sureste. Integrante de las comisiones de Energía; de Comunicaciones; y, de Ciencia y Tecnología."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Senador en las LVI y LVII legislaturas. Secretario de las comisiones de Asuntos Fronterizos; y, de Relaciones Exteriores - 3a Sección (América Latina). Integrante de las comisiones de Energía y Recursos no Renovables; Relaciones Exteriores - 1a Sección (Europa y Asia); y, de Defensa Nacional."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinador para la Atención Integral de la Migración en la Frontera Sur de la SEGOB."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2011",
-                    "experiencia": "Secretario general de Gobierno de Tabasco."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de Desarrollo de Tabasco."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Agregado adscrito en la embajada de México en España."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Coordinador general de las delegaciones estatales de Banco Nacional de Obras y Servicios Públicos (BANOBRAS)."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Presidente de la Comisión Estatal Electoral en Tabasco."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario de Comunicaciones, Asentamientos y Obras Públicas de Tabasco."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Delegado y subdelegado político del Distrito Federal en Venustiano Carranza."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Director general de Economí­a de Tabasco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del Departamento del Distrito Federal (DDF) en Venustiano Carranza y Cuajimalpa."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del Director General del Centro de Investigaciones en Antropología Social (CIESAS)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del gobernador de Chiapas."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Centro de Estudios del Desarrollo Económico y Social de Tabasco, A.C."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "15/07/2014",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "12/08/2015",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9217406",
-                "fecha_extraccion": "2026-10-13T07:21:06+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Presidente de la comisión de afiliación del CEN del PRD en Tabasco."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Secretario particular del candidato del PRD a presidente municipal de Centro, Tabasco."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "2006",
+          "experiencia": "Consejero estatal del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Coordinador electoral del candidato del Frente Democrático Nacional a gobernador de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestro de ceremonias del PRD en Tabasco."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Presidente municipal de Cárdenas, Tabasco."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Director de Educación, Cultura y Recreación de Cárdenas, Tabasco."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretario municipal de Cárdenas, Tabasco."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Secretario auxiliar en la Subsecretaría de Gobernación de la SEGOB."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1981",
+          "experiencia": "Auxiliar en la representación de Tabasco en el Distrito Federal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216442",
+        "fecha_extraccion": "2026-10-13T07:20:45+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9217328",
+      "nombre_completo": "Cáceres de la Fuente Juan Francisco",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Laura Janet Camelo Fuentes",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217328.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/01/2014",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Programas Sociales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/03/2013",
+          "fecha_fin": "15/05/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Frontera Sur-Sureste (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "24/01/2014",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Candidato del PAN a gobernador de Tabasco."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Consejero estatal del PAN en Tabasco."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2014",
+          "experiencia": "Miembro del CDE del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Diputado local en la LX Legislatura del Congreso de Tabasco. Presidente de la Comisión de Fomento y Desarrollo Industrial, Económico, Artesanal, Comercial y Turístico; Secretario de la Comisión de Hacienda y Presupuesto. Vocal de las comisiones Primera Inspectora de Hacienda; de Desarrollo Urbano, Vivienda y Obras Públicas; de Asuntos Agropecuarios, Forestales y Pesqueros."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de Administración del Congreso de Tabasco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9217329",
+        "fecha_extraccion": "2026-10-13T07:20:47+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216814",
+      "nombre_completo": "Fócil Pérez Juan Manuel",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eduardo Torres Sierra",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216814.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "De Puertos y Marina Mercante (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "14/03/2013",
+          "fecha_fin": "01/04/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Metropolitano (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Precandidato a senador."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Secretario de desarrollo sustentable y ecología."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Presidente del CEE del PRD en Tabasco."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2014",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Precandidato del PRD a senador."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Presidente del Comité Municipal del PRD en Centro, Tabasco"
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2014",
+          "experiencia": "Consejero estatal del PRD en Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estatal y municipal del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216815",
+        "fecha_extraccion": "2026-10-13T07:20:49+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216456",
+      "nombre_completo": "Medina Filigrana Marcos Rosendo",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Edi Olive López",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216456.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Gobernación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/03/2015",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "19/03/2015",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a diputado local de Tabasco."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PRD."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Vocero del candidato del PRD a gobernador de Tabasco."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Representante propietario del Poder Legislativo de la LXII Legislatura, ante el Consejo General del IFE, por el PRD."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Presidente del Consejo Político Estatal del PRD en Tabasco."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Candidato del PRD a diputado federal."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Secretario de Comunicación, difusión y propaganda del PRD en Tabasco."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Vocero del candidato del PRD a gobernador de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de Enlace Legislativo para proyectos municipales del CEN del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Coordinador de asesores del presidente municipal de Comalcalco, Tabasco."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Director de asuntos jurídicos en Macuspana, Tabasco."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Director de atención ciudadana en Macuspana, Tabasco."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Asesor del Director General de Asuntos Jurídicos de la SEGOB."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario de la Comisión Calificadora de Publicaciones y Revistas Ilustradas de la SEGOB."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Jefe de departamento en la Dirección de Coordinación Política con Entidades Federativas y Municipios de la SEGOB."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Asesor del Director General Adjunto de Gobierno de la SEGOB."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Regidor por el PRI de Jalpa de Méndez, Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor de la fracción del PRD en la LVII Legislatura del Congreso de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor en la LIX Legislatura del Congreso de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la Comisión de Asuntos Indígenas en la LX Legislatura del Congreso de Tabasco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "25/03/2015",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "23/03/2015",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216457",
+        "fecha_extraccion": "2026-10-13T07:20:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216446",
+      "nombre_completo": "Méndez Denis Lorena",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Bárbara López Castañeda",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216446.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Municipal (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "03/04/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/04/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Protección Civil (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/04/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "03/04/2013",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Delegada al Congreso Estatal del PRD."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Presidenta del CEM del PRD en Comalcalco, Tabasco."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora de campaña de la elección para Presidente Municipal."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Consejera política nacional del PRD."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Consejera política estatal del PRD."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretaria de gestoría social del Comité Ejecutivo Municipal (CEM) del PRD en Comalcalco, Tabasco."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Diputada local en la LX Legislatura del Congreso de Tabasco."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216447",
+        "fecha_extraccion": "2026-10-13T07:20:52+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216451",
+      "nombre_completo": "Narváez Romero Christian Manuel",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "21/04/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216451.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Juventud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/04/2015",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/04/2015",
+          "fecha_fin": "10/07/2015",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Secretario técnico en el Congreso de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en el Instituto de Investigaciones Legislativas de Tabasco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9216450",
+        "titular_nombre": "Gerardo Gaudiano Rovirosa ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T07:20:54+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216828",
+      "nombre_completo": "Romero Lozano María Fernanda",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Ana Yely De la Cruz López",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216828.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "De la Cuenca del Bajo Pánuco (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2013",
+          "fecha_fin": "01/04/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "07/02/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/02/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "07/02/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "07/02/2013",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Juventud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "07/02/2013",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "07/02/2013",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Integrante de la Coordinación Nacional de Estructura de Promoción y Defensa del Voto de MORENA."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Miembro del Grupo Movimiento de Regeneración Nacional (MORENA) en Nuevo León."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216829",
+        "fecha_extraccion": "2026-10-13T07:20:55+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9216460",
+      "nombre_completo": "Sansores Sastré Antonio",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Sebastián Deya Becerril",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9216460.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Protección Civil (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "07/03/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado federal suplente en la LX Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9216461",
+        "fecha_extraccion": "2026-10-13T07:20:57+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9217163",
+      "nombre_completo": "Vargas Pérez Nelly del Carmen",
+      "camara": "Diputados",
+      "legislatura": 62,
+      "partido": "MC",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tabasco",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Mayra Angélica Amador Pérez",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217163.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Para la prevención, conservación y en su caso restauración del medio ambiente en las entidades federativas donde se ubican las instalaciones de PEMEX (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "26/09/2013",
+          "fecha_fin": "01/04/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comité de la Evaluación de la Gestión y Operación del Centro de Desarrollo Infantil Antonia Nava de Catalán (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2013",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "De Fortalecimiento a la Educación Superior y la Capacitación para Impulsar el Desarrollo y la Competitividad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/04/2013",
+          "fecha_fin": "01/04/2015",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "31/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/10/2012",
+          "fecha_fin": "04/07/2013",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2013",
+          "experiencia": "Integrante de la Comisión Operativa Nacional de MC."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2013",
+          "experiencia": "Integrante de la Coordinadora Ciudadana en el Distrito Federal de MC."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Consejera nacional de Convergencia."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2011",
+          "experiencia": "Secretaria general del CDE de Convergencia en el Distrito Federal."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Coordinadora del Programa de Detección de Perfiles de Mujeres con Liderazgo en el País."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2008",
+          "experiencia": "Consejera numeraria ante el Consejo Nacional de Convergencia."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2008",
+          "experiencia": "Delegada política del CEN de Convergencia en Tabasco."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Delegada de la Tercera Asamblea Nacional de Convergencia."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2009",
+          "experiencia": "Subcoordinadora nacional del Movimiento de Mujeres de Convergencia."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Fundadora del partido Convergencia."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del Comité Directivo de Movimiento Ciudadano (MC)."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputada federal suplente en la LX legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefa del departamento de Presupuesto y Programación en la Dirección de Egresos de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora regional de Presupuesto en DICONSA Sureste."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subgerente regional en DICONSA Sureste."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del DIF en Comalcalco, Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefa de la Oficina de Presupuesto de la Secretaría de Finanzas de Tabasco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9217164",
+        "fecha_extraccion": "2026-10-13T07:20:59+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9218048",
+      "nombre_completo": "López Hernández Adán Augusto",
+      "camara": "Senadores",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Carlos Manuel Merino Campos",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218048.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2014",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/09/2014",
+          "fecha_fin": "23/09/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2014",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/10/2012",
+          "fecha_fin": "11/09/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Población y Desarrollo (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos Sur (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/10/2012",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinador regional de campaña del candidato del PRD a la presidencia de la República en Tabasco."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Coordinador de campaña en el proceso interno del PRI para elegir candidato a gobernador de Tabasco."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Candidato a gobernador interino de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2001",
+          "experiencia": "Secretario general del PRI en Tabasco."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputado federal de la LXI Legislatura. Secretario de las comisiones de Fortalecimiento al Federalismo y Especial de la Cuenca de los ríos Grijalva-Usumacinta. Integrante de las comisiones de Cultura, Vivienda, y Especial para la atención de los asuntos de la frontera sur, encargada de impulsar y dar seguimiento a los programas y proyectos del desarrollo de la Frontera Sur de México."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Diputado local de la LIX Legislatura del Congreso de Tabasco. Coordinador del Grupo Parlamentario del PRD."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Presidente de la Junta Local de Conciliación y Arbitraje en Tabasco."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de Gobierno y Asuntos Jurídicos de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Protección Civil, Desarrollo y Prevención Social de Tabasco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/07/2014",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "23/07/2014",
+          "fecha_fin": "29/07/2014",
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218049",
+        "fecha_extraccion": "2026-10-13T07:21:02+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218050",
+      "nombre_completo": "Mayans Canabal Fernando Enrique",
+      "camara": "Senadores",
+      "legislatura": 62,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tabasco",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Mario Enrique Morales Romero",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218050.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2012",
+          "fecha_fin": "31/08/2015",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Candidato a presidente municipal de Centro, Tabasco."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Candidato a presidente municipal de Centro, Tabasco."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Consejero estatal del PRD en Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Fundación Colosio en Tabasco."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Diputado local en la LVII Legislatura del Congreso de Tabasco."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirector Médico de la Secretaría de Salud (SSA)."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado federal en la LX Legislatura. Secretario de la Comisión de Salud. Integrante de las comisiones de Derechos Humanos; Vigilancia de la Auditoría Superior de la Federación; y, del Comité del Centro de Estudios de las Finanzas Públicas."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218051",
+        "fecha_extraccion": "2026-10-13T07:21:04+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9217405",
+      "nombre_completo": "Mayans Canabal Humberto Domingo",
+      "camara": "Senadores",
+      "legislatura": 62,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Tabasco",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Arquímedes Oramas Vargas",
+      "fecha_toma_protesta": "29/08/2012",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9217405.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Sur – sureste (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "13/11/2012",
+          "fecha_fin": "15/07/2014",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América Latina y el Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/10/2012",
+          "fecha_fin": "15/07/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/10/2012",
+          "fecha_fin": "15/07/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/10/2012",
+          "fecha_fin": "15/07/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Fronterizos Sur (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/2012",
+          "fecha_fin": "15/07/2014",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/2012",
+          "fecha_fin": "04/10/2012",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Delegado general del CEN del PRD en Yucatán y Chiapas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2006",
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Delegado general del CEN del PRI en Zacatecas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Delegado del PRI en la reunión de la Internacional Socialista en Bogotá, Colombia."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de organización del CEN del PRI en la campaña presidencial."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Presidente del CDE del PRI en Tabasco."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Delegado de la Secretaría de Coordinación Regional del PRI en Nuevo León y Guanajuato."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Secretario de procesos electorales del CDE del PRI en el Distrito Federal."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Delegado especial del PRI en Tabasco."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "2001",
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Grupo Galileo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero polí­tico nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal en la LVIII Legislatura. Secretario de la Comisión Especial del Sur Sureste. Integrante de las comisiones de Energía; de Comunicaciones; y, de Ciencia y Tecnología."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Senador en las LVI y LVII legislaturas. Secretario de las comisiones de Asuntos Fronterizos; y, de Relaciones Exteriores - 3a Sección (América Latina). Integrante de las comisiones de Energía y Recursos no Renovables; Relaciones Exteriores - 1a Sección (Europa y Asia); y, de Defensa Nacional."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Coordinador para la Atención Integral de la Migración en la Frontera Sur de la SEGOB."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2011",
+          "experiencia": "Secretario general de Gobierno de Tabasco."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Secretario de Desarrollo de Tabasco."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Agregado adscrito en la embajada de México en España."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Coordinador general de las delegaciones estatales de Banco Nacional de Obras y Servicios Públicos (BANOBRAS)."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Presidente de la Comisión Estatal Electoral en Tabasco."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1987",
+          "experiencia": "Secretario de Comunicaciones, Asentamientos y Obras Públicas de Tabasco."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Delegado y subdelegado político del Distrito Federal en Venustiano Carranza."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Director general de Economí­a de Tabasco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del Departamento del Distrito Federal (DDF) en Venustiano Carranza y Cuajimalpa."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del Director General del Centro de Investigaciones en Antropología Social (CIESAS)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del gobernador de Chiapas."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Centro de Estudios del Desarrollo Económico y Social de Tabasco, A.C."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "15/07/2014",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "12/08/2015",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9217406",
+        "fecha_extraccion": "2026-10-13T07:21:06+00:00"
+      }
+    }
+  ]
 }

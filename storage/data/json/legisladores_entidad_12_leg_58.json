@@ -1,2585 +1,2585 @@
 {
-    "metadata": {
-        "entidad_id": 12,
-        "entidad_nombre": "Guerrero",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:05:25+00:00",
-        "total_diputados": 16,
-        "total_senadores": 4,
-        "total_general": 20
+  "metadata": {
+    "entidad_id": 12,
+    "entidad_nombre": "Guerrero",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:05:25+00:00",
+    "total_diputados": 16,
+    "total_senadores": 4,
+    "total_general": 20
+  },
+  "diputados": [
+    {
+      "referencia_sil": "1190",
+      "nombre_completo": "Aguirre Ponce Rubén",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Román Nava Cuenca",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1190.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Miembro de la dirección provisional estatal de la Comisión de Organización en Guerrero."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Secretario de finanzas del CEN del PRD-Guerrero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Presidente del CEM del PRD en Petatlán, Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1998",
+          "experiencia": "Consejero estatal del PRD en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Diputado local suplente en la LVI Legislatura del Congreso de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Regidor del municipio de Petatlán, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Tesorero del municipio de Petatlán, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor en la LVI legislatura del Congreso de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178654",
+        "fecha_extraccion": "2026-10-13T01:04:47+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1181",
+      "nombre_completo": "Añorve Baños Manuel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Graciela Ordóñez Ruiz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1181.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "1190",
-            "nombre_completo": "Aguirre Ponce Rubén",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Román Nava Cuenca ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1190.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Miembro de la dirección provisional estatal de la Comisión de Organización en Guerrero."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de finanzas del CEN del PRD-Guerrero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente del CEM del PRD en Petatlán, Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero estatal del PRD en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Diputado local suplente en la LVI Legislatura del Congreso de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Regidor del municipio de Petatlán, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Tesorero del municipio de Petatlán, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor en la LVI legislatura del Congreso de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178654",
-                "fecha_extraccion": "2026-10-13T01:04:47+00:00"
-            }
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1181",
-            "nombre_completo": "Añorve Baños Manuel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Graciela Ordóñez Ruiz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1181.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente municipal interino de Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico del CPM del PRI en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo político del CDM del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM de Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción electoral del CDM del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LVI legislatura del Congreso de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Síndico procurador en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general del voluntariado de la Secretaría de la Reforma Agraria."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de recursos materiales y adquisiciones de tabacos mexicanos (TABAMEX)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Trabajo y Previsión Social en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del Banco Nacional de Obras y Servicios Públicos en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de la comisión de agua potable y alcantarillado en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas y administración de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178646",
-                "fecha_extraccion": "2026-10-13T01:04:49+00:00"
-            }
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "791",
-            "nombre_completo": "Añorve Ocampo Flor",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Antelmo Alvarado García ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/791.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "03/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora estatal del PRI para la promoción del voto en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora política de la CNOP en Iguala, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera estatal del PRI en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora municipal del PRI para la promoción del voto en Taxco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo del PRI para la integración de la mujer en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria del programa acción y gestión social del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del área de investigación del Centro de Actualización del Magisterio de Iguala."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subcoordinadora de servicios educativos de la región Acapulco - Coyuca de la Secretaria de Educación de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidora del municipio de Taxco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirectora académica y directora del plantel no. 4 del Colegio de Bachilleres de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178348",
-                "fecha_extraccion": "2026-10-13T01:04:51+00:00"
-            }
-        },
-        {
-            "referencia_sil": "792",
-            "nombre_completo": "Bailón Guerrero Celestino",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro Bravo Abarca ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/792.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretario Técnico de la Comisión Estatal del PRI para el desarrollo Interno de Guerrero."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de Operación y Acción Política del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Estatal (CPE) de Guerrero."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional en la Costa Grande de Guerrero."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador estatal del Movimiento Territorial (MT) del CDE del PRI de Guerrero."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión Estatal de Ideología del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CEPES de Oaxaca."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de Planeación de Desarrollo de la Federación Estatal de Profesionistas de Oaxaca de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Liga de Comunidades Agrarias"
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LVI legislatura de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Contralor general de Guerrero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal del Programa Nacional de Solidaridad en Guerrero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario de la Secretaria de Planeación y Presupuesto de Guerrero."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de Planeación de la Secretaria de Planeación y Presupuesto de Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador operativo del Comité de Planeación para el Desarrollo del estado."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Jefe de subprograma de planeación agro industrial en la Secretaría de Agricultura y Recursos Hidráulicos (SARH) en Oaxaca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador general del Comité de Planeación para el Desarrollo de Guerrero"
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178349",
-                "fecha_extraccion": "2026-10-13T01:04:52+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1191",
-            "nombre_completo": "Castellanos Hernández Félix",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PT",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rey Hernández García ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": "fcas",
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1191.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial de Concordia y Pacificación (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/11/2002",
-                    "fecha_fin": "18/03/2003",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante del CEN del PT."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Miembro de la Comisión Política Nacional del PT."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador estatal del PT en Guerrero."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "2000",
-                    "experiencia": "Asesor general en la URECCH."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PT."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador de asesores en la URECCH."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1998",
-                    "experiencia": "Integrante de la Comisión Ejecutiva Estatal del PT."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1999",
-                    "experiencia": "Dirigente estatal del PT en Guerrero."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador de gestión y relaciones en la URECCH."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Coordinador del área de formulación y evaluación de proyectos en la URECCH."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Coordinador del área de producción y comercialización agropecuaria en la Unión Regional de Ejidos de la Costa Chica (URECCH)"
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinador regional de los municipios de la Costa Chica."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Asesor de la alianza campesina de Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Asesor de la Procuraduría Agraria."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Director de organización en la Procuraduría Agraria de Guerrero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Asesor del oficial mayor de la SARH."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Subdirector en la Secretaría Técnica del Consejo Consultivo de la Procuraduría Agraria."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Subdirector en la Subprocuraduría Agraria de Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Jefe del departamento de economía agrícola de la Secretaría de Desarrollo Rural del gobierno de Guerrero."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Coordinador regional en Tierra Caliente de la Dirección regional de Desarrollo Rural del gobierno de Guerrero."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Asesor en reforestación en el ayuntamiento de Ecatepec, Estado de México."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178655",
-                "fecha_extraccion": "2026-10-13T01:04:54+00:00"
-            }
-        },
-        {
-            "referencia_sil": "59774",
-            "nombre_completo": "Gallardo Pérez Lourdes",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59774.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante de la Secretaría de la mujer."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Promotora del voto en la campaña presidencial del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Regidora de Participación de la mujer."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "796",
-                "titular_nombre": "Heriberto Huicochea Vázquez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:04:56+00:00"
-            }
-        },
-        {
-            "referencia_sil": "795",
-            "nombre_completo": "González Villalva Raúl Homero",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Santiago Casales Catalán ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/795.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Delegado político del CDE del PRI en Guerreo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Estatal Electoral del PRI para el desarrollo del proceso interno."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente municipal de Chilapa de Álvarez."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado distrital de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la diputación federal del PRI de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción política de la Liga de Economistas Revolucionarios del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Director general de enlace regional de la zona noroeste del programa naconal de solidaridad de la Secretaría de Desarrollo Social."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Titular de la contraloría general del gobierno de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Planeación y Presupuesto en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Gobierno en Gerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Colegio de Economistas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178351",
-                "fecha_extraccion": "2026-10-13T01:04:58+00:00"
-            }
-        },
-        {
-            "referencia_sil": "797",
-            "nombre_completo": "Guerrero Gutiérrez Santiago",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Epigmenio Díaz Vázquez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/797.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado local el la LIV legislatura del congreso de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LVI legislatura del congreso de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de administración de la subsecretaría de comunicación de la SEGOB."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de control de gestión de la subdelegación de administración de finanzas de la delegación Gustavo A. Madero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178352",
-                "fecha_extraccion": "2026-10-13T01:04:59+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1173",
-            "nombre_completo": "Leyva Acevedo Efrén Nicolás",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juan Enrique Caballero Alarcón ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1173.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional del CEN de la CNOP en la V circunscripción."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "2000",
-                    "experiencia": "Delegado del CEN del PRI en Chiapas, Tabasco y Oaxaca."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Delegado de la CNOP en Tabasco, Chiapas, Durango, Nuevo León y Jalisco."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional del CDE del PRI en la zona centro de Guerrero."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Presidente municipal de Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador de las campañas del PRI a diputado federal por el I distrito, y a senadores, por Guerrero."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP en Guerrero."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de la CNOP en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Coordinador de la campaña del PRI por la presidencia municipal de Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal de la juventud popular del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector popular."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Secretario de la Mesa Directiva."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Subdirector de Instituto de Desarrollo Urbano (INDESUR) en Guerrero."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Director general del CREA en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de gobierno para asuntos políticos en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de recursos humanos de la Secretaría de Asentamientos Humanos y Obras (SAHOP) de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de gobernación municipal en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general de gobierno de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178638",
-                "fecha_extraccion": "2026-10-13T01:05:01+00:00"
-            }
-        },
-        {
-            "referencia_sil": "794",
-            "nombre_completo": "Maldonado Aguilar Sergio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Silvestre Rojas Candia ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/794.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Colegio Estatal de Economistas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Director del DIF en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del gobierno de Guerrero en la región de La Montaña."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de la unidad de planeación de la Secretaría de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la SEDESOL en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Funcionario en el área de construcción de caminos de la Secretaría de Obras Públicas de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178350",
-                "fecha_extraccion": "2026-10-13T01:05:03+00:00"
-            }
-        },
-        {
-            "referencia_sil": "59975",
-            "nombre_completo": "Nogueda Ruiz Juan José",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59975.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de Desarrollo Rural Integral de la presidencia municipal de Acapulco."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Gestoría de la Delegación de Gobierno del estado de Guerrero en Acapulco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "798",
-                "titular_nombre": "Ernesto Higinio Rodríguez Escalona ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:05:05+00:00"
-            }
-        },
-        {
-            "referencia_sil": "790",
-            "nombre_completo": "Pineda Velázquez Héctor",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alberto Santamaría Díaz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/790.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "17/10/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador de campaña del candidato del PRI para la gubernatura de Guerrero."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Dirigente Sindical Magisterial en la región de Tierra Caliente, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente municipal en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Subsecretario de ganadería y recursos naturales de Guerrero."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado general de gobierno en Tierra Caliente, Guerrero."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente del Consejo Distrital Electoral de Coyuya de Catalán, Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178347",
-                "fecha_extraccion": "2026-10-13T01:05:06+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1189",
-            "nombre_completo": "Salgado Macedonio José Félix",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alliet Mariana Bautista Bravo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1189.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Candidato del PRD para la gubernatura de Guerrero."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Candidato a la presidencia nacional del PRD."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Candidato del PRD por la gubernatura de Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario de organización del PRD en Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente del Comité Directivo del PRD en Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1991",
-                    "experiencia": "Miembro activo del Partido Frente Cardenista de Reconstrucción Nacional."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Activista de diversos movimientos populares: Barrenderos de Tabasco, ex trabajadores de Ruta 100, Movimiento de Tepoztecos, Movimiento de ferrocarrileros jubilados y pensionados, y el de transportistas de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Activista de los movimientos de ejidatarios despojados en Punta Diamante y en El Amate, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Senador de la República por las LVI y LVII legislaturas, en ambas fue presidente de la comisión de seguridad social; en la LVII fue secretario de las comisiones de defensa nacional, marina y salud."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal en la LIV legislatura, postulado por el PFCRN."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178653",
-                "fecha_extraccion": "2026-10-13T01:05:08+00:00"
-            }
-        },
-        {
-            "referencia_sil": "147335",
-            "nombre_completo": "Santamaría Ramírez Juan Manuel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "10/12/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/147335.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Movimiento Nacional Juvenil Revolucionario en Iguala, Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM en Iguala, Gro."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario adjunto a la Presidencia del CDE del PRI Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Fundación Colosio en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado federal suplente en la LI Legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidor de la presiencia municipal de Iguala, Gro."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la presidencia municipal de Iguala, Gro."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "793",
-                "titular_nombre": "Silvia Romero Suárez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:05:10+00:00"
-            }
-        },
-        {
-            "referencia_sil": "799",
-            "nombre_completo": "Sotelo Rosas David Augusto",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "América Guadalupe García Aguilera ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": "dso",
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/799.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Representante del PRD ante el Consejo Electoral de Guerrero."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la CONEFAD en Guerrero."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la CONEPOA en Guerrero."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de organización del comité distrital 9 en Tecpan, Gro."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario general del CDE del PRI Guerrero."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Delegado del CEN del Frente Juvenil Revolucionario en Chilpancingo, Gro."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1978",
-                    "experiencia": "Secretario general de la Juventud de la Alianza de barrios y colonias populares de la CNOP en Acapulco."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1999",
-                    "experiencia": "Miembro del PRI."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1973",
-                    "experiencia": "Presidente de la sociedad de alumnos de la Escuela Federal 1."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Diputado local en la LIII Legislatura del Congreso de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Oficial mayor del Congreso de Guerrero."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general de la presidencia municipal de Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Director general del CREA Guerrero."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario técnico del Consejo Regional para la Atención de la Juventud (CREA)."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Jefe de departamento de legislación en la Secretaría de Salubridad y Asistencia."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Abogado en la administración del patrimonio de la Beneficencia Pública."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Auxiliar administrativo en el centro Conasupo de capacitación campesina."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178353",
-                "fecha_extraccion": "2026-10-13T01:05:12+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1170",
-            "nombre_completo": "Tapia Bahena María Teresa",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Ricardo Rodríguez Morales ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1170.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "21/11/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejera nacional del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Candidata a diputada local."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretaria de capacitación del CDM del PAN en Taxco, Guerrero."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Presidenta del CDM del PAN en Taxco, Guerrero."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretaria de acción gubernamental del CDE del PAN en Guerrero."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Secretaria de promoción política de la mujer del CDM del PAN en Taxco, Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1997",
-                    "experiencia": "Consejera estatal del PAN."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1993",
-                    "experiencia": "Presidenta de promoción económica del CDM del PAN en Taxco, Guerrero."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante de acción gubernamental del CDE del PAN en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del movimiento ciudadano durante la campaña para presidente municipal de Taxco, en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada federal suplente en la LVI legislatura. Rindio protesta en 1996."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178635",
-                "fecha_extraccion": "2026-10-13T01:05:14+00:00"
-            }
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1273",
-            "nombre_completo": "Astudillo Flores Héctor Antonio",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Verónica Muñoz Parra ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1273.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos - Segunda (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "25/03/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de organización del CEN del PRI."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente del CDE del PRI en Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Coordinador ejecutivo estatal del movimiento territorial urbano-popular del CDE del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador político especial del CDE en la zona centro de Guerrero."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente municipal de Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Presidente del CDM del PRI en Chilpancingo, Guerrero (cargo que repetió en el periodo 1993-1994)."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario general del CDM de la CNOP de Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de acción popular del CDM del PRI en Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Director de Obra Pública y Empleo del CDE del PRI en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LVI legislatura del Congreso de Guerrero. Presidente de la Comisión de Gobierno."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Diputado local en la LIV legislatura del Congreso de Guerrero. Coordinador del grupo parlamentario del PRI."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario particular del gobernador de Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Jefe en el despacho de la presidencia municipal de Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Secretario particular del secretario general de gobierno de Guerrero."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Síndico procurador en Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario particular del presidente municipal de Chilpancingo, Guerrero."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Director de Obras Públicas"
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Jefe del departamento administrativo del fideicomiso de la comisión promotora CONASUPO para el mejoramiento social."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Auditor jurídico general en el ISSSTE."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Supervisor en el Registro Federal Electoral de la SEGOB."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1978",
-                    "experiencia": "Archivista en la Dirección de Obras Públicas del gobierno de Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178707",
-                "fecha_extraccion": "2026-10-13T01:05:17+00:00"
-            }
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente municipal interino de Acapulco, Guerrero."
         },
         {
-            "referencia_sil": "1310",
-            "nombre_completo": "Chavarría Barrera Armando",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Guerrero",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Saúl López Sollano ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1310.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organismos Internacionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la rectoría de la UAG."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Delegado del Consejo General de Representantes del Sindicato de Trabajadores Académicos en la Universidad Autónoma de Guerrero."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1981",
-                    "experiencia": "Presidente de la Federación Estudiantil Universitaria Guerrerense."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1984",
-                    "experiencia": "Consejero universitario."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Educación"
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado estatal del Instituto Nacional para la Educación de los Adultos (INEA) en Guerrero."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general académico en la UAG."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Director de extensión universitaria en la UAG."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Director de Recursos Humanos en la Universidad Autónoma de Guerrero (UAG)."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Director de extensión universitaria en la UAG."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178739",
-                "fecha_extraccion": "2026-10-13T01:05:20+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico del CPM del PRI en Acapulco, Guerrero."
         },
         {
-            "referencia_sil": "1337",
-            "nombre_completo": "De la Vega García Netzahualcóyotl",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Guerrero",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Victoria Eugenia Méndez Márquez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1337.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jubilados y Pensionados (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la subcomisión de medios de la comisión nacional para el desarrollo del proceso interno en las elecciones para la dirigencia nacional."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretario de comunicación social de Comité Nacional de la CTM."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Presidente de una mesa de análisis durante el desarrollo de la XVII asamblea nacional."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Asesor del grupo negociador del TLCAN."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Representante de la Comisión Federal Electoral en Querétaro."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Consejo consultivo del Centro de Estudios Políticos Económicos y Sociales (CEPES) del PRI en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Comité Nacional en el STIRT."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de asuntos económicos del CEN del PRI."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Vocal del Consejo Nacional de la Publicidad."
-                },
-                {
-                    "del_ano": "1961",
-                    "al_ano": "1981",
-                    "experiencia": "Secretario del Trabajo en el Sindicato de Trabajadores del Radio y Televisión (STIRT)."
-                },
-                {
-                    "del_ano": "1950",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la CTM."
-                },
-                {
-                    "del_ano": "1949",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CPE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CPN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Centro de Estudios Políticos Económicos y Sociales (CEPES) del PRI de Guerrero."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante ante el Consejo General del IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión de Organización y Promoción Sindical del Congreso del Trabajo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante obrero en el Consejo Técnico del IMSS."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado en la I ALDF. Presidente de la Comisión de Vivienda y secretario en la Comisión de Desarrollo Rural."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1994",
-                    "experiencia": "Senador en la LIV y LV legislaturas."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Diputado federal en la LII legislatura. Presidente de la Mesa Directiva (1984)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Asesor de la SECOFI para negociaciones comerciales internacionales."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178761",
-                "fecha_extraccion": "2026-10-13T01:05:23+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del consejo político del CDM del PRI."
         },
         {
-            "referencia_sil": "1274",
-            "nombre_completo": "Vicario Castrejón Héctor",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Guerrero",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "David Guzmán Maldonado ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1274.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general del Consejo Político Estatal del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Comisionado estatal del CDE del PRI para el Programa del Compromiso Político."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos (LCAySC) en Guerrero."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de finanzas en el PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Coordinador operativo de la campaña del candidato del PRI a la gubernatura de Guerrero."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Secretario particular del presidente del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1996",
-                    "experiencia": "Miembro del Consejo Político Estatal del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Capacitación Política del CDE del PRI en Guerrero."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Delegado del CDE en diversos comités municipales del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Asesor general de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario general del Movimiento Juvenil Revolucionario (hoy Frente Juvenil Revolucionario)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1984",
-                    "experiencia": "Presidente de Vanguardia Juvenil Agrarista de Guerrero."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Presidente de Vanguardia Juvenil Agrarista de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Acapulco, Guerrero."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Movimiento Nacional de la Juventud Revolucionaria en Huitzuco, Guerrero."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Pertenece al sector agrario del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de elecciones del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité de Enlace del PRI con organizaciones de mexicanos en el extranjero en Chicago, Illinois."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general del Consejo Político Estatal del PRI en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Integrante de la Comisión de Comunicaciones, Transporte y Seguridad Pública."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado local en la LV legislatura del Congreso de Guerrero. Presidente de la Comisión Agropecuaria, Forestal y Minera."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal suplente en la LV legislatura."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Diputado local suplente en la LII legislatura del Congreso de Guerrero."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Subsecretario de Finanzas y Administración en Guerrero."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario técnico de los diputados federales del PRI por Guerrero en la LIV legislatura."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Regidor del municipio de Huitzuco de los Figueroa, Guerrero."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178708",
-                "fecha_extraccion": "2026-10-13T01:05:25+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM de Acapulco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción electoral del CDM del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Diputado local en la LVI legislatura del Congreso de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Síndico procurador en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general del voluntariado de la Secretaría de la Reforma Agraria."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de recursos materiales y adquisiciones de tabacos mexicanos (TABAMEX)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Trabajo y Previsión Social en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del Banco Nacional de Obras y Servicios Públicos en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de la comisión de agua potable y alcantarillado en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas y administración de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178646",
+        "fecha_extraccion": "2026-10-13T01:04:49+00:00"
+      }
+    },
+    {
+      "referencia_sil": "791",
+      "nombre_completo": "Añorve Ocampo Flor",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Antelmo Alvarado García",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/791.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "03/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora estatal del PRI para la promoción del voto en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora política de la CNOP en Iguala, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera estatal del PRI en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora municipal del PRI para la promoción del voto en Taxco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del consejo del PRI para la integración de la mujer en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria del programa acción y gestión social del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del área de investigación del Centro de Actualización del Magisterio de Iguala."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subcoordinadora de servicios educativos de la región Acapulco - Coyuca de la Secretaria de Educación de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidora del municipio de Taxco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirectora académica y directora del plantel no. 4 del Colegio de Bachilleres de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178348",
+        "fecha_extraccion": "2026-10-13T01:04:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "792",
+      "nombre_completo": "Bailón Guerrero Celestino",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro Bravo Abarca",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/792.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretario Técnico de la Comisión Estatal del PRI para el desarrollo Interno de Guerrero."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de Operación y Acción Política del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Estatal (CPE) de Guerrero."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Coordinador regional en la Costa Grande de Guerrero."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Coordinador estatal del Movimiento Territorial (MT) del CDE del PRI de Guerrero."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión Estatal de Ideología del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Miembro del CEPES de Oaxaca."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Secretario de Planeación de Desarrollo de la Federación Estatal de Profesionistas de Oaxaca de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Liga de Comunidades Agrarias"
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado local en la LVI legislatura de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Contralor general de Guerrero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Coordinador estatal del Programa Nacional de Solidaridad en Guerrero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Secretario de la Secretaria de Planeación y Presupuesto de Guerrero."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de Planeación de la Secretaria de Planeación y Presupuesto de Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1993",
+          "experiencia": "Coordinador operativo del Comité de Planeación para el Desarrollo del estado."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Jefe de subprograma de planeación agro industrial en la Secretaría de Agricultura y Recursos Hidráulicos (SARH) en Oaxaca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador general del Comité de Planeación para el Desarrollo de Guerrero"
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178349",
+        "fecha_extraccion": "2026-10-13T01:04:52+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1191",
+      "nombre_completo": "Castellanos Hernández Félix",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PT",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rey Hernández García",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": "fcas",
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1191.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial de Concordia y Pacificación (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/11/2002",
+          "fecha_fin": "18/03/2003",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Integrante del CEN del PT."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Miembro de la Comisión Política Nacional del PT."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinador estatal del PT en Guerrero."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "2000",
+          "experiencia": "Asesor general en la URECCH."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PT."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Coordinador de asesores en la URECCH."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1998",
+          "experiencia": "Integrante de la Comisión Ejecutiva Estatal del PT."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1999",
+          "experiencia": "Dirigente estatal del PT en Guerrero."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Coordinador de gestión y relaciones en la URECCH."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Coordinador del área de formulación y evaluación de proyectos en la URECCH."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Coordinador del área de producción y comercialización agropecuaria en la Unión Regional de Ejidos de la Costa Chica (URECCH)"
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Coordinador regional de los municipios de la Costa Chica."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Asesor de la alianza campesina de Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Asesor de la Procuraduría Agraria."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Director de organización en la Procuraduría Agraria de Guerrero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Asesor del oficial mayor de la SARH."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Subdirector en la Secretaría Técnica del Consejo Consultivo de la Procuraduría Agraria."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Subdirector en la Subprocuraduría Agraria de Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Jefe del departamento de economía agrícola de la Secretaría de Desarrollo Rural del gobierno de Guerrero."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Coordinador regional en Tierra Caliente de la Dirección regional de Desarrollo Rural del gobierno de Guerrero."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Asesor en reforestación en el ayuntamiento de Ecatepec, Estado de México."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178655",
+        "fecha_extraccion": "2026-10-13T01:04:54+00:00"
+      }
+    },
+    {
+      "referencia_sil": "59774",
+      "nombre_completo": "Gallardo Pérez Lourdes",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59774.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante de la Secretaría de la mujer."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Promotora del voto en la campaña presidencial del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Regidora de Participación de la mujer."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "796",
+        "titular_nombre": "Heriberto Huicochea Vázquez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:04:56+00:00"
+      }
+    },
+    {
+      "referencia_sil": "795",
+      "nombre_completo": "González Villalva Raúl Homero",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Santiago Casales Catalán",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/795.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Delegado político del CDE del PRI en Guerreo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Estatal Electoral del PRI para el desarrollo del proceso interno."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente municipal de Chilapa de Álvarez."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado distrital de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de la diputación federal del PRI de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción política de la Liga de Economistas Revolucionarios del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Director general de enlace regional de la zona noroeste del programa naconal de solidaridad de la Secretaría de Desarrollo Social."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Titular de la contraloría general del gobierno de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Planeación y Presupuesto en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Gobierno en Gerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Colegio de Economistas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178351",
+        "fecha_extraccion": "2026-10-13T01:04:58+00:00"
+      }
+    },
+    {
+      "referencia_sil": "797",
+      "nombre_completo": "Guerrero Gutiérrez Santiago",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Epigmenio Díaz Vázquez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/797.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado local el la LIV legislatura del congreso de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado local en la LVI legislatura del congreso de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de administración de la subsecretaría de comunicación de la SEGOB."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de control de gestión de la subdelegación de administración de finanzas de la delegación Gustavo A. Madero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178352",
+        "fecha_extraccion": "2026-10-13T01:04:59+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1173",
+      "nombre_completo": "Leyva Acevedo Efrén Nicolás",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juan Enrique Caballero Alarcón",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1173.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Coordinador regional del CEN de la CNOP en la V circunscripción."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "2000",
+          "experiencia": "Delegado del CEN del PRI en Chiapas, Tabasco y Oaxaca."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Delegado de la CNOP en Tabasco, Chiapas, Durango, Nuevo León y Jalisco."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Coordinador regional del CDE del PRI en la zona centro de Guerrero."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Presidente municipal de Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Coordinador de las campañas del PRI a diputado federal por el I distrito, y a senadores, por Guerrero."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP en Guerrero."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Secretario de la CNOP en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Coordinador de la campaña del PRI por la presidencia municipal de Acapulco, Guerrero."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": null,
+          "experiencia": "Dirigente estatal de la juventud popular del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector popular."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Secretario de la Mesa Directiva."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Subdirector de Instituto de Desarrollo Urbano (INDESUR) en Guerrero."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Director general del CREA en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de gobierno para asuntos políticos en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de recursos humanos de la Secretaría de Asentamientos Humanos y Obras (SAHOP) de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de gobernación municipal en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1996",
+          "experiencia": "Secretario general de gobierno de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178638",
+        "fecha_extraccion": "2026-10-13T01:05:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "794",
+      "nombre_completo": "Maldonado Aguilar Sergio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Silvestre Rojas Candia",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/794.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Colegio Estatal de Economistas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Director del DIF en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del gobierno de Guerrero en la región de La Montaña."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de la unidad de planeación de la Secretaría de Programación y Presupuesto."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la SEDESOL en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Funcionario en el área de construcción de caminos de la Secretaría de Obras Públicas de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178350",
+        "fecha_extraccion": "2026-10-13T01:05:03+00:00"
+      }
+    },
+    {
+      "referencia_sil": "59975",
+      "nombre_completo": "Nogueda Ruiz Juan José",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59975.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de Desarrollo Rural Integral de la presidencia municipal de Acapulco."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Gestoría de la Delegación de Gobierno del estado de Guerrero en Acapulco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "798",
+        "titular_nombre": "Ernesto Higinio Rodríguez Escalona ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:05:05+00:00"
+      }
+    },
+    {
+      "referencia_sil": "790",
+      "nombre_completo": "Pineda Velázquez Héctor",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alberto Santamaría Díaz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/790.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "17/10/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Coordinador de campaña del candidato del PRI para la gubernatura de Guerrero."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Dirigente Sindical Magisterial en la región de Tierra Caliente, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente municipal en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Subsecretario de ganadería y recursos naturales de Guerrero."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Delegado general de gobierno en Tierra Caliente, Guerrero."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Presidente del Consejo Distrital Electoral de Coyuya de Catalán, Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178347",
+        "fecha_extraccion": "2026-10-13T01:05:06+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1189",
+      "nombre_completo": "Salgado Macedonio José Félix",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alliet Mariana Bautista Bravo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1189.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Candidato del PRD para la gubernatura de Guerrero."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Candidato a la presidencia nacional del PRD."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Candidato del PRD por la gubernatura de Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Secretario de organización del PRD en Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Presidente del Comité Directivo del PRD en Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1991",
+          "experiencia": "Miembro activo del Partido Frente Cardenista de Reconstrucción Nacional."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Activista de diversos movimientos populares: Barrenderos de Tabasco, ex trabajadores de Ruta 100, Movimiento de Tepoztecos, Movimiento de ferrocarrileros jubilados y pensionados, y el de transportistas de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Activista de los movimientos de ejidatarios despojados en Punta Diamante y en El Amate, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Senador de la República por las LVI y LVII legislaturas, en ambas fue presidente de la comisión de seguridad social; en la LVII fue secretario de las comisiones de defensa nacional, marina y salud."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal en la LIV legislatura, postulado por el PFCRN."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178653",
+        "fecha_extraccion": "2026-10-13T01:05:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "147335",
+      "nombre_completo": "Santamaría Ramírez Juan Manuel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "10/12/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/147335.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Movimiento Nacional Juvenil Revolucionario en Iguala, Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM en Iguala, Gro."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario adjunto a la Presidencia del CDE del PRI Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Fundación Colosio en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado federal suplente en la LI Legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidor de la presiencia municipal de Iguala, Gro."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la presidencia municipal de Iguala, Gro."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "793",
+        "titular_nombre": "Silvia Romero Suárez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:05:10+00:00"
+      }
+    },
+    {
+      "referencia_sil": "799",
+      "nombre_completo": "Sotelo Rosas David Augusto",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "América Guadalupe García Aguilera",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": "dso",
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/799.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Representante del PRD ante el Consejo Electoral de Guerrero."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidente de la CONEFAD en Guerrero."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Presidente de la CONEPOA en Guerrero."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Secretario de organización del comité distrital 9 en Tecpan, Gro."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Secretario general del CDE del PRI Guerrero."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Delegado del CEN del Frente Juvenil Revolucionario en Chilpancingo, Gro."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1978",
+          "experiencia": "Secretario general de la Juventud de la Alianza de barrios y colonias populares de la CNOP en Acapulco."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1999",
+          "experiencia": "Miembro del PRI."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1973",
+          "experiencia": "Presidente de la sociedad de alumnos de la Escuela Federal 1."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Diputado local en la LIII Legislatura del Congreso de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Oficial mayor del Congreso de Guerrero."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario general de la presidencia municipal de Acapulco, Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Director general del CREA Guerrero."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Secretario técnico del Consejo Regional para la Atención de la Juventud (CREA)."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Jefe de departamento de legislación en la Secretaría de Salubridad y Asistencia."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Abogado en la administración del patrimonio de la Beneficencia Pública."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Auxiliar administrativo en el centro Conasupo de capacitación campesina."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178353",
+        "fecha_extraccion": "2026-10-13T01:05:12+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1170",
+      "nombre_completo": "Tapia Bahena María Teresa",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Ricardo Rodríguez Morales",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1170.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "21/11/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejera nacional del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Candidata a diputada local."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretaria de capacitación del CDM del PAN en Taxco, Guerrero."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Presidenta del CDM del PAN en Taxco, Guerrero."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretaria de acción gubernamental del CDE del PAN en Guerrero."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Secretaria de promoción política de la mujer del CDM del PAN en Taxco, Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1997",
+          "experiencia": "Consejera estatal del PAN."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1993",
+          "experiencia": "Presidenta de promoción económica del CDM del PAN en Taxco, Guerrero."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "2000",
+          "experiencia": "Integrante de acción gubernamental del CDE del PAN en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del movimiento ciudadano durante la campaña para presidente municipal de Taxco, en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputada federal suplente en la LVI legislatura. Rindio protesta en 1996."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178635",
+        "fecha_extraccion": "2026-10-13T01:05:14+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1273",
+      "nombre_completo": "Astudillo Flores Héctor Antonio",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Verónica Muñoz Parra",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1273.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos - Segunda (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "25/03/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Subsecretario de organización del CEN del PRI."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente del CDE del PRI en Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Coordinador ejecutivo estatal del movimiento territorial urbano-popular del CDE del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Coordinador político especial del CDE en la zona centro de Guerrero."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Presidente municipal de Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Presidente del CDM del PRI en Chilpancingo, Guerrero (cargo que repetió en el periodo 1993-1994)."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Secretario general del CDM de la CNOP de Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Secretario de acción popular del CDM del PRI en Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Director de Obra Pública y Empleo del CDE del PRI en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LVI legislatura del Congreso de Guerrero. Presidente de la Comisión de Gobierno."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Diputado local en la LIV legislatura del Congreso de Guerrero. Coordinador del grupo parlamentario del PRI."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Secretario particular del gobernador de Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Jefe en el despacho de la presidencia municipal de Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Secretario particular del secretario general de gobierno de Guerrero."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Síndico procurador en Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Secretario particular del presidente municipal de Chilpancingo, Guerrero."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Director de Obras Públicas"
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Jefe del departamento administrativo del fideicomiso de la comisión promotora CONASUPO para el mejoramiento social."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Auditor jurídico general en el ISSSTE."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Supervisor en el Registro Federal Electoral de la SEGOB."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1978",
+          "experiencia": "Archivista en la Dirección de Obras Públicas del gobierno de Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178707",
+        "fecha_extraccion": "2026-10-13T01:05:17+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1310",
+      "nombre_completo": "Chavarría Barrera Armando",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Guerrero",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Saúl López Sollano",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1310.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organismos Internacionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Candidato a la rectoría de la UAG."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Delegado del Consejo General de Representantes del Sindicato de Trabajadores Académicos en la Universidad Autónoma de Guerrero."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1981",
+          "experiencia": "Presidente de la Federación Estudiantil Universitaria Guerrerense."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1984",
+          "experiencia": "Consejero universitario."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Presidente de la Comisión de Educación"
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Delegado estatal del Instituto Nacional para la Educación de los Adultos (INEA) en Guerrero."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Secretario general académico en la UAG."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Director de extensión universitaria en la UAG."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Director de Recursos Humanos en la Universidad Autónoma de Guerrero (UAG)."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Director de extensión universitaria en la UAG."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178739",
+        "fecha_extraccion": "2026-10-13T01:05:20+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1337",
+      "nombre_completo": "De la Vega García Netzahualcóyotl",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Guerrero",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Victoria Eugenia Méndez Márquez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1337.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Canal de Televisión del H. Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jubilados y Pensionados (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Presidente de la subcomisión de medios de la comisión nacional para el desarrollo del proceso interno en las elecciones para la dirigencia nacional."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretario de comunicación social de Comité Nacional de la CTM."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Presidente de una mesa de análisis durante el desarrollo de la XVII asamblea nacional."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Asesor del grupo negociador del TLCAN."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Representante de la Comisión Federal Electoral en Querétaro."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Presidente del Consejo consultivo del Centro de Estudios Políticos Económicos y Sociales (CEPES) del PRI en el Distrito Federal."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Secretario general del Comité Nacional en el STIRT."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1998",
+          "experiencia": "Secretario de asuntos económicos del CEN del PRI."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Vocal del Consejo Nacional de la Publicidad."
+        },
+        {
+          "del_ano": "1961",
+          "al_ano": "1981",
+          "experiencia": "Secretario del Trabajo en el Sindicato de Trabajadores del Radio y Televisión (STIRT)."
+        },
+        {
+          "del_ano": "1950",
+          "al_ano": null,
+          "experiencia": "Integrante de la CTM."
+        },
+        {
+          "del_ano": "1949",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CPE del PRI en Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CPN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Centro de Estudios Políticos Económicos y Sociales (CEPES) del PRI de Guerrero."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante ante el Consejo General del IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión de Organización y Promoción Sindical del Congreso del Trabajo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante obrero en el Consejo Técnico del IMSS."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado en la I ALDF. Presidente de la Comisión de Vivienda y secretario en la Comisión de Desarrollo Rural."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1994",
+          "experiencia": "Senador en la LIV y LV legislaturas."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Diputado federal en la LII legislatura. Presidente de la Mesa Directiva (1984)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Asesor de la SECOFI para negociaciones comerciales internacionales."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178761",
+        "fecha_extraccion": "2026-10-13T01:05:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1274",
+      "nombre_completo": "Vicario Castrejón Héctor",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Guerrero",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "David Guzmán Maldonado",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1274.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretario general del Consejo Político Estatal del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Secretario general del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Comisionado estatal del CDE del PRI para el Programa del Compromiso Político."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos (LCAySC) en Guerrero."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Secretario general de finanzas en el PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Coordinador operativo de la campaña del candidato del PRI a la gubernatura de Guerrero."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Secretario particular del presidente del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1996",
+          "experiencia": "Miembro del Consejo Político Estatal del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Subsecretario de Capacitación Política del CDE del PRI en Guerrero."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Delegado del CDE en diversos comités municipales del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Asesor general de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Secretario general del Movimiento Juvenil Revolucionario (hoy Frente Juvenil Revolucionario)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1984",
+          "experiencia": "Presidente de Vanguardia Juvenil Agrarista de Guerrero."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Presidente de Vanguardia Juvenil Agrarista de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Acapulco, Guerrero."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Secretario general del Movimiento Nacional de la Juventud Revolucionaria en Huitzuco, Guerrero."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Pertenece al sector agrario del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de elecciones del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Comité de Enlace del PRI con organizaciones de mexicanos en el extranjero en Chicago, Illinois."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2000",
+          "experiencia": "Secretario general del Consejo Político Estatal del PRI en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Integrante de la Comisión de Comunicaciones, Transporte y Seguridad Pública."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Diputado local en la LV legislatura del Congreso de Guerrero. Presidente de la Comisión Agropecuaria, Forestal y Minera."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal suplente en la LV legislatura."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Diputado local suplente en la LII legislatura del Congreso de Guerrero."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Subsecretario de Finanzas y Administración en Guerrero."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Secretario técnico de los diputados federales del PRI por Guerrero en la LIV legislatura."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Regidor del municipio de Huitzuco de los Figueroa, Guerrero."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178708",
+        "fecha_extraccion": "2026-10-13T01:05:25+00:00"
+      }
+    }
+  ]
 }

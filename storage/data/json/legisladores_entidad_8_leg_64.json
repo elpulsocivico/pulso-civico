@@ -1,1084 +1,1084 @@
 {
-    "metadata": {
-        "entidad_id": 8,
-        "entidad_nombre": "Chihuahua",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T09:30:46+00:00",
-        "total_diputados": 5,
-        "total_senadores": 3,
-        "total_general": 8
+  "metadata": {
+    "entidad_id": 8,
+    "entidad_nombre": "Chihuahua",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T09:30:46+00:00",
+    "total_diputados": 5,
+    "total_senadores": 3,
+    "total_general": 8
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9222966",
+      "nombre_completo": "Bayardo Cabrera Rosa María",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "04/12/2018",
+      "fecha_nacimiento": "1985-12-12",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222966.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "10/12/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/12/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/12/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Investigadora del Instituto Nacional de Salud Pública."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/RosiBayardo4T",
+          "color": "#1877f2"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223865",
+        "titular_nombre": "Indira Vizcaíno Silva ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:29:26+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9222148",
+      "nombre_completo": "Preciado Rodríguez Jorge Luis",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Oscar Carlos Zurroza Barrera",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222148.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "9222966",
-            "nombre_completo": "Bayardo Cabrera Rosa María",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "04/12/2018",
-            "fecha_nacimiento": "1985-12-12",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222966.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "10/12/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/12/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/12/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Investigadora del Instituto Nacional de Salud Pública."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/RosiBayardo4T",
-                    "color": "#1877f2"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223865",
-                "titular_nombre": "Indira Vizcaíno Silva ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:29:26+00:00"
-            }
+          "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222148",
-            "nombre_completo": "Preciado Rodríguez Jorge Luis",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Oscar Carlos Zurroza Barrera ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222148.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a la gubernatura de Colima."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Coordinador general del precandidato del PAN a la gubernatura de San Luis Potosí."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Presidente del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Promoción Ciudadana del Comité Directivo Estatal (CDE) del PAN en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal y nacional del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2018",
-                    "experiencia": "Senador en la LXII y LXIII Legislaturas. Presidente de la Junta de Coordinación Política. Presidente del Instituto Belisario Domínguez. Presidente de las comisiones de Reglamentos y Prácticas Parlamentarias; y, Federalismo. Secretario de las comisiones de Asuntos Migratorios; Marina; Radio, Televisión y Cinematografía; y, Seguridad Social. Integrante de las comisiones de Comunicaciones y Transportes, Desarrollo Rural; Fomento Económico; Justicia; y, Relaciones Exteriores, Europa."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado local en la LV Legislatura del Congreso de Colima."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LII Legislatura del Congreso de Colima. Presidente de la Comisión Permanente."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor financiero del gobierno de Colima, Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Auditor de la Secretaría de la Contraloría de Colima."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX Legislatura. Secretario de la Comisión de Reglamentos y Prácticas Parlamentarias. Integrante de las comisiones de Puntos Constitucionales; Vigilancia de la Auditoria Superior de la Federación; y, Especial (San Luis Potosí) para obtener información relacionada con la aplicación del programa de fondos federales durante el desarrollo del proceso electoral. Integrante del Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "07/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "05/04/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/PRECIADOJLR",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/jI_preciado_",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/preciadomx/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222149",
-                "fecha_extraccion": "2026-10-13T09:29:28+00:00"
-            }
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222276",
-            "nombre_completo": "Puente De la Mora Ximena",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Viviana Cristal Mondragón Lazo ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222276.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transparencia y Anticorrupción (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidata a la Fiscalía Anticorrupción."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2014",
-                    "experiencia": "Comisionado Presidenta del CAIPEC."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Comisionada Presidenta del Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2018",
-                    "experiencia": "Comisionada del INAI."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Comisionada de la Comisión para el Acceso a la Información Pública del Estado de Colima (CAIPEC)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://es-la.facebook.com/XimenaPuentedelaMora/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/XimenaPuente",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/ximenapuentedelamora/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222277",
-                "fecha_extraccion": "2026-10-13T09:29:30+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222150",
-            "nombre_completo": "Sandoval Mendoza María Liduvina",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Elena Gabriela Ocon Corona ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222150.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "06/02/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Invitada permanente en la Junta de Gobierno del Instituto Nacional de las Mujeres, en representación de la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Tesorera del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Participación en la campaña del candidato del PAN a la gubernatura de Colima."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Consejera estatal del PAN."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Candidata a la presidencia del CDE del PAN en Colima."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Directora de Asuntos Electorales del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activa del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Comisión Estatal Organizadora del Comité Directivo Estatal (CDE) del PAN en Colima."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Asesora de la Dirección General de Coordinación de la SRA."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Directora general de Planeación de la PROFECO."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Delegada de la SEDESOL en Colima."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Asesora de la Comisión de Agricultura y Ganadería de la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Gerente de la Oficina del Grupo Parlamentario del PAN en la Cámara de Diputados."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica del Comité de Planeación para el Desarrollo del Estado de Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefa de la Unidad Operativa del Centro de Capacitación y Formación Permanente del Senado de la República en la LXII Legislatura."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/liduvina.sandoval",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/LiduvinaSM",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222151",
-                "fecha_extraccion": "2026-10-13T09:30:38+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222963",
-            "nombre_completo": "Yáñez Centeno y Cabrera Claudia Valeria",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Sara Rizzo García ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222963.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "13/02/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Enlace de MORENA en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la Promoción y Defensa del Voto en Colima."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesora de proyectos en el IMSS."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaboró en el Departamento de Padres en la SEP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesora de Proyectos para el Desarrollo Social en la Secretaría de Desarrollo Social de Gobierno del Distrito Federal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "26/02/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "11/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ClaudiaYanezCenteno/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/ClaudiaYanezCen",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/claudia_yanez_centeno/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222964",
-                "fecha_extraccion": "2026-10-13T09:30:39+00:00"
-            }
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9223711",
-            "nombre_completo": "Benavides Cobos Gabriela",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PVEM",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Sonia Alejandrina Martínez Mendoza ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223711.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Bienestar Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral del Sistema de Bibliotecas (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Europa (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2011",
-                    "experiencia": "Presidenta del Comité Directivo Municipal del PAN en Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Consejera estatal del PAN."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputada local en la LVII Legislatura del Congreso de Colima. Presidenta de la Comisión de Planeación de Desarrollo Urbano y Vivienda. Secretaria de la Comisión de Responsabilidades. Integrante de la Comisión de Vigilancia."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Presidenta municipal de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Regidora de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Secretaria del gobierno de Manzanillo, Colima."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Asesora en la Comisión de Derechos Humanos de la Cámara de Diputados de Colima."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2003",
-                    "experiencia": "Auxiliar en la Defensoría de Oficio del Juzgado Tercero de lo Penal en Villa de Álvarez, Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Oficial Secretario de la Procuraduría General de Justicia de Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GabrielaBenavidesCobos/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/benavidescobos?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/Gaby.Benavides.Cobos/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223712",
-                "fecha_extraccion": "2026-10-13T09:30:43+00:00"
-            }
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a la gubernatura de Colima."
         },
         {
-            "referencia_sil": "9221869",
-            "nombre_completo": "Padilla Peña Joel",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eduardo Guía Velázquez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1959-07-22",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221869.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 9,
-            "comisiones": [
-                {
-                    "comision": "De Seguimiento a la Implementación del T-MEC (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/03/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "24/09/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agricultura, Ganadería, Pesca y Desarrollo Rural (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Bienestar Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "24/09/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano, Ordenamiento Territorial y Vivienda (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "13/11/2018",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Integrante de la Comisión Ejecutiva Nacional del PT."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "2018",
-                    "experiencia": "Comisionado político nacional del PT en Colima."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Dirigencia Nacional del PT."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1994",
-                    "experiencia": "Integrante de la Dirección estatal del Movimiento de Izquierda Revolucionario General Francisco Villa, de Guanajuato."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Cofundador y dirigente de la organización Tierra y Libertad en Tepic, Nayarit."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LVIII Legislatura del Congreso de Colima. Presidente de la Comisión de Educación y Cultura. Secretario en las comisiones de Estudios Legislativos y Puntos Constitucionales; Planeación del Desarrollo Urbano y Vivienda; y, de Niñez, Juventud, Adultos Mayores y Discapacidad."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX Legislatura. Secretario de las comisiones de Vigilancia de la Auditoría Superior de la Federación; y, de Investigación (Construcciones Prácticas S.A. de C.V.) encargada de revisar la legalidad de los contratos de obra pública, otorgados por organismos descentralizados o empresas de participación estatal mayoritaria, a la empresa Construcciones Prácticas S.A. Secretario del Comité de Información, Gestoría y Quejas. Integrante de las comisiones de Desarrollo Rural; Función Pública; Vivienda; Especial (San Luis Potosí) para obtener información relacionada con la aplicación del programa de fondos federales durante el desarrollo del proceso electoral; y, Especial para el Campo. Integrante de los comités de Administración; y, del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado local en la LIII Legislatura del Congreso de Colima. Presidente de la Comisión Editorial."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Director general del Instituto José Martí en Colima."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ColJoelPadilla",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/SenJoelPadilla",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/senjoelpadilla/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221870",
-                "fecha_extraccion": "2026-10-13T09:30:44+00:00"
-            }
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Coordinador general del precandidato del PAN a la gubernatura de San Luis Potosí."
         },
         {
-            "referencia_sil": "9221871",
-            "nombre_completo": "Valencia de la Mora Gricelda",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Colima",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Ana María Contreras Ruiz ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221871.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "20/06/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Organización del Comité Directivo Estatal de MORENA en Colima."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Candidata a senadora."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundadora de MORENA en Colima."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Enlace federal de MORENA."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GriceldaValenciaOficial/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/SenGriceldaVal",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/griceldavalenciadelamora/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221872",
-                "fecha_extraccion": "2026-10-13T09:30:46+00:00"
-            }
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Presidente del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Promoción Ciudadana del Comité Directivo Estatal (CDE) del PAN en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal y nacional del PAN."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2018",
+          "experiencia": "Senador en la LXII y LXIII Legislaturas. Presidente de la Junta de Coordinación Política. Presidente del Instituto Belisario Domínguez. Presidente de las comisiones de Reglamentos y Prácticas Parlamentarias; y, Federalismo. Secretario de las comisiones de Asuntos Migratorios; Marina; Radio, Televisión y Cinematografía; y, Seguridad Social. Integrante de las comisiones de Comunicaciones y Transportes, Desarrollo Rural; Fomento Económico; Justicia; y, Relaciones Exteriores, Europa."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado local en la LV Legislatura del Congreso de Colima."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LII Legislatura del Congreso de Colima. Presidente de la Comisión Permanente."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor financiero del gobierno de Colima, Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Auditor de la Secretaría de la Contraloría de Colima."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX Legislatura. Secretario de la Comisión de Reglamentos y Prácticas Parlamentarias. Integrante de las comisiones de Puntos Constitucionales; Vigilancia de la Auditoria Superior de la Federación; y, Especial (San Luis Potosí) para obtener información relacionada con la aplicación del programa de fondos federales durante el desarrollo del proceso electoral. Integrante del Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "07/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "05/04/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/PRECIADOJLR",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/jI_preciado_",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/preciadomx/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222149",
+        "fecha_extraccion": "2026-10-13T09:29:28+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222276",
+      "nombre_completo": "Puente De la Mora Ximena",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Viviana Cristal Mondragón Lazo",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222276.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transparencia y Anticorrupción (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidata a la Fiscalía Anticorrupción."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2014",
+          "experiencia": "Comisionado Presidenta del CAIPEC."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Comisionada Presidenta del Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2018",
+          "experiencia": "Comisionada del INAI."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Comisionada de la Comisión para el Acceso a la Información Pública del Estado de Colima (CAIPEC)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://es-la.facebook.com/XimenaPuentedelaMora/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/XimenaPuente",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/ximenapuentedelamora/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222277",
+        "fecha_extraccion": "2026-10-13T09:29:30+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222150",
+      "nombre_completo": "Sandoval Mendoza María Liduvina",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Elena Gabriela Ocon Corona",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222150.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Protección Civil y Prevención de Desastres (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "06/02/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Invitada permanente en la Junta de Gobierno del Instituto Nacional de las Mujeres, en representación de la Cámara de Diputados."
+        },
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Tesorera del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Participación en la campaña del candidato del PAN a la gubernatura de Colima."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Consejera estatal del PAN."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Candidata a la presidencia del CDE del PAN en Colima."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Directora de Asuntos Electorales del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activa del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Comisión Estatal Organizadora del Comité Directivo Estatal (CDE) del PAN en Colima."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Asesora de la Dirección General de Coordinación de la SRA."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Directora general de Planeación de la PROFECO."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Delegada de la SEDESOL en Colima."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Asesora de la Comisión de Agricultura y Ganadería de la Cámara de Diputados."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Gerente de la Oficina del Grupo Parlamentario del PAN en la Cámara de Diputados."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria técnica del Comité de Planeación para el Desarrollo del Estado de Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefa de la Unidad Operativa del Centro de Capacitación y Formación Permanente del Senado de la República en la LXII Legislatura."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/liduvina.sandoval",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/LiduvinaSM",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222151",
+        "fecha_extraccion": "2026-10-13T09:30:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222963",
+      "nombre_completo": "Yáñez Centeno y Cabrera Claudia Valeria",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Sara Rizzo García",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222963.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "13/02/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Enlace de MORENA en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de la Promoción y Defensa del Voto en Colima."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesora de proyectos en el IMSS."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaboró en el Departamento de Padres en la SEP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesora de Proyectos para el Desarrollo Social en la Secretaría de Desarrollo Social de Gobierno del Distrito Federal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "26/02/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "11/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ClaudiaYanezCenteno/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/ClaudiaYanezCen",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/claudia_yanez_centeno/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222964",
+        "fecha_extraccion": "2026-10-13T09:30:39+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9223711",
+      "nombre_completo": "Benavides Cobos Gabriela",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PVEM",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Sonia Alejandrina Martínez Mendoza",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223711.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Bienestar Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral del Sistema de Bibliotecas (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, Europa (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2011",
+          "experiencia": "Presidenta del Comité Directivo Municipal del PAN en Manzanillo, Colima."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Consejera estatal del PAN."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputada local en la LVII Legislatura del Congreso de Colima. Presidenta de la Comisión de Planeación de Desarrollo Urbano y Vivienda. Secretaria de la Comisión de Responsabilidades. Integrante de la Comisión de Vigilancia."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Presidenta municipal de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Regidora de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Secretaria del gobierno de Manzanillo, Colima."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Asesora en la Comisión de Derechos Humanos de la Cámara de Diputados de Colima."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2003",
+          "experiencia": "Auxiliar en la Defensoría de Oficio del Juzgado Tercero de lo Penal en Villa de Álvarez, Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Oficial Secretario de la Procuraduría General de Justicia de Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GabrielaBenavidesCobos/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/benavidescobos?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/Gaby.Benavides.Cobos/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223712",
+        "fecha_extraccion": "2026-10-13T09:30:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221869",
+      "nombre_completo": "Padilla Peña Joel",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eduardo Guía Velázquez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1959-07-22",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221869.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 9,
+      "comisiones": [
+        {
+          "comision": "De Seguimiento a la Implementación del T-MEC (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/03/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral de Concordia y Pacificación del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "24/09/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agricultura, Ganadería, Pesca y Desarrollo Rural (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Bienestar Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "24/09/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano, Ordenamiento Territorial y Vivienda (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "13/11/2018",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Integrante de la Comisión Ejecutiva Nacional del PT."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "2018",
+          "experiencia": "Comisionado político nacional del PT en Colima."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Miembro de la Dirigencia Nacional del PT."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1994",
+          "experiencia": "Integrante de la Dirección estatal del Movimiento de Izquierda Revolucionario General Francisco Villa, de Guanajuato."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Cofundador y dirigente de la organización Tierra y Libertad en Tepic, Nayarit."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LVIII Legislatura del Congreso de Colima. Presidente de la Comisión de Educación y Cultura. Secretario en las comisiones de Estudios Legislativos y Puntos Constitucionales; Planeación del Desarrollo Urbano y Vivienda; y, de Niñez, Juventud, Adultos Mayores y Discapacidad."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX Legislatura. Secretario de las comisiones de Vigilancia de la Auditoría Superior de la Federación; y, de Investigación (Construcciones Prácticas S.A. de C.V.) encargada de revisar la legalidad de los contratos de obra pública, otorgados por organismos descentralizados o empresas de participación estatal mayoritaria, a la empresa Construcciones Prácticas S.A. Secretario del Comité de Información, Gestoría y Quejas. Integrante de las comisiones de Desarrollo Rural; Función Pública; Vivienda; Especial (San Luis Potosí) para obtener información relacionada con la aplicación del programa de fondos federales durante el desarrollo del proceso electoral; y, Especial para el Campo. Integrante de los comités de Administración; y, del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado local en la LIII Legislatura del Congreso de Colima. Presidente de la Comisión Editorial."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Director general del Instituto José Martí en Colima."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ColJoelPadilla",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/SenJoelPadilla",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/senjoelpadilla/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221870",
+        "fecha_extraccion": "2026-10-13T09:30:44+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221871",
+      "nombre_completo": "Valencia de la Mora Gricelda",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Colima",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Ana María Contreras Ruiz",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221871.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "20/06/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Secretaria de Organización del Comité Directivo Estatal de MORENA en Colima."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Candidata a senadora."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundadora de MORENA en Colima."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Enlace federal de MORENA."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GriceldaValenciaOficial/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/SenGriceldaVal",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/griceldavalenciadelamora/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221872",
+        "fecha_extraccion": "2026-10-13T09:30:46+00:00"
+      }
+    }
+  ]
 }

@@ -1,1631 +1,1631 @@
 {
-    "metadata": {
-        "entidad_id": 13,
-        "entidad_nombre": "Hidalgo",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T09:40:40+00:00",
-        "total_diputados": 10,
-        "total_senadores": 3,
-        "total_general": 13
+  "metadata": {
+    "entidad_id": 13,
+    "entidad_nombre": "Hidalgo",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T09:40:40+00:00",
+    "total_diputados": 10,
+    "total_senadores": 3,
+    "total_general": 13
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9223049",
+      "nombre_completo": "Alfaro Morales María Isabel",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Ma. Guadalupe Loredo Gonzáles",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223049.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura y Cinematografía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Coordinadora de Deporte en el Instituto Estatal del Deporte en Tulancingo de Bravo, Hidalgo."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Promotora y Delegada en el Instituto Hidalguense del Deporte (INHIDE)"
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Directora del DIF de Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2006",
+          "experiencia": "Delegada en el Instituto Hidalguense del Deporte Región II en Tulancingo, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/IsabelAlfaroOficial/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/IsabelAlfaroIV",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/isabelalfaroiv/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223050",
+        "fecha_extraccion": "2026-10-13T09:39:09+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9223051",
+      "nombre_completo": "Angeles Mendoza Julio César",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Eduardo Durán García",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223051.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
         {
-            "referencia_sil": "9223049",
-            "nombre_completo": "Alfaro Morales María Isabel",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Ma. Guadalupe Loredo Gonzáles ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223049.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura y Cinematografía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Coordinadora de Deporte en el Instituto Estatal del Deporte en Tulancingo de Bravo, Hidalgo."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Promotora y Delegada en el Instituto Hidalguense del Deporte (INHIDE)"
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Directora del DIF de Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2006",
-                    "experiencia": "Delegada en el Instituto Hidalguense del Deporte Región II en Tulancingo, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/IsabelAlfaroOficial/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/IsabelAlfaroIV",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/isabelalfaroiv/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223050",
-                "fecha_extraccion": "2026-10-13T09:39:09+00:00"
-            }
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9223051",
-            "nombre_completo": "Angeles Mendoza Julio César",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Eduardo Durán García ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223051.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente municipal de Atotonilco de Tula, Hidalgo."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Presidente municipal de Atotonilco de Tula, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/JCAngelesMendoza/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/JulioAngelesHGO",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jangelesmendoza/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223052",
-                "fecha_extraccion": "2026-10-13T09:40:16+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223046",
-            "nombre_completo": "Callejas Romero Gustavo",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "06/11/2019",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223046.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/10/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "26/11/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía, Comercio y Competitividad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/11/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión de Ética Partidaria de MORENA en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante distrital de MORENA ante el Instituto Estatal Electoral de Hidalgo (IEEH)."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": null,
-                    "experiencia": "Delegado regional de Programas Desarrollo de la Secretaria del Bienestar."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Director de Promoción Turística de la Secretaría de Turismo de Ixmiquilpan, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GustavoCallejasRomero/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/tavo_callejas?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gustavocallejas_/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223045",
-                "titular_nombre": "Cipriano Charrez Pedraza ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:40:18+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222564",
-            "nombre_completo": "García Anaya Lidia",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María de la Luz Rubio González ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1957-10-31",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222564.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2018",
-                    "experiencia": "Secretaria general del Sindicato de Personal Académico de la Universidad Autónoma de Hidalgo."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2014",
-                    "experiencia": "Secretaria del Interior en el Sindicato de Personal Académico de la Universidad Autónoma del Estado de Hidalgo."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2010",
-                    "experiencia": "Secretaria de Asuntos Jurídicos en el Sindicato de Personal Académico de la Universidad Autónoma del Estado de Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Regidora de Pachuca, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/OficialLidiaGarcia/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/oficiallidiagarcia/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223054",
-                "fecha_extraccion": "2026-10-13T09:40:20+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223047",
-            "nombre_completo": "Olvera Bautista Sandra Simey",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Carina López Ayála ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223047.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/02/2021",
-                    "fecha_fin": "21/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "05/02/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/02/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "16/02/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Coordinación de comunicación social en campaña a diputación federal."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Atención ciudadana en campaña electoral 2012 a la presidencia municipal en Pachuca."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2010",
-                    "experiencia": "Comunicación territorial en la campaña a la gubernatura de Hidalgo"
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Comunicación en campaña electoral, presidencia municipal de Hidalgo."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2009",
-                    "experiencia": "Brigadista, staff, asistencia, vocera, formación juvenil y organización política en diferentes niveles de campaña electoral en Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada local en la LXIII Legislatura del Congreso de Hidalgo. Presidenta de la Comisión de Cultura. Secretaria de las comisiones de la Niñez, la Juventud, el Deporte y La Familia y, Adultos Mayores. Integrante de las comisiones de Igualdad de Género; y, Desarrollo Social y Humano."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Directora de Comunicación Social en Ixmiquilpan, Hidalgo."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Enlace Interinstitucional del Registro Agrario Nacional, Delegación Hidalgo."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2010",
-                    "experiencia": "Auxiliar de la Unidad de Información Municipal en Mixquiahuala, Hidalgo."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Enlace de comunicación en Extensión Universitaria de Cultura de la Universidad Autónoma del Estado de Hidalgo (UAEH)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/SimeyOlveraB",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/ssimey?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/palomasyc/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223048",
-                "fecha_extraccion": "2026-10-13T09:40:23+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223043",
-            "nombre_completo": "Rivera Castillo Fortunato",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Gelacio Velazquez Hernández ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223043.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 1,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2010",
-                    "experiencia": "Enlace Distrital del gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Subsecretario de gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2009",
-                    "experiencia": "Coordinador regional en el gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente municipal de San Felipe Orizatlán, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/fortunatoriverac",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/fortunatoriver9?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/riverafortunato/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223044",
-                "fecha_extraccion": "2026-10-13T09:40:26+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222154",
-            "nombre_completo": "Romero León Gloria",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Gloria Isabel Vite Cruz ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1964-01-25",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222154.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité de Ética (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "14/12/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transparencia y Anticorrupción (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2011",
-                    "experiencia": "Candidata a la presidencia municipal de Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Miembro del Comité Directivo Estatal del PAN."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2011",
-                    "experiencia": "Miembro del CDM del PAN en Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2013",
-                    "experiencia": "Consejera nacional y estatal del PAN."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Secretaria del Comité Directivo Municipal (CDM) del PAN en Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora de regidores del PAN en Pachuca, Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Diputada local en la LXIII Legislatura del Congreso de Hidalgo."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal de la LXI Legislatura. Secretaria de la Mesa Directiva. Integrante de las comisiones de Derechos Humanos; Fomento Cooperativo y Economía Social; y, Vigilancia de la Auditoría Superior de la Federación."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Regidora de Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Presidenta del DIF de Pachuca, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://es-la.facebook.com/GloriaRomeroLeonPAN/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/gloriaromeropan?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gloriaromeropan/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222155",
-                "fecha_extraccion": "2026-10-13T09:40:27+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222570",
-            "nombre_completo": "Ruiz Lustre Hugo Rafael",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro Canek Vázquez Góngora ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222570.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 1,
-            "comisiones": [
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2014",
-                    "experiencia": "Aspirante a Presidente de la CNDH."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero Nacional en el ámbito de Cultura y Deporte del Consejo Nacional para las Personas con Discapacidad (CONADIS)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CONADIS."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Hugolustrer",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/hugo_lustre",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/hugo_lustre/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222571",
-                "fecha_extraccion": "2026-10-13T09:40:29+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222565",
-            "nombre_completo": "Solís Barrera María Marivel",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222565.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "18/10/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidata a diputada local."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de MC."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora Nacional de la Red de Vinculación de la Asociación Nacional de Instituciones de Educación Superior."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de Educación Continua de la Universidad Autónoma del Estado de Hidalgo (UAEH)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de Vinculación con el Sector Social y Productivo de la UAEH."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora del Corporativo Universitario de la UAEH."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Promoción y Desarrollo de Empresas Universitarias de la UAEH."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora del Centro de Educación Continua y a Distancia de la UAEH."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Marivel-Sol%C3%ADs-Barrera-472229373261994/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MarivelSolisB",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marivel_solisb/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223919",
-                "titular_nombre": " ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:40:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223055",
-            "nombre_completo": "Téllez Infante Jannet",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Flora Cervantes Reyes ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": "jannet.",
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223055.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de Redes Sociales Progresistas (RSP)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaría de la Fundación Colosio."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Sindicato Mexicano de Electricidad."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2008",
-                    "experiencia": "Directora de Educación."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/jannet.tellezinfante",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/InfanteJannet",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jannettellezinfante/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223056",
-                "fecha_extraccion": "2026-10-13T09:40:33+00:00"
-            }
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
         {
-            "referencia_sil": "9223708",
-            "nombre_completo": "González González María Merced",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "02/01/2019",
-            "fecha_nacimiento": "1970-01-01",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223708.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Estudios Legislativos, Segunda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/03/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/03/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "26/03/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Minería y Desarrollo Regional (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidata a diputada local."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Activista socioambiental."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del grupo Servidores de la Nación en Huichapan, Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/LicMariaMerced/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/mariamercedg",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/mariamercedgonzalez/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9223707",
-                "titular_nombre": "Angélica García Arrieta ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T09:40:36+00:00"
-            }
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Presidente municipal de Atotonilco de Tula, Hidalgo."
         },
         {
-            "referencia_sil": "9221781",
-            "nombre_completo": "Mayorga Delgado Nuvia Magdalena",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Nora Liliana Oropeza Olguin ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221781.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 12,
-            "comisiones": [
-                {
-                    "comision": "Economía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Bienestar Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para dar seguimiento a los casos de feminicidio de niñas y adolescentes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/03/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Bicamaral en materia de disciplina financiera de las entidades federativas y de los municipios (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité técnico del Fideicomiso de Inversión y Administración para Apoyar la Construcción y Equipamiento del Nuevo Recinto de la Cámara de Senadores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "31/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para la Igualdad de Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "11/10/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Integrante de la Comisión sobre Federalismo Fiscal del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Miembro de la Comisión Política Permanente del Consejo Nacional del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2012",
-                    "experiencia": "Consejera política estatal del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Comisión de Presupuesto y Fiscalización del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Comisión de Vigilancia del Financiamiento a las Campañas del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Organismo Nacional de Mujeres Priistas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Diputada federal en la LXII Legislatura. Presidenta de la Comisión de Presupuesto y Cuenta Pública. Integrante de las comisiones de Hacienda y Crédito Público; y, de Transparencia y Anticorrupción."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2018",
-                    "experiencia": "Directora general de la Comisión Nacional para el Desarrollo de los Pueblos Indígenas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2012",
-                    "experiencia": "Secretaria de Finanzas y Administración de Hidalgo."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Analista presupuestal de la Secretaría de Programación y Presupuesto Delegación Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de Administración y Finanzas de la Secretaría de Educación Pública de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora general de Egresos de la Secretaría de Finanzas y Administración de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretaria de Egresos de la Secretaría de Finanzas y Administración de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de Administración y Finanzas del Instituto Hidalguense de Educación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subdirectora de Programación Financiera de la Secretaría de Finanzas y Administración de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del Grupo Zona 3 del Sistema Nacional de Coordinación Fiscal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del grupo de trabajo de Fortalecimiento Territorial del Sistema Nacional de Coordinación Fiscal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Comité de Vigilancia de Aportaciones Federales y Otros Recursos Descentralizados del Sistema Nacional de Coordinación Fiscal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Grupo de Gasto, Contabilidad y Transparencia del Sistema Nacional de Coordinación Fiscal."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/NuviaMayorgaDelgado",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/Nuvia_Mayorga",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/nuvia_mayorga/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221782",
-                "fecha_extraccion": "2026-10-13T09:40:38+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223709",
-            "nombre_completo": "Menchaca Salazar Julio Ramón",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Navor Alberto Rojas Mancera ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223709.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "20/06/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "11/10/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "20/06/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Candidato independiente a la presidencia municipal de Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2013",
-                    "experiencia": "Candidato a Presidente de la Comisión de Derechos Humanos del Estado de Hidalgo."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Precandidato a gobernador de Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Diputado local en la LIX Legislatura del Congreso de Hidalgo. Presidente de la Comisión de Legislación y Puntos Constitucionales. Secretario de las comisiones de Derechos Humanos; e, Instructora."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2004",
-                    "experiencia": "Magistrado Presidente del Tribunal Superior de Justicia de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor jurídico de la Secretaría de Planeación."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general del Sector Primario de Gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general de la Comisión Coordinadora para el Desarrollo Agropecuario de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del Comité Técnico del Fideicomiso Agropecuario de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Contralor general del Poder Judicial en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directivo de la Secretaría de Desarrollo Económico."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/JulioMenchacaS/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/juliomenchaca_",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/juliomenchaca_/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223927",
-                "fecha_extraccion": "2026-10-13T09:40:40+00:00"
-            }
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Presidente municipal de Atotonilco de Tula, Hidalgo."
         }
-    ]
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/JCAngelesMendoza/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/JulioAngelesHGO",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jangelesmendoza/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223052",
+        "fecha_extraccion": "2026-10-13T09:40:16+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223046",
+      "nombre_completo": "Callejas Romero Gustavo",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "06/11/2019",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223046.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/10/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "26/11/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía, Comercio y Competitividad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/11/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión de Ética Partidaria de MORENA en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante distrital de MORENA ante el Instituto Estatal Electoral de Hidalgo (IEEH)."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2019",
+          "al_ano": null,
+          "experiencia": "Delegado regional de Programas Desarrollo de la Secretaria del Bienestar."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Director de Promoción Turística de la Secretaría de Turismo de Ixmiquilpan, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GustavoCallejasRomero/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/tavo_callejas?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gustavocallejas_/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223045",
+        "titular_nombre": "Cipriano Charrez Pedraza ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:40:18+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222564",
+      "nombre_completo": "García Anaya Lidia",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María de la Luz Rubio González",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1957-10-31",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222564.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2018",
+          "experiencia": "Secretaria general del Sindicato de Personal Académico de la Universidad Autónoma de Hidalgo."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2014",
+          "experiencia": "Secretaria del Interior en el Sindicato de Personal Académico de la Universidad Autónoma del Estado de Hidalgo."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2010",
+          "experiencia": "Secretaria de Asuntos Jurídicos en el Sindicato de Personal Académico de la Universidad Autónoma del Estado de Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Regidora de Pachuca, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/OficialLidiaGarcia/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/oficiallidiagarcia/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223054",
+        "fecha_extraccion": "2026-10-13T09:40:20+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223047",
+      "nombre_completo": "Olvera Bautista Sandra Simey",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Carina López Ayála",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223047.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/02/2021",
+          "fecha_fin": "21/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "05/02/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/02/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "16/02/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Coordinación de comunicación social en campaña a diputación federal."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Atención ciudadana en campaña electoral 2012 a la presidencia municipal en Pachuca."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2010",
+          "experiencia": "Comunicación territorial en la campaña a la gubernatura de Hidalgo"
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Comunicación en campaña electoral, presidencia municipal de Hidalgo."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2009",
+          "experiencia": "Brigadista, staff, asistencia, vocera, formación juvenil y organización política en diferentes niveles de campaña electoral en Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputada local en la LXIII Legislatura del Congreso de Hidalgo. Presidenta de la Comisión de Cultura. Secretaria de las comisiones de la Niñez, la Juventud, el Deporte y La Familia y, Adultos Mayores. Integrante de las comisiones de Igualdad de Género; y, Desarrollo Social y Humano."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Directora de Comunicación Social en Ixmiquilpan, Hidalgo."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Enlace Interinstitucional del Registro Agrario Nacional, Delegación Hidalgo."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2010",
+          "experiencia": "Auxiliar de la Unidad de Información Municipal en Mixquiahuala, Hidalgo."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Enlace de comunicación en Extensión Universitaria de Cultura de la Universidad Autónoma del Estado de Hidalgo (UAEH)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/SimeyOlveraB",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/ssimey?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/palomasyc/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223048",
+        "fecha_extraccion": "2026-10-13T09:40:23+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223043",
+      "nombre_completo": "Rivera Castillo Fortunato",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Gelacio Velazquez Hernández",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223043.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 1,
+      "comisiones": [
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2010",
+          "experiencia": "Enlace Distrital del gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Subsecretario de gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2009",
+          "experiencia": "Coordinador regional en el gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Presidente municipal de San Felipe Orizatlán, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/fortunatoriverac",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/fortunatoriver9?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/riverafortunato/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223044",
+        "fecha_extraccion": "2026-10-13T09:40:26+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222154",
+      "nombre_completo": "Romero León Gloria",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Gloria Isabel Vite Cruz",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1964-01-25",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222154.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité de Ética (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "14/12/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transparencia y Anticorrupción (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2011",
+          "experiencia": "Candidata a la presidencia municipal de Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Miembro del Comité Directivo Estatal del PAN."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2011",
+          "experiencia": "Miembro del CDM del PAN en Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2013",
+          "experiencia": "Consejera nacional y estatal del PAN."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Secretaria del Comité Directivo Municipal (CDM) del PAN en Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora de regidores del PAN en Pachuca, Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Diputada local en la LXIII Legislatura del Congreso de Hidalgo."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal de la LXI Legislatura. Secretaria de la Mesa Directiva. Integrante de las comisiones de Derechos Humanos; Fomento Cooperativo y Economía Social; y, Vigilancia de la Auditoría Superior de la Federación."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Regidora de Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Presidenta del DIF de Pachuca, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://es-la.facebook.com/GloriaRomeroLeonPAN/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/gloriaromeropan?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gloriaromeropan/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222155",
+        "fecha_extraccion": "2026-10-13T09:40:27+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222570",
+      "nombre_completo": "Ruiz Lustre Hugo Rafael",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro Canek Vázquez Góngora",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222570.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 1,
+      "comisiones": [
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2014",
+          "experiencia": "Aspirante a Presidente de la CNDH."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero Nacional en el ámbito de Cultura y Deporte del Consejo Nacional para las Personas con Discapacidad (CONADIS)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CONADIS."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Hugolustrer",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/hugo_lustre",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/hugo_lustre/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222571",
+        "fecha_extraccion": "2026-10-13T09:40:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222565",
+      "nombre_completo": "Solís Barrera María Marivel",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222565.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "18/10/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidata a diputada local."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo de MC."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora Nacional de la Red de Vinculación de la Asociación Nacional de Instituciones de Educación Superior."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de Educación Continua de la Universidad Autónoma del Estado de Hidalgo (UAEH)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de Vinculación con el Sector Social y Productivo de la UAEH."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora del Corporativo Universitario de la UAEH."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Promoción y Desarrollo de Empresas Universitarias de la UAEH."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora del Centro de Educación Continua y a Distancia de la UAEH."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Marivel-Sol%C3%ADs-Barrera-472229373261994/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MarivelSolisB",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marivel_solisb/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223919",
+        "titular_nombre": " ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:40:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223055",
+      "nombre_completo": "Téllez Infante Jannet",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Flora Cervantes Reyes",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": "jannet.",
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223055.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de Redes Sociales Progresistas (RSP)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaría de la Fundación Colosio."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Sindicato Mexicano de Electricidad."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2008",
+          "experiencia": "Directora de Educación."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/jannet.tellezinfante",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/InfanteJannet",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jannettellezinfante/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223056",
+        "fecha_extraccion": "2026-10-13T09:40:33+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9223708",
+      "nombre_completo": "González González María Merced",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "02/01/2019",
+      "fecha_nacimiento": "1970-01-01",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223708.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Estudios Legislativos, Segunda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/03/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/03/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "26/03/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Minería y Desarrollo Regional (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidata a diputada local."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Activista socioambiental."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del grupo Servidores de la Nación en Huichapan, Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/LicMariaMerced/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/mariamercedg",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/mariamercedgonzalez/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9223707",
+        "titular_nombre": "Angélica García Arrieta ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T09:40:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221781",
+      "nombre_completo": "Mayorga Delgado Nuvia Magdalena",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Nora Liliana Oropeza Olguin",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221781.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 12,
+      "comisiones": [
+        {
+          "comision": "Economía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Bienestar Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para dar seguimiento a los casos de feminicidio de niñas y adolescentes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/03/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Bicamaral en materia de disciplina financiera de las entidades federativas y de los municipios (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité técnico del Fideicomiso de Inversión y Administración para Apoyar la Construcción y Equipamiento del Nuevo Recinto de la Cámara de Senadores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "31/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para la Igualdad de Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "11/10/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Integrante de la Comisión sobre Federalismo Fiscal del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Miembro de la Comisión Política Permanente del Consejo Nacional del PRI en Hidalgo."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2012",
+          "experiencia": "Consejera política estatal del PRI en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Comisión de Presupuesto y Fiscalización del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Comisión de Vigilancia del Financiamiento a las Campañas del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Organismo Nacional de Mujeres Priistas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Diputada federal en la LXII Legislatura. Presidenta de la Comisión de Presupuesto y Cuenta Pública. Integrante de las comisiones de Hacienda y Crédito Público; y, de Transparencia y Anticorrupción."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2018",
+          "experiencia": "Directora general de la Comisión Nacional para el Desarrollo de los Pueblos Indígenas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2012",
+          "experiencia": "Secretaria de Finanzas y Administración de Hidalgo."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Analista presupuestal de la Secretaría de Programación y Presupuesto Delegación Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de Administración y Finanzas de la Secretaría de Educación Pública de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora general de Egresos de la Secretaría de Finanzas y Administración de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretaria de Egresos de la Secretaría de Finanzas y Administración de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de Administración y Finanzas del Instituto Hidalguense de Educación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subdirectora de Programación Financiera de la Secretaría de Finanzas y Administración de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del Grupo Zona 3 del Sistema Nacional de Coordinación Fiscal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del grupo de trabajo de Fortalecimiento Territorial del Sistema Nacional de Coordinación Fiscal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Comité de Vigilancia de Aportaciones Federales y Otros Recursos Descentralizados del Sistema Nacional de Coordinación Fiscal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Grupo de Gasto, Contabilidad y Transparencia del Sistema Nacional de Coordinación Fiscal."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/NuviaMayorgaDelgado",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/Nuvia_Mayorga",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/nuvia_mayorga/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221782",
+        "fecha_extraccion": "2026-10-13T09:40:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223709",
+      "nombre_completo": "Menchaca Salazar Julio Ramón",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Navor Alberto Rojas Mancera",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223709.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "20/06/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "11/10/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Derechos Humanos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "20/06/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Candidato independiente a la presidencia municipal de Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2013",
+          "experiencia": "Candidato a Presidente de la Comisión de Derechos Humanos del Estado de Hidalgo."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Precandidato a gobernador de Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Diputado local en la LIX Legislatura del Congreso de Hidalgo. Presidente de la Comisión de Legislación y Puntos Constitucionales. Secretario de las comisiones de Derechos Humanos; e, Instructora."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2004",
+          "experiencia": "Magistrado Presidente del Tribunal Superior de Justicia de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor jurídico de la Secretaría de Planeación."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general del Sector Primario de Gobierno de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general de la Comisión Coordinadora para el Desarrollo Agropecuario de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del Comité Técnico del Fideicomiso Agropecuario de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Contralor general del Poder Judicial en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directivo de la Secretaría de Desarrollo Económico."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/JulioMenchacaS/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/juliomenchaca_",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/juliomenchaca_/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223927",
+        "fecha_extraccion": "2026-10-13T09:40:40+00:00"
+      }
+    }
+  ]
 }

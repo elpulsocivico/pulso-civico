@@ -1,1842 +1,1842 @@
 {
-    "metadata": {
-        "entidad_id": 28,
-        "entidad_nombre": "Tamaulipas",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T10:10:59+00:00",
-        "total_diputados": 11,
-        "total_senadores": 3,
-        "total_general": 14
+  "metadata": {
+    "entidad_id": 28,
+    "entidad_nombre": "Tamaulipas",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T10:10:59+00:00",
+    "total_diputados": 11,
+    "total_senadores": 3,
+    "total_general": 14
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9222092",
+      "nombre_completo": "Alemán Hernández Nohemí",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Priscilla Haydee Lagunas Cuellar",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222092.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "13/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "06/03/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "27/02/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "06/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "01/04/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/NohemiAlemanMx/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/NohemiAlemanMx",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/nohemi_aleman_h/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222093",
+        "fecha_extraccion": "2026-10-13T10:10:33+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9223293",
+      "nombre_completo": "Elizondo Guerra Olga Juliana",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Zoraida Lara Cruz",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1950-01-01",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223293.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "9222092",
-            "nombre_completo": "Alemán Hernández Nohemí",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Priscilla Haydee Lagunas Cuellar ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222092.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "13/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano, Urbano, Ordenamiento Territorial y Movilidad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "06/03/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "27/02/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "06/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "01/04/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/NohemiAlemanMx/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/NohemiAlemanMx",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/nohemi_aleman_h/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222093",
-                "fecha_extraccion": "2026-10-13T10:10:33+00:00"
-            }
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "26/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9223293",
-            "nombre_completo": "Elizondo Guerra Olga Juliana",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Zoraida Lara Cruz ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1950-01-01",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223293.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "26/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Responsable de redes del PRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Presidenta del Comité Municipal del PRI en Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinadora estatal de servidores públicos del PRI en Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Secretaria de Operación y Acción Política del Comité Municipal del PRI en Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Secretaria general del Consejo para la Integración de la Mujer del PRI en Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2016",
-                    "experiencia": "Coordinadora regional de la Cruzada Nacional contra el Hambre, región ribereña, de la SEDESOL en Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Presidenta municipal de Nueva Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Delegada de Desarrollo Social Municipal y Coordinadora del Programa Vivamos Mejor de la SEDESOL en Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Oficial Primero en el Registro Civil de Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Directora de la Casa de Cultura de Ciudad Guerrero, Tamaulipas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1995",
-                    "experiencia": "Directora del DIF de Ciudad Guerrero, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "16/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "07/04/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/olgajulianaeg/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/olgajulianaeg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/olgajulianaeg_/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223294",
-                "fecha_extraccion": "2026-10-13T10:10:35+00:00"
-            }
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9223303",
-            "nombre_completo": "González Robledo Erasmo",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juan Dionisio Cruz Guerrero ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1972-06-28",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223303.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "27/04/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Participante en la promoción del voto en redes de sociedad civil, de profesionistas y funcionarios estatales."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Municipal del Instituto Nacional de Contadores Públicos al Servicio del Estado (INCOPSE)."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinador de redes de funcionarios municipales para la campaña de candidato a la presidencia de la República, diputado y senador."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario particular del candidato a la presidencia municipal de Ciudad Madero, Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Diputado local en la LXII Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Vigilancia de la Auditoría Superior del Estado. Secretario de la Comisión de Patrimonio Estatal y Municipal. Integrante de la Comisión Especial Plural para la reforma Política-Electoral del Estado. Vocal de las comisiones de Desarrollo Urbano y Puertos; Desarrollo Sustentable; Ciencia y Tecnología; Información, Gestoría y Quejas; Finanzas, Planeación, Presupuesto y Deuda Pública; Juventud; Turismo; y, Especiales para el Seguimiento de la Reforma Energética; y, de la Vivienda."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2013",
-                    "experiencia": "Delegado regional de Ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Jefe de oficina fiscal de Ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Presidente municipal de Ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Tesorero de Ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Contralor de Ciudad Madero, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Comisario en el DIF de Ciudad Madero, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ErasmoGonzalezR/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/erasmoglz",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/erasmo_glzr/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223304",
-                "fecha_extraccion": "2026-10-13T10:10:36+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223297",
-            "nombre_completo": "Lozano Rodríguez Adriana",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Erika Georgina Lara Vazquez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1969-06-26",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223297.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "18/11/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/02/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "26/02/2019",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2016",
-                    "experiencia": "Administradora del SAT en Matamoros, Tamaulipas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2005",
-                    "experiencia": "Sub-administrador de Atención en el SAT."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Jefa de departamento en el SAT."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Asesora fiscal en la SHCP"
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/adrianalozanomx/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/adrianalozanomx",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/adrianalozanomx/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223298",
-                "fecha_extraccion": "2026-10-13T10:10:38+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223769",
-            "nombre_completo": "Ramos Tamez Mario Alberto",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juan Alejandro Rivera Torres ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1986-04-03",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223769.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/03/2020",
-                    "fecha_fin": "29/09/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "27/02/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "10/03/2020",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2018",
-                    "experiencia": "Delegado especial de MC en Tamaulipas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Secretario de Asuntos Municipales de MC."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Secretario de Organización de MC en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Regidor de Victoria, Tamaulipas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Secretario técnico de la Comisión de Marina de la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Asesor en la Cámara de Diputados."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "02/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "01/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/marioramostam",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/MarioRamosTam",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marioramostam/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223921",
-                "fecha_extraccion": "2026-10-13T10:10:40+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222198",
-            "nombre_completo": "Rodríguez Mier y Terán Mariana",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Delia Margarita Siller Zúñiga ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222198.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/03/2021",
-                    "fecha_fin": "13/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/11/2020",
-                    "fecha_fin": "13/04/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/11/2020",
-                    "fecha_fin": "10/03/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/11/2020",
-                    "fecha_fin": "24/11/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Justicia (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "13/04/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Consejera política estatal del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Miembro de la Comisión de Honor y Justicia del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Magistrada de la Cuarta Sala Penal del Supremo Tribunal de Justicia de Tamaulipas."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2015",
-                    "experiencia": "Subsecretaria de Derechos Humanos de la Secretaría General de Gobierno de Tamaulipas."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2011",
-                    "experiencia": "Fundadora y Coordinadora del Instituto de Investigaciones Parlamentarias del Congreso de Tamaulipas."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Directora Jurídica del DIF de Nuevo León."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/MarianaRMyT/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/marianarmyt",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/marianarmyt/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222199",
-                "fecha_extraccion": "2026-10-13T10:10:42+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9222870",
-            "nombre_completo": "Rosas Quintanilla José Salvador",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Manuel Canales Bermea ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222870.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de Asuntos Migratorios del PAN en Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Diputado local en la LXII Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Fomento al Comercio Exterior. Secretario de las comisiones de Asuntos Fronterizos y Migratorios; y, Especial de la Vivienda. Vocal de las comisiones de Comunicaciones y Transportes; Turismo; Seguridad Pública, Prevención y Reinserción Social; y, Desarrollo de Zonas Metropolitanas."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/chavarosasmx",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/chavarosasmx",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/diputadochava/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222871",
-                "fecha_extraccion": "2026-10-13T10:10:44+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223871",
-            "nombre_completo": "Sosa Ruíz Olga Patricia",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PES",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Alba Silvia García Paredes ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1974-09-22",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223871.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2017",
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2017",
-                    "experiencia": "Consejera estatal del PRI."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2013",
-                    "experiencia": "Presidenta del Organismo Nacional de Mujeres del PRI."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2013",
-                    "experiencia": "Consejera municipal del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del Sindicato de Maestros de la FADU-UAT."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Miembro del sindicato de los maestros de la Universidad Autónoma de Tamaulipas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Diputada local en la LXII Legislatura del Congreso de Tamaulipas. Presidenta de la Comisión de Igualdad de Género. Secretaria de las comisiones de Desarrollo Sustentable; y, Desarrollo de Zonas Metropolitanas. Vocal de las comisiones de Deporte; Educación; Derechos Humanos; y, De La Medalla al Mérito Luís García de Arellano."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal suplente en la LXI Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2013",
-                    "experiencia": "Directora de Deportes y Recreación de la UAT."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2010",
-                    "experiencia": "Directora del Instituto de la Mujer Tamaulipeca."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Regidora suplente de Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Tesorera de la Academia de Maestros de la Facultad de Arquitectura, Diseño y Urbanismo (FADU) de la Universidad Autónoma de Tamaulipas (UAT)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "07/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "06/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/OlgaSosaR/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/olgapsosa",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/olgapsosa/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223306",
-                "fecha_extraccion": "2026-10-13T10:10:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223771",
-            "nombre_completo": "Verástegui Ostos Vicente Javier",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eloy Martínez Carrizales ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223771.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/06/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2021",
-                    "experiencia": "Secretario de Acuerdos de la Unión Nacional de Productores de Caña de Azúcar."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Agroindustria y Bioenergéticos de la Unión Nacional de Productores de Caña de Azúcar, CNC."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Unión Local de Productores de Caña de Azúcar Abastecedores del Ingenio Aarón Sáenz Garza."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Diputado local en la LX Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Desarrollo Urbano. Propietario de la Comisión Instructora. Secretario de la Comisión de Desarrollo Rural. Vocal de las comisiones de Administración; Comunicaciones y Transportes; Educación; Turismo; y, Especial del Recurso Agua."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Presidente municipal de Xicoténcatl, Tamaulipas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2007",
-                    "experiencia": "Presidente municipal de Xicoténcatl, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "24/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "22/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/vicente.verasteguiostos.3",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/vicentevomx",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/vicenteverastegui2018/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223772",
-                "fecha_extraccion": "2026-10-13T10:10:48+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223295",
-            "nombre_completo": "Villegas González Héctor Joel",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PES",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Silvestre Resendez Muñoz ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223295.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "16/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "16/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Frontera Norte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "16/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "26/11/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "26/11/2019",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Miembro del sindicato de Trabajadores de la Secretaría de Hacienda y Crédito Público."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor de Operación Aduanera en el SAT."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor aduanal en la SHCP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de la sección de especialistas hacendarios."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "28/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "06/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/CalabazoVillegasRB/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/HectorCalabazoV",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/hectorvillegascalabazo/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223296",
-                "fecha_extraccion": "2026-10-13T10:10:50+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9223773",
-            "nombre_completo": "Zertuche Zuani Armando Javier",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Fernando López Gómez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223773.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/07/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/10/2018",
-                    "fecha_fin": "05/03/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "18/10/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "05/03/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado federal."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Desarrollo Económico y del Empleo de Reynosa, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "14/06/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "05/03/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/armandozertuchezuani",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/armandozertuchezuani/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223774",
-                "fecha_extraccion": "2026-10-13T10:10:52+00:00"
-            }
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9223889",
-            "nombre_completo": "Covarrubias Cervantes María Guadalupe",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Rosalinda Cantú González ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223889.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/06/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "11/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para la Igualdad de Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "29/06/2020",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Cultura (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidata a diputada federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable de las jornadas de afiliación de MORENA en Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Comité Municipal de MORENA en Tampico, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundadora de Morena."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de escuela primaria."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de escuela secundaria federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefa de enseñanza de Historia en secundaria."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/mtra.lupitac/?ref=br_rs",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/mtra_lupita",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/sen.lupita.covarrubias/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223890",
-                "fecha_extraccion": "2026-10-13T10:10:55+00:00"
-            }
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Responsable de redes del PRI."
         },
         {
-            "referencia_sil": "9221721",
-            "nombre_completo": "García Cabeza de Vaca Ismael",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Edmundo José Marón Manzur ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221721.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Seguridad Nacional (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/11/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "05/03/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Secretario General del Comité Directivo Estatal Tamaulipas."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Regidor de Reynosa, Tamaulipas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/IGCabezadeVaca",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/igcabezadevaca",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/igcabezadevaca/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221722",
-                "fecha_extraccion": "2026-10-13T10:10:57+00:00"
-            }
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Presidenta del Comité Municipal del PRI en Ciudad Guerrero, Tamaulipas."
         },
         {
-            "referencia_sil": "9221941",
-            "nombre_completo": "Villarreal Anaya Américo",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Tamaulipas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Faustino López Vargas ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1958-05-23",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221941.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "10/12/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "02/02/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "13/04/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2016",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Calidad y Atención Hospitalaria de la Secretaria de Salud de Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Hospital General de Ciudad Victoria, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador médico en PEMEX."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de la Unidad de Cuidados Intensivos Coronarios del Hospital General en Ciudad Victoria, Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Hospital General Norberto Treviño Zapata."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/dr.americovillarreal/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/Dr_Avillarreal",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/americo.villarreal/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221942",
-                "fecha_extraccion": "2026-10-13T10:10:59+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Coordinadora estatal de servidores públicos del PRI en Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Secretaria de Operación y Acción Política del Comité Municipal del PRI en Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Secretaria general del Consejo para la Integración de la Mujer del PRI en Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2016",
+          "experiencia": "Coordinadora regional de la Cruzada Nacional contra el Hambre, región ribereña, de la SEDESOL en Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Presidenta municipal de Nueva Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Delegada de Desarrollo Social Municipal y Coordinadora del Programa Vivamos Mejor de la SEDESOL en Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Oficial Primero en el Registro Civil de Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Directora de la Casa de Cultura de Ciudad Guerrero, Tamaulipas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1995",
+          "experiencia": "Directora del DIF de Ciudad Guerrero, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "16/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "07/04/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/olgajulianaeg/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/olgajulianaeg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/olgajulianaeg_/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223294",
+        "fecha_extraccion": "2026-10-13T10:10:35+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223303",
+      "nombre_completo": "González Robledo Erasmo",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juan Dionisio Cruz Guerrero",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1972-06-28",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223303.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "27/04/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Sustentabilidad, Cambio Climático y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Participante en la promoción del voto en redes de sociedad civil, de profesionistas y funcionarios estatales."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Municipal del Instituto Nacional de Contadores Públicos al Servicio del Estado (INCOPSE)."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinador de redes de funcionarios municipales para la campaña de candidato a la presidencia de la República, diputado y senador."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Secretario particular del candidato a la presidencia municipal de Ciudad Madero, Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Diputado local en la LXII Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Vigilancia de la Auditoría Superior del Estado. Secretario de la Comisión de Patrimonio Estatal y Municipal. Integrante de la Comisión Especial Plural para la reforma Política-Electoral del Estado. Vocal de las comisiones de Desarrollo Urbano y Puertos; Desarrollo Sustentable; Ciencia y Tecnología; Información, Gestoría y Quejas; Finanzas, Planeación, Presupuesto y Deuda Pública; Juventud; Turismo; y, Especiales para el Seguimiento de la Reforma Energética; y, de la Vivienda."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2013",
+          "experiencia": "Delegado regional de Ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Jefe de oficina fiscal de Ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Presidente municipal de Ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Tesorero de Ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Contralor de Ciudad Madero, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Comisario en el DIF de Ciudad Madero, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ErasmoGonzalezR/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/erasmoglz",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/erasmo_glzr/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223304",
+        "fecha_extraccion": "2026-10-13T10:10:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223297",
+      "nombre_completo": "Lozano Rodríguez Adriana",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Erika Georgina Lara Vazquez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1969-06-26",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223297.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "18/11/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/02/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "26/02/2019",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2016",
+          "experiencia": "Administradora del SAT en Matamoros, Tamaulipas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2005",
+          "experiencia": "Sub-administrador de Atención en el SAT."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Jefa de departamento en el SAT."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Asesora fiscal en la SHCP"
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/adrianalozanomx/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/adrianalozanomx",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/adrianalozanomx/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223298",
+        "fecha_extraccion": "2026-10-13T10:10:38+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223769",
+      "nombre_completo": "Ramos Tamez Mario Alberto",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juan Alejandro Rivera Torres",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1986-04-03",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223769.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/03/2020",
+          "fecha_fin": "29/09/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "27/02/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "10/03/2020",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2018",
+          "experiencia": "Delegado especial de MC en Tamaulipas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Secretario de Asuntos Municipales de MC."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Secretario de Organización de MC en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Regidor de Victoria, Tamaulipas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Secretario técnico de la Comisión de Marina de la Cámara de Diputados."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Asesor en la Cámara de Diputados."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "02/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "01/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/marioramostam",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/MarioRamosTam",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marioramostam/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223921",
+        "fecha_extraccion": "2026-10-13T10:10:40+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222198",
+      "nombre_completo": "Rodríguez Mier y Terán Mariana",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Delia Margarita Siller Zúñiga",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222198.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/03/2021",
+          "fecha_fin": "13/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/11/2020",
+          "fecha_fin": "13/04/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/11/2020",
+          "fecha_fin": "10/03/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/11/2020",
+          "fecha_fin": "24/11/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Justicia (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "13/04/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Consejera política estatal del PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Miembro de la Comisión de Honor y Justicia del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Magistrada de la Cuarta Sala Penal del Supremo Tribunal de Justicia de Tamaulipas."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2015",
+          "experiencia": "Subsecretaria de Derechos Humanos de la Secretaría General de Gobierno de Tamaulipas."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2011",
+          "experiencia": "Fundadora y Coordinadora del Instituto de Investigaciones Parlamentarias del Congreso de Tamaulipas."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Directora Jurídica del DIF de Nuevo León."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/MarianaRMyT/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/marianarmyt",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/marianarmyt/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222199",
+        "fecha_extraccion": "2026-10-13T10:10:42+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222870",
+      "nombre_completo": "Rosas Quintanilla José Salvador",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Manuel Canales Bermea",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222870.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de Asuntos Migratorios del PAN en Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Diputado local en la LXII Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Fomento al Comercio Exterior. Secretario de las comisiones de Asuntos Fronterizos y Migratorios; y, Especial de la Vivienda. Vocal de las comisiones de Comunicaciones y Transportes; Turismo; Seguridad Pública, Prevención y Reinserción Social; y, Desarrollo de Zonas Metropolitanas."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/chavarosasmx",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/chavarosasmx",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/diputadochava/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222871",
+        "fecha_extraccion": "2026-10-13T10:10:44+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223871",
+      "nombre_completo": "Sosa Ruíz Olga Patricia",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PES",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Alba Silvia García Paredes",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1974-09-22",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223871.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2017",
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2017",
+          "experiencia": "Consejera estatal del PRI."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2013",
+          "experiencia": "Presidenta del Organismo Nacional de Mujeres del PRI."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2013",
+          "experiencia": "Consejera municipal del PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Secretaria general del Sindicato de Maestros de la FADU-UAT."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Miembro del sindicato de los maestros de la Universidad Autónoma de Tamaulipas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Diputada local en la LXII Legislatura del Congreso de Tamaulipas. Presidenta de la Comisión de Igualdad de Género. Secretaria de las comisiones de Desarrollo Sustentable; y, Desarrollo de Zonas Metropolitanas. Vocal de las comisiones de Deporte; Educación; Derechos Humanos; y, De La Medalla al Mérito Luís García de Arellano."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal suplente en la LXI Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2013",
+          "experiencia": "Directora de Deportes y Recreación de la UAT."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2010",
+          "experiencia": "Directora del Instituto de la Mujer Tamaulipeca."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Regidora suplente de Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Tesorera de la Academia de Maestros de la Facultad de Arquitectura, Diseño y Urbanismo (FADU) de la Universidad Autónoma de Tamaulipas (UAT)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "07/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "06/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/OlgaSosaR/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/olgapsosa",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/olgapsosa/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223306",
+        "fecha_extraccion": "2026-10-13T10:10:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223771",
+      "nombre_completo": "Verástegui Ostos Vicente Javier",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eloy Martínez Carrizales",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223771.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/06/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2021",
+          "experiencia": "Secretario de Acuerdos de la Unión Nacional de Productores de Caña de Azúcar."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Secretario de la Agroindustria y Bioenergéticos de la Unión Nacional de Productores de Caña de Azúcar, CNC."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Presidente de la Unión Local de Productores de Caña de Azúcar Abastecedores del Ingenio Aarón Sáenz Garza."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Diputado local en la LX Legislatura del Congreso de Tamaulipas. Presidente de la Comisión de Desarrollo Urbano. Propietario de la Comisión Instructora. Secretario de la Comisión de Desarrollo Rural. Vocal de las comisiones de Administración; Comunicaciones y Transportes; Educación; Turismo; y, Especial del Recurso Agua."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Presidente municipal de Xicoténcatl, Tamaulipas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2007",
+          "experiencia": "Presidente municipal de Xicoténcatl, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "24/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "22/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/vicente.verasteguiostos.3",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/vicentevomx",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/vicenteverastegui2018/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223772",
+        "fecha_extraccion": "2026-10-13T10:10:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223295",
+      "nombre_completo": "Villegas González Héctor Joel",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PES",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Silvestre Resendez Muñoz",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223295.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "16/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "16/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Frontera Norte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "16/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "26/11/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "26/11/2019",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Miembro del sindicato de Trabajadores de la Secretaría de Hacienda y Crédito Público."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor de Operación Aduanera en el SAT."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor aduanal en la SHCP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de la sección de especialistas hacendarios."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "28/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "06/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/CalabazoVillegasRB/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/HectorCalabazoV",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/hectorvillegascalabazo/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223296",
+        "fecha_extraccion": "2026-10-13T10:10:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9223773",
+      "nombre_completo": "Zertuche Zuani Armando Javier",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Fernando López Gómez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223773.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/07/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/10/2018",
+          "fecha_fin": "05/03/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "18/10/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "05/03/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a diputado federal."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Desarrollo Económico y del Empleo de Reynosa, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "14/06/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "05/03/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/armandozertuchezuani",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/armandozertuchezuani/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223774",
+        "fecha_extraccion": "2026-10-13T10:10:52+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9223889",
+      "nombre_completo": "Covarrubias Cervantes María Guadalupe",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Rosalinda Cantú González",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9223889.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/06/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "11/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para la Igualdad de Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "29/06/2020",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Cultura (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidata a diputada federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable de las jornadas de afiliación de MORENA en Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera nacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Comité Municipal de MORENA en Tampico, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundadora de Morena."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de escuela primaria."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de escuela secundaria federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefa de enseñanza de Historia en secundaria."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/mtra.lupitac/?ref=br_rs",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/mtra_lupita",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/sen.lupita.covarrubias/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223890",
+        "fecha_extraccion": "2026-10-13T10:10:55+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221721",
+      "nombre_completo": "García Cabeza de Vaca Ismael",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Edmundo José Marón Manzur",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221721.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Seguridad Nacional (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/11/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "05/03/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Secretario General del Comité Directivo Estatal Tamaulipas."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Regidor de Reynosa, Tamaulipas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/IGCabezadeVaca",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/igcabezadevaca",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/igcabezadevaca/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221722",
+        "fecha_extraccion": "2026-10-13T10:10:57+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221941",
+      "nombre_completo": "Villarreal Anaya Américo",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Tamaulipas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Faustino López Vargas",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1958-05-23",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221941.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "10/12/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "02/02/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, América del Norte (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "13/04/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Miembro activo de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2016",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de Calidad y Atención Hospitalaria de la Secretaria de Salud de Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Hospital General de Ciudad Victoria, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador médico en PEMEX."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de la Unidad de Cuidados Intensivos Coronarios del Hospital General en Ciudad Victoria, Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Hospital General Norberto Treviño Zapata."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/dr.americovillarreal/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/Dr_Avillarreal",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/americo.villarreal/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221942",
+        "fecha_extraccion": "2026-10-13T10:10:59+00:00"
+      }
+    }
+  ]
 }

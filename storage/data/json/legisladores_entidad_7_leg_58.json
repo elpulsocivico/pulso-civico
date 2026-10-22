@@ -1,2024 +1,2024 @@
 {
-    "metadata": {
-        "entidad_id": 7,
-        "entidad_nombre": "Chiapas",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T00:55:55+00:00",
-        "total_diputados": 11,
-        "total_senadores": 4,
-        "total_general": 15
+  "metadata": {
+    "entidad_id": 7,
+    "entidad_nombre": "Chiapas",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T00:55:55+00:00",
+    "total_diputados": 11,
+    "total_senadores": 4,
+    "total_general": 15
+  },
+  "diputados": [
+    {
+      "referencia_sil": "716",
+      "nombre_completo": "Arizpe Jiménez Miguel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Hilda Esthela Flores Escalera",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/716.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Secretario general del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Presidente municipal de Saltillo Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Director general del Instituto Coahuilense del Catastro y Planeación Territorial."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Secretario de finanzas del gobierno de Coahuila."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1990",
+          "experiencia": "Primer regidor de Saltillo, Coahuila."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1987",
+          "experiencia": "Director general de egresos de la tesorería de Coahuila."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1978",
+          "experiencia": "Secretario particular del gobernador de Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178281",
+        "fecha_extraccion": "2026-10-13T00:55:25+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1080",
+      "nombre_completo": "Ayala Velázquez Benjamín",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Julio César Portales Martínez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1080.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "716",
-            "nombre_completo": "Arizpe Jiménez Miguel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Hilda Esthela Flores Escalera ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/716.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario general del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente municipal de Saltillo Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Director general del Instituto Coahuilense del Catastro y Planeación Territorial."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de finanzas del gobierno de Coahuila."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1990",
-                    "experiencia": "Primer regidor de Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1987",
-                    "experiencia": "Director general de egresos de la tesorería de Coahuila."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1978",
-                    "experiencia": "Secretario particular del gobernador de Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178281",
-                "fecha_extraccion": "2026-10-13T00:55:25+00:00"
-            }
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1080",
-            "nombre_completo": "Ayala Velázquez Benjamín",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Julio César Portales Martínez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1080.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Consejero municipal del PRI en Torreón, Coahuila."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de acción electoral del CEN del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente de México Nuevo, APN."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario de organización y ejecución del Frente Juvenil Revolucionario (FJR)."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Oficial mayor de la CNOP."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178562",
-                "fecha_extraccion": "2026-10-13T00:55:27+00:00"
-            }
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1075",
-            "nombre_completo": "Cárdenas Elizondo Francisco",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juana María Hernández Pérez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1075.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la Comisión de Administración de Justicia de la Fundación Cambio XXI."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Asesor jurídico del CDM del PRI en Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Primera Comisión Distrital del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la dirección juvenil en el CDM del PRI en Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Fundador del bufete jurídico gratuito de la CNOP en Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1970",
-                    "experiencia": "Secretario de operación juvenil de la Federación Estatal de la CNOP en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Militante del PRI y miembro del sector popular."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del Tribunal Superior de Justicia de Coahuila."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente de la Sala Colegiada Civil y Familiar del Tribunal Superior de Justicia de Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1999",
-                    "experiencia": "Magistrado del Tribunal Superior de Justicia de Coahuila."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1991",
-                    "experiencia": "Magistrado del Tribunal Fiscal de la Federación."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Subprocurador fiscal de la federación para la región noreste del país."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Jefe de la oficina federal de Hacienda en Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1978",
-                    "experiencia": "Subdirector del Registro Agrario Nacional (RAN)."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Director del registro civil de Coahuila."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1975",
-                    "experiencia": "Subdirector de asuntos administrativos del gobierno de Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178557",
-                "fecha_extraccion": "2026-10-13T00:55:30+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1074",
-            "nombre_completo": "Dávila Montesinos Marco Antonio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Adela Villalobos Chaparro ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1074.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Durango."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador estatal de la precampaña presidencial del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador general de la campaña del PRI para la gubernatura de Coahuila."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal de comités seccionales del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PRI en Sabinas, Coahuila."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI adherente al sector popular."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Secretario de la Comisión de Asuntos Fronterizos; miembro de las comisiones del Deporte, de la Vigilancia de la Contaduría Mayor de Hacienda, y Especial de Seguimiento en relación a la Propuesta 187."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Subsecretario de gobierno y desarrollo político de Coahuila."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador regional del Programa Nacional de Solidaridad en Coahuila."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Tesorero municipal de Sabinas, Coahuila."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": null,
-                    "experiencia": "Analista de BANRURAL."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1970",
-                    "experiencia": "Analista en el Banco Agrario de Yucatán."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de comunicaciones y obras públicas de Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178556",
-                "fecha_extraccion": "2026-10-13T00:55:32+00:00"
-            }
-        },
-        {
-            "referencia_sil": "711",
-            "nombre_completo": "De la Rosa Godoy Jesús",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Gonzalo Domínguez Cortinas ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/711.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario técnico del CPE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Consejero académico de la Escuela Nacional de Cuadros del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador de los actos de cierre de campaña del sector agrario del candidato a la presidencia de la República del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador de participación social del PRI en Guerrero durante la campaña para la presidencia de la República."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Consejero universitario del Estatuto de la Universidad Autónoma de Coahuila (UAdeC)."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Vocal de la Comisión Dictaminadora para la elección del CDE de Coahuila."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Comisionado político en el distrito federal electoral 7 de Coahuila."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Consejero técnico de la LCAySC en Coahuila."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CDE del PRI en los municipios de Torreón y San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Delegado y presidente interino del CDM del PRI en Matamoros, Coahuila."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Representante general del PRI en el distrito federal electoral 7 de Coahuila."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Delegado del sector popular en San Pedro Coahuila."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de capacitación electoral del CDM del PRI en San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del CDM del PRI en San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario general de la FSTSE en San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Delegado regional en Guanajuato."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del Comité Distrital en Valle Santiago, Guanajuato."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del CDM del PRI en Gómez Palacios, Durango."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Delegado regional en Michoacán."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del CDM del PRI en Torreón, Coahuila."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CDE del PRI Coahuila en la región de los cinco manantiales."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del CDM del PRI en Monclova, Coahuila."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Delegado del Movimiento Nacional de la Juventud Revolucionaria en distintos estados."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Colaborador en la campaña para la presidencia de la República del PRI."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI. Miembro del sector agrario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente de la sección 35 del magisterio en la región de La Laguna en Durango y Coahuila."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado local en la LII legislatura del Congreso de Coahuila. Presidente de la Gran Comisión y de las comisiones de Programación y Presupuesto, de Gobernación y Puntos Constitucionales, de la Contaduría Mayor de Hacienda; y representante de la legislatura ante la Comisión Estatal Electoral."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de relaciones públicas de la SEP en La Laguna."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1991",
-                    "experiencia": "Coordinador municipal del programa Trabajemos Juntos del gobierno de Coahuila."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Jefe pecuario del centro de desarrollo rural de San Pedro, Coahuila."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Jefe de planeación en la subdirección de servicios urbanos de la delegación Cuauhtémoc, DDF."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Subdirector de especies menores de la SARH en la Laguna."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Subjefe del centro porcino de la SARH en la región de la Laguna."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Instructor de capacitación campesina en el Centro CONASUPO en Libres, Puebla."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178278",
-                "fecha_extraccion": "2026-10-13T00:55:34+00:00"
-            }
-        },
-        {
-            "referencia_sil": "56036",
-            "nombre_completo": "Faya Viesca Silvestre Enrique",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/56036.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/09/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/08/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "715",
-                "titular_nombre": "José Guillermo Anaya Llamas ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:36+00:00"
-            }
-        },
-        {
-            "referencia_sil": "712",
-            "nombre_completo": "Maldonado Domínguez Óscar Romeo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Hilda Adriana Arias García ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/712.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente del CDM del PAN en Monclova, Coahuila."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario general del CDM del PAN en Monclova, Coahuila."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Capacitador nacional en el CEN del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE del PAN en Coahuila."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Director del departamento de bienestar social de la secretaria de Trabajo y Previsión Social en Guanajuato, Guanajuato."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "21/08/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "17/07/2002",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178279",
-                "fecha_extraccion": "2026-10-13T00:55:37+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1056",
-            "nombre_completo": "Martínez González Raúl",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Dora Elia Chapa Pérez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1056.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión Política de Análisis y Seguimiento a Comités Municipales de la región norte de Coahuila."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña de Vicente Fox para la presidencia de la República en el norte de Coahuila."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDM del PAN en Piedras Negras, Coahuila."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité Estratégico de campaña del candidato del PAN para gobernador de Coahuila."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña política del presidente municipal de Piedras Negras, Coahuila."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Representante del CDE del PAN de Coahuila para mediar entre los candidatos a presidentes municipales de las ciudades de Sabinas y Nueva Rosita."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador del Movimiento Ciudadano Región Norte Campaña 2000."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campañas de diputado federal por Coahuila."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Director de finanzas del CDM del PAN en Piedras Negras, Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del grupo de amistad con Uruguay."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal suplente en la LVII legislatura del Congreso de la Unión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité de Seguridad Pública y del Comité de Impuestos sobre Nóminas de Piedras Negras, Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "17/07/2002",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "02/10/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "60281",
-                "fecha_extraccion": "2026-10-13T00:55:39+00:00"
-            }
-        },
-        {
-            "referencia_sil": "60475",
-            "nombre_completo": "Romo Castillón María Teresa de Jesús",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60475.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/10/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/10/2002",
-                    "fecha_fin": "15/12/2002",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2002",
-                    "fecha_fin": "17/10/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN en Saltillo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE del PAN en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de comunicación social de campaña presidencial del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Presidenta del DIF en Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera del Instituto de la Mujer en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del programa Mi Ciudadano."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "713",
-                "titular_nombre": "Ernesto Saro Boardman ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:41+00:00"
-            }
-        },
-        {
-            "referencia_sil": "60895",
-            "nombre_completo": "Valdés Torres Armín José",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60895.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción social del Comité Municipal del PRI en Cd Acuña, Coah."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Participación activa en las campañas a puestos de elección popular del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de profesionistas y técnicos de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Comisionado político en el IV Distrito electoral federal en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vocero oficial del CDM del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Encargado de Legimitación y Debate del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PRI en Acuña, Coah."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Subprocurador de justicia de Coahuila."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Agente investigador del ministerio público."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Asesor jurídico en CONASUPO."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Agencia del Ministerio Público adscrito al segundo Penal en Torreón, Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante de la Subsecretaría de Hacienda y Crédito Público en el norte del estado de Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Administrador de la Aduana Fronteriza de Cd. Acuña, Coah."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Agente del Ministerio Público Federal en las ciudades de Saltillo, Torreón Gómez Palacio México y Cd. Acuña, Coah."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/08/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "710",
-                "titular_nombre": "Claudio Mario Bres Garza ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T00:55:43+00:00"
-            }
-        },
-        {
-            "referencia_sil": "714",
-            "nombre_completo": "Villarreal Castro Néstor",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Javier Martínez Aguilera ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/714.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "26/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinador en la región lagunera en la campaña para gobernador de Coahuila."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": "2000",
-                    "experiencia": "Titular del CEBETIS campus Coahuila."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Director de la Escuela de Ciencias de la Comunicación de la Universidad Autónoma de Coahuila."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1980",
-                    "experiencia": "Agente del ministerio público de la PGJDF."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la PGR en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de la Academia de Policía de Torreón, Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178280",
-                "fecha_extraccion": "2026-10-13T00:55:44+00:00"
-            }
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1265",
-            "nombre_completo": "Gutiérrez Gutiérrez Alejandro",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Coahuila",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ma. Enriqueta Barrera García ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1265.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Económico (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Precandidato del PRI al gobierno de Coahuila."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario general del CDE del PRI en Coahuila."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario general de la CNOP en Coahuila."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Secretario general del Movimiento Estatal de las Juventudes Revolucionarias de Coahuila."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente del Frente Juvenil Revolucionario en Coahuila."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Presidente de la Comisión de Apoyo a la Producción y Coordinador de los diputados del PRI de Coahuila."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputado local en la L legislatura del Congreso de Coahuila. Coordinador de la fracción parlamentaria del PRI."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Representante en el Distrito Federal del gobierno de Coahuila."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1993",
-                    "experiencia": "Director general de Servicios Estatales Aeroportuarios en Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178699",
-                "fecha_extraccion": "2026-10-13T00:55:48+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PRI."
         },
         {
-            "referencia_sil": "1226",
-            "nombre_completo": "Rico Samaniego Luis Alberto",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Rafael Anselmo Rico González ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1226.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Jubilados y Pensionados (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medalla de honor Belisario Domínguez (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente y Secretario de comunicación del CDE del PAN en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PAN en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante del PAN ante el consejo local del IFE de Aguascalientes."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Coahuila."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Integrante de las comisiones de Programación Presupuesto y Cuenta Publica, Energéticos, Comercio, y Reconstrucción de la Cámara."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Regidor del municipio de Saltillo, Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del consejo de administración del Fondo de Pensiones del municipio de Saltillo, Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178665",
-                "fecha_extraccion": "2026-10-13T00:55:50+00:00"
-            }
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Consejero municipal del PRI en Torreón, Coahuila."
         },
         {
-            "referencia_sil": "1333",
-            "nombre_completo": "Roque Villanueva Humberto",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Coahuila",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Guadalupe Francisca Martínez Cruz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1333.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Nacional para el desarrollo del proceso interno para la elección de la dirigencia nacional del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Coordinador del debate político en la campaña presidencial."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Precandidato del PRI a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Nacional de Desarrollo Regional del CPN del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Líder nacional del PRI."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Secretario de coordinación regional del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Asesor del oficial mayor del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario de comercialización y abasto rural del CEN de la CNC."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Subsecretario de organización del PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Asesor de la diputación campesina del PRI en la LII legislatura."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Asesor en asuntos económicos del presidente de la Gran Comisión de la Cámara de diputados."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1977",
-                    "experiencia": "Secretario de planeación y productividad ejidal del CEN de la CNC."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de la asamblea de planeación por regiones y estados en el XII Congreso Nacional Ordinario del PRI."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": null,
-                    "experiencia": "Representante de la CNC en la misión comercial en Japón."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1973",
-                    "experiencia": "Coordinador general de la Comisión de Estudios Técnicos en la CNC."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Ejecutivo de la Federación Universitaria de Sociedades de Alumnos de la UNAM."
-                },
-                {
-                    "del_ano": "1960",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado en la LVI legislatura. Coordinador del grupo parlamentario del PRI (1995). Presidente de la Gran Comisión y de la Comisión de Régimen Interno y Concertación Política."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado en la LIV legislatura. Integrante de la Comisión Permanente en el primer receso del primer y segundo año. Presidente y secretario de la Comisión de Programación y Presupuesto de la Cuenta Pública. Vicepresidente de la Mesa Directiva."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Director general de Aseguradora Hidalgo, SA."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de organización de la Secretaría de Pesca."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador general del fideicomiso de estudios y proyectos agropecuarios del sector social, del Banco Obrero, SA."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Coordinador interinstitucional en BANRURAL."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general del Fondo Nacional de Fomento Ejidal."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": null,
-                    "experiencia": "Asesor de asuntos económicos del presidente de la Gran Comisión de la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1982",
-                    "experiencia": "Asesor del Secretario de Agricultura y Recursos Hidráulicos."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1976",
-                    "experiencia": "Asesor técnico del secretario de Obras Públicas."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la delegación mexicana al Congreso Mundial de la Juventud de Naciones Unidas, en Nueva York, EUA."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1970",
-                    "experiencia": "Subjefe de capacitación del Instituto de la Juventud (INJUVE)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo de administración de BANRURAL."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del comité técnico del Fideicomiso Instituidos, en relación con la agricultura."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178757",
-                "fecha_extraccion": "2026-10-13T00:55:51+00:00"
-            }
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Subsecretario de acción electoral del CEN del PRI."
         },
         {
-            "referencia_sil": "1225",
-            "nombre_completo": "Zermeño Infante Jorge",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Coahuila",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jaime Armando De Lara Tamayo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1225.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención y Seguimiento a las Indagaciones del Proceso que se sigue en torno al Homicidio del Lic. Luis Donaldo Colosio Murrieta (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Miembro del CEN del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente municipal de Torreón, Coahuila."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Representante del PAN ante IFE."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado federal por el PAN."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Candidato a primer regidor del municipio de Torreón, Coahuila."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo nacional del PAN."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Presidente del CDE del PAN en Coahuila."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1990",
-                    "experiencia": "Presidente del CDM de Torreón, Coahuila (83-85 y 87-90)."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Secretario general del del CDM de Torreón, Coahuila."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1981",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Coahuila."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1973",
-                    "experiencia": "Candidato a síndico del municipio de Tlalnepantla, estado de México."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1974",
-                    "experiencia": "Secretario de organización del CDE del PAN en el estado de México."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la secretaría Juvenil del DF."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura. Consejero titular representante de la Cámara de Diputados ante el Consejo General del IFE. Coordinador de los trabajos relativos a las reformas en materia agraria y electoral, en el grupo parlamentario del PAN."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal suplente en la LI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178664",
-                "fecha_extraccion": "2026-10-13T00:55:55+00:00"
-            }
+          "del_ano": "1995",
+          "al_ano": "1999",
+          "experiencia": "Presidente de México Nuevo, APN."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Secretario de organización y ejecución del Frente Juvenil Revolucionario (FJR)."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Oficial mayor de la CNOP."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178562",
+        "fecha_extraccion": "2026-10-13T00:55:27+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1075",
+      "nombre_completo": "Cárdenas Elizondo Francisco",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juana María Hernández Pérez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1075.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a las Investigaciones relacionadas con los homicidios de las mujeres, perpetrados en Ciudad Juárez, Chihuahua. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Coordinador de la Comisión de Administración de Justicia de la Fundación Cambio XXI."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Asesor jurídico del CDM del PRI en Saltillo, Coahuila."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": null,
+          "experiencia": "Secretario general de la Primera Comisión Distrital del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": null,
+          "experiencia": "Secretario general de la dirección juvenil en el CDM del PRI en Saltillo, Coahuila."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Fundador del bufete jurídico gratuito de la CNOP en Saltillo, Coahuila."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1970",
+          "experiencia": "Secretario de operación juvenil de la Federación Estatal de la CNOP en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Militante del PRI y miembro del sector popular."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Presidente del Tribunal Superior de Justicia de Coahuila."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Presidente de la Sala Colegiada Civil y Familiar del Tribunal Superior de Justicia de Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1999",
+          "experiencia": "Magistrado del Tribunal Superior de Justicia de Coahuila."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1991",
+          "experiencia": "Magistrado del Tribunal Fiscal de la Federación."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Subprocurador fiscal de la federación para la región noreste del país."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Jefe de la oficina federal de Hacienda en Saltillo, Coahuila."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1978",
+          "experiencia": "Subdirector del Registro Agrario Nacional (RAN)."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Director del registro civil de Coahuila."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1975",
+          "experiencia": "Subdirector de asuntos administrativos del gobierno de Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178557",
+        "fecha_extraccion": "2026-10-13T00:55:30+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1074",
+      "nombre_completo": "Dávila Montesinos Marco Antonio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Adela Villalobos Chaparro",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1074.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Durango."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Coordinador estatal de la precampaña presidencial del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Presidente del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Coordinador general de la campaña del PRI para la gubernatura de Coahuila."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Coordinador estatal de comités seccionales del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PRI en Sabinas, Coahuila."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI adherente al sector popular."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Secretario de la Comisión de Asuntos Fronterizos; miembro de las comisiones del Deporte, de la Vigilancia de la Contaduría Mayor de Hacienda, y Especial de Seguimiento en relación a la Propuesta 187."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Subsecretario de gobierno y desarrollo político de Coahuila."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Coordinador regional del Programa Nacional de Solidaridad en Coahuila."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Tesorero municipal de Sabinas, Coahuila."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": null,
+          "experiencia": "Analista de BANRURAL."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1970",
+          "experiencia": "Analista en el Banco Agrario de Yucatán."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de comunicaciones y obras públicas de Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178556",
+        "fecha_extraccion": "2026-10-13T00:55:32+00:00"
+      }
+    },
+    {
+      "referencia_sil": "711",
+      "nombre_completo": "De la Rosa Godoy Jesús",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Gonzalo Domínguez Cortinas",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/711.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Secretario técnico del CPE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Consejero académico de la Escuela Nacional de Cuadros del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador de los actos de cierre de campaña del sector agrario del candidato a la presidencia de la República del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador de participación social del PRI en Guerrero durante la campaña para la presidencia de la República."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Consejero universitario del Estatuto de la Universidad Autónoma de Coahuila (UAdeC)."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Vocal de la Comisión Dictaminadora para la elección del CDE de Coahuila."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Comisionado político en el distrito federal electoral 7 de Coahuila."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Consejero técnico de la LCAySC en Coahuila."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Delegado del CDE del PRI en los municipios de Torreón y San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Delegado y presidente interino del CDM del PRI en Matamoros, Coahuila."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Representante general del PRI en el distrito federal electoral 7 de Coahuila."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Delegado del sector popular en San Pedro Coahuila."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Coordinador de capacitación electoral del CDM del PRI en San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Auxiliar del CDM del PRI en San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Secretario general de la FSTSE en San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Delegado regional en Guanajuato."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Auxiliar del Comité Distrital en Valle Santiago, Guanajuato."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Auxiliar del CDM del PRI en Gómez Palacios, Durango."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Delegado regional en Michoacán."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": null,
+          "experiencia": "Auxiliar del CDM del PRI en Torreón, Coahuila."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Delegado del CDE del PRI Coahuila en la región de los cinco manantiales."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Auxiliar del CDM del PRI en Monclova, Coahuila."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Delegado del Movimiento Nacional de la Juventud Revolucionaria en distintos estados."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Colaborador en la campaña para la presidencia de la República del PRI."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI. Miembro del sector agrario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente de la sección 35 del magisterio en la región de La Laguna en Durango y Coahuila."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado local en la LII legislatura del Congreso de Coahuila. Presidente de la Gran Comisión y de las comisiones de Programación y Presupuesto, de Gobernación y Puntos Constitucionales, de la Contaduría Mayor de Hacienda; y representante de la legislatura ante la Comisión Estatal Electoral."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de relaciones públicas de la SEP en La Laguna."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1991",
+          "experiencia": "Coordinador municipal del programa Trabajemos Juntos del gobierno de Coahuila."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Jefe pecuario del centro de desarrollo rural de San Pedro, Coahuila."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Jefe de planeación en la subdirección de servicios urbanos de la delegación Cuauhtémoc, DDF."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Subdirector de especies menores de la SARH en la Laguna."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Subjefe del centro porcino de la SARH en la región de la Laguna."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Instructor de capacitación campesina en el Centro CONASUPO en Libres, Puebla."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178278",
+        "fecha_extraccion": "2026-10-13T00:55:34+00:00"
+      }
+    },
+    {
+      "referencia_sil": "56036",
+      "nombre_completo": "Faya Viesca Silvestre Enrique",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/56036.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/09/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/08/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "715",
+        "titular_nombre": "José Guillermo Anaya Llamas ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "712",
+      "nombre_completo": "Maldonado Domínguez Óscar Romeo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Hilda Adriana Arias García",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/712.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente del CDM del PAN en Monclova, Coahuila."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Secretario general del CDM del PAN en Monclova, Coahuila."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Capacitador nacional en el CEN del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CDE del PAN en Coahuila."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Director del departamento de bienestar social de la secretaria de Trabajo y Previsión Social en Guanajuato, Guanajuato."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "21/08/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "17/07/2002",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178279",
+        "fecha_extraccion": "2026-10-13T00:55:37+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1056",
+      "nombre_completo": "Martínez González Raúl",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Dora Elia Chapa Pérez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1056.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión Política de Análisis y Seguimiento a Comités Municipales de la región norte de Coahuila."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña de Vicente Fox para la presidencia de la República en el norte de Coahuila."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDM del PAN en Piedras Negras, Coahuila."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Integrante del Comité Estratégico de campaña del candidato del PAN para gobernador de Coahuila."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña política del presidente municipal de Piedras Negras, Coahuila."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Representante del CDE del PAN de Coahuila para mediar entre los candidatos a presidentes municipales de las ciudades de Sabinas y Nueva Rosita."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinador del Movimiento Ciudadano Región Norte Campaña 2000."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Coordinador de campañas de diputado federal por Coahuila."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Director de finanzas del CDM del PAN en Piedras Negras, Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del grupo de amistad con Uruguay."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal suplente en la LVII legislatura del Congreso de la Unión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité de Seguridad Pública y del Comité de Impuestos sobre Nóminas de Piedras Negras, Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "17/07/2002",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "02/10/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "60281",
+        "fecha_extraccion": "2026-10-13T00:55:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "60475",
+      "nombre_completo": "Romo Castillón María Teresa de Jesús",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60475.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/10/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/10/2002",
+          "fecha_fin": "15/12/2002",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2002",
+          "fecha_fin": "17/10/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN en Saltillo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CDE del PAN en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de comunicación social de campaña presidencial del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Presidenta del DIF en Saltillo, Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera del Instituto de la Mujer en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora del programa Mi Ciudadano."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "713",
+        "titular_nombre": "Ernesto Saro Boardman ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:41+00:00"
+      }
+    },
+    {
+      "referencia_sil": "60895",
+      "nombre_completo": "Valdés Torres Armín José",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/60895.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción social del Comité Municipal del PRI en Cd Acuña, Coah."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Participación activa en las campañas a puestos de elección popular del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de profesionistas y técnicos de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Comisionado político en el IV Distrito electoral federal en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vocero oficial del CDM del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Encargado de Legimitación y Debate del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PRI en Acuña, Coah."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Subprocurador de justicia de Coahuila."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Agente investigador del ministerio público."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Asesor jurídico en CONASUPO."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la Agencia del Ministerio Público adscrito al segundo Penal en Torreón, Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante de la Subsecretaría de Hacienda y Crédito Público en el norte del estado de Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Administrador de la Aduana Fronteriza de Cd. Acuña, Coah."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Agente del Ministerio Público Federal en las ciudades de Saltillo, Torreón Gómez Palacio México y Cd. Acuña, Coah."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/08/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "710",
+        "titular_nombre": "Claudio Mario Bres Garza ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T00:55:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "714",
+      "nombre_completo": "Villarreal Castro Néstor",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Javier Martínez Aguilera",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/714.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "26/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Coordinador en la región lagunera en la campaña para gobernador de Coahuila."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1985",
+          "al_ano": "2000",
+          "experiencia": "Titular del CEBETIS campus Coahuila."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Director de la Escuela de Ciencias de la Comunicación de la Universidad Autónoma de Coahuila."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1980",
+          "experiencia": "Agente del ministerio público de la PGJDF."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la PGR en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de la Academia de Policía de Torreón, Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178280",
+        "fecha_extraccion": "2026-10-13T00:55:44+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1265",
+      "nombre_completo": "Gutiérrez Gutiérrez Alejandro",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Coahuila",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ma. Enriqueta Barrera García",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1265.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Económico (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Precandidato del PRI al gobierno de Coahuila."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Presidente del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Secretario general del CDE del PRI en Coahuila."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1988",
+          "experiencia": "Secretario general de la CNOP en Coahuila."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Secretario general del Movimiento Estatal de las Juventudes Revolucionarias de Coahuila."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente del Frente Juvenil Revolucionario en Coahuila."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Presidente de la Comisión de Apoyo a la Producción y Coordinador de los diputados del PRI de Coahuila."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputado local en la L legislatura del Congreso de Coahuila. Coordinador de la fracción parlamentaria del PRI."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Representante en el Distrito Federal del gobierno de Coahuila."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1993",
+          "experiencia": "Director general de Servicios Estatales Aeroportuarios en Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178699",
+        "fecha_extraccion": "2026-10-13T00:55:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1226",
+      "nombre_completo": "Rico Samaniego Luis Alberto",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Rafael Anselmo Rico González",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1226.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Jubilados y Pensionados (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medalla de honor Belisario Domínguez (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente y Secretario de comunicación del CDE del PAN en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PAN en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante del PAN ante el consejo local del IFE de Aguascalientes."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Coahuila."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Integrante de las comisiones de Programación Presupuesto y Cuenta Publica, Energéticos, Comercio, y Reconstrucción de la Cámara."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Regidor del municipio de Saltillo, Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del consejo de administración del Fondo de Pensiones del municipio de Saltillo, Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178665",
+        "fecha_extraccion": "2026-10-13T00:55:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1333",
+      "nombre_completo": "Roque Villanueva Humberto",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Coahuila",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Guadalupe Francisca Martínez Cruz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1333.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Nacional para el desarrollo del proceso interno para la elección de la dirigencia nacional del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Coordinador del debate político en la campaña presidencial."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Precandidato del PRI a la presidencia de la República."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Nacional de Desarrollo Regional del CPN del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Líder nacional del PRI."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Secretario de coordinación regional del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Asesor del oficial mayor del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario de comercialización y abasto rural del CEN de la CNC."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Subsecretario de organización del PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Asesor de la diputación campesina del PRI en la LII legislatura."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Asesor en asuntos económicos del presidente de la Gran Comisión de la Cámara de diputados."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1977",
+          "experiencia": "Secretario de planeación y productividad ejidal del CEN de la CNC."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Coordinador general de la asamblea de planeación por regiones y estados en el XII Congreso Nacional Ordinario del PRI."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": null,
+          "experiencia": "Representante de la CNC en la misión comercial en Japón."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1973",
+          "experiencia": "Coordinador general de la Comisión de Estudios Técnicos en la CNC."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Ejecutivo de la Federación Universitaria de Sociedades de Alumnos de la UNAM."
+        },
+        {
+          "del_ano": "1960",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado en la LVI legislatura. Coordinador del grupo parlamentario del PRI (1995). Presidente de la Gran Comisión y de la Comisión de Régimen Interno y Concertación Política."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado en la LIV legislatura. Integrante de la Comisión Permanente en el primer receso del primer y segundo año. Presidente y secretario de la Comisión de Programación y Presupuesto de la Cuenta Pública. Vicepresidente de la Mesa Directiva."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Director general de Aseguradora Hidalgo, SA."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de organización de la Secretaría de Pesca."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1988",
+          "experiencia": "Coordinador general del fideicomiso de estudios y proyectos agropecuarios del sector social, del Banco Obrero, SA."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Coordinador interinstitucional en BANRURAL."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Coordinador general del Fondo Nacional de Fomento Ejidal."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": null,
+          "experiencia": "Asesor de asuntos económicos del presidente de la Gran Comisión de la Cámara de Diputados."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1982",
+          "experiencia": "Asesor del Secretario de Agricultura y Recursos Hidráulicos."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1976",
+          "experiencia": "Asesor técnico del secretario de Obras Públicas."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Integrante de la delegación mexicana al Congreso Mundial de la Juventud de Naciones Unidas, en Nueva York, EUA."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1970",
+          "experiencia": "Subjefe de capacitación del Instituto de la Juventud (INJUVE)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del consejo de administración de BANRURAL."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del comité técnico del Fideicomiso Instituidos, en relación con la agricultura."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178757",
+        "fecha_extraccion": "2026-10-13T00:55:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1225",
+      "nombre_completo": "Zermeño Infante Jorge",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Coahuila",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jaime Armando De Lara Tamayo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1225.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención y Seguimiento a las Indagaciones del Proceso que se sigue en torno al Homicidio del Lic. Luis Donaldo Colosio Murrieta (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Miembro del CEN del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Presidente municipal de Torreón, Coahuila."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Representante del PAN ante IFE."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Candidato a diputado federal por el PAN."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Candidato a primer regidor del municipio de Torreón, Coahuila."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Miembro del consejo nacional del PAN."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Presidente del CDE del PAN en Coahuila."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1990",
+          "experiencia": "Presidente del CDM de Torreón, Coahuila (83-85 y 87-90)."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Secretario general del del CDM de Torreón, Coahuila."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1981",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Coahuila."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1973",
+          "experiencia": "Candidato a síndico del municipio de Tlalnepantla, estado de México."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1974",
+          "experiencia": "Secretario de organización del CDE del PAN en el estado de México."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la secretaría Juvenil del DF."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura. Consejero titular representante de la Cámara de Diputados ante el Consejo General del IFE. Coordinador de los trabajos relativos a las reformas en materia agraria y electoral, en el grupo parlamentario del PAN."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal suplente en la LI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178664",
+        "fecha_extraccion": "2026-10-13T00:55:55+00:00"
+      }
+    }
+  ]
 }

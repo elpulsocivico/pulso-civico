@@ -1,1824 +1,1824 @@
 {
-    "metadata": {
-        "entidad_id": 2,
-        "entidad_nombre": "Baja California",
-        "legislatura": 60,
-        "generado_en": "2026-10-13T04:18:55+00:00",
-        "total_diputados": 11,
-        "total_senadores": 3,
-        "total_general": 14
+  "metadata": {
+    "entidad_id": 2,
+    "entidad_nombre": "Baja California",
+    "legislatura": 60,
+    "generado_en": "2026-10-13T04:18:55+00:00",
+    "total_diputados": 11,
+    "total_senadores": 3,
+    "total_general": 14
+  },
+  "diputados": [
+    {
+      "referencia_sil": "2300356",
+      "nombre_completo": "Ayala Almeida Joel",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Mario Ramón De la Torre Hernández",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300356.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2011",
+          "experiencia": "Secretario general de la FSTSE (tres veces reelecto)."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Integrante de la comisión de gestoría social del CPN del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del CEN del SNTSSA."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Secretario de patrimonio sindical del CEN del SNTSSA."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Integrante de la Liga de Economistas Revolucionarios."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Presidente de la comisión nacional de honor y justicia del SNTSSA."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Presidente del consejo consultivo del CEN del SNTSSA."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Secretario de vivienda del CEN de la FSTSE."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Representante de la FSTSE ante la Junta Directiva del ISSSTE."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Secretario de previsión social en el CEN de la FSTSE."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Presidente del consejo nacional de vigilancia y justicia del SNTSSA."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Presidente de la comisión de afiliación a la FSTSE."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Presidente del comité distrital del sector obrero del PRI en el DF."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Presidente del XIII CDE del PRI en el Distrito Federal."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1980",
+          "experiencia": "Secretario general del CEN del SNTSSA."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": "1977",
+          "experiencia": "Secretario de conflictos laborales en el Sindicato Nacional de Trabajadores de la Secretaría de Salubridad y Asistencia (SNTSSA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2007",
+          "experiencia": "Consejero nacional del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Senador en la LIX legislatura. Secretario de la Comisión de Defensa Nacional. Integrante de las comisiones del Distrito Federal, Vivienda y la de Salud y Seguridad Social."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura. Secretario de la Comisión de Defensa Nacional e integrante de Distrito Federal, Salud y Seguridad Social y Vivienda."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Secretario de la Comisión de Seguridad Social e integrante de las comisiones de Población y Desarrollo, Defensa Nacional, Derechos Humanos."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal en la LI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Administrativo de la Secretaría de Salubridad y Asistencia (SSA)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302713",
+        "fecha_extraccion": "2026-10-13T04:18:27+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "2302517",
+      "nombre_completo": "Cardona Benavides Alma Xóchil",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "06/12/2007",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302517.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "2300356",
-            "nombre_completo": "Ayala Almeida Joel",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Mario Ramón De la Torre Hernández ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300356.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2011",
-                    "experiencia": "Secretario general de la FSTSE (tres veces reelecto)."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la comisión de gestoría social del CPN del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del CEN del SNTSSA."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario de patrimonio sindical del CEN del SNTSSA."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Liga de Economistas Revolucionarios."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente de la comisión nacional de honor y justicia del SNTSSA."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Presidente del consejo consultivo del CEN del SNTSSA."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de vivienda del CEN de la FSTSE."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Representante de la FSTSE ante la Junta Directiva del ISSSTE."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario de previsión social en el CEN de la FSTSE."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Presidente del consejo nacional de vigilancia y justicia del SNTSSA."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Presidente de la comisión de afiliación a la FSTSE."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Presidente del comité distrital del sector obrero del PRI en el DF."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Presidente del XIII CDE del PRI en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1980",
-                    "experiencia": "Secretario general del CEN del SNTSSA."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1977",
-                    "experiencia": "Secretario de conflictos laborales en el Sindicato Nacional de Trabajadores de la Secretaría de Salubridad y Asistencia (SNTSSA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2007",
-                    "experiencia": "Consejero nacional del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Senador en la LIX legislatura. Secretario de la Comisión de Defensa Nacional. Integrante de las comisiones del Distrito Federal, Vivienda y la de Salud y Seguridad Social."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura. Secretario de la Comisión de Defensa Nacional e integrante de Distrito Federal, Salud y Seguridad Social y Vivienda."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Secretario de la Comisión de Seguridad Social e integrante de las comisiones de Población y Desarrollo, Defensa Nacional, Derechos Humanos."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal en la LI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Administrativo de la Secretaría de Salubridad y Asistencia (SSA)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302713",
-                "fecha_extraccion": "2026-10-13T04:18:27+00:00"
-            }
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "2302517",
-            "nombre_completo": "Cardona Benavides Alma Xóchil",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "06/12/2007",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2302517.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/02/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Coordinadora administrativa del programa de movilización, en la campaña electoral del Baja California."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Trabajadora social en el Sistema Municipal para el Desarrollo Integral de la Familia en Tijuana."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Auxiliar suplente del departamento de autogestión en delegación municipal en San Antonio de los Buenos, Baja California."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Trabajadora social en el inmobiliaria del estado de Baja California."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Promotora social del programa Voluntad del gobierno de Baja California."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1991",
-                    "experiencia": "Encargada del módulo de registro estatal de electores en Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300128",
-                "titular_nombre": "Luis Rodolfo Enríquez Martínez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T04:18:29+00:00"
-            }
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "2300126",
-            "nombre_completo": "Franco Cázares Ricardo",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Patricia Lorena Sotelo Miranda ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300126.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Candidato del PAN a séptimo regidor en Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Tesorero del Comité Distrital."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del Comité Distrital."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Gerente de la Comisión Estatal del Agua en Baja California."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Gerente de oficinas de la Comisión Estatal de Servicios Públicos de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Jefe de recursos humanos de la Secretaría de Seguridad Pública."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Jefe de departamento de recursos humanos de la Secretaria de Seguridad Pública Municipal de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario ejecutivo de la comisión de box del municipio de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2002",
-                    "experiencia": "Administrador de la delegación La Presa en el municipio de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Regidor por el PRI en Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Regidor por el PRI en Tijuana, Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302515",
-                "fecha_extraccion": "2026-10-13T04:18:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300456",
-            "nombre_completo": "Maldonado González David",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Yolanda Gutiérrez Espinosa ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300456.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Secretario de finanzas del comité de campaña del candidato a gobernador."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Consejero estatal de Baja California del PAN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Miembro del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Miembro del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Miembro del CDM del PAN en Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Secretario juvenil municipal del PAN en Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario juvenil del CDE del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario particular del gobernador de Baja California."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Subsecretario de la Secretaría de Desarrollo Social del gobierno de Baja California."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de delegaciones y de las juntas de mejoramiento moral del XV ayuntamiento de Mexicali."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Director del Sistema Municipal de Transporte Público de Mexicali."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Vocal ejecutivo del Consejo Municipal de Desarrollo Rural (COMUNDER) en el municipio de Mexicali."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario particular del Secretario de gobierno de Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor divisional del programa de ahorro de energía de la Comisión Federal de Electricidad."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302811",
-                "fecha_extraccion": "2026-10-13T04:18:33+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300173",
-            "nombre_completo": "Manuell-Gómez Angulo Dolores de María",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Jesús Armando Arjona Benítez ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300173.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para conocer las políticas y la procuración de justicia vinculada a los feminicidios del país. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/02/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Consejera estatal del PAN"
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro de Mujeres Libres a favor de la Democracia."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del Auténtico Frente Cívico Mexicalense (AFCM)."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Comité de Defensa del Pueblo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Diputada local en la XIII legislatura del Congreso de Baja California. Presidenta de la Comisión de Promoción, Gestoría y Quejas."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302562",
-                "fecha_extraccion": "2026-10-13T04:18:35+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300129",
-            "nombre_completo": "Paredes Rodríguez Francisco Javier",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Guadalupe Armida Araujo Villegas ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300129.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/04/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para el Estudio de las Políticas para la Migración Interna (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Consejero estatal del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1983",
-                    "experiencia": "Secretario de Organización del CDM del PAN en Mexicali, Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN en Mexicali, Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador distrital del PAN en Mexicali, Baja California."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2005",
-                    "experiencia": "Administrador general del fideicomiso público de inversión y administración del tramo carretero Centinela-Rumorosa (FIARUM)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Director de Desarrollo Regional."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Regidor suplente en el XV municipio de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Subdirector de servicios públicos del municipio de Mexicali."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Supervisor de mantenimiento en la Comisión Federal de Electricidad."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor de obra pública de la Secretaría de Finanzas del gobierno de Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de sistema de transporte escolar del gobierno de Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302518",
-                "fecha_extraccion": "2026-10-13T04:18:37+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300125",
-            "nombre_completo": "Ramos Covarrubias Héctor Manuel",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Estéfana López Peralta ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300125.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité de Administración (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/02/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de acción gubernamental del CDM del PAN en Ensenada, Baja California."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Presidente municipal suplente en Ensenada, Baja California."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario de organización del CDM del PAN en Ensenada, Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Ciudadano de Pavimentación Integral y Calidad del Aire (PIPCA)."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Director general de la Comisión Estatal de Servicios Públicos de Ensenada (CESPE), en Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Subsecretario del gobierno de Ensenada, Baja California."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Tesorero del municipio de Ensenada, Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302514",
-                "fecha_extraccion": "2026-10-13T04:18:39+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300130",
-            "nombre_completo": "Rincón Vargas Mirna Cecilia",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "José Ernesto López Hernández ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300130.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Especial para conocer las políticas y la procuración de justicia vinculada a los feminicidios del país. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/02/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Atención a Grupos Vulnerables (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Secretaria de acción ciudadana del PAN en el comité del XI distrito de Baja California."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de promoción política de la mujer en el PAN, en el XI distrito de Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de promoción política de la mujer del PAN, en el XIII subcomité de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2004",
-                    "experiencia": "Representante general del PAN en elecciones locales y federales."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora operativa del DIF estatal en Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Asesora de regidores en el XVIII Distrito de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Directora general del DIF de Baja California."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinadora de Asistencia Social y Rehabilitación en Baja California."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Delegada del DIF estatal en la zona costa, en Baja California."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1980",
-                    "experiencia": "Auxiliar universal de oficinas en el IMSS, en Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera ciudadana del Consejo de Planeación para el Desarrollo Municipal (COPLADEM) de La Presa, Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302519",
-                "fecha_extraccion": "2026-10-13T04:18:41+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300124",
-            "nombre_completo": "Rueda Gómez Francisco",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Adelaida Contreras Cobarruvias ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300124.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para el Estudio de las Políticas para la Migración Interna (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "30/10/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de organización del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Consejero estatal del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Secretario de acción ciudadana del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2006",
-                    "experiencia": "Vocal del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario de acción ciudadana del CDM del PAN en Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción gubernamental en el CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CDM del PAN en Mexicali, Baja California."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Diputado local en la XVII legislatura del Congreso de Baja California. Presidente de la Mesa Directiva."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Director general de promotora estatal para el desarrollo de las comunidades rurales y populares del gobierno de Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Regidor en el municipio de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Funcionario en el municipio de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado municipal en González Ortega, perteneciente a Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Jefe de planeación en el área de desarrollo social del gobierno de Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302513",
-                "fecha_extraccion": "2026-10-13T04:18:43+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300868",
-            "nombre_completo": "Torres Torres Carlos Alberto",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Luisa Sánchez Meza ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300868.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Promoción del Acceso Digital a los Mexicanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/02/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "30/10/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinador nacional del programa Líderes en Campaña, de la campaña presidencial del PAN."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente de Juventudes Demócratas Cristianas de América Latina (JODCA)."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario nacional de acción juvenil del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Coordinador general de la secretaría nacional de acción juvenil del CEN del PAN."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario estatal juvenil del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CEN del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal suplente en la LIX legislatura. (Nunca tomó protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director general del programa Juventud XVI en el ayuntamiento de Tijuana, Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303218",
-                "fecha_extraccion": "2026-10-13T04:18:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300127",
-            "nombre_completo": "Valladolid Rodríguez Antonio",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Georgina Eréndira Arana Cruz ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300127.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "02/10/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/10/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Investigación para conocer la legalidad de los contratos de Pemex Refinación, de 1997 a la fecha. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/03/2008",
-                    "fecha_fin": "13/05/2008",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/04/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "27/03/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Miembro fundador de Movimiento Magisterial y Ciudadano A.C."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinador de finanzas de la campaña a la diputación local."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario de finanzas del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Miembro del CDM del PAN en Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador de la precampaña de por la presidencia municipal de San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Miembro fundador del grupo Conciencia Jóven."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal suplente en la LIX legislatura. (Nunca tomó protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Coordinador de gabinete del ayuntamiento de Tijuana."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario auxiliar en Tijuana del gobernador de Baja California."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario particular del presidente municipal de San Pedro Garza García, Nuevo León."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Pasante en Derecho en el Juzgado federal quinto en Tijuana."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302516",
-                "fecha_extraccion": "2026-10-13T04:18:47+00:00"
-            }
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/02/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "2300216",
-            "nombre_completo": "Castro Trenti Fernando Jorge",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PRI",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Baja California",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alberto Murguía Orozco ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300216.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "11/09/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos, Primera (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente del CDE del PRI en Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal y municipal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Diputado local en la XVII legislatura del Congreso de Baja California. Presidente de la Mesa Directiva y de la Comisión de Justicia. Secretario de la Comisión de Legislación y Puntos Constitucionales y vocal de la Comisión de Ecología, Medio Ambiente, Recursos Naturales y Asuntos Indígenas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario de Gobierno de Tijuana, Baja California."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado de la SEMARNAP en Baja California."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado federal de la Procuraduría Federal de Protección al Ambiente (PROFEPA)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado federal de la Secretaría de Pesca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado federal de la PROFECO."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302603",
-                "fecha_extraccion": "2026-10-13T04:18:51+00:00"
-            }
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Coordinadora administrativa del programa de movilización, en la campaña electoral del Baja California."
         },
         {
-            "referencia_sil": "2300045",
-            "nombre_completo": "Díaz Ochoa Jaime Rafael",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Loreto Quintero Quintero ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300045.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/10/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Concordia y Pacificación (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/11/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente municipal de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador del movimiento PAC-FOX."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Pre-candidato a presidente municipal de Mexicali."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente del Comité Directivo Municipal de Mexicali."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinador del Subcomité del II distrito de Mexicali, coordinador de varias campañas municipales en Mexicali."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1998",
-                    "experiencia": "Miembro del Comité Directivo Estatal."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "2002",
-                    "experiencia": "Consejero estatal en Baja California."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1992",
-                    "experiencia": "Representante ante organismos electorales federales y locales."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del municipio de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director de seguridad pública de Mexicali, Baja California."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de finanzas en el gobierno de Baja California."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Director de ingresos del gobierno de Baja California."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1989",
-                    "experiencia": "Recaudador de rentas de Baja California."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302436",
-                "fecha_extraccion": "2026-10-13T04:18:54+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300035",
-            "nombre_completo": "González Alcocer Alejandro",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ernesto Ruffo Appel ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300035.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN. Secretario de la Comisión de Orden."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente del CDE del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Gobernador interino de Baja California."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "2008",
-                    "experiencia": "Consejero estatal del PAN en Baja California."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario ejecutivo de la fracción parlamentaria del PAN en la L legislatura."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Comisionado electoral del PAN en el DF y estado de México."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Comisión de Orden del Consejo Nacional."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Integrante de las comisiones de Asuntos Fronterizos, Justicia y Trabajo y Previsión Social."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario del municipio de Tijuana."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302428",
-                "fecha_extraccion": "2026-10-13T04:18:55+00:00"
-            }
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Trabajadora social en el Sistema Municipal para el Desarrollo Integral de la Familia en Tijuana."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Auxiliar suplente del departamento de autogestión en delegación municipal en San Antonio de los Buenos, Baja California."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Trabajadora social en el inmobiliaria del estado de Baja California."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Promotora social del programa Voluntad del gobierno de Baja California."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1991",
+          "experiencia": "Encargada del módulo de registro estatal de electores en Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300128",
+        "titular_nombre": "Luis Rodolfo Enríquez Martínez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T04:18:29+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300126",
+      "nombre_completo": "Franco Cázares Ricardo",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Patricia Lorena Sotelo Miranda",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300126.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Candidato del PAN a séptimo regidor en Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Tesorero del Comité Distrital."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del Comité Distrital."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Gerente de la Comisión Estatal del Agua en Baja California."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Gerente de oficinas de la Comisión Estatal de Servicios Públicos de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Jefe de recursos humanos de la Secretaría de Seguridad Pública."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Jefe de departamento de recursos humanos de la Secretaria de Seguridad Pública Municipal de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Secretario ejecutivo de la comisión de box del municipio de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2002",
+          "experiencia": "Administrador de la delegación La Presa en el municipio de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Regidor por el PRI en Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Regidor por el PRI en Tijuana, Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302515",
+        "fecha_extraccion": "2026-10-13T04:18:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300456",
+      "nombre_completo": "Maldonado González David",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Yolanda Gutiérrez Espinosa",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300456.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Secretario de finanzas del comité de campaña del candidato a gobernador."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Consejero estatal de Baja California del PAN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Miembro del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Miembro del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Miembro del CDM del PAN en Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Secretario juvenil municipal del PAN en Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario juvenil del CDE del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2005",
+          "experiencia": "Secretario particular del gobernador de Baja California."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Subsecretario de la Secretaría de Desarrollo Social del gobierno de Baja California."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de delegaciones y de las juntas de mejoramiento moral del XV ayuntamiento de Mexicali."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Director del Sistema Municipal de Transporte Público de Mexicali."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Vocal ejecutivo del Consejo Municipal de Desarrollo Rural (COMUNDER) en el municipio de Mexicali."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Secretario particular del Secretario de gobierno de Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor divisional del programa de ahorro de energía de la Comisión Federal de Electricidad."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302811",
+        "fecha_extraccion": "2026-10-13T04:18:33+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300173",
+      "nombre_completo": "Manuell-Gómez Angulo Dolores de María",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Jesús Armando Arjona Benítez",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300173.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para conocer las políticas y la procuración de justicia vinculada a los feminicidios del país. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/02/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Consejera estatal del PAN"
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro de Mujeres Libres a favor de la Democracia."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Coordinadora del Auténtico Frente Cívico Mexicalense (AFCM)."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Comité de Defensa del Pueblo."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Diputada local en la XIII legislatura del Congreso de Baja California. Presidenta de la Comisión de Promoción, Gestoría y Quejas."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302562",
+        "fecha_extraccion": "2026-10-13T04:18:35+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300129",
+      "nombre_completo": "Paredes Rodríguez Francisco Javier",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Guadalupe Armida Araujo Villegas",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300129.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial para la Defensa de los Derechos Sociales de Acceso al Agua y la Protección de Ambientes Acuáticos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/04/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para el Estudio de las Políticas para la Migración Interna (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Consejero estatal del PAN en Baja California."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1983",
+          "experiencia": "Secretario de Organización del CDM del PAN en Mexicali, Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN en Mexicali, Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador distrital del PAN en Mexicali, Baja California."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2005",
+          "experiencia": "Administrador general del fideicomiso público de inversión y administración del tramo carretero Centinela-Rumorosa (FIARUM)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Director de Desarrollo Regional."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Regidor suplente en el XV municipio de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Subdirector de servicios públicos del municipio de Mexicali."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Supervisor de mantenimiento en la Comisión Federal de Electricidad."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor de obra pública de la Secretaría de Finanzas del gobierno de Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de sistema de transporte escolar del gobierno de Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302518",
+        "fecha_extraccion": "2026-10-13T04:18:37+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300125",
+      "nombre_completo": "Ramos Covarrubias Héctor Manuel",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Estéfana López Peralta",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300125.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité de Administración (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/02/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Secretario de acción gubernamental del CDM del PAN en Ensenada, Baja California."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Presidente municipal suplente en Ensenada, Baja California."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Secretario de organización del CDM del PAN en Ensenada, Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Ciudadano de Pavimentación Integral y Calidad del Aire (PIPCA)."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Director general de la Comisión Estatal de Servicios Públicos de Ensenada (CESPE), en Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Subsecretario del gobierno de Ensenada, Baja California."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Tesorero del municipio de Ensenada, Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302514",
+        "fecha_extraccion": "2026-10-13T04:18:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300130",
+      "nombre_completo": "Rincón Vargas Mirna Cecilia",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "José Ernesto López Hernández",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300130.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Especial para conocer las políticas y la procuración de justicia vinculada a los feminicidios del país. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/02/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Atención a Grupos Vulnerables (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Secretaria de acción ciudadana del PAN en el comité del XI distrito de Baja California."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Coordinadora de promoción política de la mujer en el PAN, en el XI distrito de Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Coordinadora de promoción política de la mujer del PAN, en el XIII subcomité de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2004",
+          "experiencia": "Representante general del PAN en elecciones locales y federales."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora operativa del DIF estatal en Tijuana, Baja California."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Asesora de regidores en el XVIII Distrito de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Directora general del DIF de Baja California."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Coordinadora de Asistencia Social y Rehabilitación en Baja California."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Delegada del DIF estatal en la zona costa, en Baja California."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1980",
+          "experiencia": "Auxiliar universal de oficinas en el IMSS, en Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera ciudadana del Consejo de Planeación para el Desarrollo Municipal (COPLADEM) de La Presa, Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302519",
+        "fecha_extraccion": "2026-10-13T04:18:41+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300124",
+      "nombre_completo": "Rueda Gómez Francisco",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Adelaida Contreras Cobarruvias",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300124.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para el Estudio de las Políticas para la Migración Interna (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "30/10/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Secretario de organización del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Consejero estatal del PAN en Baja California."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Secretario de acción ciudadana del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2006",
+          "experiencia": "Vocal del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Secretario de acción ciudadana del CDM del PAN en Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción gubernamental en el CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CDM del PAN en Mexicali, Baja California."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Diputado local en la XVII legislatura del Congreso de Baja California. Presidente de la Mesa Directiva."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Director general de promotora estatal para el desarrollo de las comunidades rurales y populares del gobierno de Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Regidor en el municipio de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Funcionario en el municipio de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Delegado municipal en González Ortega, perteneciente a Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Jefe de planeación en el área de desarrollo social del gobierno de Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302513",
+        "fecha_extraccion": "2026-10-13T04:18:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300868",
+      "nombre_completo": "Torres Torres Carlos Alberto",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Luisa Sánchez Meza",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300868.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para la Promoción del Acceso Digital a los Mexicanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/02/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "30/10/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Coordinador nacional del programa Líderes en Campaña, de la campaña presidencial del PAN."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Presidente de Juventudes Demócratas Cristianas de América Latina (JODCA)."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Secretario nacional de acción juvenil del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Coordinador general de la secretaría nacional de acción juvenil del CEN del PAN."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario estatal juvenil del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CEN del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal suplente en la LIX legislatura. (Nunca tomó protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director general del programa Juventud XVI en el ayuntamiento de Tijuana, Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303218",
+        "fecha_extraccion": "2026-10-13T04:18:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300127",
+      "nombre_completo": "Valladolid Rodríguez Antonio",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Georgina Eréndira Arana Cruz",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300127.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "02/10/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/10/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Investigación para conocer la legalidad de los contratos de Pemex Refinación, de 1997 a la fecha. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/03/2008",
+          "fecha_fin": "13/05/2008",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/04/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Metropolitano (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "27/03/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Miembro fundador de Movimiento Magisterial y Ciudadano A.C."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Coordinador de finanzas de la campaña a la diputación local."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Secretario de finanzas del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Miembro del CDM del PAN en Tijuana, Baja California."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador de la precampaña de por la presidencia municipal de San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Miembro fundador del grupo Conciencia Jóven."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal suplente en la LIX legislatura. (Nunca tomó protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Coordinador de gabinete del ayuntamiento de Tijuana."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario auxiliar en Tijuana del gobernador de Baja California."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Secretario particular del presidente municipal de San Pedro Garza García, Nuevo León."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Pasante en Derecho en el Juzgado federal quinto en Tijuana."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302516",
+        "fecha_extraccion": "2026-10-13T04:18:47+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "2300216",
+      "nombre_completo": "Castro Trenti Fernando Jorge",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PRI",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Baja California",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alberto Murguía Orozco",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300216.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "11/09/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos, Primera (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Presidente del CDE del PRI en Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal y municipal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Diputado local en la XVII legislatura del Congreso de Baja California. Presidente de la Mesa Directiva y de la Comisión de Justicia. Secretario de la Comisión de Legislación y Puntos Constitucionales y vocal de la Comisión de Ecología, Medio Ambiente, Recursos Naturales y Asuntos Indígenas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Secretario de Gobierno de Tijuana, Baja California."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Delegado de la SEMARNAP en Baja California."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado federal de la Procuraduría Federal de Protección al Ambiente (PROFEPA)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado federal de la Secretaría de Pesca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado federal de la PROFECO."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302603",
+        "fecha_extraccion": "2026-10-13T04:18:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300045",
+      "nombre_completo": "Díaz Ochoa Jaime Rafael",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Loreto Quintero Quintero",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300045.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores, Asia-Pacífico (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/10/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Concordia y Pacificación (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/11/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Pesca (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Presidente municipal de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Coordinador del movimiento PAC-FOX."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Pre-candidato a presidente municipal de Mexicali."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Presidente del Comité Directivo Municipal de Mexicali."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Coordinador del Subcomité del II distrito de Mexicali, coordinador de varias campañas municipales en Mexicali."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1998",
+          "experiencia": "Miembro del Comité Directivo Estatal."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "2002",
+          "experiencia": "Consejero estatal en Baja California."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1992",
+          "experiencia": "Representante ante organismos electorales federales y locales."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del municipio de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director de seguridad pública de Mexicali, Baja California."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de finanzas en el gobierno de Baja California."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Director de ingresos del gobierno de Baja California."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1989",
+          "experiencia": "Recaudador de rentas de Baja California."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302436",
+        "fecha_extraccion": "2026-10-13T04:18:54+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300035",
+      "nombre_completo": "González Alcocer Alejandro",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ernesto Ruffo Appel",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300035.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN. Secretario de la Comisión de Orden."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Presidente del CDE del PAN en Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Gobernador interino de Baja California."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "2008",
+          "experiencia": "Consejero estatal del PAN en Baja California."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Secretario ejecutivo de la fracción parlamentaria del PAN en la L legislatura."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Comisionado electoral del PAN en el DF y estado de México."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la Comisión de Orden del Consejo Nacional."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Integrante de las comisiones de Asuntos Fronterizos, Justicia y Trabajo y Previsión Social."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Secretario del municipio de Tijuana."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302428",
+        "fecha_extraccion": "2026-10-13T04:18:55+00:00"
+      }
+    }
+  ]
 }

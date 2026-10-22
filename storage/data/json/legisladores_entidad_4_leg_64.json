@@ -1,1010 +1,1010 @@
 {
-    "metadata": {
-        "entidad_id": 4,
-        "entidad_nombre": "Campeche",
-        "legislatura": 64,
-        "generado_en": "2026-10-13T09:21:57+00:00",
-        "total_diputados": 4,
-        "total_senadores": 3,
-        "total_general": 7
+  "metadata": {
+    "entidad_id": 4,
+    "entidad_nombre": "Campeche",
+    "legislatura": 64,
+    "generado_en": "2026-10-13T09:21:57+00:00",
+    "total_diputados": 4,
+    "total_senadores": 3,
+    "total_general": 7
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9222232",
+      "nombre_completo": "Angulo Briceño Pablo Guillermo",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Campeche",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Vicente Exiquio Cruz Ramírez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1990-08-01",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222232.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Ejecutivo Nacional de la Red Jóvenes por México del PRI."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Dirigente estatal de la CNC en Campeche."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2015",
+          "experiencia": "Presidente del Frente Juvenil Revolucionario del PRI en Champotón, Campeche."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Egresado de la Escuela Nacional de Cuadros del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LXII Legislatura del Congreso de Campeche. Presidente de las comisiones de Juventud; y, de Transparencia y Acceso a la Información Pública."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/PabloAnguloB/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/PabloAnguloB",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/pabloangulob90/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222233",
+        "fecha_extraccion": "2026-10-13T09:21:45+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9221605",
+      "nombre_completo": "Buenfil Díaz Irasema del Carmen",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PES",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Campeche",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Azalia del Carmen Kuri García",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221605.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "9222232",
-            "nombre_completo": "Angulo Briceño Pablo Guillermo",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Campeche",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Vicente Exiquio Cruz Ramírez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1990-08-01",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222232.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Ejecutivo Nacional de la Red Jóvenes por México del PRI."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Dirigente estatal de la CNC en Campeche."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2015",
-                    "experiencia": "Presidente del Frente Juvenil Revolucionario del PRI en Champotón, Campeche."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Egresado de la Escuela Nacional de Cuadros del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LXII Legislatura del Congreso de Campeche. Presidente de las comisiones de Juventud; y, de Transparencia y Acceso a la Información Pública."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/PabloAnguloB/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/PabloAnguloB",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/pabloangulob90/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222233",
-                "fecha_extraccion": "2026-10-13T09:21:45+00:00"
-            }
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9221605",
-            "nombre_completo": "Buenfil Díaz Irasema del Carmen",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PES",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Campeche",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Azalia del Carmen Kuri García ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221605.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria General del Sindicato único de la Universidad Autónoma de Campeche."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de Servicios Básicos en el gobierno del Carmen, Campeche."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretaria del estado de Campeche."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/buenfildiazirasema/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/irasemabuenfil?lang=es",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/irasemabuenfil/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221606",
-                "fecha_extraccion": "2026-10-13T09:21:46+00:00"
-            }
+          "comision": "Ciencia, Tecnología e Innovación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9222118",
-            "nombre_completo": "Gómez Quej José Del Carmen",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Campeche",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Mario Enrique Pacheco Ceballos ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222118.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Secretario general del Comité Directivo Estatal del PAN en Campeche."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Presidente de la Comisión de Vigilancia del PAN."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Tesorero del Comité Directivo Municipal del PAN de Carmen, Campeche."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2018",
-                    "experiencia": "Consejero estatal del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Síndico de Hacienda de Carmen, Campeche."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Regidor de Campeche, Campeche."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2009",
-                    "experiencia": "Tesorero de Carmen, Campeche."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/jgomezquej",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/JOSEGOMEZQUEJ",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/josegomezquej/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9222119",
-                "fecha_extraccion": "2026-10-13T09:21:48+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221603",
-            "nombre_completo": "Martínez Aké Carlos Enrique",
-            "camara": "Diputados",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Campeche",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Daniel Jesus Gomez Vargas ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221603.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Frontera Sur (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/10/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2015",
-                    "experiencia": "Representante de MORENA ante el Organismo Público Electoral."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Presidente del Comité Municipal de MORENA en Campeche."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Secretario de Elecciones de MC en Campeche."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Representante de CONVERGENCIA ante el Instituto Electoral de Campeche."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Secretario de Elecciones de CONVERGENCIA en Campeche."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2018",
-                    "experiencia": "Diputado local en la LXII Legislatura del Congreso de Campeche. Coordinador del Grupo Parlamentario de MORENA. Presidente de la Comisión de Ciencia y Tecnología. Vocal de la comisión de Puntos Constitucionales y Control Interno de Convencionalidad y, Finanzas y Hacienda Pública."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/CarlosMartinezAke/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/cemartinezake",
-                    "color": "#000000"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221604",
-                "fecha_extraccion": "2026-10-13T09:21:50+00:00"
-            }
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9221753",
-            "nombre_completo": "Abreu Artiñano Rocío Adriana",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Campeche",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Hilda Eugenia Velázquez Rodríguez ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221753.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para el Seguimiento a la Implementación de la Agenda 2030 en México (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/02/2020",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Europa (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/09/2019",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputada federal en la LXII Legislatura. Presidenta de la Comisión Especial para la prevención, conservación y en su caso restauración del medio ambiente en las entidades federativas donde se ubican las instalaciones de PEMEX. Secretaria de la Comisión de Cambio Climático. Integrante de las comisiones de Infraestructura; Puntos Constitucionales; Especial de Puertos y Marina Mercante; y, Especial de casos de corrupción ocurridos en Petróleos Mexicanos, señalados por la Auditoria Superior de la Federación de 2006, a la fecha, que hayan ocasionado daño patrimonial a la Nación."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada local en la LX Legislatura del Congreso de Campeche. Secretaria de la Mesa Directiva. Presidenta de las comisiones de Puntos Constitucionales y, Gobernación. Vicepresidenta de la Comisión de Vigilancia."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2018",
-                    "experiencia": "Delegada de la SEMARNAT en Campeche."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Regidora de El Carmen, Campeche."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2009",
-                    "experiencia": "Consejera de la Comisión de Derechos Humanos en el Estado de Campeche."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Subdirectora de Auditoría en Legalidad de la Contraloría del gobierno del Distrito Federal."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Subdirectora de Juicios Diversos de la PGR."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2003",
-                    "experiencia": "Líder coordinador de Proyectos de la PGR."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Técnico Analista en Sistemas de la Comisión Nacional del Sistema Ahorro para el Retiro."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo de Turismo de Carmen, Campeche."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/RocioAbreuA/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/RocioAbreuA",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/rocioabreua/",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221754",
-                "fecha_extraccion": "2026-10-13T09:21:53+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221849",
-            "nombre_completo": "Ostoa Ortega Aníbal",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Campeche",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Arturo del Carmen Moo Cahuich ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": "1949-05-10",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221849.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/11/2018",
-                    "fecha_fin": "01/02/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Desarrollo y Bienestar Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/02/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/02/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "01/02/2021",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "20/11/2018",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Asia-Pacífico-África (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "01/02/2021",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la estructura electoral y territorial de MORENA."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Enlace nacional de MORENA."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Directivo Estatal (CDE) de CONVERGENCIA en Campeche."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinador general de campaña a la candidata a Gobernadora en Campeche."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Presidente del Consejo Político Estatal de CONVERGENCIA en Campeche."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Fundador y Delegado Nacional de CONVERGENCIA en Campeche."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Asesor en la elección de la candidata del PRD al gobierno de Campeche."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Asesor de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Chiapas en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Delegado del Congreso de la Sección 9 del Sindicato Nacional de Trabajadores de la Educación (SNTE)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador estatal de organización de MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor para la Creación Organizaciones Sociales de Campeche."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador del partido MORENA."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del Consejo Estatal de MORENA en Campeche."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Diputado federal suplente en la LX Legislatura. Secretario de la Comisión de Gobernación. Integrante de la Comisión de Seguridad Pública."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado local en la LVII Legislatura del Congreso de Campeche. Coordinador de Convergencia. Primer vocal de la Gran Comisión o Comisión de Gobierno y Administración, y de la Comisión de Asuntos Energéticos; Tercer vocal de la Comisión de Puntos Constitucionales y Gobernación; y, Segundo vocal de la Comisión de Desarrollo Urbano, Comunicaciones y Obras Públicas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": null,
-                    "experiencia": "Asesor en el Senado de la República de MC."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1997",
-                    "experiencia": "Asesor Técnico de la Comisión de Educación en la Cámara de Diputados."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1997",
-                    "experiencia": "Director general del Centro Universitario Desarrollo Empresarial y Pedagógico."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Subdirector de Difusión Cultural en Álvaro Obregón, Distrito Federal."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1987",
-                    "experiencia": "Director de Servicios de Administración en la Delegación General de la SEP."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Director de Educación Terminal en la Delegación General de la SEP en Guerrero."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1983",
-                    "experiencia": "Director de Servicios Regionales en la Delegación General de la SEP en Guerrero."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Auxiliar Analista en la Subsecretaria de Egresos de la SHCP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Colaborador de la Secretaría de Asentamientos Humanos y Obras Públicas (SAHOP)."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Director de la Escuela Primaria y Normal Quince de Mayo."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "01/05/2021",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "01/02/2021",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/aostoaortega/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/aostoaortega",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/anibal_ostoa/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9223875",
-                "fecha_extraccion": "2026-10-13T09:21:55+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9221851",
-            "nombre_completo": "Sánchez García Cecilia Margarita",
-            "camara": "Senadores",
-            "legislatura": 64,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Campeche",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Lida Ruíz Hernández ",
-            "fecha_toma_protesta": "29/08/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221851.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/04/2021",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/09/2018",
-                    "fecha_fin": "03/09/2019",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/09/2018",
-                    "fecha_fin": "31/08/2021",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Funcionaria de trabajo adjunta de la sección 47."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora estatal de Morena en Campeche."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Laboró en la Secretaría del Interior de PEMEX."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subcontador Especialista -A- en Finanzas en PEMEX."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en Refinería de PEMEX en San Martín Texmelucan, Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Laboró en la Subdirección del Hospital de PEMEX en Tula, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/CeciliaSanchezGC/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://twitter.com/Cecilia__SG",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/ceciliasanchez_gc/?hl=es-la",
-                    "color": "#e4405f"
-                }
-            ],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221852",
-                "fecha_extraccion": "2026-10-13T09:21:57+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria General del Sindicato único de la Universidad Autónoma de Campeche."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de Servicios Básicos en el gobierno del Carmen, Campeche."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretaria del estado de Campeche."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/buenfildiazirasema/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/irasemabuenfil?lang=es",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/irasemabuenfil/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221606",
+        "fecha_extraccion": "2026-10-13T09:21:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9222118",
+      "nombre_completo": "Gómez Quej José Del Carmen",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Campeche",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Mario Enrique Pacheco Ceballos",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9222118.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Secretario general del Comité Directivo Estatal del PAN en Campeche."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Presidente de la Comisión de Vigilancia del PAN."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Tesorero del Comité Directivo Municipal del PAN de Carmen, Campeche."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2018",
+          "experiencia": "Consejero estatal del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Síndico de Hacienda de Carmen, Campeche."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Regidor de Campeche, Campeche."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2009",
+          "experiencia": "Tesorero de Carmen, Campeche."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/jgomezquej",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/JOSEGOMEZQUEJ",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/josegomezquej/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9222119",
+        "fecha_extraccion": "2026-10-13T09:21:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221603",
+      "nombre_completo": "Martínez Aké Carlos Enrique",
+      "camara": "Diputados",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Campeche",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Daniel Jesus Gomez Vargas",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221603.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Frontera Sur (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/10/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2015",
+          "experiencia": "Representante de MORENA ante el Organismo Público Electoral."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Presidente del Comité Municipal de MORENA en Campeche."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Secretario de Elecciones de MC en Campeche."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Representante de CONVERGENCIA ante el Instituto Electoral de Campeche."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Secretario de Elecciones de CONVERGENCIA en Campeche."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2018",
+          "experiencia": "Diputado local en la LXII Legislatura del Congreso de Campeche. Coordinador del Grupo Parlamentario de MORENA. Presidente de la Comisión de Ciencia y Tecnología. Vocal de la comisión de Puntos Constitucionales y Control Interno de Convencionalidad y, Finanzas y Hacienda Pública."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/CarlosMartinezAke/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/cemartinezake",
+          "color": "#000000"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221604",
+        "fecha_extraccion": "2026-10-13T09:21:50+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9221753",
+      "nombre_completo": "Abreu Artiñano Rocío Adriana",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Campeche",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Hilda Eugenia Velázquez Rodríguez",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221753.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para el Seguimiento a la Implementación de la Agenda 2030 en México (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/02/2020",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, Europa (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/09/2019",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputada federal en la LXII Legislatura. Presidenta de la Comisión Especial para la prevención, conservación y en su caso restauración del medio ambiente en las entidades federativas donde se ubican las instalaciones de PEMEX. Secretaria de la Comisión de Cambio Climático. Integrante de las comisiones de Infraestructura; Puntos Constitucionales; Especial de Puertos y Marina Mercante; y, Especial de casos de corrupción ocurridos en Petróleos Mexicanos, señalados por la Auditoria Superior de la Federación de 2006, a la fecha, que hayan ocasionado daño patrimonial a la Nación."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada local en la LX Legislatura del Congreso de Campeche. Secretaria de la Mesa Directiva. Presidenta de las comisiones de Puntos Constitucionales y, Gobernación. Vicepresidenta de la Comisión de Vigilancia."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2016",
+          "al_ano": "2018",
+          "experiencia": "Delegada de la SEMARNAT en Campeche."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Regidora de El Carmen, Campeche."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2009",
+          "experiencia": "Consejera de la Comisión de Derechos Humanos en el Estado de Campeche."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Subdirectora de Auditoría en Legalidad de la Contraloría del gobierno del Distrito Federal."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Subdirectora de Juicios Diversos de la PGR."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2003",
+          "experiencia": "Líder coordinador de Proyectos de la PGR."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Técnico Analista en Sistemas de la Comisión Nacional del Sistema Ahorro para el Retiro."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo de Turismo de Carmen, Campeche."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/RocioAbreuA/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/RocioAbreuA",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/rocioabreua/",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221754",
+        "fecha_extraccion": "2026-10-13T09:21:53+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221849",
+      "nombre_completo": "Ostoa Ortega Aníbal",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Campeche",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Arturo del Carmen Moo Cahuich",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": "1949-05-10",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221849.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/11/2018",
+          "fecha_fin": "01/02/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Desarrollo y Bienestar Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/02/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/02/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "01/02/2021",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "20/11/2018",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Relaciones Exteriores, Asia-Pacífico-África (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "01/02/2021",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Coordinador de la estructura electoral y territorial de MORENA."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Enlace nacional de MORENA."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Directivo Estatal (CDE) de CONVERGENCIA en Campeche."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Coordinador general de campaña a la candidata a Gobernadora en Campeche."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Presidente del Consejo Político Estatal de CONVERGENCIA en Campeche."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Fundador y Delegado Nacional de CONVERGENCIA en Campeche."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Asesor en la elección de la candidata del PRD al gobierno de Campeche."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Asesor de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Chiapas en el Distrito Federal."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Delegado del Congreso de la Sección 9 del Sindicato Nacional de Trabajadores de la Educación (SNTE)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador estatal de organización de MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor para la Creación Organizaciones Sociales de Campeche."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador del partido MORENA."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del Consejo Estatal de MORENA en Campeche."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Diputado federal suplente en la LX Legislatura. Secretario de la Comisión de Gobernación. Integrante de la Comisión de Seguridad Pública."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado local en la LVII Legislatura del Congreso de Campeche. Coordinador de Convergencia. Primer vocal de la Gran Comisión o Comisión de Gobierno y Administración, y de la Comisión de Asuntos Energéticos; Tercer vocal de la Comisión de Puntos Constitucionales y Gobernación; y, Segundo vocal de la Comisión de Desarrollo Urbano, Comunicaciones y Obras Públicas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": null,
+          "experiencia": "Asesor en el Senado de la República de MC."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1997",
+          "experiencia": "Asesor Técnico de la Comisión de Educación en la Cámara de Diputados."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1997",
+          "experiencia": "Director general del Centro Universitario Desarrollo Empresarial y Pedagógico."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Subdirector de Difusión Cultural en Álvaro Obregón, Distrito Federal."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1987",
+          "experiencia": "Director de Servicios de Administración en la Delegación General de la SEP."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Director de Educación Terminal en la Delegación General de la SEP en Guerrero."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1983",
+          "experiencia": "Director de Servicios Regionales en la Delegación General de la SEP en Guerrero."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Auxiliar Analista en la Subsecretaria de Egresos de la SHCP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Colaborador de la Secretaría de Asentamientos Humanos y Obras Públicas (SAHOP)."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Director de la Escuela Primaria y Normal Quince de Mayo."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "01/05/2021",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "01/02/2021",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/aostoaortega/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/aostoaortega",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/anibal_ostoa/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9223875",
+        "fecha_extraccion": "2026-10-13T09:21:55+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221851",
+      "nombre_completo": "Sánchez García Cecilia Margarita",
+      "camara": "Senadores",
+      "legislatura": 64,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Campeche",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Lida Ruíz Hernández",
+      "fecha_toma_protesta": "29/08/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221851.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Asuntos Fronterizos y Migratorios (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/04/2021",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Anticorrupción, Transparencia y Participación Ciudadana (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/09/2018",
+          "fecha_fin": "03/09/2019",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/09/2018",
+          "fecha_fin": "31/08/2021",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Funcionaria de trabajo adjunta de la sección 47."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora estatal de Morena en Campeche."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Laboró en la Secretaría del Interior de PEMEX."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subcontador Especialista -A- en Finanzas en PEMEX."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en Refinería de PEMEX en San Martín Texmelucan, Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Laboró en la Subdirección del Hospital de PEMEX en Tula, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/CeciliaSanchezGC/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://twitter.com/Cecilia__SG",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/ceciliasanchez_gc/?hl=es-la",
+          "color": "#e4405f"
+        }
+      ],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221852",
+        "fecha_extraccion": "2026-10-13T09:21:57+00:00"
+      }
+    }
+  ]
 }

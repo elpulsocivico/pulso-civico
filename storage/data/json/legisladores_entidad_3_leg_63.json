@@ -1,920 +1,920 @@
 {
-    "metadata": {
-        "entidad_id": 3,
-        "entidad_nombre": "Baja California Sur",
-        "legislatura": 63,
-        "generado_en": "2026-10-13T08:19:09+00:00",
-        "total_diputados": 4,
-        "total_senadores": 3,
-        "total_general": 7
+  "metadata": {
+    "entidad_id": 3,
+    "entidad_nombre": "Baja California Sur",
+    "legislatura": 63,
+    "generado_en": "2026-10-13T08:19:09+00:00",
+    "total_diputados": 4,
+    "total_senadores": 3,
+    "total_general": 7
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9218545",
+      "nombre_completo": "Castro Terrazas María Elena",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/02/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218545.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "De seguimiento a los programas sustentables para mujeres (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "13/02/2018",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "13/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN en Comondú, Baja California Sur."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Directora del Programa Estatal de Control de Adicciones del Centro Estatal de Salud Mental de Baja California Sur."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Responsable del Programa de Autoempleo de la STPS en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de Instituto de Capacitación para los Trabajadores del Estado de Baja California Sur (ICATEBS) en la zona norte."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218544",
+        "titular_nombre": "Jisela Paes Martínez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:18:57+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9218424",
+      "nombre_completo": "Corral Estrada Herminio",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Miguel Ángel Luna Velázquez",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218424.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
         {
-            "referencia_sil": "9218545",
-            "nombre_completo": "Castro Terrazas María Elena",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/02/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218545.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "De seguimiento a los programas sustentables para mujeres (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "13/02/2018",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "13/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN en Comondú, Baja California Sur."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Directora del Programa Estatal de Control de Adicciones del Centro Estatal de Salud Mental de Baja California Sur."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Responsable del Programa de Autoempleo de la STPS en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de Instituto de Capacitación para los Trabajadores del Estado de Baja California Sur (ICATEBS) en la zona norte."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218544",
-                "titular_nombre": "Jisela Paes Martínez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:18:57+00:00"
-            }
+          "comision": "De energías renovables (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "12/09/2017",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218424",
-            "nombre_completo": "Corral Estrada Herminio",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Miguel Ángel Luna Velázquez ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218424.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "De energías renovables (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "12/09/2017",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "De apoyo a comerciantes en pequeño y microempresarios para fomentar la economía familiar (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/11/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Infraestructura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2015",
-                    "experiencia": "Presidente del CDE del PAN en Baja California Sur."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Capacitación en Baja California Sur de la Fundación Rafael Preciado Hernández A. C."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2015",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador estatal del movimiento ciudadano del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de Acción Juvenil del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Asesor para asuntos políticos en el Senado de la República."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2011",
-                    "experiencia": "Delegado federal de la PROFECO en Baja California Sur."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2007",
-                    "experiencia": "Jefe de Verificación de la PROFECO."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Regidor de Comondú, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asistente en la VIII Legislatura del Congreso de Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218425",
-                "fecha_extraccion": "2026-10-13T08:18:59+00:00"
-            }
+          "comision": "De apoyo a comerciantes en pequeño y microempresarios para fomentar la economía familiar (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/11/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218265",
-            "nombre_completo": "Ponce Beltrán Esthela de Jesús",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Francisca Ana Krauss Velarde ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218265.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/12/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Competitividad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinadora regional de la 1ra circunscripción del PRI."
-                },
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2014",
-                    "experiencia": "Presidenta de la Red de Municipios por la Salud en Baja California Sur."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Presidenta del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Secretaria de Gestión Social del CEN del PRI."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Presidenta del ONMPRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Gestión Social del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Secretaria coordinadora del Movimiento Nacional de la Mujer de la CNOP."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Vicepresidenta del Organismo Nacional de Mujeres Priístas (ONMPRI)."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica del Pleno del CDE de la CNOP en Baja California Sur."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Secretaria de finanzas del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretaria adjunta de la presidencia del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Secretaria adjunta de la coordinación nacional ejecutiva del CEN de la FNOC en el PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Secretaria general adjunta del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1993",
-                    "experiencia": "Secretaria general del Consejo para la Integración de la Mujer (CIM) en Baja California Sur."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Secretaria general del Movimiento de la Juventud Revolucionaria del PRI en La Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesora política de la coordinación de diputados federales del PRI de Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vicepresidenta Nacional de la Red Mexicana de Municipios por la Salud en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vicepresidenta de Desarrollo Cultural del Consejo Directivo Nacional de la Federación Nacional de Municipios de México (FENAMM)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora ejecutiva de la Secretaría de Organización del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretaria de participación de la mujer del CEN del Frente Nacional de Organizaciones y Ciudadanos (FNOC)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de relaciones públicas en el CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora regional del CDN del congreso de mujeres por el cambio."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vicepresidencia del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Internacional Socialista de Mujeres."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vocal regional del CDE del CIM en el noroeste."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Gestión Social del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada del CEN del PRI en Yucatán."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Acción Social del CDM del PRI en La Paz, Baja California Sur."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal en la LXI Legislatura. Integrante de las comisiones de Información, Gestoría y Quejas; Equidad y Género; Marina; Turismo; y, Especial para Impulsar el Desarrollo de la Industria Vitivinícola y Productos de la Vid."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputada federal en la LIX Legislatura. Integrante de las comisiones de Equidad y Género; Radio, Televisión y Cinematografía; y especial para dar seguimiento a los feminicidios. Coordinadora de la fracción de diputados del PRI de Baja California Sur."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Presidenta municipal de La Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Asesora legislativa de la Cámara de Diputados en la LVIII legislatura."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1999",
-                    "experiencia": "Directora del Patronato del Estudiante Sudcaliforniano del gobierno de Baja California Sur."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Regidora de La Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesora en la LXI Legislatura de la Cámara de Senadores."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "30/05/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "17/07/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218266",
-                "fecha_extraccion": "2026-10-13T08:19:01+00:00"
-            }
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9218549",
-            "nombre_completo": "Toledo Soto Nicolás",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "03/04/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218549.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218548",
-                "titular_nombre": "Víctor Ernesto Ibarra Montoya ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:19:02+00:00"
-            }
+          "comision": "Infraestructura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9218788",
-            "nombre_completo": "Barroso Agramont Ricardo",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ángel Salvador Ceseña Burgoin ",
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218788.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Rural (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca y Acuacultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Consejero suplente del Poder Legislativo ante el Consejo General del INE, por el PRI."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Candidato a gobernador de Baja California Sur."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2011",
-                    "experiencia": "Candidato a gobernador de Baja California Sur."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Presidente del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de la Agrupación Política Jóvenes por Ti."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización de la Juventud Popular Revolucionaria en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico del Organismo Nacional de Mujeres en el CEN del PRI (ONMPRI)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador regional en campaña interna por la dirigencia del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a regidor en La Paz, Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDE del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del Frente Juvenil Revolucionario (FJR) en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado federal suplente."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Baja California Sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la CNOP en La Paz, Baja California Sur."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219739",
-                "fecha_extraccion": "2026-10-13T08:19:06+00:00"
-            }
+          "del_ano": "2011",
+          "al_ano": "2015",
+          "experiencia": "Presidente del CDE del PAN en Baja California Sur."
         },
         {
-            "referencia_sil": "9221030",
-            "nombre_completo": "Fernández Sánchez Navarro Juan Alejandro",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221030.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Protección Civil (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Económico (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "15/03/2016",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Regidor de Los Cabos, Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218786",
-                "titular_nombre": "Carlos Mendoza Davis ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:19:07+00:00"
-            }
+          "del_ano": "2007",
+          "al_ano": null,
+          "experiencia": "Secretario de Capacitación en Baja California Sur de la Fundación Rafael Preciado Hernández A. C."
         },
         {
-            "referencia_sil": "9219740",
-            "nombre_completo": "González Cuevas Isaías",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Baja California Sur",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ana Luisa Yuen Santa Ana ",
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219740.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Precandidato a gobernador de Baja California Sur."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario de acción política del Congreso del Trabajo."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2016",
-                    "experiencia": "Secretario general del CEN de la CROC."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Agrupación Polí­tica Nacional Ricardo Flores Magón."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario general de la CROC en el Distrito Federal y área metropolitana."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario de capacitación sindical y polí­tica del CEN de la CROC."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CROC en Baja California Sur."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1972",
-                    "experiencia": "Delegado del CEN de la CROC en Baja California Sur."
-                },
-                {
-                    "del_ano": "1966",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la Unión Nacional de Trabajadores de la Industria Alimenticia."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité Ejecutivo de la Unión Nacional de la Industria Hotelera y Gastronómica."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputado federal en la LXI Legislatura. Presidente de la Comisión Especial de Análisis de Políticas de Creación de Nuevos Empleos. Integrante de las comisiones de Trabajo y Previsión Social; Especial para Analizar el Presupuesto de Gastos Fiscales; y Especial para Impulsar el Desarrollo de la Industria Vitivinícola y Productos de la Vid."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII Legislatura. Integrante de las comisiones de Seguridad Social; Asuntos Fronterizos; Trabajo y Previsión Social; Especial de Jubilados y Pensionados; y de Investigación sobre el impacto Ecológico Ambiental de la empresa Exportadora de Sal, S.A. de C.V."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Senador suplente en la LIV Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidor de La Paz, Baja California Sur."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219741",
-                "fecha_extraccion": "2026-10-13T08:19:09+00:00"
-            }
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2015",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador estatal del movimiento ciudadano del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario de Acción Juvenil del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Asesor para asuntos políticos en el Senado de la República."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2011",
+          "experiencia": "Delegado federal de la PROFECO en Baja California Sur."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2007",
+          "experiencia": "Jefe de Verificación de la PROFECO."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Regidor de Comondú, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asistente en la VIII Legislatura del Congreso de Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218425",
+        "fecha_extraccion": "2026-10-13T08:18:59+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218265",
+      "nombre_completo": "Ponce Beltrán Esthela de Jesús",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Francisca Ana Krauss Velarde",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218265.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Régimen, Reglamentos y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/12/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Competitividad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Municipal (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Coordinadora regional de la 1ra circunscripción del PRI."
+        },
+        {
+          "del_ano": "2013",
+          "al_ano": "2014",
+          "experiencia": "Presidenta de la Red de Municipios por la Salud en Baja California Sur."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Presidenta del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Secretaria de Gestión Social del CEN del PRI."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Presidenta del ONMPRI."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretaria de Gestión Social del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Secretaria coordinadora del Movimiento Nacional de la Mujer de la CNOP."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Vicepresidenta del Organismo Nacional de Mujeres Priístas (ONMPRI)."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretaria técnica del Pleno del CDE de la CNOP en Baja California Sur."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Secretaria de finanzas del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretaria adjunta de la presidencia del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Secretaria adjunta de la coordinación nacional ejecutiva del CEN de la FNOC en el PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Secretaria general adjunta del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1993",
+          "experiencia": "Secretaria general del Consejo para la Integración de la Mujer (CIM) en Baja California Sur."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Secretaria general del Movimiento de la Juventud Revolucionaria del PRI en La Paz, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesora política de la coordinación de diputados federales del PRI de Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vicepresidenta Nacional de la Red Mexicana de Municipios por la Salud en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vicepresidenta de Desarrollo Cultural del Consejo Directivo Nacional de la Federación Nacional de Municipios de México (FENAMM)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora ejecutiva de la Secretaría de Organización del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretaria de participación de la mujer del CEN del Frente Nacional de Organizaciones y Ciudadanos (FNOC)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de relaciones públicas en el CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora regional del CDN del congreso de mujeres por el cambio."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vicepresidencia del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Internacional Socialista de Mujeres."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vocal regional del CDE del CIM en el noroeste."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Gestión Social del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada del CEN del PRI en Yucatán."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Acción Social del CDM del PRI en La Paz, Baja California Sur."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal en la LXI Legislatura. Integrante de las comisiones de Información, Gestoría y Quejas; Equidad y Género; Marina; Turismo; y, Especial para Impulsar el Desarrollo de la Industria Vitivinícola y Productos de la Vid."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputada federal en la LIX Legislatura. Integrante de las comisiones de Equidad y Género; Radio, Televisión y Cinematografía; y especial para dar seguimiento a los feminicidios. Coordinadora de la fracción de diputados del PRI de Baja California Sur."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Presidenta municipal de La Paz, Baja California Sur."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Asesora legislativa de la Cámara de Diputados en la LVIII legislatura."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1999",
+          "experiencia": "Directora del Patronato del Estudiante Sudcaliforniano del gobierno de Baja California Sur."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Regidora de La Paz, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesora en la LXI Legislatura de la Cámara de Senadores."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "30/05/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "17/07/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218266",
+        "fecha_extraccion": "2026-10-13T08:19:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218549",
+      "nombre_completo": "Toledo Soto Nicolás",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "03/04/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218549.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218548",
+        "titular_nombre": "Víctor Ernesto Ibarra Montoya ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:19:02+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9218788",
+      "nombre_completo": "Barroso Agramont Ricardo",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ángel Salvador Ceseña Burgoin",
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218788.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Rural (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca y Acuacultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Consejero suplente del Poder Legislativo ante el Consejo General del INE, por el PRI."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Candidato a gobernador de Baja California Sur."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2011",
+          "experiencia": "Candidato a gobernador de Baja California Sur."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Presidente del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Coordinador general de la Agrupación Política Jóvenes por Ti."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización de la Juventud Popular Revolucionaria en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico del Organismo Nacional de Mujeres en el CEN del PRI (ONMPRI)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador regional en campaña interna por la dirigencia del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a regidor en La Paz, Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDE del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del Frente Juvenil Revolucionario (FJR) en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a diputado federal suplente."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Baja California Sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la CNOP en La Paz, Baja California Sur."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219739",
+        "fecha_extraccion": "2026-10-13T08:19:06+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221030",
+      "nombre_completo": "Fernández Sánchez Navarro Juan Alejandro",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221030.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Protección Civil (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Económico (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "15/03/2016",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Regidor de Los Cabos, Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218786",
+        "titular_nombre": "Carlos Mendoza Davis ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:19:07+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9219740",
+      "nombre_completo": "González Cuevas Isaías",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Baja California Sur",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ana Luisa Yuen Santa Ana",
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219740.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Precandidato a gobernador de Baja California Sur."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2006",
+          "experiencia": "Secretario de acción política del Congreso del Trabajo."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2016",
+          "experiencia": "Secretario general del CEN de la CROC."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Presidente de la Agrupación Polí­tica Nacional Ricardo Flores Magón."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Secretario general de la CROC en el Distrito Federal y área metropolitana."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "2004",
+          "experiencia": "Secretario de capacitación sindical y polí­tica del CEN de la CROC."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Secretario general de la CROC en Baja California Sur."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1972",
+          "experiencia": "Delegado del CEN de la CROC en Baja California Sur."
+        },
+        {
+          "del_ano": "1966",
+          "al_ano": null,
+          "experiencia": "Secretario general de la Unión Nacional de Trabajadores de la Industria Alimenticia."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité Ejecutivo de la Unión Nacional de la Industria Hotelera y Gastronómica."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputado federal en la LXI Legislatura. Presidente de la Comisión Especial de Análisis de Políticas de Creación de Nuevos Empleos. Integrante de las comisiones de Trabajo y Previsión Social; Especial para Analizar el Presupuesto de Gastos Fiscales; y Especial para Impulsar el Desarrollo de la Industria Vitivinícola y Productos de la Vid."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII Legislatura. Integrante de las comisiones de Seguridad Social; Asuntos Fronterizos; Trabajo y Previsión Social; Especial de Jubilados y Pensionados; y de Investigación sobre el impacto Ecológico Ambiental de la empresa Exportadora de Sal, S.A. de C.V."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Senador suplente en la LIV Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidor de La Paz, Baja California Sur."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219741",
+        "fecha_extraccion": "2026-10-13T08:19:09+00:00"
+      }
+    }
+  ]
 }

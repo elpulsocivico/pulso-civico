@@ -1,1696 +1,1696 @@
 {
-    "metadata": {
-        "entidad_id": 10,
-        "entidad_nombre": "Durango",
-        "legislatura": 59,
-        "generado_en": "2026-10-13T04:10:08+00:00",
-        "total_diputados": 7,
-        "total_senadores": 4,
-        "total_general": 11
+  "metadata": {
+    "entidad_id": 10,
+    "entidad_nombre": "Durango",
+    "legislatura": 59,
+    "generado_en": "2026-10-13T04:10:08+00:00",
+    "total_diputados": 7,
+    "total_senadores": 4,
+    "total_general": 11
+  },
+  "diputados": [
+    {
+      "referencia_sil": "569322",
+      "nombre_completo": "Adame de León Fernando Ulises",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Enrique Aurelio Estrada Ortega",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569322.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "08/03/2005",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria. (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/03/2005",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente de las juventudes priistas en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado de la comisión de causas regionales del PRI en Coahuila."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CEN de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Suplente de la cartera de ciencia y tecnología del CEN de la CNC del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de capacitación de la asociación nacional de egresados de la Universidad Autónoma Agraria \"Antonio Narro\", por parte de la CNC."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Diputado local en la LXII legislatura de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario de agricultura, ganadería y desarrollo rural del gobierno de Durango."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Técnico en la Secretaría de Agricultura y Recursos Hidráulicos (SARH)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del consejo de administración de BANRURAL del norte."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director regional de la Universidad Autónoma Agraria \"Antonio Narro\", unidad La Laguna (UAAN-UL)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del comité municipal y regional de seguridad pública en Lerdo, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del comité municipal y regional de sanidad animal en Lerdo, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del comité municipal y regional de uso y conservación en Lerdo, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor en la comisión de derechos humanos en la región de La Laguna."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del proyecto de desarrollo integral del municipio de San Juan de Guadalupe, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador sobre uso agropecuario del agua para la comarca lagunera."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178891",
+        "fecha_extraccion": "2026-10-13T04:09:57+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "569843",
+      "nombre_completo": "Ávila Nevárez Pedro",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jorge Vázquez Veloz",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569843.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "569322",
-            "nombre_completo": "Adame de León Fernando Ulises",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Enrique Aurelio Estrada Ortega ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569322.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "08/03/2005",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria. (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/03/2005",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente de las juventudes priistas en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado de la comisión de causas regionales del PRI en Coahuila."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CEN de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Suplente de la cartera de ciencia y tecnología del CEN de la CNC del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de capacitación de la asociación nacional de egresados de la Universidad Autónoma Agraria \"Antonio Narro\", por parte de la CNC."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado local en la LXII legislatura de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de agricultura, ganadería y desarrollo rural del gobierno de Durango."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Técnico en la Secretaría de Agricultura y Recursos Hidráulicos (SARH)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo de administración de BANRURAL del norte."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director regional de la Universidad Autónoma Agraria \"Antonio Narro\", unidad La Laguna (UAAN-UL)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité municipal y regional de seguridad pública en Lerdo, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité municipal y regional de sanidad animal en Lerdo, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité municipal y regional de uso y conservación en Lerdo, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor en la comisión de derechos humanos en la región de La Laguna."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del proyecto de desarrollo integral del municipio de San Juan de Guadalupe, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador sobre uso agropecuario del agua para la comarca lagunera."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178891",
-                "fecha_extraccion": "2026-10-13T04:09:57+00:00"
-            }
+          "comision": "Especial (Fideicomiso f/9645-2- empresas mineras) para conocer y dar seguimiento al manejo y destino de los recursos entregados al Fideicomiso f/9645-2, que se integró con el 5% de las acciones de las empresas mineras Mexicana de Cobre, Mexicana de Ácido (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/04/2006",
+          "fecha_fin": "31/07/2006",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "569843",
-            "nombre_completo": "Ávila Nevárez Pedro",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jorge Vázquez Veloz ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569843.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial (Fideicomiso f/9645-2- empresas mineras) para conocer y dar seguimiento al manejo y destino de los recursos entregados al Fideicomiso f/9645-2, que se integró con el 5% de las acciones de las empresas mineras Mexicana de Cobre, Mexicana de Ácido (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/04/2006",
-                    "fecha_fin": "31/07/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/03/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1992",
-                    "experiencia": "Candidato a diputado plurinominal del PRI en dos ocasiones."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de acción juvenil del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción social del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general adjunto del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del comité juvenil de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización de la liga municipal de la CNOP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Orador oficial en diversas campañas políticas para gobernadores, senadores, diputados federales y diputados locales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente del frente cívico revolucionario Lic. Adolfo López Mateos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la federación de juventudes villistas de Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la asociación cultural y deportiva Ignacio Allende."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director del Instituto de Estudios Políticos, Económicos y Sociales del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero municipal del PRI en Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de gestión social en el CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización en el comité municipal de la CNOP en Durango, Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local en la LXII legislatura del congreso de Durango."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal suplente en la LI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Síndico del municipio de Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidor del municipio de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2179006",
-                "fecha_extraccion": "2026-10-13T04:09:59+00:00"
-            }
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/03/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1345973",
-            "nombre_completo": "Elyd Sáenz María Salomé",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "13/09/2004",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1345973.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/06/2005",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "21/06/2005",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Ex directora del DIF municipal en Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "570085",
-                "titular_nombre": "Juan de Dios Castro Lozano ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T04:10:01+00:00"
-            }
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "569495",
-            "nombre_completo": "Fernández Saracho Jaime",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Diana María Espinosa Sánchez ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569495.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "16/03/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de Gestión Social del CEN del PRI."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRI a la XVIII Asamblea General."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PRI a diputado federal por el distrito 05 de Durango."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP en Durango."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Coordinador distrital de campaña del PRI al gobierno de Durango."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Candidato a diputado federal plurinominal del PRI."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Auxiliar de la Secretaría de Organización del CEN del SNTE."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de Acción Juvenil Seccional del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Oficial mayor de la CNOP en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario municipal de la CNOP en Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario estatal de la CNOP en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal del PRI en Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Auxiliar del secretario de organización del Comité Estatal de la CNOP en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la CNOP en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI en Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local en la LXII legislatura del congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Regidor del municipio de Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor de redes de agua potable y alcantarillado de Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178924",
-                "fecha_extraccion": "2026-10-13T04:10:03+00:00"
-            }
-        },
-        {
-            "referencia_sil": "570241",
-            "nombre_completo": "González Yáñez Alejandro",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PT",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Gloria Cristina Ruíz Mendoza ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/570241.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Reforma del Estado (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/04/2006",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/03/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la comisión coordinadora nacional del PT."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Director del sistema nacional de escuelas de cuadros del PT."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato a gobernador de Durango por el PT."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente municipal de Durango, Durango."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Cofundador del Partido del Trabajo."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinador del grupo parlamentario del PT en el Congreso de Durango."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Cofundador de la coordinadora nacional del movimiento urbano popular (MUP)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Cofundador de la organización de izquierda revolucionaria línea de masas (OIR-LM)."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1979",
-                    "experiencia": "Fundador del comité de defensa popular por la vivienda (CDP) en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de campaña presidencial."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Coordinador del Grupo Parlamentario del PT."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Diputado local del PT en la LVIII legislatura del Congreso de Durango. Coordinador del grupo parlamentario."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2179099",
-                "fecha_extraccion": "2026-10-13T04:10:05+00:00"
-            }
-        },
-        {
-            "referencia_sil": "569379",
-            "nombre_completo": "Monárrez Rincón Francisco Luis",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Jaime Rivas Loaiza ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569379.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "06/08/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/03/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2003",
-                    "fecha_fin": "29/04/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1975",
-                    "experiencia": "Presidente de la Sociedad de Estudiantes de la Facultad de Contaduría de la UJED."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión de Gestión Social del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro distinguido del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de profesionales y técnicos de la CTM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de relaciones con empresarios en el CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable del comité de financiamiento de la campaña a gobernado del CDE del PRI en Durango."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de Administración y Finanzas del gobierno de Durango."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Asesor Administrativo y Financiero del ISSSTE en Durango."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1981",
-                    "experiencia": "Coordinador de Capacitación del IAPD."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1976",
-                    "experiencia": "Oficial administrativo de la Dirección General de Tránsito y Transportes en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del área de recursos humanos y mercadotecnia en la Universidad Juárez de Durango (UJED)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178904",
-                "fecha_extraccion": "2026-10-13T04:10:06+00:00"
-            }
-        },
-        {
-            "referencia_sil": "579107",
-            "nombre_completo": "Sáenz López Rosario",
-            "camara": "Diputados",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "11/09/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/579107.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/10/2004",
-                    "fecha_fin": "28/10/2004",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial de la Niñez, Adolescencia y Familias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar seguimiento a las investigaciones relacionadas con los feminicidios en la República Mexicana y la procuración de justicia vinculada. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/03/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/09/2003",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria coordinadora del CDM del Consejo para la Integración de la Mujer en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del CDE de la Asociación Nacional Femenina Revolucionaria (ANFER) en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política municipal del PRI en Gómez Palacio, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política estatal del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del Sindicato de la Industria del Vestido de la Confederación Regional de Trabajadores Méxicanos en Gómez Palacio, Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada federal suplente por el VI distrito electoral."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Sexta regidora del municipio de Gómez Palacio, Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "11/09/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "569200",
-                "titular_nombre": "Carlos Antonio Herrera Araluce ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T04:10:08+00:00"
-            }
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "547939",
-            "nombre_completo": "Alanis Quiñones Adrián",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juana Leticia Herrera Ale ",
-            "fecha_toma_protesta": "01/09/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547939.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Población y Desarrollo (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organismos Internacionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial encargada de la conmemoración del quincuagésimo aniversario del voto de la mujer en México. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "23/11/2004",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la directiva de la XIX Asamblea nacional del PRI."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión Estatal de Ideología del PRI en Durango."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Precandidato a la gubernatura de Durango."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Delegado del CEN de la CNOP en Jalisco."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Delegado efectivo a la Asamblea nacional electoral de la secretaría de la CNOP."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Asamblea electoral para la renovación de la presidencia del Foro político nacional de profesionales y técnicos."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la tribuna de ecología, recursos naturales y calidad de vida, en la XVIII Asamblea nacional del PRI."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Presidente del consejo consultivo del Foro político nacional de profesionales y técnicos."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Coordinador logístico del Consejo nacional celebrado en Ixtapan de la Sal, estado de México."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2005",
-                    "experiencia": "Consejero nacional del PRI."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Mesa de estatutos de la Asamblea nacional del Foro nacional de profesionales y técnicos."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Vicepresidente del Foro nacional de profesionales y técnicos de la CNOP."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "2002",
-                    "experiencia": "Presidente del CEN de ARMAC."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Durango."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Mesa de estatutos del Congreso constituyente del Foro nacional de profesionales y técnicos."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del CDE de ARMAC, en Durango. Secretario general del CEN de ARMAC."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Miembro del consejo político nacional del PRI."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Presidente ejecutivo de la Feria nacional de las organizaciones populares."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Comisión nacional coordinadora de asambleas de la CNOP."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Miembro de las comisiones nacionales para la renovación democrática de la dirigencia y del reglamento de elecciones internas y de selección de candidatos de la Coordinación para la Reforma del Partido."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Vicepresidente nacional de ARMAC."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Presidente de la Comisión Nacional de Asambleas del UNE. Miembro del pleno nacional del UNE. Secretario coordinador del Movimiento Gremial del CEN del UNE."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario del interior del CEN de la CNOP. Delegado especial del CEN de la CNOP en: El primer proceso de democratización en Morelos. El proceso de democratización de la FOP de Baja California. El proceso de renovación de ayuntamientos en Michoacán."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Secretario de finanzas del CEN de la CNOP. Secretario técnico del Programa nacional de vivienda popular de la CNOP."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Delegado distrital del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Fundador de la organización Arquitectos Revolucionarios de México A.C. (ARMAC), en Durango."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario general de la Federación Estatal de Organizaciones Populares en Durango."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario municipal de profesionales y técnicos de la CNOP, en Durango."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de promoción y gestoría del CDE del PRI, en Durango."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Delegado regional del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del CEN del PRI en Durango, Chihuahua y Zacatecas. Presidente del Comité de estudios sobre federalismo y descentralización de la vida nacional, en Durango (IEPES). Presidente del Comité de estudios sobre el fortalecimiento municipal, en Durango (IEPES)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Subdelegado general del CEN del PRI y de la CNC en Durango."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Director general del CEPES del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1992",
-                    "experiencia": "Delegado efectivo de las asambleas nacionales del PRI de la X y XVII."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1980",
-                    "experiencia": "Subsecretario de coordinación de Uniones Ejidales del CEN de la CNC."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la coordinación nacional del PRI de promoción al voto."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente colegiado de la Comisión Permanente de Agrupaciones Políticas Nacionales."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Población, Desarrollo y Tecnología. Secretario de la Comisión de Ciencia y Tecnología. Integrante de las comisiones de Desarrollo Social, Relaciones Exteriores: Organismos Internacionales, y Relaciones Exteriores: Organizaciones No Gubernamentales Internacionales. Presidente del comité de enlace con centros de educación superior y de investigación científica de la fracción parlamentaria del PRI. Presidente alterno del grupo mexicano de parlamentarios para el Hábitat. Observador permanente de la Asamblea Parlamentaria del Consejo de Europa, en Estrasburgo, Francia. Miembro de la Comisión de Educación, Cultura, Ciencia, Tecnología y Comunicaciones del Parlamento Latinoamericano con sede en Sao Paulo, Brasil."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Diputado local en la LVII legislatura del Congreso de Durango. Presidente de la Gran Comisión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de Comunicaciones y Obras Públicas en Durango."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Coordinador general de la Comisión Estatal de Alimentación (PRONAL)."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Coordinador general del Comité de Planeación para el Desarrollo de Durango (COPLADE)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Delegado estatal de la Comisión Constructora de Ingeniería de la Secretaría de Salubridad y Asistencia en Durango (CCISSA)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Coordinador general del Plan Nacional de Zonas Deprimidas y Grupos Marginados (COPLAMAR), en Durango."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1986",
-                    "experiencia": "Miembro del consejo de administración de la Comisión Nacional de Zonas Áridas (CONAZA) en Durango."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1969",
-                    "experiencia": "Analista y proyectista en el departamento de planeación del Comité Administrador del Programa Federal de Construcción de Escuelas (CAPFCE) en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vocal representante del ejecutivo estatal en el Consejo de Solidaridad Social IMSS-COPLAMAR."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vocal del consejo interno de administración de los Servicios de Salud Pública en Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178773",
-                "fecha_extraccion": "2026-10-13T04:10:08+00:00"
-            }
+          "del_ano": "1987",
+          "al_ano": "1992",
+          "experiencia": "Candidato a diputado plurinominal del PRI en dos ocasiones."
         },
         {
-            "referencia_sil": "547971",
-            "nombre_completo": "Campuzano González Rómulo de Jesús",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Víctor Manuel Martínez Fourcans ",
-            "fecha_toma_protesta": "01/09/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547971.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Turismo (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "25/11/2004",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Candidato a la presidencia del CDE del PAN en Durango."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato a diputado federal del PAN por Durango."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Consejero estatal del PAN en Durango."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Presidente del CDM del PAN en Durango."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Candidato del PAN a la presidencia municipal de Durango."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE del PAN en Durango."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura. Secretario de la Comisión de Ciencia y Tecnología e integrante de las comisiones de Agricultura y Ganadería, Defensa Nacional y Turismo."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Diputado local en la LX legislatura del Congreso de Durango. Presidente de la Comisión de Asuntos Agrícolas, Frutícolas y Pecuarios."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Oficial mayor del municipio de Durango, Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178783",
-                "fecha_extraccion": "2026-10-13T04:10:08+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de acción juvenil del CDE del PRI en Durango."
         },
         {
-            "referencia_sil": "547998",
-            "nombre_completo": "Cruz Martínez Marcos Carlos",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alfonso Primitivo Ríos Vázquez ",
-            "fecha_toma_protesta": "29/08/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547998.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Regional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial encargada de la conmemoración del quincuagésimo aniversario del voto de la mujer en México. (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "23/11/2004",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente municipal de Durango, Durango."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": null,
-                    "experiencia": "Fundador y miembro del PT."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Fundador del Comité de Defensa Popular de Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la organización Línea de Masas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante de la Organización Política Popular."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Vivienda. Secretario de la Comisión de Desarrollo Urbano y Ordenación Territorial. Integrante de las comisiones de Desarrollo Regional, Desarrollo Social, Justicia y Reglamentos y Prácticas Parlamentarias."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Integrante de la COCOPA."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal en la LIV legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Regidor del municipio de Frontera, Coahuila."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178790",
-                "fecha_extraccion": "2026-10-13T04:10:08+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción social del CDE del PRI en Durango."
         },
         {
-            "referencia_sil": "926151",
-            "nombre_completo": "Muro González Ana Bricia",
-            "camara": "Senadores",
-            "legislatura": 59,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "14/04/2004",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/926151.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Juventud y Deporte (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/04/2004",
-                    "fecha_fin": "31/08/2006",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del comité electoral del distrito 05 para el proceso interno de selección del candidato del PRI a la Presidencia de la República."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretaria coordinadora del Movimiento Mujeres de la CNOP."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Presidenta del organismo estatal de mujeres priistas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Senadora suplente en la LVIII Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Integrante de la mesa técnica del Sistema Estatal de Telecomunicaciones como jefa de enseñaza."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Secretaria general del CEE del Sindicato de Telesecundarias."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Secretaria de organización y propaganda del CEE del Sindicato de Telesecundarias."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1990",
-                    "experiencia": "Secretaria de finanzas del CEE del Sindicato de Telesecundarias."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Asesora técnica pedagógica del Sistema Estatal de Telesecundarias."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "14/04/2004",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "548054",
-                "titular_nombre": "Ismael Alfredo Hernández Deras ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T04:10:08+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general adjunto del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del comité juvenil de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización de la liga municipal de la CNOP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Orador oficial en diversas campañas políticas para gobernadores, senadores, diputados federales y diputados locales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente del frente cívico revolucionario Lic. Adolfo López Mateos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la federación de juventudes villistas de Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la asociación cultural y deportiva Ignacio Allende."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director del Instituto de Estudios Políticos, Económicos y Sociales del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero municipal del PRI en Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de gestión social en el CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización en el comité municipal de la CNOP en Durango, Durango."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local en la LXII legislatura del congreso de Durango."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal suplente en la LI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Síndico del municipio de Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidor del municipio de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2179006",
+        "fecha_extraccion": "2026-10-13T04:09:59+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1345973",
+      "nombre_completo": "Elyd Sáenz María Salomé",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "13/09/2004",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1345973.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/06/2005",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "21/06/2005",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Ex directora del DIF municipal en Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "570085",
+        "titular_nombre": "Juan de Dios Castro Lozano ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T04:10:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "569495",
+      "nombre_completo": "Fernández Saracho Jaime",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Diana María Espinosa Sánchez",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569495.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "16/03/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Subsecretario de Gestión Social del CEN del PRI."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Delegado del PRI a la XVIII Asamblea General."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Candidato del PRI a diputado federal por el distrito 05 de Durango."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP en Durango."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Coordinador distrital de campaña del PRI al gobierno de Durango."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Candidato a diputado federal plurinominal del PRI."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Auxiliar de la Secretaría de Organización del CEN del SNTE."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Secretario de Acción Juvenil Seccional del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Oficial mayor de la CNOP en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario municipal de la CNOP en Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario estatal de la CNOP en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal del PRI en Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Auxiliar del secretario de organización del Comité Estatal de la CNOP en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la CNOP en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI en Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local en la LXII legislatura del congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Regidor del municipio de Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor de redes de agua potable y alcantarillado de Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178924",
+        "fecha_extraccion": "2026-10-13T04:10:03+00:00"
+      }
+    },
+    {
+      "referencia_sil": "570241",
+      "nombre_completo": "González Yáñez Alejandro",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PT",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Gloria Cristina Ruíz Mendoza",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/570241.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Especial para la Reforma del Estado (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/04/2006",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/03/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Miembro de la comisión coordinadora nacional del PT."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Director del sistema nacional de escuelas de cuadros del PT."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato a gobernador de Durango por el PT."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Presidente municipal de Durango, Durango."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Cofundador del Partido del Trabajo."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Coordinador del grupo parlamentario del PT en el Congreso de Durango."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Cofundador de la coordinadora nacional del movimiento urbano popular (MUP)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Cofundador de la organización de izquierda revolucionaria línea de masas (OIR-LM)."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1979",
+          "experiencia": "Fundador del comité de defensa popular por la vivienda (CDP) en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de campaña presidencial."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Coordinador del Grupo Parlamentario del PT."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Diputado local del PT en la LVIII legislatura del Congreso de Durango. Coordinador del grupo parlamentario."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2179099",
+        "fecha_extraccion": "2026-10-13T04:10:05+00:00"
+      }
+    },
+    {
+      "referencia_sil": "569379",
+      "nombre_completo": "Monárrez Rincón Francisco Luis",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Jaime Rivas Loaiza",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/569379.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "06/08/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para obtener información relacionada con la aplicación de programas y fondos federales durante el desarrollo de los procesos electorales del estado de Durango (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/03/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2003",
+          "fecha_fin": "29/04/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1974",
+          "al_ano": "1975",
+          "experiencia": "Presidente de la Sociedad de Estudiantes de la Facultad de Contaduría de la UJED."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión de Gestión Social del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro distinguido del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo de profesionales y técnicos de la CTM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de relaciones con empresarios en el CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable del comité de financiamiento de la campaña a gobernado del CDE del PRI en Durango."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2003",
+          "experiencia": "Secretario de Administración y Finanzas del gobierno de Durango."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Asesor Administrativo y Financiero del ISSSTE en Durango."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1981",
+          "experiencia": "Coordinador de Capacitación del IAPD."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1976",
+          "experiencia": "Oficial administrativo de la Dirección General de Tránsito y Transportes en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del área de recursos humanos y mercadotecnia en la Universidad Juárez de Durango (UJED)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178904",
+        "fecha_extraccion": "2026-10-13T04:10:06+00:00"
+      }
+    },
+    {
+      "referencia_sil": "579107",
+      "nombre_completo": "Sáenz López Rosario",
+      "camara": "Diputados",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "11/09/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/579107.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/10/2004",
+          "fecha_fin": "28/10/2004",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial de la Niñez, Adolescencia y Familias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar seguimiento a las investigaciones relacionadas con los feminicidios en la República Mexicana y la procuración de justicia vinculada. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/03/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/09/2003",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria coordinadora del CDM del Consejo para la Integración de la Mujer en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del CDE de la Asociación Nacional Femenina Revolucionaria (ANFER) en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política municipal del PRI en Gómez Palacio, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política estatal del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del Sindicato de la Industria del Vestido de la Confederación Regional de Trabajadores Méxicanos en Gómez Palacio, Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada federal suplente por el VI distrito electoral."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Sexta regidora del municipio de Gómez Palacio, Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "11/09/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "569200",
+        "titular_nombre": "Carlos Antonio Herrera Araluce ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T04:10:08+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "547939",
+      "nombre_completo": "Alanis Quiñones Adrián",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juana Leticia Herrera Ale",
+      "fecha_toma_protesta": "01/09/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547939.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Población y Desarrollo (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organismos Internacionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Organizaciones No Gubernamentales Internacionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial encargada de la conmemoración del quincuagésimo aniversario del voto de la mujer en México. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "23/11/2004",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Miembro de la directiva de la XIX Asamblea nacional del PRI."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión Estatal de Ideología del PRI en Durango."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Precandidato a la gubernatura de Durango."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Delegado del CEN de la CNOP en Jalisco."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Delegado efectivo a la Asamblea nacional electoral de la secretaría de la CNOP."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Presidente de la Asamblea electoral para la renovación de la presidencia del Foro político nacional de profesionales y técnicos."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Coordinador de la tribuna de ecología, recursos naturales y calidad de vida, en la XVIII Asamblea nacional del PRI."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Presidente del consejo consultivo del Foro político nacional de profesionales y técnicos."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Coordinador logístico del Consejo nacional celebrado en Ixtapan de la Sal, estado de México."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2005",
+          "experiencia": "Consejero nacional del PRI."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Presidente de la Mesa de estatutos de la Asamblea nacional del Foro nacional de profesionales y técnicos."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Vicepresidente del Foro nacional de profesionales y técnicos de la CNOP."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "2002",
+          "experiencia": "Presidente del CEN de ARMAC."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Durango."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Presidente de la Mesa de estatutos del Congreso constituyente del Foro nacional de profesionales y técnicos."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Presidente del CDE de ARMAC, en Durango. Secretario general del CEN de ARMAC."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Miembro del consejo político nacional del PRI."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Presidente ejecutivo de la Feria nacional de las organizaciones populares."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Presidente de la Comisión nacional coordinadora de asambleas de la CNOP."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Miembro de las comisiones nacionales para la renovación democrática de la dirigencia y del reglamento de elecciones internas y de selección de candidatos de la Coordinación para la Reforma del Partido."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Vicepresidente nacional de ARMAC."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Presidente de la Comisión Nacional de Asambleas del UNE. Miembro del pleno nacional del UNE. Secretario coordinador del Movimiento Gremial del CEN del UNE."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Subsecretario del interior del CEN de la CNOP. Delegado especial del CEN de la CNOP en: El primer proceso de democratización en Morelos. El proceso de democratización de la FOP de Baja California. El proceso de renovación de ayuntamientos en Michoacán."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Secretario de finanzas del CEN de la CNOP. Secretario técnico del Programa nacional de vivienda popular de la CNOP."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Delegado distrital del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Fundador de la organización Arquitectos Revolucionarios de México A.C. (ARMAC), en Durango."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Secretario general de la Federación Estatal de Organizaciones Populares en Durango."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Secretario municipal de profesionales y técnicos de la CNOP, en Durango."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Secretario de promoción y gestoría del CDE del PRI, en Durango."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Delegado regional del Instituto de Estudios Políticos, Económicos y Sociales (IEPES) del CEN del PRI en Durango, Chihuahua y Zacatecas. Presidente del Comité de estudios sobre federalismo y descentralización de la vida nacional, en Durango (IEPES). Presidente del Comité de estudios sobre el fortalecimiento municipal, en Durango (IEPES)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Subdelegado general del CEN del PRI y de la CNC en Durango."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Director general del CEPES del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1992",
+          "experiencia": "Delegado efectivo de las asambleas nacionales del PRI de la X y XVII."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1980",
+          "experiencia": "Subsecretario de coordinación de Uniones Ejidales del CEN de la CNC."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la coordinación nacional del PRI de promoción al voto."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente colegiado de la Comisión Permanente de Agrupaciones Políticas Nacionales."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Población, Desarrollo y Tecnología. Secretario de la Comisión de Ciencia y Tecnología. Integrante de las comisiones de Desarrollo Social, Relaciones Exteriores: Organismos Internacionales, y Relaciones Exteriores: Organizaciones No Gubernamentales Internacionales. Presidente del comité de enlace con centros de educación superior y de investigación científica de la fracción parlamentaria del PRI. Presidente alterno del grupo mexicano de parlamentarios para el Hábitat. Observador permanente de la Asamblea Parlamentaria del Consejo de Europa, en Estrasburgo, Francia. Miembro de la Comisión de Educación, Cultura, Ciencia, Tecnología y Comunicaciones del Parlamento Latinoamericano con sede en Sao Paulo, Brasil."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Diputado local en la LVII legislatura del Congreso de Durango. Presidente de la Gran Comisión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretario de Comunicaciones y Obras Públicas en Durango."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Coordinador general de la Comisión Estatal de Alimentación (PRONAL)."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Coordinador general del Comité de Planeación para el Desarrollo de Durango (COPLADE)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Delegado estatal de la Comisión Constructora de Ingeniería de la Secretaría de Salubridad y Asistencia en Durango (CCISSA)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Coordinador general del Plan Nacional de Zonas Deprimidas y Grupos Marginados (COPLAMAR), en Durango."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1986",
+          "experiencia": "Miembro del consejo de administración de la Comisión Nacional de Zonas Áridas (CONAZA) en Durango."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1969",
+          "experiencia": "Analista y proyectista en el departamento de planeación del Comité Administrador del Programa Federal de Construcción de Escuelas (CAPFCE) en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vocal representante del ejecutivo estatal en el Consejo de Solidaridad Social IMSS-COPLAMAR."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vocal del consejo interno de administración de los Servicios de Salud Pública en Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178773",
+        "fecha_extraccion": "2026-10-13T04:10:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "547971",
+      "nombre_completo": "Campuzano González Rómulo de Jesús",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Víctor Manuel Martínez Fourcans",
+      "fecha_toma_protesta": "01/09/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547971.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Turismo (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "25/11/2004",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Candidato a la presidencia del CDE del PAN en Durango."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidato a diputado federal del PAN por Durango."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Consejero estatal del PAN en Durango."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Presidente del CDM del PAN en Durango."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Candidato del PAN a la presidencia municipal de Durango."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Integrante del CDE del PAN en Durango."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura. Secretario de la Comisión de Ciencia y Tecnología e integrante de las comisiones de Agricultura y Ganadería, Defensa Nacional y Turismo."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Diputado local en la LX legislatura del Congreso de Durango. Presidente de la Comisión de Asuntos Agrícolas, Frutícolas y Pecuarios."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Oficial mayor del municipio de Durango, Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178783",
+        "fecha_extraccion": "2026-10-13T04:10:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "547998",
+      "nombre_completo": "Cruz Martínez Marcos Carlos",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alfonso Primitivo Ríos Vázquez",
+      "fecha_toma_protesta": "29/08/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/547998.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Regional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial encargada de la conmemoración del quincuagésimo aniversario del voto de la mujer en México. (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "23/11/2004",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Presidente municipal de Durango, Durango."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": null,
+          "experiencia": "Fundador y miembro del PT."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Fundador del Comité de Defensa Popular de Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la organización Línea de Masas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante de la Organización Política Popular."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senador en la LVIII legislatura. Presidente de la Comisión de Vivienda. Secretario de la Comisión de Desarrollo Urbano y Ordenación Territorial. Integrante de las comisiones de Desarrollo Regional, Desarrollo Social, Justicia y Reglamentos y Prácticas Parlamentarias."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Integrante de la COCOPA."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal en la LIV legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Regidor del municipio de Frontera, Coahuila."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178790",
+        "fecha_extraccion": "2026-10-13T04:10:08+00:00"
+      }
+    },
+    {
+      "referencia_sil": "926151",
+      "nombre_completo": "Muro González Ana Bricia",
+      "camara": "Senadores",
+      "legislatura": 59,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "14/04/2004",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/926151.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Juventud y Deporte (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Biblioteca y Asuntos Editoriales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/04/2004",
+          "fecha_fin": "31/08/2006",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Presidenta del comité electoral del distrito 05 para el proceso interno de selección del candidato del PRI a la Presidencia de la República."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretaria coordinadora del Movimiento Mujeres de la CNOP."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Presidenta del organismo estatal de mujeres priistas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Senadora suplente en la LVIII Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Integrante de la mesa técnica del Sistema Estatal de Telecomunicaciones como jefa de enseñaza."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Secretaria general del CEE del Sindicato de Telesecundarias."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Secretaria de organización y propaganda del CEE del Sindicato de Telesecundarias."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1990",
+          "experiencia": "Secretaria de finanzas del CEE del Sindicato de Telesecundarias."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Asesora técnica pedagógica del Sistema Estatal de Telesecundarias."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "14/04/2004",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "548054",
+        "titular_nombre": "Ismael Alfredo Hernández Deras ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T04:10:08+00:00"
+      }
+    }
+  ]
 }

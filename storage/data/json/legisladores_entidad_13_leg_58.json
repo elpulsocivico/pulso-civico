@@ -1,1852 +1,1852 @@
 {
-    "metadata": {
-        "entidad_id": 13,
-        "entidad_nombre": "Hidalgo",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:05:54+00:00",
-        "total_diputados": 11,
-        "total_senadores": 3,
-        "total_general": 14
+  "metadata": {
+    "entidad_id": 13,
+    "entidad_nombre": "Hidalgo",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:05:54+00:00",
+    "total_diputados": 11,
+    "total_senadores": 3,
+    "total_general": 14
+  },
+  "diputados": [
+    {
+      "referencia_sil": "59932",
+      "nombre_completo": "Hernández Hernández Juan Alonso",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/08/2002",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59932.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "05/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo de la organización campesina Unión Regional de Ejidos y Comunidades de la Huasteca Hidalguense (URECHH)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la URECHH."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Regidor en el municipio de Huejutla de Reyes, Hgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Técnico en el Instituto Mexicano del Café (IMECAFE)"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Entrevistador del INEGI."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "800",
+        "titular_nombre": "Alma Carolina Viggiano Austria ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:05:30+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "801",
+      "nombre_completo": "Martínez Bárcenas Celia",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Carlos Felipe Hernández",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/801.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "59932",
-            "nombre_completo": "Hernández Hernández Juan Alonso",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/08/2002",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/59932.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "05/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo de la organización campesina Unión Regional de Ejidos y Comunidades de la Huasteca Hidalguense (URECHH)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la URECHH."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Regidor en el municipio de Huejutla de Reyes, Hgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Técnico en el Instituto Mexicano del Café (IMECAFE)"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Entrevistador del INEGI."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "800",
-                "titular_nombre": "Alma Carolina Viggiano Austria ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:05:30+00:00"
-            }
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "801",
-            "nombre_completo": "Martínez Bárcenas Celia",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Carlos Felipe Hernández ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/801.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Presidenta municipal de Jacala, Hidalgo."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Presidenta municipal de Jacala, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria del Programa de Acción y Gestión del CDE del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del Consejo para la Integración de la Mujer."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegada del Sindicato Nacional de Trabajadores de la Secretaría de Salud."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria del Sindicato Nacional de Trabajadores de la Secretaría de Salud."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Congreso de Mujeres por el cambio en Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada local en la LVI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Secretaria de control y vigilancia de los programas públicos."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Enfermera del hospital de Jacala, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Salubridad y Servicios Sociales."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178354",
-                "fecha_extraccion": "2026-10-13T01:05:32+00:00"
-            }
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1122",
-            "nombre_completo": "Méndez Alarcón Héctor",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Leticia Jiménez Alfaro ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1122.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario general del CDE del PAN en Hidalgo."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de capacitación del CDM del PAN en Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario general del CDM del PAN en Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Diputado local en la LVI legislatura del Congreso de Hidalgo."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario de estudios del CDE del PAN en Hidalgo."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Director de la escuela secundaria técnica Amparo Fragoso en Tulancingo, Hidalgo."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178599",
-                "fecha_extraccion": "2026-10-13T01:05:33+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1150",
-            "nombre_completo": "Patiño Cardona Francisco",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ubaldo Hipólito Vargas Zaragoza ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1150.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Transportes (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Miembro del IV Consejo Nacional."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CEE del PRD en Hidalgo."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Cofundador y miembro del PRD."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Fundador de la Alianza Ecologista Hidalguense."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Miembro del Partido Mexicano Socialista."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1987",
-                    "experiencia": "Miembro del Partido Socialista Unificado de México."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Fundador del Sindicato de Personal Académico de la UAEM."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1978",
-                    "experiencia": "Secretario de organización del PCM en Hidalgo."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1976",
-                    "experiencia": "Integrante del comité de lucha de la Facultad de Química de la UNAM."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal por la LVI legislatura. Secretario del Comité de bibliotecas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe de departamento de laboratorios de la preparatoria núm. 1 de la Universidad Autónoma de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas en el gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador del área de ciencias del Instituto de Ciencias Exactas de la UAH."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178622",
-                "fecha_extraccion": "2026-10-13T01:05:35+00:00"
-            }
-        },
-        {
-            "referencia_sil": "802",
-            "nombre_completo": "Penchyna Grub David",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Guadalupe Portillo Hernández ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/802.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en el DF."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Subsecretario general del CEN del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Consejero nacional del PRI como cuadro distinguido. Presidente de la Comisión Nacional de Programación y Administración. Representante de la CNOP."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Comisión de Administración del Plan Nacional de Desarrollo (PND)1988-1994 del IEPES-PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1990",
-                    "experiencia": "Delegado especial del PRI en las elecciones municipales de Hidalgo."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector popular."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la sociedad de alumnos del Liceo Amado Nervo, Escuela Julián Villagrán, en Pachuca, Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Miembro del consejo consultivo de la SEDESOL."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Asesor del secretario de Gobernación."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador general sectorial de la SEDESOL."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Asesor en el Banco de México."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Director general de atención a usuarios de la Comisión Nacional Bancaria y de Valores (CNBV)."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1995",
-                    "experiencia": "Subdirector general del INFONAVIT."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Director de concertación política de vivienda de la SEDESOL."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Asesor del subsecretario de gobierno y desarrollo político de la SEGOB."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Asesor en los gobiernos de Sonora y Querétaro."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Subdirector en la dirección general de comunicación de radiodifusión de la SEGOB."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1991",
-                    "experiencia": "Subdirector en la dirección ejecutiva de prerrogativas y partidos políticos del IFE."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Jefe de departamento en la dirección general de comunicación de radiodifusión de la SEGOB."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar en la dirección de exhortos foráneos de la PGR."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario particular del coordinador del grupo parlamentario del PRI en el Congreso de Hidalgo."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario técnico de la Comisión de programación y presupuesto del Congreso de Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178355",
-                "fecha_extraccion": "2026-10-13T01:05:37+00:00"
-            }
-        },
-        {
-            "referencia_sil": "523147",
-            "nombre_completo": "Rodríguez Galván Cristóbal",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "08/04/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/523147.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/08/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal en Tizayuca, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político municipal Tepeapulco, Hgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro de la Confederación de Trabajadores de México."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Sindicato Nacional de la Industria Láctea."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Diputado suplente por el XII distrito electoral con sede en Tizayuca, Hgo."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Regidor propietario de Tizayuca, Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "806",
-                "titular_nombre": "Omar Fayad Meneses ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:05:39+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1135",
-            "nombre_completo": "Romero Deschamps Carlos Antonio",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Prudencia Félix Juárez Capilla ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1135.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1993",
-                    "experiencia": "Miembro propietario de la asamblea general del INFONAVIT."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de organización y estadística del STPRM."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1988",
-                    "experiencia": "Vocal del Consejo General de Vigilancia del STPRM."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1985",
-                    "experiencia": "Asesor del Comité Ejecutivo general del STPRM."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1979",
-                    "experiencia": "Secretario general de la sección 35 del STPRM."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Jefe del departamento jurídico y de ajustes del STPRM."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1975",
-                    "experiencia": "Presidente de la Comisión Nacional Mixta de Seguridad e Higiene del STPRM."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1973",
-                    "experiencia": "Secretario de acción política de la dirección juvenil del PRI."
-                },
-                {
-                    "del_ano": "1961",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Precandidato del PRI a la gubernatura de Tamaulipas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de las campañas políticas del PRI en Tampico para diputados federales, gobernadores y presidente de la República."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Comisionado del STPRM para la revisión del contrato colectivo de trabajo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del interior y acuerdos del STPRM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Primer secretario adjunto del CEN de la Confederación de Trabajadores de México."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Comisión Ejecutiva del Congreso del Trabajo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario General del Sindicato de Trabajadores Petroleros de la República Mexicana (STPRM)."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Senador en las LVI y LVII legislaturas."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal en la LI legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Trabajador de PEMEX en diversos estados de la República."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178609",
-                "fecha_extraccion": "2026-10-13T01:05:41+00:00"
-            }
-        },
-        {
-            "referencia_sil": "804",
-            "nombre_completo": "Sicilia Salgado Raúl Efrén",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Erasmo Betancourt Huesca ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/804.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Energía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Presidente municipal en Tula de Allende, Hidalgo."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Presidente del Comité Electoral del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": "1960",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador del Comité de Planeación y Desarrollo Regional región 1 en el gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1977",
-                    "experiencia": "Secretario municipal en Tula de Allende, Hidalgo."
-                },
-                {
-                    "del_ano": "1973",
-                    "al_ano": "1975",
-                    "experiencia": "Administrador de rentas en el distrito de Tula de Allende."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1972",
-                    "experiencia": "Secretario municipal en Tula de Allende, Hidalgo."
-                },
-                {
-                    "del_ano": "1960",
-                    "al_ano": "1965",
-                    "experiencia": "Agente del ministerio público."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178357",
-                "fecha_extraccion": "2026-10-13T01:05:42+00:00"
-            }
-        },
-        {
-            "referencia_sil": "803",
-            "nombre_completo": "Sosa Castelán Gerardo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ángel Ismael Avilés Aranda ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/803.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Ciencia y Tecnología (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDE del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Precandidato del PRI a la gubernatura de Hidalgo."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la Fundación Hidalguense A.C."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Presidente de la región centro-sur de la Asociación Nacional de Universidades e Institutos de Educación Superior (ANUIES)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario general electo y fundador del Sindicato Único de Trabajadores al Servicio de los Poderes del Estado de Hidalgo."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Presidente de la Federación de Estudiantes Universitarios de Hidalgo."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la sociedad de alumnos de la escuela de Derecho y Ciencias Sociales de la UAEH."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador nacional de instituciones de educación superior del CEN del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Diputado local en la LI Legislatura del Congreso de Hidalgo."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1998",
-                    "experiencia": "Rector de la Universidad Autónoma de Hidalgo."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario general de la Universidad Autónoma de Hidalgo."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178356",
-                "fecha_extraccion": "2026-10-13T01:05:44+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1130",
-            "nombre_completo": "Villegas Flores Carlos Nicolás",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Clara Lerina Sáenz Castillo ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1130.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Candidato a presidente municipal de Huejutla, Hidalgo."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Miembro adherente del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Asesor educativo de la Dirección General de Educación Tecnológica e Industrial de la SEP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor del Senado de la República adscrito a la Comisión de Instituciones Financieras."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178605",
-                "fecha_extraccion": "2026-10-13T01:05:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "393872",
-            "nombre_completo": "Zúñiga Velázquez Juan Luis",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "30/04/2003",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/393872.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia y Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CEN del Sindicato Nacional de Trabajadores Mineros, Metalúrgicos y Similares de la República Mexicana (SNTMMSRM)"
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Primer vocal del Consejo de Vigilancia y Justicia del SNTMMSRM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Sindicato Nacional de Trabajadores Mineros, Metalúrgicos y Similares de la República Mexicana (SNTMMSRM)."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "30/04/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "805",
-                "titular_nombre": "Juan Manuel Sepúlveda Fayad ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:05:47+00:00"
-            }
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1276",
-            "nombre_completo": "Ángeles Cerón Esteban Miguel",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Maria del Carmen Lara García ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1276.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Distrito Federal (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Administración (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción legislativa en la Liga de Economistas Revolucionarios (LER)."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Secretario de asuntos internacionales del CEN de la CNC."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Presidente de la comisión de enlace con organizaciones mexicanas en el extranjero."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador de la campaña presidencial del PRI en Hidalgo"
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador general de la campaña del PRI a gobernador de Hidalgo."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Subsecretario en la Secretaría de Acción Electoral del CEN del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Consejero político del CDE del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Secretario de Planeación y Programación Política del CDE del PRI."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción política de la Liga de Economistas Revolucionarios (LER)."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": null,
-                    "experiencia": "Director general del CEPES de Hidalgo."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador de la Liga de Economistas Revolucionarios (LER)."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de finanzas del CDE del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Distrito Federal, de Programación, Presupuesto y Cuenta Pública y de Salud."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1996",
-                    "experiencia": "Diputado local en la LV legislatura del Congreso de Hidalgo. Coordinador de su grupo parlamentario. Integrante de las comisiones de Distrito Federal; Programación, Presupuesto y Cuenta Pública; y Salud."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario de Educación Pública en Hidalgo."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Coordinador de enlace de la SEP para la federalización de la educación básica en Hidalgo."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Contralor general de la Secretaría de la Reforma Agraria (SRA)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1980",
-                    "experiencia": "Delegado estatal del V censo general de población y vivienda."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Coordinador general del Plan Huasteca en el gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1978",
-                    "experiencia": "Delegado agrario en Sinaloa de la Secretaría de Reforma Agraria (SRA)."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1976",
-                    "experiencia": "Secretario de Administración y Finanzas del gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1975",
-                    "experiencia": "Coordinador administrativo de la Dirección General de Administración de la Subsecretaría de Pesca en la Secretaría de Industria y Comercio."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": "1972",
-                    "experiencia": "Analista económico en la SHCP."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178710",
-                "fecha_extraccion": "2026-10-13T01:05:51+00:00"
-            }
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Presidenta municipal de Jacala, Hidalgo."
         },
         {
-            "referencia_sil": "1275",
-            "nombre_completo": "Gil Elorduy José Ernesto",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Lilia Reyes Morales ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1275.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Medalla de honor Belisario Domínguez (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente de la Confederación de Legisladores Locales Priistas en el CEN del PRI. Coordinador de Acción Legislativa de los Congresos Locales en el CEN."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Integrante de la Comisión de Equidad y Género y Justicia de la Comisión Nacional para el Desarrollo del Proceso Interno para la postulación del candidato a la Presidencia."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador nacional del Programa de Derecho Electoral del Plan Nacional Electoral para la elección federal."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de Derecho Electoral del CEN del PRI en la Secretaría de Acción Electoral."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Coordinador Regional del CEN del PRI en Sinaloa."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Subsecretario de Acción Electoral del CEN del PRI."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Consultivo del IEPES del PRI."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Presidente municipal de Pachuca, Hidalgo."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario adjunto del presidente del CEN del PRI."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Presidente del CDE del PRI en Hidalgo."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Subdirector académico del Instituto de Capacitación (ICAP) del PRI."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Delegado especial de la Unidad de Análisis y Programación política del PRI en Aguascalientes, Zacatecas, San Luis Potosí, Sonora y Puebla."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Representante ante la Comisión Electoral de Hidalgo durante el proceso electoral local."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1981",
-                    "experiencia": "Integrante de la Secretaría de Acción Política y Coordinación Legislativa del PRI."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": null,
-                    "experiencia": "Conferencista del Grupo Apatzingán en las Capitales de 20 estados de la República para difundir la Ley Electoral en colegios y organizaciones profesionales."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1979",
-                    "experiencia": "Maestro en el Instituto de Capacitación Política del PRI."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1981",
-                    "experiencia": "Delegado general del CEN del PRI en los estados de Morelos, Chiapas, Sinaloa, Hidalgo y Campeche."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Delegado de Acción Electoral del PRI en el estado de México."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": null,
-                    "experiencia": "Delegado de las Convenciones de candidatos a presidentes municipales en Ixmiquilpan, Hidalgo."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1971",
-                    "experiencia": "Representante ante la Comisión Local Electoral en Naucalpan de Juárez, estado de México."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1970",
-                    "experiencia": "Subdelegado del IEPES en los estado de Nayarit, Tlaxcala, Guerrero y Chihuahua durante la campaña presidencial."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Sector Juvenil del PRI."
-                },
-                {
-                    "del_ano": "1962",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Diputado local en la LII legislatura del Congreso de Hidalgo. Líder del Congreso."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura. Integrante del Colegio Electoral. Coordinador del grupo parlamentario del PRI. Integrante de la Gran Comisión, secretario de la Comisión de Gestoría y representante suplente de la Cámara de Diputados ante el Consejo General del IFE."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1988",
-                    "experiencia": "Senador suplente en las LII y LIII legislaturas. (No tomó protesta)."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal en la LI legislatura. Integrante de Colegio Electoral, Secretario en el periodo de 1979 a 1981. Presidente de la Comisión de Comunicaciones y Transportes en 1981. Integrante de la Gran Comisión. Secretario de la Comisión de Gestoría y representante del Congreso ante el IFE."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario del Sistema de Educación Pública en el gobierno de Hidalgo."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1997",
-                    "experiencia": "Secretario ejecutivo del Sistema Nacional de Seguridad Pública en la SEGOB."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Director general de supervisión de los Servicios de Protección Ciudadana en la SEGOB."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1996",
-                    "experiencia": "Subdirector general jurídico y de asuntos laborales de Ferrocarriles Nacionales de México."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1991",
-                    "experiencia": "Secretario de gobierno en Hidalgo."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario de Coordinación y Representante del Gobierno de Hidalgo en el Distrito Federal."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1976",
-                    "experiencia": "Secretario privado del Presidente de la República."
-                },
-                {
-                    "del_ano": "1972",
-                    "al_ano": "1975",
-                    "experiencia": "Secretario de Acuerdos de la Secretaría Privada de la Presidencia de la República."
-                },
-                {
-                    "del_ano": "1971",
-                    "al_ano": "1972",
-                    "experiencia": "Jefe del Departamento administrativo de Aeropuertos y Servicios Auxiliares (ASA)."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": "1969",
-                    "experiencia": "Jefe del Departamento de Ejecución Fiscal en la Tesorería del municipio de Naucalpan, estado de México."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": "1967",
-                    "experiencia": "Abogado en la Dirección Jurídica del Registro Federal de Automóviles."
-                },
-                {
-                    "del_ano": "1962",
-                    "al_ano": null,
-                    "experiencia": "Abogado en el Departamento Jurídico en la Secretaría de la Industria y el Comercio."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178709",
-                "fecha_extraccion": "2026-10-13T01:05:53+00:00"
-            }
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Presidenta municipal de Jacala, Hidalgo."
         },
         {
-            "referencia_sil": "1236",
-            "nombre_completo": "Haghenbeck Cámara José Antonio del Sagrado Corazón",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Hidalgo",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Eleuterio Porras Bautista ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1236.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Salud y Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Delegado a la asamblea nacional para la lista de candidatos plurinominales a diputados y senadores."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Representante general de casilla en elecciones federales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidente de la colonia Pedregal de San Francisco de Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM del PAN en Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDE del PAN en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción ciudadana del CDE del PAN en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante ante la Junta Ejecutiva del distrito 4 del IFE en Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato suplente a la presidencia municipal de Tulancingo, Hidalgo."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia del CDM del PAN en Tulancingo, Hidalgo."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura. Secretario de la Mesa Directiva en diciembre del 1998 e integrante de las comisiones de Radio Televisión y Cinematografía, Juventud y Deporte y Participación Ciudadana."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178673",
-                "fecha_extraccion": "2026-10-13T01:05:54+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria del Programa de Acción y Gestión del CDE del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del Consejo para la Integración de la Mujer."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegada del Sindicato Nacional de Trabajadores de la Secretaría de Salud."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria del Sindicato Nacional de Trabajadores de la Secretaría de Salud."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de la Liga de Comunidades Agrarias y Sindicatos Campesinos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Congreso de Mujeres por el cambio en Hidalgo."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada local en la LVI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Secretaria de control y vigilancia de los programas públicos."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Enfermera del hospital de Jacala, Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de Salubridad y Servicios Sociales."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178354",
+        "fecha_extraccion": "2026-10-13T01:05:32+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1122",
+      "nombre_completo": "Méndez Alarcón Héctor",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Leticia Jiménez Alfaro",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1122.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Secretario general del CDE del PAN en Hidalgo."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de capacitación del CDM del PAN en Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1988",
+          "experiencia": "Secretario general del CDM del PAN en Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Diputado local en la LVI legislatura del Congreso de Hidalgo."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Secretario de estudios del CDE del PAN en Hidalgo."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Director de la escuela secundaria técnica Amparo Fragoso en Tulancingo, Hidalgo."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178599",
+        "fecha_extraccion": "2026-10-13T01:05:33+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1150",
+      "nombre_completo": "Patiño Cardona Francisco",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ubaldo Hipólito Vargas Zaragoza",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1150.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Investigación de la planta núcleo eléctrica de Laguna Verde en Veracruz (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Transportes (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Miembro del IV Consejo Nacional."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CEE del PRD en Hidalgo."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Cofundador y miembro del PRD."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Fundador de la Alianza Ecologista Hidalguense."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Miembro del Partido Mexicano Socialista."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1987",
+          "experiencia": "Miembro del Partido Socialista Unificado de México."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Fundador del Sindicato de Personal Académico de la UAEM."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1978",
+          "experiencia": "Secretario de organización del PCM en Hidalgo."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1976",
+          "experiencia": "Integrante del comité de lucha de la Facultad de Química de la UNAM."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal por la LVI legislatura. Secretario del Comité de bibliotecas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe de departamento de laboratorios de la preparatoria núm. 1 de la Universidad Autónoma de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas en el gobierno de Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador del área de ciencias del Instituto de Ciencias Exactas de la UAH."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178622",
+        "fecha_extraccion": "2026-10-13T01:05:35+00:00"
+      }
+    },
+    {
+      "referencia_sil": "802",
+      "nombre_completo": "Penchyna Grub David",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Guadalupe Portillo Hernández",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/802.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Hidalgo."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en el DF."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Subsecretario general del CEN del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Consejero nacional del PRI como cuadro distinguido. Presidente de la Comisión Nacional de Programación y Administración. Representante de la CNOP."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Miembro de la Comisión de Administración del Plan Nacional de Desarrollo (PND)1988-1994 del IEPES-PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1990",
+          "experiencia": "Delegado especial del PRI en las elecciones municipales de Hidalgo."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector popular."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Presidente de la sociedad de alumnos del Liceo Amado Nervo, Escuela Julián Villagrán, en Pachuca, Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Miembro del consejo consultivo de la SEDESOL."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Asesor del secretario de Gobernación."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Coordinador general sectorial de la SEDESOL."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Asesor en el Banco de México."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Director general de atención a usuarios de la Comisión Nacional Bancaria y de Valores (CNBV)."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1995",
+          "experiencia": "Subdirector general del INFONAVIT."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Director de concertación política de vivienda de la SEDESOL."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Asesor del subsecretario de gobierno y desarrollo político de la SEGOB."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Asesor en los gobiernos de Sonora y Querétaro."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Subdirector en la dirección general de comunicación de radiodifusión de la SEGOB."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1991",
+          "experiencia": "Subdirector en la dirección ejecutiva de prerrogativas y partidos políticos del IFE."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Jefe de departamento en la dirección general de comunicación de radiodifusión de la SEGOB."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Auxiliar en la dirección de exhortos foráneos de la PGR."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario particular del coordinador del grupo parlamentario del PRI en el Congreso de Hidalgo."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Secretario técnico de la Comisión de programación y presupuesto del Congreso de Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178355",
+        "fecha_extraccion": "2026-10-13T01:05:37+00:00"
+      }
+    },
+    {
+      "referencia_sil": "523147",
+      "nombre_completo": "Rodríguez Galván Cristóbal",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "08/04/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/523147.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/08/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal en Tizayuca, Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político municipal Tepeapulco, Hgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro de la Confederación de Trabajadores de México."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Sindicato Nacional de la Industria Láctea."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Diputado suplente por el XII distrito electoral con sede en Tizayuca, Hgo."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Regidor propietario de Tizayuca, Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "806",
+        "titular_nombre": "Omar Fayad Meneses ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:05:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1135",
+      "nombre_completo": "Romero Deschamps Carlos Antonio",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Prudencia Félix Juárez Capilla",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1135.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1993",
+          "al_ano": "1993",
+          "experiencia": "Miembro propietario de la asamblea general del INFONAVIT."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Secretario de organización y estadística del STPRM."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1988",
+          "experiencia": "Vocal del Consejo General de Vigilancia del STPRM."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1985",
+          "experiencia": "Asesor del Comité Ejecutivo general del STPRM."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1979",
+          "experiencia": "Secretario general de la sección 35 del STPRM."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Jefe del departamento jurídico y de ajustes del STPRM."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1975",
+          "experiencia": "Presidente de la Comisión Nacional Mixta de Seguridad e Higiene del STPRM."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1973",
+          "experiencia": "Secretario de acción política de la dirección juvenil del PRI."
+        },
+        {
+          "del_ano": "1961",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Precandidato del PRI a la gubernatura de Tamaulipas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de las campañas políticas del PRI en Tampico para diputados federales, gobernadores y presidente de la República."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Comisionado del STPRM para la revisión del contrato colectivo de trabajo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del interior y acuerdos del STPRM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Primer secretario adjunto del CEN de la Confederación de Trabajadores de México."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la Comisión Ejecutiva del Congreso del Trabajo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario General del Sindicato de Trabajadores Petroleros de la República Mexicana (STPRM)."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Senador en las LVI y LVII legislaturas."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal en la LI legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Trabajador de PEMEX en diversos estados de la República."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178609",
+        "fecha_extraccion": "2026-10-13T01:05:41+00:00"
+      }
+    },
+    {
+      "referencia_sil": "804",
+      "nombre_completo": "Sicilia Salgado Raúl Efrén",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Erasmo Betancourt Huesca",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/804.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Energía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Medio Ambiente y Recursos Naturales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Presidente municipal en Tula de Allende, Hidalgo."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Presidente del Comité Electoral del PRI en Hidalgo."
+        },
+        {
+          "del_ano": "1960",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1993",
+          "experiencia": "Coordinador del Comité de Planeación y Desarrollo Regional región 1 en el gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1977",
+          "experiencia": "Secretario municipal en Tula de Allende, Hidalgo."
+        },
+        {
+          "del_ano": "1973",
+          "al_ano": "1975",
+          "experiencia": "Administrador de rentas en el distrito de Tula de Allende."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1972",
+          "experiencia": "Secretario municipal en Tula de Allende, Hidalgo."
+        },
+        {
+          "del_ano": "1960",
+          "al_ano": "1965",
+          "experiencia": "Agente del ministerio público."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178357",
+        "fecha_extraccion": "2026-10-13T01:05:42+00:00"
+      }
+    },
+    {
+      "referencia_sil": "803",
+      "nombre_completo": "Sosa Castelán Gerardo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ángel Ismael Avilés Aranda",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/803.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Ciencia y Tecnología (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Presidente del CDE del PRI en Hidalgo."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Precandidato del PRI a la gubernatura de Hidalgo."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Presidente de la Fundación Hidalguense A.C."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Presidente de la región centro-sur de la Asociación Nacional de Universidades e Institutos de Educación Superior (ANUIES)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1986",
+          "experiencia": "Secretario general electo y fundador del Sindicato Único de Trabajadores al Servicio de los Poderes del Estado de Hidalgo."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Presidente de la Federación de Estudiantes Universitarios de Hidalgo."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": null,
+          "experiencia": "Presidente de la sociedad de alumnos de la escuela de Derecho y Ciencias Sociales de la UAEH."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador nacional de instituciones de educación superior del CEN del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Diputado local en la LI Legislatura del Congreso de Hidalgo."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1991",
+          "al_ano": "1998",
+          "experiencia": "Rector de la Universidad Autónoma de Hidalgo."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1991",
+          "experiencia": "Secretario general de la Universidad Autónoma de Hidalgo."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178356",
+        "fecha_extraccion": "2026-10-13T01:05:44+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1130",
+      "nombre_completo": "Villegas Flores Carlos Nicolás",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Clara Lerina Sáenz Castillo",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1130.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fomento Cooperativo y Economía Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Candidato a presidente municipal de Huejutla, Hidalgo."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Miembro adherente del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Asesor educativo de la Dirección General de Educación Tecnológica e Industrial de la SEP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor del Senado de la República adscrito a la Comisión de Instituciones Financieras."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178605",
+        "fecha_extraccion": "2026-10-13T01:05:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "393872",
+      "nombre_completo": "Zúñiga Velázquez Juan Luis",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "30/04/2003",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/393872.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Justicia y Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CEN del Sindicato Nacional de Trabajadores Mineros, Metalúrgicos y Similares de la República Mexicana (SNTMMSRM)"
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Primer vocal del Consejo de Vigilancia y Justicia del SNTMMSRM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Sindicato Nacional de Trabajadores Mineros, Metalúrgicos y Similares de la República Mexicana (SNTMMSRM)."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "30/04/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "805",
+        "titular_nombre": "Juan Manuel Sepúlveda Fayad ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:05:47+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1276",
+      "nombre_completo": "Ángeles Cerón Esteban Miguel",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Maria del Carmen Lara García",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1276.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Distrito Federal (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Administración (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Secretario de acción legislativa en la Liga de Economistas Revolucionarios (LER)."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Secretario de asuntos internacionales del CEN de la CNC."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Presidente de la comisión de enlace con organizaciones mexicanas en el extranjero."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinador de la campaña presidencial del PRI en Hidalgo"
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Coordinador general de la campaña del PRI a gobernador de Hidalgo."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Subsecretario en la Secretaría de Acción Electoral del CEN del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Consejero político del CDE del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Secretario de Planeación y Programación Política del CDE del PRI."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Secretario de acción política de la Liga de Economistas Revolucionarios (LER)."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": null,
+          "experiencia": "Director general del CEPES de Hidalgo."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Miembro fundador de la Liga de Economistas Revolucionarios (LER)."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de finanzas del CDE del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Integrante de las comisiones de Distrito Federal, de Programación, Presupuesto y Cuenta Pública y de Salud."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1996",
+          "experiencia": "Diputado local en la LV legislatura del Congreso de Hidalgo. Coordinador de su grupo parlamentario. Integrante de las comisiones de Distrito Federal; Programación, Presupuesto y Cuenta Pública; y Salud."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Secretario de Educación Pública en Hidalgo."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Coordinador de enlace de la SEP para la federalización de la educación básica en Hidalgo."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Contralor general de la Secretaría de la Reforma Agraria (SRA)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1980",
+          "experiencia": "Delegado estatal del V censo general de población y vivienda."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Coordinador general del Plan Huasteca en el gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1978",
+          "experiencia": "Delegado agrario en Sinaloa de la Secretaría de Reforma Agraria (SRA)."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1976",
+          "experiencia": "Secretario de Administración y Finanzas del gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1975",
+          "experiencia": "Coordinador administrativo de la Dirección General de Administración de la Subsecretaría de Pesca en la Secretaría de Industria y Comercio."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": "1972",
+          "experiencia": "Analista económico en la SHCP."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178710",
+        "fecha_extraccion": "2026-10-13T01:05:51+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1275",
+      "nombre_completo": "Gil Elorduy José Ernesto",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Lilia Reyes Morales",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1275.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Medalla de honor Belisario Domínguez (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Urbano y Ordenación Territorial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Presidente de la Confederación de Legisladores Locales Priistas en el CEN del PRI. Coordinador de Acción Legislativa de los Congresos Locales en el CEN."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Integrante de la Comisión de Equidad y Género y Justicia de la Comisión Nacional para el Desarrollo del Proceso Interno para la postulación del candidato a la Presidencia."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador nacional del Programa de Derecho Electoral del Plan Nacional Electoral para la elección federal."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de Derecho Electoral del CEN del PRI en la Secretaría de Acción Electoral."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Coordinador Regional del CEN del PRI en Sinaloa."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Subsecretario de Acción Electoral del CEN del PRI."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Consultivo del IEPES del PRI."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Presidente municipal de Pachuca, Hidalgo."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Secretario adjunto del presidente del CEN del PRI."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Presidente del CDE del PRI en Hidalgo."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Subdirector académico del Instituto de Capacitación (ICAP) del PRI."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Delegado especial de la Unidad de Análisis y Programación política del PRI en Aguascalientes, Zacatecas, San Luis Potosí, Sonora y Puebla."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Representante ante la Comisión Electoral de Hidalgo durante el proceso electoral local."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1981",
+          "experiencia": "Integrante de la Secretaría de Acción Política y Coordinación Legislativa del PRI."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": null,
+          "experiencia": "Conferencista del Grupo Apatzingán en las Capitales de 20 estados de la República para difundir la Ley Electoral en colegios y organizaciones profesionales."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1979",
+          "experiencia": "Maestro en el Instituto de Capacitación Política del PRI."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1981",
+          "experiencia": "Delegado general del CEN del PRI en los estados de Morelos, Chiapas, Sinaloa, Hidalgo y Campeche."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Delegado de Acción Electoral del PRI en el estado de México."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": null,
+          "experiencia": "Delegado de las Convenciones de candidatos a presidentes municipales en Ixmiquilpan, Hidalgo."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1971",
+          "experiencia": "Representante ante la Comisión Local Electoral en Naucalpan de Juárez, estado de México."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1970",
+          "experiencia": "Subdelegado del IEPES en los estado de Nayarit, Tlaxcala, Guerrero y Chihuahua durante la campaña presidencial."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": null,
+          "experiencia": "Integrante del Sector Juvenil del PRI."
+        },
+        {
+          "del_ano": "1962",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Diputado local en la LII legislatura del Congreso de Hidalgo. Líder del Congreso."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura. Integrante del Colegio Electoral. Coordinador del grupo parlamentario del PRI. Integrante de la Gran Comisión, secretario de la Comisión de Gestoría y representante suplente de la Cámara de Diputados ante el Consejo General del IFE."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1988",
+          "experiencia": "Senador suplente en las LII y LIII legislaturas. (No tomó protesta)."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal en la LI legislatura. Integrante de Colegio Electoral, Secretario en el periodo de 1979 a 1981. Presidente de la Comisión de Comunicaciones y Transportes en 1981. Integrante de la Gran Comisión. Secretario de la Comisión de Gestoría y representante del Congreso ante el IFE."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Secretario del Sistema de Educación Pública en el gobierno de Hidalgo."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1997",
+          "experiencia": "Secretario ejecutivo del Sistema Nacional de Seguridad Pública en la SEGOB."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Director general de supervisión de los Servicios de Protección Ciudadana en la SEGOB."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1996",
+          "experiencia": "Subdirector general jurídico y de asuntos laborales de Ferrocarriles Nacionales de México."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1991",
+          "experiencia": "Secretario de gobierno en Hidalgo."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Secretario de Coordinación y Representante del Gobierno de Hidalgo en el Distrito Federal."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1976",
+          "experiencia": "Secretario privado del Presidente de la República."
+        },
+        {
+          "del_ano": "1972",
+          "al_ano": "1975",
+          "experiencia": "Secretario de Acuerdos de la Secretaría Privada de la Presidencia de la República."
+        },
+        {
+          "del_ano": "1971",
+          "al_ano": "1972",
+          "experiencia": "Jefe del Departamento administrativo de Aeropuertos y Servicios Auxiliares (ASA)."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": "1969",
+          "experiencia": "Jefe del Departamento de Ejecución Fiscal en la Tesorería del municipio de Naucalpan, estado de México."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": "1967",
+          "experiencia": "Abogado en la Dirección Jurídica del Registro Federal de Automóviles."
+        },
+        {
+          "del_ano": "1962",
+          "al_ano": null,
+          "experiencia": "Abogado en el Departamento Jurídico en la Secretaría de la Industria y el Comercio."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178709",
+        "fecha_extraccion": "2026-10-13T01:05:53+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1236",
+      "nombre_completo": "Haghenbeck Cámara José Antonio del Sagrado Corazón",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Hidalgo",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Eleuterio Porras Bautista",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1236.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Salud y Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - América Latina y Caribe (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Delegado a la asamblea nacional para la lista de candidatos plurinominales a diputados y senadores."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Representante general de casilla en elecciones federales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidente de la colonia Pedregal de San Francisco de Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM del PAN en Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDE del PAN en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de acción ciudadana del CDE del PAN en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante ante la Junta Ejecutiva del distrito 4 del IFE en Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato suplente a la presidencia municipal de Tulancingo, Hidalgo."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia del CDM del PAN en Tulancingo, Hidalgo."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura. Secretario de la Mesa Directiva en diciembre del 1998 e integrante de las comisiones de Radio Televisión y Cinematografía, Juventud y Deporte y Participación Ciudadana."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178673",
+        "fecha_extraccion": "2026-10-13T01:05:54+00:00"
+      }
+    }
+  ]
 }

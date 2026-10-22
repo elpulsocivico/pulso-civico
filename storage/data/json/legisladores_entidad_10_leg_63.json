@@ -1,1503 +1,1503 @@
 {
-    "metadata": {
-        "entidad_id": 10,
-        "entidad_nombre": "Durango",
-        "legislatura": 63,
-        "generado_en": "2026-10-13T08:29:00+00:00",
-        "total_diputados": 7,
-        "total_senadores": 3,
-        "total_general": 10
+  "metadata": {
+    "entidad_id": 10,
+    "entidad_nombre": "Durango",
+    "legislatura": 63,
+    "generado_en": "2026-10-13T08:29:00+00:00",
+    "total_diputados": 7,
+    "total_senadores": 3,
+    "total_general": 10
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9219474",
+      "nombre_completo": "Corona Valdés Lorena",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PVEM",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "María Guadalupe Soto Cota",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219474.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Cultura y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/11/2017",
+          "fecha_fin": "19/12/2017",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Para impulsar a estudiantes de altas capacidades intelectuales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/11/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/11/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/11/2016",
+          "fecha_fin": "15/11/2016",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/10/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Consejera suplente del Poder Legislativo ante el Consejo General del INE, por el PVEM."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal en la LXI Legislatura. Secretaria de la Comisión de Educación Pública y Servicios Educativos. Integrante de las comisiones de Gobernación; y, Defensa Nacional."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219475",
+        "fecha_extraccion": "2026-10-13T08:28:43+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "9219034",
+      "nombre_completo": "Espinoza Meraz Ma. Idalia del Socorro",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/02/2018",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219034.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "9219474",
-            "nombre_completo": "Corona Valdés Lorena",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PVEM",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "María Guadalupe Soto Cota ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219474.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Cultura y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/11/2017",
-                    "fecha_fin": "19/12/2017",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Para impulsar a estudiantes de altas capacidades intelectuales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/11/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/11/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/11/2016",
-                    "fecha_fin": "15/11/2016",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/10/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Consejera suplente del Poder Legislativo ante el Consejo General del INE, por el PVEM."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal en la LXI Legislatura. Secretaria de la Comisión de Educación Pública y Servicios Educativos. Integrante de las comisiones de Gobernación; y, Defensa Nacional."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219475",
-                "fecha_extraccion": "2026-10-13T08:28:43+00:00"
-            }
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/03/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9219034",
-            "nombre_completo": "Espinoza Meraz Ma. Idalia del Socorro",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/02/2018",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219034.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/03/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento al Federalismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Metropolitano (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/02/2018",
-                    "fecha_fin": "01/03/2018",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2016",
-                    "experiencia": "Colaboradora en el área de recursos humanos de la SSA."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2011",
-                    "experiencia": "Responsable de programas federales de la SEDESOL en el Departamento de Desarrollo Social Municipal de Lerdo, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefa del departamento de Turismo de Lerdo, Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9219033",
-                "titular_nombre": "María del Rocío Rebollo Mendoza ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:28:45+00:00"
-            }
+          "comision": "Fortalecimiento al Federalismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9219035",
-            "nombre_completo": "Gamboa Martínez Alicia Guadalupe",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Gabriela Hernández López ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219035.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Derechos de la Niñez (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio y Televisión (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Presidenta estatal de la ONMPRI en Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional y estatal del PRI."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": null,
-                    "experiencia": "Presidenta del ONMPRI en Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Vocal de la Comisión Permanente del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera municipal del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de brigadas de mujeres en apoyo a campaña electoral."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de brigadas de activistas en elección de diputados federales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora nacional de regidoras priistas por parte del ONMPRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora nacional de diputadas priistas por parte del ONMPRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Comisión de Equidad y Género de la Comisión Nacional de Legisladoras Priistas (CONALPRI)."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": null,
-                    "experiencia": "Diputada local en la LXVI Legislatura del Congreso de Durango. Presidenta de la Comisión de Equidad y Género."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputada federal suplente en la LXII Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Regidora de Durango, Durango."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Jefa del Departamento Administrativo de Durango, Durango."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Auxiliar administrativo de la Secretaría de Finanzas de Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "31/03/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "09/05/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "09/04/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "02/07/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219036",
-                "fecha_extraccion": "2026-10-13T08:28:47+00:00"
-            }
+          "comision": "Desarrollo Metropolitano (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9219025",
-            "nombre_completo": "García Barrón Óscar",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Maximiliano Silerio Díaz ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219025.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Ganadería (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Sistemas de Riego (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/04/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2015",
-                    "experiencia": "Secretario de Acción de la CNC."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2017",
-                    "experiencia": "Presidente y fundador de la Unión Ganadera Estatal General del Sector Social en Durango."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2011",
-                    "experiencia": "Presidente de la CNC en Durango."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Consejero político estatal y nacional del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Consejero político municipal de Ocampo, Durango."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador del CDE del PRI en Nazas, Inde, Ocampo, San Bernardo, El Oro, y Guanaceví en el proceso electoral."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Coordinador municipal de promoción al voto en elecciones federales."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Representante del PRI en el Comité Electoral Municipal de Ocampo, Durango."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de organización del CDM del PRI de Ocampo, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Acción Agraria de la CNC."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Estatal del PRI de Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del Fondo de Aseguramiento del Sector Social."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2018",
-                    "experiencia": "Senador suplente en las LXII y LXIII Legislaturas (sin toma de protesta)."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputado federal en la LXI Legislatura. Presidente de la Comisión de Reforma Agraria. Integrante de las comisiones de Agricultura y Ganadería; y, de la Especial de Ganadería."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local en la LXIII Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local en la LXI Legislatura del Congreso de Durango.Presidente de la Comisión de Reforma Agraria."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2014",
-                    "experiencia": "Delegado de la SAGARPA en Zacatecas."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Presidente municipal de San Bernardo, Durango."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente municipal de Ocampo, Durango."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1989",
-                    "experiencia": "Regidor de Ocampo, Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "22/03/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "09/04/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219026",
-                "fecha_extraccion": "2026-10-13T08:28:48+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9219031",
-            "nombre_completo": "García Navarro Otniel",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Ángel Beltrán Félix ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219031.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "13/10/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "27/04/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "13/10/2016",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Presidente del CDE del PRI de Durango."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Presidente del CDM del PRI de Durango, Durango."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Secretario general del Comité Ejecutivo Estatal del Movimiento Territorial del PRI de Durango."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Consejero político estatal del PRI de Durango."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador para la promoción y movilización en Gómez Palacio y Lerdo, Durango, en la campaña del candidato a gobernador de Durango."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario auxiliar de la Subsecretaría de Elecciones del PRI y de la representación del PRI ante el IFE."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Asesor jurídico de la Secretaría General Adjunta del CEN del PRI."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Asesor jurídico de la Comisión de Equidad y Justicia del CEN del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2013",
-                    "experiencia": "Diputado local en la LXV Legislatura del Congreso de Durango. Presidente de la Comisión de Gobernación. Secretario de la Comisión de Justicia. Vocal de la Comisión de Estudios Constitucionales."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Director general del Instituto de la Vivienda de Durango."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador para el proceso de Entrega-Recepción de la Secretaría General de Gobierno por parte del gobernador entrante."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario auxiliar de audiencias y giras de gobernador de Durango"
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario particular y asesor jurídico de senador en las LVIII y LIX Legislaturas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2003",
-                    "experiencia": "Coordinador de Efectividad de Garantía de la SHCP."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2001",
-                    "experiencia": "Laboró en la Tesorería de la Federación."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "30/04/2018",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "18/05/2018",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9221508",
-                "fecha_extraccion": "2026-10-13T08:28:50+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9218432",
-            "nombre_completo": "Herrera Deras Alfredo Miguel",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ricardo Del Rivero Martínez ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218432.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "De movilidad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "19/06/2017",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "19/06/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Competitividad (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/06/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "De minería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/06/2017",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/06/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Coordinador del proceso de entrega-recepción en la Secretaría de Desarrollo Económico de Durango."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2016",
-                    "experiencia": "Coordinador en la campaña del candidato del PAN a gobernador de Durango."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN en Durango."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Integrante del CDE del PAN en Durango."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Presidente del CDM del PAN en Durango, Durango."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Candidato a presidente municipal de Durango, Durango."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato a diputado federal."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Diputado local en la LXIV Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Regidor de Durango, Durango."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero del Sistema Descentralizado de Agua Potable y Alcantarillado (SIDEAPA)."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "2001",
-                    "experiencia": "Consejero del Siprodes."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "15/12/2015",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "15/06/2017",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9218433",
-                "fecha_extraccion": "2026-10-13T08:28:52+00:00"
-            }
-        },
-        {
-            "referencia_sil": "9219329",
-            "nombre_completo": "Valles Mendoza Luis Alfredo",
-            "camara": "Diputados",
-            "legislatura": 63,
-            "partido": "Panal",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Durango",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Miguel Ramírez Sánchez ",
-            "fecha_toma_protesta": "29/08/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219329.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "De vigilancia del gasto y deuda pública de estados y municipios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/11/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "De apoyo a comerciantes en pequeño y microempresarios para fomentar la economía familiar (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/11/2016",
-                    "fecha_fin": "01/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "27/04/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "29/11/2017",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PANAL."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Comité de Dirección Nacional del PANAL."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PANAL."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2014",
-                    "experiencia": "Miembro del Colegiado Nacional de Organización del CEN del SNTE."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2012",
-                    "experiencia": "Secretario general del Comité Ejecutivo de la Sección 12 del SNTE."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2012",
-                    "experiencia": "Consejero local del PANAL."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional fundador del PANAL."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2012",
-                    "experiencia": "Consejero estatal del PANAL."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Organización del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de prensa del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable estatal del Instituto Estudios Educativos y Sindicales de América en Durango."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputado federal suplente en la LXII Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9219330",
-                "fecha_extraccion": "2026-10-13T08:28:54+00:00"
-            }
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/02/2018",
+          "fecha_fin": "01/03/2018",
+          "estatus": "Baja"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
         {
-            "referencia_sil": "9220745",
-            "nombre_completo": "De la Torre Valdez Yolanda",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "02/02/2016",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9220745.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "17/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "12/09/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/11/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/02/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/02/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Para la Igualdad de Género (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/02/2016",
-                    "fecha_fin": "17/04/2018",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2018",
-                    "experiencia": "Coordinadora de Vinculación de Personas con Capacidades Diferentes en el equipo de campaña del candidato a la Presidencia del PRI."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": "2017",
-                    "experiencia": "Integrante de la Asamblea Constituyente de la Ciudad de México, designada por la Cámara de Senadores."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Subsecretaria de Programa de Acción y Gestión Social del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinadora regional de atención a personas con discapacidad de la Secretaría de Programa de Acción y Gestión Social del CEN del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la Comisión Temática y de Dictamen en materia de Discapacidad del Consejo Político Nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria general del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejera política nacional, estatal y municipal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2016",
-                    "experiencia": "Diputada federal en la LXIII Legislatura. Secretaria de las comisiones de Derechos Humanos; y, Atención a Grupos Vulnerables. Integrante de la Comisión de Seguridad Social."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal en la LXI Legislatura. Presidenta de la Comisión de Atención a Grupos Vulnerables. Integrante de las comisiones de Salud y Especial para la Niñez."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Diputada local en la LXII Legislatura del Congreso de Durango. Presidenta de las comisiones de Salud; y, Atención a Grupos Vulnerables. Vocal de las comisiones de Derechos Humanos; Justicia; y, Desarrollo Rural."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada federal suplente de la LVI Legislatura (sin toma de protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Delegada de la SEDATU en Hidalgo."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Regidora de Durango, Durango."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "2000",
-                    "experiencia": "Promotora estatal de integración social del discapacitado en Durango."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Directora del Centro de Capacitación para Discapacitados del DIF de Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218834",
-                "titular_nombre": "Juana Leticia Herrera Ale ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:28:57+00:00"
-            }
+          "del_ano": "2013",
+          "al_ano": "2016",
+          "experiencia": "Colaboradora en el área de recursos humanos de la SSA."
         },
         {
-            "referencia_sil": "9221044",
-            "nombre_completo": "Flores Ávalos Héctor David",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "15/12/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221044.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/04/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "20/03/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "20/02/2018",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Fronterizos Norte (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para el Diagnóstico y Reflexión sobre el texto que conforma la Constitución Política de los Estados Unidos Mexicanos. (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/12/2016",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Jurisdiccional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/03/2016",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Vocero electoral del CDE del PAN en Durango."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Asesor jurídico en la SECTUR."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2011",
-                    "experiencia": "Director Fiduciario de Nacional Financiera, S.N.C."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2005",
-                    "experiencia": "Director jurídico de la SECTUR."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9218836",
-                "titular_nombre": "José Rosas Aispuro Torres ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T08:28:59+00:00"
-            }
+          "del_ano": "2007",
+          "al_ano": "2011",
+          "experiencia": "Responsable de programas federales de la SEDESOL en el Departamento de Desarrollo Social Municipal de Lerdo, Durango."
         },
         {
-            "referencia_sil": "9218832",
-            "nombre_completo": "Hernández Deras Ismael Alfredo",
-            "camara": "Senadores",
-            "legislatura": 63,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Durango",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Óscar García Barrón ",
-            "fecha_toma_protesta": "01/09/2015",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218832.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Bicamaral de Seguridad Nacional (H. Congreso de la Unión)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "22/11/2017",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "De seguimiento a los hechos ocurridos en Nochixtlán, Oaxaca, el 19 de junio de 2016 (Com. Perm.)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/06/2016",
-                    "fecha_fin": "31/08/2016",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores, Europa (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "31/08/2018",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2015",
-                    "fecha_fin": "04/04/2017",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": null,
-                    "experiencia": "Dirigente nacional de la CNC."
-                },
-                {
-                    "del_ano": "2016",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en estado de México."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en Puebla."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": null,
-                    "experiencia": "Delegado del CEN del PRI en San Luis Potosí."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2001",
-                    "experiencia": "Subsecretario de operación política del CEN del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general de la CNOP en Durango."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1994",
-                    "experiencia": "Presidente del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente del CDE del Frente Juvenil Revolucionario (FJR) en Durango."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Presidente y tesorero de la sociedad de alumnos de la Facultad de Contadurí­a y Administración en la UJED."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de programación y gestorí­a del CDE del PRI en Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de organización del CDM del PRI en el Mezquital, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del Movimiento Nacional de la Juventud Revolucionaria en Mezquital, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero político nacional del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estudiantil en la Universidad Juárez del Estado de Durango (UJED)."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2004",
-                    "experiencia": "Senador en las LVIII y LIX Legislaturas. Secretario de las comisiones de Relaciones Exteriores - Asia Pacífico; y de Juventud y Deporte. Integrante de las comisiones de Desarrollo Social; y Federalismo y Desarrollo Municipal."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Senador suplente en la LVII Legislatura (sin toma de protesta)."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI Legislatura. Secretario de la Comisión del Deporte."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Diputado local en la LIX Legislatura del Congreso de Durango."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal suplente en la LV Legislatura (sin toma de protesta)."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1992",
-                    "experiencia": "Diputado local suplente en la LVIII Legislatura del Congreso de Durango."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2010",
-                    "experiencia": "Gobernador de Durango."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente municipal de Durango, Durango."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento de Servicios Coordinados de la SEP."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Contador de ventas en el INEGI, en la Secretarí­a de Programación y Presupuesto (SPP)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subjefe del departamento de Recursos Materiales en la SEP en Durango."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9220744",
-                "fecha_extraccion": "2026-10-13T08:29:00+00:00"
-            }
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefa del departamento de Turismo de Lerdo, Durango."
         }
-    ]
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9219033",
+        "titular_nombre": "María del Rocío Rebollo Mendoza ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:28:45+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9219035",
+      "nombre_completo": "Gamboa Martínez Alicia Guadalupe",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Gabriela Hernández López",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219035.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Derechos de la Niñez (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio y Televisión (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Presidenta estatal de la ONMPRI en Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": null,
+          "experiencia": "Consejera nacional y estatal del PRI."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": null,
+          "experiencia": "Presidenta del ONMPRI en Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Vocal de la Comisión Permanente del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera municipal del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de brigadas de mujeres en apoyo a campaña electoral."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de brigadas de activistas en elección de diputados federales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora nacional de regidoras priistas por parte del ONMPRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora nacional de diputadas priistas por parte del ONMPRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Comisión de Equidad y Género de la Comisión Nacional de Legisladoras Priistas (CONALPRI)."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": null,
+          "experiencia": "Diputada local en la LXVI Legislatura del Congreso de Durango. Presidenta de la Comisión de Equidad y Género."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputada federal suplente en la LXII Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Regidora de Durango, Durango."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Jefa del Departamento Administrativo de Durango, Durango."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Auxiliar administrativo de la Secretaría de Finanzas de Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "31/03/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "09/05/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "09/04/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "02/07/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219036",
+        "fecha_extraccion": "2026-10-13T08:28:47+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9219025",
+      "nombre_completo": "García Barrón Óscar",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Maximiliano Silerio Díaz",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219025.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Ganadería (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Sistemas de Riego (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios para el Desarrollo Rural Sustentable y la Soberanía Alimentaria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/04/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2011",
+          "al_ano": "2015",
+          "experiencia": "Secretario de Acción de la CNC."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2017",
+          "experiencia": "Presidente y fundador de la Unión Ganadera Estatal General del Sector Social en Durango."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2011",
+          "experiencia": "Presidente de la CNC en Durango."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Consejero político estatal y nacional del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Consejero político municipal de Ocampo, Durango."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Coordinador del CDE del PRI en Nazas, Inde, Ocampo, San Bernardo, El Oro, y Guanaceví en el proceso electoral."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Coordinador municipal de promoción al voto en elecciones federales."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Representante del PRI en el Comité Electoral Municipal de Ocampo, Durango."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Secretario de organización del CDM del PRI de Ocampo, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Acción Agraria de la CNC."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Estatal del PRI de Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del Fondo de Aseguramiento del Sector Social."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2018",
+          "experiencia": "Senador suplente en las LXII y LXIII Legislaturas (sin toma de protesta)."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputado federal en la LXI Legislatura. Presidente de la Comisión de Reforma Agraria. Integrante de las comisiones de Agricultura y Ganadería; y, de la Especial de Ganadería."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Diputado local en la LXIII Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local en la LXI Legislatura del Congreso de Durango.Presidente de la Comisión de Reforma Agraria."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2014",
+          "experiencia": "Delegado de la SAGARPA en Zacatecas."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Presidente municipal de San Bernardo, Durango."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Presidente municipal de Ocampo, Durango."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1989",
+          "experiencia": "Regidor de Ocampo, Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "22/03/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "09/04/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219026",
+        "fecha_extraccion": "2026-10-13T08:28:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9219031",
+      "nombre_completo": "García Navarro Otniel",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Ángel Beltrán Félix",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219031.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "13/10/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "27/04/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "13/10/2016",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Presidente del CDE del PRI de Durango."
+        },
+        {
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Presidente del CDM del PRI de Durango, Durango."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Secretario general del Comité Ejecutivo Estatal del Movimiento Territorial del PRI de Durango."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Consejero político estatal del PRI de Durango."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinador para la promoción y movilización en Gómez Palacio y Lerdo, Durango, en la campaña del candidato a gobernador de Durango."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretario auxiliar de la Subsecretaría de Elecciones del PRI y de la representación del PRI ante el IFE."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Asesor jurídico de la Secretaría General Adjunta del CEN del PRI."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Asesor jurídico de la Comisión de Equidad y Justicia del CEN del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2010",
+          "al_ano": "2013",
+          "experiencia": "Diputado local en la LXV Legislatura del Congreso de Durango. Presidente de la Comisión de Gobernación. Secretario de la Comisión de Justicia. Vocal de la Comisión de Estudios Constitucionales."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Director general del Instituto de la Vivienda de Durango."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinador para el proceso de Entrega-Recepción de la Secretaría General de Gobierno por parte del gobernador entrante."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Secretario auxiliar de audiencias y giras de gobernador de Durango"
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Secretario particular y asesor jurídico de senador en las LVIII y LIX Legislaturas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2003",
+          "experiencia": "Coordinador de Efectividad de Garantía de la SHCP."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2001",
+          "experiencia": "Laboró en la Tesorería de la Federación."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "30/04/2018",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "18/05/2018",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9221508",
+        "fecha_extraccion": "2026-10-13T08:28:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218432",
+      "nombre_completo": "Herrera Deras Alfredo Miguel",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ricardo Del Rivero Martínez",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218432.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "De movilidad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "19/06/2017",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "19/06/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Competitividad (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/06/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "De minería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/06/2017",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/06/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Coordinador del proceso de entrega-recepción en la Secretaría de Desarrollo Económico de Durango."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2016",
+          "experiencia": "Coordinador en la campaña del candidato del PAN a gobernador de Durango."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN en Durango."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Integrante del CDE del PAN en Durango."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Presidente del CDM del PAN en Durango, Durango."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Candidato a presidente municipal de Durango, Durango."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1997",
+          "experiencia": "Candidato a diputado federal."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Diputado local en la LXIV Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Regidor de Durango, Durango."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1998",
+          "experiencia": "Consejero del Sistema Descentralizado de Agua Potable y Alcantarillado (SIDEAPA)."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "2001",
+          "experiencia": "Consejero del Siprodes."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "15/12/2015",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "15/06/2017",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9218433",
+        "fecha_extraccion": "2026-10-13T08:28:52+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9219329",
+      "nombre_completo": "Valles Mendoza Luis Alfredo",
+      "camara": "Diputados",
+      "legislatura": 63,
+      "partido": "Panal",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Durango",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Miguel Ramírez Sánchez",
+      "fecha_toma_protesta": "29/08/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219329.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "De vigilancia del gasto y deuda pública de estados y municipios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/11/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "De apoyo a comerciantes en pequeño y microempresarios para fomentar la economía familiar (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/11/2016",
+          "fecha_fin": "01/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "27/04/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "29/11/2017",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Consejero propietario del Poder Legislativo ante el Consejo General del INE, por el PANAL."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Secretario general del Comité de Dirección Nacional del PANAL."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PANAL."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2014",
+          "experiencia": "Miembro del Colegiado Nacional de Organización del CEN del SNTE."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2012",
+          "experiencia": "Secretario general del Comité Ejecutivo de la Sección 12 del SNTE."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2012",
+          "experiencia": "Consejero local del PANAL."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Consejero nacional fundador del PANAL."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2012",
+          "experiencia": "Consejero estatal del PANAL."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Organización del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de prensa del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable estatal del Instituto Estudios Educativos y Sindicales de América en Durango."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputado federal suplente en la LXII Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9219330",
+        "fecha_extraccion": "2026-10-13T08:28:54+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9220745",
+      "nombre_completo": "De la Torre Valdez Yolanda",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "02/02/2016",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9220745.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "17/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "12/09/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/11/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/02/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/02/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Para la Igualdad de Género (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/02/2016",
+          "fecha_fin": "17/04/2018",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2018",
+          "experiencia": "Coordinadora de Vinculación de Personas con Capacidades Diferentes en el equipo de campaña del candidato a la Presidencia del PRI."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": "2017",
+          "experiencia": "Integrante de la Asamblea Constituyente de la Ciudad de México, designada por la Cámara de Senadores."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Subsecretaria de Programa de Acción y Gestión Social del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinadora regional de atención a personas con discapacidad de la Secretaría de Programa de Acción y Gestión Social del CEN del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la Comisión Temática y de Dictamen en materia de Discapacidad del Consejo Político Nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria general del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejera política nacional, estatal y municipal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2015",
+          "al_ano": "2016",
+          "experiencia": "Diputada federal en la LXIII Legislatura. Secretaria de las comisiones de Derechos Humanos; y, Atención a Grupos Vulnerables. Integrante de la Comisión de Seguridad Social."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal en la LXI Legislatura. Presidenta de la Comisión de Atención a Grupos Vulnerables. Integrante de las comisiones de Salud y Especial para la Niñez."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Diputada local en la LXII Legislatura del Congreso de Durango. Presidenta de las comisiones de Salud; y, Atención a Grupos Vulnerables. Vocal de las comisiones de Derechos Humanos; Justicia; y, Desarrollo Rural."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputada federal suplente de la LVI Legislatura (sin toma de protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Delegada de la SEDATU en Hidalgo."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Regidora de Durango, Durango."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "2000",
+          "experiencia": "Promotora estatal de integración social del discapacitado en Durango."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Directora del Centro de Capacitación para Discapacitados del DIF de Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218834",
+        "titular_nombre": "Juana Leticia Herrera Ale ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:28:57+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9221044",
+      "nombre_completo": "Flores Ávalos Héctor David",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "15/12/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221044.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/04/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "20/03/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "20/02/2018",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Fronterizos Norte (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para el Diagnóstico y Reflexión sobre el texto que conforma la Constitución Política de los Estados Unidos Mexicanos. (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/12/2016",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Jurisdiccional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/03/2016",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Vocero electoral del CDE del PAN en Durango."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Asesor jurídico en la SECTUR."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2011",
+          "experiencia": "Director Fiduciario de Nacional Financiera, S.N.C."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2005",
+          "experiencia": "Director jurídico de la SECTUR."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9218836",
+        "titular_nombre": "José Rosas Aispuro Torres ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T08:28:59+00:00"
+      }
+    },
+    {
+      "referencia_sil": "9218832",
+      "nombre_completo": "Hernández Deras Ismael Alfredo",
+      "camara": "Senadores",
+      "legislatura": 63,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Durango",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Óscar García Barrón",
+      "fecha_toma_protesta": "01/09/2015",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218832.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Bicamaral de Seguridad Nacional (H. Congreso de la Unión)",
+          "puesto": "Secretario",
+          "fecha_inicio": "22/11/2017",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "De seguimiento a los hechos ocurridos en Nochixtlán, Oaxaca, el 19 de junio de 2016 (Com. Perm.)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/06/2016",
+          "fecha_fin": "31/08/2016",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores, Europa (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "31/08/2018",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2015",
+          "fecha_fin": "04/04/2017",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2017",
+          "al_ano": null,
+          "experiencia": "Dirigente nacional de la CNC."
+        },
+        {
+          "del_ano": "2016",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en estado de México."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en Puebla."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": null,
+          "experiencia": "Delegado del CEN del PRI en San Luis Potosí."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2001",
+          "experiencia": "Subsecretario de operación política del CEN del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario general de la CNOP en Durango."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1994",
+          "experiencia": "Presidente del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Presidente del CDE del Frente Juvenil Revolucionario (FJR) en Durango."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Presidente y tesorero de la sociedad de alumnos de la Facultad de Contadurí­a y Administración en la UJED."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de programación y gestorí­a del CDE del PRI en Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de organización del CDM del PRI en el Mezquital, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del Movimiento Nacional de la Juventud Revolucionaria en Mezquital, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero político nacional del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estudiantil en la Universidad Juárez del Estado de Durango (UJED)."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2004",
+          "experiencia": "Senador en las LVIII y LIX Legislaturas. Secretario de las comisiones de Relaciones Exteriores - Asia Pacífico; y de Juventud y Deporte. Integrante de las comisiones de Desarrollo Social; y Federalismo y Desarrollo Municipal."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Senador suplente en la LVII Legislatura (sin toma de protesta)."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI Legislatura. Secretario de la Comisión del Deporte."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Diputado local en la LIX Legislatura del Congreso de Durango."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal suplente en la LV Legislatura (sin toma de protesta)."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1992",
+          "experiencia": "Diputado local suplente en la LVIII Legislatura del Congreso de Durango."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2010",
+          "experiencia": "Gobernador de Durango."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente municipal de Durango, Durango."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento de Servicios Coordinados de la SEP."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Contador de ventas en el INEGI, en la Secretarí­a de Programación y Presupuesto (SPP)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subjefe del departamento de Recursos Materiales en la SEP en Durango."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9220744",
+        "fecha_extraccion": "2026-10-13T08:29:00+00:00"
+      }
+    }
+  ]
 }

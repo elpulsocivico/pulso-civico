@@ -1,1737 +1,1737 @@
 {
-    "metadata": {
-        "entidad_id": 32,
-        "entidad_nombre": "Zacatecas",
-        "legislatura": 60,
-        "generado_en": "2026-10-13T05:18:50+00:00",
-        "total_diputados": 8,
-        "total_senadores": 4,
-        "total_general": 12
+  "metadata": {
+    "entidad_id": 32,
+    "entidad_nombre": "Zacatecas",
+    "legislatura": 60,
+    "generado_en": "2026-10-13T05:18:50+00:00",
+    "total_diputados": 8,
+    "total_senadores": 4,
+    "total_general": 12
+  },
+  "diputados": [
+    {
+      "referencia_sil": "2303119",
+      "nombre_completo": "Argüelles Arellano María del Consuelo",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "11/12/2008",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303119.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/02/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "10/02/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2008",
+          "experiencia": "Síndico municipal de Zacatecas. Presidente de la Comisión de Hacienda."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300769",
+        "titular_nombre": "Felipe Borrego Estrada ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T05:18:29+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "2303117",
+      "nombre_completo": "Bernal Frausto Federico",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "17/02/2009",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303117.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
         {
-            "referencia_sil": "2303119",
-            "nombre_completo": "Argüelles Arellano María del Consuelo",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "11/12/2008",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303119.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/02/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "10/02/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2008",
-                    "experiencia": "Síndico municipal de Zacatecas. Presidente de la Comisión de Hacienda."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300769",
-                "titular_nombre": "Felipe Borrego Estrada ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T05:18:29+00:00"
-            }
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/02/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "2303117",
-            "nombre_completo": "Bernal Frausto Federico",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "17/02/2009",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2303117.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/02/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/02/2009",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Presidente municipal de Tabasco, Zacatecas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2007",
-                    "experiencia": "Diputado local en la LVIII legislatura del Congreso de Zacatecas. Presidente de la Comisión de Insdustria, Comercio y Servicios."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "2300767",
-                "titular_nombre": "Andrés Bermúdez Viramontes ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T05:18:31+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300152",
-            "nombre_completo": "Calzada Vázquez Francisco Javier",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Javier García Saucedo ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300152.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/06/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "16/10/2007",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Comunicaciones (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Vicepresidente del Consejo Estatal del PRD en Zacatecas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de fiscalización de la Secretaría de Finanzas del gobierno de Zacatecas (3 años)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de ingresos en el gobierno de Zacatecas (1 año)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de contabilidad en el gobierno de Zacatecas (3 años)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302541",
-                "fecha_extraccion": "2026-10-13T05:18:32+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300151",
-            "nombre_completo": "Cárdenas Hernández Raymundo",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ismael Gámez Ureño ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300151.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2008",
-                    "experiencia": "Encargado del despacho de la secretaría general del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2002",
-                    "experiencia": "Secretario general del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretario de asuntos internacionales del CEN del PRD."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de la reforma del estado del CEN del PRD."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1996",
-                    "experiencia": "Secretario de acción electoral del CEN del PRD."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Secretario de ejercicio gubernamental del CEN del PRD."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de propaganda del CEN del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Militó en el Partido Mexicano Socialista (PMS). Fue integrante de su Comité Central."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1987",
-                    "experiencia": "Militó en el Partido Socialista Unificado de México (PSUM). Fue secretario general del partido."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Secretario general del PCM."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Militó en el Partido Comunista Mexicano (PCM)."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1978",
-                    "experiencia": "Miembro del Comité Ejecutivo de la Federación de Estudiantes de la UAZ."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1978",
-                    "experiencia": "Presidente de la sociedad de alumnos de la Facultad de Química de la UAZ."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1978",
-                    "experiencia": "Secretario general del Sindicato del Personal Académico de la UAZ."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estatal del PRD en Zacatecas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2006",
-                    "experiencia": "Senador en las LVIII y LIX legislaturas. En la LVIII legislatura fue vicepresidente de la Mesa Directiva e integrante de la Comisión Bicameral del Sistema de Bibliotecas. En la LIX legislatura fue vicepresidente de la Mesa Directiva; integrante de las comisiones Bicameral de Políticas Vinculadas con Seguridad Nacional y la Bicameral del Canal de Televisión. También fue secretario de la Tercera Comisión de Trabajo e integrante de la Segunda Comisión de Trabajo de la Comisión Permanente en el segundo receso del 2004."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Diputado federal en la LV legislatura. Secretario de la Comisión de Régimen, Reglamento y Prácticas Parlamentarias."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1986",
-                    "experiencia": "Diputado local por el PSUM en la LI legislatura de Zacatecas."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general de gobierno del gobierno del estado de Zacatecas."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Director de la Facultad de Ciencias Químicas de la Universidad Autónoma de Zacatecas (UAZ)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302540",
-                "fecha_extraccion": "2026-10-13T05:18:34+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300093",
-            "nombre_completo": "Cervantes Rodríguez Aurora",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Santa Blanca Chaidez Castillo ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300093.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para el Seguimiento del Acuerdo Nacional para el Campo y al Capítulo Agropecuario del Tratado de Libre Comercio (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Precandidata del PRI a una diputación federal."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Presidenta de la Fundación Colosio en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Delegada del PRI en Tepechitlán, Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de trabajos y conflictos de la delegación D-II-I, sección 58 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2001",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputada local del PRI en la LVI legislatura del Congreso de Zacatecas. Se declaró independiente en 2001."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Directora general del Instituto de la Mujer Zacatecana (INMUZA)."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1998",
-                    "experiencia": "Administradora del Centro de Rehabilitación y Educación Especial en la Secretaría de Salubridad y Asistencia del gobierno de Zacatecas."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1998",
-                    "experiencia": "Directora de Servicios Sociales en Instituciones de Enseñanza Superior en la Secretaría de Educación y Cultura de Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1992",
-                    "experiencia": "Coordinadora de la Licenciatura en Trabajo Social en la Secretaría de Educación del gobierno de Zacatecas."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302482",
-                "fecha_extraccion": "2026-10-13T05:18:36+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300088",
-            "nombre_completo": "González Sánchez María Dolores",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Benjamín Gallegos Soto ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300088.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Atención a Pueblos que Viven en el Bosque (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "16/10/2007",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Especial Sobre No Discriminación, Nuevos Sujetos y Nuevos Derechos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "18/12/2006",
-                    "fecha_fin": "16/10/2007",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos Humanos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "12/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "06/03/2007",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Representante estatal del PAN en Texas, USA."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Candidata a diputada local migrante del PAN en Zacatecas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Comité Político Zacatecano del PAN, en Texas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2004",
-                    "experiencia": "Presidenta de la Federación de Zacatecanos Unidos en Fortworth, Texas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta del Comité de Panistas en Texas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante activo de la Coalición Internacional de los Mexicanos en el Exterior."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Presidenta de la organización Acción Internacional por México en Texas."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302477",
-                "fecha_extraccion": "2026-10-13T05:18:37+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300490",
-            "nombre_completo": "Márquez Madrid Camerino Eleazar",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luis Martínez López ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300490.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 8,
-            "comisiones": [
-                {
-                    "comision": "Canal de Televisión del Congreso de la Unión (H. Congreso de la Unión)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "23/09/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Apoyo a los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial de Prospectiva para la Definición del Futuro de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "23/09/2008",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "11/12/2008",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "23/09/2008",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Secretario de formación política del CDE del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Delegado al IX Congreso Nacional del PRD."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de organización del CDE del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Secretario de ciudades y gobiernos del CDE del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Fundador y militante del PRD."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Sindicato del Personal Académico de la Universidad Autónoma de Zacatecas (SPAUAZ)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDM del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Precandidato a diputado local."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Precandidato a senador suplente."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estudiantil y consejero universitario."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado al Congreso General de Reforma de la UAZ."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Jefe del departamento del prestaciones estudiantiles de la Universidad Autónoma de Zacatecas (UAZ)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302845",
-                "fecha_extraccion": "2026-10-13T05:18:39+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300149",
-            "nombre_completo": "Monreal Ávila Susana",
-            "camara": "Diputados",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Julio Ysaac Norman Giacomán ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300149.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Especial para la Promoción del Acceso Digital a los Mexicanos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/09/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "19/12/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Economía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Consejera nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Secretaria de organización del CEM del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2001",
-                    "experiencia": "Consejera nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Consejera estatal del PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Directora de información financiera en el PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Coordinadora administrativa de la Secretaría de Educación y Cultura de Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Promotora rural de Mujeres en Solidaridad del Programa Nacional de Solidaridad."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de administración en la Universidad Politécnica de Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Contadora en el Instituto de Vivienda en Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302538",
-                "fecha_extraccion": "2026-10-13T05:18:41+00:00"
-            }
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/02/2009",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "2300070",
-            "nombre_completo": "Mejía Haro Antonio",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Martina Rodríguez García ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300070.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Salud (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "09/11/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRD en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Integrante del PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Coordinador distrital de la fundación Colosio en Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado del PRD en Villa de Cos, Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado en el congreso nacional del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor de proyectos productivos agropecuarios de la CNC de Zacatecas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Agricultura y Ganadería e integrante de las comisiones de Desarrollo Rural y especial de Ganadería."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2001",
-                    "experiencia": "Diputado local por el XVI distrito electoral en la LVI legislatura del Congreso de Zacatecas. Presidente de la Comisión de Desarrollo Agropecuario."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Secretario de desarrollo agropecuario en el gobierno de Zacatecas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "2003",
-                    "experiencia": "Director general de innovación educativa de la Universidad de Autónoma de Zacatecas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1992",
-                    "experiencia": "Director de la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del centro de investigaciones de la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302459",
-                "fecha_extraccion": "2026-10-13T05:18:45+00:00"
-            }
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
         },
         {
-            "referencia_sil": "2300010",
-            "nombre_completo": "Monreal Ávila Ricardo",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PT",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Zacatecas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Le Roy Barragán Ocampo ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300010.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "28/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Pública (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "28/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "11/03/2009",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2008",
-                    "experiencia": "Precandidato a la dirigencia nacional del PRD."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Asesor jurídico del candidato presidencial del PRD."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": null,
-                    "experiencia": "Coordinador general de las Redes Ciudadanas."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2005",
-                    "experiencia": "Coordinador de Estrategia Electoral del PRD en estados con elección (Guerrero, Baja California Sur, Quintana Roo, Hidalgo, Coahuila, Nayarit y estado de México)."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Coordinador de la Quinta Región del Comité Nacional de Redes Ciudadanas."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Representante del PRD ante el Instituto Electoral del estado de México."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Liga de Comunidades Agrarias en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2004",
-                    "experiencia": "Gobernador de Zacatecas, por el PRD."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción política del CEN del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Presidente de la Comisión de Asuntos Internacionales del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador nacional de la Defensa Jurídica del Voto en la Secretaría de Elecciones del CEN del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Consejero del Poder Legislativo ante el Consejo General del IFE."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de procesos locales electorales del PRI para la contienda electoral federal."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Subsecretario de derecho y lo contencioso electoral en el PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Comisario de la Fundación Nueva Sociedad Rural A.C. de la Confederación Nacional Campesina (CNC)."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": null,
-                    "experiencia": "Coordinador del debate Económico y Social de la Secretaria General del Comité Ejecutivo Nacional del PRI."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Coordinador de asesores del movimiento territorial, urbano y popular del PRI."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Presidente de la Comisión del Pacto Obrero Campesino del CEN de la CNC."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE del PRI en Zacatecas."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1992",
-                    "experiencia": "Presidente del CDE del PRI en Zacatecas."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Zacatecas (PRI)."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Subdelegado de la Confederación Nacional Campesina en la Jurisdicción de Tláhuac, Milpa Alta e Iztapalapa en el DF."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de acción educativa en la CNC."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Secretario de acción educativa de la Federación Nacional de Jornaleros Agrícolas Mexicanos."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1983",
-                    "experiencia": "Secretario de acción sindical de la CNC."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1981",
-                    "experiencia": "Asesor jurídico en la Confederación Nacional Campesina (CNC)."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1998",
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Subsecretario de la Coordinación Regional del CEN del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal de la LVII legislatura. Secretario de la comisión de Gobernación y Puntos Constitucionales. Integrante de las comisiones de Reglamento y Prácticas Parlamentarias; Especial de Estudios Legislativos; del Comité de Administración y de la Primera Comisión de Trabajo de la Permanente."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador durante la LVI legislatura. Secretario de la Comisión de Fomento Agropecuario, e integrante de las comisiones de Recursos Hidráulicos y Forestales; Primera Sección de Gobernación, Relaciones Exteriores, Primera Sección; Comercio y Fomento Industrial; Comunicaciones y Transportes; Educación y Estudios Legislativos, Segunda Sección; Integrante de la Comisión Permanente."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Senador suplente por Zacatecas en la LV legislatura. Presidente de la Comisión de Asuntos del Pacto Federal. Secretario de la Comisión de Fomento Agropecuario, e integrante de las comisiones de Recursos Hidráulicos y Forestales; Primera Sección de Gobernación, Relaciones Exteriores, Primera Sección; Comercio y Fomento Industrial; Comunicaciones y Transportes; Educación y Estudios Legislativos, Segunda Sección; Integrante de la Comisión Permanente."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal por la LIV legislatura. Secretario de la Comisión de Reglamento, Régimen y Práctica Parlamentaria, e integrante de las comisiones de Gobernación y Puntos Constitucionales; Relaciones Exteriores; Vigilancia de la Contaduría Mayor de Hacienda; Educación y Reforma Agraria. Primer Vicepresidente en el periodo del 1 de Noviembre al 1 de Diciembre de 1990. Presidente en el periodo del 15 de Abril al 15 de Mayo de 1991."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Secretario del municipio de Fresnillo, Zacatecas."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Primer regidor del municipio de Fresnillo, Zacatecas."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Adjunto a la representación del gobierno de Zacatecas en la ciudad de México."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1981",
-                    "experiencia": "Asesor jurídico de PRONAGRA, de la Secretaría de Agricultura y Recursos Hidráulicos en la ciudad de Zacatecas."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1980",
-                    "experiencia": "Asesor jurídico en la Secretaría de Agricultura y Recursos Hidráulicos."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1979",
-                    "experiencia": "Auxiliar del Departamento Jurídico de la Delegación Agraria de Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "20/05/2009",
-                    "fecha_fin": "10/06/2009",
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "10/06/2009",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302405",
-                "fecha_extraccion": "2026-10-13T05:18:46+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300069",
-            "nombre_completo": "Torres Mercado Tomás",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PRD",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Zacatecas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Francisco Juárez Alonso ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300069.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/04/2007",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Estudios Legislativos, Segunda (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2005",
-                    "al_ano": null,
-                    "experiencia": "Miembro del Consejo Político Nacional del PRD."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la campaña del PRD por la gubernatura de Zacatecas."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Precandidato al gobierno de Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante propietario del PRD ante la Comisión Nacional de Vigilancia del Registro Federal de Electores, IFE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1997",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Diputado federal en la LVIII legislatura. Secretario de la Comisión de Presupuesto y Cuenta Pública e integrante de la Comisión de Justicia y Derechos Humanos. Dos veces integrante de la Mesa Directiva."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2006",
-                    "experiencia": "Secretario de Gobierno en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador general jurídico del gobierno de Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario General de Gobierno en el Estado de Zacatecas."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de Asuntos Contenciosos del IMSS."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1994",
-                    "experiencia": "Jefe de Servicios Legales y Apoderado General del Instituto Mexicano del Seguro Social (IMSS)"
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Director de programa en la delegación Zacatecas del INAP."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Asesor jurídico para asuntos especiales del Director General del IPN."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Asesor jurídico en Películas Mexicanas, S.A."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Auxiliar del Procurador General de Justicia de Zacatecas."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1981",
-                    "experiencia": "Oficial secretario adscrito al juzgado de distrito en Zacatecas, Zacatecas."
-                },
-                {
-                    "del_ano": "1978",
-                    "al_ano": "1980",
-                    "experiencia": "Secretario auxiliar especializado adscrito al juzgado segundo penal de Zacatecas, Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Agente del Ministerio Público."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de Gobierno del Instituto Nacional de Federalismo y Desarrollo Municipal (INAFED)."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2302458",
-                "fecha_extraccion": "2026-10-13T05:18:48+00:00"
-            }
-        },
-        {
-            "referencia_sil": "2300744",
-            "nombre_completo": "Trejo Reyes José Isabel",
-            "camara": "Senadores",
-            "legislatura": 60,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Zacatecas",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Sonia De la Torre Barrientos ",
-            "fecha_toma_protesta": "29/08/2006",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300744.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Hacienda y Crédito Público (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "20/06/2008",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comunicaciones y Transportes (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/09/2006",
-                    "fecha_fin": "31/08/2009",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2010",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2008",
-                    "experiencia": "Consejero estatal del PAN."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Precandidato del PAN al Senado de la República."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Precandidato a presidente del CDE del PAN en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato del PAN a la presidencia municipal de Zacatecas, Zacatecas."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1992",
-                    "experiencia": "Candidato del PAN a la presidencia municipal de Zacatecas, Zacatecas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1998",
-                    "experiencia": "Consejero estatal del PAN en Zacatecas."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del CDE del PAN en Zacatecas."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDM del PAN en Zacatecas, Zacatecas."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Diputado federal en la LIX legislatura. Secretario en la Comisión Especial para dar seguimiento a los Fondos de los Trabajadores Braceros. Integrante de las comisiones de Hacienda y Crédito Público, Población, Fronteras y Asuntos Migratorios y Presupuesto y Cuenta Pública."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Diputado local en la LV legislatura del Congreso de Zacatecas. Coordinador del grupo parlamentario del PAN."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2003",
-                    "experiencia": "Asesor financiero y político de la administración municipal de Sombrerete, Zacatecas."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2003",
-                    "experiencia": "Gerente de la oficina del Sistema de Enlace Legislativo en Zacatecas."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Asesor del grupo parlamentario del PAN en la LVI legislatura del Congreso de Zacatecas."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Asesor del grupo parlamentario del PAN en la LIV legislatura del Congreso de Zacatecas."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1992",
-                    "experiencia": "Director de la Agencia de Noticias Publisistema, perteneciente a la cadena de Radio Sistema Zacatecas."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de estudios del CDE del PAN en Zacatecas."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2303094",
-                "fecha_extraccion": "2026-10-13T05:18:50+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Presidente municipal de Tabasco, Zacatecas."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2007",
+          "experiencia": "Diputado local en la LVIII legislatura del Congreso de Zacatecas. Presidente de la Comisión de Insdustria, Comercio y Servicios."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "2300767",
+        "titular_nombre": "Andrés Bermúdez Viramontes ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T05:18:31+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300152",
+      "nombre_completo": "Calzada Vázquez Francisco Javier",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Javier García Saucedo",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300152.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/06/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "16/10/2007",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Comunicaciones (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Secretario general del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Vicepresidente del Consejo Estatal del PRD en Zacatecas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de fiscalización de la Secretaría de Finanzas del gobierno de Zacatecas (3 años)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de ingresos en el gobierno de Zacatecas (1 año)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de contabilidad en el gobierno de Zacatecas (3 años)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302541",
+        "fecha_extraccion": "2026-10-13T05:18:32+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300151",
+      "nombre_completo": "Cárdenas Hernández Raymundo",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ismael Gámez Ureño",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300151.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2008",
+          "experiencia": "Encargado del despacho de la secretaría general del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2002",
+          "experiencia": "Secretario general del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretario de asuntos internacionales del CEN del PRD."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario de la reforma del estado del CEN del PRD."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1996",
+          "experiencia": "Secretario de acción electoral del CEN del PRD."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Secretario de ejercicio gubernamental del CEN del PRD."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Secretario de propaganda del CEN del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro fundador del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Militó en el Partido Mexicano Socialista (PMS). Fue integrante de su Comité Central."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1987",
+          "experiencia": "Militó en el Partido Socialista Unificado de México (PSUM). Fue secretario general del partido."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Secretario general del PCM."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Militó en el Partido Comunista Mexicano (PCM)."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1978",
+          "experiencia": "Miembro del Comité Ejecutivo de la Federación de Estudiantes de la UAZ."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1978",
+          "experiencia": "Presidente de la sociedad de alumnos de la Facultad de Química de la UAZ."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1978",
+          "experiencia": "Secretario general del Sindicato del Personal Académico de la UAZ."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estatal del PRD en Zacatecas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2006",
+          "experiencia": "Senador en las LVIII y LIX legislaturas. En la LVIII legislatura fue vicepresidente de la Mesa Directiva e integrante de la Comisión Bicameral del Sistema de Bibliotecas. En la LIX legislatura fue vicepresidente de la Mesa Directiva; integrante de las comisiones Bicameral de Políticas Vinculadas con Seguridad Nacional y la Bicameral del Canal de Televisión. También fue secretario de la Tercera Comisión de Trabajo e integrante de la Segunda Comisión de Trabajo de la Comisión Permanente en el segundo receso del 2004."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Diputado federal en la LV legislatura. Secretario de la Comisión de Régimen, Reglamento y Prácticas Parlamentarias."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1986",
+          "experiencia": "Diputado local por el PSUM en la LI legislatura de Zacatecas."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario general de gobierno del gobierno del estado de Zacatecas."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Director de la Facultad de Ciencias Químicas de la Universidad Autónoma de Zacatecas (UAZ)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302540",
+        "fecha_extraccion": "2026-10-13T05:18:34+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300093",
+      "nombre_completo": "Cervantes Rodríguez Aurora",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Santa Blanca Chaidez Castillo",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300093.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para el Seguimiento del Acuerdo Nacional para el Campo y al Capítulo Agropecuario del Tratado de Libre Comercio (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Precandidata del PRI a una diputación federal."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Presidenta de la Fundación Colosio en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Delegada del PRI en Tepechitlán, Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de trabajos y conflictos de la delegación D-II-I, sección 58 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2001",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputada local del PRI en la LVI legislatura del Congreso de Zacatecas. Se declaró independiente en 2001."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Directora general del Instituto de la Mujer Zacatecana (INMUZA)."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1998",
+          "experiencia": "Administradora del Centro de Rehabilitación y Educación Especial en la Secretaría de Salubridad y Asistencia del gobierno de Zacatecas."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1998",
+          "experiencia": "Directora de Servicios Sociales en Instituciones de Enseñanza Superior en la Secretaría de Educación y Cultura de Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1988",
+          "al_ano": "1992",
+          "experiencia": "Coordinadora de la Licenciatura en Trabajo Social en la Secretaría de Educación del gobierno de Zacatecas."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302482",
+        "fecha_extraccion": "2026-10-13T05:18:36+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300088",
+      "nombre_completo": "González Sánchez María Dolores",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Benjamín Gallegos Soto",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300088.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Atención a Pueblos que Viven en el Bosque (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "16/10/2007",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Especial Sobre No Discriminación, Nuevos Sujetos y Nuevos Derechos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "18/12/2006",
+          "fecha_fin": "16/10/2007",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos Humanos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "12/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "06/03/2007",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Representante estatal del PAN en Texas, USA."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Candidata a diputada local migrante del PAN en Zacatecas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Miembro del Comité Político Zacatecano del PAN, en Texas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2004",
+          "experiencia": "Presidenta de la Federación de Zacatecanos Unidos en Fortworth, Texas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta del Comité de Panistas en Texas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante activo de la Coalición Internacional de los Mexicanos en el Exterior."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Presidenta de la organización Acción Internacional por México en Texas."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302477",
+        "fecha_extraccion": "2026-10-13T05:18:37+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300490",
+      "nombre_completo": "Márquez Madrid Camerino Eleazar",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luis Martínez López",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300490.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 8,
+      "comisiones": [
+        {
+          "comision": "Canal de Televisión del Congreso de la Unión (H. Congreso de la Unión)",
+          "puesto": "Integrante",
+          "fecha_inicio": "23/09/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios de las Finanzas Públicas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Apoyo a los Festejos del Bicentenario de la Independencia y del Centenario de la Revolución. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial de Prospectiva para la Definición del Futuro de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "23/09/2008",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "11/12/2008",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "23/09/2008",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Secretario de formación política del CDE del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Delegado al IX Congreso Nacional del PRD."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Secretario de organización del CDE del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Secretario de ciudades y gobiernos del CDE del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Fundador y militante del PRD."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Integrante del Sindicato del Personal Académico de la Universidad Autónoma de Zacatecas (SPAUAZ)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CDM del PRD en Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Precandidato a diputado local."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Precandidato a senador suplente."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estudiantil y consejero universitario."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado al Congreso General de Reforma de la UAZ."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Jefe del departamento del prestaciones estudiantiles de la Universidad Autónoma de Zacatecas (UAZ)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302845",
+        "fecha_extraccion": "2026-10-13T05:18:39+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300149",
+      "nombre_completo": "Monreal Ávila Susana",
+      "camara": "Diputados",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Julio Ysaac Norman Giacomán",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300149.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Especial para la Promoción del Acceso Digital a los Mexicanos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/09/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a los Fondos de los Trabajadores Mexicanos Braceros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "19/12/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Economía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Consejera nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Secretaria de organización del CEM del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2001",
+          "experiencia": "Consejera nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Consejera estatal del PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Directora de información financiera en el PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Coordinadora administrativa de la Secretaría de Educación y Cultura de Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Promotora rural de Mujeres en Solidaridad del Programa Nacional de Solidaridad."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de administración en la Universidad Politécnica de Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Contadora en el Instituto de Vivienda en Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302538",
+        "fecha_extraccion": "2026-10-13T05:18:41+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "2300070",
+      "nombre_completo": "Mejía Haro Antonio",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Martina Rodríguez García",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300070.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Salud (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "09/11/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2003",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRD en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Integrante del PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Coordinador distrital de la fundación Colosio en Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado del PRD en Villa de Cos, Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado en el congreso nacional del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor de proyectos productivos agropecuarios de la CNC de Zacatecas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Secretario de la Comisión de Agricultura y Ganadería e integrante de las comisiones de Desarrollo Rural y especial de Ganadería."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2001",
+          "experiencia": "Diputado local por el XVI distrito electoral en la LVI legislatura del Congreso de Zacatecas. Presidente de la Comisión de Desarrollo Agropecuario."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Secretario de desarrollo agropecuario en el gobierno de Zacatecas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "2003",
+          "experiencia": "Director general de innovación educativa de la Universidad de Autónoma de Zacatecas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1992",
+          "experiencia": "Director de la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del centro de investigaciones de la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302459",
+        "fecha_extraccion": "2026-10-13T05:18:45+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300010",
+      "nombre_completo": "Monreal Ávila Ricardo",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PT",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Zacatecas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Le Roy Barragán Ocampo",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300010.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "28/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Pública (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "28/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "11/03/2009",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2008",
+          "experiencia": "Precandidato a la dirigencia nacional del PRD."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Asesor jurídico del candidato presidencial del PRD."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": null,
+          "experiencia": "Coordinador general de las Redes Ciudadanas."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2005",
+          "experiencia": "Coordinador de Estrategia Electoral del PRD en estados con elección (Guerrero, Baja California Sur, Quintana Roo, Hidalgo, Coahuila, Nayarit y estado de México)."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Coordinador de la Quinta Región del Comité Nacional de Redes Ciudadanas."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Representante del PRD ante el Instituto Electoral del estado de México."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretario de la Liga de Comunidades Agrarias en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2004",
+          "experiencia": "Gobernador de Zacatecas, por el PRD."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Secretario de acción política del CEN del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Presidente de la Comisión de Asuntos Internacionales del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Coordinador nacional de la Defensa Jurídica del Voto en la Secretaría de Elecciones del CEN del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Consejero del Poder Legislativo ante el Consejo General del IFE."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de procesos locales electorales del PRI para la contienda electoral federal."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Subsecretario de derecho y lo contencioso electoral en el PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Comisario de la Fundación Nueva Sociedad Rural A.C. de la Confederación Nacional Campesina (CNC)."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": null,
+          "experiencia": "Coordinador del debate Económico y Social de la Secretaria General del Comité Ejecutivo Nacional del PRI."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Coordinador de asesores del movimiento territorial, urbano y popular del PRI."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Presidente de la Comisión del Pacto Obrero Campesino del CEN de la CNC."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE del PRI en Zacatecas."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1992",
+          "experiencia": "Presidente del CDE del PRI en Zacatecas."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos en Zacatecas (PRI)."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Subdelegado de la Confederación Nacional Campesina en la Jurisdicción de Tláhuac, Milpa Alta e Iztapalapa en el DF."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1985",
+          "experiencia": "Secretario de acción educativa en la CNC."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Secretario de acción educativa de la Federación Nacional de Jornaleros Agrícolas Mexicanos."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1983",
+          "experiencia": "Secretario de acción sindical de la CNC."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1981",
+          "experiencia": "Asesor jurídico en la Confederación Nacional Campesina (CNC)."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1998",
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Subsecretario de la Coordinación Regional del CEN del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal de la LVII legislatura. Secretario de la comisión de Gobernación y Puntos Constitucionales. Integrante de las comisiones de Reglamento y Prácticas Parlamentarias; Especial de Estudios Legislativos; del Comité de Administración y de la Primera Comisión de Trabajo de la Permanente."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador durante la LVI legislatura. Secretario de la Comisión de Fomento Agropecuario, e integrante de las comisiones de Recursos Hidráulicos y Forestales; Primera Sección de Gobernación, Relaciones Exteriores, Primera Sección; Comercio y Fomento Industrial; Comunicaciones y Transportes; Educación y Estudios Legislativos, Segunda Sección; Integrante de la Comisión Permanente."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Senador suplente por Zacatecas en la LV legislatura. Presidente de la Comisión de Asuntos del Pacto Federal. Secretario de la Comisión de Fomento Agropecuario, e integrante de las comisiones de Recursos Hidráulicos y Forestales; Primera Sección de Gobernación, Relaciones Exteriores, Primera Sección; Comercio y Fomento Industrial; Comunicaciones y Transportes; Educación y Estudios Legislativos, Segunda Sección; Integrante de la Comisión Permanente."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal por la LIV legislatura. Secretario de la Comisión de Reglamento, Régimen y Práctica Parlamentaria, e integrante de las comisiones de Gobernación y Puntos Constitucionales; Relaciones Exteriores; Vigilancia de la Contaduría Mayor de Hacienda; Educación y Reforma Agraria. Primer Vicepresidente en el periodo del 1 de Noviembre al 1 de Diciembre de 1990. Presidente en el periodo del 15 de Abril al 15 de Mayo de 1991."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Secretario del municipio de Fresnillo, Zacatecas."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Primer regidor del municipio de Fresnillo, Zacatecas."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Adjunto a la representación del gobierno de Zacatecas en la ciudad de México."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1981",
+          "experiencia": "Asesor jurídico de PRONAGRA, de la Secretaría de Agricultura y Recursos Hidráulicos en la ciudad de Zacatecas."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1980",
+          "experiencia": "Asesor jurídico en la Secretaría de Agricultura y Recursos Hidráulicos."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1979",
+          "experiencia": "Auxiliar del Departamento Jurídico de la Delegación Agraria de Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "20/05/2009",
+          "fecha_fin": "10/06/2009",
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "10/06/2009",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302405",
+        "fecha_extraccion": "2026-10-13T05:18:46+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300069",
+      "nombre_completo": "Torres Mercado Tomás",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PRD",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Zacatecas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Francisco Juárez Alonso",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300069.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/04/2007",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Estudios Legislativos, Segunda (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2005",
+          "al_ano": null,
+          "experiencia": "Miembro del Consejo Político Nacional del PRD."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Coordinador de la campaña del PRD por la gubernatura de Zacatecas."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Precandidato al gobierno de Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante propietario del PRD ante la Comisión Nacional de Vigilancia del Registro Federal de Electores, IFE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "1997",
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Diputado federal en la LVIII legislatura. Secretario de la Comisión de Presupuesto y Cuenta Pública e integrante de la Comisión de Justicia y Derechos Humanos. Dos veces integrante de la Mesa Directiva."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2004",
+          "al_ano": "2006",
+          "experiencia": "Secretario de Gobierno en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Coordinador general jurídico del gobierno de Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario General de Gobierno en el Estado de Zacatecas."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de Asuntos Contenciosos del IMSS."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1994",
+          "experiencia": "Jefe de Servicios Legales y Apoderado General del Instituto Mexicano del Seguro Social (IMSS)"
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Director de programa en la delegación Zacatecas del INAP."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Asesor jurídico para asuntos especiales del Director General del IPN."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Asesor jurídico en Películas Mexicanas, S.A."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Auxiliar del Procurador General de Justicia de Zacatecas."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1981",
+          "experiencia": "Oficial secretario adscrito al juzgado de distrito en Zacatecas, Zacatecas."
+        },
+        {
+          "del_ano": "1978",
+          "al_ano": "1980",
+          "experiencia": "Secretario auxiliar especializado adscrito al juzgado segundo penal de Zacatecas, Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Agente del Ministerio Público."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de Gobierno del Instituto Nacional de Federalismo y Desarrollo Municipal (INAFED)."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2302458",
+        "fecha_extraccion": "2026-10-13T05:18:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "2300744",
+      "nombre_completo": "Trejo Reyes José Isabel",
+      "camara": "Senadores",
+      "legislatura": 60,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Zacatecas",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Sonia De la Torre Barrientos",
+      "fecha_toma_protesta": "29/08/2006",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/2300744.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Hacienda y Crédito Público (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "20/06/2008",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comunicaciones y Transportes (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/09/2006",
+          "fecha_fin": "31/08/2009",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2007",
+          "al_ano": "2010",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2008",
+          "experiencia": "Consejero estatal del PAN."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Precandidato del PAN al Senado de la República."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Precandidato a presidente del CDE del PAN en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato del PAN a la presidencia municipal de Zacatecas, Zacatecas."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1992",
+          "experiencia": "Candidato del PAN a la presidencia municipal de Zacatecas, Zacatecas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1998",
+          "experiencia": "Consejero estatal del PAN en Zacatecas."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del CDE del PAN en Zacatecas."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general del CDM del PAN en Zacatecas, Zacatecas."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Diputado federal en la LIX legislatura. Secretario en la Comisión Especial para dar seguimiento a los Fondos de los Trabajadores Braceros. Integrante de las comisiones de Hacienda y Crédito Público, Población, Fronteras y Asuntos Migratorios y Presupuesto y Cuenta Pública."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Diputado local en la LV legislatura del Congreso de Zacatecas. Coordinador del grupo parlamentario del PAN."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2003",
+          "experiencia": "Asesor financiero y político de la administración municipal de Sombrerete, Zacatecas."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": "2003",
+          "experiencia": "Gerente de la oficina del Sistema de Enlace Legislativo en Zacatecas."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Asesor del grupo parlamentario del PAN en la LVI legislatura del Congreso de Zacatecas."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Asesor del grupo parlamentario del PAN en la LIV legislatura del Congreso de Zacatecas."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1992",
+          "experiencia": "Director de la Agencia de Noticias Publisistema, perteneciente a la cadena de Radio Sistema Zacatecas."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de estudios del CDE del PAN en Zacatecas."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2303094",
+        "fecha_extraccion": "2026-10-13T05:18:50+00:00"
+      }
+    }
+  ]
 }

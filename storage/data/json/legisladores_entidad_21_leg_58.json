@@ -1,2530 +1,2530 @@
 {
-    "metadata": {
-        "entidad_id": 21,
-        "entidad_nombre": "Puebla",
-        "legislatura": 58,
-        "generado_en": "2026-10-13T01:26:16+00:00",
-        "total_diputados": 16,
-        "total_senadores": 5,
-        "total_general": 21
+  "metadata": {
+    "entidad_id": 21,
+    "entidad_nombre": "Puebla",
+    "legislatura": 58,
+    "generado_en": "2026-10-13T01:26:16+00:00",
+    "total_diputados": 16,
+    "total_senadores": 5,
+    "total_general": 21
+  },
+  "diputados": [
+    {
+      "referencia_sil": "946",
+      "nombre_completo": "Alcántara Silva Jaime",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro Efraín García Bello",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/946.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Coordinador estatal de la precampaña presidencial del PRI en Puebla."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1984",
+          "experiencia": "Secretario general de la CNC en Puebla."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Delegado especial del CEN del PRI para los procesos de selección interna de candidatos en diversos estados."
+        },
+        {
+          "del_ano": "1967",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado auxiliar del CEN del PRI en Guerrero."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1982",
+          "al_ano": "1985",
+          "experiencia": "Diputado federal en la LII legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado federal de la Secretaría de Medio Ambiente, Recursos Naturales y Pesca."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario técnico de la comisión de agua potable en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero del Banco Nacional de Crédito Rural, sede centro sur."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero de la Aseguradora Nacional Agrícola y Ganadera."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178452",
+        "fecha_extraccion": "2026-10-13T01:25:40+00:00"
+      }
     },
-    "diputados": [
+    {
+      "referencia_sil": "1148",
+      "nombre_completo": "Barbosa Huerta Luis Miguel Gerónimo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Victoria Melo Hernández",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1148.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
         {
-            "referencia_sil": "946",
-            "nombre_completo": "Alcántara Silva Jaime",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro Efraín García Bello ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/946.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Coordinador estatal de la precampaña presidencial del PRI en Puebla."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1984",
-                    "experiencia": "Secretario general de la CNC en Puebla."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Delegado especial del CEN del PRI para los procesos de selección interna de candidatos en diversos estados."
-                },
-                {
-                    "del_ano": "1967",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado auxiliar del CEN del PRI en Guerrero."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1985",
-                    "experiencia": "Diputado federal en la LII legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado federal de la Secretaría de Medio Ambiente, Recursos Naturales y Pesca."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario técnico de la comisión de agua potable en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero del Banco Nacional de Crédito Rural, sede centro sur."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero de la Aseguradora Nacional Agrícola y Ganadera."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178452",
-                "fecha_extraccion": "2026-10-13T01:25:40+00:00"
-            }
+          "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "1148",
-            "nombre_completo": "Barbosa Huerta Luis Miguel Gerónimo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Victoria Melo Hernández ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1148.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comité del Centro de Estudios de Derecho e Investigaciones Parlamentarias (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Marina (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Presidente del CDE del PRD en Puebla."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "1994",
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178621",
-                "fecha_extraccion": "2026-10-13T01:25:42+00:00"
-            }
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "940",
-            "nombre_completo": "Cantorán Espinosa Cutberto",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Arcelia Amador Gutiérrez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/940.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del SNTE."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Secretario de créditos del SNTE."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Secretario particular nivel A en el SNTE."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la Secretaría de Organización del Comité Ejecutivo del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Pertenece al sector obrero del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Delegado en la convención estatal por el Frente Juvenil Revolucionario del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante del PRI ante diversos procesos electorales en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRI en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de derechos laborales y organización de educación básica V del CEN del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la sección 23 del SNTE."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la campaña a diputado federal por el distrito de Acatlán, Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinador de la campaña a diputado federal por el distrito de Tepeaca, Puebla."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1984",
-                    "experiencia": "Director de la escuela primaria rural República de Argentina en San Antonio la Portilla, Tecamachalco, Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Supervisor escolar de educación primaria en Puebla."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178447",
-                "fecha_extraccion": "2026-10-13T01:25:43+00:00"
-            }
+          "comision": "Marina (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "951",
-            "nombre_completo": "Cerezo Bautista Adela",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Oscar Jaime Tito Reyes Márquez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/951.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de operación de la Liga de Comunidades Agrarias y Sindicatos Campesinos (LCAySC) de Puebla."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI en el sector popular."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria adjunta a la presidencia del CDE del PRI en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de operación y acción política del CDM del PRI en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de organización del CDE del PRI en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria de organización del Consejo para la Integración de la Mujer."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Socia fundadora de la Fundación Poblana Cambio XXI, A.C."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica de la Comisión de Honor, Justicia y Política del CDE del PRI en Puebla."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada local suplente en la LIV legislatura del Congreso de Puebla. (Nunca tomó protesta)."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de la contraloría general del gobierno de Puebla."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1990",
-                    "experiencia": "Directora de proyectos especiales de la contraloría de Puebla."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Titular de la contraloría en el municipio de Puebla, Puebla."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": "1990",
-                    "experiencia": "Jefa de relaciones públicas en la Dirección de Tránsito de Puebla."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Presidenta sustituta de la Comisión Estatal Electoral de Puebla (CEEP)."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinadora del Programa de la Mujer en el Consejo Estatal de Población de Puebla, dependiente de la ONU."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Coordinadora de organización y métodos en el Colegio de Bachilleres."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Directora de capacitación y desarrollo cultural del gobierno de Puebla."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Jefa de departamento en el área de recursos humanos de la oficialía mayor del gobierno de Puebla."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1983",
-                    "experiencia": "Analista en la oficialía mayor del gobierno de Puebla."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178455",
-                "fecha_extraccion": "2026-10-13T01:25:45+00:00"
-            }
-        },
-        {
-            "referencia_sil": "941",
-            "nombre_completo": "González Molina Concepción",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Jorge Alberto Juraidini Rumilla ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/941.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1985",
-                    "al_ano": null,
-                    "experiencia": "Integrante activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputada local en la LIV Legislatura del Congreso de Puebla."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora en el gobierno de Teziutlán."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178448",
-                "fecha_extraccion": "2026-10-13T01:25:47+00:00"
-            }
-        },
-        {
-            "referencia_sil": "943",
-            "nombre_completo": "León Castañeda José Gaudencio Víctor",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Yolanda De Lima Vázquez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/943.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "14/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Presidente municipal de San Martín Texmelucan, Puebla."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Colaborador del candidato del PAN durante la campaña presidencial."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1993",
-                    "experiencia": "Secretario de estudios políticos y acción electoral del CDM del PAN en San Martín Texmelucan, Puebla."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1988",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante general ante diversos organismos electorales."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Asesor de diputado federal en la LVI legislatura del Congreso de la Unión."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Asesor jurídico del DIF municipal en San Martín Texmelucan, Puebla."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Juez de lo civil y defensa social en San Martín Texmelucan, Puebla."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1991",
-                    "experiencia": "Regidor suplente en San Martín Texmelucan, Puebla."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Secretario de estudios del CDM del PAN en San Martín Texmelucan, Puebla."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178449",
-                "fecha_extraccion": "2026-10-13T01:25:48+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1128",
-            "nombre_completo": "López Macías Victoria Ruth Sonia",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "José Adolfo Leyva Flores ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1128.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Equidad y Género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Candidata a diputado local por Tehuacán, Puebla."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Candidata a presidenta del CDM del PAN en Tehuacán, Puebla."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de promoción política de la mujer del CDM del PAN en Tehuacán, Puebla."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1995",
-                    "experiencia": "Coordinadora de campaña del PAN para una diputación federal."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Capacitadora Política del Comité Directivo Estatal del PAN en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Pertenece al grupo de amistad con Venezuela."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178604",
-                "fecha_extraccion": "2026-10-13T01:25:50+00:00"
-            }
-        },
-        {
-            "referencia_sil": "949",
-            "nombre_completo": "Mantilla Martínez Miguel Ángel de Jesús",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Juan Francisco Menéndez Priante ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/949.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "29/08/2002",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de finanzas del CDM del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Regidor del municipio de Puebla."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Jefe de grupo de servicio social de la Universidad Popular Autónoma de Puebla en el municipio de San Felipe Hueyotlipan."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178453",
-                "fecha_extraccion": "2026-10-13T01:25:52+00:00"
-            }
-        },
-        {
-            "referencia_sil": "947",
-            "nombre_completo": "Mantilla y González de la Llave José Ramón de la Santísima Trinidad",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "José Alberto Jorge González y Chamorro ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/947.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato a regidor."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de Relaciones del CDM de PAN en Puebla."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de Promoción del CDM de PAN en Puebla."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de Relaciones del Comité Municipal del PAN en el estado de Puebla."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1995",
-                    "experiencia": "Colaborador en diversas campañas políticas en el estado de Puebla, con asesoría a los candidatos sobre temas del comercio en general y seguridad pública."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal suplente en la LVII legislatura del Congreso de la Unión."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Subdirector de Abasto y Comercialización del ayuntamiento de Puebla."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1993",
-                    "experiencia": "Consejero de NAFINSA."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2179198",
-                "fecha_extraccion": "2026-10-13T01:25:54+00:00"
-            }
-        },
-        {
-            "referencia_sil": "348419",
-            "nombre_completo": "Meza Cabrera Marisela Guadalupe",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/348419.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "03/04/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "939",
-                "titular_nombre": "Narciso Alberto Amador Leal ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:25:55+00:00"
-            }
-        },
-        {
-            "referencia_sil": "945",
-            "nombre_completo": "Morales Sánchez José Melitón",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Elsa Georgina Osorio Molina ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/945.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Asuntos Indígenas (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo Rural (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Reforma Agraria (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2000",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos de la CNC en Puebla."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1986",
-                    "experiencia": "Subdelegado general del PRI en Tabasco."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Delegado especial del CEN del PRI en Tabasco."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1976",
-                    "experiencia": "Presidente del CDE del PRI en Puebla."
-                },
-                {
-                    "del_ano": "1958",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diputado Local."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1987",
-                    "experiencia": "Notario público en Tecamachalco, Puebla."
-                },
-                {
-                    "del_ano": "1975",
-                    "al_ano": "1975",
-                    "experiencia": "Director general de Gobernación en Puebla."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1969",
-                    "experiencia": "Agente auxiliar de la PGJ de Puebla."
-                },
-                {
-                    "del_ano": "1962",
-                    "al_ano": "1964",
-                    "experiencia": "Agente del ministerio público en los distritos judiciales de Tetela de Ocampo y Atlixco."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178451",
-                "fecha_extraccion": "2026-10-13T01:25:57+00:00"
-            }
-        },
-        {
-            "referencia_sil": "358175",
-            "nombre_completo": "Pozos Cruz Manuel",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/358175.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Salud (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "28/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "03/04/2003",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "942",
-                "titular_nombre": "Víctor Emanuel Díaz Palacios ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:25:59+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1119",
-            "nombre_completo": "Rivera Pérez Eduardo",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Leonor Apolonia Popocatl Gutiérrez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1119.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Turismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/04/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación y Seguridad Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "20/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Juventud y Deporte (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero nacional del PAN."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario general del CDE del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Consejero estatal del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Coordinador de campañas estatales en Puebla."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Miembro del consejo estatal del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1996",
-                    "experiencia": "Coordinador de la Resistencia Civil Pacífica en el caso de Huejotzingo, Puebla."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario de organización del CDE del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Representante del PAN ante la comisión local de vigilancia del registro federal de electores."
-                },
-                {
-                    "del_ano": "1993",
-                    "al_ano": "1997",
-                    "experiencia": "Representante propietario ante la Comisión Local de Vigilancia del Registro Federal de Electores."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1995",
-                    "experiencia": "Secretario de acción electoral del CDE del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178596",
-                "fecha_extraccion": "2026-10-13T01:26:01+00:00"
-            }
-        },
-        {
-            "referencia_sil": "944",
-            "nombre_completo": "Spezia Maldonado Erika Elizabeth",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "David Domínguez Domínguez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/944.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 6,
-            "comisiones": [
-                {
-                    "comision": "Especial (Kenna) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de éste huracán. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "26/11/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial (Isidore) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de este huracán. (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "08/10/2002",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial para dar Seguimiento a los Fondos Aportados por los Trabajadores Mexicanos Braceros (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Fortalecimiento del Federalismo (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Presidenta del CEE del PVEM de Puebla."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Candidata a diputada local suplente."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1999",
-                    "experiencia": "Secretaria general del PVEM."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PVEM."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de Asuntos Internacionales del grupo parlamentario del PVEM."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178450",
-                "fecha_extraccion": "2026-10-13T01:26:02+00:00"
-            }
-        },
-        {
-            "referencia_sil": "950",
-            "nombre_completo": "Vicente Díaz Alfonso",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Salomón Ricardo Jiménez Téllez ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/950.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 2,
-            "comisiones": [
-                {
-                    "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "1998",
-                    "experiencia": "Candidato a diputado local."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Candidato a diputado federal."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDM del PAN en Puebla, Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Miembro del CDE del PAN en Puebla."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante ante consejos distritales del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Representante ante comisiones de vigilancia locales y federales por el PAN."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado federal en la LVII legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1999",
-                    "experiencia": "Procurador de colonias, juntas auxiliares y delegaciones municipales del ayuntamiento de Puebla, Puebla."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178454",
-                "fecha_extraccion": "2026-10-13T01:26:04+00:00"
-            }
-        },
-        {
-            "referencia_sil": "952",
-            "nombre_completo": "Vital Ramírez Benito",
-            "camara": "Diputados",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": null,
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "María Isabel Merlo Talavera ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/952.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Participación Ciudadana (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "15/12/2002",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Seguridad Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario de la sección 77 de Atencingo del Sindicato de Azucareros de la CTM."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178456",
-                "fecha_extraccion": "2026-10-13T01:26:06+00:00"
-            }
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "1332",
-            "nombre_completo": "Bartlett Díaz Manuel",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Puebla",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Luz del Carmen López  ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1332.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación y Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Precandidato a la presidencia de la República."
-                },
-                {
-                    "del_ano": "1992",
-                    "al_ano": "1999",
-                    "experiencia": "Gobernador de Puebla."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1982",
-                    "experiencia": "Coordinador general de campaña presidencial del PRI."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario general del CEN del PRI."
-                },
-                {
-                    "del_ano": "1968",
-                    "al_ano": null,
-                    "experiencia": "Asesor del secretario general de la CNOP del PRI."
-                },
-                {
-                    "del_ano": "1965",
-                    "al_ano": "1968",
-                    "experiencia": "Secretario auxiliar del secretario general del CEN del PRI."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": "1964",
-                    "al_ano": null,
-                    "experiencia": "Auxiliar de la secretaría general de la CNC del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de la revista: La República del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1992",
-                    "al_ano": null,
-                    "experiencia": "Comisionado de Evaluación y Promoción de Proyectos de Desarrollo de la zona centro de la República Mexicana."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1992",
-                    "experiencia": "Secretario de Educación Pública."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario de Gobernación."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1981",
-                    "experiencia": "Asesor del secretario de Programación y Presupuesto."
-                },
-                {
-                    "del_ano": "1976",
-                    "al_ano": "1979",
-                    "experiencia": "Director para asuntos políticos de la SRE."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1976",
-                    "experiencia": "Presidente y secretario de la Comisión Federal Electoral."
-                },
-                {
-                    "del_ano": "1970",
-                    "al_ano": "1976",
-                    "experiencia": "Director general de gobierno de la SEGOB."
-                },
-                {
-                    "del_ano": "1969",
-                    "al_ano": "1970",
-                    "experiencia": "Subdirector de gobierno en la SEGOB."
-                },
-                {
-                    "del_ano": "1963",
-                    "al_ano": null,
-                    "experiencia": "Secretario de la Comisión de reglamentación de la Aseguradora Nacional Agrícola y Ganadera S.A. (ANAGSA)."
-                },
-                {
-                    "del_ano": "1963",
-                    "al_ano": null,
-                    "experiencia": "Comisionado ante la FAO con sede en Roma, Italia, para realizar estudios sobre el seguro agropecuario."
-                },
-                {
-                    "del_ano": "1962",
-                    "al_ano": "1963",
-                    "experiencia": "Asesor de la Dirección de Estudios Hacendarios en la subdirección de Asuntos Económicos de la SHCP."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178756",
-                "fecha_extraccion": "2026-10-13T01:26:09+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Consejero nacional del PRD."
         },
         {
-            "referencia_sil": "1247",
-            "nombre_completo": "Fraile García Francisco Antonio",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Puebla",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Apolonio Méndez Meneses ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1247.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Asuntos Indígenas (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia y Tecnología (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1995",
-                    "experiencia": "Presidente del CDE en el PAN de Puebla."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Secretario de acción electoral del CDE en el PAN de Puebla."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1986",
-                    "experiencia": "Secretario de afiliación del CDE en el PAN de Puebla."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "2004",
-                    "experiencia": "Consejero Nacional del PAN."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": null,
-                    "experiencia": "Presidente del Comité Permanente Ciudadano del PAN en Puebla."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PAN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Candidato por el PAN para la presidencia municipal de Puebla."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": "2000",
-                    "experiencia": "Diputado local en la LIV legislatura del Congreso de Puebla."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1996",
-                    "al_ano": "1998",
-                    "experiencia": "Regidor del municipio de Puebla."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178683",
-                "fecha_extraccion": "2026-10-13T01:26:11+00:00"
-            }
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Presidente del CDE del PRD en Puebla."
         },
         {
-            "referencia_sil": "1343",
-            "nombre_completo": "Ortega Martínez José de Jesús",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRD",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Puebla",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Carlos Navarrete Ruiz ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1343.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Puntos Constitucionales (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Defensa Nacional (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Gobernación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Trabajo y Previsión Social (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Justicia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia del CEN del PRD."
-                },
-                {
-                    "del_ano": "2000",
-                    "al_ano": null,
-                    "experiencia": "Representante de la Alianza por México ante el IFE."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Integrante del Consejo Nacional del PRD."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Representante del PRD ante el Consejo General del IFE."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Candidato a la presidencia nacional del PRD en 1999 y 2002."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Consejero Nacional del PRD."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": "1998",
-                    "experiencia": "Secretario general del CEN del PRD."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1994",
-                    "experiencia": "Coordinador de giras del candidato a la presidencia de la república por el PRD."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1992",
-                    "experiencia": "Representante del PRD ante el Consejo General del IFE."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Miembro fundador del PRD."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Secretario de asuntos electorales e integrante de la Comisión Coordinadora del CEN del PMS."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1989",
-                    "experiencia": "Miembro del Partido Mexicano Socialista (PMS)."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario de Formación del PST."
-                },
-                {
-                    "del_ano": "1980",
-                    "al_ano": "1982",
-                    "experiencia": "Secretario General del PST."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1986",
-                    "experiencia": "Miembro del Partido Socialista de los Trabajadores (PST)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del Comité de Lucha de la Escuela Nacional de Ciencias Biológicas del IPN."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario general de la tercera asamblea nacional extraordinaria para la escisión del PST."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Líder de la corriente Nueva Izquierda del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Director de la Revista Nueva Izquierda. Órgano de difusión del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Responsable de Asuntos Electorales del CEN del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputado federal en la LVI legislatura. Coordinador del grupo parlamentario del PRD."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputado federal en la LIV legislatura. Subcoordinador del grupo parlamentario del Partido Mexicano Socialista (PMS)."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": "1982",
-                    "experiencia": "Diputado federal en la LI legislatura por el PST. Integrante de las comisiones de Programación y Presupuesto, Cultura, Ciencia y Tecnología y Trabajo y Previsión Social."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1974",
-                    "al_ano": "1976",
-                    "experiencia": "Laboratorista en el Hospital de Ferrocarriles Nacionales de México."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178766",
-                "fecha_extraccion": "2026-10-13T01:26:13+00:00"
-            }
+          "del_ano": "1994",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRD."
         },
         {
-            "referencia_sil": "1286",
-            "nombre_completo": "Saldaña Pérez María Lucero",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "31/08/2001",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1286.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Relaciones Exteriores - Europa y África (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Comercio y Fomento Industrial (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "25/03/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Especial Encargada de la Conmemoración del Quincuagésimo Aniversario del Voto de la Mujer en México. (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "30/01/2003",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Subcoordinadora del Foro 3 de la agenda del PRI hacia el 2000, organizado por la Fundación Colosio de Puebla."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Asesora del Comité de Desarrollo Comunitario del CEN del PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": null,
-                    "experiencia": "Fundadora del Grupo Plural de Mujeres de Puebla."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la Comisión de Planeación y Evaluación del Consejo Técnico Municipal, de Acción Legislativa de la Federación Nacional de Organizaciones Campesinas de Puebla y enlace del grupo de diputados federales del sector popular en el Consejo de Mujeres por el cambio."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Consejera del CDE del PRI de Puebla."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1994",
-                    "experiencia": "Integrante de la Fundación Cambio XXI."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1995",
-                    "experiencia": "Integrante del Consejo Técnico estatal y municipal del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica de la Comisión de Financiamiento y consolidación patrimonial del PRI."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de finanzas del CDE del PRI en Puebla."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Delegada del CDE del PRI en Cholula, Puebla."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora estatal del programa para el empadronamiento del partido (PRI)."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": "1987",
-                    "experiencia": "Secretaria general del CDE del PRI en Puebla."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": null,
-                    "experiencia": "Representante de la Reunión Nacional sobre la Mujer, en Colima."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Presidenta del consejo consultivo de la Federación de Mujeres Universitarias de Puebla, AC."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora del Foro Estatal del Programa de Apoyo a la Economía Popular."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Miembro de la Agrupación Femenil Revolucionaria del PRI."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": "1986",
-                    "experiencia": "Participó en la creación del Centro Piloto de Capacitación para la Mujer, Carmen Serdán y 164 centros más en Puebla."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Diputada federal por la LVI legislatura. Integrante del Comité Nacional de Hábitat."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1991",
-                    "experiencia": "Diputada en la LIV legislatura federal."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1987",
-                    "experiencia": "Diputada local en la XLIX legislatura del Congreso de Puebla. Integrante de la Comisión de Glosa y del Gran Jurado."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Directora del Instituto Poblano de la Mujer."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora general del programa de la mujer en Puebla."
-                },
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Secretaria técnica del Subcomité especial de alianza para la equidad del COPLADE, en Puebla."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Subdirectora de fomento agropecuario y agroindustrial."
-                },
-                {
-                    "del_ano": "1982",
-                    "al_ano": null,
-                    "experiencia": "Coordinadora de la reunión estatal de corresponsabilidad de la mujer ante el régimen presidencial."
-                },
-                {
-                    "del_ano": "1977",
-                    "al_ano": "1982",
-                    "experiencia": "Coordinadora del Comité de programación de servicios sociales de la SARH."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "1213",
-                "titular_nombre": "Rafael Cañedo Benitez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-13T01:26:14+00:00"
-            }
-        },
-        {
-            "referencia_sil": "1287",
-            "nombre_completo": "Sierra Sánchez Germán",
-            "camara": "Senadores",
-            "legislatura": 58,
-            "partido": "PRI",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Puebla",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Silvia Guillermina Tanus Osorio ",
-            "fecha_toma_protesta": "01/09/2000",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": null,
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1287.jpg",
-            "foto_local_path": null,
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura y Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Relaciones Exteriores - Europa y África (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "01/09/2000",
-                    "fecha_fin": "31/08/2003",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "1998",
-                    "al_ano": null,
-                    "experiencia": "Precandidato a la gubernatura de Puebla en el PRI."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Integrante del CPN del PRI."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretario de coordinación regional del CEN del PRI en la cuarta circunscripción, por Puebla, Tlaxcala, Hidalgo, Morelos y el DF."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CDM del PRI."
-                },
-                {
-                    "del_ano": "1995",
-                    "al_ano": null,
-                    "experiencia": "Candidato a la presidencia municipal de Puebla."
-                },
-                {
-                    "del_ano": "1990",
-                    "al_ano": "1996",
-                    "experiencia": "Delegado efectivo de las XIV y XVII asambleas nacionales del PRI."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Tesorero de la Cámara Agrícola y Ganadera de Puebla, perteneciente a la CNC."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": null,
-                    "experiencia": "Delegado de la CNOP en Tlaxcala."
-                },
-                {
-                    "del_ano": "1987",
-                    "al_ano": "1988",
-                    "experiencia": "Presidente del CDE del PRI."
-                },
-                {
-                    "del_ano": "1986",
-                    "al_ano": null,
-                    "experiencia": "Secretario general del CDE del PRI."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1985",
-                    "experiencia": "Secretario de organización del Comité Central Ejecutivo."
-                },
-                {
-                    "del_ano": "1984",
-                    "al_ano": "1986",
-                    "experiencia": "Presidente del Consejo Técnico Consultivo de LCA y SC de la CNC de Puebla."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1984",
-                    "experiencia": "Delegado en el distrito electoral 7 de Puebla, con cabecera en Tepeaca."
-                },
-                {
-                    "del_ano": "1983",
-                    "al_ano": "1988",
-                    "experiencia": "Secretario, y presidente y vicepresidente del exterior, de la unidad veterinaria, sección Puebla, afiliada a la CNOP."
-                },
-                {
-                    "del_ano": "1974",
-                    "al_ano": null,
-                    "experiencia": "Miembro activo del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del MNJR de Puebla."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "1994",
-                    "al_ano": "1997",
-                    "experiencia": "Senador de la República en la LVI legislatura. Presidente de la Comisión Inspectora de la Contaduría Mayor de Hacienda."
-                },
-                {
-                    "del_ano": "1991",
-                    "al_ano": "1994",
-                    "experiencia": "Senador de la República en la LV legislatura. Presidente de la cuarta sección de la Comisión de Relaciones Exteriores. Integrante de la Comisión Permanente."
-                },
-                {
-                    "del_ano": "1989",
-                    "al_ano": null,
-                    "experiencia": "Diputado en la LI legislatura del Congreso de Puebla."
-                },
-                {
-                    "del_ano": "1985",
-                    "al_ano": "1988",
-                    "experiencia": "Diputado federal en la LIII legislatura."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Delegado de la SAGARPA en Puebla."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2000",
-                    "experiencia": "Secretario de Desarrollo Rural en Puebla."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1998",
-                    "experiencia": "Delegado estatal de la SEDESOL en Puebla."
-                },
-                {
-                    "del_ano": "1988",
-                    "al_ano": "1989",
-                    "experiencia": "Delegado estatal del ISSSTE."
-                },
-                {
-                    "del_ano": "1981",
-                    "al_ano": "1985",
-                    "experiencia": "Jefe del programa de agroindustria de la SARH en Puebla."
-                },
-                {
-                    "del_ano": "1979",
-                    "al_ano": null,
-                    "experiencia": "Agregado agrícola en la Embajada de México acreditada en Australia, Nueva Zelanda y Fiji."
-                }
-            ],
-            "escolaridad_detalle": [],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "redes_sociales": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "2178719",
-                "fecha_extraccion": "2026-10-13T01:26:16+00:00"
-            }
+          "del_ano": null,
+          "al_ano": "1994",
+          "experiencia": "Miembro activo del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178621",
+        "fecha_extraccion": "2026-10-13T01:25:42+00:00"
+      }
+    },
+    {
+      "referencia_sil": "940",
+      "nombre_completo": "Cantorán Espinosa Cutberto",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Arcelia Amador Gutiérrez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/940.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del SNTE."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Secretario de créditos del SNTE."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Secretario particular nivel A en el SNTE."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Coordinador de la Secretaría de Organización del Comité Ejecutivo del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Pertenece al sector obrero del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Delegado en la convención estatal por el Frente Juvenil Revolucionario del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante del PRI ante diversos procesos electorales en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRI en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de derechos laborales y organización de educación básica V del CEN del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la sección 23 del SNTE."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de la campaña a diputado federal por el distrito de Acatlán, Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinador de la campaña a diputado federal por el distrito de Tepeaca, Puebla."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1982",
+          "al_ano": "1984",
+          "experiencia": "Director de la escuela primaria rural República de Argentina en San Antonio la Portilla, Tecamachalco, Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Supervisor escolar de educación primaria en Puebla."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178447",
+        "fecha_extraccion": "2026-10-13T01:25:43+00:00"
+      }
+    },
+    {
+      "referencia_sil": "951",
+      "nombre_completo": "Cerezo Bautista Adela",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Oscar Jaime Tito Reyes Márquez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/951.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Radio, Televisión y Cinematografía (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Secretaria de operación de la Liga de Comunidades Agrarias y Sindicatos Campesinos (LCAySC) de Puebla."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI en el sector popular."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria adjunta a la presidencia del CDE del PRI en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de operación y acción política del CDM del PRI en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de organización del CDE del PRI en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria de organización del Consejo para la Integración de la Mujer."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Socia fundadora de la Fundación Poblana Cambio XXI, A.C."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretaria técnica de la Comisión de Honor, Justicia y Política del CDE del PRI en Puebla."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada local suplente en la LIV legislatura del Congreso de Puebla. (Nunca tomó protesta)."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Secretaria de la contraloría general del gobierno de Puebla."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1990",
+          "experiencia": "Directora de proyectos especiales de la contraloría de Puebla."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Titular de la contraloría en el municipio de Puebla, Puebla."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": "1990",
+          "experiencia": "Jefa de relaciones públicas en la Dirección de Tránsito de Puebla."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Presidenta sustituta de la Comisión Estatal Electoral de Puebla (CEEP)."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Coordinadora del Programa de la Mujer en el Consejo Estatal de Población de Puebla, dependiente de la ONU."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Coordinadora de organización y métodos en el Colegio de Bachilleres."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Directora de capacitación y desarrollo cultural del gobierno de Puebla."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Jefa de departamento en el área de recursos humanos de la oficialía mayor del gobierno de Puebla."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1983",
+          "experiencia": "Analista en la oficialía mayor del gobierno de Puebla."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178455",
+        "fecha_extraccion": "2026-10-13T01:25:45+00:00"
+      }
+    },
+    {
+      "referencia_sil": "941",
+      "nombre_completo": "González Molina Concepción",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Jorge Alberto Juraidini Rumilla",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/941.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1985",
+          "al_ano": null,
+          "experiencia": "Integrante activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputada local en la LIV Legislatura del Congreso de Puebla."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora en el gobierno de Teziutlán."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178448",
+        "fecha_extraccion": "2026-10-13T01:25:47+00:00"
+      }
+    },
+    {
+      "referencia_sil": "943",
+      "nombre_completo": "León Castañeda José Gaudencio Víctor",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Yolanda De Lima Vázquez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/943.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Presidente",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "14/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Puebla."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Presidente municipal de San Martín Texmelucan, Puebla."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Colaborador del candidato del PAN durante la campaña presidencial."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1993",
+          "experiencia": "Secretario de estudios políticos y acción electoral del CDM del PAN en San Martín Texmelucan, Puebla."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1988",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante general ante diversos organismos electorales."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Asesor de diputado federal en la LVI legislatura del Congreso de la Unión."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Asesor jurídico del DIF municipal en San Martín Texmelucan, Puebla."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Juez de lo civil y defensa social en San Martín Texmelucan, Puebla."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1991",
+          "experiencia": "Regidor suplente en San Martín Texmelucan, Puebla."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Secretario de estudios del CDM del PAN en San Martín Texmelucan, Puebla."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178449",
+        "fecha_extraccion": "2026-10-13T01:25:48+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1128",
+      "nombre_completo": "López Macías Victoria Ruth Sonia",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "José Adolfo Leyva Flores",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1128.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Equidad y Género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Candidata a diputado local por Tehuacán, Puebla."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Candidata a presidenta del CDM del PAN en Tehuacán, Puebla."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Secretaria de promoción política de la mujer del CDM del PAN en Tehuacán, Puebla."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1995",
+          "experiencia": "Coordinadora de campaña del PAN para una diputación federal."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Capacitadora Política del Comité Directivo Estatal del PAN en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Pertenece al grupo de amistad con Venezuela."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178604",
+        "fecha_extraccion": "2026-10-13T01:25:50+00:00"
+      }
+    },
+    {
+      "referencia_sil": "949",
+      "nombre_completo": "Mantilla Martínez Miguel Ángel de Jesús",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Juan Francisco Menéndez Priante",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/949.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "29/08/2002",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario de finanzas del CDM del PAN en Puebla."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Regidor del municipio de Puebla."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Jefe de grupo de servicio social de la Universidad Popular Autónoma de Puebla en el municipio de San Felipe Hueyotlipan."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178453",
+        "fecha_extraccion": "2026-10-13T01:25:52+00:00"
+      }
+    },
+    {
+      "referencia_sil": "947",
+      "nombre_completo": "Mantilla y González de la Llave José Ramón de la Santísima Trinidad",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "José Alberto Jorge González y Chamorro",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/947.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Comercio y Fomento Industrial (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité de Información, Gestoría y Quejas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato a regidor."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario de Relaciones del CDM de PAN en Puebla."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Secretario de Promoción del CDM de PAN en Puebla."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2000",
+          "experiencia": "Secretario de Relaciones del Comité Municipal del PAN en el estado de Puebla."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1995",
+          "experiencia": "Colaborador en diversas campañas políticas en el estado de Puebla, con asesoría a los candidatos sobre temas del comercio en general y seguridad pública."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal suplente en la LVII legislatura del Congreso de la Unión."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Subdirector de Abasto y Comercialización del ayuntamiento de Puebla."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1993",
+          "experiencia": "Consejero de NAFINSA."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2179198",
+        "fecha_extraccion": "2026-10-13T01:25:54+00:00"
+      }
+    },
+    {
+      "referencia_sil": "348419",
+      "nombre_completo": "Meza Cabrera Marisela Guadalupe",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/348419.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de Coadyuvar y dar Seguimiento a los Proyectos de Desarrollo Regional relacionados con la Región Sur-Sureste de México (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "03/04/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "939",
+        "titular_nombre": "Narciso Alberto Amador Leal ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:25:55+00:00"
+      }
+    },
+    {
+      "referencia_sil": "945",
+      "nombre_completo": "Morales Sánchez José Melitón",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Elsa Georgina Osorio Molina",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/945.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Asuntos Indígenas (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo Rural (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Reforma Agraria (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2000",
+          "al_ano": "2000",
+          "experiencia": "Secretario general de la Liga de Comunidades Agrarias y Sindicatos Campesinos de la CNC en Puebla."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1986",
+          "experiencia": "Subdelegado general del PRI en Tabasco."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Delegado especial del CEN del PRI en Tabasco."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1976",
+          "experiencia": "Presidente del CDE del PRI en Puebla."
+        },
+        {
+          "del_ano": "1958",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diputado Local."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1987",
+          "al_ano": "1987",
+          "experiencia": "Notario público en Tecamachalco, Puebla."
+        },
+        {
+          "del_ano": "1975",
+          "al_ano": "1975",
+          "experiencia": "Director general de Gobernación en Puebla."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1969",
+          "experiencia": "Agente auxiliar de la PGJ de Puebla."
+        },
+        {
+          "del_ano": "1962",
+          "al_ano": "1964",
+          "experiencia": "Agente del ministerio público en los distritos judiciales de Tetela de Ocampo y Atlixco."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178451",
+        "fecha_extraccion": "2026-10-13T01:25:57+00:00"
+      }
+    },
+    {
+      "referencia_sil": "358175",
+      "nombre_completo": "Pozos Cruz Manuel",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/358175.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Salud (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "28/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "03/04/2003",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "942",
+        "titular_nombre": "Víctor Emanuel Díaz Palacios ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:25:59+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1119",
+      "nombre_completo": "Rivera Pérez Eduardo",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Leonor Apolonia Popocatl Gutiérrez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1119.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Turismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/04/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación y Seguridad Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "20/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comité del Centro de Estudios Sociales y de Opinión Pública (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Juventud y Deporte (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2001",
+          "al_ano": "2004",
+          "experiencia": "Consejero nacional del PAN."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Secretario general del CDE del PAN en Puebla."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Consejero estatal del PAN en Puebla."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Coordinador de campañas estatales en Puebla."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Miembro del consejo estatal del PAN en Puebla."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": "1996",
+          "experiencia": "Coordinador de la Resistencia Civil Pacífica en el caso de Huejotzingo, Puebla."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario de organización del CDE del PAN en Puebla."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Representante del PAN ante la comisión local de vigilancia del registro federal de electores."
+        },
+        {
+          "del_ano": "1993",
+          "al_ano": "1997",
+          "experiencia": "Representante propietario ante la Comisión Local de Vigilancia del Registro Federal de Electores."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1995",
+          "experiencia": "Secretario de acción electoral del CDE del PAN en Puebla."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178596",
+        "fecha_extraccion": "2026-10-13T01:26:01+00:00"
+      }
+    },
+    {
+      "referencia_sil": "944",
+      "nombre_completo": "Spezia Maldonado Erika Elizabeth",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "David Domínguez Domínguez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/944.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 6,
+      "comisiones": [
+        {
+          "comision": "Especial (Kenna) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de éste huracán. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "26/11/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial (Isidore) encargada de vigilar que los recursos del FONDEN se destinen a los damnificados de este huracán. (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "08/10/2002",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial para dar Seguimiento a los Fondos Aportados por los Trabajadores Mexicanos Braceros (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Fortalecimiento del Federalismo (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Población, Fronteras y Asuntos Migratorios (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Presidenta del CEE del PVEM de Puebla."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Candidata a diputada local suplente."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": "1999",
+          "experiencia": "Secretaria general del PVEM."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PVEM."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Coordinadora de Asuntos Internacionales del grupo parlamentario del PVEM."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178450",
+        "fecha_extraccion": "2026-10-13T01:26:02+00:00"
+      }
+    },
+    {
+      "referencia_sil": "950",
+      "nombre_completo": "Vicente Díaz Alfonso",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Salomón Ricardo Jiménez Téllez",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/950.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 2,
+      "comisiones": [
+        {
+          "comision": "Educación Pública y Servicios Educativos (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": "1998",
+          "experiencia": "Candidato a diputado local."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Candidato a diputado federal."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDM del PAN en Puebla, Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Miembro del CDE del PAN en Puebla."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante ante consejos distritales del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Representante ante comisiones de vigilancia locales y federales por el PAN."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1997",
+          "al_ano": "2000",
+          "experiencia": "Diputado federal en la LVII legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1999",
+          "experiencia": "Procurador de colonias, juntas auxiliares y delegaciones municipales del ayuntamiento de Puebla, Puebla."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178454",
+        "fecha_extraccion": "2026-10-13T01:26:04+00:00"
+      }
+    },
+    {
+      "referencia_sil": "952",
+      "nombre_completo": "Vital Ramírez Benito",
+      "camara": "Diputados",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": null,
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "María Isabel Merlo Talavera",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/952.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Participación Ciudadana (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "15/12/2002",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Seguridad Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario de la sección 77 de Atencingo del Sindicato de Azucareros de la CTM."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178456",
+        "fecha_extraccion": "2026-10-13T01:26:06+00:00"
+      }
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "1332",
+      "nombre_completo": "Bartlett Díaz Manuel",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Puebla",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Luz del Carmen López",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1332.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación y Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Precandidato a la presidencia de la República."
+        },
+        {
+          "del_ano": "1992",
+          "al_ano": "1999",
+          "experiencia": "Gobernador de Puebla."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1982",
+          "experiencia": "Coordinador general de campaña presidencial del PRI."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1982",
+          "experiencia": "Secretario general del CEN del PRI."
+        },
+        {
+          "del_ano": "1968",
+          "al_ano": null,
+          "experiencia": "Asesor del secretario general de la CNOP del PRI."
+        },
+        {
+          "del_ano": "1965",
+          "al_ano": "1968",
+          "experiencia": "Secretario auxiliar del secretario general del CEN del PRI."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": "1964",
+          "al_ano": null,
+          "experiencia": "Auxiliar de la secretaría general de la CNC del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de la revista: La República del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1992",
+          "al_ano": null,
+          "experiencia": "Comisionado de Evaluación y Promoción de Proyectos de Desarrollo de la zona centro de la República Mexicana."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1992",
+          "experiencia": "Secretario de Educación Pública."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1988",
+          "experiencia": "Secretario de Gobernación."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1981",
+          "experiencia": "Asesor del secretario de Programación y Presupuesto."
+        },
+        {
+          "del_ano": "1976",
+          "al_ano": "1979",
+          "experiencia": "Director para asuntos políticos de la SRE."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1976",
+          "experiencia": "Presidente y secretario de la Comisión Federal Electoral."
+        },
+        {
+          "del_ano": "1970",
+          "al_ano": "1976",
+          "experiencia": "Director general de gobierno de la SEGOB."
+        },
+        {
+          "del_ano": "1969",
+          "al_ano": "1970",
+          "experiencia": "Subdirector de gobierno en la SEGOB."
+        },
+        {
+          "del_ano": "1963",
+          "al_ano": null,
+          "experiencia": "Secretario de la Comisión de reglamentación de la Aseguradora Nacional Agrícola y Ganadera S.A. (ANAGSA)."
+        },
+        {
+          "del_ano": "1963",
+          "al_ano": null,
+          "experiencia": "Comisionado ante la FAO con sede en Roma, Italia, para realizar estudios sobre el seguro agropecuario."
+        },
+        {
+          "del_ano": "1962",
+          "al_ano": "1963",
+          "experiencia": "Asesor de la Dirección de Estudios Hacendarios en la subdirección de Asuntos Económicos de la SHCP."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178756",
+        "fecha_extraccion": "2026-10-13T01:26:09+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1247",
+      "nombre_completo": "Fraile García Francisco Antonio",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Puebla",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Apolonio Méndez Meneses",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1247.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Asuntos Indígenas (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia y Tecnología (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vivienda (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1987",
+          "al_ano": "1995",
+          "experiencia": "Presidente del CDE en el PAN de Puebla."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Secretario de acción electoral del CDE en el PAN de Puebla."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1986",
+          "experiencia": "Secretario de afiliación del CDE en el PAN de Puebla."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "2004",
+          "experiencia": "Consejero Nacional del PAN."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": null,
+          "experiencia": "Presidente del Comité Permanente Ciudadano del PAN en Puebla."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PAN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Candidato por el PAN para la presidencia municipal de Puebla."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1998",
+          "al_ano": "2000",
+          "experiencia": "Diputado local en la LIV legislatura del Congreso de Puebla."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1996",
+          "al_ano": "1998",
+          "experiencia": "Regidor del municipio de Puebla."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178683",
+        "fecha_extraccion": "2026-10-13T01:26:11+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1343",
+      "nombre_completo": "Ortega Martínez José de Jesús",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRD",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Puebla",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Carlos Navarrete Ruiz",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1343.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Puntos Constitucionales (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Defensa Nacional (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Gobernación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Trabajo y Previsión Social (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Justicia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia del CEN del PRD."
+        },
+        {
+          "del_ano": "2000",
+          "al_ano": null,
+          "experiencia": "Representante de la Alianza por México ante el IFE."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Integrante del Consejo Nacional del PRD."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Representante del PRD ante el Consejo General del IFE."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Candidato a la presidencia nacional del PRD en 1999 y 2002."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Consejero Nacional del PRD."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": "1998",
+          "experiencia": "Secretario general del CEN del PRD."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "1994",
+          "experiencia": "Coordinador de giras del candidato a la presidencia de la república por el PRD."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1992",
+          "experiencia": "Representante del PRD ante el Consejo General del IFE."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Miembro fundador del PRD."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Secretario de asuntos electorales e integrante de la Comisión Coordinadora del CEN del PMS."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1989",
+          "experiencia": "Miembro del Partido Mexicano Socialista (PMS)."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Secretario de Formación del PST."
+        },
+        {
+          "del_ano": "1980",
+          "al_ano": "1982",
+          "experiencia": "Secretario General del PST."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1986",
+          "experiencia": "Miembro del Partido Socialista de los Trabajadores (PST)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del Comité de Lucha de la Escuela Nacional de Ciencias Biológicas del IPN."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario general de la tercera asamblea nacional extraordinaria para la escisión del PST."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Líder de la corriente Nueva Izquierda del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Director de la Revista Nueva Izquierda. Órgano de difusión del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Responsable de Asuntos Electorales del CEN del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputado federal en la LVI legislatura. Coordinador del grupo parlamentario del PRD."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputado federal en la LIV legislatura. Subcoordinador del grupo parlamentario del Partido Mexicano Socialista (PMS)."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": "1982",
+          "experiencia": "Diputado federal en la LI legislatura por el PST. Integrante de las comisiones de Programación y Presupuesto, Cultura, Ciencia y Tecnología y Trabajo y Previsión Social."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1974",
+          "al_ano": "1976",
+          "experiencia": "Laboratorista en el Hospital de Ferrocarriles Nacionales de México."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178766",
+        "fecha_extraccion": "2026-10-13T01:26:13+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1286",
+      "nombre_completo": "Saldaña Pérez María Lucero",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "31/08/2001",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1286.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Relaciones Exteriores - Europa y África (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Comercio y Fomento Industrial (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "25/03/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Especial Encargada de la Conmemoración del Quincuagésimo Aniversario del Voto de la Mujer en México. (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "30/01/2003",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Subcoordinadora del Foro 3 de la agenda del PRI hacia el 2000, organizado por la Fundación Colosio de Puebla."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Asesora del Comité de Desarrollo Comunitario del CEN del PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": null,
+          "experiencia": "Fundadora del Grupo Plural de Mujeres de Puebla."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Coordinadora de la Comisión de Planeación y Evaluación del Consejo Técnico Municipal, de Acción Legislativa de la Federación Nacional de Organizaciones Campesinas de Puebla y enlace del grupo de diputados federales del sector popular en el Consejo de Mujeres por el cambio."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Consejera del CDE del PRI de Puebla."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1994",
+          "experiencia": "Integrante de la Fundación Cambio XXI."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1995",
+          "experiencia": "Integrante del Consejo Técnico estatal y municipal del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Secretaria técnica de la Comisión de Financiamiento y consolidación patrimonial del PRI."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Secretaria de finanzas del CDE del PRI en Puebla."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Delegada del CDE del PRI en Cholula, Puebla."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": null,
+          "experiencia": "Coordinadora estatal del programa para el empadronamiento del partido (PRI)."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": "1987",
+          "experiencia": "Secretaria general del CDE del PRI en Puebla."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": null,
+          "experiencia": "Representante de la Reunión Nacional sobre la Mujer, en Colima."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Presidenta del consejo consultivo de la Federación de Mujeres Universitarias de Puebla, AC."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": null,
+          "experiencia": "Coordinadora del Foro Estatal del Programa de Apoyo a la Economía Popular."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Miembro de la Agrupación Femenil Revolucionaria del PRI."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": "1986",
+          "experiencia": "Participó en la creación del Centro Piloto de Capacitación para la Mujer, Carmen Serdán y 164 centros más en Puebla."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Diputada federal por la LVI legislatura. Integrante del Comité Nacional de Hábitat."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1991",
+          "experiencia": "Diputada en la LIV legislatura federal."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1987",
+          "experiencia": "Diputada local en la XLIX legislatura del Congreso de Puebla. Integrante de la Comisión de Glosa y del Gran Jurado."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Directora del Instituto Poblano de la Mujer."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Coordinadora general del programa de la mujer en Puebla."
+        },
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Secretaria técnica del Subcomité especial de alianza para la equidad del COPLADE, en Puebla."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Subdirectora de fomento agropecuario y agroindustrial."
+        },
+        {
+          "del_ano": "1982",
+          "al_ano": null,
+          "experiencia": "Coordinadora de la reunión estatal de corresponsabilidad de la mujer ante el régimen presidencial."
+        },
+        {
+          "del_ano": "1977",
+          "al_ano": "1982",
+          "experiencia": "Coordinadora del Comité de programación de servicios sociales de la SARH."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "1213",
+        "titular_nombre": "Rafael Cañedo Benitez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-13T01:26:14+00:00"
+      }
+    },
+    {
+      "referencia_sil": "1287",
+      "nombre_completo": "Sierra Sánchez Germán",
+      "camara": "Senadores",
+      "legislatura": 58,
+      "partido": "PRI",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Puebla",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Silvia Guillermina Tanus Osorio",
+      "fecha_toma_protesta": "01/09/2000",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": null,
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/1287.jpg",
+      "foto_local_path": null,
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Reglamentos y Prácticas Parlamentarias (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura y Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Relaciones Exteriores - Europa y África (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "01/09/2000",
+          "fecha_fin": "31/08/2003",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "1998",
+          "al_ano": null,
+          "experiencia": "Precandidato a la gubernatura de Puebla en el PRI."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Integrante del CPN del PRI."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretario de coordinación regional del CEN del PRI en la cuarta circunscripción, por Puebla, Tlaxcala, Hidalgo, Morelos y el DF."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Presidente del CDM del PRI."
+        },
+        {
+          "del_ano": "1995",
+          "al_ano": null,
+          "experiencia": "Candidato a la presidencia municipal de Puebla."
+        },
+        {
+          "del_ano": "1990",
+          "al_ano": "1996",
+          "experiencia": "Delegado efectivo de las XIV y XVII asambleas nacionales del PRI."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Tesorero de la Cámara Agrícola y Ganadera de Puebla, perteneciente a la CNC."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": null,
+          "experiencia": "Delegado de la CNOP en Tlaxcala."
+        },
+        {
+          "del_ano": "1987",
+          "al_ano": "1988",
+          "experiencia": "Presidente del CDE del PRI."
+        },
+        {
+          "del_ano": "1986",
+          "al_ano": null,
+          "experiencia": "Secretario general del CDE del PRI."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1985",
+          "experiencia": "Secretario de organización del Comité Central Ejecutivo."
+        },
+        {
+          "del_ano": "1984",
+          "al_ano": "1986",
+          "experiencia": "Presidente del Consejo Técnico Consultivo de LCA y SC de la CNC de Puebla."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1984",
+          "experiencia": "Delegado en el distrito electoral 7 de Puebla, con cabecera en Tepeaca."
+        },
+        {
+          "del_ano": "1983",
+          "al_ano": "1988",
+          "experiencia": "Secretario, y presidente y vicepresidente del exterior, de la unidad veterinaria, sección Puebla, afiliada a la CNOP."
+        },
+        {
+          "del_ano": "1974",
+          "al_ano": null,
+          "experiencia": "Miembro activo del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del MNJR de Puebla."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "1994",
+          "al_ano": "1997",
+          "experiencia": "Senador de la República en la LVI legislatura. Presidente de la Comisión Inspectora de la Contaduría Mayor de Hacienda."
+        },
+        {
+          "del_ano": "1991",
+          "al_ano": "1994",
+          "experiencia": "Senador de la República en la LV legislatura. Presidente de la cuarta sección de la Comisión de Relaciones Exteriores. Integrante de la Comisión Permanente."
+        },
+        {
+          "del_ano": "1989",
+          "al_ano": null,
+          "experiencia": "Diputado en la LI legislatura del Congreso de Puebla."
+        },
+        {
+          "del_ano": "1985",
+          "al_ano": "1988",
+          "experiencia": "Diputado federal en la LIII legislatura."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Delegado de la SAGARPA en Puebla."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2000",
+          "experiencia": "Secretario de Desarrollo Rural en Puebla."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1998",
+          "experiencia": "Delegado estatal de la SEDESOL en Puebla."
+        },
+        {
+          "del_ano": "1988",
+          "al_ano": "1989",
+          "experiencia": "Delegado estatal del ISSSTE."
+        },
+        {
+          "del_ano": "1981",
+          "al_ano": "1985",
+          "experiencia": "Jefe del programa de agroindustria de la SARH en Puebla."
+        },
+        {
+          "del_ano": "1979",
+          "al_ano": null,
+          "experiencia": "Agregado agrícola en la Embajada de México acreditada en Australia, Nueva Zelanda y Fiji."
+        }
+      ],
+      "escolaridad_detalle": [],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "redes_sociales": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "2178719",
+        "fecha_extraccion": "2026-10-13T01:26:16+00:00"
+      }
+    }
+  ]
 }

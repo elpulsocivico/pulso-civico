@@ -1,1280 +1,1280 @@
 {
-    "metadata": {
-        "entidad_id": 18,
-        "entidad_nombre": "Nayarit",
-        "legislatura": 66,
-        "generado_en": "2026-10-09T16:24:50+02:00",
-        "total_diputados": 4,
-        "total_senadores": 3,
-        "total_general": 7
+  "metadata": {
+    "entidad_id": 18,
+    "entidad_nombre": "Nayarit",
+    "legislatura": 66,
+    "generado_en": "2026-10-09T16:24:50+02:00",
+    "total_diputados": 4,
+    "total_senadores": 3,
+    "total_general": 7
+  },
+  "diputados": [
+    {
+      "referencia_sil": "9228393",
+      "nombre_completo": "Navarro Pérez Beatriz Andrea",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nayarit",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Irma Graciana Arjona Crespo",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Odontología",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228393.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228393.jpg",
+      "total_comisiones": 5,
+      "comisiones": [
+        {
+          "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "05/09/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "28/04/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/02/2025",
+          "fecha_fin": "22/04/2025",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "20/02/2025",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2013",
+          "al_ano": "2015",
+          "experiencia": "Integrante de Morena."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Secretaria de jóvenes del Comité Municipal de Morena como asociación civil en Tepic, Nayarit."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Promotora del voto del candidato del PRD a la Presidente de la República, desde Morena Asociación Civil."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Integrante y fundadora de Morena como asociación civil."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2011",
+          "experiencia": "Activista en el movimiento estudiantil de la Universidad Autónoma de Nayarit."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Senadora suplente en la LXV Legislatura. (Sin toma de protesta)"
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2023",
+          "al_ano": "2023",
+          "experiencia": "Directora de área en la Unidad de Política Pública para la Construcción de Paz con Entidades Federativas y Regiones de la Secretaría de Seguridad y Protección Ciudadana."
+        },
+        {
+          "del_ano": "2023",
+          "al_ano": "2024",
+          "experiencia": "Subsecretaria de Participación Ciudadana en el gobierno de Nayarit."
+        },
+        {
+          "del_ano": "2022",
+          "al_ano": "2022",
+          "experiencia": "Jefa de Servicios Enlace de Subdelegaciones de Administración de ISSSTE."
+        },
+        {
+          "del_ano": "2022",
+          "al_ano": "2023",
+          "experiencia": "Enlace del seguimiento administrativo en cada uno de los estados y unidades médicas del ISSSTE."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Coordinadora Nacional de los Programas Contacto Joven y Territorio Joven en el INJUVE."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Jefa del Departamento de Derechos Humanos del INJUVE."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Encargada de la oficina de representación local en la ciudad de Tepic, Nayarit del INM."
+        },
+        {
+          "del_ano": "2021",
+          "al_ano": "2022",
+          "experiencia": "Jefa del Departamento de Derechos Humanos del INJUVE."
+        },
+        {
+          "del_ano": "2020",
+          "al_ano": "2021",
+          "experiencia": "Jefa de Departamento de Control Migratorio en el INM."
+        },
+        {
+          "del_ano": "2019",
+          "al_ano": "2019",
+          "experiencia": "Capacitadora Estatal en Nayarit del programa Jóvenes Construyendo el Futuro en la Secretaría del Trabajo y Previsión Social."
+        },
+        {
+          "del_ano": "2019",
+          "al_ano": "2020",
+          "experiencia": "Delegada regional zona centro de los programas integrales para el desarrollo en la Secretaría de Bienestar Nayarit."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Posgrado área de Atención Clínica Odontológica por la Universidad Intercontinental Pierre Fauchard."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2018",
+          "experiencia": "Licenciatura en Odontología por la Universidad Autónoma de Nayarit."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228394",
+        "fecha_extraccion": "2026-10-09T16:24:34+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/AndreaNavarro4T/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/AndreaNavarro4T",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/andrea.navarro4t",
+          "color": "#e4405f"
+        }
+      ]
     },
-    "diputados": [
+    {
+      "referencia_sil": "9228746",
+      "nombre_completo": "Núñez Sánchez Gloria Elizabeth",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "MC",
+      "principio_eleccion": "Representación Proporcional",
+      "entidad": "Nayarit",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Nancy Nelly Frías Moreno",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1984-03-20",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Administración y Gestión Electoral",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228746.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228746.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
         {
-            "referencia_sil": "9228393",
-            "nombre_completo": "Navarro Pérez Beatriz Andrea",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nayarit",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Irma Graciana Arjona Crespo ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Odontología",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228393.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228393.jpg",
-            "total_comisiones": 5,
-            "comisiones": [
-                {
-                    "comision": "Economía Social y Fomento del Cooperativismo (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "05/09/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Federalismo y Desarrollo Municipal (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "28/04/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Recursos Hidráulicos, Agua Potable y Saneamiento (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/02/2025",
-                    "fecha_fin": "22/04/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "20/02/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2013",
-                    "al_ano": "2015",
-                    "experiencia": "Integrante de Morena."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Secretaria de jóvenes del Comité Municipal de Morena como asociación civil en Tepic, Nayarit."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Promotora del voto del candidato del PRD a la Presidente de la República, desde Morena Asociación Civil."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Integrante y fundadora de Morena como asociación civil."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2011",
-                    "experiencia": "Activista en el movimiento estudiantil de la Universidad Autónoma de Nayarit."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Senadora suplente en la LXV Legislatura. (Sin toma de protesta)"
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2023",
-                    "al_ano": "2023",
-                    "experiencia": "Directora de área en la Unidad de Política Pública para la Construcción de Paz con Entidades Federativas y Regiones de la Secretaría de Seguridad y Protección Ciudadana."
-                },
-                {
-                    "del_ano": "2023",
-                    "al_ano": "2024",
-                    "experiencia": "Subsecretaria de Participación Ciudadana en el gobierno de Nayarit."
-                },
-                {
-                    "del_ano": "2022",
-                    "al_ano": "2022",
-                    "experiencia": "Jefa de Servicios Enlace de Subdelegaciones de Administración de ISSSTE."
-                },
-                {
-                    "del_ano": "2022",
-                    "al_ano": "2023",
-                    "experiencia": "Enlace del seguimiento administrativo en cada uno de los estados y unidades médicas del ISSSTE."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Coordinadora Nacional de los Programas Contacto Joven y Territorio Joven en el INJUVE."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Jefa del Departamento de Derechos Humanos del INJUVE."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Encargada de la oficina de representación local en la ciudad de Tepic, Nayarit del INM."
-                },
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2022",
-                    "experiencia": "Jefa del Departamento de Derechos Humanos del INJUVE."
-                },
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2021",
-                    "experiencia": "Jefa de Departamento de Control Migratorio en el INM."
-                },
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2019",
-                    "experiencia": "Capacitadora Estatal en Nayarit del programa Jóvenes Construyendo el Futuro en la Secretaría del Trabajo y Previsión Social."
-                },
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2020",
-                    "experiencia": "Delegada regional zona centro de los programas integrales para el desarrollo en la Secretaría de Bienestar Nayarit."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Posgrado área de Atención Clínica Odontológica por la Universidad Intercontinental Pierre Fauchard."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2018",
-                    "experiencia": "Licenciatura en Odontología por la Universidad Autónoma de Nayarit."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228394",
-                "fecha_extraccion": "2026-10-09T16:24:34+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/AndreaNavarro4T/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/AndreaNavarro4T",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/andrea.navarro4t",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Economía, Comercio y Competitividad (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228746",
-            "nombre_completo": "Núñez Sánchez Gloria Elizabeth",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "MC",
-            "principio_eleccion": "Representación Proporcional",
-            "entidad": "Nayarit",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Nancy Nelly Frías Moreno ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1984-03-20",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Maestría",
-            "preparacion_academica": "Administración y Gestión Electoral",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228746.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228746.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Economía, Comercio y Competitividad (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vivienda (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Candidata a la gubernatura de Nayarit."
-                },
-                {
-                    "del_ano": "2010",
-                    "al_ano": "2012",
-                    "experiencia": "Consejera política nacional del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2007",
-                    "experiencia": "Consejera política municipal del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2008",
-                    "experiencia": "Directora estatal de asuntos jurídicos del PRI."
-                },
-                {
-                    "del_ano": "2007",
-                    "al_ano": "2009",
-                    "experiencia": "Consejera política estatal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2024",
-                    "experiencia": "Senadora en las LXIV y LXV legislaturas. Presidenta de las comisiones de Defensa de los Consumidores; y, Estudios Legislativos, Primera. Secretaria de las comisiones de Pesca y Acuacultura; Asuntos Indígenas; Cultura; Puntos Constitucionales; y, Turismo. Integrante de las comisiones de Agricultura, Ganadería y Desarrollo Rural; Anticorrupción, Transparencia y Participación Ciudadana; Desarrollo Urbano, Ordenamiento Territorial y Vivienda; Desarrollo y Bienestar Social; Marina; Relaciones Exteriores, Asia-Pacífico-África; Recursos Hidráulicos; y, Juventud y, Deporte."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2015",
-                    "experiencia": "Diputada federal en la LXII Legislatura. Secretaria de Turismo. Integrante de las comisiones de Juventud; Puntos Constitucionales; y, Lucha Contra la Trata de Personas"
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada local en la XXX Legislatura del Congreso de Nayarit."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2018",
-                    "experiencia": "Presidenta municipal de Compostela, Nayarit."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Tesorera de Compostela, Nayarit."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2007",
-                    "experiencia": "Asistente de diputado local del Congreso de Nayarit."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2006",
-                    "experiencia": "Oficial de Asesor Jurídico en el Instituto Federal de Defensoría Pública (IFDP)."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2005",
-                    "experiencia": "Oficial de Defensor Jurídico en el IFDP."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2006",
-                    "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de Nayarit."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2002",
-                    "experiencia": "Profesional Técnica en Administración por el Colegio Nacional de Educación Profesional Técnica."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Doctorado en Derecho por la Universidad Vizcaya de las Américas (En curso)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Maestría en Administración y Gestión Electoral por el Instituto Estatal Electoral de Nayarit (IEEN)."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Máster en Parlamento y Democracia por la UNAM y la Universidad de Salamanca."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228747",
-                "fecha_extraccion": "2026-10-09T16:24:36+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/GloriaporNayarit/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/GloriaNunezs",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/gloria_nayarit/",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Vivienda (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         },
         {
-            "referencia_sil": "9228389",
-            "nombre_completo": "Ortiz Rodríguez Jorge Armando",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "PT",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nayarit",
-            "distrito": "3 (Compos",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Ángel Ignacio Chávez Solís ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1979-01-30",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": null,
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228389.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228389.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2019",
-                    "experiencia": "Comisionado político nacional del PT en Nayarit."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2010",
-                    "experiencia": "Presidente de la Federación de Estudiantes de Nayarit."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2006",
-                    "experiencia": "Presidente de la Federación de Estudiantes de Nayarit."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputado federal en la LXV Legislatura. Secretario de la Comisión de Desarrollo Urbano y Ordenamiento Territorial. Integrante de las comisiones de Seguridad Ciudadana; de Trabajo y Previsión Social; de Vigilancia de la Auditoría Superior de la Federación. Presidente del Grupo de Amistad con el Estado Plurinacional de Bolivia. Integrante del Grupo de Amistad con la República Helénica."
-                },
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2021",
-                    "experiencia": "Diputado local en la XXXII Legislatura del Congreso de Nayarit."
-                }
-            ],
-            "trayectoria_administrativa": [],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2004",
-                    "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de Nayarit."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "26/06/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "25/04/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "23/06/2025",
-                    "fecha_fin": "25/06/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "22/04/2025",
-                    "fecha_fin": "24/04/2025",
-                    "estatus": "Baja"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228390",
-                "fecha_extraccion": "2026-10-09T16:24:39+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/profile.php?id=100057586203521&mibextid=ZbWKwL",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/FugioOrtiz",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/fugioortiz13/",
-                    "color": "#e4405f"
-                }
-            ]
-        },
-        {
-            "referencia_sil": "9228391",
-            "nombre_completo": "Porras Baylón Any Marilú",
-            "camara": "Diputados",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nayarit",
-            "distrito": null,
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Elisa Maley Woo Barajas ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Trabajo Social",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228391.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228391.jpg",
-            "total_comisiones": 4,
-            "comisiones": [
-                {
-                    "comision": "Puntos Constitucionales (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "20/04/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Igualdad de Género (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca (C. Diputados)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "30/10/2024",
-                    "fecha_fin": "20/04/2026",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Integrante de Morena."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Integrante del PRI."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": "2017",
-                    "experiencia": "Secretaría de gestión social del Comité Directivo Estatal del PRI."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputada local en la LXXXIII Legislatura en el Congreso de Nayarit. Presidenta de la Comisión de Asuntos Pesqueros y Desarrollo Acuícola. Secretaria de la Comisión de Administración y Políticas Públicas. Vocal de las comisiones de Hacienda, Cuenta Pública y Presupuesto; de Trabajo y Previsión Social; de Ciencia, Tecnología e Innovación."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Diputada local en la LXXX Legislatura en el Congreso de Nayarit."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2019",
-                    "al_ano": "2021",
-                    "experiencia": "Técnica Especializada en la Subdirección Administrativa de la Comisión Nacional del Agua."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinadora del DIF de Santiago Ixcuintla, Nayarit."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": "2018",
-                    "experiencia": "Licenciatura en Trabajo Social por la Universidad del Álica, Tepic, Nayarit."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9228392",
-                "fecha_extraccion": "2026-10-09T16:24:41+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/anyporrasb/",
-                    "color": "#e4405f"
-                }
-            ]
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
         }
-    ],
-    "senadores": [
+      ],
+      "trayectoria_politica": [
         {
-            "referencia_sil": "9229030",
-            "nombre_completo": "Jarero Velázquez Miguel Pavel",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "Morena",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nayarit",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietario",
-            "suplente_nombre": "Alejandro García Monroy ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Economía",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229030.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229030.jpg",
-            "total_comisiones": 12,
-            "comisiones": [
-                {
-                    "comision": "Marina (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "11/03/2026",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos, Primera (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "04/11/2025",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Seguridad Social (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "23/09/2025",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Análisis, Seguimiento y Evaluación sobre la Aplicación y Desarrollo de la Inteligencia Artificial en México (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Innovación e Inteligencia Artificial (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "08/10/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Economía (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/10/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos, Segunda (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Desarrollo Municipal (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Agricultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Bienestar (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                },
-                {
-                    "comision": "Estudios Legislativos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/09/2024",
-                    "fecha_fin": "23/06/2026",
-                    "estatus": "Baja"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2018",
-                    "al_ano": null,
-                    "experiencia": "Integrante de Morena."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2009",
-                    "experiencia": "Candidato por el PRD a diputado federal."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2011",
-                    "experiencia": "Integrante de la Mesa Directiva del Consejo Nacional del PRD"
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2009",
-                    "experiencia": "Subsecretario de Organización del Comité Ejecutivo Nacional del PRD."
-                },
-                {
-                    "del_ano": "2006",
-                    "al_ano": "2011",
-                    "experiencia": "Consejero nacional del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": null,
-                    "experiencia": "Consejero estatal del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario de organización del CEE en Nayarit del PRD."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2005",
-                    "experiencia": "Secretario general del Comité Ejecutivo Estatal (CEE) del PRD en Nayarit."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": null,
-                    "experiencia": "Presidente del CEE del Servicio Electoral del PRD."
-                },
-                {
-                    "del_ano": "1994",
-                    "al_ano": "2016",
-                    "experiencia": "Integrante activo del PRD."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Dirigente estudiantil en la Coordinadora Estatal para la Consulta Nacional Indígena."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Secretario del Consejo Nacional del PRD."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2024",
-                    "experiencia": "Diputado federal en la LXV Legislatura. Secretario de la Comisión de Gobernación y Población. Integrante de las comisiones de Educación; y, Vivienda."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2021",
-                    "experiencia": "Diputado federal en la LXIV Legislatura. Secretario de la Comisión de Economía. Integrante de las comisiones de Pesca; y, Presupuesto y Cuenta Pública."
-                },
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Diputado local en la XXXI Legislatura del Congreso de Nayarit."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2023",
-                    "experiencia": "Delegado de Programas para el Desarrollo de la Secretaría de Bienestar en Nayarit."
-                },
-                {
-                    "del_ano": "2011",
-                    "al_ano": "2014",
-                    "experiencia": "Presidente Municipal de Santiago Ixcuintla, Nayarit."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "2022",
-                    "experiencia": "Jefe de organización y evaluación del Comité de Planeación para el Desarrollo Municipal en Tepic, Nayarit."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Asesor en el Congreso de Nayarit."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Licenciatura en Economía por la Universidad Autónoma de Nayarit."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado en Administración Pública Municipal y Gobiernos Locales."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Diplomado en Derecho Electoral y Políticas Públicas."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "23/06/2026",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "01/10/2026",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229031",
-                "fecha_extraccion": "2026-10-09T16:24:45+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/Paveljarero",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/PavelJareroVa",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/jareropavel",
-                    "color": "#e4405f"
-                }
-            ]
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Candidata a la gubernatura de Nayarit."
         },
         {
-            "referencia_sil": "9229025",
-            "nombre_completo": "Montes Rentería Angélica",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PVEM",
-            "principio_eleccion": "Mayoría Relativa",
-            "entidad": "Nayarit",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Suplente",
-            "suplente_nombre": null,
-            "fecha_toma_protesta": "17/06/2026",
-            "fecha_nacimiento": null,
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Educación",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229025.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229025.jpg",
-            "total_comisiones": 3,
-            "comisiones": [
-                {
-                    "comision": "Desarrollo Rural (C. Senadores)",
-                    "puesto": "Secretario",
-                    "fecha_inicio": "02/09/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/09/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ganadería (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "02/09/2026",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [],
-            "trayectoria_legislativa": [],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Regidora de Xalisco, Nayarit."
-                },
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2011",
-                    "experiencia": "Regidora de Xalisco, Nayarit."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Contralora de Xalisco, Nayarit."
-                },
-                {
-                    "del_ano": null,
-                    "al_ano": null,
-                    "experiencia": "Directora de Evaluación Ambiental en la Secretaría de Desarrollo Sustentable de Nayarit."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2021",
-                    "experiencia": "Maestría en Educación por el Colegio de Investigación Educativa."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2002",
-                    "experiencia": "Licenciatura en Administración por el Instituto Tecnológico de Tepic."
-                }
-            ],
-            "licencias": [],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": "9229024",
-                "titular_nombre": "Jasmine María Bugarín Rodríguez ",
-                "suplente_referencia_sil": null,
-                "fecha_extraccion": "2026-10-09T16:24:48+02:00"
-            },
-            "redes_sociales": []
+          "del_ano": "2010",
+          "al_ano": "2012",
+          "experiencia": "Consejera política nacional del PRI."
         },
         {
-            "referencia_sil": "9229032",
-            "nombre_completo": "Reyes Hernández Ivideliza",
-            "camara": "Senadores",
-            "legislatura": 66,
-            "partido": "PAN",
-            "principio_eleccion": "Primera Minoría",
-            "entidad": "Nayarit",
-            "distrito": "Senaduría de la República",
-            "tipo_cargo": "Propietaria",
-            "suplente_nombre": "Ana Yusara Ramírez Salazar ",
-            "fecha_toma_protesta": "29/08/2024",
-            "fecha_nacimiento": "1978-12-23",
-            "correo_institucional": null,
-            "telefono": null,
-            "ubicacion_oficina": "Senado de la República",
-            "ultimo_grado_estudios": "Licenciatura",
-            "preparacion_academica": "Derecho Penal",
-            "experiencia_legislativa_resumen": null,
-            "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229032.jpg",
-            "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229032.jpg",
-            "total_comisiones": 7,
-            "comisiones": [
-                {
-                    "comision": "Ciberseguridad (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "22/10/2025",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Cultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "03/10/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pesca y Acuacultura (C. Senadores)",
-                    "puesto": "Presidente",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Educación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Pueblos Indígenas y Afromexicanos (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "29/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Agricultura (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                },
-                {
-                    "comision": "Ciencia, Humanidades, Tecnología e Innovación (C. Senadores)",
-                    "puesto": "Integrante",
-                    "fecha_inicio": "24/09/2024",
-                    "fecha_fin": "31/08/2027",
-                    "estatus": "Activo"
-                }
-            ],
-            "trayectoria_politica": [
-                {
-                    "del_ano": "2021",
-                    "al_ano": "2021",
-                    "experiencia": "Candidata de MC a la presidencia municipal de Tepic, Nayarit."
-                },
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2021",
-                    "experiencia": "Coordinadora de la Comisión Operativa Provisional de MC en Sinaloa."
-                },
-                {
-                    "del_ano": "2020",
-                    "al_ano": "2021",
-                    "experiencia": "Coordinadora de la Comisión Operativa Provisional de MC en Nayarit."
-                },
-                {
-                    "del_ano": "2018",
-                    "al_ano": "2018",
-                    "experiencia": "Candidata a diputada federal."
-                },
-                {
-                    "del_ano": "2017",
-                    "al_ano": "2017",
-                    "experiencia": "Candidata a presidenta municipal de Tepic por la vía Independiente."
-                },
-                {
-                    "del_ano": "2015",
-                    "al_ano": "2015",
-                    "experiencia": "Coordinadora de Campaña del candidato del PAN a diputado federal por el Tercer Distrito Federal de Nayarit."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Candidata a senadora por el PAN."
-                },
-                {
-                    "del_ano": "2012",
-                    "al_ano": "2012",
-                    "experiencia": "Coordinadora de la campaña a la presidencia de la república del PAN en Tepic, Nayarit."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Integrante de la Asociación de Alcaldes de Acción Nacional."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": null,
-                    "experiencia": "Integrante del Consejo Estatal del PAN en Nayarit."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Participante en la campaña a gobernador de Nayarit."
-                },
-                {
-                    "del_ano": "1999",
-                    "al_ano": "1999",
-                    "experiencia": "Coordinadora de campaña para presidente municipal de La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "1997",
-                    "experiencia": "Participante en la campaña para presidente municipal en La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "1996",
-                    "al_ano": null,
-                    "experiencia": "Secretaria de Acción Juvenil del Comité Directivo Municipal del PAN en La Yesca, Nayarit."
-                }
-            ],
-            "trayectoria_legislativa": [
-                {
-                    "del_ano": "2014",
-                    "al_ano": "2017",
-                    "experiencia": "Diputada local de la XXXI Legislatura del congreso de Nayarit."
-                },
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Diputada federal en la LXI legislatura. Secretaria de la Comisión de Energía. Integrante de las comisiones de Función Pública; Pesca; y, Especial del Seguimiento a los Fondos Aportados por los Extrabajadores Mexicanos Braceros."
-                }
-            ],
-            "trayectoria_administrativa": [
-                {
-                    "del_ano": "2009",
-                    "al_ano": "2012",
-                    "experiencia": "Subdelegada de la Procuraduría de la Defensa de Menor y la Familia de La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "2005",
-                    "al_ano": "2008",
-                    "experiencia": "Presidenta Municipal de La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "2004",
-                    "al_ano": "2004",
-                    "experiencia": "Directora Jurídica en la Presidencia Municipal de La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Asesora jurídica del gobierno municipal de La Yesca, Nayarit."
-                },
-                {
-                    "del_ano": "2002",
-                    "al_ano": "2004",
-                    "experiencia": "Subdelegada de la Procuraduría de la Defensa del Menor y la Familia de La Yesca, Nayarit."
-                }
-            ],
-            "escolaridad_detalle": [
-                {
-                    "del_ano": "2008",
-                    "al_ano": "2009",
-                    "experiencia": "Diplomado en Mercadotecnia Política por el Instituto Tecnológico Autónomo de México."
-                },
-                {
-                    "del_ano": "2003",
-                    "al_ano": "2003",
-                    "experiencia": "Diplomado en Derecho Familiar por el DIF de Nayarit."
-                },
-                {
-                    "del_ano": "2001",
-                    "al_ano": "2002",
-                    "experiencia": "Especialidad en Derecho Penal por la Universidad Autónoma de Guadalajara."
-                },
-                {
-                    "del_ano": "1997",
-                    "al_ano": "2002",
-                    "experiencia": "Licenciatura en Derecho Penal por la Universidad Autónoma de Guadalajara."
-                }
-            ],
-            "licencias": [
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "26/03/2026",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                },
-                {
-                    "tipo": "Licencia por tiempo indefinido",
-                    "fecha_inicio": "24/03/2026",
-                    "fecha_fin": null,
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Licencia por tiempo definido",
-                    "fecha_inicio": "09/04/2025",
-                    "fecha_fin": "10/04/2025",
-                    "estatus": "Baja"
-                },
-                {
-                    "tipo": "Reincorporación",
-                    "fecha_inicio": "09/04/2025",
-                    "fecha_fin": null,
-                    "estatus": "Activo"
-                }
-            ],
-            "iniciativas": [],
-            "puntos_acuerdo": [],
-            "metadata": {
-                "fuente": "SIL SEGOB",
-                "titular_referencia_sil": null,
-                "titular_nombre": null,
-                "suplente_referencia_sil": "9229033",
-                "fecha_extraccion": "2026-10-09T16:24:50+02:00"
-            },
-            "redes_sociales": [
-                {
-                    "plataforma": "facebook",
-                    "label": "Facebook",
-                    "icono": "facebook",
-                    "url": "https://www.facebook.com/ividelizareyes/",
-                    "color": "#1877f2"
-                },
-                {
-                    "plataforma": "x",
-                    "label": "X (Twitter)",
-                    "icono": "twitter-x",
-                    "url": "https://x.com/IvidelizaR",
-                    "color": "#000000"
-                },
-                {
-                    "plataforma": "instagram",
-                    "label": "Instagram",
-                    "icono": "instagram",
-                    "url": "https://www.instagram.com/ividelizareyes/",
-                    "color": "#e4405f"
-                }
-            ]
+          "del_ano": "2007",
+          "al_ano": "2007",
+          "experiencia": "Consejera política municipal del PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2008",
+          "experiencia": "Directora estatal de asuntos jurídicos del PRI."
+        },
+        {
+          "del_ano": "2007",
+          "al_ano": "2009",
+          "experiencia": "Consejera política estatal del PRI."
         }
-    ]
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2018",
+          "al_ano": "2024",
+          "experiencia": "Senadora en las LXIV y LXV legislaturas. Presidenta de las comisiones de Defensa de los Consumidores; y, Estudios Legislativos, Primera. Secretaria de las comisiones de Pesca y Acuacultura; Asuntos Indígenas; Cultura; Puntos Constitucionales; y, Turismo. Integrante de las comisiones de Agricultura, Ganadería y Desarrollo Rural; Anticorrupción, Transparencia y Participación Ciudadana; Desarrollo Urbano, Ordenamiento Territorial y Vivienda; Desarrollo y Bienestar Social; Marina; Relaciones Exteriores, Asia-Pacífico-África; Recursos Hidráulicos; y, Juventud y, Deporte."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2015",
+          "experiencia": "Diputada federal en la LXII Legislatura. Secretaria de Turismo. Integrante de las comisiones de Juventud; Puntos Constitucionales; y, Lucha Contra la Trata de Personas"
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Diputada local en la XXX Legislatura del Congreso de Nayarit."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2017",
+          "al_ano": "2018",
+          "experiencia": "Presidenta municipal de Compostela, Nayarit."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Tesorera de Compostela, Nayarit."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2007",
+          "experiencia": "Asistente de diputado local del Congreso de Nayarit."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2006",
+          "experiencia": "Oficial de Asesor Jurídico en el Instituto Federal de Defensoría Pública (IFDP)."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2005",
+          "experiencia": "Oficial de Defensor Jurídico en el IFDP."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2002",
+          "al_ano": "2006",
+          "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de Nayarit."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2002",
+          "experiencia": "Profesional Técnica en Administración por el Colegio Nacional de Educación Profesional Técnica."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Doctorado en Derecho por la Universidad Vizcaya de las Américas (En curso)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Maestría en Administración y Gestión Electoral por el Instituto Estatal Electoral de Nayarit (IEEN)."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Máster en Parlamento y Democracia por la UNAM y la Universidad de Salamanca."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228747",
+        "fecha_extraccion": "2026-10-09T16:24:36+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/GloriaporNayarit/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/GloriaNunezs",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/gloria_nayarit/",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228389",
+      "nombre_completo": "Ortiz Rodríguez Jorge Armando",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "PT",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nayarit",
+      "distrito": "3 (Compos",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Ángel Ignacio Chávez Solís",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1979-01-30",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": null,
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228389.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228389.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Urbano y Ordenamiento Territorial (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Presupuesto y Cuenta Pública (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Vigilancia de la Auditoría Superior de la Federación (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2019",
+          "al_ano": "2019",
+          "experiencia": "Comisionado político nacional del PT en Nayarit."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2010",
+          "experiencia": "Presidente de la Federación de Estudiantes de Nayarit."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2006",
+          "experiencia": "Presidente de la Federación de Estudiantes de Nayarit."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputado federal en la LXV Legislatura. Secretario de la Comisión de Desarrollo Urbano y Ordenamiento Territorial. Integrante de las comisiones de Seguridad Ciudadana; de Trabajo y Previsión Social; de Vigilancia de la Auditoría Superior de la Federación. Presidente del Grupo de Amistad con el Estado Plurinacional de Bolivia. Integrante del Grupo de Amistad con la República Helénica."
+        },
+        {
+          "del_ano": "2017",
+          "al_ano": "2021",
+          "experiencia": "Diputado local en la XXXII Legislatura del Congreso de Nayarit."
+        }
+      ],
+      "trayectoria_administrativa": [],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "1999",
+          "al_ano": "2004",
+          "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de Nayarit."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "26/06/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "25/04/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "23/06/2025",
+          "fecha_fin": "25/06/2025",
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "22/04/2025",
+          "fecha_fin": "24/04/2025",
+          "estatus": "Baja"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228390",
+        "fecha_extraccion": "2026-10-09T16:24:39+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/profile.php?id=100057586203521&mibextid=ZbWKwL",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/FugioOrtiz",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/fugioortiz13/",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9228391",
+      "nombre_completo": "Porras Baylón Any Marilú",
+      "camara": "Diputados",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nayarit",
+      "distrito": null,
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Elisa Maley Woo Barajas",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Palacio Legislativo de San Lázaro",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Trabajo Social",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9228391.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9228391.jpg",
+      "total_comisiones": 4,
+      "comisiones": [
+        {
+          "comision": "Puntos Constitucionales (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "20/04/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Desarrollo y Conservación Rural, Agrícola y Autosuficiencia Alimentaria (C. Diputados)",
+          "puesto": "Secretario",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Igualdad de Género (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca (C. Diputados)",
+          "puesto": "Integrante",
+          "fecha_inicio": "30/10/2024",
+          "fecha_fin": "20/04/2026",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Integrante de Morena."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Integrante del PRI."
+        },
+        {
+          "del_ano": null,
+          "al_ano": "2017",
+          "experiencia": "Secretaría de gestión social del Comité Directivo Estatal del PRI."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputada local en la LXXXIII Legislatura en el Congreso de Nayarit. Presidenta de la Comisión de Asuntos Pesqueros y Desarrollo Acuícola. Secretaria de la Comisión de Administración y Políticas Públicas. Vocal de las comisiones de Hacienda, Cuenta Pública y Presupuesto; de Trabajo y Previsión Social; de Ciencia, Tecnología e Innovación."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Diputada local en la LXXX Legislatura en el Congreso de Nayarit."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2019",
+          "al_ano": "2021",
+          "experiencia": "Técnica Especializada en la Subdirección Administrativa de la Comisión Nacional del Agua."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2012",
+          "experiencia": "Coordinadora del DIF de Santiago Ixcuintla, Nayarit."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": "2018",
+          "experiencia": "Licenciatura en Trabajo Social por la Universidad del Álica, Tepic, Nayarit."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9228392",
+        "fecha_extraccion": "2026-10-09T16:24:41+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/anyporrasb/",
+          "color": "#e4405f"
+        }
+      ]
+    }
+  ],
+  "senadores": [
+    {
+      "referencia_sil": "9229030",
+      "nombre_completo": "Jarero Velázquez Miguel Pavel",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "Morena",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nayarit",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietario",
+      "suplente_nombre": "Alejandro García Monroy",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Economía",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229030.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229030.jpg",
+      "total_comisiones": 12,
+      "comisiones": [
+        {
+          "comision": "Marina (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "11/03/2026",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos, Primera (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "04/11/2025",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Seguridad Social (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "23/09/2025",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Análisis, Seguimiento y Evaluación sobre la Aplicación y Desarrollo de la Inteligencia Artificial en México (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Innovación e Inteligencia Artificial (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Medio Ambiente, Recursos Naturales y Cambio Climático (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "08/10/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Economía (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/10/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos, Segunda (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Desarrollo Municipal (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Agricultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Bienestar (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        },
+        {
+          "comision": "Estudios Legislativos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/09/2024",
+          "fecha_fin": "23/06/2026",
+          "estatus": "Baja"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2018",
+          "al_ano": null,
+          "experiencia": "Integrante de Morena."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2009",
+          "experiencia": "Candidato por el PRD a diputado federal."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2011",
+          "experiencia": "Integrante de la Mesa Directiva del Consejo Nacional del PRD"
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2009",
+          "experiencia": "Subsecretario de Organización del Comité Ejecutivo Nacional del PRD."
+        },
+        {
+          "del_ano": "2006",
+          "al_ano": "2011",
+          "experiencia": "Consejero nacional del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": null,
+          "experiencia": "Consejero estatal del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Secretario de organización del CEE en Nayarit del PRD."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2005",
+          "experiencia": "Secretario general del Comité Ejecutivo Estatal (CEE) del PRD en Nayarit."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": null,
+          "experiencia": "Presidente del CEE del Servicio Electoral del PRD."
+        },
+        {
+          "del_ano": "1994",
+          "al_ano": "2016",
+          "experiencia": "Integrante activo del PRD."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Dirigente estudiantil en la Coordinadora Estatal para la Consulta Nacional Indígena."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Secretario del Consejo Nacional del PRD."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2024",
+          "experiencia": "Diputado federal en la LXV Legislatura. Secretario de la Comisión de Gobernación y Población. Integrante de las comisiones de Educación; y, Vivienda."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2021",
+          "experiencia": "Diputado federal en la LXIV Legislatura. Secretario de la Comisión de Economía. Integrante de las comisiones de Pesca; y, Presupuesto y Cuenta Pública."
+        },
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Diputado local en la XXXI Legislatura del Congreso de Nayarit."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2023",
+          "experiencia": "Delegado de Programas para el Desarrollo de la Secretaría de Bienestar en Nayarit."
+        },
+        {
+          "del_ano": "2011",
+          "al_ano": "2014",
+          "experiencia": "Presidente Municipal de Santiago Ixcuintla, Nayarit."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "2022",
+          "experiencia": "Jefe de organización y evaluación del Comité de Planeación para el Desarrollo Municipal en Tepic, Nayarit."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Asesor en el Congreso de Nayarit."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Licenciatura en Economía por la Universidad Autónoma de Nayarit."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado en Administración Pública Municipal y Gobiernos Locales."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Diplomado en Derecho Electoral y Políticas Públicas."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "23/06/2026",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "01/10/2026",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229031",
+        "fecha_extraccion": "2026-10-09T16:24:45+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/Paveljarero",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/PavelJareroVa",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/jareropavel",
+          "color": "#e4405f"
+        }
+      ]
+    },
+    {
+      "referencia_sil": "9229025",
+      "nombre_completo": "Montes Rentería Angélica",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PVEM",
+      "principio_eleccion": "Mayoría Relativa",
+      "entidad": "Nayarit",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Suplente",
+      "suplente_nombre": null,
+      "fecha_toma_protesta": "17/06/2026",
+      "fecha_nacimiento": null,
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Educación",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229025.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229025.jpg",
+      "total_comisiones": 3,
+      "comisiones": [
+        {
+          "comision": "Desarrollo Rural (C. Senadores)",
+          "puesto": "Secretario",
+          "fecha_inicio": "02/09/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Derechos de la Niñez y de la Adolescencia (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/09/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ganadería (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "02/09/2026",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [],
+      "trayectoria_legislativa": [],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Regidora de Xalisco, Nayarit."
+        },
+        {
+          "del_ano": "2008",
+          "al_ano": "2011",
+          "experiencia": "Regidora de Xalisco, Nayarit."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Contralora de Xalisco, Nayarit."
+        },
+        {
+          "del_ano": null,
+          "al_ano": null,
+          "experiencia": "Directora de Evaluación Ambiental en la Secretaría de Desarrollo Sustentable de Nayarit."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2020",
+          "al_ano": "2021",
+          "experiencia": "Maestría en Educación por el Colegio de Investigación Educativa."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2002",
+          "experiencia": "Licenciatura en Administración por el Instituto Tecnológico de Tepic."
+        }
+      ],
+      "licencias": [],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": "9229024",
+        "titular_nombre": "Jasmine María Bugarín Rodríguez ",
+        "suplente_referencia_sil": null,
+        "fecha_extraccion": "2026-10-09T16:24:48+02:00"
+      },
+      "redes_sociales": []
+    },
+    {
+      "referencia_sil": "9229032",
+      "nombre_completo": "Reyes Hernández Ivideliza",
+      "camara": "Senadores",
+      "legislatura": 66,
+      "partido": "PAN",
+      "principio_eleccion": "Primera Minoría",
+      "entidad": "Nayarit",
+      "distrito": "Senaduría de la República",
+      "tipo_cargo": "Propietaria",
+      "suplente_nombre": "Ana Yusara Ramírez Salazar",
+      "fecha_toma_protesta": "29/08/2024",
+      "fecha_nacimiento": "1978-12-23",
+      "correo_institucional": null,
+      "telefono": null,
+      "ubicacion_oficina": "Senado de la República",
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho Penal",
+      "experiencia_legislativa_resumen": null,
+      "foto_oficial_url": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9229032.jpg",
+      "foto_local_path": "E:\\xampp\\htdocs\\elpulso/storage/raw/photos/9229032.jpg",
+      "total_comisiones": 7,
+      "comisiones": [
+        {
+          "comision": "Ciberseguridad (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "22/10/2025",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Cultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "03/10/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pesca y Acuacultura (C. Senadores)",
+          "puesto": "Presidente",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Educación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Pueblos Indígenas y Afromexicanos (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "29/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Agricultura (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        },
+        {
+          "comision": "Ciencia, Humanidades, Tecnología e Innovación (C. Senadores)",
+          "puesto": "Integrante",
+          "fecha_inicio": "24/09/2024",
+          "fecha_fin": "31/08/2027",
+          "estatus": "Activo"
+        }
+      ],
+      "trayectoria_politica": [
+        {
+          "del_ano": "2021",
+          "al_ano": "2021",
+          "experiencia": "Candidata de MC a la presidencia municipal de Tepic, Nayarit."
+        },
+        {
+          "del_ano": "2020",
+          "al_ano": "2021",
+          "experiencia": "Coordinadora de la Comisión Operativa Provisional de MC en Sinaloa."
+        },
+        {
+          "del_ano": "2020",
+          "al_ano": "2021",
+          "experiencia": "Coordinadora de la Comisión Operativa Provisional de MC en Nayarit."
+        },
+        {
+          "del_ano": "2018",
+          "al_ano": "2018",
+          "experiencia": "Candidata a diputada federal."
+        },
+        {
+          "del_ano": "2017",
+          "al_ano": "2017",
+          "experiencia": "Candidata a presidenta municipal de Tepic por la vía Independiente."
+        },
+        {
+          "del_ano": "2015",
+          "al_ano": "2015",
+          "experiencia": "Coordinadora de Campaña del candidato del PAN a diputado federal por el Tercer Distrito Federal de Nayarit."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Candidata a senadora por el PAN."
+        },
+        {
+          "del_ano": "2012",
+          "al_ano": "2012",
+          "experiencia": "Coordinadora de la campaña a la presidencia de la república del PAN en Tepic, Nayarit."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Integrante de la Asociación de Alcaldes de Acción Nacional."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": null,
+          "experiencia": "Integrante del Consejo Estatal del PAN en Nayarit."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Participante en la campaña a gobernador de Nayarit."
+        },
+        {
+          "del_ano": "1999",
+          "al_ano": "1999",
+          "experiencia": "Coordinadora de campaña para presidente municipal de La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "1997",
+          "experiencia": "Participante en la campaña para presidente municipal en La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "1996",
+          "al_ano": null,
+          "experiencia": "Secretaria de Acción Juvenil del Comité Directivo Municipal del PAN en La Yesca, Nayarit."
+        }
+      ],
+      "trayectoria_legislativa": [
+        {
+          "del_ano": "2014",
+          "al_ano": "2017",
+          "experiencia": "Diputada local de la XXXI Legislatura del congreso de Nayarit."
+        },
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Diputada federal en la LXI legislatura. Secretaria de la Comisión de Energía. Integrante de las comisiones de Función Pública; Pesca; y, Especial del Seguimiento a los Fondos Aportados por los Extrabajadores Mexicanos Braceros."
+        }
+      ],
+      "trayectoria_administrativa": [
+        {
+          "del_ano": "2009",
+          "al_ano": "2012",
+          "experiencia": "Subdelegada de la Procuraduría de la Defensa de Menor y la Familia de La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "2005",
+          "al_ano": "2008",
+          "experiencia": "Presidenta Municipal de La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "2004",
+          "al_ano": "2004",
+          "experiencia": "Directora Jurídica en la Presidencia Municipal de La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Asesora jurídica del gobierno municipal de La Yesca, Nayarit."
+        },
+        {
+          "del_ano": "2002",
+          "al_ano": "2004",
+          "experiencia": "Subdelegada de la Procuraduría de la Defensa del Menor y la Familia de La Yesca, Nayarit."
+        }
+      ],
+      "escolaridad_detalle": [
+        {
+          "del_ano": "2008",
+          "al_ano": "2009",
+          "experiencia": "Diplomado en Mercadotecnia Política por el Instituto Tecnológico Autónomo de México."
+        },
+        {
+          "del_ano": "2003",
+          "al_ano": "2003",
+          "experiencia": "Diplomado en Derecho Familiar por el DIF de Nayarit."
+        },
+        {
+          "del_ano": "2001",
+          "al_ano": "2002",
+          "experiencia": "Especialidad en Derecho Penal por la Universidad Autónoma de Guadalajara."
+        },
+        {
+          "del_ano": "1997",
+          "al_ano": "2002",
+          "experiencia": "Licenciatura en Derecho Penal por la Universidad Autónoma de Guadalajara."
+        }
+      ],
+      "licencias": [
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "26/03/2026",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        },
+        {
+          "tipo": "Licencia por tiempo indefinido",
+          "fecha_inicio": "24/03/2026",
+          "fecha_fin": null,
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Licencia por tiempo definido",
+          "fecha_inicio": "09/04/2025",
+          "fecha_fin": "10/04/2025",
+          "estatus": "Baja"
+        },
+        {
+          "tipo": "Reincorporación",
+          "fecha_inicio": "09/04/2025",
+          "fecha_fin": null,
+          "estatus": "Activo"
+        }
+      ],
+      "iniciativas": [],
+      "puntos_acuerdo": [],
+      "metadata": {
+        "fuente": "SIL SEGOB",
+        "titular_referencia_sil": null,
+        "titular_nombre": null,
+        "suplente_referencia_sil": "9229033",
+        "fecha_extraccion": "2026-10-09T16:24:50+02:00"
+      },
+      "redes_sociales": [
+        {
+          "plataforma": "facebook",
+          "label": "Facebook",
+          "icono": "facebook",
+          "url": "https://www.facebook.com/ividelizareyes/",
+          "color": "#1877f2"
+        },
+        {
+          "plataforma": "x",
+          "label": "X (Twitter)",
+          "icono": "twitter-x",
+          "url": "https://x.com/IvidelizaR",
+          "color": "#000000"
+        },
+        {
+          "plataforma": "instagram",
+          "label": "Instagram",
+          "icono": "instagram",
+          "url": "https://www.instagram.com/ividelizareyes/",
+          "color": "#e4405f"
+        }
+      ]
+    }
+  ]
 }
