@@ -44,19 +44,21 @@ def get_party_color(partido: str) -> str:
     if "VERDE" in upper or "PVEM" in upper: return "#009E49"
     if "PRI" in upper: return "#C8102E"
     if "PT" in upper or "TRABAJO" in upper: return "#DA291C"
-    if "MC" in upper or "CIUDADANO" in upper or "CONVERGENCIA" in upper: return "#FF8300"
+    if "MC" in upper or "CIUDADANO" in upper or "CONVERGENCIA" in upper or "CD-PPN" in upper or "CD" in upper: return "#FF8300"
+    if "PSN" in upper or "SOCIEDAD NACIONALISTA" in upper: return "#1E3A8A"
+    if "PASC" in upper or "PAS" in upper or "ALTERNATIVA" in upper or "ALIANZA SOCIAL" in upper: return "#059669"
     if "PES" in upper: return "#582C83"
     if "PRD" in upper: return "#FFD100"
     if "PANAL" in upper or "NUEVA ALIANZA" in upper: return "#00A896"
     if "UYC" in upper or "USOS Y COSTUMBRES" in upper or "NORMATIVOS" in upper: return "#475569"
-    if "INDEPENDIENTE" in upper or "SIN PARTIDO" in upper or upper in ("INDEP", "INDEP1", "CANDIDATO INDEPENDIENTE"): return "#64748B"
+    if "INDEPENDIENTE" in upper or "SIN PARTIDO" in upper or upper in ("INDEP", "INDEP1", "IND.", "IND", "CANDIDATO INDEPENDIENTE"): return "#64748B"
     if "CONCEJO" in upper or "LITIGIO" in upper: return "#94A3B8"
     return "#6C757D"
 
 def get_canonical_party_name(partido: str) -> str:
     p = (partido or "").strip()
     upper = p.upper()
-    if not upper or upper in ("SIN PARTIDO", "INDEPENDIENTE", "INDEP", "INDEP1", "CANDIDATO INDEPENDIENTE"):
+    if not upper or upper in ("SIN PARTIDO", "INDEPENDIENTE", "INDEP", "INDEP1", "IND.", "IND", "CANDIDATO INDEPENDIENTE"):
         return "Independiente"
     if "UYC" in upper or "USOS Y COSTUMBRES" in upper or "NORMAS INDIGENAS" in upper:
         return "Usos y Costumbres (SNI)"
@@ -69,7 +71,11 @@ def get_canonical_party_name(partido: str) -> str:
     if "VERDE" in upper or "PVEM" in upper: return "PVEM"
     if "PRI" in upper: return "PRI"
     if "PT" in upper or "TRABAJO" in upper: return "PT"
-    if "MC" in upper or "CIUDADANO" in upper or "CONVERGENCIA" in upper: return "Movimiento Ciudadano"
+    if "CD-PPN" in upper or "CONVERGENCIA" in upper: return "Convergencia"
+    if "MC" in upper or "CIUDADANO" in upper: return "Movimiento Ciudadano"
+    if "PSN" in upper: return "PSN"
+    if "PASC" in upper or "ALTERNATIVA SOCIALDEMOCRATA" in upper: return "PASC"
+    if "PAS" in upper or "ALIANZA SOCIAL" in upper: return "PAS"
     if "PES" in upper: return "PES"
     if "PRD" in upper: return "PRD"
     if "PANAL" in upper or "NUEVA ALIANZA" in upper: return "Nueva Alianza"
@@ -870,7 +876,8 @@ class DataService:
                 continue
 
         # 2. Cargar votaciones del Pleno
-        for vf in json_dir.glob("votaciones_periodo_*_leg_66.json"):
+        self.votaciones = []
+        for vf in sorted(json_dir.glob("votaciones_periodo_*_leg_66.json")):
             try:
                 with open(vf, "rb") as f:
                     raw = orjson.loads(f.read())
@@ -914,6 +921,15 @@ class DataService:
         json_dir = settings.STORAGE_DATA_DIR
         if not json_dir.exists():
             return
+
+        # Pre-indexar iniciativas por promovente_slug para cruce O(1) instantáneo
+        ini_por_promovente = defaultdict(list)
+        for ini in self.iniciativas:
+            p_prom = ini.get("promovente_principal", "")
+            if p_prom:
+                p_slug = slugify(p_prom)
+                ini_por_promovente[p_slug].append(ini)
+        iniciativas_match_cache: Dict[str, List[Dict[str, Any]]] = {}
 
         # Cargamos en orden cronológico inverso para que la versión más reciente sea el perfil base
         for leg_num in [66, 65, 64, 63, 62, 61, 60, 59, 58, 57]:
@@ -997,12 +1013,22 @@ class DataService:
                                 "semaforo": "verde" if pct >= 90 else ("amarillo" if pct >= 75 else "rojo")
                             }
 
-                        # Cruzar iniciativas
+                        # Sanitizar suplente_nombre (eliminar \u00a0 y espacios duplicados)
+                        suplente_raw = leg.get("suplente_nombre")
+                        if suplente_raw and isinstance(suplente_raw, str):
+                            suplente_clean = " ".join(suplente_raw.replace("\u00a0", " ").split()).strip()
+                            leg["suplente_nombre"] = suplente_clean or None
+
+                        # Cruzar iniciativas de forma ultra-rápida (con índice y caché)
                         norm_nom = slugify(nombre)
-                        mis_iniciativas = [
-                            ini for ini in self.iniciativas
-                            if norm_nom in slugify(ini.get("promovente_principal", ""))
-                        ]
+                        if norm_nom in iniciativas_match_cache:
+                            mis_iniciativas = iniciativas_match_cache[norm_nom]
+                        else:
+                            mis_iniciativas = []
+                            for p_slug, inis in ini_por_promovente.items():
+                                if norm_nom in p_slug:
+                                    mis_iniciativas.extend(inis)
+                            iniciativas_match_cache[norm_nom] = mis_iniciativas
                         leg["iniciativas"] = mis_iniciativas
 
                         self.politicos_by_leg[leg_num].append(leg)
@@ -1739,6 +1765,15 @@ class DataService:
 
     def get_senadores(self, legislatura: int = 66) -> List[Dict[str, Any]]:
         return [p for p in self.get_politicos(legislatura) if p.get("camara") == "Senadores"]
+
+    def get_votaciones(self, tema: Optional[str] = None, resultado: Optional[str] = None) -> List[Dict[str, Any]]:
+        self.load_asistencias_y_votaciones()
+        res = self.votaciones
+        if tema:
+            res = [v for v in res if (v.get("tema_clave") or "").lower() == tema.lower()]
+        if resultado:
+            res = [v for v in res if (v.get("resultado") or "").lower() == resultado.lower()]
+        return res
 
     def get_comisiones(self, legislatura: Optional[int] = 66) -> Dict[str, Dict[str, Any]]:
         if legislatura == 0:
