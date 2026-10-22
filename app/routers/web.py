@@ -22,7 +22,8 @@ templates.env.globals["settings"] = settings
 async def home_view(request: Request, leg: int = Query(66, description="Número de legislatura")):
     legislatura = leg if leg in data_service.politicos_by_leg else 66
     estados = data_service.get_estados_data(legislatura)
-    default_estado = estados.get("baja-california") or list(estados.values())[0]
+    valores_estados = list(estados.values())
+    default_estado = estados.get("baja-california") or (valores_estados[0] if valores_estados else {})
     comisiones = data_service.get_comisiones(legislatura)
     top_comisiones = list(comisiones.items())[:5]
     meta_leg = data_service.LEGISLATURAS_CATALOG.get(legislatura, data_service.LEGISLATURAS_CATALOG[66])
@@ -39,7 +40,8 @@ async def home_view(request: Request, leg: int = Query(66, description="Número 
     capas_mapa = data_service.get_mapa_capas(legislatura)
     resumen_estados_360 = data_service.get_resumen_360_estados(legislatura)
     default_slug = default_estado.get("slug", "baja-california")
-    default_resumen = resumen_estados_360.get(default_slug) or resumen_estados_360.get("baja-california") or list(resumen_estados_360.values())[0]
+    valores_resumen = list(resumen_estados_360.values())
+    default_resumen = resumen_estados_360.get(default_slug) or resumen_estados_360.get("baja-california") or (valores_resumen[0] if valores_resumen else {})
 
     return templates.TemplateResponse(
         request=request,
