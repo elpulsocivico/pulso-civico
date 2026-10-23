@@ -8,6 +8,7 @@ import json
 import orjson
 from app.core.config import settings
 from app.services.education_service import education_service
+from app.services.search_text import normalizar_busqueda
 
 def slugify(text: str) -> str:
     if not text:
@@ -3047,14 +3048,14 @@ class DataService:
     ) -> Dict[str, Any]:
         """Ejecuta consulta multivariable con filtros cruzados, métricas instantáneas y paginación rápida."""
         todos = self.get_explorador_catalogo()
-        q_norm = q.strip().lower()
+        q_norm = normalizar_busqueda(q.strip())
 
         filtrados = []
         for it in todos:
             # 1. Filtro texto libre
             if q_norm:
                 corpus = f"{it['nombre']} {it['nombre_completo']} {it['cargo']} {it['entidad']} {it['municipio']} {it['partido_actual']} {it['transicion_texto']} {it['principio_eleccion']}".lower()
-                if q_norm not in corpus:
+                if q_norm not in normalizar_busqueda(corpus):
                     continue
 
             # 2. Filtro Nivel
