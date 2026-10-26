@@ -1,5 +1,6 @@
 import json
 import os
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -13,6 +14,7 @@ class AuditService:
     BAN_DURATION_SECONDS = 86400  # 24 horas
 
     def __init__(self):
+        self._lock = threading.RLock()
         self.storage_dir = settings.BASE_DIR / "storage" / "data" / "auditoria"
         self.reports_file = self.storage_dir / "reportes.json"
         self.bans_file = self.storage_dir / "bans.json"
@@ -29,114 +31,128 @@ class AuditService:
             self._write_json(self.rate_limit_file, {})
 
     def _read_json(self, file_path: Path) -> Any:
-        try:
-            if not file_path.exists():
+        with self._lock:
+            try:
+                if not file_path.exists():
+                    return {} if "bans" in file_path.name or "rate" in file_path.name else []
+                with open(file_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
                 return {} if "bans" in file_path.name or "rate" in file_path.name else []
-            with open(file_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return {} if "bans" in file_path.name or "rate" in file_path.name else []
 
     def _write_json(self, file_path: Path, data: Any):
-        try:
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            print(f"[AuditService] Error guardando {file_path}: {e}")
+        with self._lock:
+            try:
+                tmp_path = file_path.with_suffix(file_path.suffix + ".tmp")
+                with open(tmp_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                os.replace(tmp_path, file_path)
+            except Exception as e:
+                print(f"[AuditService] Error guardando {file_path}: {e}")
 
     def check_ban_status(self, ip: str) -> Dict[str, Any]:
-        bans = self._read_json(self.bans_file)
-        if not isinstance(bans, dict):
-            bans = {}
+        with self._lock:
+            bans = self._read_json(self.bans_file)
+            if not isinstance(bans, dict):
+                bans = {}
 
-        now = int(time.time())
-        if ip in bans:
-            ban_info = bans[ip]
-            expires_at = int(ban_info.get("expires_at", 0))
-            if expires_at > now:
-                return {
-                    "banned": True,
-                    "expires_at": expires_at,
-                    "reason": ban_info.get("reason", "Exceso de solicitudes automatizadas"),
-                    "remaining_seconds": expires_at - now
-                }
-            # Ban expirado: limpiar
-            del bans[ip]
-            self._write_json(self.bans_file, bans)
+            now = int(time.time())
+            # Limpiar bans expirados de cualquier IP
+            expired_ips = [k for k, v in bans.items() if isinstance(v, dict) and int(v.get("expires_at", 0)) <= now]
+            for k in expired_ips:
+                del bans[k]
+            if expired_ips:
+                self._write_json(self.bans_file, bans)
 
-        return {
-            "banned": False,
-            "expires_at": None,
-            "reason": None,
-            "remaining_seconds": 0
-        }
+            if ip in bans:
+                ban_info = bans[ip]
+                expires_at = int(ban_info.get("expires_at", 0))
+                if expires_at > now:
+                    return {
+                        "banned": True,
+                        "expires_at": expires_at,
+                        "reason": ban_info.get("reason", "Exceso de solicitudes automatizadas"),
+                        "remaining_seconds": expires_at - now
+                    }
+
+            return {
+                "banned": False,
+                "expires_at": None,
+                "reason": None,
+                "remaining_seconds": 0
+            }
 
     def ban_ip(self, ip: str, duration: int = BAN_DURATION_SECONDS, reason: str = "Exceso de reportes (>5 en 1 minuto)"):
-        bans = self._read_json(self.bans_file)
-        if not isinstance(bans, dict):
-            bans = {}
+        with self._lock:
+            bans = self._read_json(self.bans_file)
+            if not isinstance(bans, dict):
+                bans = {}
 
-        now = int(time.time())
-        expires = now + duration
-        bans[ip] = {
-            "ip": ip,
-            "banned_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "banned_timestamp": now,
-            "expires_at": expires,
-            "expires_date": datetime.fromtimestamp(expires).strftime("%Y-%m-%d %H:%M:%S"),
-            "reason": reason
-        }
-        self._write_json(self.bans_file, bans)
+            now = int(time.time())
+            expires = now + duration
+            bans[ip] = {
+                "ip": ip,
+                "banned_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "banned_timestamp": now,
+                "expires_at": expires,
+                "expires_date": datetime.fromtimestamp(expires).strftime("%Y-%m-%d %H:%M:%S"),
+                "reason": reason
+            }
+            self._write_json(self.bans_file, bans)
 
     def evaluate_rate_limit(self, ip: str) -> Dict[str, Any]:
-        # 1. Comprobar si ya está baneada
-        status = self.check_ban_status(ip)
-        if status["banned"]:
-            return {
-                "allowed": False,
-                "banned": True,
-                "remaining": 0,
-                "expires_at": status["expires_at"],
-                "error": "Tu dirección IP se encuentra suspendida temporalmente por 24 horas."
-            }
+        with self._lock:
+            # 1. Comprobar si ya está baneada
+            status = self.check_ban_status(ip)
+            if status["banned"]:
+                return {
+                    "allowed": False,
+                    "banned": True,
+                    "remaining": 0,
+                    "expires_at": status["expires_at"],
+                    "error": "Tu dirección IP se encuentra suspendida temporalmente por 24 horas."
+                }
 
-        now = int(time.time())
-        window_start = now - 60
-        limits = self._read_json(self.rate_limit_file)
-        if not isinstance(limits, dict):
-            limits = {}
+            now = int(time.time())
+            window_start = now - 60
+            limits = self._read_json(self.rate_limit_file)
+            if not isinstance(limits, dict):
+                limits = {}
 
-        timestamps = limits.get(ip, [])
-        if not isinstance(timestamps, list):
-            timestamps = []
+            # Purgar IPs sin actividad reciente para evitar crecimiento indefinido
+            cleaned_limits: Dict[str, List[int]] = {}
+            for k_ip, ts_list in limits.items():
+                if isinstance(ts_list, list):
+                    valid_ts = [int(ts) for ts in ts_list if isinstance(ts, (int, float)) and ts > window_start]
+                    if valid_ts:
+                        cleaned_limits[k_ip] = valid_ts
+            limits = cleaned_limits
 
-        # Filtrar intentos en los últimos 60 segundos
-        recent = [ts for ts in timestamps if isinstance(ts, (int, float)) and ts > window_start]
+            recent = limits.get(ip, [])
 
-        if len(recent) >= self.MAX_REPORTS_PER_MINUTE:
-            self.ban_ip(ip, self.BAN_DURATION_SECONDS, "Actividad no humana detectada (>5 reportes en menos de 60 segundos)")
-            if ip in limits:
-                del limits[ip]
+            if len(recent) >= self.MAX_REPORTS_PER_MINUTE:
+                self.ban_ip(ip, self.BAN_DURATION_SECONDS, "Actividad no humana detectada (>5 reportes en menos de 60 segundos)")
+                limits.pop(ip, None)
+                self._write_json(self.rate_limit_file, limits)
+                return {
+                    "allowed": False,
+                    "banned": True,
+                    "remaining": 0,
+                    "expires_at": now + self.BAN_DURATION_SECONDS,
+                    "error": "Has superado el límite de 5 reportes por minuto. Tu IP ha sido suspendida por 24 horas."
+                }
+
+            recent.append(now)
+            limits[ip] = recent
             self._write_json(self.rate_limit_file, limits)
+
             return {
-                "allowed": False,
-                "banned": True,
-                "remaining": 0,
-                "expires_at": now + self.BAN_DURATION_SECONDS,
-                "error": "Has superado el límite de 5 reportes por minuto. Tu IP ha sido suspendida por 24 horas."
+                "allowed": True,
+                "banned": False,
+                "remaining": max(0, self.MAX_REPORTS_PER_MINUTE - len(recent))
             }
 
-        recent.append(now)
-        limits[ip] = recent
-        self._write_json(self.rate_limit_file, limits)
-
-        return {
-            "allowed": True,
-            "banned": False,
-            "remaining": max(0, self.MAX_REPORTS_PER_MINUTE - len(recent))
-        }
-
-    def submit_report(self, payload: Dict[str, Any], ip: str, user_agent: str) -> Dict[str, Any]:
+    def submit_report(self, payload: Dict[str, Any], ip: str, user_agent: str, async_telegram: bool = False) -> Dict[str, Any]:
         # 1. Honeypot check
         honeypot = str(payload.get("website_url_check", "")).strip()
         if honeypot != "":
@@ -212,21 +228,24 @@ class AuditService:
             "notas_auditoria": []
         }
 
-        # Guardar en JSON
-        reports = self._read_json(self.reports_file)
-        if not isinstance(reports, list):
-            reports = []
-        reports.append(record)
-        self._write_json(self.reports_file, reports)
+        # Guardar en JSON de forma atómica bajo lock
+        with self._lock:
+            reports = self._read_json(self.reports_file)
+            if not isinstance(reports, list):
+                reports = []
+            reports.append(record)
+            self._write_json(self.reports_file, reports)
 
         # Despachar a Telegram (silenciado por defecto en desarrollo local para no saturar el grupo)
         telegram_enabled = os.getenv("TELEGRAM_NOTIFICATIONS_ENABLED", "false").lower() in ("true", "1", "yes")
-        if telegram_enabled:
+        if telegram_enabled and not async_telegram:
             self.dispatch_telegram(record)
 
         return {
             "ok": True,
             "ticket_id": ticket_id,
+            "record": record if async_telegram else None,
+            "telegram_enabled": telegram_enabled,
             "mensaje": f"Reporte recibido exitosamente. Folio asignado: {ticket_id}"
         }
 
