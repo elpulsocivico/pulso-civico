@@ -133,7 +133,7 @@ require __DIR__ . '/layout/header.php';
             }
         }
 
-        $fotoPresidencia = 'https://via.placeholder.com/150';
+        $fotoPresidencia = 'data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E';
         if ($presidencia) {
             $refSil = (string)($presidencia['referencia_sil'] ?? '');
             if ($refSil !== '' && file_exists(dirname(__DIR__) . "/storage/raw/photos/{$refSil}.jpg")) {

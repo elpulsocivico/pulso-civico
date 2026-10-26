@@ -36,6 +36,8 @@ $auditCtrl = new AuditController();
 
 // Rutas Canónicas
 $router->get('/', [$ctrl, 'home']);
+$router->get('/remuneraciones', [$ctrl, 'remuneraciones']);
+$router->get('/reloj', [$ctrl, 'reloj']);
 $router->get('/legislaturas', [$ctrl, 'legislaturas']);
 $router->get('/legislaturas/{id}', [$ctrl, 'legislatura']);
 $router->get('/politicos', [$ctrl, 'politicos']);

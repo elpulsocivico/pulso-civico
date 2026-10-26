@@ -17,7 +17,7 @@ $partido = $politico['partido'] ?? 'Sin Partido';
 $entidad = $politico['entidad'] ?? 'Baja California';
 $fotoUrl = !empty($politico['referencia_sil']) && file_exists(dirname(__DIR__) . "/storage/raw/photos/{$politico['referencia_sil']}.jpg")
     ? Router::url("/storage/raw/photos/{$politico['referencia_sil']}.jpg")
-    : ($politico['foto_oficial_url'] ?? 'https://via.placeholder.com/300x380?text=Sin+Foto');
+    : ($politico['foto_oficial_url'] ?? 'data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E');
 
 $principio = $politico['principio_eleccion'] ?? 'Mayoría Relativa';
 $distrito = $politico['distrito'] ?? null;
@@ -54,11 +54,24 @@ require __DIR__ . '/layout/header.php';
 ?>
 
 <!-- Breadcrumbs -->
+<?php
+$cargoPol = $politico['cargo'] ?? '';
+$esGobPol = str_contains($cargoPol, 'Gobernador') || str_contains($cargoPol, 'Jefa de Gobierno') || str_contains($cargoPol, 'Jefe de Gobierno');
+$esMunPol = (($politico['nivel'] ?? '') === 'Municipal') || str_contains($cargoPol, 'Presidente(a) Municipal');
+?>
 <nav aria-label="breadcrumb" class="breadcrumb-ios">
     <ol class="breadcrumb mb-3">
         <li class="breadcrumb-item"><a href="<?= $homeUrl ?>">Inicio</a></li>
+        <?php if ($esGobPol): ?>
+        <li class="breadcrumb-item"><a href="<?= $estadoUrl ?>">Poder Ejecutivo (<?= ViewHelper::e($entidad) ?>)</a></li>
+        <?php elseif ($esMunPol): ?>
+        <li class="breadcrumb-item"><a href="<?= $estadoUrl ?>">Gobierno Municipal (<?= ViewHelper::e($entidad) ?>)</a></li>
+        <?php elseif ($legRomano !== ''): ?>
         <li class="breadcrumb-item"><a href="<?= $legUrl ?>"><?= ViewHelper::e($legRomano) ?> Legislatura</a></li>
         <li class="breadcrumb-item"><a href="<?= $estadoUrl ?>"><?= ViewHelper::e($entidad) ?></a></li>
+        <?php else: ?>
+        <li class="breadcrumb-item"><a href="<?= $estadoUrl ?>"><?= ViewHelper::e($entidad) ?></a></li>
+        <?php endif; ?>
         <li class="breadcrumb-item active text-truncate" style="max-width: 250px;" aria-current="page"><?= ViewHelper::e($nombre) ?></li>
     </ol>
 </nav>
@@ -89,16 +102,25 @@ require __DIR__ . '/layout/header.php';
 </div>
 <?php endif; ?>
 
-<?php if ($legNumero !== 66): ?>
+<?php 
+$tienePerfilActual = in_array(66, $legsDisponibles, true) || !empty($politico['es_actual']);
+?>
+<?php if ($legNumero !== 66 && empty($politico['es_actual'])): ?>
 <!-- Aviso de Registro Histórico -->
 <div class="alert alert-warning border-warning-subtle d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4 rounded-3 shadow-sm py-2 px-3">
     <div class="d-flex align-items-center gap-2 small text-dark">
         <i class="bi bi-archive-fill text-warning fs-5"></i>
-        <span>Estás consultando el expediente oficial histórico de <strong><?= ViewHelper::e($nombre) ?></strong> correspondiente a la <strong><?= ViewHelper::e($legRomano) ?> Legislatura</strong>.</span>
+        <span>Estás consultando el expediente oficial histórico de <strong><?= ViewHelper::e($nombre) ?></strong> correspondiente a la <strong><?= $legRomano !== '' ? ViewHelper::e($legRomano) . ' Legislatura' : 'Legislatura Histórica / Local' ?></strong>.</span>
     </div>
+    <?php if ($tienePerfilActual): ?>
     <a href="<?= Router::url('/politicos/' . ($politico['slug'] ?? '')) ?>" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 small">
         Ver perfil actual &rarr;
     </a>
+    <?php else: ?>
+    <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill px-3 py-1 small">
+        Periodo Concluido
+    </span>
+    <?php endif; ?>
 </div>
 <?php endif; ?>
 
@@ -238,12 +260,21 @@ require __DIR__ . '/layout/header.php';
             <?php endif; ?>
 
             <div class="text-start bg-light rounded-3 p-3 small text-secondary mb-3">
+                <?php if ($legNumero > 0 && !$esGobPol && !$esMunPol): ?>
                 <div class="mb-2">
                     <strong class="text-dark d-block">Legislatura:</strong>
                     <a href="<?= $legUrl ?>" class="text-decoration-none fw-semibold text-primary">
                         <i class="bi bi-bank me-1"></i><?= ViewHelper::e($legRomano) ?> Legislatura
                     </a>
                 </div>
+                <?php else: ?>
+                <div class="mb-2">
+                    <strong class="text-dark d-block">Periodo Constitucional:</strong>
+                    <span class="fw-semibold text-primary">
+                        <i class="bi bi-calendar3 me-1"></i><?= ViewHelper::e($politico['periodo'] ?? '2024–2027') ?>
+                    </span>
+                </div>
+                <?php endif; ?>
                 <div class="mb-2">
                     <strong class="text-dark d-block">Principio de Elección:</strong>
                     <?= ViewHelper::e($principio) ?> <?= $distrito ? '(Distrito ' . ViewHelper::e((string)$distrito) . ')' : '' ?>
@@ -503,11 +534,12 @@ require __DIR__ . '/layout/header.php';
             <?php 
             // Extraer filiaciones partidistas presentes en la trayectoria
             $partidosTrayectoria = [];
+            $esLegActual = ($legNumero === 66 || !empty($politico['es_actual']));
             if (!empty($partido) && !str_contains(strtoupper($partido), 'SIN PARTIDO')) {
                 $canPart = ViewHelper::getCanonicalPartyName($partido);
                 $partidosTrayectoria[$canPart] = [
                     'nombre' => $canPart,
-                    'es_actual' => true,
+                    'es_actual' => $esLegActual,
                 ];
             }
             foreach ($lineaTiempo as $lt) {

@@ -24,8 +24,10 @@
 <nav aria-label="breadcrumb" class="breadcrumb-ios mb-3">
     <ol class="breadcrumb mb-0">
         <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Inicio</a></li>
-        {% if politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo) %}
+        {% if politico.cargo and ('Gobernador' in politico.cargo or 'Jef' in politico.cargo) %}
         <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Poder Ejecutivo ({{ politico.entidad }})</a></li>
+        {% elif politico.nivel == 'Estatal' %}
+        <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Congreso del Estado ({{ politico.entidad }})</a></li>
         {% elif politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo) %}
         <li class="breadcrumb-item"><a href="/estados/{{ politico.entidad_slug or 'baja-california' }}" class="text-decoration-none">Gobierno Municipal ({{ (politico.municipio ~ ', ' ~ politico.entidad) if politico.municipio else politico.entidad }})</a></li>
         {% else %}
@@ -60,16 +62,23 @@
 </div>
 {% endif %}
 
+{% set tienePerfilActual = (66 in politico.legislaturas_disponibles) or politico.es_actual %}
 {% if legislatura != 66 and not politico.es_actual %}
 <!-- Aviso de Registro Histórico -->
 <div class="alert alert-warning border-warning-subtle d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4 rounded-3 shadow-sm py-2 px-3">
     <div class="d-flex align-items-center gap-2 small text-dark">
         <i class="bi bi-archive-fill text-warning fs-5"></i>
-        <span>Estás consultando el expediente oficial histórico de <strong>{{ politico.nombre_completo }}</strong> correspondiente a la <strong>{{ meta_legislatura.romano }} Legislatura</strong>.</span>
+        <span>Estás consultando el expediente oficial histórico de <strong>{{ politico.nombre_completo }}</strong> correspondiente a la <strong>{{ (meta_legislatura.romano ~ ' Legislatura') if (meta_legislatura.romano and meta_legislatura.romano != '0') else 'Legislatura Histórica / Local' }}</strong>.</span>
     </div>
+    {% if tienePerfilActual %}
     <a href="/politicos/{{ politico.slug }}" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 small">
         Ver perfil actual &rarr;
     </a>
+    {% else %}
+    <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill px-3 py-1 small">
+        Periodo Concluido
+    </span>
+    {% endif %}
 </div>
 {% endif %}
 
@@ -80,7 +89,7 @@
             {% set refSil = politico.referencia_sil|string if politico.referencia_sil else "" %}
             {% set fotoOficial = politico.foto_oficial_url or "" %}
             {% set fotoPerfil = politico.foto_url or (('/photos/' ~ refSil ~ '.jpg') if (politico.tiene_foto_local and refSil) else (fotoOficial or "")) %}
-            {% set fallbackAvatar = 'https://ui-avatars.com/api/?name=' ~ (politico.nombre_completo|urlencode) ~ '&background=F1F5F9&color=475569&size=256' %}
+            {% set fallbackAvatar = 'data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E' %}
 
             <div class="position-relative d-inline-block mx-auto mb-3">
                 <img src="{{ fotoPerfil if fotoPerfil else fallbackAvatar }}" 
@@ -91,7 +100,7 @@
                      referrerpolicy="no-referrer"
                      onerror="if (this.dataset.triedFallback !== '1' && '{{ fotoOficial }}' && this.src.indexOf('{{ fotoOficial }}') === -1) { this.dataset.triedFallback = '1'; this.src = '{{ fotoOficial }}'; } else { this.onerror=null; this.src='{{ fallbackAvatar }}'; }">
                 <span class="position-absolute bottom-0 end-0 badge bg-primary rounded-pill px-2 py-1 shadow-sm text-truncate" style="font-size: 0.75rem; max-width: 150px;">
-                    {{ 'Gobernador(a)' if (politico.nivel == 'Estatal' or (politico.cargo and 'Gobernador' in politico.cargo)) else ('Alcalde' if (politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo)) else (politico.camara or politico.cargo)) }}
+                    {{ 'Gobernador(a)' if (politico.cargo and ('Gobernador' in politico.cargo or 'Jef' in politico.cargo)) else ('Alcalde' if (politico.nivel == 'Municipal' or (politico.cargo and 'Presidente' in politico.cargo)) else (politico.camara or politico.cargo)) }}
                 </span>
             </div>
 
@@ -142,7 +151,7 @@
             {% endif %}
 
             <!-- Métricas Clave de Desempeño Parlamentario -->
-            {% if politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
+            {% if legislatura == 66 and politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
             {% set asistPct = politico.asistencia_kpi.porcentaje %}
             {% set semaforoColor = '#198754' if asistPct >= 90 else ('#ffc107' if asistPct >= 75 else '#dc3545') %}
             {% set sesTotales = politico.asistencia_kpi.total_sesiones or 39 %}
@@ -521,7 +530,7 @@
         </div>
 
         <!-- SECCIÓN 3: PROPUESTAS DE LEY E INICIATIVAS (Para legisladores o con iniciativas comprobadas) -->
-        {% if politico.iniciativas or (politico.nivel not in ['Municipal', 'Estatal'] and not ('Presidente' in (politico.cargo or '') or 'Gobernador' in (politico.cargo or ''))) %}
+        {% if legislatura == 66 and (politico.iniciativas or (politico.nivel not in ['Municipal', 'Estatal'] and not ('Presidente' in (politico.cargo or '') or 'Gobernador' in (politico.cargo or '')))) %}
         <div class="card-civic p-4 mb-4 border">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h2 class="h5 fw-bold mb-0 d-flex align-items-center gap-2 text-dark">
@@ -885,7 +894,7 @@
                 {% if politico.correo_institucional %}
                 <div><span class="print-label">Correo Institucional:</span> {{ politico.correo_institucional }}</div>
                 {% endif %}
-                {% if politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
+                {% if legislatura == 66 and politico.asistencia_kpi and politico.asistencia_kpi.porcentaje is not none %}
                 <div><span class="print-label">Asistencia Nominal:</span> {{ "%.1f"|format(politico.asistencia_kpi.porcentaje) }}% ({{ politico.asistencia_kpi.asistencias or 0 }}/{{ politico.asistencia_kpi.total_sesiones or 0 }} sesiones)</div>
                 <div><span class="print-label">Cohesión de Bancada:</span> {{ "%.1f"|format(politico.disciplina_partidaria_pct or 98.4) }}%</div>
                 {% endif %}

@@ -161,6 +161,8 @@ class ParliamentScraperService
             'bancadas' => $bancadas,
             'totales' => $totales,
             'resultado' => ($totales['favor'] > $totales['contra']) ? 'Aprobado' : 'Desechado',
+            'fuente_url' => self::BASE_SITL_DIPUTADOS . "/estadistico_votacionnplxvi.php?votaciont={$votacionId}",
+            'fecha_extraccion' => date('Y-m-d H:i:s'),
         ];
     }
 
@@ -500,10 +502,25 @@ class ParliamentScraperService
         if (str_contains($t, 'pueblos y comunidades ind') || str_contains($t, 'afromexicano')) {
             return 'Pueblos Indígenas y Afromexicanos';
         }
+        if (str_contains($t, 'supremacía') || str_contains($t, 'inimpugnabilidad')) {
+            return 'Supremacía Constitucional';
+        }
+        if (str_contains($t, 'igualdad sustantiva') || str_contains($t, 'brecha salarial') || str_contains($t, 'perspectiva de género') || str_contains($t, 'mujeres')) {
+            return 'Igualdad Sustantiva y Género';
+        }
+        if (str_contains($t, 'bienestar') || str_contains($t, 'programas sociales') || str_contains($t, 'pensiones')) {
+            return 'Programas de Bienestar';
+        }
+        if (str_contains($t, 'prisión preventiva') || str_contains($t, 'delitos graves')) {
+            return 'Justicia y Prisión Preventiva';
+        }
+        if (str_contains($t, 'simplificación orgánica') || str_contains($t, 'organismos autónomos') || str_contains($t, 'inai')) {
+            return 'Simplificación Orgánica';
+        }
         if (str_contains($t, 'presupuesto') || str_contains($t, 'hacienda') || str_contains($t, 'ingresos') || str_contains($t, 'egresos')) {
             return 'Presupuesto y Hacienda';
         }
-        if (str_contains($t, 'energ') || str_contains($t, 'petr') || str_contains($t, 'eléctric')) {
+        if (str_contains($t, 'energ') || str_contains($t, 'petr') || str_contains($t, 'eléctric') || str_contains($t, 'pemex') || str_contains($t, 'cfe')) {
             return 'Energía y Soberanía';
         }
         if (str_contains($t, 'salud') || str_contains($t, 'medicament')) {
@@ -515,11 +532,17 @@ class ParliamentScraperService
         if (str_contains($t, 'vivienda')) {
             return 'Vivienda Social';
         }
-        if (str_contains($t, 'ferrocarril') || str_contains($t, 'vías férreas')) {
+        if (str_contains($t, 'ferrocarril') || str_contains($t, 'vías férreas') || str_contains($t, 'tren')) {
             return 'Transporte y Vías Férreas';
         }
         if (str_contains($t, 'salarios') || str_contains($t, 'trabajo') || str_contains($t, 'laboral')) {
             return 'Trabajo y Salarios';
+        }
+        if (str_contains($t, 'medio ambiente') || str_contains($t, 'agua') || str_contains($t, 'ecolog')) {
+            return 'Medio Ambiente y Agua';
+        }
+        if (str_contains($t, 'armas de fuego') || str_contains($t, 'explosivos')) {
+            return 'Defensa y Armamento';
         }
 
         return 'Legislación General';

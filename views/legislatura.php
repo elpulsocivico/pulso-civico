@@ -402,7 +402,7 @@ $maestriasCount = $niveles['maestria']['cantidad'] ?? 0;
             $pRef = $p['referencia_sil'] ?? '';
             $pFoto = !empty($pRef) && file_exists(dirname(__DIR__) . "/storage/raw/photos/{$pRef}.jpg")
                 ? Router::url("/storage/raw/photos/{$pRef}.jpg")
-                : ($p['foto_oficial_url'] ?? 'https://via.placeholder.com/150');
+                : ($p['foto_oficial_url'] ?? 'data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E');
         ?>
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 item-legislador" data-nombre="<?= mb_strtolower($pNombre) ?>" data-camara="<?= $pCamara ?>" data-partido="<?= mb_strtolower($pPartido) ?>" data-entidad="<?= mb_strtolower($pEntidad) ?>">
                 <a href="<?= $pUrl ?>" class="text-decoration-none text-dark d-block h-100">

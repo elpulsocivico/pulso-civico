@@ -474,7 +474,7 @@
                         <!-- Foto -->
                         <td class="col-foto text-center">
                             {% if it.foto_url %}
-                            <img src="{{ it.foto_url }}" alt="" class="avatar-sm border" loading="lazy" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name={{ it.nombre|urlencode }}&background=F1F5F9&color=475569';">
+                            <img src="{{ it.foto_url }}" alt="" class="avatar-sm border" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E it.nombre|urlencode }}&background=F1F5F9&color=475569';">
                             {% else %}
                             <div class="avatar-sm d-inline-flex align-items-center justify-content-center text-muted fw-bold border">
                                 <i class="bi bi-person"></i>
@@ -837,7 +837,7 @@
         let html = '';
         for (let it of items) {
             // Foto
-            let fallbackAvatar = `https://ui-avatars.com/api/?name=${encodeURIComponent(it.nombre || '')}&background=F1F5F9&color=475569`;
+            let fallbackAvatar = 'data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27 viewBox=%270 0 150 150%27%3E%3Crect width=%27150%27 height=%27150%27 fill=%27%23F1F5F9%27/%3E%3Ccircle cx=%2775%27 cy=%2758%27 r=%2726%27 fill=%27%2394A3B8%27/%3E%3Cpath d=%27M25 138 C25 103 125 103 125 138%27 fill=%27%2394A3B8%27/%3E%3C/svg%3E';
             let fotoHtml = it.foto_url
                 ? `<img src="${it.foto_url}" alt="" class="avatar-sm border" loading="lazy" onerror="this.onerror=null; this.src='${fallbackAvatar}';">`
                 : `<div class="avatar-sm d-inline-flex align-items-center justify-content-center text-muted fw-bold border"><i class="bi bi-person"></i></div>`;

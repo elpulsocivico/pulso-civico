@@ -111,6 +111,50 @@
     </div>
 </div>
 
+
+<!-- Card Destacada: Reloj del Dinero Político en México -->
+<div class="card-civic p-4 p-md-4 mb-5 border-0 shadow-sm" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: #F8FAFC; border-radius: 20px;">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-white bg-opacity-10 text-white-50 small mb-2 border border-white border-opacity-10">
+                <span class="spinner-grow spinner-grow-sm text-danger" role="status"></span>
+                <span class="fw-semibold text-white">MONITOR DE COSTO POLÍTICO EN VIVO</span>
+            </div>
+            <h2 class="h4 fw-bold text-white mb-2">
+                ¿A dónde se va el dinero público de los mexicanos?
+            </h2>
+            <p class="text-white-50 small mb-3 mb-lg-0" style="max-width: 580px;">
+                Conoce cuánto cuesta mantener a los <strong>4,274 puestos</strong> de elección popular en México (Diputados Federales, Senadores, Gobernadores, Congresos Locales y Alcaldías). Datos 100% oficiales extraídos del Presupuesto de Egresos y la PNT.
+            </p>
+        </div>
+
+        <div class="col-lg-5 text-lg-end text-center">
+            <div class="p-3 rounded-4 bg-white bg-opacity-10 border border-white border-opacity-10 d-inline-block text-start w-100" style="max-width: 420px;">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                    <span class="text-white-50 small" style="font-size: 0.78rem;">Transferencia a nóminas públicas:</span>
+                    <span class="badge bg-danger-subtle text-danger border border-danger-subtle" style="font-size: 0.68rem;">En Vivo</span>
+                </div>
+                <div class="h3 fw-bold text-warning mb-1" id="homeMoneyTicker">
+                    ${{ "{:,.2f}".format(totales_remuneraciones.gran_total_anual_mxn | default(4095571170.67)) }} MXN
+                </div>
+                <div class="text-white-50 small mb-3" style="font-size: 0.75rem;">
+                    <i class="bi bi-clock-history text-info me-1"></i>
+                    <strong>${{ "{:,.2f}".format(totales_remuneraciones.gran_total_por_segundo_mxn | default(129.74)) }} pesos</strong> por segundo en sueldos oficiales.
+                </div>
+
+                <div class="d-flex gap-2">
+                    <a href="/remuneraciones" class="btn btn-sm btn-primary rounded-pill px-3 flex-grow-1 fw-semibold">
+                        <i class="bi bi-cash-stack me-1"></i> Ver Tabulador
+                    </a>
+                    <a href="/reloj" class="btn btn-sm btn-outline-light rounded-pill px-3 flex-grow-1">
+                        <i class="bi bi-stopwatch me-1"></i> Reloj en Vivo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Mapa Político de México (32 Estados Interactivos SVG) -->
 <!-- Mapa Político de México Multinivel (32 Estados Interactivos SVG) -->
 <div class="mapa-mexico-container card-civic p-3 p-md-4 mb-5 position-relative" id="seccion-mapa">
@@ -206,10 +250,11 @@
             <div class="map-svg-wrapper position-relative mx-auto">
                 <svg viewBox="0 0 960 600" class="w-100 h-auto" id="mexicoSvgMap" style="filter: drop-shadow(0 4px 12px rgba(0,0,0,0.06));">
                     {% set gov_init = capas_mapa.gobernadores.estados if capas_mapa and capas_mapa.gobernadores else {} %}
+                    {% set init_est = gov_init.get('baja-california') if gov_init else None %}
                     {% for st in mexico_paths %}
                         {% set slug = st.slug %}
                         {% set est = gov_init.get(slug) %}
-                        {% set party = est.partido_mayoria if est else "Morena" %}
+                        {% set party = est.partido_mayoria if est else "Sin Dato" %}
                         {% set color = est.color_mayoria if est else party_color_func(party) %}
                         <path d="{{ st.d }}"
                               id="state-{{ slug }}"
@@ -249,49 +294,51 @@
                 </div>
 
                 <h3 class="h5 fw-bold text-dark mb-1" id="cardEstadoNombre">
-                    Baja California
+                    {{ init_est.nombre if init_est else 'Baja California' }}
                 </h3>
                 <div class="text-secondary small mb-3" id="cardEstadoSubtitulo">
-                    Poder Ejecutivo Estatal
+                    {{ init_est.subtitulo_card if init_est else 'Poder Ejecutivo Estatal' }}
                 </div>
 
-                <!-- Sección Principal de Fuerza Mayoritaria o Titular -->
+                <!-- Secci?n Principal de Fuerza Mayoritaria o Titular -->
                 <div class="p-3 bg-light rounded-3 mb-3 border">
                     <div class="text-secondary small mb-1 fw-semibold" id="cardMayoriaTitulo" style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em;">
                         Titular en Funciones:
                     </div>
                     <div id="cardEstadoMayoriaBadge">
                         <div class="d-flex align-items-center mb-1">
-                            {{ party_badge_func("Morena")|safe }}
+                            {{ party_badge_func(init_est.partido_mayoria)|safe if (init_est and init_est.partido_mayoria) else party_badge_func("Sin Dato")|safe }}
                         </div>
                         <div class="text-secondary small d-flex align-items-center gap-1" style="font-size: 0.74rem;">
                             <i class="bi bi-calendar3 text-muted"></i>
-                            <span id="cardEstadoMayoriaCurules">Periodo 2021–2027</span>
+                            <span id="cardEstadoMayoriaCurules">{{ init_est.periodo if (init_est and init_est.periodo) else 'Periodo constitucional' }}</span>
                         </div>
                     </div>
                     <div class="fw-bold text-dark mt-2" id="cardTitularNombre" style="font-size: 0.95rem;">
-                        Marina del Pilar Ávila Olmeda
+                        {{ init_est.titular if (init_est and init_est.titular) else 'Titular no asignado' }}
                     </div>
                     <div class="text-muted small" id="cardTitularCargo" style="font-size: 0.75rem;">
-                        Gobernadora Constitucional
+                        {{ init_est.cargo if (init_est and init_est.cargo) else 'Mandatario Estatal' }}
                     </div>
                 </div>
 
-                <!-- Sección Desglose / Composición Partidista -->
+                <!-- Secci?n Desglose / Composici?n Partidista -->
                 <div class="mb-3" id="cardSeccionDesglose">
                     <div class="d-flex justify-content-between align-items-center small text-secondary mb-1">
-                        <span class="fw-semibold text-dark" id="cardDesgloseTitulo" style="font-size: 0.75rem;">Filiación Institucional:</span>
+                        <span class="fw-semibold text-dark" id="cardDesgloseTitulo" style="font-size: 0.75rem;">Filiaci?n Institucional:</span>
                     </div>
 
+                    {% set init_party = init_est.partido_mayoria if init_est else "Sin Dato" %}
+                    {% set init_color = init_est.color_mayoria if init_est else party_color_func(init_party) %}
                     <div class="progress mb-2" style="height: 8px; border-radius: 6px;" id="cardEstadoProgressBar">
-                        <div class="progress-bar" style="width: 100%; background-color: #8B1C3F;" title="Morena: 1"></div>
+                        <div class="progress-bar" style="width: 100%; background-color: {{ init_color }};" title="{{ init_party }}: 1"></div>
                     </div>
 
                     <div class="d-flex flex-column gap-2 small text-secondary" id="cardEstadoPartidosList">
                         <div class="d-flex justify-content-between align-items-center py-1 border-bottom border-light">
                             <span class="d-flex align-items-center gap-2">
-                                <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: #8B1C3F;"></span>
-                                <span class="text-dark fw-medium">Morena</span>
+                                <span class="rounded-circle d-inline-block" style="width: 8px; height: 8px; background-color: {{ init_color }};"></span>
+                                <span class="text-dark fw-medium">{{ init_party }}</span>
                             </span>
                             <span class="badge bg-light text-dark border font-monospace">
                                 <strong>Vigente</strong>
@@ -301,12 +348,13 @@
                 </div>
 
                 <div class="pt-2">
-                    <a href="/politicos?q=Marina+del+Pilar"
+                    <a href="{{ init_est.boton_url if (init_est and init_est.boton_url) else '/politicos' }}"
                        class="btn btn-primary rounded-pill w-100 py-2 d-flex align-items-center justify-content-center gap-2 fw-semibold shadow-xs"
                        id="btnExplorarEstado">
-                        <span id="btnExplorarText">Ver perfil en el directorio</span>
+                        <span id="btnExplorarText">{{ init_est.boton_text if (init_est and init_est.boton_text) else 'Ver perfil en el directorio' }}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
+                </div>
                 </div>
             </div>
         </div>
@@ -1084,5 +1132,22 @@
         renderCapa('gobernadores');
     }
 })();
+
+    // Ticker en vivo de la Card de Costo Político en Home
+    (function() {
+        const homeCounter = document.getElementById('homeMoneyTicker');
+        if (homeCounter) {
+            let baseTotal = {{ totales_remuneraciones.gran_total_anual_mxn | default(4095571170.67) }};
+            const gastoSeg = {{ totales_remuneraciones.gran_total_por_segundo_mxn | default(129.74) }};
+            setInterval(() => {
+                baseTotal += (gastoSeg / 10);
+                homeCounter.textContent = '$' + baseTotal.toLocaleString('es-MX', {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }) + ' MXN';
+            }, 100);
+        }
+    })();
+
 </script>
 {% endblock %}

@@ -45,8 +45,36 @@
             flex-direction: column;
         }
 
+        html, body {
+            overflow-x: hidden !important;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .container {
+            max-width: 100%;
+        }
+
+        /* Anti-clipping dropdown on mobile */
+        @media (max-width: 576px) {
+            .navbar-ios .dropdown-menu {
+                position: fixed !important;
+                top: 60px !important;
+                left: 12px !important;
+                right: 12px !important;
+                width: auto !important;
+                min-width: 0 !important;
+                max-width: calc(100vw - 24px) !important;
+                transform: none !important;
+                margin: 0 !important;
+                border-radius: 20px !important;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35) !important;
+                z-index: 2050 !important;
+            }
+        }
+
         .navbar-ios {
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(255, 255, 255, 0.94);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--ios-separator);
@@ -237,6 +265,12 @@
                     <a class="nav-link-ios {% if request.url.path.startswith('/explorador') or request.url.path.startswith('/reportes') %}active{% endif %}" href="/explorador">
                         <i class="bi bi-table"></i>
                         <span>Explorador</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-ios {% if request.url.path.startswith('/remuneraciones') %}active{% endif %}" href="/remuneraciones">
+                        <i class="bi bi-cash-stack text-success"></i>
+                        <span>Costo Político</span>
                     </a>
                 </li>
             </ul>

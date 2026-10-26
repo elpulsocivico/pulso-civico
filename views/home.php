@@ -106,6 +106,49 @@ require __DIR__ . '/layout/header.php';
     </div>
 </div>
 
+<!-- Card Destacada: Reloj del Dinero Político en México -->
+<div class="card-civic p-4 p-md-4 mb-5 border-0 shadow-sm" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: #F8FAFC; border-radius: 20px;">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-white bg-opacity-10 text-white-50 small mb-2 border border-white border-opacity-10">
+                <span class="spinner-grow spinner-grow-sm text-danger" role="status"></span>
+                <span class="fw-semibold text-white">MONITOR DE COSTO POLÍTICO EN VIVO</span>
+            </div>
+            <h2 class="h4 fw-bold text-white mb-2">
+                ¿A dónde se va el dinero público de los mexicanos?
+            </h2>
+            <p class="text-white-50 small mb-3 mb-lg-0" style="max-width: 580px;">
+                Conoce cuánto cuesta mantener a los <strong>4,274 puestos</strong> de elección popular en México (Diputados Federales, Senadores, Gobernadores, Congresos Locales y Alcaldías). Cifras oficiales basadas en el PEF, DOF y PNT.
+            </p>
+        </div>
+
+        <div class="col-lg-5 text-lg-end text-center">
+            <div class="p-3 rounded-4 bg-white bg-opacity-10 border border-white border-opacity-10 d-inline-block text-start w-100" style="max-width: 420px;">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                    <span class="text-white-50 small" style="font-size: 0.78rem;">Transferencia a nóminas públicas:</span>
+                    <span class="badge bg-danger-subtle text-danger border border-danger-subtle" style="font-size: 0.68rem;">En Vivo</span>
+                </div>
+                <div class="h3 fw-bold text-warning mb-1" id="homeMoneyTickerPhp">
+                    $4,095,571,170.67 MXN
+                </div>
+                <div class="text-white-50 small mb-3" style="font-size: 0.75rem;">
+                    <i class="bi bi-clock-history text-info me-1"></i>
+                    <strong>$129.74 pesos</strong> por segundo en sueldos oficiales.
+                </div>
+
+                <div class="d-flex gap-2">
+                    <a href="<?= Router::url('/remuneraciones') ?>" class="btn btn-sm btn-primary rounded-pill px-3 flex-grow-1 fw-semibold">
+                        <i class="bi bi-cash-stack me-1"></i> Ver Tabulador
+                    </a>
+                    <a href="<?= Router::url('/reloj') ?>" class="btn btn-sm btn-outline-light rounded-pill px-3 flex-grow-1">
+                        <i class="bi bi-stopwatch me-1"></i> Reloj en Vivo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Mapa Político de México (32 Estados Interactivos) -->
 <?php require __DIR__ . '/partials/mexico_map.php'; ?>
 

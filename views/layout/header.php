@@ -119,6 +119,12 @@ $catalogLegislaturas = DataService::LEGISLATURAS_CATALOG;
             --ios-card-radius: 20px;
         }
 
+        html, body {
+            overflow-x: hidden !important;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
             background-color: var(--ios-bg);
@@ -130,15 +136,53 @@ $catalogLegislaturas = DataService::LEGISLATURAS_CATALOG;
             flex-direction: column;
         }
 
+        .container {
+            max-width: 100%;
+        }
+
         /* Glassmorphism Navbar */
         .navbar-ios {
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(255, 255, 255, 0.94);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--ios-separator);
             position: sticky;
             top: 0;
             z-index: 1030;
+        }
+
+        /* Tira de Navegación Móvil Horizontal */
+        .nav-mobile-scroll {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            padding: 2px 0 4px 0;
+            width: 100%;
+        }
+        .nav-mobile-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Corrección Crítica: Evitar que el dropdown se corte a la izquierda o derecha en móviles */
+        @media (max-width: 576px) {
+            .navbar-ios .dropdown-menu {
+                position: fixed !important;
+                top: 60px !important;
+                left: 12px !important;
+                right: 12px !important;
+                width: auto !important;
+                min-width: 0 !important;
+                max-width: calc(100vw - 24px) !important;
+                transform: none !important;
+                margin: 0 !important;
+                border-radius: 20px !important;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35) !important;
+                z-index: 2050 !important;
+            }
         }
 
         .party-badge {
@@ -209,25 +253,147 @@ $catalogLegislaturas = DataService::LEGISLATURAS_CATALOG;
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-ios py-2">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark" href="<?= $homeUrl ?>">
-            <span class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
-                <i class="bi bi-activity"></i>
-            </span>
-            <span>El Pulso de la Política</span>
-        </a>
+<nav class="navbar navbar-ios py-2">
+    <div class="container d-flex flex-column gap-2">
+        <!-- Fila 1: Logo + Buscador + Hamburguesa Móvil / Accesos Desktop -->
+        <div class="d-flex align-items-center justify-content-between w-100">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark m-0" href="<?= $homeUrl ?>">
+                <span class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center shadow-2xs" style="width: 32px; height: 32px;">
+                    <i class="bi bi-activity"></i>
+                </span>
+                <span class="d-none d-sm-inline">El Pulso de la Política</span>
+                <span class="d-inline d-sm-none">El Pulso</span>
+            </a>
 
-        <div class="d-flex align-items-center gap-2">
-            <!-- Botón Cambiar Legislatura -->
-            <div class="dropdown">
-                <button class="btn btn-sm btn-light border rounded-pill px-2 px-md-3 d-inline-flex align-items-center gap-1 gap-md-2 text-dark shadow-xs" type="button" id="btnCambiarLegislatura" data-bs-toggle="dropdown" aria-expanded="false" title="Cambiar periodo de Legislatura">
-                    <i class="bi bi-bank text-primary"></i>
-                    <span class="d-none d-sm-inline small text-secondary">Leg:</span>
-                    <span class="badge bg-primary text-white rounded-pill px-2 py-0 fw-bold" style="font-size: 0.75rem;"><?= ViewHelper::e($currentLegRomano) ?></span>
-                    <i class="bi bi-chevron-down text-muted" style="font-size: 0.65rem;"></i>
+            <!-- Acciones Derecha -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Buscador Rápido (Icono en móvil, con atajo en desktop) -->
+                <button class="btn btn-sm btn-light border rounded-pill px-2 px-md-3 d-flex align-items-center gap-1 gap-md-2 text-secondary shadow-xs" id="btnOpenSpotlight" type="button" title="Buscar político, estado o cargo">
+                    <i class="bi bi-search"></i>
+                    <span class="d-none d-md-inline small">Buscar...</span>
+                    <kbd class="bg-white border text-muted d-none d-lg-inline-block px-1" style="font-size: 0.65rem;">Ctrl+K</kbd>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 p-2 mt-2" aria-labelledby="btnCambiarLegislatura" style="min-width: 295px; max-width: 330px; max-height: 420px; overflow-y: auto;">
+
+                <!-- Botón Menú Móvil (Offcanvas Toggler) -->
+                <button class="btn btn-sm btn-light border rounded-pill px-2 py-1 d-inline-flex d-lg-none align-items-center justify-content-center text-dark shadow-xs" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Abrir menú" title="Menú">
+                    <i class="bi bi-list fs-5"></i>
+                </button>
+
+                <!-- Enlaces Desktop Completos (>= 992px) -->
+                <div class="d-none d-lg-flex align-items-center gap-2">
+                    <!-- Dropdown Legislatura Desktop -->
+                    <div class="dropdown">
+                        <button class="btn btn-sm btn-light border rounded-pill px-3 d-inline-flex align-items-center gap-2 text-dark shadow-xs" type="button" id="btnCambiarLegislatura" data-bs-toggle="dropdown" aria-expanded="false" title="Cambiar periodo de Legislatura">
+                            <i class="bi bi-bank text-primary"></i>
+                            <span class="small text-secondary">Leg:</span>
+                            <span class="badge bg-primary text-white rounded-pill px-2 py-0 fw-bold" style="font-size: 0.75rem;"><?= ViewHelper::e($currentLegRomano) ?></span>
+                            <i class="bi bi-chevron-down text-muted" style="font-size: 0.65rem;"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 p-2 mt-2" aria-labelledby="btnCambiarLegislatura" style="min-width: 295px; max-width: 330px; max-height: 420px; overflow-y: auto;">
+                            <li class="px-2 py-1 mb-1 border-bottom sticky-top bg-white" style="top: -8px; z-index: 2;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span class="text-uppercase text-secondary fw-bold" style="font-size: 0.68rem; letter-spacing: 0.05em;">
+                                        <i class="bi bi-clock-history me-1 text-primary"></i> Cambiar Legislatura
+                                    </span>
+                                    <span class="badge bg-light text-muted border" style="font-size: 0.65rem;">H. Congreso</span>
+                                </div>
+                            </li>
+                            <?php foreach ($catalogLegislaturas as $legNum => $legInfo): ?>
+                                <?php
+                                $esSeleccionada = ($legNum === $currentLegNum);
+                                $esActiva = (($legInfo['estatus'] ?? '') === 'activa');
+                                
+                                if (isset($estado['slug'])) {
+                                    $legUrl = Router::url('/estados/' . $estado['slug'] . ($legNum !== 66 ? '?leg=' . $legNum : ''));
+                                } elseif (isset($comision['slug'])) {
+                                    $legUrl = Router::url('/comisiones/' . $comision['slug'] . ($legNum !== 66 ? '?leg=' . $legNum : ''));
+                                } elseif (str_contains($canonicalUrl, '/comisiones')) {
+                                    $legUrl = Router::url('/comisiones' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
+                                } elseif (str_contains($canonicalUrl, '/politicos')) {
+                                    $legUrl = Router::url('/politicos' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
+                                } elseif (str_starts_with($canonicalUrl, $homeUrl) && ($canonicalUrl === $homeUrl || str_contains($canonicalUrl, '?leg='))) {
+                                    $legUrl = Router::url('/' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
+                                } else {
+                                    $legUrl = Router::url('/legislaturas/' . $legNum);
+                                }
+                                ?>
+                                <li>
+                                    <a class="dropdown-item rounded-3 py-2 px-2 d-flex align-items-center justify-content-between <?= $esSeleccionada ? 'bg-primary-subtle text-primary fw-bold' : 'text-dark' ?>" href="<?= $legUrl ?>">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="badge <?= $esSeleccionada ? 'bg-primary text-white' : ($esActiva ? 'bg-success text-white' : 'bg-light text-secondary border') ?> rounded-pill" style="min-width: 44px; font-size: 0.72rem;">
+                                                <?= ViewHelper::e($legInfo['romano']) ?>
+                                            </span>
+                                            <div>
+                                                <div class="small fw-semibold leading-tight"><?= ViewHelper::e($legInfo['romano']) ?> Legislatura</div>
+                                                <div class="text-muted" style="font-size: 0.7rem;"><?= ViewHelper::e($legInfo['periodo']) ?></div>
+                                            </div>
+                                        </div>
+                                        <?php if ($esSeleccionada): ?>
+                                            <i class="bi bi-check2 text-primary fs-6"></i>
+                                        <?php elseif ($esActiva): ?>
+                                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill" style="font-size: 0.62rem;">Activa</span>
+                                        <?php endif; ?>
+                                    </a>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+
+                    <?php
+                    $politicosNavUrl = Router::url('/politicos');
+                    $esPaginaPoliticos = str_starts_with($canonicalUrl, $politicosNavUrl) && !preg_match('#/politicos/[a-z0-9\-]+#', $canonicalUrl);
+                    ?>
+                    <a href="<?= $politicosNavUrl ?>" class="btn btn-sm <?= $esPaginaPoliticos ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;" title="Directorio de Políticos y Representantes">
+                        <i class="bi bi-people<?= $esPaginaPoliticos ? '-fill text-white' : ' text-primary' ?>"></i>
+                        <span>Políticos</span>
+                    </a>
+
+                    <?php
+                    $alcaldesNavUrl = Router::url('/alcaldes');
+                    $esPaginaAlcaldes = str_starts_with($canonicalUrl, $alcaldesNavUrl) || str_contains($canonicalUrl, '/municipios');
+                    ?>
+                    <a href="<?= $alcaldesNavUrl ?>" class="btn btn-sm <?= $esPaginaAlcaldes ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;" title="Directorio Nacional de Alcaldes y Municipios">
+                        <i class="bi bi-buildings<?= $esPaginaAlcaldes ? '-fill text-white' : ' text-primary' ?>"></i>
+                        <span>Alcaldías</span>
+                    </a>
+
+                    <a href="<?= Router::url('/remuneraciones') ?>" class="btn btn-sm btn-light border text-success rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;" title="Cuánto cuesta la clase política en México">
+                        <i class="bi bi-cash-stack"></i>
+                        <span>Costo Político</span>
+                    </a>
+
+                    <a href="<?= $homeUrl ?>#seccion-mapa" class="btn btn-sm btn-light border rounded-pill px-3 d-inline-flex align-items-center gap-1 text-secondary" style="font-size: 0.82rem;">
+                        <i class="bi bi-geo-alt text-danger"></i>
+                        <span>Mapa Político</span>
+                    </a>
+
+                    <?php
+                    $estudiosNavUrl = Router::url('/estudios');
+                    $esPaginaEstudios = str_starts_with($canonicalUrl, $estudiosNavUrl);
+                    ?>
+                    <a href="<?= $estudiosNavUrl ?>" class="btn btn-sm <?= $esPaginaEstudios ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;">
+                        <i class="bi bi-mortarboard<?= $esPaginaEstudios ? '-fill text-white' : ' text-primary' ?>"></i>
+                        <span>Nivel de Estudios</span>
+                    </a>
+
+                    <a href="<?= Router::url('/comisiones') ?>" class="btn btn-sm btn-light border rounded-pill px-3 d-inline-flex align-items-center gap-1 text-secondary" style="font-size: 0.82rem;">
+                        <i class="bi bi-briefcase text-secondary"></i>
+                        <span>Comisiones</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 2 (Móvil): Píldoras Rápidas con Scroll Horizontal Suave -->
+        <div class="d-flex d-lg-none nav-mobile-scroll">
+            <!-- Selector Legislatura Móvil -->
+            <div class="dropdown flex-shrink-0">
+                <button class="btn btn-sm btn-light border rounded-pill px-2 d-inline-flex align-items-center gap-1 text-dark shadow-xs" type="button" id="btnCambiarLegMob" data-bs-toggle="dropdown" aria-expanded="false" title="Cambiar periodo">
+                    <i class="bi bi-bank text-primary"></i>
+                    <span class="badge bg-primary text-white rounded-pill px-2 py-0 fw-bold" style="font-size: 0.72rem;"><?= ViewHelper::e($currentLegRomano) ?></span>
+                    <i class="bi bi-chevron-down text-muted" style="font-size: 0.6rem;"></i>
+                </button>
+                <ul class="dropdown-menu shadow-lg border-0 rounded-4 p-2 mt-2" aria-labelledby="btnCambiarLegMob" style="max-height: 380px; overflow-y: auto;">
                     <li class="px-2 py-1 mb-1 border-bottom sticky-top bg-white" style="top: -8px; z-index: 2;">
                         <div class="d-flex align-items-center justify-content-between">
                             <span class="text-uppercase text-secondary fw-bold" style="font-size: 0.68rem; letter-spacing: 0.05em;">
@@ -240,25 +406,10 @@ $catalogLegislaturas = DataService::LEGISLATURAS_CATALOG;
                         <?php
                         $esSeleccionada = ($legNum === $currentLegNum);
                         $esActiva = (($legInfo['estatus'] ?? '') === 'activa');
-                        
-                        // Si el usuario está consultando un estado, mantenemos el contexto de ese estado con ?leg=
-                        if (isset($estado['slug'])) {
-                            $legUrl = Router::url('/estados/' . $estado['slug'] . ($legNum !== 66 ? '?leg=' . $legNum : ''));
-                        } elseif (isset($comision['slug'])) {
-                            $legUrl = Router::url('/comisiones/' . $comision['slug'] . ($legNum !== 66 ? '?leg=' . $legNum : ''));
-                        } elseif (str_contains($canonicalUrl, '/comisiones')) {
-                            $legUrl = Router::url('/comisiones' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
-                        } elseif (str_contains($canonicalUrl, '/politicos')) {
-                            $legUrl = Router::url('/politicos' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
-                        } elseif (str_starts_with($canonicalUrl, $homeUrl) && ($canonicalUrl === $homeUrl || str_contains($canonicalUrl, '?leg='))) {
-                            // En portada principal, actualizamos la vista de inicio y el mapa interactivo para esa legislatura
-                            $legUrl = Router::url('/' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
-                        } else {
-                            $legUrl = Router::url('/legislaturas/' . $legNum);
-                        }
+                        $legUrlMob = Router::url('/' . ($legNum !== 66 ? '?leg=' . $legNum : ''));
                         ?>
                         <li>
-                            <a class="dropdown-item rounded-3 py-2 px-2 d-flex align-items-center justify-content-between <?= $esSeleccionada ? 'bg-primary-subtle text-primary fw-bold' : 'text-dark' ?>" href="<?= $legUrl ?>">
+                            <a class="dropdown-item rounded-3 py-2 px-2 d-flex align-items-center justify-content-between <?= $esSeleccionada ? 'bg-primary-subtle text-primary fw-bold' : 'text-dark' ?>" href="<?= $legUrlMob ?>">
                                 <div class="d-flex align-items-center gap-2">
                                     <span class="badge <?= $esSeleccionada ? 'bg-primary text-white' : ($esActiva ? 'bg-success text-white' : 'bg-light text-secondary border') ?> rounded-pill" style="min-width: 44px; font-size: 0.72rem;">
                                         <?= ViewHelper::e($legInfo['romano']) ?>
@@ -279,48 +430,114 @@ $catalogLegislaturas = DataService::LEGISLATURAS_CATALOG;
                 </ul>
             </div>
 
-            <?php
-            $politicosNavUrl = Router::url('/politicos');
-            $esPaginaPoliticos = str_starts_with($canonicalUrl, $politicosNavUrl) && !preg_match('#/politicos/[a-z0-9\-]+#', $canonicalUrl);
-            ?>
-            <a href="<?= $politicosNavUrl ?>" class="btn btn-sm <?= $esPaginaPoliticos ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;" title="Directorio de Políticos y Representantes">
+            <a href="<?= $politicosNavUrl ?>" class="btn btn-sm <?= $esPaginaPoliticos ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
                 <i class="bi bi-people<?= $esPaginaPoliticos ? '-fill text-white' : ' text-primary' ?>"></i>
                 <span>Políticos</span>
             </a>
 
-            <?php
-            $alcaldesNavUrl = Router::url('/alcaldes');
-            $esPaginaAlcaldes = str_starts_with($canonicalUrl, $alcaldesNavUrl) || str_contains($canonicalUrl, '/municipios');
-            ?>
-            <a href="<?= $alcaldesNavUrl ?>" class="btn btn-sm <?= $esPaginaAlcaldes ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1" style="font-size: 0.82rem;" title="Directorio Nacional de Alcaldes y Municipios">
+            <a href="<?= $alcaldesNavUrl ?>" class="btn btn-sm <?= $esPaginaAlcaldes ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
                 <i class="bi bi-buildings<?= $esPaginaAlcaldes ? '-fill text-white' : ' text-primary' ?>"></i>
                 <span>Alcaldías</span>
             </a>
 
-            <a href="<?= $homeUrl ?>#seccion-mapa" class="btn btn-sm btn-light border rounded-pill px-3 d-none d-lg-inline-flex align-items-center gap-1 text-secondary" style="font-size: 0.82rem;">
+            <a href="<?= Router::url('/remuneraciones') ?>" class="btn btn-sm btn-light border text-success rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
+                <i class="bi bi-cash-stack"></i>
+                <span>Costo Político</span>
+            </a>
+
+            <a href="<?= Router::url('/reloj') ?>" class="btn btn-sm btn-light border text-warning rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
+                <i class="bi bi-stopwatch text-danger"></i>
+                <span>Reloj Erario</span>
+            </a>
+
+            <a href="<?= $homeUrl ?>#seccion-mapa" class="btn btn-sm btn-light border text-secondary rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
                 <i class="bi bi-geo-alt text-danger"></i>
-                <span>Mapa Político</span>
+                <span>Mapa</span>
             </a>
-            <?php
-            $estudiosNavUrl = Router::url('/estudios');
-            $esPaginaEstudios = str_starts_with($canonicalUrl, $estudiosNavUrl);
-            ?>
-            <a href="<?= $estudiosNavUrl ?>" class="btn btn-sm <?= $esPaginaEstudios ? 'btn-primary text-white shadow-xs' : 'btn-light border text-secondary' ?> rounded-pill px-3 d-none d-md-inline-flex align-items-center gap-1" style="font-size: 0.82rem;">
-                <i class="bi bi-mortarboard<?= $esPaginaEstudios ? '-fill text-white' : ' text-primary' ?>"></i>
-                <span>Nivel de Estudios</span>
+
+            <a href="<?= $estudiosNavUrl ?>" class="btn btn-sm btn-light border text-secondary rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
+                <i class="bi bi-mortarboard text-primary"></i>
+                <span>Estudios</span>
             </a>
-            <a href="<?= Router::url('/comisiones') ?>" class="btn btn-sm btn-light border rounded-pill px-3 d-none d-md-inline-flex align-items-center gap-1 text-secondary" style="font-size: 0.82rem;">
+
+            <a href="<?= Router::url('/comisiones') ?>" class="btn btn-sm btn-light border text-secondary rounded-pill px-3 d-inline-flex align-items-center gap-1 flex-shrink-0" style="font-size: 0.8rem;">
                 <i class="bi bi-briefcase text-secondary"></i>
                 <span>Comisiones</span>
             </a>
-            <button class="btn btn-sm btn-light border rounded-pill px-3 d-flex align-items-center gap-2 text-secondary" id="btnOpenSpotlight" type="button">
-                <i class="bi bi-search"></i>
-                <span class="d-none d-sm-inline">Buscar político o comisión...</span>
-                <kbd class="bg-white border text-muted d-none d-md-inline-block px-1" style="font-size: 0.65rem;">Ctrl+K</kbd>
-            </button>
         </div>
     </div>
 </nav>
+
+<!-- Menú Lateral Offcanvas Móvil Super Responsive -->
+<div class="offcanvas offcanvas-end rounded-start-4 border-0 shadow-lg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="max-width: 320px;">
+    <div class="offcanvas-header border-bottom py-3">
+        <div class="d-flex align-items-center gap-2">
+            <span class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 28px; height: 28px;">
+                <i class="bi bi-activity"></i>
+            </span>
+            <h5 class="offcanvas-title fw-bold text-dark fs-6" id="offcanvasNavbarLabel">El Pulso de la Política</h5>
+        </div>
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body p-3">
+        <!-- Directorio -->
+        <div class="text-uppercase text-muted fw-bold mb-2" style="font-size: 0.68rem; letter-spacing: 0.05em;">Directorio y Cargos</div>
+        <div class="list-group list-group-flush rounded-3 border mb-3 overflow-hidden shadow-2xs">
+            <a href="<?= $politicosNavUrl ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-people-fill text-primary"></i> Directorio de Políticos</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+            <a href="<?= $alcaldesNavUrl ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-buildings-fill text-info"></i> Alcaldías y Municipios</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+            <a href="<?= Router::url('/legislaturas/' . $currentLegNum) ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-bank text-primary"></i> Congreso de la Unión (<?= ViewHelper::e($currentLegRomano) ?>)</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+        </div>
+
+        <!-- Transparencia -->
+        <div class="text-uppercase text-muted fw-bold mb-2" style="font-size: 0.68rem; letter-spacing: 0.05em;">Transparencia y Erario</div>
+        <div class="list-group list-group-flush rounded-3 border mb-3 overflow-hidden shadow-2xs">
+            <a href="<?= Router::url('/remuneraciones') ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-cash-stack text-success"></i> Costo Político (Sueldos)</span>
+                <span class="badge bg-success-subtle text-success border border-success-subtle">Oficial</span>
+            </a>
+            <a href="<?= Router::url('/reloj') ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-stopwatch text-danger"></i> Reloj del Erario en Vivo</span>
+                <span class="badge bg-danger text-white">En Vivo</span>
+            </a>
+        </div>
+
+        <!-- Datos -->
+        <div class="text-uppercase text-muted fw-bold mb-2" style="font-size: 0.68rem; letter-spacing: 0.05em;">Exploración y Análisis</div>
+        <div class="list-group list-group-flush rounded-3 border mb-3 overflow-hidden shadow-2xs">
+            <a href="<?= $homeUrl ?>#seccion-mapa" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small" data-bs-dismiss="offcanvas">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-geo-alt-fill text-danger"></i> Mapa Político de México</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+            <a href="<?= $estudiosNavUrl ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-mortarboard-fill text-secondary"></i> Nivel de Estudios</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+            <a href="<?= Router::url('/comisiones') ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-briefcase-fill text-secondary"></i> Comisiones Ordinarias</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+            <a href="<?= Router::url('/legislaturas') ?>" class="list-group-item list-group-item-action d-flex align-items-center justify-content-between py-2 small">
+                <span class="d-flex align-items-center gap-2"><i class="bi bi-clock-history text-muted"></i> Archivo Histórico</span>
+                <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            </a>
+        </div>
+
+        <div class="d-grid mt-4">
+            <button class="btn btn-outline-primary rounded-pill py-2 small fw-semibold" onclick="document.getElementById('btnOpenSpotlight').click(); const oc = bootstrap.Offcanvas.getInstance(document.getElementById('offcanvasNavbar')); if(oc) oc.hide();">
+                <i class="bi bi-search me-1"></i> Búsqueda Universal (Ctrl+K)
+            </button>
+        </div>
+    </div>
+</div>
 
 <!-- Modal Spotlight Search Universal -->
 <div class="spotlight-backdrop" id="spotlightModal">

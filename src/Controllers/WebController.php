@@ -801,5 +801,31 @@ HTML;
 
         require dirname(__DIR__, 2) . '/views/legislatura.php';
     }
-}
+    /**
+     * Radiografia y Tabulador Institucional de Remuneraciones Publicas (/remuneraciones)
+     */
+    public function remuneraciones(): void
+    {
+        $seo = [
+            'title' => 'Costo de los Politicos en Mexico — Tabulador de Sueldos y Presupuesto Oficial | El Pulso',
+            'description' => 'Calculadora interactiva del costo presupuestal de 4,274 cargos publicos en Mexico: Diputados, Senadores, Gobernadores, Congresos Locales y Alcaldes.',
+            'canonical' => Router::url('/remuneraciones'),
+        ];
 
+        require dirname(__DIR__, 2) . '/views/remuneraciones.php';
+    }
+
+    /**
+     * Reloj Dinamico del Erario Publico en Tiempo Real (/reloj)
+     */
+    public function reloj(): void
+    {
+        $seo = [
+            'title' => 'Reloj en Vivo del Erario — Desembolso de Sueldos Politicos por Segundo | El Pulso',
+            'description' => 'Visualizador en tiempo real del gasto presupuestal asignado a sueldos y remuneraciones de la clase politica en Mexico segundo a segundo.',
+            'canonical' => Router::url('/reloj'),
+        ];
+
+        require dirname(__DIR__, 2) . '/views/reloj.php';
+    }
+}
