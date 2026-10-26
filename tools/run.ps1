@@ -61,6 +61,24 @@ if ($Action -eq "python" -or $Action -eq "py") {
     exit $LASTEXITCODE
 }
 
+# Configuración de tarea programada en Windows Task Scheduler
+if ($Action -eq "schedule:votaciones") {
+    $time = if ($Target -ne "") { $Target } else { "21:00" }
+    $taskName = "PulsoCivico_SyncVotaciones"
+    $scriptPath = (Join-Path $scriptDir "run.ps1")
+    $command = "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$scriptPath`" sync:votaciones"
+
+    Write-Host "Configurando tarea programada en Windows: $taskName a las $time..." -ForegroundColor Cyan
+    & schtasks.exe /Create /SC DAILY /TN $taskName /TR $command /ST $time /F
+    if ($LASTEXITCODE -eq 0) {
+        Write-Host "Tarea programada con exito en Windows Task Scheduler." -ForegroundColor Green
+        & schtasks.exe /Query /TN $taskName /FO LIST
+    } else {
+        Write-Warning "No se pudo registrar en Task Scheduler (puede requerir permisos de Administrador)."
+    }
+    exit $LASTEXITCODE
+}
+
 # Ejecutar el gateway PHP pasando los argumentos
 & $phpCmd $gatewayPhp $Action $Target $extraStr
 

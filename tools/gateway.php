@@ -10,6 +10,8 @@ require_once __DIR__ . '/core/DataRepair.php';
 require_once __DIR__ . '/core/CatalogBuilder.php';
 require_once __DIR__ . '/core/BuildDirectoryIndex.php';
 require_once __DIR__ . '/core/DataIntegrityAudit.php';
+require_once __DIR__ . '/core/VotacionesSynchronizer.php';
+require_once __DIR__ . '/core/PRModerator.php';
 require_once dirname(__DIR__) . '/src/Core/PageCache.php';
 require_once dirname(__DIR__) . '/src/Services/AuditService.php';
 
@@ -22,6 +24,7 @@ use PulsoCivico\Tools\DataRepair;
 use PulsoCivico\Tools\CatalogBuilder;
 use PulsoCivico\Tools\BuildDirectoryIndex;
 use PulsoCivico\Tools\DataIntegrityAudit;
+use PulsoCivico\Tools\VotacionesSynchronizer;
 use PulsoCivico\Core\PageCache;
 use PulsoCivico\Services\AuditService;
 
@@ -94,6 +97,16 @@ switch ($action) {
         $response['nuevo_estado'] = $extra;
         $response['actualizado'] = $actualizado;
         $response['ok'] = $actualizado;
+        break;
+
+    case 'sync:votaciones':
+        $force = ($target === 'force' || $extra === 'force');
+        $notify = !($target === 'silent' || $extra === 'silent' || $target === 'no-telegram');
+        $leg = is_numeric($target) ? (int)$target : 66;
+
+        $synchronizer = new VotacionesSynchronizer($rootDir);
+        $syncResult = $synchronizer->sync($leg, $force, $notify);
+        $response = array_merge($response, $syncResult);
         break;
 
     case 'telegram:check':
@@ -845,6 +858,13 @@ switch ($action) {
 
     case 'github:merge_all':
     case 'github:ship_all':
+        $result = GitHubOps::mergeAllReady();
+        $response = array_merge($response, $result);
+        break;
+
+    case 'github:moderate':
+        $response['moderation'] = \PulsoCivico\Tools\PRModerator::run();
+        $response['ok'] = true;
         $result = GitHubOps::mergeAllReady();
         $response = array_merge($response, $result);
         break;

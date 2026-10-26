@@ -20,6 +20,15 @@ class BuildDirectoryIndex
             @mkdir($cacheDir, 0775, true);
         }
 
+        // Ejecutar sincronización final de fotos y limpieza de URLs muertas si existe el script Python
+        $syncFlag = $rootDir . '/storage/logs/photo_sync_v2.flag';
+        $pyScript = $rootDir . '/tools/download_vendor_and_photos.py';
+        $pyLog = [];
+        if (is_file($pyScript) && !is_file($syncFlag)) {
+            @exec('python ' . escapeshellarg($pyScript) . ' 2>&1', $pyLog);
+            @file_put_contents($syncFlag, date('Y-m-d H:i:s'));
+        }
+
         $targetFile = $cacheDir . '/directorio_politicos_index.json';
 
         // Autoload PSR-4 nativo de src/ si aún no está registrado
@@ -47,9 +56,13 @@ class BuildDirectoryIndex
         foreach ($directorio as $pol) {
             $ref = (string)($pol['referencia_sil'] ?? '');
             $hasLocalPhoto = ($ref !== '' && is_file($photosDir . "/{$ref}.jpg"));
+            $rawOfficialUrl = (string)($pol['foto_oficial_url'] ?? '');
+            if (str_contains($rawOfficialUrl, 'sil.gobernacion.gob.mx')) {
+                $rawOfficialUrl = '';
+            }
             $fotoUrl = ($ref !== '' && $hasLocalPhoto)
                 ? "/photos/{$ref}.jpg"
-                : ($pol['foto_oficial_url'] ?? '');
+                : $rawOfficialUrl;
 
             $slim[] = [
                 'slug' => $pol['slug'] ?? '',
@@ -60,7 +73,7 @@ class BuildDirectoryIndex
                 'camara' => $pol['camara'] ?? '',
                 'entidad' => $pol['entidad'] ?? '',
                 'referencia_sil' => $ref,
-                'foto_oficial_url' => $pol['foto_oficial_url'] ?? '',
+                'foto_oficial_url' => $rawOfficialUrl,
                 'foto_url' => $fotoUrl,
                 'es_activo' => !empty($pol['es_activo']),
                 'cargos_badges' => $pol['cargos_badges'] ?? [],
@@ -98,6 +111,7 @@ class BuildDirectoryIndex
             'total_politicos' => count($slim),
             'file' => str_replace('\\', '/', $targetFile),
             'size_kb' => round($bytes / 1024, 2),
+            'photo_sync_log' => $pyLog,
         ];
     }
 }
