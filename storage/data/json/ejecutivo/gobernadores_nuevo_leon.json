@@ -1,180 +1,198 @@
 {
-    "entidad": "Nuevo León",
-    "entidad_cve": "19",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Nuevo León (1991-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-    "portal_oficial": "https:\/\/www.nl.gob.mx",
-    "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 8,
-    "generado_el": "2026-10-14 00:33:03",
-    "mandatarios": [
+  "entidad": "Nuevo León",
+  "entidad_cve": "19",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Nuevo León (1991-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+  "portal_oficial": "https://www.nl.gob.mx",
+  "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 8,
+  "generado_el": "2026-10-14 00:33:03",
+  "mandatarios": [
+    {
+      "id": "ejec_19_1991_rizzo",
+      "nombre_completo": "Sócrates Cuauhtémoc Rizzo García",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (Licencia definitiva en 1996)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "1991-10-16",
+      "fecha_conclusion": "1996-04-17",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LXVI Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Nuevo León (POENL)",
+        "fuente_url": "https://www.nl.gob.mx/periodico-oficial",
+        "sha256_evidencia": "8519db153662cdb1f23c6fd282c6f1195ad3d0d0c71969f06de884424469874a",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_1996_clariond",
+      "nombre_completo": "Benjamín Clariond Reyes-Retana",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "1996-04-18",
+      "fecha_conclusion": "1997-10-03",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto del H. Congreso del Estado LXVII Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL Tomo CXXXIII",
+        "fuente_url": "https://www.nl.gob.mx/periodico-oficial",
+        "sha256_evidencia": "e6adada5ca44dd5456b4c56ecab16935dbaebf5551dd2a38c4c1c3a19798cf75",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_1997_canales",
+      "nombre_completo": "Fernando de Jesús Canales Clariond",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (1ª Alternancia en NL; Licencia en 2003)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "1997-10-04",
+      "fecha_conclusion": "2003-01-13",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne LXVIII Legislatura / CEE NL",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL / CEE NL",
+        "fuente_url": "https://www.ieepcnl.mx/",
+        "sha256_evidencia": "f584a9aa0f0ac318f7eb95ca1584d08240ad1f70951cc3cbe030c880c1f51157",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_2003_elizondo",
+      "nombre_completo": "Fernando Elizondo Barragán",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "2003-01-13",
+      "fecha_conclusion": "2003-10-03",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Decreto del Congreso del Estado LXIX Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL Tomo CXL",
+        "fuente_url": "https://www.nl.gob.mx/periodico-oficial",
+        "sha256_evidencia": "cab9cd7bb2dad5e58a8bae9e2f31ebb055d7dbb11c1e0f094e4d3fe5ba99db79",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_2003_gonzalez",
+      "nombre_completo": "José Natividad González Parás",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "2003-10-04",
+      "fecha_conclusion": "2009-10-03",
+      "partido": "PRI",
+      "partido_nombre_completo": "Alianza Ciudadana (PRI-PVEM-PT-PAS)",
+      "bando_solemne_decreto": "Bando Solemne LXX Legislatura / CEE NL",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL / IEEPCNL",
+        "fuente_url": "https://www.ieepcnl.mx/",
+        "sha256_evidencia": "98eeb9aa5d0dff5b61337a6a484badfec217400d7b2cea2b7c94565a83727d8f",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_2009_medina",
+      "nombre_completo": "Rodrigo Medina de la Cruz",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "2009-10-04",
+      "fecha_conclusion": "2015-10-03",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL-Cruzada Ciudadana)",
+      "bando_solemne_decreto": "Bando Solemne LXXII Legislatura / CEE NL",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL / IEEPCNL",
+        "fuente_url": "https://www.ieepcnl.mx/",
+        "sha256_evidencia": "48f00eced8048eddcfb752c488096e46172f73953c212adb32fc176af12ba7f9",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_2015_rodriguez",
+      "nombre_completo": "Jaime Heliodoro Rodríguez Calderón",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (1er Gobernador Independiente de México)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "2015-10-04",
+      "fecha_conclusion": "2021-10-03",
+      "partido": "IND",
+      "partido_nombre_completo": "Candidatura Independiente",
+      "bando_solemne_decreto": "Bando Solemne LXXIV Legislatura / CEE NL (con interinato de M. González en 2018)",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL / IEEPCNL",
+        "fuente_url": "https://www.ieepcnl.mx/",
+        "sha256_evidencia": "27bfeeac66b371d5fd14a994435a255045b7c6fffc389fef2ba40fa24a62f9bd",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_19_2021_garcia",
+      "nombre_completo": "Samuel Alejandro García Sepúlveda",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nuevo León",
+      "entidad_cve": "19",
+      "fecha_inicio": "2021-10-04",
+      "fecha_conclusion": "2027-10-03",
+      "partido": "MC",
+      "partido_nombre_completo": "Movimiento Ciudadano",
+      "bando_solemne_decreto": "Bando Solemne LXXVI Legislatura / CEE/CG/089/2021",
+      "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s/n, Centro, Monterrey, N.L.",
+      "metadata": {
+        "fuente_nombre": "POENL No. 125 / IEEPCNL",
+        "fuente_url": "https://www.ieepcnl.mx/",
+        "sha256_evidencia": "1dc9f1e4310fbdfd56ed836a82db95a9362dbfcd06380603a9db0fdf4be4a929",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Doctorado",
+      "preparacion_academica": "Derecho, Finanzas y Políticas Públicas",
+      "alma_mater": "Tec de Monterrey (ITESM) / ITAC",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_19_1991_rizzo",
-            "nombre_completo": "Sócrates Cuauhtémoc Rizzo García",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (Licencia definitiva en 1996)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "1991-10-16",
-            "fecha_conclusion": "1996-04-17",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LXVI Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Nuevo León (POENL)",
-                "fuente_url": "https:\/\/www.nl.gob.mx\/periodico-oficial",
-                "sha256_evidencia": "8519db153662cdb1f23c6fd282c6f1195ad3d0d0c71969f06de884424469874a",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Doctorado en Derecho Constitucional y Gobernabilidad por la UANL."
         },
         {
-            "id": "ejec_19_1996_clariond",
-            "nombre_completo": "Benjamín Clariond Reyes-Retana",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "1996-04-18",
-            "fecha_conclusion": "1997-10-03",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto del H. Congreso del Estado LXVII Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL Tomo CXXXIII",
-                "fuente_url": "https:\/\/www.nl.gob.mx\/periodico-oficial",
-                "sha256_evidencia": "e6adada5ca44dd5456b4c56ecab16935dbaebf5551dd2a38c4c1c3a19798cf75",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Doctorado en Políticas Públicas por el ITESM."
         },
         {
-            "id": "ejec_19_1997_canales",
-            "nombre_completo": "Fernando de Jesús Canales Clariond",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (1ª Alternancia en NL; Licencia en 2003)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "1997-10-04",
-            "fecha_conclusion": "2003-01-13",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne LXVIII Legislatura \/ CEE NL",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL \/ CEE NL",
-                "fuente_url": "https:\/\/www.ieepcnl.mx\/",
-                "sha256_evidencia": "f584a9aa0f0ac318f7eb95ca1584d08240ad1f70951cc3cbe030c880c1f51157",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Derecho Público por el ITESM."
         },
         {
-            "id": "ejec_19_2003_elizondo",
-            "nombre_completo": "Fernando Elizondo Barragán",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "2003-01-13",
-            "fecha_conclusion": "2003-10-03",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Decreto del Congreso del Estado LXIX Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL Tomo CXL",
-                "fuente_url": "https:\/\/www.nl.gob.mx\/periodico-oficial",
-                "sha256_evidencia": "cab9cd7bb2dad5e58a8bae9e2f31ebb055d7dbb11c1e0f094e4d3fe5ba99db79",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_19_2003_gonzalez",
-            "nombre_completo": "José Natividad González Parás",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "2003-10-04",
-            "fecha_conclusion": "2009-10-03",
-            "partido": "PRI",
-            "partido_nombre_completo": "Alianza Ciudadana (PRI-PVEM-PT-PAS)",
-            "bando_solemne_decreto": "Bando Solemne LXX Legislatura \/ CEE NL",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL \/ IEEPCNL",
-                "fuente_url": "https:\/\/www.ieepcnl.mx\/",
-                "sha256_evidencia": "98eeb9aa5d0dff5b61337a6a484badfec217400d7b2cea2b7c94565a83727d8f",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_19_2009_medina",
-            "nombre_completo": "Rodrigo Medina de la Cruz",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "2009-10-04",
-            "fecha_conclusion": "2015-10-03",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL-Cruzada Ciudadana)",
-            "bando_solemne_decreto": "Bando Solemne LXXII Legislatura \/ CEE NL",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL \/ IEEPCNL",
-                "fuente_url": "https:\/\/www.ieepcnl.mx\/",
-                "sha256_evidencia": "48f00eced8048eddcfb752c488096e46172f73953c212adb32fc176af12ba7f9",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_19_2015_rodriguez",
-            "nombre_completo": "Jaime Heliodoro Rodríguez Calderón",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (1er Gobernador Independiente de México)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "2015-10-04",
-            "fecha_conclusion": "2021-10-03",
-            "partido": "IND",
-            "partido_nombre_completo": "Candidatura Independiente",
-            "bando_solemne_decreto": "Bando Solemne LXXIV Legislatura \/ CEE NL (con interinato de M. González en 2018)",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL \/ IEEPCNL",
-                "fuente_url": "https:\/\/www.ieepcnl.mx\/",
-                "sha256_evidencia": "27bfeeac66b371d5fd14a994435a255045b7c6fffc389fef2ba40fa24a62f9bd",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_19_2021_garcia",
-            "nombre_completo": "Samuel Alejandro García Sepúlveda",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nuevo León",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nuevo León",
-            "entidad_cve": "19",
-            "fecha_inicio": "2021-10-04",
-            "fecha_conclusion": "2027-10-03",
-            "partido": "MC",
-            "partido_nombre_completo": "Movimiento Ciudadano",
-            "bando_solemne_decreto": "Bando Solemne LXXVI Legislatura \/ CEE\/CG\/089\/2021",
-            "ubicacion_despacho": "Palacio de Gobierno, 5 de Mayo y Zaragoza s\/n, Centro, Monterrey, N.L.",
-            "metadata": {
-                "fuente_nombre": "POENL No. 125 \/ IEEPCNL",
-                "fuente_url": "https:\/\/www.ieepcnl.mx\/",
-                "sha256_evidencia": "1dc9f1e4310fbdfd56ed836a82db95a9362dbfcd06380603a9db0fdf4be4a929",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Derecho y Finanzas por el Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

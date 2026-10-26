@@ -1,180 +1,195 @@
 {
-    "entidad": "Baja California",
-    "entidad_cve": "02",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Baja California (1989-2027)",
-    "sede_poder_ejecutivo": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-    "portal_oficial": "https:\/\/www.bajacalifornia.gob.mx",
-    "periodo_cobertura": "1989-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 8,
-    "generado_el": "2026-10-14 00:31:07",
-    "mandatarios": [
+  "entidad": "Baja California",
+  "entidad_cve": "02",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Baja California (1989-2027)",
+  "sede_poder_ejecutivo": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+  "portal_oficial": "https://www.bajacalifornia.gob.mx",
+  "periodo_cobertura": "1989-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 8,
+  "generado_el": "2026-10-14 00:31:07",
+  "mandatarios": [
+    {
+      "id": "ejec_02_1989_ruffo",
+      "nombre_completo": "Ernesto Ruffo Appel",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (1ª Alternancia Nacional)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "1989-11-01",
+      "fecha_conclusion": "1995-10-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne de la H. XIII Legislatura",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Baja California (POEBC)",
+        "fuente_url": "https://periodicooficial.bajacalifornia.gob.mx/",
+        "sha256_evidencia": "2893b9b07f730157dd6565d1c9117a6f24f6934bcefe989162b393727e8f981e",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_1995_teran",
+      "nombre_completo": "Héctor Terán Terán",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "1995-11-01",
+      "fecha_conclusion": "1998-10-04",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne XV Legislatura (fallece en funciones)",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC Tomo CII No. 45",
+        "fuente_url": "https://periodicooficial.bajacalifornia.gob.mx/",
+        "sha256_evidencia": "1af53d0746b055aaffabb3d4ccc6199b5d6f8e3c51fd0efc2ea7a444f09fbe81",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_1998_gonzalez",
+      "nombre_completo": "Alejandro González Alcocer",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Sustituto (Designación Legislativa)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "1998-10-05",
+      "fecha_conclusion": "2001-10-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Decreto del Congreso del Estado de Baja California",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC Tomo CV No. 42",
+        "fuente_url": "https://periodicooficial.bajacalifornia.gob.mx/",
+        "sha256_evidencia": "66bdf9087641a4f4accf04fc5eb0fed19536ad6867598e4993f03f42252819f7",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_2001_elorduy",
+      "nombre_completo": "Eugenio Elorduy Walther",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "2001-11-01",
+      "fecha_conclusion": "2007-10-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne XVII Legislatura / IEEBC",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC / Instituto Estatal Electoral de Baja California",
+        "fuente_url": "https://ieebc.mx/",
+        "sha256_evidencia": "8cd31e2952300692a9243d0241fecade7942f89e602adccc6c543decfd7ed130",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_2007_osuna",
+      "nombre_completo": "José Guadalupe Osuna Millán",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "2007-11-01",
+      "fecha_conclusion": "2013-10-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional (Alianza por Baja California)",
+      "bando_solemne_decreto": "Bando Solemne XIX Legislatura / IEEBC",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC / IEEBC",
+        "fuente_url": "https://ieebc.mx/",
+        "sha256_evidencia": "9358536fcc0df07bfb5174835679935932835071a660a2a181d5c7135157e342",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_2013_vega",
+      "nombre_completo": "Francisco Arturo Vega de Lamadrid",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "2013-11-01",
+      "fecha_conclusion": "2019-10-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional (Unidos por Baja California)",
+      "bando_solemne_decreto": "Bando Solemne XXI Legislatura / Cómputo IEEBC",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC / IEEBC",
+        "fuente_url": "https://ieebc.mx/",
+        "sha256_evidencia": "3760c12e9af4844d1682dbcc3ab6f48427d4421025d478500b6e0e59b822424f",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_2019_bonilla",
+      "nombre_completo": "Jaime Bonilla Valdez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (Periodo de 2 años conforme TEPJF)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "2019-11-01",
+      "fecha_conclusion": "2021-10-31",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional (Juntos Haremos Historia)",
+      "bando_solemne_decreto": "Bando Solemne XXIII Legislatura / Sentencia SCJN Acción 112/2019",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC / IEEBC",
+        "fuente_url": "https://ieebc.mx/",
+        "sha256_evidencia": "46f36b3a9d1fe2b6633ae5ed29b665b018792e38a7a0fbfdd9c746657f38eddf",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_02_2021_avila",
+      "nombre_completo": "Marina del Pilar Ávila Olmeda",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
+      "tipo_mandato": "Constitucional (1ª Gobernadora)",
+      "entidad": "Baja California",
+      "entidad_cve": "02",
+      "fecha_inicio": "2021-11-01",
+      "fecha_conclusion": "2027-10-31",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional",
+      "bando_solemne_decreto": "Bando Solemne XXIV Legislatura / Dictamen IEEBC",
+      "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
+      "metadata": {
+        "fuente_nombre": "POEBC / IEEBC",
+        "fuente_url": "https://ieebc.mx/",
+        "sha256_evidencia": "1482b057a71629e00d995245bb49b342621b6aef370ce4fe3b013ecd21fd9df7",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Derecho y Administración Pública",
+      "alma_mater": "CETYS Universidad / ITESM",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_02_1989_ruffo",
-            "nombre_completo": "Ernesto Ruffo Appel",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (1ª Alternancia Nacional)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "1989-11-01",
-            "fecha_conclusion": "1995-10-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne de la H. XIII Legislatura",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Baja California (POEBC)",
-                "fuente_url": "https:\/\/periodicooficial.bajacalifornia.gob.mx\/",
-                "sha256_evidencia": "2893b9b07f730157dd6565d1c9117a6f24f6934bcefe989162b393727e8f981e",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Administración Pública por la Universidad Autónoma de Baja California (UABC)."
         },
         {
-            "id": "ejec_02_1995_teran",
-            "nombre_completo": "Héctor Terán Terán",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "1995-11-01",
-            "fecha_conclusion": "1998-10-04",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne XV Legislatura (fallece en funciones)",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC Tomo CII No. 45",
-                "fuente_url": "https:\/\/periodicooficial.bajacalifornia.gob.mx\/",
-                "sha256_evidencia": "1af53d0746b055aaffabb3d4ccc6199b5d6f8e3c51fd0efc2ea7a444f09fbe81",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Derecho Público por el Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)."
         },
         {
-            "id": "ejec_02_1998_gonzalez",
-            "nombre_completo": "Alejandro González Alcocer",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Sustituto (Designación Legislativa)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "1998-10-05",
-            "fecha_conclusion": "2001-10-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Decreto del Congreso del Estado de Baja California",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC Tomo CV No. 42",
-                "fuente_url": "https:\/\/periodicooficial.bajacalifornia.gob.mx\/",
-                "sha256_evidencia": "66bdf9087641a4f4accf04fc5eb0fed19536ad6867598e4993f03f42252819f7",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_02_2001_elorduy",
-            "nombre_completo": "Eugenio Elorduy Walther",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "2001-11-01",
-            "fecha_conclusion": "2007-10-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne XVII Legislatura \/ IEEBC",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC \/ Instituto Estatal Electoral de Baja California",
-                "fuente_url": "https:\/\/ieebc.mx\/",
-                "sha256_evidencia": "8cd31e2952300692a9243d0241fecade7942f89e602adccc6c543decfd7ed130",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_02_2007_osuna",
-            "nombre_completo": "José Guadalupe Osuna Millán",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "2007-11-01",
-            "fecha_conclusion": "2013-10-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional (Alianza por Baja California)",
-            "bando_solemne_decreto": "Bando Solemne XIX Legislatura \/ IEEBC",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC \/ IEEBC",
-                "fuente_url": "https:\/\/ieebc.mx\/",
-                "sha256_evidencia": "9358536fcc0df07bfb5174835679935932835071a660a2a181d5c7135157e342",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_02_2013_vega",
-            "nombre_completo": "Francisco Arturo Vega de Lamadrid",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "2013-11-01",
-            "fecha_conclusion": "2019-10-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional (Unidos por Baja California)",
-            "bando_solemne_decreto": "Bando Solemne XXI Legislatura \/ Cómputo IEEBC",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC \/ IEEBC",
-                "fuente_url": "https:\/\/ieebc.mx\/",
-                "sha256_evidencia": "3760c12e9af4844d1682dbcc3ab6f48427d4421025d478500b6e0e59b822424f",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_02_2019_bonilla",
-            "nombre_completo": "Jaime Bonilla Valdez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (Periodo de 2 años conforme TEPJF)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "2019-11-01",
-            "fecha_conclusion": "2021-10-31",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional (Juntos Haremos Historia)",
-            "bando_solemne_decreto": "Bando Solemne XXIII Legislatura \/ Sentencia SCJN Acción 112\/2019",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC \/ IEEBC",
-                "fuente_url": "https:\/\/ieebc.mx\/",
-                "sha256_evidencia": "46f36b3a9d1fe2b6633ae5ed29b665b018792e38a7a0fbfdd9c746657f38eddf",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_02_2021_avila",
-            "nombre_completo": "Marina del Pilar Ávila Olmeda",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California",
-            "tipo_mandato": "Constitucional (1ª Gobernadora)",
-            "entidad": "Baja California",
-            "entidad_cve": "02",
-            "fecha_inicio": "2021-11-01",
-            "fecha_conclusion": "2027-10-31",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional",
-            "bando_solemne_decreto": "Bando Solemne XXIV Legislatura \/ Dictamen IEEBC",
-            "ubicacion_despacho": "Edificio del Poder Ejecutivo, Calzada Independencia 994, Mexicali, B.C.",
-            "metadata": {
-                "fuente_nombre": "POEBC \/ IEEBC",
-                "fuente_url": "https:\/\/ieebc.mx\/",
-                "sha256_evidencia": "1482b057a71629e00d995245bb49b342621b6aef370ce4fe3b013ecd21fd9df7",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Derecho por el CETYS Universidad."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

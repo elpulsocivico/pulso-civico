@@ -1,180 +1,195 @@
 {
-    "entidad": "Chiapas",
-    "entidad_cve": "07",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Chiapas (1994-2030)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-    "portal_oficial": "https:\/\/www.chiapas.gob.mx",
-    "periodo_cobertura": "1994-2030 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 8,
-    "generado_el": "2026-10-14 00:37:54",
-    "mandatarios": [
+  "entidad": "Chiapas",
+  "entidad_cve": "07",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Chiapas (1994-2030)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+  "portal_oficial": "https://www.chiapas.gob.mx",
+  "periodo_cobertura": "1994-2030 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 8,
+  "generado_el": "2026-10-14 00:37:54",
+  "mandatarios": [
+    {
+      "id": "ejec_07_1994_robledo",
+      "nombre_completo": "Eduardo Robledo Rincón",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (Licencia definitiva a 68 días)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "1994-12-08",
+      "fecha_conclusion": "1995-02-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne XLIX Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Chiapas (POECH)",
+        "fuente_url": "https://periodicooficial.chiapas.gob.mx/",
+        "sha256_evidencia": "0bca039d3e4779f661fcc068ff205ab8307a3c52332d742f059cb225832f4a9d",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_1995_ruiz",
+      "nombre_completo": "Julio César Ruiz Ferro",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Interino (Designación del Congreso)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "1995-02-14",
+      "fecha_conclusion": "1998-01-07",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto XLIX Legislatura (solicita licencia tras sucesos de Acteal)",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH Tomo LXXV",
+        "fuente_url": "https://periodicooficial.chiapas.gob.mx/",
+        "sha256_evidencia": "3873bdccd53125e6a17ffb726dc56d4e0406501d33fe0078f3d3ddac695b79b3",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_1998_albores",
+      "nombre_completo": "Roberto Armando Albores Guillén",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "1998-01-07",
+      "fecha_conclusion": "2000-12-07",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto L Legislatura del Congreso del Estado de Chiapas",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH Tomo LXXVIII",
+        "fuente_url": "https://periodicooficial.chiapas.gob.mx/",
+        "sha256_evidencia": "b6914464d4a728fa3e306a802e0ea80f3bc18da62d97638b424d329a62f811db",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_2000_salazar",
+      "nombre_completo": "Pablo Salazar Mendiguchía",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Chiapas)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "2000-12-08",
+      "fecha_conclusion": "2006-12-07",
+      "partido": "PAN",
+      "partido_nombre_completo": "Alianza por Chiapas (PAN-PRD-PT-PVEM-CD-PAS-PCD-PSN)",
+      "bando_solemne_decreto": "Bando Solemne LI Legislatura / CEE Chiapas",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH / IEPC Chiapas",
+        "fuente_url": "https://www.iepc-chiapas.org.mx/",
+        "sha256_evidencia": "61e580e38363417b2afd41b203dfbc3f2cd4a97dc7d760ef924d072347d33e20",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_2006_sabines",
+      "nombre_completo": "Juan José Sabines Guerrero",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "2006-12-08",
+      "fecha_conclusion": "2012-12-07",
+      "partido": "PRD",
+      "partido_nombre_completo": "Coalición Por el Bien de Todos (PRD-PT-Convergencia)",
+      "bando_solemne_decreto": "Bando Solemne LIII Legislatura / IEE Chiapas",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH / IEPC Chiapas",
+        "fuente_url": "https://www.iepc-chiapas.org.mx/",
+        "sha256_evidencia": "3b12ecc81852a22b196785bb4c01fd7bb0b25cb3bb05f83afed143001aa2bd05",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_2012_velasco",
+      "nombre_completo": "Manuel Velasco Coello",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "2012-12-08",
+      "fecha_conclusion": "2018-12-07",
+      "partido": "PVEM",
+      "partido_nombre_completo": "Compromiso por Chiapas (PVEM-PRI-PANAL)",
+      "bando_solemne_decreto": "Bando Solemne LV Legislatura / IEPC Chiapas",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH / IEPC Chiapas",
+        "fuente_url": "https://www.iepc-chiapas.org.mx/",
+        "sha256_evidencia": "ab4c4f7dbe6e721bb5f05075f9929e1d7435d91734acf265e57c96969cef951a",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_2018_escandon",
+      "nombre_completo": "Rutilio Cruz Escandón Cadenas",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "2018-12-08",
+      "fecha_conclusion": "2024-12-07",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Haremos Historia (MORENA-PT-PES)",
+      "bando_solemne_decreto": "Bando Solemne LXVII Legislatura / IEPC Chiapas",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH / IEPC Chiapas",
+        "fuente_url": "https://www.iepc-chiapas.org.mx/",
+        "sha256_evidencia": "ae1986437d680e8be8aa1b3f5bd8054e6cb6f0749d51c39196cb9da53b38a45a",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_07_2024_ramirez",
+      "nombre_completo": "Oscar Eduardo Ramírez Aguilar",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Chiapas",
+      "entidad_cve": "07",
+      "fecha_inicio": "2024-12-08",
+      "fecha_conclusion": "2030-12-07",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Sigamos Haciendo Historia en Chiapas (MORENA-PT-PVEM-RSP-ChiapasUnido-MoverAChiapas)",
+      "bando_solemne_decreto": "Bando Solemne LXIX Legislatura / Acuerdo IEPC/CG-A/198/2024",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s/n, Centro, Tuxtla Gutiérrez, Chis.",
+      "metadata": {
+        "fuente_nombre": "POECH / IEPC Chiapas",
+        "fuente_url": "https://www.iepc-chiapas.org.mx/",
+        "sha256_evidencia": "d757ccabfbe272424849641efce27f8c27b60bb416da8babbdb80afd086bcec3",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Doctorado",
+      "preparacion_academica": "Derecho y Ciencias Políticas",
+      "alma_mater": "UNACH / INAP",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_07_1994_robledo",
-            "nombre_completo": "Eduardo Robledo Rincón",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (Licencia definitiva a 68 días)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "1994-12-08",
-            "fecha_conclusion": "1995-02-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne XLIX Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Chiapas (POECH)",
-                "fuente_url": "https:\/\/periodicooficial.chiapas.gob.mx\/",
-                "sha256_evidencia": "0bca039d3e4779f661fcc068ff205ab8307a3c52332d742f059cb225832f4a9d",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Doctorado en Ciencias Políticas por el Instituto Nacional de Administración Pública (INAP)."
         },
         {
-            "id": "ejec_07_1995_ruiz",
-            "nombre_completo": "Julio César Ruiz Ferro",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Interino (Designación del Congreso)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "1995-02-14",
-            "fecha_conclusion": "1998-01-07",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto XLIX Legislatura (solicita licencia tras sucesos de Acteal)",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH Tomo LXXV",
-                "fuente_url": "https:\/\/periodicooficial.chiapas.gob.mx\/",
-                "sha256_evidencia": "3873bdccd53125e6a17ffb726dc56d4e0406501d33fe0078f3d3ddac695b79b3",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Derecho Constitucional y Amparo por el Instituto de Estudios Superiores Manuel José de Rojas."
         },
         {
-            "id": "ejec_07_1998_albores",
-            "nombre_completo": "Roberto Armando Albores Guillén",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "1998-01-07",
-            "fecha_conclusion": "2000-12-07",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto L Legislatura del Congreso del Estado de Chiapas",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH Tomo LXXVIII",
-                "fuente_url": "https:\/\/periodicooficial.chiapas.gob.mx\/",
-                "sha256_evidencia": "b6914464d4a728fa3e306a802e0ea80f3bc18da62d97638b424d329a62f811db",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_07_2000_salazar",
-            "nombre_completo": "Pablo Salazar Mendiguchía",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Chiapas)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "2000-12-08",
-            "fecha_conclusion": "2006-12-07",
-            "partido": "PAN",
-            "partido_nombre_completo": "Alianza por Chiapas (PAN-PRD-PT-PVEM-CD-PAS-PCD-PSN)",
-            "bando_solemne_decreto": "Bando Solemne LI Legislatura \/ CEE Chiapas",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH \/ IEPC Chiapas",
-                "fuente_url": "https:\/\/www.iepc-chiapas.org.mx\/",
-                "sha256_evidencia": "61e580e38363417b2afd41b203dfbc3f2cd4a97dc7d760ef924d072347d33e20",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_07_2006_sabines",
-            "nombre_completo": "Juan José Sabines Guerrero",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "2006-12-08",
-            "fecha_conclusion": "2012-12-07",
-            "partido": "PRD",
-            "partido_nombre_completo": "Coalición Por el Bien de Todos (PRD-PT-Convergencia)",
-            "bando_solemne_decreto": "Bando Solemne LIII Legislatura \/ IEE Chiapas",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH \/ IEPC Chiapas",
-                "fuente_url": "https:\/\/www.iepc-chiapas.org.mx\/",
-                "sha256_evidencia": "3b12ecc81852a22b196785bb4c01fd7bb0b25cb3bb05f83afed143001aa2bd05",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_07_2012_velasco",
-            "nombre_completo": "Manuel Velasco Coello",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "2012-12-08",
-            "fecha_conclusion": "2018-12-07",
-            "partido": "PVEM",
-            "partido_nombre_completo": "Compromiso por Chiapas (PVEM-PRI-PANAL)",
-            "bando_solemne_decreto": "Bando Solemne LV Legislatura \/ IEPC Chiapas",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH \/ IEPC Chiapas",
-                "fuente_url": "https:\/\/www.iepc-chiapas.org.mx\/",
-                "sha256_evidencia": "ab4c4f7dbe6e721bb5f05075f9929e1d7435d91734acf265e57c96969cef951a",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_07_2018_escandon",
-            "nombre_completo": "Rutilio Cruz Escandón Cadenas",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "2018-12-08",
-            "fecha_conclusion": "2024-12-07",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Haremos Historia (MORENA-PT-PES)",
-            "bando_solemne_decreto": "Bando Solemne LXVII Legislatura \/ IEPC Chiapas",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH \/ IEPC Chiapas",
-                "fuente_url": "https:\/\/www.iepc-chiapas.org.mx\/",
-                "sha256_evidencia": "ae1986437d680e8be8aa1b3f5bd8054e6cb6f0749d51c39196cb9da53b38a45a",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_07_2024_ramirez",
-            "nombre_completo": "Oscar Eduardo Ramírez Aguilar",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Chiapas",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Chiapas",
-            "entidad_cve": "07",
-            "fecha_inicio": "2024-12-08",
-            "fecha_conclusion": "2030-12-07",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Sigamos Haciendo Historia en Chiapas (MORENA-PT-PVEM-RSP-ChiapasUnido-MoverAChiapas)",
-            "bando_solemne_decreto": "Bando Solemne LXIX Legislatura \/ Acuerdo IEPC\/CG-A\/198\/2024",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Central Pte. s\/n, Centro, Tuxtla Gutiérrez, Chis.",
-            "metadata": {
-                "fuente_nombre": "POECH \/ IEPC Chiapas",
-                "fuente_url": "https:\/\/www.iepc-chiapas.org.mx\/",
-                "sha256_evidencia": "d757ccabfbe272424849641efce27f8c27b60bb416da8babbdb80afd086bcec3",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Derecho por la Universidad Autónoma de Chiapas (UNACH)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

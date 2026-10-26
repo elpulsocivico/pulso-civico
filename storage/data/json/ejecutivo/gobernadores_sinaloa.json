@@ -1,138 +1,153 @@
 {
-    "entidad": "Sinaloa",
-    "entidad_cve": "25",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Sinaloa (1993-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-    "portal_oficial": "https:\/\/sinaloa.gob.mx",
-    "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 6,
-    "generado_el": "2026-10-14 00:31:07",
-    "mandatarios": [
+  "entidad": "Sinaloa",
+  "entidad_cve": "25",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Sinaloa (1993-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+  "portal_oficial": "https://sinaloa.gob.mx",
+  "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 6,
+  "generado_el": "2026-10-14 00:31:07",
+  "mandatarios": [
+    {
+      "id": "ejec_25_1993_vega",
+      "nombre_completo": "Renato Vega Alvarado",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "1993-01-01",
+      "fecha_conclusion": "1998-12-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial El Estado de Sinaloa",
+        "fuente_url": "https://periodicooficial.sinaloa.gob.mx/",
+        "sha256_evidencia": "de37cbedf1aea5872b006de62c29c8d4591fa05153dab1216bb017b633e32eeb",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_25_1999_millan",
+      "nombre_completo": "Juan S. Millán Lizárraga",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "1999-01-01",
+      "fecha_conclusion": "2004-12-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVI Legislatura / CEE Sinaloa",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "POES / Instituto Electoral del Estado de Sinaloa",
+        "fuente_url": "https://www.ieesinaloa.mx/",
+        "sha256_evidencia": "85a1956b328409cbd1eb6155cdb7091a6329c4bc378e5791c8fc265a95999557",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_25_2005_aguilar",
+      "nombre_completo": "Jesús Alberto Aguilar Padilla",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "2005-01-01",
+      "fecha_conclusion": "2010-12-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVIII Legislatura / CEE Sinaloa",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "POES / IEES",
+        "fuente_url": "https://www.ieesinaloa.mx/",
+        "sha256_evidencia": "2b4227ea55571e5660195f3f1e676a83d8067e1c82f748f232dc637296a53df5",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_25_2011_lopez",
+      "nombre_completo": "Mario López Valdez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Sinaloa)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "2011-01-01",
+      "fecha_conclusion": "2016-12-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Coalición El Cambio es Ahora por Sinaloa (PAN-PRD-PT)",
+      "bando_solemne_decreto": "Bando Solemne LX Legislatura / CEE Sinaloa",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "POES / IEES",
+        "fuente_url": "https://www.ieesinaloa.mx/",
+        "sha256_evidencia": "39a805fad30ed23351ab050946bc5857e6681f0af02741b727086796457b9c6f",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_25_2017_ordaz",
+      "nombre_completo": "Quirino Ordaz Coppel",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (Periodo ajustado de 4 años 10 meses)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "2017-01-01",
+      "fecha_conclusion": "2021-10-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL)",
+      "bando_solemne_decreto": "Bando Solemne LXII Legislatura / IEES",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "POES / IEES",
+        "fuente_url": "https://www.ieesinaloa.mx/",
+        "sha256_evidencia": "2c15816a6862180c322815e00841186902526e1475d420b473f09403c48f8dd1",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_25_2021_rocha",
+      "nombre_completo": "Rubén Rocha Moya",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Sinaloa",
+      "entidad_cve": "25",
+      "fecha_inicio": "2021-11-01",
+      "fecha_conclusion": "2027-10-31",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional (MORENA-PAS)",
+      "bando_solemne_decreto": "Bando Solemne LXIII Legislatura / Cómputo IEES",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s/n, Centro Sinaloa, Culiacán, Sin.",
+      "metadata": {
+        "fuente_nombre": "POES / IEES",
+        "fuente_url": "https://www.ieesinaloa.mx/",
+        "sha256_evidencia": "4941a4c63013383e5a55d8458267745cf66ef11faba6da3650dfe96eeb0dc6ed",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Doctorado",
+      "preparacion_academica": "Educación y Ciencias Sociales",
+      "alma_mater": "Universidad Autónoma de Sinaloa (UAS)",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_25_1993_vega",
-            "nombre_completo": "Renato Vega Alvarado",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "1993-01-01",
-            "fecha_conclusion": "1998-12-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial El Estado de Sinaloa",
-                "fuente_url": "https:\/\/periodicooficial.sinaloa.gob.mx\/",
-                "sha256_evidencia": "de37cbedf1aea5872b006de62c29c8d4591fa05153dab1216bb017b633e32eeb",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Doctorado en Ciencias Sociales por la Universidad Autónoma de Sinaloa (UAS)."
         },
         {
-            "id": "ejec_25_1999_millan",
-            "nombre_completo": "Juan S. Millán Lizárraga",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "1999-01-01",
-            "fecha_conclusion": "2004-12-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVI Legislatura \/ CEE Sinaloa",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "POES \/ Instituto Electoral del Estado de Sinaloa",
-                "fuente_url": "https:\/\/www.ieesinaloa.mx\/",
-                "sha256_evidencia": "85a1956b328409cbd1eb6155cdb7091a6329c4bc378e5791c8fc265a95999557",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Educación por la Universidad Autónoma de Querétaro."
         },
         {
-            "id": "ejec_25_2005_aguilar",
-            "nombre_completo": "Jesús Alberto Aguilar Padilla",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "2005-01-01",
-            "fecha_conclusion": "2010-12-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVIII Legislatura \/ CEE Sinaloa",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "POES \/ IEES",
-                "fuente_url": "https:\/\/www.ieesinaloa.mx\/",
-                "sha256_evidencia": "2b4227ea55571e5660195f3f1e676a83d8067e1c82f748f232dc637296a53df5",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_25_2011_lopez",
-            "nombre_completo": "Mario López Valdez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Sinaloa)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "2011-01-01",
-            "fecha_conclusion": "2016-12-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Coalición El Cambio es Ahora por Sinaloa (PAN-PRD-PT)",
-            "bando_solemne_decreto": "Bando Solemne LX Legislatura \/ CEE Sinaloa",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "POES \/ IEES",
-                "fuente_url": "https:\/\/www.ieesinaloa.mx\/",
-                "sha256_evidencia": "39a805fad30ed23351ab050946bc5857e6681f0af02741b727086796457b9c6f",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_25_2017_ordaz",
-            "nombre_completo": "Quirino Ordaz Coppel",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (Periodo ajustado de 4 años 10 meses)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "2017-01-01",
-            "fecha_conclusion": "2021-10-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL)",
-            "bando_solemne_decreto": "Bando Solemne LXII Legislatura \/ IEES",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "POES \/ IEES",
-                "fuente_url": "https:\/\/www.ieesinaloa.mx\/",
-                "sha256_evidencia": "2c15816a6862180c322815e00841186902526e1475d420b473f09403c48f8dd1",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_25_2021_rocha",
-            "nombre_completo": "Rubén Rocha Moya",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Sinaloa",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Sinaloa",
-            "entidad_cve": "25",
-            "fecha_inicio": "2021-11-01",
-            "fecha_conclusion": "2027-10-31",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional (MORENA-PAS)",
-            "bando_solemne_decreto": "Bando Solemne LXIII Legislatura \/ Cómputo IEES",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Insurgentes s\/n, Centro Sinaloa, Culiacán, Sin.",
-            "metadata": {
-                "fuente_nombre": "POES \/ IEES",
-                "fuente_url": "https:\/\/www.ieesinaloa.mx\/",
-                "sha256_evidencia": "4941a4c63013383e5a55d8458267745cf66ef11faba6da3650dfe96eeb0dc6ed",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Educación Media por la Escuela Normal Superior de Oaxaca."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

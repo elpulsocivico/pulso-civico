@@ -1,159 +1,174 @@
 {
-    "entidad": "Estado de México",
-    "entidad_cve": "15",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Estado de México (1993-2029)",
-    "sede_poder_ejecutivo": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-    "portal_oficial": "https:\/\/edomex.gob.mx",
-    "periodo_cobertura": "1993-2029 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 7,
-    "generado_el": "2026-10-14 00:36:08",
-    "mandatarios": [
+  "entidad": "Estado de México",
+  "entidad_cve": "15",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Estado de México (1993-2029)",
+  "sede_poder_ejecutivo": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+  "portal_oficial": "https://edomex.gob.mx",
+  "periodo_cobertura": "1993-2029 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 7,
+  "generado_el": "2026-10-14 00:36:08",
+  "mandatarios": [
+    {
+      "id": "ejec_15_1993_chuayffet",
+      "nombre_completo": "Emilio Chuayffet Chemor",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (Licencia definitiva en 1995)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "1993-09-16",
+      "fecha_conclusion": "1995-07-02",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LI Legislatura",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno del Estado de México",
+        "fuente_url": "https://legislacion.edomex.gob.mx/gaceta",
+        "sha256_evidencia": "1a9151e948c45c5fc5c8489284aee202c44a0e41576e1861a6f8dab25e7fe9f9",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_1995_camacho",
+      "nombre_completo": "César Camacho Quiroz",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "1995-07-02",
+      "fecha_conclusion": "1999-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto LII Legislatura del Congreso del Estado de México",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno No. 1",
+        "fuente_url": "https://legislacion.edomex.gob.mx/gaceta",
+        "sha256_evidencia": "d3a84200652a98c4d9af019d46a6d3f17bb93d6344665b730b9b4c574816f15c",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_1999_montiel",
+      "nombre_completo": "Arturo Montiel Rojas",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "1999-09-16",
+      "fecha_conclusion": "2005-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIII Legislatura / IEEM",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno / Instituto Electoral del Estado de México",
+        "fuente_url": "https://www.ieem.org.mx/",
+        "sha256_evidencia": "3b44713b510711a84413f920353c0fae296bcbe3eca9b368ab216a9d7339911c",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_2005_pena",
+      "nombre_completo": "Enrique Peña Nieto",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "2005-09-16",
+      "fecha_conclusion": "2011-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Alianza por México (PRI-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LV Legislatura / IEEM",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno / IEEM",
+        "fuente_url": "https://www.ieem.org.mx/",
+        "sha256_evidencia": "03680ba62c5d8a816a986fd65f3a158803cc87434033bfc687db63edd6ef0c66",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_2011_avila",
+      "nombre_completo": "Eruviel Ávila Villegas",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "2011-09-16",
+      "fecha_conclusion": "2017-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Unidos por Ti (PRI-PVEM-PANAL)",
+      "bando_solemne_decreto": "Bando Solemne LVII Legislatura / IEEM",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno / IEEM",
+        "fuente_url": "https://www.ieem.org.mx/",
+        "sha256_evidencia": "747f5b2f2055404b1cd34ca4938655ff6199604032f4fd13e85501d279d28fa0",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_2017_delmazo",
+      "nombre_completo": "Alfredo del Mazo Maza",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "2017-09-16",
+      "fecha_conclusion": "2023-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Coalición PRI-PVEM-PANAL-PES",
+      "bando_solemne_decreto": "Bando Solemne LIX Legislatura / Cómputo IEEM / Sentencia TEPJF",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno / IEEM",
+        "fuente_url": "https://www.ieem.org.mx/",
+        "sha256_evidencia": "b4fff61349f35901b4758113d5300ea69ff0f643fb95c62e6ff65cc82757aabe",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_15_2023_gomez",
+      "nombre_completo": "Delfina Gómez Álvarez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
+      "tipo_mandato": "Constitucional (1ª Alternancia y 1ª Gobernadora en 94 años)",
+      "entidad": "Estado de México",
+      "entidad_cve": "15",
+      "fecha_inicio": "2023-09-16",
+      "fecha_conclusion": "2029-09-15",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Hacemos Historia en el Estado de México (MORENA-PT-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LXI Legislatura / Acuerdo IEEM/CG/91/2023",
+      "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
+      "metadata": {
+        "fuente_nombre": "Gaceta del Gobierno No. 49 / IEEM",
+        "fuente_url": "https://www.ieem.org.mx/",
+        "sha256_evidencia": "61e85a870eac51dcd0f70e3454fde77953a7c5e454d8a701b756b3e1ed131ee3",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Pedagogía y Administración Educativa",
+      "alma_mater": "UPN / Tec de Monterrey (ITESM)",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_15_1993_chuayffet",
-            "nombre_completo": "Emilio Chuayffet Chemor",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (Licencia definitiva en 1995)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "1993-09-16",
-            "fecha_conclusion": "1995-07-02",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LI Legislatura",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno del Estado de México",
-                "fuente_url": "https:\/\/legislacion.edomex.gob.mx\/gaceta",
-                "sha256_evidencia": "1a9151e948c45c5fc5c8489284aee202c44a0e41576e1861a6f8dab25e7fe9f9",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Administración de Instituciones Educativas por el ITESM."
         },
         {
-            "id": "ejec_15_1995_camacho",
-            "nombre_completo": "César Camacho Quiroz",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "1995-07-02",
-            "fecha_conclusion": "1999-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto LII Legislatura del Congreso del Estado de México",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno No. 1",
-                "fuente_url": "https:\/\/legislacion.edomex.gob.mx\/gaceta",
-                "sha256_evidencia": "d3a84200652a98c4d9af019d46a6d3f17bb93d6344665b730b9b4c574816f15c",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Pedagogía por el Centro de Estudios Superiores en Educación."
         },
         {
-            "id": "ejec_15_1999_montiel",
-            "nombre_completo": "Arturo Montiel Rojas",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "1999-09-16",
-            "fecha_conclusion": "2005-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIII Legislatura \/ IEEM",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno \/ Instituto Electoral del Estado de México",
-                "fuente_url": "https:\/\/www.ieem.org.mx\/",
-                "sha256_evidencia": "3b44713b510711a84413f920353c0fae296bcbe3eca9b368ab216a9d7339911c",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_15_2005_pena",
-            "nombre_completo": "Enrique Peña Nieto",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "2005-09-16",
-            "fecha_conclusion": "2011-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Alianza por México (PRI-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LV Legislatura \/ IEEM",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno \/ IEEM",
-                "fuente_url": "https:\/\/www.ieem.org.mx\/",
-                "sha256_evidencia": "03680ba62c5d8a816a986fd65f3a158803cc87434033bfc687db63edd6ef0c66",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_15_2011_avila",
-            "nombre_completo": "Eruviel Ávila Villegas",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "2011-09-16",
-            "fecha_conclusion": "2017-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Unidos por Ti (PRI-PVEM-PANAL)",
-            "bando_solemne_decreto": "Bando Solemne LVII Legislatura \/ IEEM",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno \/ IEEM",
-                "fuente_url": "https:\/\/www.ieem.org.mx\/",
-                "sha256_evidencia": "747f5b2f2055404b1cd34ca4938655ff6199604032f4fd13e85501d279d28fa0",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_15_2017_delmazo",
-            "nombre_completo": "Alfredo del Mazo Maza",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "2017-09-16",
-            "fecha_conclusion": "2023-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Coalición PRI-PVEM-PANAL-PES",
-            "bando_solemne_decreto": "Bando Solemne LIX Legislatura \/ Cómputo IEEM \/ Sentencia TEPJF",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno \/ IEEM",
-                "fuente_url": "https:\/\/www.ieem.org.mx\/",
-                "sha256_evidencia": "b4fff61349f35901b4758113d5300ea69ff0f643fb95c62e6ff65cc82757aabe",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_15_2023_gomez",
-            "nombre_completo": "Delfina Gómez Álvarez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Estado de México",
-            "tipo_mandato": "Constitucional (1ª Alternancia y 1ª Gobernadora en 94 años)",
-            "entidad": "Estado de México",
-            "entidad_cve": "15",
-            "fecha_inicio": "2023-09-16",
-            "fecha_conclusion": "2029-09-15",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Hacemos Historia en el Estado de México (MORENA-PT-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LXI Legislatura \/ Acuerdo IEEM\/CG\/91\/2023",
-            "ubicacion_despacho": "Palacio del Poder Ejecutivo, Lerdo de Tejada Pte. 300, Centro, Toluca, Edo. Méx.",
-            "metadata": {
-                "fuente_nombre": "Gaceta del Gobierno No. 49 \/ IEEM",
-                "fuente_url": "https:\/\/www.ieem.org.mx\/",
-                "sha256_evidencia": "61e85a870eac51dcd0f70e3454fde77953a7c5e454d8a701b756b3e1ed131ee3",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Educación Básica por la Universidad Pedagógica Nacional (UPN)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

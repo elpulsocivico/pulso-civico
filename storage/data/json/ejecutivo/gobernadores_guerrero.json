@@ -1,180 +1,189 @@
 {
-    "entidad": "Guerrero",
-    "entidad_cve": "12",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Guerrero (1993-2027)",
-    "sede_poder_ejecutivo": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-    "portal_oficial": "https:\/\/guerrero.gob.mx",
-    "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 8,
-    "generado_el": "2026-10-14 00:37:54",
-    "mandatarios": [
+  "entidad": "Guerrero",
+  "entidad_cve": "12",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Guerrero (1993-2027)",
+  "sede_poder_ejecutivo": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+  "portal_oficial": "https://guerrero.gob.mx",
+  "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 8,
+  "generado_el": "2026-10-14 00:37:54",
+  "mandatarios": [
+    {
+      "id": "ejec_12_1993_figueroa",
+      "nombre_completo": "Rubén Figueroa Alcocer",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (Licencia definitiva en 1996 tras Aguas Blancas)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "1993-04-01",
+      "fecha_conclusion": "1996-03-12",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Guerrero (POEG)",
+        "fuente_url": "https://periodicooficial.guerrero.gob.mx/",
+        "sha256_evidencia": "6538a89c268bb27ad5460ae136990b1c3b008c9e593815a5adcea2f74ca32691",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_1996_aguirre",
+      "nombre_completo": "Ángel Heladio Aguirre Rivero",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "1996-03-12",
+      "fecha_conclusion": "1999-03-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto LIV Legislatura del Congreso del Estado de Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG",
+        "fuente_url": "https://periodicooficial.guerrero.gob.mx/",
+        "sha256_evidencia": "2c1d685e572f307713a08a745837c2ecc76d6b8668fc79e26d2b5a866a564aab",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_1999_juarez",
+      "nombre_completo": "René Juárez Cisneros",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "1999-04-01",
+      "fecha_conclusion": "2005-03-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVI Legislatura / CEE Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG / IEPC Guerrero",
+        "fuente_url": "https://iepcgro.mx/",
+        "sha256_evidencia": "0666d4e99ccb425a2c048462dfddb74719ce263eb7b3153663a0080df2461efa",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_2005_torreblanca",
+      "nombre_completo": "Carlos Zeferino Torreblanca Galindo",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Guerrero)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "2005-04-01",
+      "fecha_conclusion": "2011-03-31",
+      "partido": "PRD",
+      "partido_nombre_completo": "Partido de la Revolución Democrática",
+      "bando_solemne_decreto": "Bando Solemne LVIII Legislatura / IEE Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG / IEPC Guerrero",
+        "fuente_url": "https://iepcgro.mx/",
+        "sha256_evidencia": "53ba17419b595f2c9f613de068b9c545b2e8c987e9856ca57e8b59a8e0fba1ae",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_2011_aguirre",
+      "nombre_completo": "Ángel Heladio Aguirre Rivero",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (Licencia definitiva en 2014 tras Ayotzinapa)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "2011-04-01",
+      "fecha_conclusion": "2014-10-26",
+      "partido": "PRD",
+      "partido_nombre_completo": "Guerrero nos Une (PRD-PT-Convergencia)",
+      "bando_solemne_decreto": "Bando Solemne LIX Legislatura / IEE Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG",
+        "fuente_url": "https://periodicooficial.guerrero.gob.mx/",
+        "sha256_evidencia": "75e12811b5fb684ab0a4e20a5764c4663ecb16c416d70ab7c819540ee334ea87",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_2014_ortega",
+      "nombre_completo": "Salvador Rogelio Ortega Martínez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Interino y Sustituto (Designación del Congreso)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "2014-10-26",
+      "fecha_conclusion": "2015-10-26",
+      "partido": "PRD",
+      "partido_nombre_completo": "Propuesta Ciudadana Institucional",
+      "bando_solemne_decreto": "Decreto LX Legislatura del Congreso del Estado de Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG",
+        "fuente_url": "https://periodicooficial.guerrero.gob.mx/",
+        "sha256_evidencia": "022c9ec14069638ffd388730887ec0c76d2beace58a29fe5fd54a4aac6c598e4",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_2015_astudillo",
+      "nombre_completo": "Héctor Antonio Astudillo Flores",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (Periodo ajustado a 5 años 11 meses)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "2015-10-27",
+      "fecha_conclusion": "2021-10-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Por un Guerrero con Orden y Paz (PRI-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LXI Legislatura / IEPC Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG / IEPC Guerrero",
+        "fuente_url": "https://iepcgro.mx/",
+        "sha256_evidencia": "b78fd46664cabc7732a3130de1ae91b965f517ed9f88ea2472b02b93a8a13976",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_12_2021_salgado",
+      "nombre_completo": "Evelyn Cecia Salgado Pineda",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
+      "tipo_mandato": "Constitucional (1ª Gobernadora de Guerrero)",
+      "entidad": "Guerrero",
+      "entidad_cve": "12",
+      "fecha_inicio": "2021-10-15",
+      "fecha_conclusion": "2027-10-14",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional",
+      "bando_solemne_decreto": "Bando Solemne LXIII Legislatura / Cómputo IEPC Guerrero",
+      "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
+      "metadata": {
+        "fuente_nombre": "POEG No. 83 / IEPC Guerrero",
+        "fuente_url": "https://iepcgro.mx/",
+        "sha256_evidencia": "dfe5d0a3464709098055a9417b1dd59de158b143ca8fe8563e0eeca4e2c8848f",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "alma_mater": "Universidad La Salle Acapulco",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_12_1993_figueroa",
-            "nombre_completo": "Rubén Figueroa Alcocer",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (Licencia definitiva en 1996 tras Aguas Blancas)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "1993-04-01",
-            "fecha_conclusion": "1996-03-12",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Guerrero (POEG)",
-                "fuente_url": "https:\/\/periodicooficial.guerrero.gob.mx\/",
-                "sha256_evidencia": "6538a89c268bb27ad5460ae136990b1c3b008c9e593815a5adcea2f74ca32691",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_1996_aguirre",
-            "nombre_completo": "Ángel Heladio Aguirre Rivero",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "1996-03-12",
-            "fecha_conclusion": "1999-03-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto LIV Legislatura del Congreso del Estado de Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG",
-                "fuente_url": "https:\/\/periodicooficial.guerrero.gob.mx\/",
-                "sha256_evidencia": "2c1d685e572f307713a08a745837c2ecc76d6b8668fc79e26d2b5a866a564aab",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_1999_juarez",
-            "nombre_completo": "René Juárez Cisneros",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "1999-04-01",
-            "fecha_conclusion": "2005-03-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVI Legislatura \/ CEE Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG \/ IEPC Guerrero",
-                "fuente_url": "https:\/\/iepcgro.mx\/",
-                "sha256_evidencia": "0666d4e99ccb425a2c048462dfddb74719ce263eb7b3153663a0080df2461efa",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_2005_torreblanca",
-            "nombre_completo": "Carlos Zeferino Torreblanca Galindo",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Guerrero)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "2005-04-01",
-            "fecha_conclusion": "2011-03-31",
-            "partido": "PRD",
-            "partido_nombre_completo": "Partido de la Revolución Democrática",
-            "bando_solemne_decreto": "Bando Solemne LVIII Legislatura \/ IEE Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG \/ IEPC Guerrero",
-                "fuente_url": "https:\/\/iepcgro.mx\/",
-                "sha256_evidencia": "53ba17419b595f2c9f613de068b9c545b2e8c987e9856ca57e8b59a8e0fba1ae",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_2011_aguirre",
-            "nombre_completo": "Ángel Heladio Aguirre Rivero",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (Licencia definitiva en 2014 tras Ayotzinapa)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "2011-04-01",
-            "fecha_conclusion": "2014-10-26",
-            "partido": "PRD",
-            "partido_nombre_completo": "Guerrero nos Une (PRD-PT-Convergencia)",
-            "bando_solemne_decreto": "Bando Solemne LIX Legislatura \/ IEE Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG",
-                "fuente_url": "https:\/\/periodicooficial.guerrero.gob.mx\/",
-                "sha256_evidencia": "75e12811b5fb684ab0a4e20a5764c4663ecb16c416d70ab7c819540ee334ea87",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_2014_ortega",
-            "nombre_completo": "Salvador Rogelio Ortega Martínez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Interino y Sustituto (Designación del Congreso)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "2014-10-26",
-            "fecha_conclusion": "2015-10-26",
-            "partido": "PRD",
-            "partido_nombre_completo": "Propuesta Ciudadana Institucional",
-            "bando_solemne_decreto": "Decreto LX Legislatura del Congreso del Estado de Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG",
-                "fuente_url": "https:\/\/periodicooficial.guerrero.gob.mx\/",
-                "sha256_evidencia": "022c9ec14069638ffd388730887ec0c76d2beace58a29fe5fd54a4aac6c598e4",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_2015_astudillo",
-            "nombre_completo": "Héctor Antonio Astudillo Flores",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (Periodo ajustado a 5 años 11 meses)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "2015-10-27",
-            "fecha_conclusion": "2021-10-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Por un Guerrero con Orden y Paz (PRI-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LXI Legislatura \/ IEPC Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG \/ IEPC Guerrero",
-                "fuente_url": "https:\/\/iepcgro.mx\/",
-                "sha256_evidencia": "b78fd46664cabc7732a3130de1ae91b965f517ed9f88ea2472b02b93a8a13976",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_12_2021_salgado",
-            "nombre_completo": "Evelyn Cecia Salgado Pineda",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Guerrero",
-            "tipo_mandato": "Constitucional (1ª Gobernadora de Guerrero)",
-            "entidad": "Guerrero",
-            "entidad_cve": "12",
-            "fecha_inicio": "2021-10-15",
-            "fecha_conclusion": "2027-10-14",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional",
-            "bando_solemne_decreto": "Bando Solemne LXIII Legislatura \/ Cómputo IEPC Guerrero",
-            "ubicacion_despacho": "Edificio Centro del Poder Ejecutivo, Boulevard René Juárez Cisneros 62, Ciudad de los Servicios, Chilpancingo, Gro.",
-            "metadata": {
-                "fuente_nombre": "POEG No. 83 \/ IEPC Guerrero",
-                "fuente_url": "https:\/\/iepcgro.mx\/",
-                "sha256_evidencia": "dfe5d0a3464709098055a9417b1dd59de158b143ca8fe8563e0eeca4e2c8848f",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Derecho por la Universidad La Salle."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

@@ -1,138 +1,147 @@
 {
-    "entidad": "Baja California Sur",
-    "entidad_cve": "03",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Baja California Sur (1993-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-    "portal_oficial": "https:\/\/www.bcs.gob.mx",
-    "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 6,
-    "generado_el": "2026-10-14 00:31:07",
-    "mandatarios": [
+  "entidad": "Baja California Sur",
+  "entidad_cve": "03",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Baja California Sur (1993-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+  "portal_oficial": "https://www.bcs.gob.mx",
+  "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 6,
+  "generado_el": "2026-10-14 00:31:07",
+  "mandatarios": [
+    {
+      "id": "ejec_03_1993_mercado",
+      "nombre_completo": "Guillermo Mercado Romero",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "1993-04-05",
+      "fecha_conclusion": "1999-04-04",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne VII Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "Boletín Oficial del Gobierno del Estado de BCS (BOGEBCS)",
+        "fuente_url": "https://boletin.bcs.gob.mx/",
+        "sha256_evidencia": "15bea333941798090a6ec1a6daf6e7fecb0cd9eadeb607f0c1c5097a99cd2aa3",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_03_1999_cota",
+      "nombre_completo": "Leonel Efraín Cota Montaño",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (1ª Alternancia)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "1999-04-05",
+      "fecha_conclusion": "2005-04-04",
+      "partido": "PRD",
+      "partido_nombre_completo": "Partido de la Revolución Democrática",
+      "bando_solemne_decreto": "Bando Solemne IX Legislatura / IEEBCS",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "BOGEBCS / Instituto Estatal Electoral de BCS",
+        "fuente_url": "https://ieebcs.org.mx/",
+        "sha256_evidencia": "5832fae7bfda47253400895cf02842ca902db828f1ed1219c867088a72530669",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_03_2005_agundez",
+      "nombre_completo": "Narciso Agúndez Montaño",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "2005-04-05",
+      "fecha_conclusion": "2011-04-04",
+      "partido": "PRD",
+      "partido_nombre_completo": "Partido de la Revolución Democrática",
+      "bando_solemne_decreto": "Bando Solemne XI Legislatura / IEEBCS",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "BOGEBCS / IEEBCS",
+        "fuente_url": "https://ieebcs.org.mx/",
+        "sha256_evidencia": "8eb1e91c2c9f721b60b022ff4385252782cc5962d40b409be817060424e41ddd",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_03_2011_covarrubias",
+      "nombre_completo": "Marcos Alberto Covarrubias Villaseñor",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (Ajustado a 4 años 5 meses)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "2011-04-05",
+      "fecha_conclusion": "2015-09-09",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne XIII Legislatura / IEEBCS",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "BOGEBCS / IEEBCS",
+        "fuente_url": "https://ieebcs.org.mx/",
+        "sha256_evidencia": "d69fb6f5909370c34774486d2332b1725a5b04bca1d0e9ee6d8ed29946a50c0b",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_03_2015_mendoza",
+      "nombre_completo": "Carlos Mendoza Davis",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "2015-09-10",
+      "fecha_conclusion": "2021-09-09",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne XIV Legislatura / IEEBCS",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "BOGEBCS / IEEBCS",
+        "fuente_url": "https://ieebcs.org.mx/",
+        "sha256_evidencia": "cfe8c42c04d429ed71fd49980841acaa7d020237aeaaea78b3a0b819021cd961",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_03_2021_castro",
+      "nombre_completo": "Víctor Manuel Castro Cosío",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Baja California Sur",
+      "entidad_cve": "03",
+      "fecha_inicio": "2021-09-10",
+      "fecha_conclusion": "2027-09-09",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional",
+      "bando_solemne_decreto": "Bando Solemne XVI Legislatura / Cómputo IEEBCS",
+      "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e/ Allende y Juárez, La Paz, B.C.S.",
+      "metadata": {
+        "fuente_nombre": "BOGEBCS / IEEBCS",
+        "fuente_url": "https://ieebcs.org.mx/",
+        "sha256_evidencia": "60bbd51d517cbaf849f3064f033facf6ee447b7627be21b2d127c609a4949629",
+        "fecha_extraccion": "2026-10-14 00:31:07",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Educación Cívica e Historia",
+      "alma_mater": "Escuela Normal Superior de México",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_03_1993_mercado",
-            "nombre_completo": "Guillermo Mercado Romero",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "1993-04-05",
-            "fecha_conclusion": "1999-04-04",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne VII Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "Boletín Oficial del Gobierno del Estado de BCS (BOGEBCS)",
-                "fuente_url": "https:\/\/boletin.bcs.gob.mx\/",
-                "sha256_evidencia": "15bea333941798090a6ec1a6daf6e7fecb0cd9eadeb607f0c1c5097a99cd2aa3",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_03_1999_cota",
-            "nombre_completo": "Leonel Efraín Cota Montaño",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (1ª Alternancia)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "1999-04-05",
-            "fecha_conclusion": "2005-04-04",
-            "partido": "PRD",
-            "partido_nombre_completo": "Partido de la Revolución Democrática",
-            "bando_solemne_decreto": "Bando Solemne IX Legislatura \/ IEEBCS",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "BOGEBCS \/ Instituto Estatal Electoral de BCS",
-                "fuente_url": "https:\/\/ieebcs.org.mx\/",
-                "sha256_evidencia": "5832fae7bfda47253400895cf02842ca902db828f1ed1219c867088a72530669",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_03_2005_agundez",
-            "nombre_completo": "Narciso Agúndez Montaño",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "2005-04-05",
-            "fecha_conclusion": "2011-04-04",
-            "partido": "PRD",
-            "partido_nombre_completo": "Partido de la Revolución Democrática",
-            "bando_solemne_decreto": "Bando Solemne XI Legislatura \/ IEEBCS",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "BOGEBCS \/ IEEBCS",
-                "fuente_url": "https:\/\/ieebcs.org.mx\/",
-                "sha256_evidencia": "8eb1e91c2c9f721b60b022ff4385252782cc5962d40b409be817060424e41ddd",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_03_2011_covarrubias",
-            "nombre_completo": "Marcos Alberto Covarrubias Villaseñor",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (Ajustado a 4 años 5 meses)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "2011-04-05",
-            "fecha_conclusion": "2015-09-09",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne XIII Legislatura \/ IEEBCS",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "BOGEBCS \/ IEEBCS",
-                "fuente_url": "https:\/\/ieebcs.org.mx\/",
-                "sha256_evidencia": "d69fb6f5909370c34774486d2332b1725a5b04bca1d0e9ee6d8ed29946a50c0b",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_03_2015_mendoza",
-            "nombre_completo": "Carlos Mendoza Davis",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "2015-09-10",
-            "fecha_conclusion": "2021-09-09",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne XIV Legislatura \/ IEEBCS",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "BOGEBCS \/ IEEBCS",
-                "fuente_url": "https:\/\/ieebcs.org.mx\/",
-                "sha256_evidencia": "cfe8c42c04d429ed71fd49980841acaa7d020237aeaaea78b3a0b819021cd961",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_03_2021_castro",
-            "nombre_completo": "Víctor Manuel Castro Cosío",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Baja California Sur",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Baja California Sur",
-            "entidad_cve": "03",
-            "fecha_inicio": "2021-09-10",
-            "fecha_conclusion": "2027-09-09",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional",
-            "bando_solemne_decreto": "Bando Solemne XVI Legislatura \/ Cómputo IEEBCS",
-            "ubicacion_despacho": "Palacio de Gobierno, Isabel La Católica e\/ Allende y Juárez, La Paz, B.C.S.",
-            "metadata": {
-                "fuente_nombre": "BOGEBCS \/ IEEBCS",
-                "fuente_url": "https:\/\/ieebcs.org.mx\/",
-                "sha256_evidencia": "60bbd51d517cbaf849f3064f033facf6ee447b7627be21b2d127c609a4949629",
-                "fecha_extraccion": "2026-10-14 00:31:07",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Educación con especialidad en Historia por la Escuela Normal Superior de México."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

@@ -1,138 +1,150 @@
 {
-    "entidad": "Nayarit",
-    "entidad_cve": "18",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Nayarit (1993-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-    "portal_oficial": "https:\/\/www.nayarit.gob.mx",
-    "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 6,
-    "generado_el": "2026-10-14 00:34:35",
-    "mandatarios": [
+  "entidad": "Nayarit",
+  "entidad_cve": "18",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Nayarit (1993-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+  "portal_oficial": "https://www.nayarit.gob.mx",
+  "periodo_cobertura": "1993-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 6,
+  "generado_el": "2026-10-14 00:34:35",
+  "mandatarios": [
+    {
+      "id": "ejec_18_1993_ochoa",
+      "nombre_completo": "Rigoberto Ochoa Zaragoza",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "1993-09-19",
+      "fecha_conclusion": "1999-09-18",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne XXIV Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Nayarit (POEN)",
+        "fuente_url": "https://periodicooficial.nayarit.gob.mx/",
+        "sha256_evidencia": "5f00cefca75fda7659cef715848685281c3272d7fc39801794fecc7bae833994",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_18_1999_echevarria_a",
+      "nombre_completo": "Antonio Echevarría Domínguez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Nayarit)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "1999-09-19",
+      "fecha_conclusion": "2005-09-18",
+      "partido": "PAN",
+      "partido_nombre_completo": "Alianza por el Cambio (PAN-PRD-PT-PRS)",
+      "bando_solemne_decreto": "Bando Solemne XXVI Legislatura / CEE Nayarit",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "POEN / Instituto Estatal Electoral de Nayarit",
+        "fuente_url": "https://ieenayarit.org/",
+        "sha256_evidencia": "ef5b800c4d0b9d4db49c67ff8a97880e1ac09ebe2f1bdecb59b3e8d3c3004a45",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_18_2005_gonzalez",
+      "nombre_completo": "Ney González Sánchez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "2005-09-19",
+      "fecha_conclusion": "2011-09-18",
+      "partido": "PRI",
+      "partido_nombre_completo": "Alianza por Nayarit (PRI-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne XXVIII Legislatura / IEE Nayarit",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "POEN / IEEN",
+        "fuente_url": "https://ieenayarit.org/",
+        "sha256_evidencia": "9693c6224585da0a5386fec47bcde7c03d6322f166be303a294e8763c08fb1fb",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_18_2011_sandoval",
+      "nombre_completo": "Roberto Sandoval Castañeda",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "2011-09-19",
+      "fecha_conclusion": "2017-09-18",
+      "partido": "PRI",
+      "partido_nombre_completo": "Nayarit nos Une (PRI-PVEM-PANAL)",
+      "bando_solemne_decreto": "Bando Solemne XXX Legislatura / IEE Nayarit",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "POEN / IEEN",
+        "fuente_url": "https://ieenayarit.org/",
+        "sha256_evidencia": "d9f38eaa003a20e2428a10266ea324cbb906f99e2a588b76c5f683f35ae29eb7",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_18_2017_echevarria_g",
+      "nombre_completo": "Antonio Echevarría García",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (Periodo ajustado a 4 años)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "2017-09-19",
+      "fecha_conclusion": "2021-09-18",
+      "partido": "PAN",
+      "partido_nombre_completo": "Juntos por Ti (PAN-PRD-PT-PRS)",
+      "bando_solemne_decreto": "Bando Solemne XXXII Legislatura / IEEN",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "POEN / IEEN",
+        "fuente_url": "https://ieenayarit.org/",
+        "sha256_evidencia": "45adfd2c71042d5fae6c4229de80198983ca1607791ee6d4b6c45668c34773c7",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_18_2021_navarro",
+      "nombre_completo": "Miguel Ángel Navarro Quintero",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Nayarit",
+      "entidad_cve": "18",
+      "fecha_inicio": "2021-09-19",
+      "fecha_conclusion": "2027-09-18",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Haremos Historia en Nayarit (MORENA-PT-PVEM-PNA)",
+      "bando_solemne_decreto": "Bando Solemne XXXIII Legislatura / Cómputo IEEN",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s/n, Centro, Tepic, Nay.",
+      "metadata": {
+        "fuente_nombre": "POEN / IEEN",
+        "fuente_url": "https://ieenayarit.org/",
+        "sha256_evidencia": "a56ae135d31a2488591858b18ae7b99f2fea53bcb3c24250bfc8d559b89b8193",
+        "fecha_extraccion": "2026-10-14 00:34:35",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Maestría",
+      "preparacion_academica": "Médico Cirujano y Ginecología",
+      "alma_mater": "Universidad Nacional Autónoma de México (UNAM)",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_18_1993_ochoa",
-            "nombre_completo": "Rigoberto Ochoa Zaragoza",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "1993-09-19",
-            "fecha_conclusion": "1999-09-18",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne XXIV Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Nayarit (POEN)",
-                "fuente_url": "https:\/\/periodicooficial.nayarit.gob.mx\/",
-                "sha256_evidencia": "5f00cefca75fda7659cef715848685281c3272d7fc39801794fecc7bae833994",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Especialidad y Posgrado en Ginecología y Obstetricia por la UNAM."
         },
         {
-            "id": "ejec_18_1999_echevarria_a",
-            "nombre_completo": "Antonio Echevarría Domínguez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Nayarit)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "1999-09-19",
-            "fecha_conclusion": "2005-09-18",
-            "partido": "PAN",
-            "partido_nombre_completo": "Alianza por el Cambio (PAN-PRD-PT-PRS)",
-            "bando_solemne_decreto": "Bando Solemne XXVI Legislatura \/ CEE Nayarit",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "POEN \/ Instituto Estatal Electoral de Nayarit",
-                "fuente_url": "https:\/\/ieenayarit.org\/",
-                "sha256_evidencia": "ef5b800c4d0b9d4db49c67ff8a97880e1ac09ebe2f1bdecb59b3e8d3c3004a45",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_18_2005_gonzalez",
-            "nombre_completo": "Ney González Sánchez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "2005-09-19",
-            "fecha_conclusion": "2011-09-18",
-            "partido": "PRI",
-            "partido_nombre_completo": "Alianza por Nayarit (PRI-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne XXVIII Legislatura \/ IEE Nayarit",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "POEN \/ IEEN",
-                "fuente_url": "https:\/\/ieenayarit.org\/",
-                "sha256_evidencia": "9693c6224585da0a5386fec47bcde7c03d6322f166be303a294e8763c08fb1fb",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_18_2011_sandoval",
-            "nombre_completo": "Roberto Sandoval Castañeda",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "2011-09-19",
-            "fecha_conclusion": "2017-09-18",
-            "partido": "PRI",
-            "partido_nombre_completo": "Nayarit nos Une (PRI-PVEM-PANAL)",
-            "bando_solemne_decreto": "Bando Solemne XXX Legislatura \/ IEE Nayarit",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "POEN \/ IEEN",
-                "fuente_url": "https:\/\/ieenayarit.org\/",
-                "sha256_evidencia": "d9f38eaa003a20e2428a10266ea324cbb906f99e2a588b76c5f683f35ae29eb7",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_18_2017_echevarria_g",
-            "nombre_completo": "Antonio Echevarría García",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (Periodo ajustado a 4 años)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "2017-09-19",
-            "fecha_conclusion": "2021-09-18",
-            "partido": "PAN",
-            "partido_nombre_completo": "Juntos por Ti (PAN-PRD-PT-PRS)",
-            "bando_solemne_decreto": "Bando Solemne XXXII Legislatura \/ IEEN",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "POEN \/ IEEN",
-                "fuente_url": "https:\/\/ieenayarit.org\/",
-                "sha256_evidencia": "45adfd2c71042d5fae6c4229de80198983ca1607791ee6d4b6c45668c34773c7",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_18_2021_navarro",
-            "nombre_completo": "Miguel Ángel Navarro Quintero",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Nayarit",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Nayarit",
-            "entidad_cve": "18",
-            "fecha_inicio": "2021-09-19",
-            "fecha_conclusion": "2027-09-18",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Haremos Historia en Nayarit (MORENA-PT-PVEM-PNA)",
-            "bando_solemne_decreto": "Bando Solemne XXXIII Legislatura \/ Cómputo IEEN",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. México y Abasolo s\/n, Centro, Tepic, Nay.",
-            "metadata": {
-                "fuente_nombre": "POEN \/ IEEN",
-                "fuente_url": "https:\/\/ieenayarit.org\/",
-                "sha256_evidencia": "a56ae135d31a2488591858b18ae7b99f2fea53bcb3c24250bfc8d559b89b8193",
-                "fecha_extraccion": "2026-10-14 00:34:35",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Médico Cirujano por la Universidad Nacional Autónoma de México (UNAM)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

@@ -1,201 +1,210 @@
 {
-    "entidad": "San Luis Potosí",
-    "entidad_cve": "24",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de San Luis Potosí (1991-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-    "portal_oficial": "https:\/\/slp.gob.mx",
-    "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 9,
-    "generado_el": "2026-10-14 00:33:03",
-    "mandatarios": [
+  "entidad": "San Luis Potosí",
+  "entidad_cve": "24",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de San Luis Potosí (1991-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+  "portal_oficial": "https://slp.gob.mx",
+  "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 9,
+  "generado_el": "2026-10-14 00:33:03",
+  "mandatarios": [
+    {
+      "id": "ejec_24_1991_zapata",
+      "nombre_completo": "Fausto Zapata Loredo",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (Renuncia al cargo a 14 días de inicio)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "1991-09-26",
+      "fecha_conclusion": "1991-10-09",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIII Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de San Luis Potosí (POESLP)",
+        "fuente_url": "https://periodicooficial.slp.gob.mx/",
+        "sha256_evidencia": "73f01be7dd481ae858e028cedd126ffcdc7ffd036b10ecc771ea9ce71c391298",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_1991_martinez",
+      "nombre_completo": "Gonzalo Martínez Corbalá",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Interino (Designación del Congreso)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "1991-10-10",
+      "fecha_conclusion": "1992-10-09",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto del Congreso del Estado LIII Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP",
+        "fuente_url": "https://periodicooficial.slp.gob.mx/",
+        "sha256_evidencia": "20df8f41b3083dbfe616588d9090b0801c30ddd51f69041d99409d8d3ff5e8a9",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_1992_torres",
+      "nombre_completo": "Teófilo Torres Corzo",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Interino (Designación del Congreso)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "1992-10-10",
+      "fecha_conclusion": "1993-05-18",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto del Congreso del Estado LIV Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP",
+        "fuente_url": "https://periodicooficial.slp.gob.mx/",
+        "sha256_evidencia": "1f7b654417707ea9b5eed0bdfd61a587bb160c64cf4e92b8eab82ecdfaa98de0",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_1993_sanchez",
+      "nombre_completo": "Horacio Sánchez Unzueta",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional Extraordinario (Elección Popular)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "1993-05-18",
+      "fecha_conclusion": "1997-09-25",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIV Legislatura / CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "951382a6aec3ccc98127013765cd56e90e1e114aeab53d454483339f18ab8f7d",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_1997_silva",
+      "nombre_completo": "Fernando Silva Nieto",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "1997-09-26",
+      "fecha_conclusion": "2003-09-25",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVI Legislatura / CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "cf27d8f6954094b6d64500251cedd7ed3751ab693aef23059573a546209c9c74",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_2003_santos",
+      "nombre_completo": "Jesús Marcelo de los Santos Fraga",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (1ª Alternancia en SLP)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "2003-09-26",
+      "fecha_conclusion": "2009-09-25",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne_decreto": "Bando Solemne LVIII Legislatura / CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "6326bd292a0c15e1f54ea0ea933f74bbb7c9553764dcd7cbb0a677f7623dfd6b",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_2009_toranzo",
+      "nombre_completo": "Fernando Toranzo Fernández",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "2009-09-26",
+      "fecha_conclusion": "2015-09-25",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL-PCP)",
+      "bando_solemne_decreto": "Bando Solemne LX Legislatura / CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "da4de2d2028a7382c297baf6e1a5473e57aefdfd4ff7e5e6bd892d9f6451d299",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_2015_carreras",
+      "nombre_completo": "Juan Manuel Carreras López",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "2015-09-26",
+      "fecha_conclusion": "2021-09-25",
+      "partido": "PRI",
+      "partido_nombre_completo": "Coalición PRI-PVEM-PANAL",
+      "bando_solemne_decreto": "Bando Solemne LXI Legislatura / CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "6027b7552ce54346c723ccbd2ac98b701e3b9cec5ba8a2204ca14065fdaa42ad",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_24_2021_gallardo",
+      "nombre_completo": "José Ricardo Gallardo Cardona",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "San Luis Potosí",
+      "entidad_cve": "24",
+      "fecha_inicio": "2021-09-26",
+      "fecha_conclusion": "2027-09-25",
+      "partido": "PVEM",
+      "partido_nombre_completo": "Juntos Haremos Historia en SLP (PVEM-PT)",
+      "bando_solemne_decreto": "Bando Solemne LXIII Legislatura / Cómputo CEEPAC",
+      "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
+      "metadata": {
+        "fuente_nombre": "POESLP / CEEPAC",
+        "fuente_url": "https://www.ceepacslp.org.mx/",
+        "sha256_evidencia": "f7a4b128fcd17559ab53052ed53aed54f8cf7a2bce7f265612a5db8b8ef1fb38",
+        "fecha_extraccion": "2026-10-14 00:33:03",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Derecho",
+      "alma_mater": "Universidad del Real de San Luis",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_24_1991_zapata",
-            "nombre_completo": "Fausto Zapata Loredo",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (Renuncia al cargo a 14 días de inicio)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "1991-09-26",
-            "fecha_conclusion": "1991-10-09",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIII Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de San Luis Potosí (POESLP)",
-                "fuente_url": "https:\/\/periodicooficial.slp.gob.mx\/",
-                "sha256_evidencia": "73f01be7dd481ae858e028cedd126ffcdc7ffd036b10ecc771ea9ce71c391298",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_1991_martinez",
-            "nombre_completo": "Gonzalo Martínez Corbalá",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Interino (Designación del Congreso)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "1991-10-10",
-            "fecha_conclusion": "1992-10-09",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto del Congreso del Estado LIII Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP",
-                "fuente_url": "https:\/\/periodicooficial.slp.gob.mx\/",
-                "sha256_evidencia": "20df8f41b3083dbfe616588d9090b0801c30ddd51f69041d99409d8d3ff5e8a9",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_1992_torres",
-            "nombre_completo": "Teófilo Torres Corzo",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Interino (Designación del Congreso)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "1992-10-10",
-            "fecha_conclusion": "1993-05-18",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto del Congreso del Estado LIV Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP",
-                "fuente_url": "https:\/\/periodicooficial.slp.gob.mx\/",
-                "sha256_evidencia": "1f7b654417707ea9b5eed0bdfd61a587bb160c64cf4e92b8eab82ecdfaa98de0",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_1993_sanchez",
-            "nombre_completo": "Horacio Sánchez Unzueta",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional Extraordinario (Elección Popular)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "1993-05-18",
-            "fecha_conclusion": "1997-09-25",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIV Legislatura \/ CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "951382a6aec3ccc98127013765cd56e90e1e114aeab53d454483339f18ab8f7d",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_1997_silva",
-            "nombre_completo": "Fernando Silva Nieto",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "1997-09-26",
-            "fecha_conclusion": "2003-09-25",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVI Legislatura \/ CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "cf27d8f6954094b6d64500251cedd7ed3751ab693aef23059573a546209c9c74",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_2003_santos",
-            "nombre_completo": "Jesús Marcelo de los Santos Fraga",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (1ª Alternancia en SLP)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "2003-09-26",
-            "fecha_conclusion": "2009-09-25",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne_decreto": "Bando Solemne LVIII Legislatura \/ CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "6326bd292a0c15e1f54ea0ea933f74bbb7c9553764dcd7cbb0a677f7623dfd6b",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_2009_toranzo",
-            "nombre_completo": "Fernando Toranzo Fernández",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "2009-09-26",
-            "fecha_conclusion": "2015-09-25",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional (PRI-PVEM-PANAL-PCP)",
-            "bando_solemne_decreto": "Bando Solemne LX Legislatura \/ CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "da4de2d2028a7382c297baf6e1a5473e57aefdfd4ff7e5e6bd892d9f6451d299",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_2015_carreras",
-            "nombre_completo": "Juan Manuel Carreras López",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "2015-09-26",
-            "fecha_conclusion": "2021-09-25",
-            "partido": "PRI",
-            "partido_nombre_completo": "Coalición PRI-PVEM-PANAL",
-            "bando_solemne_decreto": "Bando Solemne LXI Legislatura \/ CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "6027b7552ce54346c723ccbd2ac98b701e3b9cec5ba8a2204ca14065fdaa42ad",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_24_2021_gallardo",
-            "nombre_completo": "José Ricardo Gallardo Cardona",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de San Luis Potosí",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "San Luis Potosí",
-            "entidad_cve": "24",
-            "fecha_inicio": "2021-09-26",
-            "fecha_conclusion": "2027-09-25",
-            "partido": "PVEM",
-            "partido_nombre_completo": "Juntos Haremos Historia en SLP (PVEM-PT)",
-            "bando_solemne_decreto": "Bando Solemne LXIII Legislatura \/ Cómputo CEEPAC",
-            "ubicacion_despacho": "Palacio de Gobierno, Jardín Hidalgo 11, Centro Histórico, San Luis Potosí, S.L.P.",
-            "metadata": {
-                "fuente_nombre": "POESLP \/ CEEPAC",
-                "fuente_url": "https:\/\/www.ceepacslp.org.mx\/",
-                "sha256_evidencia": "f7a4b128fcd17559ab53052ed53aed54f8cf7a2bce7f265612a5db8b8ef1fb38",
-                "fecha_extraccion": "2026-10-14 00:33:03",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Derecho por la Universidad del Real de San Luis Potosí."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

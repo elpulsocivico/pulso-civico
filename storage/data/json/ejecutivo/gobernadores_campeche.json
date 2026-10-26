@@ -1,159 +1,171 @@
 {
-    "entidad": "Campeche",
-    "entidad_cve": "04",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Campeche (1991-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-    "portal_oficial": "https:\/\/www.campeche.gob.mx",
-    "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 7,
-    "generado_el": "2026-10-14 00:37:54",
-    "mandatarios": [
+  "entidad": "Campeche",
+  "entidad_cve": "04",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Campeche (1991-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+  "portal_oficial": "https://www.campeche.gob.mx",
+  "periodo_cobertura": "1991-2027 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 7,
+  "generado_el": "2026-10-14 00:37:54",
+  "mandatarios": [
+    {
+      "id": "ejec_04_1991_azar",
+      "nombre_completo": "Jorge Salomón Azar García",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "1991-09-15",
+      "fecha_conclusion": "1997-09-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Campeche (POEC)",
+        "fuente_url": "https://periodicooficial.campeche.gob.mx/",
+        "sha256_evidencia": "dcb1f9f9541192d6befe32b8fa35570c72ad55de24febc03673a1064e205c19a",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_1997_gonzalez",
+      "nombre_completo": "José Antonio González Curi",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "1997-09-15",
+      "fecha_conclusion": "2003-09-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVI Legislatura / CEE Campeche",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC / Instituto Electoral del Estado de Campeche",
+        "fuente_url": "https://www.ieec.org.mx/",
+        "sha256_evidencia": "164b1c0121207514f3bc9c490d667fcde96ca09cf9f2373f4611b9adc845ff53",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_2003_hurtado",
+      "nombre_completo": "Jorge Carlos Hurtado Valdez",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "2003-09-15",
+      "fecha_conclusion": "2009-09-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVIII Legislatura / IEEC",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC / IEEC",
+        "fuente_url": "https://www.ieec.org.mx/",
+        "sha256_evidencia": "850427320af579898d2a66b194ac6b3192dc016d63d4029696352af428fdf7b8",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_2009_ortega",
+      "nombre_completo": "Fernando Eutimio Ortega Bernés",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "2009-09-15",
+      "fecha_conclusion": "2015-09-14",
+      "partido": "PRI",
+      "partido_nombre_completo": "Alianza Campeche de Todos (PRI-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LX Legislatura / IEEC",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC / IEEC",
+        "fuente_url": "https://www.ieec.org.mx/",
+        "sha256_evidencia": "d55f10884303f653e3c08c95e2c59844d3079dfdc5828e4955b04ea9a5bb6c56",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_2015_moreno",
+      "nombre_completo": "Rafael Alejandro Moreno Cárdenas",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (Licencia definitiva en 2019)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "2015-09-15",
+      "fecha_conclusion": "2019-06-13",
+      "partido": "PRI",
+      "partido_nombre_completo": "Coalición PRI-PVEM",
+      "bando_solemne_decreto": "Bando Solemne LXII Legislatura / IEEC",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC",
+        "fuente_url": "https://periodicooficial.campeche.gob.mx/",
+        "sha256_evidencia": "3084b2ce1e03313e6a8a9f62aacc8aeae1630fbf3eca944ef87cc03548e25275",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_2019_aysa",
+      "nombre_completo": "Carlos Miguel Aysa González",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "2019-06-13",
+      "fecha_conclusion": "2021-09-15",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Decreto LXIII Legislatura del Congreso del Estado de Campeche",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC No. 0935",
+        "fuente_url": "https://periodicooficial.campeche.gob.mx/",
+        "sha256_evidencia": "05b3d990dd3a961c0d4889970623602a75628f0d400c257ba9efe8c9b2255a18",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_04_2021_sansores",
+      "nombre_completo": "Layda Elena Sansores San Román",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
+      "tipo_mandato": "Constitucional (1ª Alternancia y 1ª Gobernadora en 92 años)",
+      "entidad": "Campeche",
+      "entidad_cve": "04",
+      "fecha_inicio": "2021-09-16",
+      "fecha_conclusion": "2027-09-15",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Haremos Historia en Campeche (MORENA-PT)",
+      "bando_solemne_decreto": "Bando Solemne LXIII Legislatura / Recuento TEPJF SUP-JRC-172/2021",
+      "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
+      "metadata": {
+        "fuente_nombre": "POEC No. 1515 / IEEC",
+        "fuente_url": "https://www.ieec.org.mx/",
+        "sha256_evidencia": "97523210d1e5835a71acffef6bf8612f938945ff0662d8431064856f6febd59c",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Psicología y Educación",
+      "alma_mater": "Universidad Nacional Autónoma de México (UNAM)",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_04_1991_azar",
-            "nombre_completo": "Jorge Salomón Azar García",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "1991-09-15",
-            "fecha_conclusion": "1997-09-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIV Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Campeche (POEC)",
-                "fuente_url": "https:\/\/periodicooficial.campeche.gob.mx\/",
-                "sha256_evidencia": "dcb1f9f9541192d6befe32b8fa35570c72ad55de24febc03673a1064e205c19a",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Psicología por la Universidad Nacional Autónoma de México (UNAM)."
         },
         {
-            "id": "ejec_04_1997_gonzalez",
-            "nombre_completo": "José Antonio González Curi",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "1997-09-15",
-            "fecha_conclusion": "2003-09-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVI Legislatura \/ CEE Campeche",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC \/ Instituto Electoral del Estado de Campeche",
-                "fuente_url": "https:\/\/www.ieec.org.mx\/",
-                "sha256_evidencia": "164b1c0121207514f3bc9c490d667fcde96ca09cf9f2373f4611b9adc845ff53",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_04_2003_hurtado",
-            "nombre_completo": "Jorge Carlos Hurtado Valdez",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "2003-09-15",
-            "fecha_conclusion": "2009-09-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVIII Legislatura \/ IEEC",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC \/ IEEC",
-                "fuente_url": "https:\/\/www.ieec.org.mx\/",
-                "sha256_evidencia": "850427320af579898d2a66b194ac6b3192dc016d63d4029696352af428fdf7b8",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_04_2009_ortega",
-            "nombre_completo": "Fernando Eutimio Ortega Bernés",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "2009-09-15",
-            "fecha_conclusion": "2015-09-14",
-            "partido": "PRI",
-            "partido_nombre_completo": "Alianza Campeche de Todos (PRI-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LX Legislatura \/ IEEC",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC \/ IEEC",
-                "fuente_url": "https:\/\/www.ieec.org.mx\/",
-                "sha256_evidencia": "d55f10884303f653e3c08c95e2c59844d3079dfdc5828e4955b04ea9a5bb6c56",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_04_2015_moreno",
-            "nombre_completo": "Rafael Alejandro Moreno Cárdenas",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (Licencia definitiva en 2019)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "2015-09-15",
-            "fecha_conclusion": "2019-06-13",
-            "partido": "PRI",
-            "partido_nombre_completo": "Coalición PRI-PVEM",
-            "bando_solemne_decreto": "Bando Solemne LXII Legislatura \/ IEEC",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC",
-                "fuente_url": "https:\/\/periodicooficial.campeche.gob.mx\/",
-                "sha256_evidencia": "3084b2ce1e03313e6a8a9f62aacc8aeae1630fbf3eca944ef87cc03548e25275",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_04_2019_aysa",
-            "nombre_completo": "Carlos Miguel Aysa González",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "2019-06-13",
-            "fecha_conclusion": "2021-09-15",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Decreto LXIII Legislatura del Congreso del Estado de Campeche",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC No. 0935",
-                "fuente_url": "https:\/\/periodicooficial.campeche.gob.mx\/",
-                "sha256_evidencia": "05b3d990dd3a961c0d4889970623602a75628f0d400c257ba9efe8c9b2255a18",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_04_2021_sansores",
-            "nombre_completo": "Layda Elena Sansores San Román",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Campeche",
-            "tipo_mandato": "Constitucional (1ª Alternancia y 1ª Gobernadora en 92 años)",
-            "entidad": "Campeche",
-            "entidad_cve": "04",
-            "fecha_inicio": "2021-09-16",
-            "fecha_conclusion": "2027-09-15",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Haremos Historia en Campeche (MORENA-PT)",
-            "bando_solemne_decreto": "Bando Solemne LXIII Legislatura \/ Recuento TEPJF SUP-JRC-172\/2021",
-            "ubicacion_despacho": "Palacio de Gobierno, Calle 8 s\/n entre 61 y 63, Centro Histórico, San Francisco de Campeche, Camp.",
-            "metadata": {
-                "fuente_nombre": "POEC No. 1515 \/ IEEC",
-                "fuente_url": "https:\/\/www.ieec.org.mx\/",
-                "sha256_evidencia": "97523210d1e5835a71acffef6bf8612f938945ff0662d8431064856f6febd59c",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Profesora de Educación Primaria por la Benemérita Escuela Nacional de Maestros."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

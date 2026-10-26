@@ -1,167 +1,182 @@
 {
-    "entidad": "Aguascalientes",
-    "entidad_cve": "01",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Aguascalientes (1992-2027)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-    "portal_oficial": "https:\/\/www.aguascalientes.gob.mx",
-    "organismo_electoral": "Instituto Estatal Electoral de Aguascalientes (https:\/\/www.ieeags.mx)",
-    "periodo_cobertura": "1992-2027 (35 años ininterrumpidos)",
-    "total_mandatarios": 7,
-    "generado_el": "2026-10-14 00:24:10",
-    "mandatarios": [
+  "entidad": "Aguascalientes",
+  "entidad_cve": "01",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Aguascalientes (1992-2027)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+  "portal_oficial": "https://www.aguascalientes.gob.mx",
+  "organismo_electoral": "Instituto Estatal Electoral de Aguascalientes (https://www.ieeags.mx)",
+  "periodo_cobertura": "1992-2027 (35 años ininterrumpidos)",
+  "total_mandatarios": 7,
+  "generado_el": "2026-10-14 00:24:10",
+  "mandatarios": [
+    {
+      "id": "ejec_01_1992_granados",
+      "nombre_completo": "Otto Granados Roldán",
+      "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "1992-12-01",
+      "fecha_conclusion": "1998-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne": "Bando Solemne de la H. LV Legislatura del Congreso del Estado de Aguascalientes",
+      "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes (POEA)",
+        "fuente_url": "https://eservicios2.aguascalientes.gob.mx/servicios/periodicooficial/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "94cb161dfc7f759934075ed4b4b93d213ca1201f09f0c03f2a1e9f0753f011d7"
+      }
+    },
+    {
+      "id": "ejec_01_1998_gonzalez",
+      "nombre_completo": "Felipe González González",
+      "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular - Primera Alternancia)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "1998-12-01",
+      "fecha_conclusion": "2004-08-25",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne": "Bando Solemne de la H. LVII Legislatura / Cómputo General del Consejo del IEE Aguascalientes",
+      "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes y Acuerdo del IEEA",
+        "fuente_url": "https://www.ieeags.mx/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "4678f4d749ce9b4d337ce6a754181846c8893cf2b14b4744d3fa90af15dc1883"
+      }
+    },
+    {
+      "id": "ejec_01_2004_leon",
+      "nombre_completo": "Juan José León Rubio",
+      "cargo_oficial": "Gobernador Sustituto del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Sustituto (Designación Legislativa por Licencia)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "2004-08-25",
+      "fecha_conclusion": "2004-11-30",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne": "Decreto de la H. LVIII Legislatura del Congreso del Estado de Aguascalientes",
+      "fundamento_juridico": "Artículo 47 fracción I de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes Tomo LXVII No. 35",
+        "fuente_url": "https://eservicios2.aguascalientes.gob.mx/servicios/periodicooficial/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "d39a38e26e93355b8716a8389557317a9659518a23d9c9a609fcfcc5513cff8a"
+      }
+    },
+    {
+      "id": "ejec_01_2004_reynoso",
+      "nombre_completo": "Luis Armando Reynoso Femat",
+      "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "2004-12-01",
+      "fecha_conclusion": "2010-11-30",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne": "Bando Solemne de la H. LIX Legislatura / Constancia de Mayoría del IEE Aguascalientes",
+      "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes / IEEA",
+        "fuente_url": "https://www.ieeags.mx/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "2cb0c9298d87ceb1a5339fd8af0fb5b696337ef3b0100766c62c2831aa94e6cd"
+      }
+    },
+    {
+      "id": "ejec_01_2010_lozano",
+      "nombre_completo": "Carlos Lozano de la Torre",
+      "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "2010-12-01",
+      "fecha_conclusion": "2016-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional (Coalición Aliados por tu Bienestar)",
+      "bando_solemne": "Bando Solemne de la H. LXI Legislatura / Declaratoria de Validez Electoral IEE Aguascalientes",
+      "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes / IEEA",
+        "fuente_url": "https://www.ieeags.mx/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "d04d594409884f69737eb459e2d9f2f14b6b332615dce9a5c6d5329dbd3e1a59"
+      }
+    },
+    {
+      "id": "ejec_01_2016_orozco",
+      "nombre_completo": "Martín Orozco Sandoval",
+      "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular - Periodo ajustado)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "2016-12-01",
+      "fecha_conclusion": "2022-09-30",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional",
+      "bando_solemne": "Bando Solemne de la H. LXIII Legislatura / Cómputo Estatal del IEE Aguascalientes",
+      "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes y Decreto 325",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes / IEEA",
+        "fuente_url": "https://www.ieeags.mx/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "443d44603d611907a1138024de4755bd6a67a18fc8e74ac29777e788d5fe0938"
+      }
+    },
+    {
+      "id": "ejec_01_2022_jimenez",
+      "nombre_completo": "María Teresa Jiménez Esquivel",
+      "cargo_oficial": "Gobernadora Constitucional del Estado Libre y Soberano de Aguascalientes",
+      "tipo_mandato": "Constitucional (Elección Popular - Primera Gobernadora)",
+      "entidad": "Aguascalientes",
+      "entidad_cve": "01",
+      "fecha_inicio": "2022-10-01",
+      "fecha_conclusion": "2027-09-30",
+      "partido": "PAN",
+      "partido_nombre_completo": "Partido Acción Nacional (Coalición Va por Aguascalientes PAN-PRI-PRD)",
+      "bando_solemne": "Bando Solemne de la H. LXV Legislatura / Acuerdo del Consejo General IEEA/CG-A-41/22",
+      "fundamento_juridico": "Artículos 36, 46 y 47 de la Constitución Política del Estado de Aguascalientes",
+      "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes No. 39 Extraordinario y Acuerdo IEEA/CG-A-41/22",
+        "fuente_url": "https://www.ieeags.mx/resoluciones/acuerdos-del-consejo-general-2022/",
+        "fecha_extraccion": "2026-10-14 00:24:10",
+        "entidad_tipo": "Poder Ejecutivo Local",
+        "sha256_evidencia": "f9bed8e1388bde68f63d8322034ddf7449022e48e47a7c8200127d7ae534d211"
+      },
+      "ultimo_grado_estudios": "Doctorado",
+      "preparacion_academica": "Ciencia Política y Derecho",
+      "alma_mater": "Universidad Autónoma de Aguascalientes / UdeG",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_01_1992_granados",
-            "nombre_completo": "Otto Granados Roldán",
-            "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "1992-12-01",
-            "fecha_conclusion": "1998-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne": "Bando Solemne de la H. LV Legislatura del Congreso del Estado de Aguascalientes",
-            "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes (POEA)",
-                "fuente_url": "https:\/\/eservicios2.aguascalientes.gob.mx\/servicios\/periodicooficial\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "94cb161dfc7f759934075ed4b4b93d213ca1201f09f0c03f2a1e9f0753f011d7"
-            }
+          "experiencia": "Doctorado en Derecho por la Universidad de Guadalajara (UdeG)."
         },
         {
-            "id": "ejec_01_1998_gonzalez",
-            "nombre_completo": "Felipe González González",
-            "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular - Primera Alternancia)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "1998-12-01",
-            "fecha_conclusion": "2004-08-25",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne": "Bando Solemne de la H. LVII Legislatura \/ Cómputo General del Consejo del IEE Aguascalientes",
-            "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes y Acuerdo del IEEA",
-                "fuente_url": "https:\/\/www.ieeags.mx\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "4678f4d749ce9b4d337ce6a754181846c8893cf2b14b4744d3fa90af15dc1883"
-            }
+          "experiencia": "Maestría en Políticas Públicas por la Universidad de Concordia."
         },
         {
-            "id": "ejec_01_2004_leon",
-            "nombre_completo": "Juan José León Rubio",
-            "cargo_oficial": "Gobernador Sustituto del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Sustituto (Designación Legislativa por Licencia)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "2004-08-25",
-            "fecha_conclusion": "2004-11-30",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne": "Decreto de la H. LVIII Legislatura del Congreso del Estado de Aguascalientes",
-            "fundamento_juridico": "Artículo 47 fracción I de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes Tomo LXVII No. 35",
-                "fuente_url": "https:\/\/eservicios2.aguascalientes.gob.mx\/servicios\/periodicooficial\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "d39a38e26e93355b8716a8389557317a9659518a23d9c9a609fcfcc5513cff8a"
-            }
-        },
-        {
-            "id": "ejec_01_2004_reynoso",
-            "nombre_completo": "Luis Armando Reynoso Femat",
-            "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "2004-12-01",
-            "fecha_conclusion": "2010-11-30",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne": "Bando Solemne de la H. LIX Legislatura \/ Constancia de Mayoría del IEE Aguascalientes",
-            "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes \/ IEEA",
-                "fuente_url": "https:\/\/www.ieeags.mx\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "2cb0c9298d87ceb1a5339fd8af0fb5b696337ef3b0100766c62c2831aa94e6cd"
-            }
-        },
-        {
-            "id": "ejec_01_2010_lozano",
-            "nombre_completo": "Carlos Lozano de la Torre",
-            "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "2010-12-01",
-            "fecha_conclusion": "2016-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional (Coalición Aliados por tu Bienestar)",
-            "bando_solemne": "Bando Solemne de la H. LXI Legislatura \/ Declaratoria de Validez Electoral IEE Aguascalientes",
-            "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes \/ IEEA",
-                "fuente_url": "https:\/\/www.ieeags.mx\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "d04d594409884f69737eb459e2d9f2f14b6b332615dce9a5c6d5329dbd3e1a59"
-            }
-        },
-        {
-            "id": "ejec_01_2016_orozco",
-            "nombre_completo": "Martín Orozco Sandoval",
-            "cargo_oficial": "Gobernador Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular - Periodo ajustado)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "2016-12-01",
-            "fecha_conclusion": "2022-09-30",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional",
-            "bando_solemne": "Bando Solemne de la H. LXIII Legislatura \/ Cómputo Estatal del IEE Aguascalientes",
-            "fundamento_juridico": "Artículos 36 y 46 de la Constitución Política del Estado de Aguascalientes y Decreto 325",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes \/ IEEA",
-                "fuente_url": "https:\/\/www.ieeags.mx\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "443d44603d611907a1138024de4755bd6a67a18fc8e74ac29777e788d5fe0938"
-            }
-        },
-        {
-            "id": "ejec_01_2022_jimenez",
-            "nombre_completo": "María Teresa Jiménez Esquivel",
-            "cargo_oficial": "Gobernadora Constitucional del Estado Libre y Soberano de Aguascalientes",
-            "tipo_mandato": "Constitucional (Elección Popular - Primera Gobernadora)",
-            "entidad": "Aguascalientes",
-            "entidad_cve": "01",
-            "fecha_inicio": "2022-10-01",
-            "fecha_conclusion": "2027-09-30",
-            "partido": "PAN",
-            "partido_nombre_completo": "Partido Acción Nacional (Coalición Va por Aguascalientes PAN-PRI-PRD)",
-            "bando_solemne": "Bando Solemne de la H. LXV Legislatura \/ Acuerdo del Consejo General IEEA\/CG-A-41\/22",
-            "fundamento_juridico": "Artículos 36, 46 y 47 de la Constitución Política del Estado de Aguascalientes",
-            "ubicacion_despacho": "Palacio de Gobierno, Plaza de la Patria s\/n, Zona Centro, C.P. 20000, Aguascalientes, Ags.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Aguascalientes No. 39 Extraordinario y Acuerdo IEEA\/CG-A-41\/22",
-                "fuente_url": "https:\/\/www.ieeags.mx\/resoluciones\/acuerdos-del-consejo-general-2022\/",
-                "fecha_extraccion": "2026-10-14 00:24:10",
-                "entidad_tipo": "Poder Ejecutivo Local",
-                "sha256_evidencia": "f9bed8e1388bde68f63d8322034ddf7449022e48e47a7c8200127d7ae534d211"
-            }
+          "experiencia": "Licenciatura en Ciencia Política y Administración Pública por la Universidad Autónoma de Aguascalientes."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

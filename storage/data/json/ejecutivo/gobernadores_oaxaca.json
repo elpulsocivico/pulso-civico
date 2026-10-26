@@ -1,138 +1,147 @@
 {
-    "entidad": "Oaxaca",
-    "entidad_cve": "20",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Oaxaca (1992-2028)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-    "portal_oficial": "https:\/\/www.oaxaca.gob.mx",
-    "periodo_cobertura": "1992-2028 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 6,
-    "generado_el": "2026-10-14 00:37:54",
-    "mandatarios": [
+  "entidad": "Oaxaca",
+  "entidad_cve": "20",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Oaxaca (1992-2028)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+  "portal_oficial": "https://www.oaxaca.gob.mx",
+  "periodo_cobertura": "1992-2028 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 6,
+  "generado_el": "2026-10-14 00:37:54",
+  "mandatarios": [
+    {
+      "id": "ejec_20_1992_carrasco",
+      "nombre_completo": "Diódoro Carrasco Altamirano",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "1992-12-01",
+      "fecha_conclusion": "1998-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LV Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Oaxaca (POEO)",
+        "fuente_url": "https://periodicooficial.oaxaca.gob.mx/",
+        "sha256_evidencia": "0c759008d3728904406b6b7f72f0425be03528bbd05f2fb9a7be27a5da1c3220",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_20_1998_murat_j",
+      "nombre_completo": "José Murat Casab",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "1998-12-01",
+      "fecha_conclusion": "2004-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVII Legislatura / CEE Oaxaca",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "POEO / IEEPCO",
+        "fuente_url": "https://www.ieepco.org.mx/",
+        "sha256_evidencia": "1f55e22f958c7b193497ea1eff289be52ff6a011975fceb59ae302f1a88d30f7",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_20_2004_ruiz",
+      "nombre_completo": "Ulises Ernesto Ruiz Ortiz",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "2004-12-01",
+      "fecha_conclusion": "2010-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Nueva Fuerza Oaxaqueña (PRI-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LIX Legislatura / IEE Oaxaca",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "POEO / IEEPCO",
+        "fuente_url": "https://www.ieepco.org.mx/",
+        "sha256_evidencia": "1b39c6b3a4c68e86f0e6102780376ab38a487ffc8073fd67f74b33e812f9b3c0",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_20_2010_cue",
+      "nombre_completo": "Gabino Cué Monteagudo",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Oaxaca)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "2010-12-01",
+      "fecha_conclusion": "2016-11-30",
+      "partido": "MC",
+      "partido_nombre_completo": "Unidos por la Paz y el Progreso (PAN-PRD-PT-Convergencia)",
+      "bando_solemne_decreto": "Bando Solemne LXI Legislatura / IEEPCO",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "POEO / IEEPCO",
+        "fuente_url": "https://www.ieepco.org.mx/",
+        "sha256_evidencia": "49cc173bbbd60b0aad39e1111de731820b33695a5455197a6f779185106b4037",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_20_2016_murat_a",
+      "nombre_completo": "Alejandro Ismael Murat Hinojosa",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "2016-12-01",
+      "fecha_conclusion": "2022-11-30",
+      "partido": "PRI",
+      "partido_nombre_completo": "Juntos Hacemos Más (PRI-PVEM-PANAL)",
+      "bando_solemne_decreto": "Bando Solemne LXIII Legislatura / IEEPCO",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "POEO / IEEPCO",
+        "fuente_url": "https://www.ieepco.org.mx/",
+        "sha256_evidencia": "8c411d32a0b599a9c390acc6f2f674f80b5e680a22ef8a9eef29e63ed5c32bf9",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_20_2022_jara",
+      "nombre_completo": "Salomón Jara Cruz",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Oaxaca",
+      "entidad_cve": "20",
+      "fecha_inicio": "2022-12-01",
+      "fecha_conclusion": "2028-11-30",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Hacemos Historia en Oaxaca (MORENA-PT-PVEM-PUP)",
+      "bando_solemne_decreto": "Bando Solemne LXV Legislatura / Cómputo IEEPCO",
+      "ubicacion_despacho": "Palacio de Gobierno, Bustamante s/n, Centro Histórico, Oaxaca de Juárez, Oax.",
+      "metadata": {
+        "fuente_nombre": "POEO Extra No. 12 / IEEPCO",
+        "fuente_url": "https://www.ieepco.org.mx/",
+        "sha256_evidencia": "c4865f277699b2cd5fd01888fd566ad99fe2b98ce68f060a1d80d3eeadf293b3",
+        "fecha_extraccion": "2026-10-14 00:37:54",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Licenciatura",
+      "preparacion_academica": "Ingeniería Química Industrial",
+      "alma_mater": "Instituto Politécnico Nacional (IPN)",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_20_1992_carrasco",
-            "nombre_completo": "Diódoro Carrasco Altamirano",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "1992-12-01",
-            "fecha_conclusion": "1998-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LV Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Gobierno del Estado de Oaxaca (POEO)",
-                "fuente_url": "https:\/\/periodicooficial.oaxaca.gob.mx\/",
-                "sha256_evidencia": "0c759008d3728904406b6b7f72f0425be03528bbd05f2fb9a7be27a5da1c3220",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_20_1998_murat_j",
-            "nombre_completo": "José Murat Casab",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "1998-12-01",
-            "fecha_conclusion": "2004-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVII Legislatura \/ CEE Oaxaca",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "POEO \/ IEEPCO",
-                "fuente_url": "https:\/\/www.ieepco.org.mx\/",
-                "sha256_evidencia": "1f55e22f958c7b193497ea1eff289be52ff6a011975fceb59ae302f1a88d30f7",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_20_2004_ruiz",
-            "nombre_completo": "Ulises Ernesto Ruiz Ortiz",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "2004-12-01",
-            "fecha_conclusion": "2010-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Nueva Fuerza Oaxaqueña (PRI-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LIX Legislatura \/ IEE Oaxaca",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "POEO \/ IEEPCO",
-                "fuente_url": "https:\/\/www.ieepco.org.mx\/",
-                "sha256_evidencia": "1b39c6b3a4c68e86f0e6102780376ab38a487ffc8073fd67f74b33e812f9b3c0",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_20_2010_cue",
-            "nombre_completo": "Gabino Cué Monteagudo",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Oaxaca)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "2010-12-01",
-            "fecha_conclusion": "2016-11-30",
-            "partido": "MC",
-            "partido_nombre_completo": "Unidos por la Paz y el Progreso (PAN-PRD-PT-Convergencia)",
-            "bando_solemne_decreto": "Bando Solemne LXI Legislatura \/ IEEPCO",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "POEO \/ IEEPCO",
-                "fuente_url": "https:\/\/www.ieepco.org.mx\/",
-                "sha256_evidencia": "49cc173bbbd60b0aad39e1111de731820b33695a5455197a6f779185106b4037",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_20_2016_murat_a",
-            "nombre_completo": "Alejandro Ismael Murat Hinojosa",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "2016-12-01",
-            "fecha_conclusion": "2022-11-30",
-            "partido": "PRI",
-            "partido_nombre_completo": "Juntos Hacemos Más (PRI-PVEM-PANAL)",
-            "bando_solemne_decreto": "Bando Solemne LXIII Legislatura \/ IEEPCO",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "POEO \/ IEEPCO",
-                "fuente_url": "https:\/\/www.ieepco.org.mx\/",
-                "sha256_evidencia": "8c411d32a0b599a9c390acc6f2f674f80b5e680a22ef8a9eef29e63ed5c32bf9",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_20_2022_jara",
-            "nombre_completo": "Salomón Jara Cruz",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Oaxaca",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Oaxaca",
-            "entidad_cve": "20",
-            "fecha_inicio": "2022-12-01",
-            "fecha_conclusion": "2028-11-30",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Hacemos Historia en Oaxaca (MORENA-PT-PVEM-PUP)",
-            "bando_solemne_decreto": "Bando Solemne LXV Legislatura \/ Cómputo IEEPCO",
-            "ubicacion_despacho": "Palacio de Gobierno, Bustamante s\/n, Centro Histórico, Oaxaca de Juárez, Oax.",
-            "metadata": {
-                "fuente_nombre": "POEO Extra No. 12 \/ IEEPCO",
-                "fuente_url": "https:\/\/www.ieepco.org.mx\/",
-                "sha256_evidencia": "c4865f277699b2cd5fd01888fd566ad99fe2b98ce68f060a1d80d3eeadf293b3",
-                "fecha_extraccion": "2026-10-14 00:37:54",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Ingeniería Química Industrial por el Instituto Politécnico Nacional (IPN)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }

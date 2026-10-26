@@ -1,222 +1,237 @@
 {
-    "entidad": "Puebla",
-    "entidad_cve": "21",
-    "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Puebla (1993-2030)",
-    "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-    "portal_oficial": "https:\/\/www.puebla.gob.mx",
-    "periodo_cobertura": "1993-2030 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
-    "total_mandatarios": 10,
-    "generado_el": "2026-10-14 00:36:08",
-    "mandatarios": [
+  "entidad": "Puebla",
+  "entidad_cve": "21",
+  "titulo": "Cronología Histórica Oficial del Poder Ejecutivo de Puebla (1993-2030)",
+  "sede_poder_ejecutivo": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+  "portal_oficial": "https://www.puebla.gob.mx",
+  "periodo_cobertura": "1993-2030 (Fuentes oficiales primarias: Periódico Oficial y OPLE)",
+  "total_mandatarios": 10,
+  "generado_el": "2026-10-14 00:36:08",
+  "mandatarios": [
+    {
+      "id": "ejec_21_1993_bartlett",
+      "nombre_completo": "Manuel Bartlett Díaz",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "1993-02-01",
+      "fecha_conclusion": "1999-01-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LII Legislatura",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "Periódico Oficial del Estado de Puebla (POEP)",
+        "fuente_url": "https://periodicooficial.puebla.gob.mx/",
+        "sha256_evidencia": "eaff917f55758d53eff75fd073be5b1d310890175ecb4aabceed66f3c56757dd",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_1999_morales",
+      "nombre_completo": "Melquíades Morales Flores",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "1999-02-01",
+      "fecha_conclusion": "2005-01-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LIV Legislatura / CEE Puebla",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / Instituto Electoral del Estado de Puebla",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "f2582053aa159922f3a39ac1a4098b709b0eb388f138239661fad329aaae3843",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2005_marin",
+      "nombre_completo": "Mario Plutarco Marín Torres",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2005-02-01",
+      "fecha_conclusion": "2011-01-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Partido Revolucionario Institucional",
+      "bando_solemne_decreto": "Bando Solemne LVI Legislatura / IEE Puebla",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / IEEP",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "abc58f737897cb96bdf052e66bbb19d1b86d2ae9f39d492f6fe521ab89593348",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2011_valle",
+      "nombre_completo": "Rafael Moreno Valle Rosas",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (1ª Alternancia en Puebla)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2011-02-01",
+      "fecha_conclusion": "2017-01-31",
+      "partido": "PAN",
+      "partido_nombre_completo": "Compromiso por Puebla (PAN-PRD-PANAL-Convergencia)",
+      "bando_solemne_decreto": "Bando Solemne LVIII Legislatura / IEEP",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / IEEP",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "4a35a63a658f1996f0c10a26a44d25135bad463863245a8b569eeee09b9dee6c",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2017_gali",
+      "nombre_completo": "José Antonio Gali Fayad",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Periodo ajustado a 1 año 10 meses)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2017-02-01",
+      "fecha_conclusion": "2018-12-13",
+      "partido": "PAN",
+      "partido_nombre_completo": "Sigamos Adelante (PAN-PT-PANAL-PSI-PCP)",
+      "bando_solemne_decreto": "Bando Solemne LIX Legislatura / IEEP",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / IEEP",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "45c06156f2e7357daaf7a2b6406df586516817c7ebaa31285c079cedba862ddd",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2018_alonso",
+      "nombre_completo": "Martha Erika Alonso Hidalgo",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (1ª Gobernadora de Puebla; Fallece en funciones a los 10 días)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2018-12-14",
+      "fecha_conclusion": "2018-12-24",
+      "partido": "PAN",
+      "partido_nombre_completo": "Por Puebla al Frente (PAN-PRD-MC-PSI-PCP)",
+      "bando_solemne_decreto": "Bando Solemne LX Legislatura / Sentencia TEPJF SUP-JRC-204/2018",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP",
+        "fuente_url": "https://periodicooficial.puebla.gob.mx/",
+        "sha256_evidencia": "f4128fb0aa8bfe0d070009cc83cd3402326648c31b701b23e21715a85c5e03c2",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2019_pacheco",
+      "nombre_completo": "Guillermo Pacheco Pulido",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Interino (Designación del Congreso)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2019-01-21",
+      "fecha_conclusion": "2019-07-31",
+      "partido": "PRI",
+      "partido_nombre_completo": "Designación Institucional LX Legislatura",
+      "bando_solemne_decreto": "Decreto LX Legislatura del Congreso del Estado de Puebla",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP Tomo DXXV",
+        "fuente_url": "https://periodicooficial.puebla.gob.mx/",
+        "sha256_evidencia": "bf64a55a79ef2df1b5f2df61404b613aa80ff9d130f7d32a16986cc4bd629537",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2019_barbosa",
+      "nombre_completo": "Luis Miguel Gerónimo Barbosa Huerta",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Elección Extraordinaria 2019; Fallece en funciones en 2022)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2019-08-01",
+      "fecha_conclusion": "2022-12-13",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Juntos Haremos Historia en Puebla (MORENA-PT-PVEM)",
+      "bando_solemne_decreto": "Bando Solemne LX Legislatura / Cómputo INE-IEEP",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / IEEP",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "5db4cedb758e30c51ab1a8b7af28b4b699327a2744433f1aadefcf1d4dc09f6a",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2022_cespedes",
+      "nombre_completo": "Sergio Salomón Céspedes Peregrina",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Sustituto (Designación del Congreso)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2022-12-15",
+      "fecha_conclusion": "2024-12-13",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Movimiento Regeneración Nacional",
+      "bando_solemne_decreto": "Decreto LXI Legislatura del Congreso del Estado de Puebla",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP Tomo DLXXII No. 12",
+        "fuente_url": "https://periodicooficial.puebla.gob.mx/",
+        "sha256_evidencia": "0ac4ee4200629bf748f7de0c5b02266ba17339ed27ab3f86cae8fffdf091f49a",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      }
+    },
+    {
+      "id": "ejec_21_2024_armenta",
+      "nombre_completo": "Alejandro Armenta Mier",
+      "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
+      "tipo_mandato": "Constitucional (Elección Popular)",
+      "entidad": "Puebla",
+      "entidad_cve": "21",
+      "fecha_inicio": "2024-12-14",
+      "fecha_conclusion": "2030-12-13",
+      "partido": "MORENA",
+      "partido_nombre_completo": "Sigamos Haciendo Historia en Puebla (MORENA-PT-PVEM-PANAL-FXM)",
+      "bando_solemne_decreto": "Bando Solemne LXII Legislatura / Cómputo IEEP / TEPJF",
+      "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 / Casa Aguayo, El Alto, Puebla, Pue.",
+      "metadata": {
+        "fuente_nombre": "POEP / IEEP",
+        "fuente_url": "https://www.ieepuebla.org.mx/",
+        "sha256_evidencia": "d660eb444018612bd8e66ff4a1658a7f5e683260e1c2f89584d55245f50b9c83",
+        "fecha_extraccion": "2026-10-14 00:36:08",
+        "entidad_tipo": "Poder Ejecutivo Local"
+      },
+      "ultimo_grado_estudios": "Doctorado",
+      "preparacion_academica": "Administración Pública",
+      "alma_mater": "BUAP / INAP",
+      "escolaridad_detalle": [
         {
-            "id": "ejec_21_1993_bartlett",
-            "nombre_completo": "Manuel Bartlett Díaz",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "1993-02-01",
-            "fecha_conclusion": "1999-01-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LII Legislatura",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "Periódico Oficial del Estado de Puebla (POEP)",
-                "fuente_url": "https:\/\/periodicooficial.puebla.gob.mx\/",
-                "sha256_evidencia": "eaff917f55758d53eff75fd073be5b1d310890175ecb4aabceed66f3c56757dd",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Doctorado en Administración Pública por el INAP."
         },
         {
-            "id": "ejec_21_1999_morales",
-            "nombre_completo": "Melquíades Morales Flores",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "1999-02-01",
-            "fecha_conclusion": "2005-01-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LIV Legislatura \/ CEE Puebla",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ Instituto Electoral del Estado de Puebla",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "f2582053aa159922f3a39ac1a4098b709b0eb388f138239661fad329aaae3843",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Maestría en Administración Pública de Calidad por el INAP."
         },
         {
-            "id": "ejec_21_2005_marin",
-            "nombre_completo": "Mario Plutarco Marín Torres",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2005-02-01",
-            "fecha_conclusion": "2011-01-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Partido Revolucionario Institucional",
-            "bando_solemne_decreto": "Bando Solemne LVI Legislatura \/ IEE Puebla",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ IEEP",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "abc58f737897cb96bdf052e66bbb19d1b86d2ae9f39d492f6fe521ab89593348",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2011_valle",
-            "nombre_completo": "Rafael Moreno Valle Rosas",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (1ª Alternancia en Puebla)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2011-02-01",
-            "fecha_conclusion": "2017-01-31",
-            "partido": "PAN",
-            "partido_nombre_completo": "Compromiso por Puebla (PAN-PRD-PANAL-Convergencia)",
-            "bando_solemne_decreto": "Bando Solemne LVIII Legislatura \/ IEEP",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ IEEP",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "4a35a63a658f1996f0c10a26a44d25135bad463863245a8b569eeee09b9dee6c",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2017_gali",
-            "nombre_completo": "José Antonio Gali Fayad",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Periodo ajustado a 1 año 10 meses)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2017-02-01",
-            "fecha_conclusion": "2018-12-13",
-            "partido": "PAN",
-            "partido_nombre_completo": "Sigamos Adelante (PAN-PT-PANAL-PSI-PCP)",
-            "bando_solemne_decreto": "Bando Solemne LIX Legislatura \/ IEEP",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ IEEP",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "45c06156f2e7357daaf7a2b6406df586516817c7ebaa31285c079cedba862ddd",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2018_alonso",
-            "nombre_completo": "Martha Erika Alonso Hidalgo",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (1ª Gobernadora de Puebla; Fallece en funciones a los 10 días)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2018-12-14",
-            "fecha_conclusion": "2018-12-24",
-            "partido": "PAN",
-            "partido_nombre_completo": "Por Puebla al Frente (PAN-PRD-MC-PSI-PCP)",
-            "bando_solemne_decreto": "Bando Solemne LX Legislatura \/ Sentencia TEPJF SUP-JRC-204\/2018",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP",
-                "fuente_url": "https:\/\/periodicooficial.puebla.gob.mx\/",
-                "sha256_evidencia": "f4128fb0aa8bfe0d070009cc83cd3402326648c31b701b23e21715a85c5e03c2",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2019_pacheco",
-            "nombre_completo": "Guillermo Pacheco Pulido",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Interino (Designación del Congreso)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2019-01-21",
-            "fecha_conclusion": "2019-07-31",
-            "partido": "PRI",
-            "partido_nombre_completo": "Designación Institucional LX Legislatura",
-            "bando_solemne_decreto": "Decreto LX Legislatura del Congreso del Estado de Puebla",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP Tomo DXXV",
-                "fuente_url": "https:\/\/periodicooficial.puebla.gob.mx\/",
-                "sha256_evidencia": "bf64a55a79ef2df1b5f2df61404b613aa80ff9d130f7d32a16986cc4bd629537",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2019_barbosa",
-            "nombre_completo": "Luis Miguel Gerónimo Barbosa Huerta",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Elección Extraordinaria 2019; Fallece en funciones en 2022)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2019-08-01",
-            "fecha_conclusion": "2022-12-13",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Juntos Haremos Historia en Puebla (MORENA-PT-PVEM)",
-            "bando_solemne_decreto": "Bando Solemne LX Legislatura \/ Cómputo INE-IEEP",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ IEEP",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "5db4cedb758e30c51ab1a8b7af28b4b699327a2744433f1aadefcf1d4dc09f6a",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2022_cespedes",
-            "nombre_completo": "Sergio Salomón Céspedes Peregrina",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Sustituto (Designación del Congreso)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2022-12-15",
-            "fecha_conclusion": "2024-12-13",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Movimiento Regeneración Nacional",
-            "bando_solemne_decreto": "Decreto LXI Legislatura del Congreso del Estado de Puebla",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP Tomo DLXXII No. 12",
-                "fuente_url": "https:\/\/periodicooficial.puebla.gob.mx\/",
-                "sha256_evidencia": "0ac4ee4200629bf748f7de0c5b02266ba17339ed27ab3f86cae8fffdf091f49a",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
-        },
-        {
-            "id": "ejec_21_2024_armenta",
-            "nombre_completo": "Alejandro Armenta Mier",
-            "cargo_oficial": "Gobernador(a) del Estado Libre y Soberano de Puebla",
-            "tipo_mandato": "Constitucional (Elección Popular)",
-            "entidad": "Puebla",
-            "entidad_cve": "21",
-            "fecha_inicio": "2024-12-14",
-            "fecha_conclusion": "2030-12-13",
-            "partido": "MORENA",
-            "partido_nombre_completo": "Sigamos Haciendo Historia en Puebla (MORENA-PT-PVEM-PANAL-FXM)",
-            "bando_solemne_decreto": "Bando Solemne LXII Legislatura \/ Cómputo IEEP \/ TEPJF",
-            "ubicacion_despacho": "Palacio de Gobierno, Av. Reforma 711 \/ Casa Aguayo, El Alto, Puebla, Pue.",
-            "metadata": {
-                "fuente_nombre": "POEP \/ IEEP",
-                "fuente_url": "https:\/\/www.ieepuebla.org.mx\/",
-                "sha256_evidencia": "d660eb444018612bd8e66ff4a1658a7f5e683260e1c2f89584d55245f50b9c83",
-                "fecha_extraccion": "2026-10-14 00:36:08",
-                "entidad_tipo": "Poder Ejecutivo Local"
-            }
+          "experiencia": "Licenciatura en Administración Pública por la Benemérita Universidad Autónoma de Puebla (BUAP)."
         }
-    ]
+      ],
+      "es_vigente": true
+    }
+  ]
 }
