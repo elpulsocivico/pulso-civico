@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "descripcion": "Cat?logo de legislaturas federales (periodos, estatus, descripci?n).",
+    "fuente_url": null,
+    "estado_verificacion": "pendiente_de_verificar_fuente",
+    "fecha_migracion": "2026-10-24",
+    "origen": "app/services/data_service.py (constante embebida migrada a JSON)"
+  },
+  "datos": {
+    "66": {
+      "numero": 66,
+      "romano": "LXVI",
+      "periodo": "2024–2027",
+      "periodo_senado": "2024–2030",
+      "estatus": "activa",
+      "estatus_label": "Actual • En Funciones",
+      "descripcion": "Periodo constitucional en funciones del Congreso de la Unión. Integrado tras las elecciones federales del 2 de junio de 2024."
+    },
+    "65": {
+      "numero": 65,
+      "romano": "LXV",
+      "periodo": "2021–2024",
+      "periodo_senado": "2018–2024",
+      "estatus": "historica",
+      "estatus_label": "Periodo Concluido",
+      "descripcion": "Periodo constitucional anterior de la Cámara de Diputados (2021–2024) y segunda mitad del periodo de Senadores."
+    },
+    "64": {
+      "numero": 64,
+      "romano": "LXIV",
+      "periodo": "2018–2021",
+      "periodo_senado": "2018–2024",
+      "estatus": "historica",
+      "estatus_label": "Periodo Concluido",
+      "descripcion": "Primera legislatura con mayoría de Morena tras la elección federal de 2018."
+    },
+    "63": {
+      "numero": 63,
+      "romano": "LXIII",
+      "periodo": "2015–2018",
+      "periodo_senado": "2012–2018",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Legislatura caracterizada por equilibrios parlamentarios del sexenio 2012-2018."
+    },
+    "62": {
+      "numero": 62,
+      "romano": "LXII",
+      "periodo": "2012–2015",
+      "periodo_senado": "2012–2018",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Legislatura del Pacto por México."
+    },
+    "61": {
+      "numero": 61,
+      "romano": "LXI",
+      "periodo": "2009–2012",
+      "periodo_senado": "2006–2012",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Periodo parlamentario federal 2009–2012."
+    },
+    "60": {
+      "numero": 60,
+      "romano": "LX",
+      "periodo": "2006–2009",
+      "periodo_senado": "2006–2012",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Periodo legislativo marcado por reformas estructurales al régimen de pensiones (ISSSTE), reforma electoral de 2007-2008 y debates en materia de seguridad pública."
+    },
+    "59": {
+      "numero": 59,
+      "romano": "LIX",
+      "periodo": "2003–2006",
+      "periodo_senado": "2000–2006",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Segunda mitad del sexenio de la alternancia 2000-2006 con amplia pluralidad parlamentaria y equilibrio de poderes entre Legislativo y Ejecutivo."
+    },
+    "58": {
+      "numero": 58,
+      "romano": "LVIII",
+      "periodo": "2000–2003",
+      "periodo_senado": "2000–2006",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Primera legislatura tras la alternancia presidencial del año 2000, caracterizada por consensos multipartidistas y leyes de transparencia y acceso a la información pública."
+    },
+    "57": {
+      "numero": 57,
+      "romano": "LVII",
+      "periodo": "1997–2000",
+      "periodo_senado": "1997–2000",
+      "estatus": "historica",
+      "estatus_label": "Periodo Histórico",
+      "descripcion": "Legislatura histórica donde por primera vez en la época moderna el partido gobernante perdió la mayoría absoluta en San Lázaro, marcando el inicio de la pluralidad."
+    }
+  }
+}

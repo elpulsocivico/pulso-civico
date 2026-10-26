@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "descripcion": "Fichas curriculares de alcaldes con datos comprobados, por slug.",
+    "fuente_url": null,
+    "estado_verificacion": "pendiente_de_verificar_fuente",
+    "fecha_migracion": "2026-10-24",
+    "origen": "app/services/data_service.py (constante embebida migrada a JSON)"
+  },
+  "datos": {
+    "miriam-elizabeth-cano-nunez": {
+      "nombre_oficial": "Miriam Elizabeth Cano Núñez",
+      "foto_url": "/photos/miriam-elizabeth-cano-nunez.jpg",
+      "grado": "Licenciatura",
+      "disciplina": "Informática",
+      "institucion": "Instituto Tecnológico de Tijuana (ITT)",
+      "cedula": "12737398",
+      "codigo": "licenciatura",
+      "redes_sociales": [
+        {
+          "label": "Facebook Oficial",
+          "url": "https://www.facebook.com/MiriamCanoBC",
+          "icono": "facebook",
+          "color": "#1877F2"
+        },
+        {
+          "label": "Instagram Oficial",
+          "url": "https://www.instagram.com/miriamcanosq",
+          "icono": "instagram",
+          "color": "#E4405F"
+        }
+      ],
+      "linea_tiempo": [
+        {
+          "experiencia": "Presidenta Municipal Constitucional de San Quintín, Baja California",
+          "periodo": "2024–2027",
+          "partido": "Morena",
+          "partido_color": "#8B1C3F",
+          "es_cargo_actual": true,
+          "es_reciente": true
+        },
+        {
+          "experiencia": "Secretaria de Inclusión Social e Igualdad de Género (SISIG) del Gobierno del Estado de Baja California",
+          "periodo": "2021–2024",
+          "partido": "Morena",
+          "partido_color": "#8B1C3F",
+          "es_cargo_actual": false,
+          "es_reciente": false
+        },
+        {
+          "experiencia": "Diputada Local en la XXIII Legislatura del Congreso del Estado de Baja California (Distrito XVII)",
+          "periodo": "2019–2021",
+          "partido": "Morena",
+          "partido_color": "#8B1C3F",
+          "es_cargo_actual": false,
+          "es_reciente": false
+        }
+      ],
+      "escolaridad_items": [
+        {
+          "experiencia": "Licenciatura en Informática — Instituto Tecnológico de Tijuana (Cédula Profesional Federal: 12737398)",
+          "estudio": "Licenciatura en Informática",
+          "institucion": "Instituto Tecnológico de Tijuana (ITT)",
+          "cedula": "12737398"
+        }
+      ]
+    }
+  }
+}
