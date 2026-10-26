@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     APP_NAME: str = "El Pulso de la Política"
     APP_SHORT_NAME: str = "El Pulso"
     APP_TAGLINE: str = "Radiografía ciudadana de Gobernadores, Alcaldes, Diputados y Senadores"
+    APP_URL: str = "https://elpulso.mx"
+    LEGISLATURA_ACTUAL: int = 66
     APP_ENV: str = "development"
     DEBUG: bool = True
     PORT: int = 8000
@@ -28,6 +30,7 @@ class Settings(BaseSettings):
     # Candados de protección de recursos y API
     ENABLE_API_DOCS: bool = False  # Oculta /docs y /openapi.json en producción salvo activación explícita
     API_RATE_LIMIT_PER_MINUTE: int = 60  # Máximo de consultas por minuto por IP en rutas /api
+    TRUSTED_PROXIES: list[str] = ["127.0.0.1", "::1"]  # Proxies confiables autorizados para X-Forwarded-For
     ALLOWED_ORIGINS: list[str] = [
         "http://localhost:8000",
         "http://127.0.0.1:8000",
