@@ -6,6 +6,7 @@ y formateo de nombres ciudadanos a partir de fuentes institucionales.
 from datetime import date
 from typing import Any, Dict, List, Optional
 
+from app.core.config import settings
 from app.services.party_helpers import (
     detect_party_from_text,
     get_party_color,
@@ -174,13 +175,13 @@ def procesar_trayectoria_y_estudios(
     # Incorporar el cargo parlamentario actual a la línea de tiempo
     camara = pol.get("camara", "Diputados")
     es_senador = (camara == "Senadores")
-    leg_num = int(pol.get("legislatura") or 66)
+    leg_num = int(pol.get("legislatura") or settings.LEGISLATURA_ACTUAL)
 
     leg_romano = str(leg_num)
     if legislaturas_catalog and leg_num in legislaturas_catalog:
         leg_romano = legislaturas_catalog[leg_num].get("romano", str(leg_num))
 
-    ano_inicio = 2024 if leg_num == 66 else (2021 if leg_num == 65 else 2018)
+    ano_inicio = 2024 if leg_num == settings.LEGISLATURA_ACTUAL else (2021 if leg_num == 65 else 2018)
     ano_fin = ano_inicio + 3
 
     entidad = pol.get("entidad", "México")
@@ -200,7 +201,7 @@ def procesar_trayectoria_y_estudios(
         desc_cargo += f" ({distrito})"
     desc_cargo += f" — {leg_romano} Legislatura del Congreso de la Unión."
 
-    es_actual = (leg_num == 66)
+    es_actual = (leg_num == settings.LEGISLATURA_ACTUAL)
     cargo_actual = {
         "experiencia": desc_cargo,
         "del_ano": str(ano_inicio),
