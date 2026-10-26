@@ -37,7 +37,7 @@ class ExplorerService:
         slugs_vistos = set()
 
         # 1. Base Federal: LXVI Legislatura (en funciones)
-        pols_66 = ds.get_politicos(66)
+        pols_66 = ds.get_politicos(settings.LEGISLATURA_ACTUAL)
         for p in pols_66:
             slug = p.get("slug") or slugify(p.get("nombre_completo", ""))
             if not slug or slug in slugs_vistos:
@@ -100,8 +100,8 @@ class ExplorerService:
                 licencia_badge = "bg-success-subtle text-success border border-success-subtle"
 
             mandatos = ds.mandatos_historicos.get(slug, [])
-            legs = {int(m.get("legislatura") or 0) for m in mandatos} | {int(p.get("legislatura") or 66)}
-            es_reelecto = (66 in legs and 65 in legs)
+            legs = {int(m.get("legislatura") or 0) for m in mandatos} | {int(p.get("legislatura") or settings.LEGISLATURA_ACTUAL)}
+            es_reelecto = (settings.LEGISLATURA_ACTUAL in legs and (settings.LEGISLATURA_ACTUAL - 1) in legs)
             reeleccion_texto = "Reelecto (LXV ➔ LXVI)" if es_reelecto else "Primer Periodo"
 
             asist_kpi = p.get("asistencia_kpi") or {}
@@ -176,7 +176,7 @@ class ExplorerService:
                 "preside_comision": preside_comision,
                 "presidencias_str": presidencias_str,
                 "periodo": "2024–2030" if es_senador else "2024–2027",
-                "legislatura": 66,
+                "legislatura": settings.LEGISLATURA_ACTUAL,
                 "es_actual": True,
                 "url": f"/politicos/{slug}",
                 "fuente_url": f"http://sil.gobernacion.gob.mx/Librerias/RptDetalleLegislador.php?SID=&Clave={ref_sil}" if ref_sil else ""
@@ -503,7 +503,7 @@ class ExplorerService:
                 if not it.get("es_actual"):
                     continue
             elif periodo == "lxvi":
-                if it.get("legislatura") != 66:
+                if it.get("legislatura") != settings.LEGISLATURA_ACTUAL:
                     continue
             elif periodo == "2024_2027":
                 if "2024?2027" not in str(it.get("periodo", "")) and "2024-2027" not in str(it.get("periodo", "")):

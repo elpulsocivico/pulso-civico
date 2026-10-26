@@ -24,7 +24,7 @@ class IntegrityService:
     """
 
     def auditar_votaciones_lxvi(self) -> Dict[str, Any]:
-        votaciones = data_service.get_votaciones(legislatura=66)
+        votaciones = data_service.get_votaciones(legislatura=settings.LEGISLATURA_ACTUAL)
         anomalias: List[Dict[str, Any]] = []
         mapeo_bancada = {
             "favor": "a_favor",
@@ -95,14 +95,14 @@ class IntegrityService:
                 })
 
         return {
-            "legislatura_auditada": 66,
+            "legislatura_auditada": settings.LEGISLATURA_ACTUAL,
             "total_votaciones": len(votaciones),
             "anomalias_detectadas": len(anomalias),
             "anomalias": anomalias
         }
 
     def auditar_asistencias_y_suplencias_lxvi(self) -> Dict[str, Any]:
-        pols_66 = data_service.get_politicos(66)
+        pols_66 = data_service.get_politicos(settings.LEGISLATURA_ACTUAL)
         anomalias_asist: List[Dict[str, Any]] = []
         colisiones_suplencia: List[Dict[str, Any]] = []
 
@@ -136,13 +136,13 @@ class IntegrityService:
 
         # Verificar que ninguna legislatura histórica (57-65) exponga asistencias
         fugas_historicas = 0
-        for leg_num in range(57, 66):
+        for leg_num in range(57, settings.LEGISLATURA_ACTUAL):
             for p in data_service.get_politicos(leg_num):
                 if p.get("asistencia_kpi") is not None or p.get("iniciativas"):
                     fugas_historicas += 1
 
         return {
-            "legislatura_activa": 66,
+            "legislatura_activa": settings.LEGISLATURA_ACTUAL,
             "total_legisladores_lxvi": len(pols_66),
             "anomalias_aritmetica_asistencia": len(anomalias_asist),
             "fugas_en_legislaturas_historicas": fugas_historicas,

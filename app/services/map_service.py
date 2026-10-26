@@ -22,7 +22,7 @@ class MapService:
         self._capas_mapa_cache: Optional[Dict[str, Any]] = None
         self._resumen_360_cache: Optional[Dict[str, Dict[str, Any]]] = None
 
-    def get_estados_data(self, ds, legislatura: int = 66) -> Dict[str, Dict[str, Any]]:
+    def get_estados_data(self, ds, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Dict[str, Any]]:
         """Calcula representación exacta por estado para la legislatura especificada."""
         estados = {slug: dict(info) for slug, info in ds.estados_catalog.items()}
         politicos_leg = ds.get_politicos(legislatura)
@@ -56,7 +56,7 @@ class MapService:
 
         return estados
 
-    def get_mapa_capas(self, ds, legislatura: int = 66) -> Dict[str, Any]:
+    def get_mapa_capas(self, ds, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Any]:
         """
         Retorna las 4 capas de poder político en México estructuradas para el mapa interactivo:
         1. 'gobernadores': Titulares del Poder Ejecutivo Estatal (32 mandatarios)
@@ -64,7 +64,7 @@ class MapService:
         3. 'congresos_locales': Mayoría parlamentaria en las 32 legislaturas de los estados
         4. 'federal': Senadores y Diputados Federales en funciones (Congreso de la Unión)
         """
-        if self._capas_mapa_cache and legislatura == 66:
+        if self._capas_mapa_cache and legislatura == settings.LEGISLATURA_ACTUAL:
             return self._capas_mapa_cache
 
         estados_cat = ds.estados_catalog
@@ -252,7 +252,7 @@ class MapService:
         fed_estados_raw = self.get_estados_data(ds, legislatura)
         fed_estados = {}
         fed_parties_lead: Dict[str, int] = {}
-        meta_leg = ds.LEGISLATURAS_CATALOG.get(legislatura, ds.LEGISLATURAS_CATALOG.get(66, {}))
+        meta_leg = ds.LEGISLATURAS_CATALOG.get(legislatura, ds.LEGISLATURAS_CATALOG.get(settings.LEGISLATURA_ACTUAL, {}))
         for slug, est in fed_estados_raw.items():
             conteo = {get_canonical_party_name(k): v for k, v in est.get("conteo_partidos", {}).items()}
             sorted_conteo = dict(sorted(conteo.items(), key=lambda x: x[1], reverse=True)) if conteo else {"Sin Dato": 0}
@@ -272,7 +272,7 @@ class MapService:
                 "subtitulo_card": f"{total_reps} representantes federales",
                 "mayoria_label": f"{top_c} de {total_reps} curules federales",
                 "conteo_partidos": sorted_conteo,
-                "boton_url": f"/estados/{slug}" + (f"?leg={legislatura}" if legislatura != 66 else ""),
+                "boton_url": f"/estados/{slug}" + (f"?leg={legislatura}" if legislatura != settings.LEGISLATURA_ACTUAL else ""),
                 "boton_text": f"Ver los {total_reps} legisladores"
             }
 
@@ -310,17 +310,17 @@ class MapService:
             }
         }
 
-        if legislatura == 66:
+        if legislatura == settings.LEGISLATURA_ACTUAL:
             self._capas_mapa_cache = capas
 
         return capas
 
-    def get_resumen_360_estados(self, ds, legislatura: int = 66) -> Dict[str, Dict[str, Any]]:
+    def get_resumen_360_estados(self, ds, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Dict[str, Any]]:
         """
         Genera una radiografía analítica integral de cada una de las 32 entidades federativas
         cruzando las 4 capas de representación y el índice universal.
         """
-        if self._resumen_360_cache is not None and legislatura == 66:
+        if self._resumen_360_cache is not None and legislatura == settings.LEGISLATURA_ACTUAL:
             return self._resumen_360_cache
 
         capas = self.get_mapa_capas(ds, legislatura)
@@ -418,7 +418,7 @@ class MapService:
                 "federal_url": f"/estados/{slug}"
             }
 
-        if legislatura == 66:
+        if legislatura == settings.LEGISLATURA_ACTUAL:
             self._resumen_360_cache = resumen
 
         return resumen

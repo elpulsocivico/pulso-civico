@@ -171,7 +171,7 @@ class DataService:
                 with open(vf, "rb") as f:
                     raw = orjson.loads(f.read())
                 for v in raw.get("votaciones", []):
-                    if int(v.get("legislatura") or 66) == 66:
+                    if int(v.get("legislatura") or settings.LEGISLATURA_ACTUAL) == settings.LEGISLATURA_ACTUAL:
                         self.votaciones.append(v)
             except Exception:
                 continue
@@ -323,8 +323,8 @@ class DataService:
                         leg["perfil_academico"] = education_service.clasificar_politico(leg)
 
                         # Cruzar asistencia real EXCLUSIVAMENTE para la LXVI Legislatura (actual)
-                        asist_info = self.asistencias_nominales.get(slug) if leg_num == 66 else None
-                        if asist_info and leg_num == 66:
+                        asist_info = self.asistencias_nominales.get(slug) if leg_num == settings.LEGISLATURA_ACTUAL else None
+                        if asist_info and leg_num == settings.LEGISLATURA_ACTUAL:
                             pct = float(asist_info.get("porcentaje", 0))
                             leg["asistencia_kpi"] = {
                                 "porcentaje": pct,
@@ -365,7 +365,7 @@ class DataService:
                         self.mandatos_historicos.setdefault(slug, []).append(mandato)
 
                         # Enriquecer perfil maestro unificado
-                        if slug not in self.politicos_master or leg_num == 66:
+                        if slug not in self.politicos_master or leg_num == settings.LEGISLATURA_ACTUAL:
                             self.politicos_master[slug] = dict(leg)
 
                         # Indexar comisiones por legislatura y maestro global
@@ -485,7 +485,7 @@ class DataService:
     def get_all_politicos(self) -> List[Dict[str, Any]]:
         return list(self.politicos_master.values())
 
-    def get_politicos(self, legislatura: int = 66) -> List[Dict[str, Any]]:
+    def get_politicos(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> List[Dict[str, Any]]:
         return self.politicos_by_leg.get(legislatura, [])
 
     def get_directorio_politicos(self, legislatura: Optional[int] = None) -> List[Dict[str, Any]]:
@@ -506,7 +506,7 @@ class DataService:
                         for item in loaded_cache:
                             if not item.get("entidad_slug"):
                                 item["entidad_slug"] = normalizar_entidad(item.get("entidad") or "")
-                            if int(item.get("legislatura") or 0) != 66:
+                            if int(item.get("legislatura") or 0) != settings.LEGISLATURA_ACTUAL:
                                 item["asistencia_kpi"] = None
                             item["iniciativas"] = []
                             if not item.get("foto_url"):
@@ -542,7 +542,7 @@ class DataService:
                 continue
 
             camara_actual = p.get("camara", "Diputados")
-            leg_num = int(p.get("legislatura") or 66)
+            leg_num = int(p.get("legislatura") or settings.LEGISLATURA_ACTUAL)
             mandatos = self.mandatos_historicos.get(slug, [])
             legs_disponibles = sorted(list({m["legislatura"] for m in mandatos} | {leg_num}), reverse=True)
             if not legs_disponibles:
@@ -687,7 +687,7 @@ class DataService:
                     "badge_class": "bg-danger-subtle text-danger border border-danger-subtle"
                 })
 
-            es_activo = (66 in legs_disponibles)
+            es_activo = (settings.LEGISLATURA_ACTUAL in legs_disponibles)
             leg_romano = self.LEGISLATURAS_CATALOG.get(leg_num, {}).get("romano", str(leg_num))
             cargo_tit = "Senador de la República" if camara_actual == "Senadores" else "Diputado Federal"
             cargo_resumen = f"{cargo_tit} en funciones • {leg_romano} Legislatura" if es_activo else f"Ex-{cargo_tit} • {leg_romano} Legislatura"
@@ -841,7 +841,7 @@ class DataService:
                             "escolaridad_detalle": gob.get("escolaridad_detalle"),
                             "analisis_academico": analisis,
                             "categoria_grupo": education_service.determinar_categoria_agrupada(analisis.get("grado_maximo", "sin_registro")),
-                            "legislaturas_lista": [66]
+                            "legislaturas_lista": [settings.LEGISLATURA_ACTUAL]
                         }
                         grado_lbl = analisis.get("grado_info", {}).get("label", "")
                         tit = analisis.get("titulo_destacado", "")
@@ -928,7 +928,7 @@ class DataService:
         nivel = it.get("nivel") or "Estatal"
 
         mandatos = [{
-            "legislatura": 66 if es_actual else 0,
+            "legislatura": settings.LEGISLATURA_ACTUAL if es_actual else 0,
             "romano": "Constitucional",
             "periodo": periodo,
             "camara": cargo,
@@ -978,7 +978,7 @@ class DataService:
             "foto_oficial_url": it.get("foto_oficial_url") or foto,
             "referencia_sil": None,
             "periodo": periodo,
-            "legislatura": 66 if es_actual else 0,
+            "legislatura": settings.LEGISLATURA_ACTUAL if es_actual else 0,
             "es_actual": es_actual,
             "tiene_licencia": bool(it.get("tiene_licencia")),
             "principio_eleccion": it.get("principio_eleccion") or "Elección Popular Directa",
@@ -989,7 +989,7 @@ class DataService:
             "escolaridad_items": escolaridad_items,
             "linea_tiempo": linea_tiempo,
             "mandatos_historicos": mandatos,
-            "legislaturas_disponibles": [66] if es_actual else [],
+            "legislaturas_disponibles": [settings.LEGISLATURA_ACTUAL] if es_actual else [],
             "asistencia_kpi": None,
             "iniciativas": [],
             "comisiones": [],
@@ -1126,7 +1126,7 @@ class DataService:
 
         # Si no se pidió una legislatura histórica específica y el registro federal es histórico (< 66) o nulo,
         # verificar si la persona ejerce actualmente una Gubernatura o Alcaldía activa (2024-2027 / 2024-2030)
-        if legislatura is None and (not base_p or int(base_p.get("legislatura") or 0) < 66):
+        if legislatura is None and (not base_p or int(base_p.get("legislatura") or 0) < settings.LEGISLATURA_ACTUAL):
             self.get_explorador_catalogo()
             cat_idx = getattr(self, "_explorador_catalogo_index", {})
             cat_it = cat_idx.get(norm_slug) or cat_idx.get(slug)
@@ -1171,10 +1171,10 @@ class DataService:
         # Trabajar sobre copia superficial para no mutar el diccionario compartido ni crear ciclos de referencias
         p = dict(base_p)
         real_slug = p.get("slug") or norm_slug
-        p_leg = int(legislatura if (legislatura and legislatura in self.slug_index_by_leg) else (p.get("legislatura") or 66))
+        p_leg = int(legislatura if (legislatura and legislatura in self.slug_index_by_leg) else (p.get("legislatura") or settings.LEGISLATURA_ACTUAL))
 
         # Aislar estrictamente asistencias e iniciativas: solo LXVI muestra asistencia; histórico ninguna
-        if p_leg != 66:
+        if p_leg != settings.LEGISLATURA_ACTUAL:
             p["asistencia_kpi"] = None
         p["iniciativas"] = []
 
@@ -1238,15 +1238,15 @@ class DataService:
 
         return p
 
-    def get_diputados(self, legislatura: int = 66) -> List[Dict[str, Any]]:
+    def get_diputados(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> List[Dict[str, Any]]:
         return [p for p in self.get_politicos(legislatura) if p.get("camara") == "Diputados"]
 
-    def get_senadores(self, legislatura: int = 66) -> List[Dict[str, Any]]:
+    def get_senadores(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> List[Dict[str, Any]]:
         return [p for p in self.get_politicos(legislatura) if p.get("camara") == "Senadores"]
 
-    def get_votaciones(self, tema: Optional[str] = None, resultado: Optional[str] = None, legislatura: int = 66) -> List[Dict[str, Any]]:
+    def get_votaciones(self, tema: Optional[str] = None, resultado: Optional[str] = None, legislatura: int = settings.LEGISLATURA_ACTUAL) -> List[Dict[str, Any]]:
         # Exclusivamente disponible para la LXVI Legislatura (actual); sin releer archivos en cada request
-        if legislatura != 66:
+        if legislatura != settings.LEGISLATURA_ACTUAL:
             return []
         res = self.votaciones
         if tema:
@@ -1255,13 +1255,13 @@ class DataService:
             res = [v for v in res if (v.get("resultado") or "").lower() == resultado.lower()]
         return res
 
-    def get_comisiones(self, legislatura: Optional[int] = 66) -> Dict[str, Dict[str, Any]]:
+    def get_comisiones(self, legislatura: Optional[int] = settings.LEGISLATURA_ACTUAL) -> Dict[str, Dict[str, Any]]:
         if legislatura == 0:
             return self.comisiones_master
-        target_leg = 66 if legislatura is None else legislatura
+        target_leg = settings.LEGISLATURA_ACTUAL if legislatura is None else legislatura
         if target_leg in self.comisiones_by_leg:
             return self.comisiones_by_leg[target_leg]
-        return self.comisiones_by_leg.get(66, self.comisiones_master)
+        return self.comisiones_by_leg.get(settings.LEGISLATURA_ACTUAL, self.comisiones_master)
 
     def get_comision_by_slug(self, slug: str, legislatura: Optional[int] = None) -> Optional[Dict[str, Any]]:
         target_norm = slugify(slug)
@@ -1282,9 +1282,9 @@ class DataService:
             active_leg = 0
         else:
             # Si no se especificó legislatura, priorizar la actual (66) si existe
-            if 66 in self.comisiones_by_leg and target_norm in self.comisiones_by_leg[66]:
-                raw_com = self.comisiones_by_leg[66].get(target_norm)
-                active_leg = 66
+            if settings.LEGISLATURA_ACTUAL in self.comisiones_by_leg and target_norm in self.comisiones_by_leg[settings.LEGISLATURA_ACTUAL]:
+                raw_com = self.comisiones_by_leg[settings.LEGISLATURA_ACTUAL].get(target_norm)
+                active_leg = settings.LEGISLATURA_ACTUAL
             elif legs_disponibles:
                 # Tomar la legislatura más reciente en la que estuvo activa
                 active_leg = legs_disponibles[0]
@@ -1378,19 +1378,19 @@ class DataService:
             "resto_integrantes": resto,
             "partidos_conteo": partidos_conteo,
             "partidos_stats": partidos_stats,
-            "legislatura": active_leg if active_leg is not None else 66,
-            "meta_legislatura": self.LEGISLATURAS_CATALOG.get(active_leg if active_leg else 66, {"romano": "Histórico", "periodo": "1997–2027"}),
+            "legislatura": active_leg if active_leg is not None else settings.LEGISLATURA_ACTUAL,
+            "meta_legislatura": self.LEGISLATURAS_CATALOG.get(active_leg if active_leg else settings.LEGISLATURA_ACTUAL, {"romano": "Histórico", "periodo": "1997–2027"}),
             "legislaturas_disponibles": legs_disponibles,
         }
 
-    def get_by_estado(self, estado_slug: str, legislatura: int = 66) -> List[Dict[str, Any]]:
+    def get_by_estado(self, estado_slug: str, legislatura: int = settings.LEGISLATURA_ACTUAL) -> List[Dict[str, Any]]:
         target_norm = normalizar_entidad(estado_slug)
         return [
             p for p in self.get_politicos(legislatura)
             if p.get("entidad_slug") == target_norm
         ]
 
-    def get_estado_by_slug(self, slug: str, legislatura: int = 66) -> Optional[Dict[str, Any]]:
+    def get_estado_by_slug(self, slug: str, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Optional[Dict[str, Any]]:
         target_norm = normalizar_entidad(slug)
         estados = self.get_estados_data(legislatura)
         estado = estados.get(target_norm)
@@ -1405,16 +1405,16 @@ class DataService:
         estado_dict["escolaridad_stats"] = education_service.generar_metricas(pols)
         return estado_dict
 
-    def get_estados_data(self, legislatura: int = 66) -> Dict[str, Dict[str, Any]]:
+    def get_estados_data(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Dict[str, Any]]:
         return self._map_service.get_estados_data(self, legislatura)
 
-    def get_mapa_capas(self, legislatura: int = 66) -> Dict[str, Any]:
+    def get_mapa_capas(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Any]:
         return self._map_service.get_mapa_capas(self, legislatura)
 
-    def get_resumen_360_estados(self, legislatura: int = 66) -> Dict[str, Dict[str, Any]]:
+    def get_resumen_360_estados(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Dict[str, Any]]:
         return self._map_service.get_resumen_360_estados(self, legislatura)
 
-    def get_estadisticas_escolaridad(self, legislatura: int = 66) -> Dict[str, Any]:
+    def get_estadisticas_escolaridad(self, legislatura: int = settings.LEGISLATURA_ACTUAL) -> Dict[str, Any]:
         pols = self.get_politicos(legislatura)
         return education_service.generar_metricas(pols)
 
@@ -1456,7 +1456,7 @@ class DataService:
                     if len(resultados) >= limite:
                         break
         else:
-            for p in self.get_politicos(legislatura or 66):
+            for p in self.get_politicos(legislatura or settings.LEGISLATURA_ACTUAL):
                 nombre_slug = slugify(p.get("nombre_completo", ""))
                 partido_slug = slugify(p.get("partido", ""))
                 entidad_slug = p.get("entidad_slug", "")
