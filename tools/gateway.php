@@ -2297,6 +2297,29 @@ switch ($action) {
         $response = array_merge($response, $res);
         break;
 
+    case 'list':
+    case 'scrape:list':
+        $response['ok'] = true;
+        $response['scrapers_disponibles'] = [
+            'Federal' => [
+                'sil'         => 'Sistema de Información Legislativa (Diputados y Senadores)',
+                'votaciones'  => 'Votaciones nominales del pleno (SITL)',
+                'asistencias' => 'Asistencias por sesión de diputados federales',
+            ],
+            'Congresos Estatales' => [
+                'aguascalientes (ags)', 'bajacalifornia (bc)', 'bajacaliforniasur (bcs)', 'campeche (cam)',
+                'chiapas (chis)', 'chihuahua', 'coahuila', 'colima', 'cdmx', 'durango', 'edomex',
+                'guanajuato', 'guerrero', 'hidalgo', 'jalisco (jal)', 'michoacan', 'morelos', 'nayarit',
+                'nuevoleon', 'oaxaca', 'puebla', 'queretaro', 'quintanaroo (qroo)', 'sanluispotosi (slp)',
+                'sinaloa', 'sonora', 'tabasco', 'tamaulipas', 'tlaxcala', 'veracruz', 'yucatan (yuc)', 'zacatecas'
+            ],
+            'Parsers Auxiliares (Python)' => [
+                'tools/core/coahuila_parser.py' => 'Parser en Python para actas e historial de Coahuila',
+                'tools/core/nl_pdf_parser.py'   => 'Extractor en Python para gacetas en PDF de Nuevo León'
+            ]
+        ];
+        break;
+
     case 'help':
     default:
         $response['message'] = "CLI Gateway Pulso Civico";
@@ -2308,6 +2331,7 @@ switch ($action) {
             'health'                 => 'Chequeo completo de salud del proyecto (sintaxis y carpetas)',
             'search <term> [dir]'    => 'Búsqueda de código interna',
             'scrape <fuente> [json]' => 'Ejecuta ingesta de datos por fuente (ej: sil)',
+            'list / scrape:list'     => 'Lista todos los scrapers disponibles por entidad y nivel',
         ];
         break;
 }
