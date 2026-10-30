@@ -1,5 +1,7 @@
 # Cómo crear un scraper (nueva legislatura o fuente)
 
+> 📖 **Manual Completo de la Suite de Scrapers:** Consulta **[`scrapers/README.md`](../scrapers/README.md)** para ver la guía detallada de uso del motor CLI (`bin/console.php` y `tools/gateway.php`), el listado de los 32 congresos estatales, lineamientos éticos (`robots.txt` y `rate_limit_ms`) y contratos de salida con hash SHA-256.
+
 ## 1. Antes de programar
 1. Revisa [FUENTES.md](FUENTES.md) y abre un Issue **"Nueva fuente"** para reservarla.
 2. Revisa `robots.txt` del portal.
